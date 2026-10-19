@@ -207,8 +207,8 @@ private fun Done(
             if (trace.isNotBlank()) {
                 Spacer(Modifier.height(10.dp))
                 Text(
-                    "Planned by an agent on Amazon Nova · $trace",
-                    style = CookType.label, color = c.textMuted, maxLines = 2, overflow = TextOverflow.Ellipsis,
+                    "Planned by an agent on Amazon Nova",
+                    style = CookType.label, color = c.textMuted, maxLines = 1, overflow = TextOverflow.Ellipsis,
                     modifier = side.padding(horizontal = 4.dp),
                 )
             }

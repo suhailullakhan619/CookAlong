@@ -271,8 +271,8 @@ private fun Summary(s: ScanUi.Results, usable: Set<String>, onRetry: () -> Unit,
     val almost = s.matches.count { it.tier == MatchTier.ALMOST }
     val headline = when {
         ready > 0 -> "You can cook ${count(ready, "recipe")} right now"
-        almost > 0 -> "Nothing's quite ready, but ${count(almost, "recipe")} ${if (almost == 1) "is" else "are"} close"
-        else -> "Nothing fits yet. These are the closest"
+        almost > 0 -> "${count(almost, "recipe")} almost ready"
+        else -> "Nothing fits yet. Closest matches"
     }
     val staples = s.items.filter { it.name !in usable }
     Row(verticalAlignment = Alignment.Top) {
