@@ -1,0 +1,26 @@
+{
+  "theme": "dark",
+  "companionBaseUrl": "https://cookalong-tv.github.io/",
+  "recipesApiUrl": "https://o4cyhys2fpdkczhn5n2ftvp7be0izfyg.lambda-url.ap-south-1.on.aws/",
+  "scanApiUrl": "https://o4cyhys2fpdkczhn5n2ftvp7be0izfyg.lambda-url.ap-south-1.on.aws/",
+  "scanPageUrl": "https://cookalong-tv.github.io/scan.html",
+  "alexaApiUrl": "https://o4cyhys2fpdkczhn5n2ftvp7be0izfyg.lambda-url.ap-south-1.on.aws/",
+  "defaultCustomTimerMinutes": 5,
+  "maxConcurrentTimers": 4,
+  "minServings": 1,
+  "maxServings": 12,
+  "rows": [
+    { "title": "All recipes" },
+    { "title": "Quick meals · 20 min or less", "maxTotalMinutes": 20 },
+    { "title": "New from the recipe library", "anySources": ["online"] },
+    { "title": "Indian favourites", "anyCategories": ["indian", "south-indian", "north-indian"] },
+    { "title": "World kitchen", "anyCategories": ["italian", "mexican", "chinese", "thai", "japanese", "korean", "middle-eastern", "mediterranean", "french", "spanish", "greek", "american"] },
+    { "title": "Soups & salads", "anyCategories": ["soup", "salad"] },
+    { "title": "Healthy", "anyCategories": ["healthy"] },
+    { "title": "Breakfast", "anyCategories": ["breakfast"] },
+    { "title": "Vegetarian & vegan", "anyTags": ["vegetarian", "vegan"] },
+    { "title": "Snacks & salads", "anyCategories": ["snack"] },
+    { "title": "Sweet treats & drinks", "anyCategories": ["sweet"] },
+    { "title": "Gluten-free", "anyTags": ["gluten-free"] }
+  ]
+}

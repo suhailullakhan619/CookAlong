@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CookAlong shopping list</title>
+<!--
+  CookAlong phone page. Static: no backend, no account, no tracking, no third-party requests.
+  It gets its list one of two ways:
+   1. Hosted publicly (set "companionBaseUrl" in config.json; works from any network): the TV's QR link carries
+      everything in the URL fragment, #r=<recipeId>&t=<title>&s=<servings>&i=<items separated by newlines>.
+      Fragments are never sent to the web server. The dish picture comes from images/<recipeId>.png next to this file.
+   2. Served by the TV itself over Wi-Fi (fallback): the app injects window.COOKALONG_DATA at the marker below.
+  Ticks are remembered on this phone only (localStorage).
+-->
+<style>
+  :root { --bg:#FBF6EF; --card:#fff; --text:#1E1712; --muted:#4F4339; --accent:#7A4100; --line:#EDE2D3; --icon:#F1E8DC; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14110F; --card:#221C18; --text:#F5EDE3; --muted:#CDBFAF; --accent:#F2B04F; --line:#3A3029; --icon:#2E2620; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:560px; margin:0 auto; padding:16px 16px 48px; }
+  .hero { width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:16px; display:block; background:var(--icon); margin-bottom:14px; }
+  .brand { color:var(--accent); font-weight:700; letter-spacing:.02em; font-size:14px; text-transform:uppercase; }
+  h1 { font-size:26px; line-height:1.2; margin:6px 0 2px; }
+  .sub { color:var(--muted); margin:0 0 18px; }
+  ul { list-style:none; margin:0; padding:0; background:var(--card); border-radius:14px; overflow:hidden; }
+  li { border-bottom:1px solid var(--line); }
+  li:last-child { border-bottom:0; }
+  label { display:flex; gap:12px; align-items:center; padding:10px 14px; cursor:pointer; min-height:60px; }
+  input { width:22px; height:22px; accent-color:var(--accent); flex:none; }
+  .pic { flex:none; width:40px; height:40px; border-radius:10px; background:var(--icon); display:grid; place-items:center; font-size:24px; line-height:1; }
+  input:checked ~ .txt { text-decoration:line-through; color:var(--muted); }
+  input:checked ~ .pic { opacity:.45; }
+  .empty { background:var(--card); border-radius:14px; padding:18px; color:var(--muted); }
+  .note { color:var(--muted); font-size:14px; margin-top:16px; }
+  .credit { color:var(--muted); font-size:12px; margin:-8px 0 12px; }
+  button { margin-top:16px; background:transparent; color:var(--accent); border:1px solid var(--accent); border-radius:999px; padding:8px 16px; font:inherit; }
+</style>
+</head>
+<body>
+<main>
+  <img class="hero" id="hero" alt="" hidden>
+  <p class="credit" id="credit" hidden></p>
+  <div class="brand">CookAlong</div>
+  <h1 id="title">Shopping list</h1>
+  <p class="sub" id="sub"></p>
+  <ul id="list"></ul>
+  <div class="empty" id="empty" hidden>No list here yet. Open a recipe on your TV, choose the shopping list QR code and scan it.</div>
+  <button id="clear" hidden type="button">Untick all</button>
+  <p class="note">Swap ideas are suggestions only. Always check labels for allergies.</p>
+</main>
+<!--COOKALONG_DATA-->
+<script>
+(function () {
+  // Picture for an ingredient line, by keyword. First match wins, so specific words come before general ones.
+  var ICONS = [
+    [/chocolate|cocoa/, "🍫"], [/coconut/, "🥥"], [/spaghetti|pasta|noodle/, "🍝"], [/avocado/, "🥑"],
+    [/shrimp|prawn/, "🦐"], [/mango/, "🥭"], [/cucumber/, "🥒"], [/tortilla|chips/, "🌮"], [/\bice\b/, "🧊"],
+    [/garlic/, "🧄"], [/lemon|lime/, "🍋"], [/parmesan|cheese|feta|paneer/, "🧀"], [/chil|jalape/, "🌶️"],
+    [/bell pepper/, "🫑"], [/salt/, "🧂"], [/spring onion|scallion|onion/, "🧅"], [/tomato/, "🍅"],
+    [/spinach|lettuce|kale/, "🥬"], [/curry leaves|bay leaf|fenugreek|methi/, "🌿"],
+    [/stock|broth/, "🍲"], [/dal\b|lentil/, "🥣"], [/chickpea/, "🥫"], [/vegetable|pea|carrot/, "🥕"], [/bean/, "🥫"], [/egg/, "🥚"],
+    [/butter|ghee/, "🧈"], [/chicken/, "🍗"], [/potato/, "🥔"], [/banana/, "🍌"],
+    [/milk|cream|yogurt/, "🥛"], [/rice/, "🍚"], [/flour|semolina|rava/, "🌾"], [/sugar/, "🍬"],
+    [/soy|sesame/, "🥢"], [/olive/, "🫒"], [/vinegar/, "🍶"], [/water/, "💧"], [/oil/, "🫒"],
+    [/parsley|cilantro|basil|herb|mint|oregano/, "🌿"],
+    [/ginger|curry|turmeric|paprika|spice|powder|masala|cumin|cardamom|cinnamon|clove|mustard|urad/, "🥄"]
+  ];
+  function iconFor(text) {
+    var t = text.toLowerCase();
+    for (var k = 0; k < ICONS.length; k++) if (ICONS[k][0].test(t)) return ICONS[k][1];
+    return "🛒";
+  }
+
+  var data = window.COOKALONG_DATA;
+  var params = new URLSearchParams(location.hash.replace(/^#/, ""));
+  var recipeId = data ? data.r : params.get("r");
+  var title = data ? data.t : params.get("t");
+  var servings = data ? String(data.s) : params.get("s");
+  var items = (data ? data.i : (params.get("i") || "").split("\n")).map(function (s) { return s.trim(); }).filter(Boolean);
+  var key = "cookalong:" + (title || "") + ":" + (servings || "");
+  var ticked = {};
+  try { ticked = JSON.parse(localStorage.getItem(key) || "{}"); } catch (e) { ticked = {}; }
+  function save() { try { localStorage.setItem(key, JSON.stringify(ticked)); } catch (e) {} }
+
+  // Dish picture: only for well-formed ids (the fragment is untrusted input); hidden if the file is missing.
+  if (recipeId && /^[a-z0-9-]{1,80}$/.test(recipeId)) {
+    var hero = document.getElementById("hero");
+    var base = (data && data.img ? data.img : "images/") + recipeId;
+    var tries = [".jpg", ".png"]; // photos are .jpg, illustrations .png
+    hero.onload = function () { hero.hidden = false; };
+    hero.onerror = function () { if (tries.length) hero.src = base + tries.shift(); else hero.hidden = true; };
+    hero.alt = title || "";
+    hero.src = base + tries.shift();
+
+    // Photo credit (required for Creative Commons photos): injected by the TV, or credits.json when hosted.
+    var showCredit = function (text) {
+      if (!text) return;
+      var el = document.getElementById("credit");
+      el.textContent = "Photo: " + text;
+      el.hidden = false;
+    };
+    if (data) showCredit(data.credit);
+    else if (window.fetch) fetch("credits.json").then(function (r) { return r.ok ? r.json() : {}; })
+      .then(function (c) { showCredit(c[recipeId]); }).catch(function () {});
+  }
+
+  if (title) { document.getElementById("title").textContent = title; document.title = title + " · CookAlong"; }
+  if (servings) document.getElementById("sub").textContent = "For " + servings + (servings === "1" ? " serving" : " servings");
+  if (!items.length) { document.getElementById("empty").hidden = false; return; }
+
+  var list = document.getElementById("list");
+  items.forEach(function (text, i) {
+    var li = document.createElement("li");
+    var label = document.createElement("label");
+    var box = document.createElement("input");
+    box.type = "checkbox";
+    box.checked = !!ticked[i];
+    box.addEventListener("change", function () { ticked[i] = box.checked; save(); });
+    var pic = document.createElement("span");
+    pic.className = "pic";
+    pic.setAttribute("aria-hidden", "true");
+    pic.textContent = iconFor(text);
+    var span = document.createElement("span");
+    span.className = "txt";
+    span.textContent = text; // textContent, never innerHTML: the fragment is untrusted input
+    label.appendChild(box); label.appendChild(pic); label.appendChild(span);
+    li.appendChild(label); list.appendChild(li);
+  });
+  var clear = document.getElementById("clear");
+  clear.hidden = false;
+  clear.addEventListener("click", function () {
+    ticked = {}; save();
+    Array.prototype.forEach.call(list.querySelectorAll("input"), function (b) { b.checked = false; });
+  });
+})();
+</script>
+</body>
+</html>

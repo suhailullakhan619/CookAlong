@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CookAlong fridge scan</title>
+<!--
+  Opened from the QR code on the TV ("Fridge scan"): #c=<pairing code>&a=<fridge-scan API base URL>.
+  The photo is shrunk on the phone, sent once to the CookAlong API (AWS Lambda -> Amazon Nova on Amazon Bedrock),
+  and never stored - only the list of ingredients is kept, for an hour, so the TV can suggest recipes.
+-->
+<style>
+  :root { --bg:#FBF6EF; --card:#fff; --text:#1E1712; --muted:#4F4339; --accent:#7A4100; --on-accent:#fff; --line:#EDE2D3; --icon:#F1E8DC; --err:#B3360B; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14110F; --card:#221C18; --text:#F5EDE3; --muted:#CDBFAF; --accent:#F2B04F; --on-accent:#1E1408; --line:#3A3029; --icon:#2E2620; --err:#FF9B71; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:560px; margin:0 auto; padding:20px 16px 48px; }
+  .brand { color:var(--accent); font-weight:700; letter-spacing:.02em; font-size:14px; text-transform:uppercase; }
+  h1 { font-size:26px; line-height:1.2; margin:6px 0 6px; }
+  p { margin:0 0 14px; color:var(--muted); }
+  .big { display:flex; align-items:center; justify-content:center; gap:10px; width:100%; min-height:64px; border:0; border-radius:999px;
+         background:var(--accent); color:var(--on-accent); font:600 19px system-ui, sans-serif; cursor:pointer; }
+  .big[disabled] { opacity:.6; pointer-events:none; }
+  input[type=file] { display:none; }
+  .preview { width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:16px; margin:14px 0; background:var(--icon); display:block; }
+  .status { background:var(--card); border-radius:14px; padding:14px 16px; margin:14px 0; }
+  .status.err { color:var(--err); }
+  .spinner { display:inline-block; width:18px; height:18px; border:3px solid var(--line); border-top-color:var(--accent); border-radius:50%;
+             animation:spin .8s linear infinite; vertical-align:-3px; margin-right:8px; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+  ul { list-style:none; margin:0; padding:0; background:var(--card); border-radius:14px; overflow:hidden; }
+  li { display:flex; gap:12px; align-items:center; padding:10px 14px; border-bottom:1px solid var(--line); }
+  li:last-child { border-bottom:0; }
+  .pic { flex:none; width:36px; height:36px; border-radius:10px; background:var(--icon); display:grid; place-items:center; font-size:21px; }
+  .maybe { color:var(--muted); font-size:14px; margin-left:auto; }
+  .note { color:var(--muted); font-size:14px; margin-top:14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">CookAlong · Fridge scan</div>
+  <h1>What's in your fridge?</h1>
+  <p>Open your fridge or pantry, take one clear photo, and your TV will suggest recipes you can cook.</p>
+
+  <label class="big" id="shoot" for="file">📷 Take a photo</label>
+  <input type="file" id="file" accept="image/*" capture="environment">
+  <img class="preview" id="preview" alt="Your photo" hidden>
+  <div class="status" id="status" hidden></div>
+  <ul id="found" hidden></ul>
+  <p class="note">Your photo is only used to spot ingredients and isn't saved. AI can miss or mistake items, so check the list.</p>
+</main>
+<script>
+(function () {
+  var params = new URLSearchParams(location.hash.replace(/^#/, ""));
+  var code = (params.get("c") || "").toUpperCase();
+  var api = params.get("a") || "";
+  var status = document.getElementById("status");
+  var shoot = document.getElementById("shoot");
+
+  function show(html, isError) {
+    status.hidden = false;
+    status.className = "status" + (isError ? " err" : "");
+    status.innerHTML = html;
+  }
+  // Only talk to a CookAlong Lambda URL, and only with a well-formed code (the fragment is untrusted input).
+  if (!/^[ABCDEFGHJKMNPQRSTUVWXYZ23456789]{6}$/.test(code) || !/^https:\/\/[a-z0-9]+\.lambda-url\.[a-z0-9-]+\.on\.aws\/?$/.test(api)) {
+    show("This link isn't complete. On your TV, open <b>Fridge scan</b> and scan the new QR code.", true);
+    shoot.hidden = true;
+    return;
+  }
+  api = api.replace(/\/$/, "");
+
+  var ICONS = [
+    [/chocolate|cocoa/, "🍫"], [/coconut/, "🥥"], [/spaghetti|pasta|noodle/, "🍝"], [/avocado/, "🥑"], [/shrimp|prawn/, "🦐"],
+    [/mango/, "🥭"], [/cucumber/, "🥒"], [/garlic/, "🧄"], [/lemon|lime/, "🍋"], [/cheese|feta|paneer|parmesan/, "🧀"],
+    [/chil|jalape/, "🌶️"], [/pepper/, "🫑"], [/onion|scallion/, "🧅"], [/tomato/, "🍅"], [/spinach|lettuce|kale|cabbage/, "🥬"],
+    [/carrot/, "🥕"], [/\bpeas?\b|bean|lentil|chickpea/, "🫘"], [/egg/, "🥚"], [/butter|ghee/, "🧈"], [/chicken/, "🍗"],
+    [/meat|beef|pork|lamb|sausage/, "🥩"], [/fish|salmon|tuna/, "🐟"], [/potato/, "🥔"], [/banana/, "🍌"], [/apple/, "🍎"],
+    [/milk|cream|yogurt|curd/, "🥛"], [/rice/, "🍚"], [/bread/, "🍞"], [/flour/, "🌾"], [/mushroom/, "🍄"], [/corn/, "🌽"],
+    [/broccoli/, "🥦"], [/orange/, "🍊"], [/berr/, "🫐"], [/grape/, "🍇"], [/herb|cilantro|coriander|parsley|basil|mint/, "🌿"]
+  ];
+  function iconFor(t) { t = t.toLowerCase(); for (var i = 0; i < ICONS.length; i++) if (ICONS[i][0].test(t)) return ICONS[i][1]; return "🛒"; }
+
+  // Shrink to at most 1280 px on the long side as JPEG: a few hundred KB uploads fast even on mobile data.
+  function shrink(file) {
+    return new Promise(function (resolve, reject) {
+      var img = new Image();
+      img.onload = function () {
+        var scale = Math.min(1, 1280 / Math.max(img.naturalWidth, img.naturalHeight));
+        var c = document.createElement("canvas");
+        c.width = Math.round(img.naturalWidth * scale);
+        c.height = Math.round(img.naturalHeight * scale);
+        c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+        URL.revokeObjectURL(img.src);
+        resolve(c.toDataURL("image/jpeg", 0.82));
+      };
+      img.onerror = function () { reject(new Error("That file isn't a photo we can read.")); };
+      img.src = URL.createObjectURL(file);
+    });
+  }
+
+  document.getElementById("file").addEventListener("change", function (e) {
+    var file = e.target.files && e.target.files[0];
+    e.target.value = ""; // so taking the very same photo again still counts as a new choice
+    if (!file) return;
+    shoot.setAttribute("disabled", "");
+    document.getElementById("found").hidden = true;
+    show('<span class="spinner"></span>Looking at your food… this takes a few seconds.');
+    shrink(file).then(function (dataUrl) {
+      var preview = document.getElementById("preview");
+      preview.src = dataUrl;
+      preview.hidden = false;
+      return fetch(api + "/scan", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ code: code, mediaType: "image/jpeg", image: dataUrl.split(",")[1] })
+      });
+    }).then(function (r) {
+      if (r.status === 413) throw new Error("That photo is too large to send. Try again, or use a lower camera resolution.");
+      return r.json().then(function (body) { return { ok: r.ok, body: body }; }, function () { return { ok: false, body: {} }; });
+    })
+      .then(function (res) {
+        var b = res.body || {};
+        if (!res.ok || b.status !== "done") throw new Error(b.message || b.error || "Something went wrong. Please try again.");
+        var list = document.getElementById("found");
+        list.innerHTML = "";
+        (b.ingredients || []).forEach(function (it) {
+          var li = document.createElement("li");
+          var pic = document.createElement("span"); pic.className = "pic"; pic.textContent = iconFor(it.name);
+          var name = document.createElement("span"); name.textContent = it.name;
+          li.appendChild(pic); li.appendChild(name);
+          if (it.confidence !== "high") { var m = document.createElement("span"); m.className = "maybe"; m.textContent = "maybe"; li.appendChild(m); }
+          list.appendChild(li);
+        });
+        list.hidden = !(b.ingredients || []).length;
+        show((b.ingredients || []).length
+          ? "✅ Found " + b.ingredients.length + (b.ingredients.length === 1 ? " ingredient" : " ingredients") + ". <b>Look at your TV</b> for recipes you can make."
+          : "🤔 " + (b.note ? b.note.replace(/[<>&]/g, "") : "No food spotted. Try a closer, brighter photo."));
+      })
+      .catch(function (err) {
+        var m = String(err && err.message || err);
+        show("⚠️ " + (/failed to fetch|networkerror|load failed/i.test(m) ? "Couldn't reach the internet. Check your connection and try again." : m).replace(/[<>&]/g, ""), true);
+      })
+      .then(function () { shoot.removeAttribute("disabled"); shoot.textContent = "📷 Take another photo"; });
+  });
+})();
+</script>
+</body>
+</html>

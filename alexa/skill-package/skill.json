@@ -1,0 +1,82 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "name": "Cook Along",
+          "summary": "Hands-free recipe steps, timers and tips for the Cook Along Fire TV app.",
+          "description": "Cook Along turns your Fire TV into a hands-free kitchen screen. Connect it once with the code shown in the Cook Along app, then use any Echo or your Fire TV remote to move through recipe steps, run kitchen timers, hear ingredient amounts scaled for your servings, find recipes, and ask the chef what to use when you're missing something.",
+          "examplePhrases": [
+            "Alexa, open cook along",
+            "Alexa, tell cook along next step",
+            "Alexa, ask cook along what can I use instead of cream"
+          ],
+          "keywords": [
+            "recipes",
+            "cooking",
+            "fire tv",
+            "kitchen",
+            "timer"
+          ]
+        },
+        "en-US": {
+          "name": "Cook Along",
+          "summary": "Hands-free recipe steps, timers and tips for the Cook Along Fire TV app.",
+          "description": "Cook Along turns your Fire TV into a hands-free kitchen screen. Connect it once with the code shown in the Cook Along app, then use any Echo or your Fire TV remote to move through recipe steps, run kitchen timers, hear ingredient amounts scaled for your servings, find recipes, and ask the chef what to use when you're missing something.",
+          "examplePhrases": [
+            "Alexa, open cook along",
+            "Alexa, tell cook along next step",
+            "Alexa, ask cook along what can I use instead of cream"
+          ],
+          "keywords": [
+            "recipes",
+            "cooking",
+            "fire tv",
+            "kitchen",
+            "timer"
+          ]
+        },
+        "en-GB": {
+          "name": "Cook Along",
+          "summary": "Hands-free recipe steps, timers and tips for the Cook Along Fire TV app.",
+          "description": "Cook Along turns your Fire TV into a hands-free kitchen screen. Connect it once with the code shown in the Cook Along app, then use any Echo or your Fire TV remote to move through recipe steps, run kitchen timers, hear ingredient amounts scaled for your servings, find recipes, and ask the chef what to use when you're missing something.",
+          "examplePhrases": [
+            "Alexa, open cook along",
+            "Alexa, tell cook along next step",
+            "Alexa, ask cook along what can I use instead of cream"
+          ],
+          "keywords": [
+            "recipes",
+            "cooking",
+            "fire tv",
+            "kitchen",
+            "timer"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "distributionCountries": [
+        "IN",
+        "US",
+        "GB"
+      ],
+      "category": "COOKING_AND_RECIPE",
+      "testingInstructions": "Install the Cook Along app on a Fire TV, choose Connect Alexa on its home screen and say: Alexa, ask Cook Along to pair with <code>. Then open a recipe and say: Alexa, tell Cook Along start cooking."
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "__LAMBDA_ARN__"
+        }
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    }
+  }
+}

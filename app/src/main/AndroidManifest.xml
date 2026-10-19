@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fire TV has no touchscreen; leanback is not "required" so the APK also side-loads on tablets. -->
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.software.leanback" android:required="false" />
+
+    <!-- Lets Alexa route "Alexa, next / previous / pause / play" to our MediaSession on Fire OS < 14.
+         Ignored on non-Amazon devices. No microphone permission: Alexa owns the mic, not the app. -->
+    <uses-permission android:name="com.amazon.permission.media.session.voicecommandcontrol" />
+
+    <!-- Online recipes, Fridge scan and the Alexa bridge (all optional: cooking works offline), plus the LAN
+         shopping-list page (CompanionServer) a phone opens by scanning the QR code. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Lets the app notice when the TV loses its connection, so it can say so instead of waiting on timeouts. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Lets the app find the device's text-to-speech engine for "Read aloud" (Android 11+ package visibility). -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:banner="@drawable/banner"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CookAlong">
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

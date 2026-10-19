@@ -1,0 +1,6036 @@
+{
+  "recipes": [
+    {
+      "id": "lemon-garlic-spaghetti",
+      "title": "Lemon Garlic Spaghetti",
+      "description": "Bright, glossy weeknight pasta with lemon, garlic and parmesan.",
+      "image": "images/lemon-garlic-spaghetti.jpg",
+      "prepTime": 5,
+      "cookTime": 15,
+      "servings": 4,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "id": "spaghetti",
+          "name": "spaghetti",
+          "amount": 400,
+          "unit": "g",
+          "substitutionNotes": "Any long pasta works; gluten-free pasta is a possible swap (cooking time varies)."
+        },
+        {
+          "id": "oil",
+          "name": "olive oil",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "id": "garlic",
+          "name": "garlic, thinly sliced",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "id": "lemon",
+          "name": "lemon, zest and juice",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "parmesan",
+          "name": "parmesan, finely grated",
+          "amount": 60,
+          "unit": "g",
+          "substitutionNotes": "Nutritional yeast is a common dairy-free suggestion. Check labels if cooking for allergies."
+        },
+        {
+          "id": "chili",
+          "name": "chili flakes",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "parsley",
+          "name": "fresh parsley, chopped",
+          "amount": 1,
+          "unit": "handful"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Bring a large pot of well-salted water to a rolling boil.",
+          "relatedIngredientIds": [
+            "salt"
+          ],
+          "suggestedTimerSeconds": 600,
+          "timerLabel": "Water"
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "boil",
+          "instructionText": "Add the spaghetti and stir. Cook until just al dente, about 9 minutes.",
+          "relatedIngredientIds": [
+            "spaghetti"
+          ],
+          "suggestedTimerSeconds": 540,
+          "timerLabel": "Pasta"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Meanwhile, warm the olive oil, garlic and chili flakes in a wide pan over low heat. Don't let the garlic brown.",
+          "relatedIngredientIds": [
+            "oil",
+            "garlic",
+            "chili"
+          ],
+          "suggestedTimerSeconds": 120,
+          "timerLabel": "Garlic"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Zest and juice the lemon. Grate the parmesan.",
+          "relatedIngredientIds": [
+            "lemon",
+            "parmesan"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Scoop out a mug of pasta water, then drain the spaghetti.",
+          "relatedIngredientIds": [
+            "spaghetti"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "animation": "stir",
+          "instructionText": "Toss the pasta in the garlic oil with the lemon, parmesan and a splash of pasta water until glossy.",
+          "relatedIngredientIds": [
+            "spaghetti",
+            "lemon",
+            "parmesan"
+          ]
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Season with salt, scatter over the parsley and serve straight away.",
+          "relatedIngredientIds": [
+            "salt",
+            "parsley"
+          ]
+        }
+      ],
+      "imageCredit": "Bairuilong · CC BY-SA 4.0 · Wikimedia"
+    },
+    {
+      "id": "chickpea-coconut-curry",
+      "title": "Chickpea Coconut Curry",
+      "description": "Creamy one-pot curry with spinach. Freezes well.",
+      "image": "images/chickpea-coconut-curry.jpg",
+      "prepTime": 10,
+      "cookTime": 25,
+      "servings": 4,
+      "dietaryTags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "categories": [
+        "indian"
+      ],
+      "ingredients": [
+        {
+          "id": "oil",
+          "name": "neutral oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "onion",
+          "name": "onion, diced",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "garlic",
+          "name": "garlic, minced",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "id": "ginger",
+          "name": "fresh ginger, grated",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "curry",
+          "name": "curry powder",
+          "amount": 2,
+          "unit": "tbsp",
+          "substitutionNotes": "Garam masala plus a pinch of turmeric is a possible swap. Some blends contain allergens; check the label."
+        },
+        {
+          "id": "tomatoes",
+          "name": "crushed tomatoes",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "coconut",
+          "name": "coconut milk",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "id": "chickpeas",
+          "name": "chickpeas, drained",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "id": "spinach",
+          "name": "baby spinach",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "lime",
+          "name": "lime",
+          "amount": 0.5,
+          "unit": ""
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "fry",
+          "instructionText": "Heat the oil in a large pot over medium heat. Add the onion and cook until soft and golden.",
+          "relatedIngredientIds": [
+            "oil",
+            "onion"
+          ],
+          "suggestedTimerSeconds": 360,
+          "timerLabel": "Onion"
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Stir in the garlic and ginger and cook for one minute until fragrant.",
+          "relatedIngredientIds": [
+            "garlic",
+            "ginger"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Garlic"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Add the curry powder and stir constantly for 30 seconds to toast the spices.",
+          "relatedIngredientIds": [
+            "curry"
+          ],
+          "suggestedTimerSeconds": 30,
+          "timerLabel": "Spices"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Pour in the tomatoes and simmer, stirring now and then.",
+          "relatedIngredientIds": [
+            "tomatoes"
+          ],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Tomatoes"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "animation": "boil",
+          "instructionText": "Add the coconut milk and chickpeas. Simmer gently until thickened.",
+          "relatedIngredientIds": [
+            "coconut",
+            "chickpeas"
+          ],
+          "suggestedTimerSeconds": 720,
+          "timerLabel": "Curry"
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Stir in the spinach until just wilted.",
+          "relatedIngredientIds": [
+            "spinach"
+          ],
+          "suggestedTimerSeconds": 120,
+          "timerLabel": "Spinach"
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Squeeze in the lime, season with salt and serve with rice or flatbread.",
+          "relatedIngredientIds": [
+            "lime",
+            "salt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "masala-omelette",
+      "title": "Masala Omelette",
+      "description": "A spiced, herby breakfast omelette in ten minutes.",
+      "image": "images/masala-omelette.jpg",
+      "prepTime": 5,
+      "cookTime": 5,
+      "servings": 1,
+      "dietaryTags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "categories": [
+        "indian",
+        "breakfast"
+      ],
+      "ingredients": [
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "id": "onion",
+          "name": "red onion, finely chopped",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "tomato",
+          "name": "tomato, finely chopped",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "chili",
+          "name": "green chili, chopped (optional)",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "cilantro",
+          "name": "cilantro, chopped",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "turmeric",
+          "name": "ground turmeric",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "id": "butter",
+          "name": "butter or ghee",
+          "amount": 1,
+          "unit": "tsp",
+          "substitutionNotes": "Oil is a possible dairy-free swap."
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Whisk the eggs with the turmeric and a pinch of salt.",
+          "relatedIngredientIds": [
+            "eggs",
+            "turmeric",
+            "salt"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "mix",
+          "instructionText": "Stir in the onion, tomato, chili and cilantro.",
+          "relatedIngredientIds": [
+            "onion",
+            "tomato",
+            "chili",
+            "cilantro"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Melt the butter in a small pan over medium heat. Pour in the eggs and cook until the edges set.",
+          "relatedIngredientIds": [
+            "butter",
+            "eggs"
+          ],
+          "suggestedTimerSeconds": 120,
+          "timerLabel": "First side"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Flip or fold the omelette and cook for one more minute.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Second side"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Slide onto a plate and eat while hot.",
+          "relatedIngredientIds": []
+        }
+      ],
+      "imageCredit": "Saileshpat · CC BY-SA 4.0 · Wikimedia"
+    },
+    {
+      "id": "sheet-pan-chicken",
+      "title": "Sheet-Pan Paprika Chicken",
+      "description": "Crispy chicken thighs roasted with potatoes and peppers on one tray.",
+      "image": "images/sheet-pan-chicken.jpg",
+      "prepTime": 15,
+      "cookTime": 35,
+      "servings": 4,
+      "dietaryTags": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "ingredients": [
+        {
+          "id": "chicken",
+          "name": "bone-in chicken thighs",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "id": "potatoes",
+          "name": "baby potatoes, halved",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": "peppers",
+          "name": "bell peppers, chunked",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "id": "onion",
+          "name": "red onion, in wedges",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "oil",
+          "name": "olive oil",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "paprika",
+          "name": "smoked paprika",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "id": "garlicpowder",
+          "name": "garlic powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "lemon",
+          "name": "lemon, in wedges",
+          "amount": 1,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "bake",
+          "instructionText": "Heat the oven to 220 °C / 425 °F.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 600,
+          "timerLabel": "Oven"
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Halve the potatoes, chunk the peppers and cut the onion into wedges.",
+          "relatedIngredientIds": [
+            "potatoes",
+            "peppers",
+            "onion"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "animation": "mix",
+          "instructionText": "On a large tray, toss everything with the oil, paprika, garlic powder and salt. Chicken skin-side up.",
+          "relatedIngredientIds": [
+            "chicken",
+            "oil",
+            "paprika",
+            "garlicpowder",
+            "salt"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Roast until the skin is crisp and the potatoes are tender.",
+          "relatedIngredientIds": [
+            "chicken",
+            "potatoes"
+          ],
+          "suggestedTimerSeconds": 2100,
+          "timerLabel": "Roast"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "animation": "bake",
+          "instructionText": "Check the chicken is cooked through: 75 °C / 165 °F at the thickest part.",
+          "relatedIngredientIds": [
+            "chicken"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Rest for five minutes, then serve with the lemon wedges.",
+          "relatedIngredientIds": [
+            "lemon"
+          ],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Rest"
+        }
+      ]
+    },
+    {
+      "id": "banana-pancakes",
+      "title": "Fluffy Banana Pancakes",
+      "description": "Weekend pancakes that use up spotty bananas.",
+      "image": "images/banana-pancakes.jpg",
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 2,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "breakfast",
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "banana",
+          "name": "ripe bananas",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "id": "milk",
+          "name": "milk",
+          "amount": 160,
+          "unit": "ml",
+          "substitutionNotes": "Oat or soy milk are common swaps. Check labels if cooking for allergies."
+        },
+        {
+          "id": "flour",
+          "name": "plain flour",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "id": "bakingpowder",
+          "name": "baking powder",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "id": "butter",
+          "name": "butter, for the pan",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Mash the bananas in a bowl until mostly smooth.",
+          "relatedIngredientIds": [
+            "banana"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "mix",
+          "instructionText": "Whisk in the eggs and milk.",
+          "relatedIngredientIds": [
+            "eggs",
+            "milk"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Fold in the flour and baking powder until just combined. Lumps are fine. Let it rest.",
+          "relatedIngredientIds": [
+            "flour",
+            "bakingpowder"
+          ],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Batter rest"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Melt a little butter in a pan over medium heat. Add small ladles of batter.",
+          "relatedIngredientIds": [
+            "butter"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Cook until bubbles appear on top, then flip.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 120,
+          "timerLabel": "Side one"
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Cook the second side until golden. Repeat with the rest of the batter.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 90,
+          "timerLabel": "Side two"
+        }
+      ],
+      "imageCredit": "Andy Li · CC0 · Wikimedia"
+    },
+    {
+      "id": "tomato-basil-soup",
+      "title": "Roasted Tomato & Basil Soup",
+      "description": "Velvety pantry soup. Great with a grilled cheese.",
+      "image": "images/tomato-basil-soup.jpg",
+      "prepTime": 10,
+      "cookTime": 30,
+      "servings": 4,
+      "dietaryTags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "ingredients": [
+        {
+          "id": "oil",
+          "name": "olive oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "onion",
+          "name": "onion, chopped",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "garlic",
+          "name": "garlic, sliced",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "id": "tomatoes",
+          "name": "canned whole tomatoes",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "id": "stock",
+          "name": "vegetable stock",
+          "amount": 500,
+          "unit": "ml",
+          "substitutionNotes": "Some stock cubes contain gluten or celery; check the label."
+        },
+        {
+          "id": "sugar",
+          "name": "sugar",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "basil",
+          "name": "fresh basil",
+          "amount": 1,
+          "unit": "handful"
+        },
+        {
+          "id": "cream",
+          "name": "heavy cream",
+          "amount": 60,
+          "unit": "ml",
+          "substitutionNotes": "Coconut milk is a possible dairy-free swap."
+        },
+        {
+          "id": "salt",
+          "name": "salt and pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "fry",
+          "instructionText": "Warm the oil in a large pot. Cook the onion gently until soft.",
+          "relatedIngredientIds": [
+            "oil",
+            "onion"
+          ],
+          "suggestedTimerSeconds": 480,
+          "timerLabel": "Onion"
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Add the garlic and cook for one minute.",
+          "relatedIngredientIds": [
+            "garlic"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Garlic"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "animation": "boil",
+          "instructionText": "Add the tomatoes, stock and sugar. Simmer, crushing the tomatoes with a spoon.",
+          "relatedIngredientIds": [
+            "tomatoes",
+            "stock",
+            "sugar"
+          ],
+          "suggestedTimerSeconds": 1200,
+          "timerLabel": "Simmer"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Take off the heat, add most of the basil and blend until smooth. Be careful with hot liquid.",
+          "relatedIngredientIds": [
+            "basil"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Stir in the cream, season, and serve topped with the remaining basil.",
+          "relatedIngredientIds": [
+            "cream",
+            "salt",
+            "basil"
+          ]
+        }
+      ],
+      "imageCredit": "SirNico · CC BY-SA 3.0 · Wikimedia"
+    },
+    {
+      "id": "veggie-fried-rice",
+      "title": "Veggie Egg Fried Rice",
+      "description": "Fast, smoky fried rice. Best with day-old rice.",
+      "image": "images/veggie-fried-rice.jpg",
+      "prepTime": 10,
+      "cookTime": 10,
+      "servings": 2,
+      "dietaryTags": [
+        "vegetarian",
+        "dairy-free"
+      ],
+      "ingredients": [
+        {
+          "id": "rice",
+          "name": "cooked rice, cold",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "eggs",
+          "name": "eggs, beaten",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "id": "veg",
+          "name": "frozen peas and carrots",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": "scallion",
+          "name": "spring onions, sliced",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "id": "garlic",
+          "name": "garlic, minced",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "id": "oil",
+          "name": "neutral oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "soy",
+          "name": "soy sauce",
+          "amount": 2,
+          "unit": "tbsp",
+          "substitutionNotes": "Tamari is a common gluten-free suggestion. Check the label."
+        },
+        {
+          "id": "sesame",
+          "name": "toasted sesame oil",
+          "amount": 1,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Heat half the oil in a wok or large pan over high heat. Scramble the eggs, then set aside.",
+          "relatedIngredientIds": [
+            "oil",
+            "eggs"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Eggs"
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Add the rest of the oil, the garlic and the peas and carrots. Stir-fry until hot.",
+          "relatedIngredientIds": [
+            "oil",
+            "garlic",
+            "veg"
+          ],
+          "suggestedTimerSeconds": 180,
+          "timerLabel": "Veg"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Add the rice, breaking up clumps. Fry without stirring too often so it crisps.",
+          "relatedIngredientIds": [
+            "rice"
+          ],
+          "suggestedTimerSeconds": 240,
+          "timerLabel": "Rice"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Return the eggs, add the soy sauce, sesame oil and spring onions. Toss and serve.",
+          "relatedIngredientIds": [
+            "eggs",
+            "soy",
+            "sesame",
+            "scallion"
+          ]
+        }
+      ],
+      "imageCredit": "Biswarup Ganguly · CC BY 3.0 · Wikimedia"
+    },
+    {
+      "id": "chocolate-mug-cake",
+      "title": "Chocolate Mug Cake",
+      "description": "A warm single-serve cake from the microwave.",
+      "image": "images/chocolate-mug-cake.jpg",
+      "prepTime": 3,
+      "cookTime": 2,
+      "servings": 1,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "flour",
+          "name": "plain flour",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "name": "sugar",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "cocoa",
+          "name": "cocoa powder",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "bakingpowder",
+          "name": "baking powder",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "milk",
+          "name": "milk",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "oil",
+          "name": "neutral oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "chips",
+          "name": "chocolate chips",
+          "amount": 1,
+          "unit": "tbsp",
+          "substitutionNotes": "Chopped dark chocolate works too. Chocolate may contain milk or nuts; check the label."
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "mix",
+          "instructionText": "In a large mug, mix the flour, sugar, cocoa, baking powder and salt.",
+          "relatedIngredientIds": [
+            "flour",
+            "sugar",
+            "cocoa",
+            "bakingpowder",
+            "salt"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "mix",
+          "instructionText": "Stir in the milk and oil until smooth. Drop the chocolate chips on top.",
+          "relatedIngredientIds": [
+            "milk",
+            "oil",
+            "chips"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Microwave on high until risen and just set in the middle.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 70,
+          "timerLabel": "Microwave"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Let it cool for a couple of minutes. The mug will be hot.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 120,
+          "timerLabel": "Cool"
+        }
+      ],
+      "imageCredit": "Medhi jyoti · CC BY-SA 4.0 · Wikimedia"
+    },
+    {
+      "id": "dal-tadka",
+      "title": "Dal Tadka",
+      "description": "Comforting yellow lentils finished with sizzling cumin and garlic.",
+      "image": "images/dal-tadka.jpg",
+      "prepTime": 10,
+      "cookTime": 30,
+      "servings": 4,
+      "dietaryTags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "categories": [
+        "indian"
+      ],
+      "ingredients": [
+        {
+          "id": "dal",
+          "name": "toor dal (split pigeon peas)",
+          "amount": 200,
+          "unit": "g",
+          "substitutionNotes": "Red lentils (masoor dal) are a common swap and cook faster."
+        },
+        {
+          "id": "water",
+          "name": "water",
+          "amount": 800,
+          "unit": "ml"
+        },
+        {
+          "id": "turmeric",
+          "name": "ground turmeric",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "id": "oil",
+          "name": "neutral oil",
+          "amount": 2,
+          "unit": "tbsp",
+          "substitutionNotes": "Ghee is traditional but not vegan."
+        },
+        {
+          "id": "cumin",
+          "name": "cumin seeds",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "garlic",
+          "name": "garlic, sliced",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "id": "chili",
+          "name": "dried red chilies",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "id": "onion",
+          "name": "onion, finely chopped",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "tomato",
+          "name": "tomato, chopped",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "cilantro",
+          "name": "fresh cilantro, chopped",
+          "amount": 1,
+          "unit": "handful"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "pour",
+          "instructionText": "Rinse the dal in a sieve until the water runs clear.",
+          "relatedIngredientIds": [
+            "dal"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "boil",
+          "instructionText": "Put the dal, water and turmeric in a pot. Bring to a boil, then simmer until soft, stirring now and then.",
+          "relatedIngredientIds": [
+            "dal",
+            "water",
+            "turmeric"
+          ],
+          "suggestedTimerSeconds": 1500,
+          "timerLabel": "Dal"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "animation": "mix",
+          "instructionText": "Mash the dal lightly with the back of a spoon and season with salt.",
+          "relatedIngredientIds": [
+            "salt"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "animation": "fry",
+          "instructionText": "For the tadka, heat the oil in a small pan. Add the cumin; when it crackles, add the garlic and chilies.",
+          "relatedIngredientIds": [
+            "oil",
+            "cumin",
+            "garlic",
+            "chili"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Tadka"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "animation": "fry",
+          "instructionText": "Add the onion and cook until golden, then the tomato until soft.",
+          "relatedIngredientIds": [
+            "onion",
+            "tomato"
+          ],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Onion"
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "animation": "serve",
+          "instructionText": "Pour the tadka over the dal, stir, scatter the cilantro and serve with rice or roti.",
+          "relatedIngredientIds": [
+            "cilantro"
+          ]
+        }
+      ],
+      "imageCredit": "AugustineKajur · CC BY-SA 4.0 · Wikimedia"
+    },
+    {
+      "id": "paneer-butter-masala",
+      "title": "Paneer Butter Masala",
+      "description": "Soft paneer in a rich, mildly spiced tomato and butter sauce.",
+      "image": "images/paneer-butter-masala.jpg",
+      "prepTime": 10,
+      "cookTime": 25,
+      "servings": 4,
+      "dietaryTags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "categories": [
+        "indian"
+      ],
+      "ingredients": [
+        {
+          "id": "paneer",
+          "name": "paneer, cubed",
+          "amount": 250,
+          "unit": "g",
+          "substitutionNotes": "Firm tofu is a possible dairy-free swap."
+        },
+        {
+          "id": "butter",
+          "name": "butter",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "onion",
+          "name": "onion, finely chopped",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "garlic",
+          "name": "garlic, minced",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "id": "ginger",
+          "name": "fresh ginger, grated",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "tomato",
+          "name": "tomato puree",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "chili",
+          "name": "Kashmiri chili powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "sugar",
+          "name": "sugar",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "cream",
+          "name": "heavy cream",
+          "amount": 80,
+          "unit": "ml",
+          "substitutionNotes": "Coconut cream is a possible dairy-free swap."
+        },
+        {
+          "id": "garam",
+          "name": "garam masala",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "methi",
+          "name": "dried fenugreek leaves (kasuri methi)",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "fry",
+          "instructionText": "Melt the butter in a pan over medium heat and cook the onion until soft.",
+          "relatedIngredientIds": [
+            "butter",
+            "onion"
+          ],
+          "suggestedTimerSeconds": 360,
+          "timerLabel": "Onion"
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "stir",
+          "instructionText": "Add the garlic and ginger and cook for one minute.",
+          "relatedIngredientIds": [
+            "garlic",
+            "ginger"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Garlic"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "animation": "boil",
+          "instructionText": "Stir in the tomato puree, chili powder and sugar. Simmer until thick and glossy.",
+          "relatedIngredientIds": [
+            "tomato",
+            "chili",
+            "sugar"
+          ],
+          "suggestedTimerSeconds": 600,
+          "timerLabel": "Sauce"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "animation": "mix",
+          "instructionText": "For a silky restaurant-style sauce, blend it smooth. You can skip this step.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "animation": "boil",
+          "instructionText": "Add the cream, garam masala, crushed fenugreek leaves and paneer. Simmer gently.",
+          "relatedIngredientIds": [
+            "cream",
+            "garam",
+            "methi",
+            "paneer"
+          ],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Paneer"
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "animation": "serve",
+          "instructionText": "Season with salt and serve with naan or rice.",
+          "relatedIngredientIds": [
+            "salt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegetable-upma",
+      "title": "Vegetable Upma",
+      "description": "Savory South Indian semolina breakfast with crunchy lentils and vegetables.",
+      "image": "images/vegetable-upma.jpg",
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 3,
+      "dietaryTags": [
+        "vegan"
+      ],
+      "categories": [
+        "indian",
+        "breakfast"
+      ],
+      "ingredients": [
+        {
+          "id": "rava",
+          "name": "semolina (rava)",
+          "amount": 180,
+          "unit": "g",
+          "substitutionNotes": "Contains gluten. Millet rava is a possible gluten-free swap."
+        },
+        {
+          "id": "oil",
+          "name": "neutral oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mustard",
+          "name": "mustard seeds",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "urad",
+          "name": "urad dal",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "curry",
+          "name": "curry leaves",
+          "amount": 10,
+          "unit": ""
+        },
+        {
+          "id": "chili",
+          "name": "green chili, chopped",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "ginger",
+          "name": "fresh ginger, grated",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "onion",
+          "name": "onion, chopped",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "veg",
+          "name": "mixed vegetables (carrot, peas, beans)",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "water",
+          "name": "water",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "lemon",
+          "name": "lemon",
+          "amount": 0.5,
+          "unit": ""
+        },
+        {
+          "id": "cilantro",
+          "name": "fresh cilantro, chopped",
+          "amount": 1,
+          "unit": "handful"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "stir",
+          "instructionText": "Dry-roast the semolina in a pan, stirring, until it smells toasty. Set it aside.",
+          "relatedIngredientIds": [
+            "rava"
+          ],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Rava"
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "fry",
+          "instructionText": "Heat the oil. Add the mustard seeds; when they pop, add the urad dal, curry leaves, chili and ginger.",
+          "relatedIngredientIds": [
+            "oil",
+            "mustard",
+            "urad",
+            "curry",
+            "chili",
+            "ginger"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Tempering"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "animation": "fry",
+          "instructionText": "Add the onion and vegetables and cook until soft.",
+          "relatedIngredientIds": [
+            "onion",
+            "veg"
+          ],
+          "suggestedTimerSeconds": 240,
+          "timerLabel": "Veg"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "animation": "boil",
+          "instructionText": "Pour in the water, add the salt and bring to a boil.",
+          "relatedIngredientIds": [
+            "water",
+            "salt"
+          ],
+          "suggestedTimerSeconds": 240,
+          "timerLabel": "Water"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "animation": "stir",
+          "instructionText": "Lower the heat. Pour in the semolina slowly, stirring all the time so no lumps form.",
+          "relatedIngredientIds": [
+            "rava"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "animation": "rest",
+          "instructionText": "Cover and cook on low heat until fluffy.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 180,
+          "timerLabel": "Upma"
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "animation": "serve",
+          "instructionText": "Squeeze over the lemon, scatter the cilantro and serve hot.",
+          "relatedIngredientIds": [
+            "lemon",
+            "cilantro"
+          ]
+        }
+      ],
+      "imageCredit": "Intodustin · CC BY-SA 4.0 · Wikimedia"
+    },
+    {
+      "id": "vegetable-pulao",
+      "title": "Vegetable Pulao",
+      "description": "Fragrant one-pot basmati rice with whole spices and vegetables.",
+      "image": "images/vegetable-pulao.jpg",
+      "prepTime": 15,
+      "cookTime": 25,
+      "servings": 4,
+      "dietaryTags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "categories": [
+        "indian"
+      ],
+      "ingredients": [
+        {
+          "id": "rice",
+          "name": "basmati rice",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "id": "oil",
+          "name": "neutral oil",
+          "amount": 2,
+          "unit": "tbsp",
+          "substitutionNotes": "Ghee is traditional but not vegan."
+        },
+        {
+          "id": "cumin",
+          "name": "cumin seeds",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "bay",
+          "name": "bay leaf",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "cinnamon",
+          "name": "cinnamon stick",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "cloves",
+          "name": "whole cloves",
+          "amount": 4,
+          "unit": ""
+        },
+        {
+          "id": "cardamom",
+          "name": "green cardamom pods",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "id": "onion",
+          "name": "onion, thinly sliced",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "paste",
+          "name": "ginger-garlic paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "veg",
+          "name": "mixed vegetables (peas, carrot, beans)",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "water",
+          "name": "water",
+          "amount": 600,
+          "unit": "ml"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": 1.5,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "rest",
+          "instructionText": "Rinse the rice until the water runs clear, then soak it.",
+          "relatedIngredientIds": [
+            "rice"
+          ],
+          "suggestedTimerSeconds": 1200,
+          "timerLabel": "Soak"
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "fry",
+          "instructionText": "Heat the oil in a heavy pot. Add the cumin, bay leaf, cinnamon, cloves and cardamom and let them sizzle.",
+          "relatedIngredientIds": [
+            "oil",
+            "cumin",
+            "bay",
+            "cinnamon",
+            "cloves",
+            "cardamom"
+          ],
+          "suggestedTimerSeconds": 45,
+          "timerLabel": "Spices"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "animation": "fry",
+          "instructionText": "Add the onion and cook until golden.",
+          "relatedIngredientIds": [
+            "onion"
+          ],
+          "suggestedTimerSeconds": 360,
+          "timerLabel": "Onion"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "animation": "stir",
+          "instructionText": "Stir in the ginger-garlic paste and vegetables and cook for two minutes.",
+          "relatedIngredientIds": [
+            "paste",
+            "veg"
+          ],
+          "suggestedTimerSeconds": 120,
+          "timerLabel": "Veg"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "animation": "boil",
+          "instructionText": "Drain the rice and add it with the water and salt. Bring to a boil, cover and cook on the lowest heat.",
+          "relatedIngredientIds": [
+            "rice",
+            "water",
+            "salt"
+          ],
+          "suggestedTimerSeconds": 900,
+          "timerLabel": "Rice"
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "animation": "rest",
+          "instructionText": "Turn off the heat and rest, covered, then fluff with a fork and serve.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Rest"
+        }
+      ],
+      "imageCredit": "Vardhankoshal · CC BY-SA 4.0 · Wikimedia"
+    },
+    {
+      "id": "mango-lassi",
+      "title": "Mango Lassi",
+      "description": "A cool, creamy mango and yogurt drink.",
+      "image": "images/mango-lassi.jpg",
+      "prepTime": 5,
+      "cookTime": 0,
+      "servings": 2,
+      "dietaryTags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "categories": [
+        "indian",
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "mango",
+          "name": "ripe mango, chopped (or mango pulp)",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": "yogurt",
+          "name": "plain yogurt",
+          "amount": 250,
+          "unit": "g",
+          "substitutionNotes": "Coconut yogurt is a possible dairy-free swap."
+        },
+        {
+          "id": "milk",
+          "name": "cold milk",
+          "amount": 120,
+          "unit": "ml"
+        },
+        {
+          "id": "sugar",
+          "name": "sugar",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "cardamom",
+          "name": "ground cardamom",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "ice",
+          "name": "ice cubes",
+          "amount": 4,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "chop",
+          "instructionText": "Peel the mango and chop the flesh.",
+          "relatedIngredientIds": [
+            "mango"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "mix",
+          "instructionText": "Put the mango, yogurt, milk, sugar and cardamom in a blender and blend until smooth.",
+          "relatedIngredientIds": [
+            "mango",
+            "yogurt",
+            "milk",
+            "sugar",
+            "cardamom"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Blend"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "animation": "pour",
+          "instructionText": "Taste and add more sugar if you like. Pour over ice and serve.",
+          "relatedIngredientIds": [
+            "ice"
+          ]
+        }
+      ],
+      "imageCredit": "JIP · CC BY-SA 4.0 · Wikimedia"
+    },
+    {
+      "id": "classic-guacamole",
+      "title": "Classic Guacamole",
+      "description": "Chunky, zesty avocado dip in ten minutes. No cooking.",
+      "image": "images/classic-guacamole.jpg",
+      "prepTime": 10,
+      "cookTime": 0,
+      "servings": 4,
+      "dietaryTags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "categories": [
+        "snack"
+      ],
+      "ingredients": [
+        {
+          "id": "avocado",
+          "name": "ripe avocados",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "id": "lime",
+          "name": "lime, juiced",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "onion",
+          "name": "red onion, finely chopped",
+          "amount": 0.25,
+          "unit": ""
+        },
+        {
+          "id": "tomato",
+          "name": "tomato, diced",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "cilantro",
+          "name": "fresh cilantro, chopped",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "jalapeno",
+          "name": "jalapeño, finely chopped (optional)",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "chips",
+          "name": "tortilla chips, to serve",
+          "amount": 150,
+          "unit": "g",
+          "substitutionNotes": "Some brands contain gluten; check the label."
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "chop",
+          "instructionText": "Halve the avocados, remove the stones and scoop the flesh into a bowl.",
+          "relatedIngredientIds": [
+            "avocado"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "mix",
+          "instructionText": "Add the lime juice and mash with a fork. Keep it a little chunky.",
+          "relatedIngredientIds": [
+            "lime"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "animation": "mix",
+          "instructionText": "Fold in the onion, tomato, cilantro, jalapeño and salt.",
+          "relatedIngredientIds": [
+            "onion",
+            "tomato",
+            "cilantro",
+            "jalapeno",
+            "salt"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "animation": "serve",
+          "instructionText": "Taste, adjust the lime and salt, and serve straight away with the chips.",
+          "relatedIngredientIds": [
+            "chips"
+          ]
+        }
+      ],
+      "imageCredit": "Jon Sullivan · Public domain · Wikimedia"
+    },
+    {
+      "id": "greek-salad",
+      "title": "Greek Salad",
+      "description": "Crisp vegetables, olives and feta with an oregano dressing.",
+      "image": "images/greek-salad.jpg",
+      "prepTime": 15,
+      "cookTime": 0,
+      "servings": 4,
+      "dietaryTags": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "categories": [
+        "snack"
+      ],
+      "ingredients": [
+        {
+          "id": "tomato",
+          "name": "ripe tomatoes",
+          "amount": 4,
+          "unit": ""
+        },
+        {
+          "id": "cucumber",
+          "name": "cucumber",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "onion",
+          "name": "red onion",
+          "amount": 0.5,
+          "unit": ""
+        },
+        {
+          "id": "pepper",
+          "name": "green bell pepper",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": "olives",
+          "name": "kalamata olives",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "id": "feta",
+          "name": "feta cheese",
+          "amount": 200,
+          "unit": "g",
+          "substitutionNotes": "A plant-based feta is a possible dairy-free swap."
+        },
+        {
+          "id": "oil",
+          "name": "olive oil",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "id": "vinegar",
+          "name": "red wine vinegar",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "oregano",
+          "name": "dried oregano",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "salt",
+          "name": "salt and pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "chop",
+          "instructionText": "Cut the tomatoes into wedges and slice the cucumber into half-moons.",
+          "relatedIngredientIds": [
+            "tomato",
+            "cucumber"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "chop",
+          "instructionText": "Thinly slice the red onion and green pepper.",
+          "relatedIngredientIds": [
+            "onion",
+            "pepper"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "animation": "mix",
+          "instructionText": "Put the vegetables and olives in a large bowl.",
+          "relatedIngredientIds": [
+            "olives"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "animation": "mix",
+          "instructionText": "Whisk the olive oil, vinegar, oregano, salt and pepper.",
+          "relatedIngredientIds": [
+            "oil",
+            "vinegar",
+            "oregano",
+            "salt"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "animation": "serve",
+          "instructionText": "Pour the dressing over, lay the feta on top, sprinkle with oregano and serve.",
+          "relatedIngredientIds": [
+            "feta"
+          ]
+        }
+      ],
+      "imageCredit": "Scudsvlad · CC BY-SA 4.0 · Wikimedia"
+    },
+    {
+      "id": "garlic-butter-shrimp",
+      "title": "Garlic Butter Shrimp",
+      "description": "Juicy shrimp in garlicky lemon butter, ready in 15 minutes.",
+      "image": "images/garlic-butter-shrimp.jpg",
+      "prepTime": 5,
+      "cookTime": 10,
+      "servings": 2,
+      "dietaryTags": [
+        "gluten-free"
+      ],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "shrimp",
+          "name": "large shrimp, peeled and deveined",
+          "amount": 400,
+          "unit": "g",
+          "substitutionNotes": "Shellfish is a major allergen. Chicken pieces or firm tofu are possible swaps (cook times change)."
+        },
+        {
+          "id": "butter",
+          "name": "butter",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "garlic",
+          "name": "garlic, minced",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "id": "chili",
+          "name": "chili flakes",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "lemon",
+          "name": "lemon",
+          "amount": 0.5,
+          "unit": ""
+        },
+        {
+          "id": "parsley",
+          "name": "fresh parsley, chopped",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "salt",
+          "name": "salt and pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "animation": "mix",
+          "instructionText": "Pat the shrimp dry and season with salt and pepper.",
+          "relatedIngredientIds": [
+            "shrimp",
+            "salt"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "animation": "fry",
+          "instructionText": "Melt one tablespoon of butter in a large pan over medium-high heat. Add the shrimp in one layer and sear.",
+          "relatedIngredientIds": [
+            "butter",
+            "shrimp"
+          ],
+          "suggestedTimerSeconds": 90,
+          "timerLabel": "Side one"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "animation": "fry",
+          "instructionText": "Flip the shrimp and cook until pink all the way through.",
+          "relatedIngredientIds": [
+            "shrimp"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Side two"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "animation": "stir",
+          "instructionText": "Lower the heat. Add the rest of the butter, the garlic and chili flakes, and stir for one minute.",
+          "relatedIngredientIds": [
+            "butter",
+            "garlic",
+            "chili"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Garlic"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "animation": "serve",
+          "instructionText": "Squeeze over the lemon, add the parsley, toss and serve.",
+          "relatedIngredientIds": [
+            "lemon",
+            "parsley"
+          ]
+        }
+      ],
+      "imageCredit": "Banej · CC BY-SA 4.0 · Wikimedia"
+    },
+    {
+      "id": "banana-muffins-with-chocolate",
+      "title": "Banana Muffins with Chocolate",
+      "description": "From based.cooking (public domain).",
+      "image": "images/banana-muffins-with-chocolate.jpg",
+      "prepTime": 15,
+      "cookTime": 30,
+      "servings": 2,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "snack",
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "bananas",
+          "name": "bananas",
+          "amount": 3.0,
+          "unit": ""
+        },
+        {
+          "id": "butter",
+          "name": "butter",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "id": "sugar",
+          "name": "sugar",
+          "amount": 150.0,
+          "unit": "g"
+        },
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "cooking-powder",
+          "name": "cooking powder",
+          "amount": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "wheat-flour",
+          "name": "wheat flour",
+          "amount": 260.0,
+          "unit": "g"
+        },
+        {
+          "id": "dark-chocolate",
+          "name": "dark chocolate",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "id": "milk-chocolate",
+          "name": "milk chocolate",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "id": "some-vanilla-sugar",
+          "name": "some vanilla sugar (optional)",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Peel the bananas and mush them together.",
+          "relatedIngredientIds": [
+            "bananas"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Whip the two eggs and mix them with the sugar.",
+          "relatedIngredientIds": [
+            "sugar",
+            "eggs",
+            "some-vanilla-sugar"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Melt the butter, cut the chocolate into smaller pieces, and whip the eggs.",
+          "relatedIngredientIds": [
+            "butter",
+            "eggs",
+            "dark-chocolate",
+            "milk-chocolate"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Pour the butter into the bananas, then add the flour, then the cooking powder, the chocolate, the whipped eggs and sugar, and the optional vanilla sugar; stirring it all the time.",
+          "relatedIngredientIds": [
+            "bananas",
+            "butter",
+            "sugar",
+            "eggs",
+            "cooking-powder",
+            "wheat-flour",
+            "dark-chocolate",
+            "milk-chocolate",
+            "some-vanilla-sugar"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Pour the mass into your muffin dish.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Heat up the oven to 160 °C / 320 °F and bake the muffins for around 20-30 minutes at 170 °C / 340 °F.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 1800,
+          "timerLabel": "Step 6"
+        }
+      ]
+    },
+    {
+      "id": "basic-waffles",
+      "title": "Basic Waffles",
+      "description": "From based.cooking (public domain).",
+      "image": "images/basic-waffles.jpg",
+      "prepTime": 10,
+      "cookTime": 20,
+      "servings": 2,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "butter",
+          "name": "butter",
+          "amount": 250.0,
+          "unit": "g"
+        },
+        {
+          "id": "sugar",
+          "name": "sugar",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "id": "pcks-vanilla-sugar-or-ot",
+          "name": "pcks vanilla sugar or other vanilla flavouring",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 5.0,
+          "unit": ""
+        },
+        {
+          "id": "flour",
+          "name": "flour",
+          "amount": 500.0,
+          "unit": "g"
+        },
+        {
+          "id": "baking-powder",
+          "name": "baking powder",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "milk",
+          "name": "milk",
+          "amount": 350.0,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Beat the eggs till creamy.",
+          "relatedIngredientIds": [
+            "eggs"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Gradually add all the sugar and the vanilla flavouring.",
+          "relatedIngredientIds": [
+            "sugar",
+            "pcks-vanilla-sugar-or-ot"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Melt and then mix in the butter.",
+          "relatedIngredientIds": [
+            "butter"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Add the baking powder.",
+          "relatedIngredientIds": [
+            "baking-powder"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Add the milk and flower in alternation. Stir constantly while doing so.",
+          "relatedIngredientIds": [
+            "milk"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Blend and mix until you got a smooth dough. Use the highest speed of your mixer.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Let the dough rest for a couple of minutes. Turn on & preheat your waffle maker, then pour in the dough. Bake inside the waffle maker till golden brown.",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "chicken-pasta-casserole",
+      "title": "Chicken Pasta Casserole",
+      "description": "From based.cooking (public domain).",
+      "image": "images/chicken-pasta-casserole.jpg",
+      "prepTime": 5,
+      "cookTime": 35,
+      "servings": 4,
+      "dietaryTags": [],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "macaroni",
+          "name": "macaroni (elbow, penne)",
+          "amount": 16.0,
+          "unit": "oz"
+        },
+        {
+          "id": "raw-chicken-breast",
+          "name": "raw chicken breast, diced",
+          "amount": 24.0,
+          "unit": "oz"
+        },
+        {
+          "id": "mozzarella-cheese",
+          "name": "mozzarella cheese, shredded",
+          "amount": 9.0,
+          "unit": "oz"
+        },
+        {
+          "id": "parmesan-cheese",
+          "name": "parmesan cheese, grated",
+          "amount": 1.5,
+          "unit": "oz"
+        },
+        {
+          "id": "bread-crumbs",
+          "name": "bread crumbs",
+          "amount": 1.5,
+          "unit": "oz"
+        },
+        {
+          "id": "diced-tomatoes",
+          "name": "diced tomatoes",
+          "amount": 16.0,
+          "unit": "oz"
+        },
+        {
+          "id": "some-oil-and-butter",
+          "name": "Some oil and butter",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "recipe",
+          "name": "(Optional) More mozzarella and parmesan for fans of cheese.",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Preheat oven to 400F/200C.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Dice chicken and pan cook with oil until fully cooked.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Cook the pasta for a few minutes less than usual (about 7-8 minutes).",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 480,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Add chicken and pasta into a casserole dish. Mix together. Add diced tomato and shredded mozzarella cheese and keep mixing. Top with parmesan cheese and bread crumbs for an even coat. Add about a spoonful of butter evenly on the top.",
+          "relatedIngredientIds": [
+            "raw-chicken-breast",
+            "mozzarella-cheese",
+            "parmesan-cheese",
+            "bread-crumbs",
+            "diced-tomatoes",
+            "some-oil-and-butter",
+            "recipe"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Cook in the oven for 22-25 minutes, until the top looks golden.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 1500,
+          "timerLabel": "Step 5"
+        }
+      ]
+    },
+    {
+      "id": "chocolate-chip-cookies",
+      "title": "Chocolate Chip Cookies",
+      "description": "From based.cooking (public domain).",
+      "image": "images/chocolate-chip-cookies.jpg",
+      "prepTime": 10,
+      "cookTime": 10,
+      "servings": 4,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "melted-butter",
+          "name": "melted butter (2 sticks)",
+          "amount": 230.0,
+          "unit": "g"
+        },
+        {
+          "id": "bread-flour",
+          "name": "bread flour",
+          "amount": 330.0,
+          "unit": "g"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "id": "baking-soda",
+          "name": "baking soda",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "id": "white-sugar",
+          "name": "white sugar",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "id": "brown-sugar",
+          "name": "brown sugar",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "id": "egg",
+          "name": "egg",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "milk",
+          "name": "milk",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "id": "vanilla",
+          "name": "vanilla",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "id": "50-70-dark-chocolate-chi",
+          "name": "50-70% dark chocolate chips or semi-sweet milk chocolate chips",
+          "amount": 225.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Preheat oven to 375°F",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Mix the flour, baking soda, and salt in a bowl",
+          "relatedIngredientIds": [
+            "bread-flour",
+            "salt",
+            "baking-soda"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Using a mixer or whisk, beat the butter, sugar, eggs, vanilla and milk in a separate bowl for a few mins",
+          "relatedIngredientIds": [
+            "melted-butter",
+            "white-sugar",
+            "brown-sugar",
+            "milk",
+            "vanilla"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Combine and stir in the dry ingredients, then the chocolate chips",
+          "relatedIngredientIds": [
+            "50-70-dark-chocolate-chi"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Use an ice cream scooper or spoon to make uniform balls of cookie dough to the size you like and evenly space them out on a parchment paper lined baking sheet (you may need more than one sheet depending on the size of the cookies)",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Bake in the oven one baking sheet at a time for around 8-10 minutes, taking them out when they start to brown",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 600,
+          "timerLabel": "Step 6"
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Cool for a few minutes then put them on a cooling rack",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "chocolate-cake",
+      "title": "Chocolate Cake",
+      "description": "From based.cooking (public domain).",
+      "image": "images/chocolate-cake.jpg",
+      "prepTime": 40,
+      "cookTime": 105,
+      "servings": 12,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "flour",
+          "name": "Flour",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "id": "butter",
+          "name": "Butter",
+          "amount": 150.0,
+          "unit": "g"
+        },
+        {
+          "id": "cocoa",
+          "name": "Cocoa",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "id": "coffee",
+          "name": "Coffee",
+          "amount": 100.0,
+          "unit": "ml"
+        },
+        {
+          "id": "eggs",
+          "name": "Eggs",
+          "amount": 6.0,
+          "unit": ""
+        },
+        {
+          "id": "tea-spoons-of-baking-pow",
+          "name": "tea spoons of Baking Powder",
+          "amount": 2.0,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Melt the sugar with the coffee in a Bain Marie",
+          "relatedIngredientIds": [
+            "sugar",
+            "coffee"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Break the eggs separate yolks from whites in different containers.",
+          "relatedIngredientIds": [
+            "eggs"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Melt butter in sugar coffee Bain Marie.",
+          "relatedIngredientIds": [
+            "butter",
+            "sugar",
+            "coffee"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Whisk whites 'till they froth.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Pour cocoa into Bain Marie and mix well.",
+          "relatedIngredientIds": [
+            "cocoa"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Preheat the oven (180 &#176;C).",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Pour the yolks into the Bain Marie, mix well.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s8",
+          "order": 8,
+          "instructionText": "Pour the mixture in the Bain Marie into the bowl with the whites.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s9",
+          "order": 9,
+          "instructionText": "Sieve the flour and baking powder into the bowl with the whites.",
+          "relatedIngredientIds": [
+            "flour",
+            "tea-spoons-of-baking-pow"
+          ]
+        },
+        {
+          "id": "s10",
+          "order": 10,
+          "instructionText": "Mix everything in the bowl in a folding manner.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s11",
+          "order": 11,
+          "instructionText": "Butter the baking pan and pour in the mixture.",
+          "relatedIngredientIds": [
+            "butter"
+          ]
+        },
+        {
+          "id": "s12",
+          "order": 12,
+          "instructionText": "Leave in oven for 45 min. If after 45 min the cake hasn't come away from the sides",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 2700,
+          "timerLabel": "Step 12"
+        }
+      ]
+    },
+    {
+      "id": "cinnaroll",
+      "title": "Cinnamon Rolls",
+      "description": "From based.cooking (public domain).",
+      "image": "images/cinnaroll.jpg",
+      "prepTime": 300,
+      "cookTime": 25,
+      "servings": 20,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "milk",
+          "name": "Milk",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "instant-yeast",
+          "name": "Instant Yeast",
+          "amount": 2.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "sugar",
+          "name": "Sugar",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "id": "eggs",
+          "name": "Eggs",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "softened-butter",
+          "name": "softened Butter",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "id": "flour",
+          "name": "Flour",
+          "amount": 3.0,
+          "unit": "cup"
+        },
+        {
+          "id": "a-pinch-of-salt",
+          "name": "A pinch of Salt",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "sugar-2",
+          "name": "Sugar",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "id": "softened-butter-2",
+          "name": "softened Butter",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ground-cinnamon",
+          "name": "ground Cinnamon",
+          "amount": 4.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "In a large bowl, mix all dough ingredients except butter.",
+          "relatedIngredientIds": [
+            "softened-butter",
+            "softened-butter-2"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Kneed in the butter gradually until dough passes the \"Windowpane Test\": Take a piece of the dough and stretch it gently apart, it should spread out smoothly until light is visible through the dough without tearing. This is a sign of good gluten development.",
+          "relatedIngredientIds": [
+            "softened-butter",
+            "softened-butter-2"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Let rise for 90 minutes.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 5400,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "In a small bowl, mix all filling ingredients.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Take risen dough and roll it into a rectangle the size of your pan.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Spread your filling inside your dough.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Roll the dough into a log and cut into rolls.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s8",
+          "order": 8,
+          "instructionText": "Place inside your pan and let rise for 30 minutes.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 1800,
+          "timerLabel": "Step 8"
+        },
+        {
+          "id": "s9",
+          "order": 9,
+          "instructionText": "Wash melted butter over your rolls and bake at 175°C.",
+          "relatedIngredientIds": [
+            "softened-butter",
+            "softened-butter-2"
+          ]
+        },
+        {
+          "id": "s10",
+          "order": 10,
+          "instructionText": "Drizzle frosting as soon as rolls come out of the oven, let cool, tear and serve.",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "coconut-flour-bread",
+      "title": "Keto Coconut Bread",
+      "description": "From based.cooking (public domain).",
+      "image": "images/coconut-flour-bread.jpg",
+      "prepTime": 10,
+      "cookTime": 45,
+      "servings": 12,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "medium-eggs",
+          "name": "Medium Eggs (or 5 Extra Large)",
+          "amount": 6.0,
+          "unit": ""
+        },
+        {
+          "id": "coconut-oil",
+          "name": "Coconut Oil",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "coconut-flour",
+          "name": "Coconut Flour",
+          "amount": 0.75,
+          "unit": "cup"
+        },
+        {
+          "id": "baking-powder",
+          "name": "Baking Powder",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "pinch-of-salt",
+          "name": "Pinch of Salt",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "or-less-of-xanthan-gum",
+          "name": "or less of Xanthan Gum (optional, to have a more stick bread)",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Mix all dry ingredients in a big bowl.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Add the whole eggs and the coconut oil.",
+          "relatedIngredientIds": [
+            "medium-eggs",
+            "coconut-oil"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Mix well with a spoon until it gets thick. You can add extra coconut flour if you feel it is too liquid.",
+          "relatedIngredientIds": [
+            "coconut-oil",
+            "coconut-flour"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Pre-heat your oven to 350°F.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Pour the dough evenly into a Bread/Loaf form (coated with butter or parchment paper) and cook for 35 to 45 min.",
+          "relatedIngredientIds": [
+            "or-less-of-xanthan-gum"
+          ],
+          "suggestedTimerSeconds": 2700,
+          "timerLabel": "Step 5"
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "After cooking, remove it from the oven and let it sit while it cools down.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Some variations can be done, like using butter instead of coconut oil or adding pumpkin pure to the mix and having a cake-like texture.",
+          "relatedIngredientIds": [
+            "coconut-oil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "danish-pancake",
+      "title": "Danish Pancake",
+      "description": "From based.cooking (public domain).",
+      "image": "images/danish-pancake.jpg",
+      "prepTime": 5,
+      "cookTime": 15,
+      "servings": 2,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "breakfast",
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "wheat-flour",
+          "name": "wheat flour",
+          "amount": 375.0,
+          "unit": "g"
+        },
+        {
+          "id": "a-little-bit-of-salt",
+          "name": "a little bit of salt (1/3 of a teaspoon)",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "sugar",
+          "name": "sugar",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "id": "milk",
+          "name": "milk",
+          "amount": 900.0,
+          "unit": "ml"
+        },
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 4.0,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Put all the ingredients in a bowl and stir until it's all mixed up.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Preheat a pan with butter or margarine.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Turn when one side starts turning brown.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "They are done when both sides start turning brown.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Add Butter or Margarine when needed.",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "fennel-beans-and-kale-soup",
+      "title": "Fennel White Bean and Kale Soup",
+      "description": "From based.cooking (public domain).",
+      "image": "images/fennel-beans-and-kale-soup.jpg",
+      "prepTime": 15,
+      "cookTime": 20,
+      "servings": 6,
+      "dietaryTags": [],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "olive-oil",
+          "name": "olive oil",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": "small-fennel-bulbs",
+          "name": "small fennel bulbs, small-diced",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "small-yellow-onions",
+          "name": "small yellow onions, small-diced",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "minced-fresh-rosemary-or",
+          "name": "minced fresh rosemary or thyme",
+          "amount": 4.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "garlic",
+          "name": "garlic, minced or pressed",
+          "amount": 10.0,
+          "unit": "clove"
+        },
+        {
+          "id": "red-pepper-flakes",
+          "name": "red-pepper flakes.",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "kale",
+          "name": "kale, (escarole, swiss chard, or spinach can also be used).",
+          "amount": 10.0,
+          "unit": "oz"
+        },
+        {
+          "id": "cannellini-beans",
+          "name": "cannellini beans, rinsed",
+          "amount": 4.0,
+          "unit": "can"
+        },
+        {
+          "id": "chicken-broth",
+          "name": "chicken broth.",
+          "amount": 4.0,
+          "unit": "cup"
+        },
+        {
+          "id": "lemon-juice",
+          "name": "lemon juice",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "grated-parmesan",
+          "name": "grated parmesan, plus extra for serving if desired",
+          "amount": 6.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "In a large soup pot, heat olive oil over medium.",
+          "relatedIngredientIds": [
+            "olive-oil"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Add fennel, onion, rosemary and mix until tender (4-6 min).",
+          "relatedIngredientIds": [
+            "small-yellow-onions"
+          ],
+          "suggestedTimerSeconds": 360,
+          "timerLabel": "Step 2"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Add garlic, red pepper flakes, cook until fragrant (1 min).",
+          "relatedIngredientIds": [
+            "garlic",
+            "red-pepper-flakes"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Add one handful of greens at a time, stirring until leaves wilt.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Add white beans, broth, and black pepper,",
+          "relatedIngredientIds": [
+            "cannellini-beans",
+            "chicken-broth"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Bring to boil then bring to simmer while mashing some of the beans with a wooden spoon. Simmer until liquid has reduced and simmered (6-8 mins)",
+          "relatedIngredientIds": [
+            "cannellini-beans"
+          ],
+          "suggestedTimerSeconds": 480,
+          "timerLabel": "Step 6"
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Take off heat, stir in lemon juice and parmesan. Serve with some toasted bread that is good at scooping up soup. Enjoy!",
+          "relatedIngredientIds": [
+            "lemon-juice",
+            "grated-parmesan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guacamole",
+      "title": "Fresh Guacamole",
+      "description": "From based.cooking (public domain).",
+      "image": "images/guacamole.jpg",
+      "prepTime": 10,
+      "cookTime": 0,
+      "servings": 2,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "snack"
+      ],
+      "ingredients": [
+        {
+          "id": "hass-avocados",
+          "name": "Hass avocados",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "medium-onion",
+          "name": "medium onion",
+          "amount": 0.25,
+          "unit": ""
+        },
+        {
+          "id": "small-tomato",
+          "name": "small tomato",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "cilantro",
+          "name": "Cilantro",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "lime",
+          "name": "lime",
+          "amount": 1.0,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Cut the avocados in half, open them and place the pulp in a bowl.",
+          "relatedIngredientIds": [
+            "hass-avocados"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Mash the avocados, add lime juice, mix and mash some more.",
+          "relatedIngredientIds": [
+            "hass-avocados",
+            "lime"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Mince the cilantro, tomato and onion and add them to the avocado mix.",
+          "relatedIngredientIds": [
+            "hass-avocados",
+            "medium-onion",
+            "small-tomato",
+            "cilantro"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Add salt and black pepper to taste and mix thoroughly.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Enjoy fresh with some totopos!",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "hoisin-pork-belly",
+      "title": "Hoisin Pork Belly",
+      "description": "From based.cooking (public domain).",
+      "image": "images/hoisin-pork-belly.jpg",
+      "prepTime": 5,
+      "cookTime": 75,
+      "servings": 2,
+      "dietaryTags": [],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "high-fat-pork-belly",
+          "name": "high fat pork belly (no skin)",
+          "amount": 400.0,
+          "unit": "g"
+        },
+        {
+          "id": "large-thumb-of-ginger",
+          "name": "large thumb of ginger",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "garlic",
+          "name": "garlic",
+          "amount": 4.0,
+          "unit": "clove"
+        },
+        {
+          "id": "scotch-bonnet-chili",
+          "name": "scotch bonnet chili",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "ketchup",
+          "name": "ketchup",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "hoisin-sauce",
+          "name": "hoisin sauce",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "honey",
+          "name": "honey",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sesame-oil",
+          "name": "sesame oil",
+          "amount": 2.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "spring-onion",
+          "name": "spring onion",
+          "amount": 1.0,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Cut pork belly into 1 inch cubes.",
+          "relatedIngredientIds": [
+            "high-fat-pork-belly"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "In a small frying pan place pork cubes fattiest side down in dry pan, put gas on lowest level possible flame, cover with lid. Ideally your pork covers the entire surface of the small pan---crowding is good for this recipe.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Lard will render out of the pork allowing it to confit cook in its own juice. Low flame essential. Turn the pork 3 or 4 times until all sides are golden and fat is rendered to melt in mouth levels. This will take around 1hr.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 3600,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Remove pork belly and place in a bowl and cover. Remove around half the liquified lard and store for other uses.",
+          "relatedIngredientIds": [
+            "high-fat-pork-belly"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Add diced ginger, smashed garlic cloves and chopped chili and sauté in the remaining lard. Once these are softened add the ketchup, hoisin sauce and honey. Reduce over very low heat for a few minutes until thickened.",
+          "relatedIngredientIds": [
+            "large-thumb-of-ginger",
+            "garlic",
+            "scotch-bonnet-chili",
+            "ketchup",
+            "hoisin-sauce",
+            "honey"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Add the pork belly to the sauce and cook on low for a further 2 minutes. Leave to stand for 5 minutes then add thinly sliced spring onions to garnish. Enjoy with steamed white rice.",
+          "relatedIngredientIds": [
+            "high-fat-pork-belly",
+            "hoisin-sauce",
+            "spring-onion"
+          ],
+          "suggestedTimerSeconds": 120,
+          "timerLabel": "Step 6"
+        }
+      ]
+    },
+    {
+      "id": "honey-sriracha-chicken-thighs",
+      "title": "Honey Sriracha Chicken Thighs",
+      "description": "From based.cooking (public domain).",
+      "image": "images/honey-sriracha-chicken-thighs.jpg",
+      "prepTime": 5,
+      "cookTime": 45,
+      "servings": 4,
+      "dietaryTags": [],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "bone-in",
+          "name": "bone-in, skin-on chicken thighs",
+          "amount": 5.0,
+          "unit": ""
+        },
+        {
+          "id": "olive-oil",
+          "name": "olive oil",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "honey",
+          "name": "honey",
+          "amount": 0.333,
+          "unit": "cup"
+        },
+        {
+          "id": "sriracha-hot-sauce",
+          "name": "sriracha hot sauce",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "kosher-salt",
+          "name": "kosher salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "black-pepper",
+          "name": "black pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "sesame-seeds-as-a-garnis",
+          "name": "Sesame seeds as a garnish (optional)",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Preheat oven to 350°F",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Season the chicken. Rub the thighs with some olive oil and season liberally with salt and pepper.",
+          "relatedIngredientIds": [
+            "bone-in",
+            "olive-oil",
+            "kosher-salt",
+            "black-pepper"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Place the chicken thighs in a cold skillet, skin-side down. Cook for 15 minutes on medium-low heat without touching them.",
+          "relatedIngredientIds": [
+            "bone-in"
+          ],
+          "suggestedTimerSeconds": 900,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Prepare Sriracha sauce by stirring honey and sriracha together in a bowl.",
+          "relatedIngredientIds": [
+            "honey",
+            "sriracha-hot-sauce"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Flip the chicken thighs. Cook for another 10 minutes.",
+          "relatedIngredientIds": [
+            "bone-in"
+          ],
+          "suggestedTimerSeconds": 600,
+          "timerLabel": "Step 5"
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Place chicken thighs on baking tray (or just use skillet if using a cast-iron skillet). Drizzle the sriracha sauce on both sides of the chicken, coating it. You do not have to use all of it.",
+          "relatedIngredientIds": [
+            "bone-in",
+            "sriracha-hot-sauce"
+          ]
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Bake chicken thighs for 15 minutes.",
+          "relatedIngredientIds": [
+            "bone-in"
+          ],
+          "suggestedTimerSeconds": 900,
+          "timerLabel": "Step 7"
+        },
+        {
+          "id": "s8",
+          "order": 8,
+          "instructionText": "Test chicken for doneness. Chicken should reach internal temperature of 165°F.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s9",
+          "order": 9,
+          "instructionText": "If chicken is near done (or done), you can baste a second time with the remaining sauce (you can make more sauce if you need) and return to oven for 5 more minutes. Do not worry about overcooking; chicken thighs are difficult to overcook.",
+          "relatedIngredientIds": [
+            "bone-in",
+            "sriracha-hot-sauce"
+          ]
+        },
+        {
+          "id": "s10",
+          "order": 10,
+          "instructionText": "When chicken is done, let cool for a few minutes and garnish with sesame seeds before serving.",
+          "relatedIngredientIds": [
+            "sesame-seeds-as-a-garnis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korv-stroganoff",
+      "title": "Korv Stroganoff",
+      "description": "From based.cooking (public domain).",
+      "image": "images/korv-stroganoff.jpg",
+      "prepTime": 5,
+      "cookTime": 20,
+      "servings": 4,
+      "dietaryTags": [],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "swedish-falukorv",
+          "name": "Swedish falukorv",
+          "amount": 0.5,
+          "unit": "kg"
+        },
+        {
+          "id": "yellow-onion",
+          "name": "yellow onion",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "olive-oil",
+          "name": "olive oil",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "tomato-pur-e",
+          "name": "tomato purée",
+          "amount": 4.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "cream",
+          "name": "cream",
+          "amount": 250.0,
+          "unit": "ml"
+        },
+        {
+          "id": "milk",
+          "name": "milk",
+          "amount": 100.0,
+          "unit": "ml"
+        },
+        {
+          "id": "soy-sauce",
+          "name": "soy sauce",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "dijon-mustard",
+          "name": "Dijon mustard",
+          "amount": 1.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Cut the sausage into sticks and dice the onion.",
+          "relatedIngredientIds": [
+            "yellow-onion"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Fry the sausage and onion in oil for about ten minutes. Add the tomato purée and cook for another minute.",
+          "relatedIngredientIds": [
+            "yellow-onion",
+            "tomato-pur-e"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Stir in cream, milk, soy sauce and Dijon mustard. Let it simmer for at least five minutes.",
+          "relatedIngredientIds": [
+            "cream",
+            "milk",
+            "soy-sauce",
+            "dijon-mustard"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Season to taste with plenty of pepper, and possibly salt.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Serve with boiled rice. Optionally top with freshly ground pepper and/or garnish with chopped parsley.",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "kropsua",
+      "title": "Kropsua (Finnish Baked Pancake)",
+      "description": "From based.cooking (public domain).",
+      "image": "images/kropsua.jpg",
+      "prepTime": 10,
+      "cookTime": 40,
+      "servings": 4,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "breakfast"
+      ],
+      "ingredients": [
+        {
+          "id": "recipe",
+          "name": "(stick) unsalted butter",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "large-eggs",
+          "name": "Large eggs",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "sugar",
+          "name": "sugar",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "whole-milk",
+          "name": "whole milk",
+          "amount": 2.0,
+          "unit": "cup"
+        },
+        {
+          "id": "all-purpose-flour",
+          "name": "all-purpose flour",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "teapsoon-nutmeg",
+          "name": "Teapsoon nutmeg",
+          "amount": 0.25,
+          "unit": ""
+        },
+        {
+          "id": "maple-syrup",
+          "name": "Maple syrup",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Set oven to preheat 400 degrees F.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "While oven is heating up, mix dry ingredients in a large mixing bowl: flour, sugar, and salt.",
+          "relatedIngredientIds": [
+            "sugar",
+            "salt",
+            "all-purpose-flour"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Add milk and eggs to dry ingredients and mix with a hand mixer.",
+          "relatedIngredientIds": [
+            "large-eggs",
+            "whole-milk"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Once the oven has reached 400F, add one stick of butter into a 9x13 inch glass baking pan, then place it in the oven for a few minutes until the butter has completely melted. Avoid burning the butter by leaving it in the oven too long.",
+          "relatedIngredientIds": [
+            "recipe"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Using heavy oven mitts, remove pan from oven and pour batter into hot pan containing melted butter.",
+          "relatedIngredientIds": [
+            "recipe"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Bake for 40 minutes or until the pancake puffs up and is nicely browned.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 2400,
+          "timerLabel": "Step 6"
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Remove from oven and sprinkle additional small amount of nutmeg over the top of of your kropsua.",
+          "relatedIngredientIds": [
+            "teapsoon-nutmeg"
+          ]
+        },
+        {
+          "id": "s8",
+          "order": 8,
+          "instructionText": "To serve, cut the pancake into squares. Top with maple syrup and serve immediately.",
+          "relatedIngredientIds": [
+            "maple-syrup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lavacake",
+      "title": "Lavacake",
+      "description": "From based.cooking (public domain).",
+      "image": "images/lavacake.jpg",
+      "prepTime": 15,
+      "cookTime": 7,
+      "servings": 2,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "egg",
+          "name": "Egg",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "flour",
+          "name": "Flour",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "id": "butter",
+          "name": "Butter",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "id": "chocolate",
+          "name": "Chocolate",
+          "amount": 75.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Cover the baking tin with some butter.",
+          "relatedIngredientIds": [
+            "butter"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Heat the oven for 200°C.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Mix all of the ingredients.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Fill dough in the baking tins pits.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Bake for 7 min. in the oven at 200°C.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 420,
+          "timerLabel": "Step 5"
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Serve hot with berries and vanilla ice-creame.",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "lentejas",
+      "title": "Sopa de Lentejas",
+      "description": "From based.cooking (public domain).",
+      "image": "images/lentejas.jpg",
+      "prepTime": 5,
+      "cookTime": 35,
+      "servings": 4,
+      "dietaryTags": [],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "carrot",
+          "name": "carrot, chopped",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "green-bell-pepper",
+          "name": "green bell pepper, chopped",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "garlic-cloves",
+          "name": "garlic cloves, minced",
+          "amount": 4.0,
+          "unit": ""
+        },
+        {
+          "id": "large-onion",
+          "name": "large onion, chopped",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "dry-brown-lentils",
+          "name": "dry brown lentils, soaked overnight and drained",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "plum-tomatoes",
+          "name": "plum tomatoes, chopped",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "water",
+          "name": "water, or as needed",
+          "amount": 2.0,
+          "unit": "cup"
+        },
+        {
+          "id": "bay-leaf",
+          "name": "bay leaf",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "extra-virgin-olive-oil",
+          "name": "extra-virgin olive oil",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "paprika",
+          "name": "paprika",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "spicy-chorizo",
+          "name": "spicy chorizo (optional)",
+          "amount": 0.25,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Heat olive oil in a large pot over medium heat.",
+          "relatedIngredientIds": [
+            "extra-virgin-olive-oil"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Add the onion, carrot, and bell pepper; cook and stir until vegetables begin to soften, about 5 minutes.",
+          "relatedIngredientIds": [
+            "carrot",
+            "green-bell-pepper",
+            "large-onion"
+          ],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Step 2"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Stir in the garlic, tomatoes, chorizo and bay leaf; cook about 4 minutes.",
+          "relatedIngredientIds": [
+            "plum-tomatoes",
+            "bay-leaf",
+            "spicy-chorizo"
+          ],
+          "suggestedTimerSeconds": 240,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Add lentils and water (water should be about an inch deeper than the level of the lentils).",
+          "relatedIngredientIds": [
+            "dry-brown-lentils",
+            "water"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Bring to a boil over high heat. Reduce heat to low; simmer, uncovered, until lentils are just cooked, 15 to 20 minutes.",
+          "relatedIngredientIds": [
+            "dry-brown-lentils"
+          ],
+          "suggestedTimerSeconds": 1200,
+          "timerLabel": "Step 5"
+        }
+      ]
+    },
+    {
+      "id": "lenten-chili",
+      "title": "Lenten Chili",
+      "description": "From based.cooking (public domain).",
+      "image": "images/lenten-chili.jpg",
+      "prepTime": 10,
+      "cookTime": 30,
+      "servings": 4,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "large-onion",
+          "name": "large onion, chopped",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "garlic",
+          "name": "garlic, minced",
+          "amount": 3.0,
+          "unit": "clove"
+        },
+        {
+          "id": "15oz-cans-of-kidney-bean",
+          "name": "15oz cans of kidney beans (or 6 cups cooked beans)",
+          "amount": 4.0,
+          "unit": ""
+        },
+        {
+          "id": "29oz-large-can-tomato-sa",
+          "name": "29oz large can tomato sauce (or 4 cups fresh tomato sauce)",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "15oz-can-diced-tomatoes",
+          "name": "15oz can diced tomatoes (or 1 large diced tomato with skin removed)",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "sweet-corn",
+          "name": "sweet corn",
+          "amount": 0.5,
+          "unit": "can"
+        },
+        {
+          "id": "cooked-white-or-brown-ri",
+          "name": "cooked white or brown rice",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "cumin",
+          "name": "cumin",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "smoked-paprika",
+          "name": "smoked paprika",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "garlic-powder",
+          "name": "garlic powder",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "onion-powder",
+          "name": "onion powder",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "chili-powder",
+          "name": "chili powder",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "crushed-red-pepper",
+          "name": "crushed red pepper",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "olive-oil",
+          "name": "olive oil",
+          "amount": 2.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Chop the large onion and mince the garlic cloves.",
+          "relatedIngredientIds": [
+            "large-onion",
+            "garlic"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "On medium-low heat in a large tall pot add 2-3 tbsp olive oil.",
+          "relatedIngredientIds": [
+            "olive-oil"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Add the chopped onions into the pot with oil and constantly stir for 5-10 minutes until they begin to brown.",
+          "relatedIngredientIds": [
+            "large-onion"
+          ],
+          "suggestedTimerSeconds": 600,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Just before onions are done add the minced garlic to the pot and let cook for 1-2 minutes.",
+          "relatedIngredientIds": [
+            "large-onion",
+            "garlic"
+          ],
+          "suggestedTimerSeconds": 120,
+          "timerLabel": "Step 4"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Add the tomato sauce, diced tomatoes, sweet corn, beans, and rice.",
+          "relatedIngredientIds": [
+            "15oz-cans-of-kidney-bean",
+            "29oz-large-can-tomato-sa",
+            "15oz-can-diced-tomatoes",
+            "sweet-corn",
+            "cooked-white-or-brown-ri"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Turn up the heat to medium.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Add each of the spices, taste the chili, and adjust flavoring accordingly.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s8",
+          "order": 8,
+          "instructionText": "Let cook for 20-30 minutes, stirring occasionally.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 1800,
+          "timerLabel": "Step 8"
+        }
+      ]
+    },
+    {
+      "id": "lenten-lentil-curry",
+      "title": "Lenten Lentil Curry",
+      "description": "From based.cooking (public domain).",
+      "image": "images/lenten-lentil-curry.jpg",
+      "prepTime": 5,
+      "cookTime": 35,
+      "servings": 2,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "indian"
+      ],
+      "ingredients": [
+        {
+          "id": "green-lentils",
+          "name": "green lentils",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "id": "vermicelli",
+          "name": "vermicelli",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "id": "curry-powder",
+          "name": "curry powder",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "paprika-powder",
+          "name": "paprika powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "cinnamon-powder",
+          "name": "cinnamon powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "ground-sumac",
+          "name": "ground sumac",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Thoroughly rinse the lentils and drain the water.",
+          "relatedIngredientIds": [
+            "green-lentils"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Put the lentils in the pot, and add 1 L (0.26 gal) of water.",
+          "relatedIngredientIds": [
+            "green-lentils"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Bring to a boil, and gently boil for about 15-20 minutes.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 1200,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Drain the water.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Add the other ingredients to the pot.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Add 1½-2 tsp of salt and a little bit of ground black pepper.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Add 0.5 L (0.13 gal) of boiling water.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s8",
+          "order": 8,
+          "instructionText": "Simmer for about 10 minutes.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 600,
+          "timerLabel": "Step 8"
+        }
+      ]
+    },
+    {
+      "id": "mapo-tofu",
+      "title": "Mapo Tofu (麻婆豆腐)",
+      "description": "From based.cooking (public domain).",
+      "image": "images/mapo-tofu.jpg",
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 4,
+      "dietaryTags": [],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "ground-pork",
+          "name": "ground pork",
+          "amount": 450.0,
+          "unit": "g"
+        },
+        {
+          "id": "soy-sauce",
+          "name": "soy sauce",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "shaoxing-cooking-wine",
+          "name": "Shaoxing cooking wine",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "cornstarch",
+          "name": "cornstarch",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "white-pepper-powder",
+          "name": "white pepper powder",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "spicy-doubanjiang",
+          "name": "spicy doubanjiang (la doubanjiang)",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "dou-chi",
+          "name": "dou-chi",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "chopped-scallions-white-",
+          "name": "chopped scallions white and green separated)",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "minced-garlic-cloves",
+          "name": "minced garlic cloves",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "inch-minced-ginger",
+          "name": "inch minced ginger (similar amount as garlic)",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "chicken-broth-or-water",
+          "name": "chicken broth or water",
+          "amount": 400.0,
+          "unit": "ml"
+        },
+        {
+          "id": "soft-tofu-cut-into-1-5cm",
+          "name": "soft tofu cut into 1.5cm (1/2 inch cubes)",
+          "amount": 340.0,
+          "unit": "g"
+        },
+        {
+          "id": "sichuan-peppercorns-crus",
+          "name": "Sichuan peppercorns crushed",
+          "amount": 1.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Marinade the pork in shaoxing cooking wine, a splash of cooking oil, the soy sauce,",
+          "relatedIngredientIds": [
+            "ground-pork",
+            "soy-sauce",
+            "shaoxing-cooking-wine"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Add cooking oil to a wok and sear the ground pork until browned, chopping it up as it cooks",
+          "relatedIngredientIds": [
+            "ground-pork"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Add the doubanjiang and let it simmer for about a minute",
+          "relatedIngredientIds": [
+            "spicy-doubanjiang"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Add the minced aromatics (ginger, garlic) scallion whites, and dou-chi and cook until fragrant",
+          "relatedIngredientIds": [
+            "inch-minced-ginger"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Add the stock and a splash of soy sauce, turn up the gas and bring to a boil",
+          "relatedIngredientIds": [
+            "soy-sauce"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Add the tofu, lower the gas, and braise for around 15 mins",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 900,
+          "timerLabel": "Step 6"
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "You'll know it's done when the tofu shows their trademark \"pockmarks\" and the seasoning sticks to them",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s8",
+          "order": 8,
+          "instructionText": "Mix in the crushed Sichuan peppercorns and green parts of the scallions right before serving",
+          "relatedIngredientIds": [
+            "sichuan-peppercorns-crus"
+          ]
+        },
+        {
+          "id": "s9",
+          "order": 9,
+          "instructionText": "Serve over steamed rice",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "menemen",
+      "title": "Menemen",
+      "description": "From based.cooking (public domain).",
+      "image": "images/menemen.jpg",
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 3,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "breakfast"
+      ],
+      "ingredients": [
+        {
+          "id": "green-peppers",
+          "name": "green peppers",
+          "amount": 4.0,
+          "unit": ""
+        },
+        {
+          "id": "tomatoes",
+          "name": "tomatoes",
+          "amount": 4.0,
+          "unit": ""
+        },
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 4.0,
+          "unit": ""
+        },
+        {
+          "id": "onions",
+          "name": "onions",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "butter",
+          "name": "butter",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "thyme",
+          "name": "thyme (optional)",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "paprika",
+          "name": "paprika (optional)",
+          "amount": 1.0,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Boil some water and put the tomatoes in it and leave them for a couple of minutes",
+          "relatedIngredientIds": [
+            "tomatoes"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Chop the onions and peppers into small pieces",
+          "relatedIngredientIds": [
+            "green-peppers",
+            "onions"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Take the tomatoes out of the water and peel them off",
+          "relatedIngredientIds": [
+            "tomatoes"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Chop the tomatoes into 4 or 6 pieces",
+          "relatedIngredientIds": [
+            "tomatoes"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Put the butter on the pan and wait till it's melted",
+          "relatedIngredientIds": [
+            "butter"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Put onions and peppers on the pan",
+          "relatedIngredientIds": [
+            "green-peppers",
+            "onions"
+          ]
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "You can add some salt (it will make them a little crispy) and stir till the onions are starting to get brown",
+          "relatedIngredientIds": [
+            "onions"
+          ]
+        },
+        {
+          "id": "s8",
+          "order": 8,
+          "instructionText": "Add tomatoes and start mashing them with a spoon",
+          "relatedIngredientIds": [
+            "tomatoes"
+          ]
+        },
+        {
+          "id": "s9",
+          "order": 9,
+          "instructionText": "When the tomatoes are all mushed-up, add the eggs and seasonings",
+          "relatedIngredientIds": [
+            "tomatoes",
+            "eggs"
+          ]
+        },
+        {
+          "id": "s10",
+          "order": 10,
+          "instructionText": "Stir some more untill everything is mixed up well",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s11",
+          "order": 11,
+          "instructionText": "Cover up the pan so eggs don't stay raw on the top",
+          "relatedIngredientIds": [
+            "eggs"
+          ]
+        },
+        {
+          "id": "s12",
+          "order": 12,
+          "instructionText": "It should be ready in 2 or 3 minutes.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 180,
+          "timerLabel": "Step 12"
+        }
+      ]
+    },
+    {
+      "id": "no-knead-bread",
+      "title": "No-knead Bread",
+      "description": "From based.cooking (public domain).",
+      "image": "images/no-knead-bread.jpg",
+      "prepTime": 780,
+      "cookTime": 50,
+      "servings": 8,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "flour",
+          "name": "flour",
+          "amount": 3.0,
+          "unit": "cup"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "instant-yeast-or-1-25-4-",
+          "name": "instant yeast or 1.25/4 tsp active dry yeast",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "warm-water",
+          "name": "warm water",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "id": "oven-safe-pan",
+          "name": "Oven-safe pan",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Mix the dry ingredients then add the hot water. It should come out as a firm dough.",
+          "relatedIngredientIds": [
+            "warm-water"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Leave the dough at room temperature for 12 hours. You can then keep the dough in the fridge for up to 48 hours before cooking.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Preheat oven and pan to 450 F (230 C).",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Bake for 30 minutes covered (e.g. aluminum foil), then 20 minutes uncovered.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 1800,
+          "timerLabel": "Step 4"
+        }
+      ]
+    },
+    {
+      "id": "oatmeal-pancakes",
+      "title": "Oatmeal Pancakes",
+      "description": "From based.cooking (public domain).",
+      "image": "images/oatmeal-pancakes.jpg",
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 8,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "breakfast",
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "sugar",
+          "name": "sugar (3 tbsp)",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "id": "honey",
+          "name": "honey (1 tbsp)",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "id": "milk",
+          "name": "milk (4 tbsp) (you can use water instead)",
+          "amount": 60.0,
+          "unit": "ml"
+        },
+        {
+          "id": "oat-flour",
+          "name": "oat flour (1 cup)",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "id": "baking-powder",
+          "name": "baking powder (or baking soda + some acid to activate it)",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "raspberry-jam",
+          "name": "Raspberry jam (optional)",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Mix eggs, sugar, honey and milk.",
+          "relatedIngredientIds": [
+            "eggs",
+            "sugar",
+            "honey",
+            "milk"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "In another bowl mix oat flour and baking powder.",
+          "relatedIngredientIds": [
+            "oat-flour",
+            "baking-powder"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Combine two mixtures and let the batter rest for about 15 minutes.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 900,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Preheat the pan for 5 minutes over low (~33%) heat, cook for about 1 - 1.5 minutes then flip when you see bubbles come out and cook for another 45s - 1 minute.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Step 4"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Eat them with raspberry (or any other) jam.",
+          "relatedIngredientIds": [
+            "raspberry-jam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "overnight-oats",
+      "title": "Overnight Oats",
+      "description": "From based.cooking (public domain).",
+      "image": "images/overnight-oats.jpg",
+      "prepTime": 1,
+      "cookTime": 15,
+      "servings": 3,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "breakfast"
+      ],
+      "ingredients": [
+        {
+          "id": "milk",
+          "name": "milk",
+          "amount": 3.0,
+          "unit": "cup"
+        },
+        {
+          "id": "bananas",
+          "name": "bananas (the riper, the better)",
+          "amount": 3.0,
+          "unit": ""
+        },
+        {
+          "id": "plain-yogurt",
+          "name": "plain yogurt",
+          "amount": 6.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "peanut-butter",
+          "name": "peanut butter",
+          "amount": 9.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "oats",
+          "name": "oats",
+          "amount": 3.0,
+          "unit": "cup"
+        },
+        {
+          "id": "eggs",
+          "name": "eggs (optional)",
+          "amount": 9.0,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Pour milk into blender",
+          "relatedIngredientIds": [
+            "milk"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Slice bananas into a few pieces each and add to blender, blend until combined.",
+          "relatedIngredientIds": [
+            "bananas"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Scoop yogurt into blender and blend until combined.",
+          "relatedIngredientIds": [
+            "plain-yogurt"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Scoop peanut butter into blender and blend until combined.",
+          "relatedIngredientIds": [
+            "peanut-butter"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "If using eggs, scramble and cook them on the stove. Add them to blender and blend until combined.",
+          "relatedIngredientIds": [
+            "eggs"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Divide blender contents between 3 storage containers, such as tupperware.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Divide oats into each contatiner.",
+          "relatedIngredientIds": [
+            "oats"
+          ]
+        },
+        {
+          "id": "s8",
+          "order": 8,
+          "instructionText": "Mix each container throughoughly so that the oats are well distributed and are not clumped together.",
+          "relatedIngredientIds": [
+            "oats"
+          ]
+        },
+        {
+          "id": "s9",
+          "order": 9,
+          "instructionText": "Let soak in refridgerator for at least 12 hours.",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "pancake",
+      "title": "Pancake",
+      "description": "From based.cooking (public domain).",
+      "image": "images/pancake.jpg",
+      "prepTime": 20,
+      "cookTime": 10,
+      "servings": 1,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "breakfast",
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "wheat-flour-or-100g-glut",
+          "name": "wheat flour or 100g glutenfree flour",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "id": "milk",
+          "name": "milk",
+          "amount": 200.0,
+          "unit": "ml"
+        },
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "sugar",
+          "name": "sugar",
+          "amount": 2.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "baking-soda",
+          "name": "baking soda",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "a-little-bit-of-salt",
+          "name": "a little bit of salt",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Mix all ingredients in a bowl.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Let the dough rest for ~15 mins.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 900,
+          "timerLabel": "Step 2"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Heat a pan with a bit butter or oil.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "For each pancake spread a ladle of dough in the pan and bake them at lower medium temperature until they are brown on both sides.",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "pasta-navy-style",
+      "title": "Pasta Navy Style",
+      "description": "From based.cooking (public domain).",
+      "image": "images/pasta-navy-style.jpg",
+      "prepTime": 15,
+      "cookTime": 25,
+      "servings": 2,
+      "dietaryTags": [],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "pasta-usually-i-prefer-t",
+          "name": "pasta. Usually I prefer to use fusilli or penne, but any short-cut pasta",
+          "amount": 250.0,
+          "unit": "g"
+        },
+        {
+          "id": "ground-beef",
+          "name": "ground beef",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "id": "tomatoes",
+          "name": "tomatoes",
+          "amount": 3.0,
+          "unit": ""
+        },
+        {
+          "id": "carrot",
+          "name": "carrot",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "onion",
+          "name": "onion",
+          "amount": 0.5,
+          "unit": ""
+        },
+        {
+          "id": "garlic-cloves",
+          "name": "garlic cloves",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "cumin",
+          "name": "Cumin",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "paprika",
+          "name": "Paprika",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Add olive oil to your frying pan, heat it to medium-high heat.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Chop some onions and add them to the preheated pan.",
+          "relatedIngredientIds": [
+            "onion"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "After a couple of minutes add the ground beef to the pan, salt it and mix it",
+          "relatedIngredientIds": [
+            "ground-beef"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "When the meat is almost done, mince the garlic and add it together with the",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Cook the pasta in a pot until its done al dente while the beef is being",
+          "relatedIngredientIds": [
+            "pasta-usually-i-prefer-t",
+            "ground-beef"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Grate the tomatoes over the pan using a grater with small-sized slots, in",
+          "relatedIngredientIds": [
+            "tomatoes"
+          ]
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Grate the carrot using a grater with medium-sized slots and add it to the",
+          "relatedIngredientIds": [
+            "carrot"
+          ]
+        },
+        {
+          "id": "s8",
+          "order": 8,
+          "instructionText": "Salt some more to taste, and add some black pepper to taste, mix.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s9",
+          "order": 9,
+          "instructionText": "Cook it over medium/medium-low heat for about 10-15 minutes or until the",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 900,
+          "timerLabel": "Step 9"
+        },
+        {
+          "id": "s10",
+          "order": 10,
+          "instructionText": "Once (or if) the pasta and beef is already cooked, add the pasta to the pan",
+          "relatedIngredientIds": [
+            "pasta-usually-i-prefer-t",
+            "ground-beef"
+          ]
+        },
+        {
+          "id": "s11",
+          "order": 11,
+          "instructionText": "Serve hot and enjoy!",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "pavlova",
+      "title": "Pavlova",
+      "description": "From based.cooking (public domain).",
+      "image": "images/pavlova.jpg",
+      "prepTime": 20,
+      "cookTime": 55,
+      "servings": 6,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "egg-whites",
+          "name": "egg whites",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "caster-sugar",
+          "name": "caster sugar",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "id": "salt",
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "white-vinegar",
+          "name": "white vinegar",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "cornflour",
+          "name": "cornflour",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "boiling-water",
+          "name": "boiling water",
+          "amount": 4.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "recipe",
+          "name": "(optional) Whipped cream, fresh fruit such as kiwifruit, passionfruit, and strawberries",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Beat all ingredients until smooth, stiff and shines.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Continue beating mixture until soft peak forms when lifting beater (approx 12 minutes).",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 720,
+          "timerLabel": "Step 2"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Place on baking paper on tray.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Bake in middle of oven at 180˚C (350-360˚F) for 10 minutes.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 600,
+          "timerLabel": "Step 4"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Drop temperature down to 150˚C (300˚F) for 45 minutes.",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 2700,
+          "timerLabel": "Step 5"
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Turn off oven and leave to cool in oven.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "(Optional) Serve with fruit salad and ice cream.",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "pineapple-lentil-curry",
+      "title": "Pineapple Lentil Curry",
+      "description": "From based.cooking (public domain).",
+      "image": "images/pineapple-lentil-curry.jpg",
+      "prepTime": 10,
+      "cookTime": 30,
+      "servings": 6,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "indian"
+      ],
+      "ingredients": [
+        {
+          "id": "dried-red-lentils",
+          "name": "dried red lentils, rinsed",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "olive-oil",
+          "name": "olive oil",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "onion",
+          "name": "onion, diced",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "garlic",
+          "name": "garlic, minced",
+          "amount": 2.0,
+          "unit": "clove"
+        },
+        {
+          "id": "curry-powder",
+          "name": "curry powder",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "diced-tomatoes",
+          "name": "diced tomatoes",
+          "amount": 1.0,
+          "unit": "can"
+        },
+        {
+          "id": "pineapple-chunks",
+          "name": "pineapple chunks, drained",
+          "amount": 1.0,
+          "unit": "can"
+        },
+        {
+          "id": "coconut-milk",
+          "name": "coconut milk",
+          "amount": 1.0,
+          "unit": "can"
+        },
+        {
+          "id": "vegetable-broth",
+          "name": "vegetable broth",
+          "amount": 2.0,
+          "unit": "cup"
+        },
+        {
+          "id": "cooked-rice",
+          "name": "cooked rice, for serving",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Heat oil in a large pot over medium heat.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Add onion and garlic. Sauté about 5 minutes, until soft.",
+          "relatedIngredientIds": [
+            "onion",
+            "garlic"
+          ],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Step 2"
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Stir in curry powder and cook about 1 minute, until fragrant.",
+          "relatedIngredientIds": [
+            "curry-powder"
+          ],
+          "suggestedTimerSeconds": 60,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Add all other ingredients. Stir well.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Bring to a boil and then reduce to a simmer. Cover and cook for 25-30 minutes, stirring occasionally, until lentils are soft.",
+          "relatedIngredientIds": [
+            "dried-red-lentils"
+          ],
+          "suggestedTimerSeconds": 1800,
+          "timerLabel": "Step 5"
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Season with salt and pepper.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Serve over rice.",
+          "relatedIngredientIds": [
+            "cooked-rice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "potato-pure",
+      "title": "Potato purée",
+      "description": "From based.cooking (public domain).",
+      "image": "images/potato-pure.jpg",
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 4,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "snack"
+      ],
+      "ingredients": [
+        {
+          "id": "potatoes",
+          "name": "potatoes",
+          "amount": 1.0,
+          "unit": "kg"
+        },
+        {
+          "id": "milk",
+          "name": "milk",
+          "amount": 200.0,
+          "unit": "ml"
+        },
+        {
+          "id": "butter",
+          "name": "butter",
+          "amount": 3.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "grated-cheese",
+          "name": "grated cheese (optional)",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Peel the potatoes and cut them to small pieces.",
+          "relatedIngredientIds": [
+            "potatoes"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Put them in a pot and cover with water.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Bring to boil and cook until potatoes are soft.",
+          "relatedIngredientIds": [
+            "potatoes"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Drain and mash with a fork.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Warm up milk, but don't let it boil.",
+          "relatedIngredientIds": [
+            "milk"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Still on the fire, add butter and mashed potatoes, and optionally grated cheese, and stir until uniform.",
+          "relatedIngredientIds": [
+            "potatoes",
+            "butter",
+            "grated-cheese"
+          ]
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Keep stirring on the fire to thicken as you like.",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "quarkbaellchen",
+      "title": "Quarkbällchen – Fried curd balls",
+      "description": "From based.cooking (public domain).",
+      "image": "images/quarkbaellchen.jpg",
+      "prepTime": 15,
+      "cookTime": 15,
+      "servings": 2,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "id": "quark",
+          "name": "quark (plain yoghurt can be used as a replacement)",
+          "amount": 420.0,
+          "unit": "ml"
+        },
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "sugar",
+          "name": "sugar",
+          "amount": 6.0,
+          "unit": ""
+        },
+        {
+          "id": "packets-of-vanilla-sugar",
+          "name": "packets of vanilla sugar",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "flour",
+          "name": "flour (500g if using yoghurt)",
+          "amount": 400.0,
+          "unit": "g"
+        },
+        {
+          "id": "packets-of-baking-powder",
+          "name": "packets of baking powder",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "sunflower-oil-for-frying",
+          "name": "sunflower oil for frying",
+          "amount": 1.0,
+          "unit": "l"
+        },
+        {
+          "id": "recipe",
+          "name": "(Optional) icing sugar",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "recipe-2",
+          "name": "(Optional) Alcohol by eye so that they do not soak up so much oil",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Mix ingredients (quark, eggs, sugar, flour, baking powder) in one bowl.",
+          "relatedIngredientIds": [
+            "quark",
+            "eggs",
+            "sugar",
+            "packets-of-vanilla-sugar",
+            "flour",
+            "packets-of-baking-powder",
+            "recipe"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Pour the sunflower oil into a cooking pot and heat up the hotplate",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Form balls from the dough and put them into the cooking pot",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Once they are brown-ish, put them onto a plate",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "(Optional) add icing sugar",
+          "relatedIngredientIds": [
+            "sugar",
+            "packets-of-vanilla-sugar",
+            "recipe"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Enjoy!",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "schnitzel",
+      "title": "Schnitzel",
+      "description": "From based.cooking (public domain).",
+      "image": "images/schnitzel.jpg",
+      "prepTime": 15,
+      "cookTime": 6,
+      "servings": 4,
+      "dietaryTags": [],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "veal-cutlets",
+          "name": "veal cutlets (1 ~ 150g)",
+          "amount": 4.0,
+          "unit": ""
+        },
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "lemon",
+          "name": "lemon",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "flour",
+          "name": "flour",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "id": "bread-crumbs",
+          "name": "bread crumbs",
+          "amount": 150.0,
+          "unit": "g"
+        },
+        {
+          "id": "butter",
+          "name": "butter (or even better clarified butter)",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Prepare 3 bowls. (One with flour, one with beaten eggs, one with bread crumbs seasoned with salt and paprika)",
+          "relatedIngredientIds": [
+            "eggs",
+            "flour",
+            "bread-crumbs"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Wash the veal and gently dry it with kitchen roll.",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Put the veal on a board and beat it with a meat tenderizer (or a rolling pin) to a thickness of 0.5 cm. (Beating the veal makes it tender)",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Season the veal with salt and pepper on both sides, dive it through the 3 bowls. (First flour, then eggs, finally bread crumbs)",
+          "relatedIngredientIds": [
+            "eggs",
+            "flour",
+            "bread-crumbs"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Melt the butter in a deep pan. (Attention: not too hot. Butter should not turn brown)",
+          "relatedIngredientIds": [
+            "butter"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "Fry the veal on each side until it is gold brown. (e.g. 3 min on each side)",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 180,
+          "timerLabel": "Step 6"
+        },
+        {
+          "id": "s7",
+          "order": 7,
+          "instructionText": "Serve with a piece of lemon.",
+          "relatedIngredientIds": [
+            "lemon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shrimp-creole",
+      "title": "Shrimp Creole",
+      "description": "From based.cooking (public domain).",
+      "image": "images/shrimp-creole.jpg",
+      "prepTime": 120,
+      "cookTime": 300,
+      "servings": 8,
+      "dietaryTags": [],
+      "categories": [],
+      "ingredients": [
+        {
+          "id": "green-bell-pepper",
+          "name": "Green Bell Pepper, diced",
+          "amount": 2.0,
+          "unit": "cup"
+        },
+        {
+          "id": "5-inch-yellow-or-white-o",
+          "name": "5-inch Yellow or White Onion, diced",
+          "amount": 1.0,
+          "unit": ""
+        },
+        {
+          "id": "celery",
+          "name": "Celery, diced (try to get one with lots of green leaves)",
+          "amount": 2.0,
+          "unit": "cup"
+        },
+        {
+          "id": "olive-or-cooking-oil",
+          "name": "olive or cooking oil",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "id": "heinz-chili-sauce",
+          "name": "Heinz chili sauce (it looks like ketchup but is not)",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "optional-3-tbsp-frank-s-",
+          "name": "[optional] 3 tbsp Frank's RedHot sauce",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "seedless-golden-raisins",
+          "name": "seedless Golden Raisins",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "slivered-almonds",
+          "name": "Slivered Almonds",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "x-14-5oz-cans-of-diced-t",
+          "name": "x 14.5oz cans of diced tomato - optionally blend one",
+          "amount": 3.0,
+          "unit": ""
+        },
+        {
+          "id": "each-pepper",
+          "name": "each: pepper, thyme, salt",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "curry-powder",
+          "name": "curry powder",
+          "amount": 2.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "parsley",
+          "name": "parsley",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": "cleaned-and-shelled-shri",
+          "name": "cleaned and shelled shrimp",
+          "amount": 2.0,
+          "unit": "lb"
+        },
+        {
+          "id": "cooked-white-rice",
+          "name": "cooked white rice",
+          "amount": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Sauté raw vegetables in oil",
+          "relatedIngredientIds": []
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "add remaining ingredients except shrimp",
+          "relatedIngredientIds": [
+            "cleaned-and-shelled-shri"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "simmer 1 hour",
+          "relatedIngredientIds": [],
+          "suggestedTimerSeconds": 3600,
+          "timerLabel": "Step 3"
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Add shrimp and cook for 5 minutes",
+          "relatedIngredientIds": [
+            "cleaned-and-shelled-shri"
+          ],
+          "suggestedTimerSeconds": 300,
+          "timerLabel": "Step 4"
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Serve over cooked rice",
+          "relatedIngredientIds": [
+            "cooked-white-rice"
+          ]
+        },
+        {
+          "id": "s6",
+          "order": 6,
+          "instructionText": "[optional] Best if cooked a day ahead and reheated.",
+          "relatedIngredientIds": []
+        }
+      ]
+    },
+    {
+      "id": "soleier",
+      "title": "Soleier (pickled eggs)",
+      "description": "From based.cooking (public domain).",
+      "image": "images/soleier.jpg",
+      "prepTime": 0,
+      "cookTime": 10,
+      "servings": 10,
+      "dietaryTags": [
+        "vegetarian"
+      ],
+      "categories": [
+        "snack"
+      ],
+      "ingredients": [
+        {
+          "id": "peels-of-five-onions",
+          "name": "peels of five onions",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "id": "eggs",
+          "name": "eggs",
+          "amount": 10.0,
+          "unit": ""
+        },
+        {
+          "id": "loorber-leaves",
+          "name": "loorber leaves",
+          "amount": 2.0,
+          "unit": ""
+        },
+        {
+          "id": "cloves",
+          "name": "cloves",
+          "amount": 3.0,
+          "unit": ""
+        },
+        {
+          "id": "allspice",
+          "name": "allspice",
+          "amount": 4.0,
+          "unit": ""
+        },
+        {
+          "id": "peppercorns",
+          "name": "peppercorns",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "caraway-seeds",
+          "name": "caraway seeds",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mustard-seeds",
+          "name": "mustard seeds",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "szechuan-pepper",
+          "name": "Szechuan pepper (optional)",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "lovage",
+          "name": "lovage (optional)",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "nutmeg",
+          "name": "nutmeg (optional)",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "vinegar",
+          "name": "vinegar",
+          "amount": 100.0,
+          "unit": "ml"
+        },
+        {
+          "id": "garlic",
+          "name": "garlic",
+          "amount": 3.0,
+          "unit": "clove"
+        }
+      ],
+      "steps": [
+        {
+          "id": "s1",
+          "order": 1,
+          "instructionText": "Put 750mL of water and the peels of five onions in a pot and let them cook for five minutes. Remove the peels about twenty minutes later.",
+          "relatedIngredientIds": [
+            "peels-of-five-onions"
+          ]
+        },
+        {
+          "id": "s2",
+          "order": 2,
+          "instructionText": "Put the eggs, one teaspoon of sugar, two tablespoons of salt and all spices (but vinegar and garlic) in the pot, bring it to a boil and cook them for seven minutes.",
+          "relatedIngredientIds": [
+            "eggs",
+            "vinegar",
+            "garlic"
+          ]
+        },
+        {
+          "id": "s3",
+          "order": 3,
+          "instructionText": "Use a spoon to remove the eggs from the pot and crack them all around. Do not remove the eggshell!",
+          "relatedIngredientIds": [
+            "eggs"
+          ]
+        },
+        {
+          "id": "s4",
+          "order": 4,
+          "instructionText": "Place the eggs and the garlic in a jar, fill it with the spiced water and add the vinegar. Add water, if needed, so that the eggs are covered.",
+          "relatedIngredientIds": [
+            "eggs",
+            "vinegar",
+            "garlic"
+          ]
+        },
+        {
+          "id": "s5",
+          "order": 5,
+          "instructionText": "Let them rest for at least three days and at most two weeks at room temperature or slightly below.",
+          "relatedIngredientIds": []
+        }
+      ]
+    }
+  ]
+}

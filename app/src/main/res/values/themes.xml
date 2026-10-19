@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.CookAlong" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+    </style>
+    <color name="bg">#FF14110F</color>
+    <color name="brand">#FFE8A33D</color>
+</resources>

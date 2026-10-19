@@ -1,0 +1,418 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "cook along",
+      "intents": [
+        {
+          "name": "PairIntent",
+          "samples": [
+            "pair with {code}",
+            "pair my tv with {code}",
+            "pair with code {code}",
+            "connect with code {code}",
+            "connect my tv with code {code}",
+            "link code {code}",
+            "link my tv with {code}",
+            "the code is {code}",
+            "my code is {code}",
+            "code {code}",
+            "use code {code}",
+            "{code}"
+          ],
+          "slots": [
+            {
+              "name": "code",
+              "type": "AMAZON.NUMBER"
+            }
+          ]
+        },
+        {
+          "name": "UnlinkIntent",
+          "samples": [
+            "disconnect my tv",
+            "unlink my tv",
+            "disconnect from my tv",
+            "forget my tv"
+          ]
+        },
+        {
+          "name": "NextStepIntent",
+          "samples": [
+            "next step",
+            "go to the next step",
+            "go forward",
+            "move on",
+            "what's next",
+            "what's the next step",
+            "i'm done with this step",
+            "done with this step",
+            "skip this step",
+            "the next one"
+          ]
+        },
+        {
+          "name": "PreviousStepIntent",
+          "samples": [
+            "previous step",
+            "go back a step",
+            "go back one step",
+            "go to the previous step",
+            "the step before",
+            "one step back"
+          ]
+        },
+        {
+          "name": "RepeatStepIntent",
+          "samples": [
+            "repeat the step",
+            "read the step",
+            "read this step",
+            "what's this step",
+            "what's the current step",
+            "what do i do now",
+            "what step am i on",
+            "read that again",
+            "what was that step"
+          ]
+        },
+        {
+          "name": "GoToStepIntent",
+          "samples": [
+            "go to step {number}",
+            "step {number}",
+            "jump to step {number}",
+            "skip to step {number}",
+            "show step {number}",
+            "read step {number}"
+          ],
+          "slots": [
+            {
+              "name": "number",
+              "type": "AMAZON.NUMBER"
+            }
+          ]
+        },
+        {
+          "name": "FinishIntent",
+          "samples": [
+            "i'm finished",
+            "i'm done cooking",
+            "i'm done",
+            "finish the recipe",
+            "finish cooking",
+            "we're done",
+            "the dish is ready"
+          ]
+        },
+        {
+          "name": "StartTimerIntent",
+          "samples": [
+            "set a timer for {duration}",
+            "start a timer for {duration}",
+            "start a {duration} timer",
+            "set a {duration} timer",
+            "timer for {duration}",
+            "start the timer",
+            "start the step timer",
+            "set the timer",
+            "start timer",
+            "{duration}",
+            "for {duration}"
+          ],
+          "slots": [
+            {
+              "name": "duration",
+              "type": "AMAZON.DURATION"
+            }
+          ]
+        },
+        {
+          "name": "AddTimeIntent",
+          "samples": [
+            "add {duration}",
+            "add {duration} to the timer",
+            "add {duration} more",
+            "give it {duration} more",
+            "add a minute",
+            "add one more minute",
+            "add more time",
+            "extend the timer by {duration}"
+          ],
+          "slots": [
+            {
+              "name": "duration",
+              "type": "AMAZON.DURATION"
+            }
+          ]
+        },
+        {
+          "name": "TimerStatusIntent",
+          "samples": [
+            "how much time is left",
+            "how long is left",
+            "how much longer",
+            "how long left on the timer",
+            "check the timer",
+            "check my timers",
+            "how are my timers",
+            "what's left on the timer",
+            "time left"
+          ]
+        },
+        {
+          "name": "PauseTimersIntent",
+          "samples": [
+            "pause the timer",
+            "pause the timers",
+            "pause all timers",
+            "hold the timer"
+          ]
+        },
+        {
+          "name": "ResumeTimersIntent",
+          "samples": [
+            "resume the timer",
+            "resume the timers",
+            "continue the timer",
+            "unpause the timer",
+            "start the timers again"
+          ]
+        },
+        {
+          "name": "StopTimerIntent",
+          "samples": [
+            "stop the timer",
+            "cancel the timer",
+            "dismiss the timer",
+            "turn off the timer",
+            "stop the alarm",
+            "the timer is done"
+          ]
+        },
+        {
+          "name": "IngredientsIntent",
+          "samples": [
+            "what ingredients do i need",
+            "what are the ingredients",
+            "show the ingredients",
+            "list the ingredients",
+            "show me the ingredients",
+            "read the ingredients",
+            "ingredients",
+            "what do i need"
+          ]
+        },
+        {
+          "name": "StepIngredientsIntent",
+          "samples": [
+            "what do i need for this step",
+            "what goes in this step",
+            "which ingredients are in this step",
+            "ingredients for this step"
+          ]
+        },
+        {
+          "name": "IngredientAmountIntent",
+          "samples": [
+            "how much {item} do i need",
+            "how many {item} do i need",
+            "how much {item}",
+            "how many {item}",
+            "quantity of {item}",
+            "how much {item} goes in"
+          ],
+          "slots": [
+            {
+              "name": "item",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "ServingsIntent",
+          "samples": [
+            "make it for {count} people",
+            "make it for {count}",
+            "scale it for {count}",
+            "scale to {count} servings",
+            "change servings to {count}",
+            "{count} servings",
+            "cook for {count} people",
+            "i'm cooking for {count}",
+            "set servings to {count}"
+          ],
+          "slots": [
+            {
+              "name": "count",
+              "type": "AMAZON.NUMBER"
+            }
+          ]
+        },
+        {
+          "name": "StartCookingIntent",
+          "samples": [
+            "start cooking",
+            "let's cook",
+            "let's start",
+            "start the recipe",
+            "begin cooking",
+            "cook this",
+            "let's make it"
+          ]
+        },
+        {
+          "name": "FindRecipeIntent",
+          "samples": [
+            "find {query}",
+            "find {query} recipes",
+            "find a recipe for {query}",
+            "search for {query}",
+            "show me {query}",
+            "show me {query} recipes",
+            "i want to make {query}",
+            "i want to cook {query}",
+            "recipes with {query}",
+            "what can i make with {query}",
+            "open {query}",
+            "look for {query}"
+          ],
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "QuickRecipesIntent",
+          "samples": [
+            "what can i make in {duration}",
+            "recipes under {duration}",
+            "something quick",
+            "quick recipes",
+            "show quick recipes",
+            "what can i cook in {duration}",
+            "recipes in {duration}",
+            "something i can make in {duration}"
+          ],
+          "slots": [
+            {
+              "name": "duration",
+              "type": "AMAZON.DURATION"
+            }
+          ]
+        },
+        {
+          "name": "ShoppingListIntent",
+          "samples": [
+            "send the shopping list to my phone",
+            "shopping list",
+            "show the shopping list",
+            "send the list to my phone",
+            "send the ingredients to my phone",
+            "show the qr code"
+          ]
+        },
+        {
+          "name": "FridgeScanIntent",
+          "samples": [
+            "scan my fridge",
+            "fridge scan",
+            "look in my fridge",
+            "what can i make from my fridge",
+            "check my fridge",
+            "scan my pantry"
+          ]
+        },
+        {
+          "name": "SubstituteIntent",
+          "samples": [
+            "what can i use instead of {item}",
+            "i don't have {item}",
+            "i'm out of {item}",
+            "substitute for {item}",
+            "what's a substitute for {item}",
+            "can i replace {item}",
+            "what can replace {item}",
+            "alternative to {item}",
+            "i ran out of {item}"
+          ],
+          "slots": [
+            {
+              "name": "item",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "ChefQuestionIntent",
+          "samples": [
+            "ask the chef {question}",
+            "chef {question}",
+            "how do i {question}",
+            "how long should i {question}",
+            "how can i tell if {question}",
+            "how do i know when {question}",
+            "is it okay to {question}",
+            "why is my {question}",
+            "what should i do if {question}",
+            "what does {question} mean",
+            "should i {question}",
+            "what temperature {question}"
+          ],
+          "slots": [
+            {
+              "name": "question",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
