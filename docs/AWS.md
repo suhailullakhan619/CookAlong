@@ -89,17 +89,6 @@ aws cloudformation deploy --template-file backend/template.yaml --stack-name coo
 
 Tests: `python -m unittest discover backend`.
 
-## Product feedback (draft for the Devpost form)
+## Product feedback
 
-**Amazon Bedrock (Nova, Converse API, Guardrails).** Used for photo-to-ingredients, spoken answers and the agent's
-reasoning. Nova Pro called tools reliably and read food photos well in about 2 seconds. Guardrails were quick to add and
-blocked the example medical and prompt-attack inputs while letting cooking questions through. *Needs work:* Claude
-models on Bedrock couldn't be enabled on an India-billed (AISPL) account, and the error pointed at IAM instead of the
-real cause (see the friction log).
-
-**Strands Agents SDK.** Used for the dinner planner. Tool decorators and `structured_output_model` kept the agent to
-about 150 lines. *Needs work:* installing it for Lambda from Windows fails because pip resolves `mcp`'s Windows-only
-`pywin32` even when targeting Linux (workaround: a pinned `--no-deps` list).
-
-**AWS Lambda, Function URLs, DynamoDB, IAM, CloudFormation.** All worked as expected. Function URLs made a public API
-for a TV app a one-liner. We would build with all of them again.
+Feedback on every tool, including the AWS services above, is in [PRODUCT_FEEDBACK.md](PRODUCT_FEEDBACK.md); problems we hit are in [FRICTION_LOG.md](FRICTION_LOG.md).

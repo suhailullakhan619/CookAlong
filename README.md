@@ -4,6 +4,26 @@ CookAlong is a hands-free recipe companion for Amazon Fire TV. You browse recipe
 
 Built natively with **Kotlin + Jetpack Compose for TV** (`androidx.tv:tv-material`). It needs no Google Play services, so it runs on Fire OS.
 
+## Amazon Developer Hackathon entry
+
+**Track:** Fire TV (priority categories: computer vision, multi-modal UX, family entertainment). **Mini challenges:** AWS Builder and Open Source.
+
+| Feature | What it does | AWS / Amazon tech |
+|---|---|---|
+| **Fridge scan** | Scan a QR code, photograph your fridge with your phone, and the TV lists what you can cook ("Ready to cook" / "Almost there") | Amazon Nova Pro on Amazon Bedrock (vision), Lambda, DynamoDB |
+| **Plan dinner agent** | An agent picks one to three meals from what you have, suggests swaps and builds the shopping list, and the TV shows the plan | Strands Agents SDK on Nova Pro, Bedrock Guardrails, Lambda, DynamoDB |
+| **Voice** | "Alexa, next / pause" work through the Fire TV media session; a custom skill adds timers, ingredient questions, search and "ask the chef" (see the status note in the Alexa section) | Alexa Skills Kit model, Lambda, DynamoDB, Bedrock |
+| **Cooking mode** | One big step at a time, several timers, read aloud, resume after a restart, all offline | Fire OS, Compose for TV |
+| **Recipe library** | 477 recipes (174 Indian), 429 of them online in DynamoDB and synced to the TV, all with credited open licences | DynamoDB, GitHub Pages |
+
+Where to read more:
+- [docs/AWS.md](docs/AWS.md): architecture diagram, every AWS service and how it is used, and how to deploy it.
+- [docs/DEVPOST.md](docs/DEVPOST.md): the project description, track and mini-challenge answers.
+- [docs/PRODUCT_FEEDBACK.md](docs/PRODUCT_FEEDBACK.md), [docs/FEATURE_REQUESTS.md](docs/FEATURE_REQUESTS.md) and [docs/FRICTION_LOG.md](docs/FRICTION_LOG.md).
+- [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md): the demo video plan.
+
+**What was built in the hackathon window:** everything here. The project was started in October 2026 (the earliest files are dated 2026-10-14 and the first commit is 2026-10-19), after the Aug 31 cut-off for existing projects.
+
 ---
 
 ## Prerequisites
@@ -25,7 +45,7 @@ sdk.dir=C:/Users/<you>/AppData/Local/Android/Sdk
 ## Build, test, run
 
 ```bash
-./gradlew :app:testDebugUnitTest      # 34 JVM unit tests (scaling, timers, catalog, QR, list server, step animations, speech, persistence)
+./gradlew :app:testDebugUnitTest      # 82 JVM unit tests (scaling, timers, catalog, matching, search, QR, offline, Alexa state, planner client)
 ./gradlew :app:assembleDebug          # app/build/outputs/apk/debug/app-debug.apk
 ./gradlew :app:assembleRelease        # minified ~1.7 MB APK, debug-signed so it installs as-is
 ```
@@ -39,6 +59,15 @@ adb shell am start -n com.cookalong.app/.MainActivity
 ```
 
 Before submitting to the Amazon Appstore, replace the debug `signingConfig` in `app/build.gradle.kts` with your own keystore.
+
+Backend tests (no AWS needed; the planner tests need `pip install strands-agents`):
+
+```bash
+python -m unittest discover backend    # 44 skill + 12 planner + 5 scan tests
+```
+
+The backend (AWS) setup is in [docs/AWS.md](docs/AWS.md). The app works without it: leave the URLs in
+`app/src/main/assets/config.json` blank and you get the bundled recipes and cooking mode only.
 
 ## Offline
 
@@ -100,6 +129,11 @@ I checked Amazon's current docs ([Voice-enabling transport controls with MediaSe
 
 ## Alexa skill: cook with any Echo
 
+> **Status:** the skill package (`alexa/skill-package/`, 36 intents), the skill Lambda and the TV-side bridge are built and
+> tested end to end with simulated Alexa requests (the Lambda is invoked with the same JSON Alexa sends) on an Android TV
+> emulator and a real Fire TV Stick. The skill has **not been published or enabled in an Alexa developer account**, so no
+> spoken phrase has been tried on a real Echo. The plain "Alexa, next / pause" media commands below need no skill.
+
 **Connect Alexa** on Home shows a 6-digit code. Say *"Alexa, ask Cook Along to pair with 4 8 2 1 5 7"* once. After
 that, any Echo on the same Amazon account, or the Alexa button on the remote, drives the TV while CookAlong is on screen:
 
@@ -133,14 +167,14 @@ Echo ──voice──▶ Alexa ──▶ Lambda cookalong-alexa (eu-west-1, ale
 - **Ask the chef:** Amazon Nova Pro through the Bedrock Converse API, with Nova 2 Lite as a backup.
 
 **Deploy:** `bash backend/deploy.sh` (creates `cookalong-tv` and the TV endpoints), then `bash backend/deploy_alexa.sh`.
-The skill itself (invocation name *cook along*, 35 intents, en-IN / en-US / en-GB) is in `alexa/skill-package/`.
+The skill itself (invocation name *cook along*, 36 intents, en-IN / en-US / en-GB) is in `alexa/skill-package/`.
 Create it in the Alexa developer console with that model and the Lambda ARN printed by the deploy script, then
 re-run `SKILL_ID=amzn1.ask.skill.… bash backend/deploy_alexa.sh` so only your skill can invoke the function.
 Skills in the *Development* stage work on every Alexa device signed in to the developer's Amazon account, with no
 certification.
 
-**Tests:** `python -m unittest discover backend` (28 skill tests) and `AlexaBridgeTest` in the app (spoken ingredients,
-state JSON, search).
+**Tests:** `python -m unittest discover backend` (44 skill tests, including that every phrase's intent has a handler) and
+`AlexaBridgeTest` in the app (spoken ingredients, state JSON, search).
 
 ## Timers
 
@@ -201,7 +235,7 @@ Beyond the bundled recipes, the app downloads more from the backend, so new dish
   - If anything is new, a "N new recipes added" toast appears. The app syncs again when it comes back to the foreground, at most every 10 minutes.
   - With no network, nothing changes and nothing breaks.
   - Bundled recipes win over online ones with the same id or title.
-- **On screen:** downloaded recipes appear in the **New from the recipe library** shelf and in every matching shelf (Indian, World kitchen, Healthy…). They also take part in Fridge scan matching. They use generated art until a licensed photo is added. The recipe screen shows the credit and license ("Recipe: Wikibooks Cookbook contributors · CC BY-SA 4.0").
+- **On screen:** downloaded recipes appear in the **New from the recipe library** shelf and in every matching shelf (Indian, World kitchen, Healthy…). They also take part in Fridge scan matching. 406 of the 429 have a credited photo (Wikimedia Commons, based.cooking and Openverse, CC0 to CC BY-SA, hosted on GitHub Pages); the other 23 show illustrated art. The recipe screen shows the credit and license ("Recipe: Wikibooks Cookbook contributors · CC BY-SA 4.0").
 - **Adding recipes:** write batch files in the app's format to `recipes-data/`, then upload them:
   ```bash
   python tools/recipe_db.py validate recipes-data/batch-001.json   # checks format, units, diets, attribution
@@ -219,7 +253,7 @@ Beyond the bundled recipes, the app downloads more from the backend, so new dish
 
 **Fridge scan** on Home: the TV shows a QR code and a 6-letter pairing code. Scanning it opens `scan.html` on the phone, where you photograph your fridge or pantry. Amazon Nova Pro on Amazon Bedrock lists the visible ingredients, and the TV ranks all recipes by what you have ("You have 5 of 7 · Need: lemon, parmesan"). Opening a match goes to its recipe; Back returns to the results.
 
-- **Backend:** `backend/lambda_function.py`, deployed with `bash backend/deploy.sh` to AWS account 098965242983 (ap-south-1). It's a Lambda Function URL plus the DynamoDB table `cookalong-scans`. The URL goes in `config.json` → `scanApiUrl`, and leaving it blank hides the feature.
+- **Backend:** `backend/lambda_function.py`, deployed with `bash backend/deploy.sh` to your AWS account (region ap-south-1). It's a Lambda Function URL plus the DynamoDB table `cookalong-scans`. The URL goes in `config.json` → `scanApiUrl`, and leaving it blank hides the feature.
 - **Models:** Amazon Nova Pro (`apac.amazon.nova-pro-v1:0`), with Nova 2 Lite (`global.amazon.nova-2-lite-v1:0`) taking over if Pro is throttled. Nova is Amazon's own model, billed by AWS directly, so it needs no AWS Marketplace subscription. In a side-by-side test on food photos Nova Pro picked out the most ingredients (peas, cashews and raisins in fried rice) at about 1.8 s per scan. Claude was dropped: India-billed (AISPL) accounts can't complete the Marketplace subscription that Anthropic models on Bedrock need.
 - **No API keys in the app:** the Lambda's IAM role is the only thing allowed to call Bedrock (`bedrock:InvokeModel` on Amazon Nova). To change models, edit `MODELS` in `lambda_function.py` (and `CHEF_MODELS` in `alexa_skill.py`).
 - **Privacy:** the photo is shrunk on the phone and never stored. Only the ingredient list is kept, and it expires after an hour.
@@ -227,12 +261,27 @@ Beyond the bundled recipes, the app downloads more from the backend, so new dish
 - **Matching:** `RecipeMatcher` handles plurals, varieties ("basmati rice" ← "rice") and alternatives ("butter or ghee"), and ignores pantry staples. "Coconut milk" is not plain "milk".
 - **AWS setup:** none beyond `deploy.sh`. Nova models are available on every account in Mumbai without a model-access request.
 
+## Plan dinner (Strands agent on Amazon Nova)
+
+After a fridge scan, **Plan dinner** sends the ingredients to `backend/dinner_agent.py` (Lambda `cookalong-agent`). A
+Strands agent on Amazon Nova Pro calls four tools (`find_recipes`, `get_recipe`, `suggest_swap`, `shopping_list`) over the
+recipe database and answers with one to three meals, swap ideas, a shopping list and a tip. The server then re-checks
+every fact shown on the TV from DynamoDB (recipe exists, diet and time limits, minutes, missing items), so the model
+chooses and explains but can't invent a recipe. A Bedrock Guardrail (`backend/setup_guardrail.py`) blocks medical and
+allergy-safety advice and prompt attacks. Each TV is limited to 12 plans an hour.
+
+- **API:** `POST /plan {device, ingredients | scanCode, servings, diet, maxMinutes}` on the agent's Function URL, set in
+  `config.json` → `plannerApiUrl` (blank hides the button). A plan takes about 5 to 15 seconds.
+- **Deploy:** `bash backend/deploy_agent.sh`; all AWS resources can also be created from `backend/template.yaml`.
+- **Details and architecture diagram:** [docs/AWS.md](docs/AWS.md).
+- **Alexa:** "what's for dinner" starts a plan from your last fridge scan (needs the Alexa skill; see its status note).
+
 ## Companion QR / shopping list
 
 Scanning the QR opens the shopping list as a web page on the phone. It shows the dish picture, an icon per ingredient and tick-boxes:
 
-- **Public page (configured):** `config.json` → `"companionBaseUrl": "https://cookalong-tv.github.io/"`. It works from **any phone on any network**, including mobile data. The QR link carries the recipe, servings and scaled list in its `#fragment`, which browsers never send to the server, so the page needs no backend or database. The site is published from the `site/` folder to the GitHub repo `cookalong-tv/cookalong-tv.github.io` (organization `cookalong-tv`) (GitHub Pages).
-  - To update it after changing recipes or pictures: run `python tools/build_site.py`, then `git add -A`, `git commit`, `git push` inside `site/`.
+- **Public page (configured):** `config.json` → `"companionBaseUrl": "https://cookalong-tv.github.io/"`. It works from **any phone on any network**, including mobile data. The QR link carries the recipe, servings and scaled list in its `#fragment`, which browsers never send to the server, so the page needs no backend or database. The page and the online recipe photos are served by GitHub Pages from the separate repo `cookalong-tv/cookalong-tv.github.io`. `site/` is generated by `tools/build_site.py` from `app/src/main/assets/companion/` and the credited photos in `photos/`, so it is not committed in this repo.
+  - To update it after changing recipes or pictures: run `python tools/build_site.py`, then `git add -A`, `git commit`, `git push` inside `site/` (that folder is its own git repo).
 - **Local Wi-Fi fallback (if `companionBaseUrl` is blank):** the TV serves the same page itself (`CompanionServer`, port 8765, read-only). The phone must be on the same Wi-Fi. `tools/qr_relay.py` lets a phone reach the emulator for testing.
 - **No network at all:** the QR holds the list as plain ASCII text.
 
@@ -247,21 +296,30 @@ Scanning the QR opens the shopping list as a web page on the phone. It shows the
 
 ```
 app/src/main/
-  assets/            recipes.json, config.json, images/, companion/index.html (phone page)
+  assets/            recipes.json, config.json, images/, companion/ (phone pages)
   java/com/cookalong/app/
-    data/            models, JSON loading/validation, scaling, DataStore session, shopping list / QR modes
+    data/            models, JSON loading/validation, scaling, matcher, search, DataStore session, shopping list / QR modes
+    ai/              fridge-scan and dinner-planner API clients
+    alexa/           Alexa bridge client, TV state and commands
+    net/             connectivity detection (offline mode)
     companion/       LAN web server for the phone shopping-list page
     timer/           pure timer logic (clock-injected, unit-tested)
-    audio/           synthesized chime
+    audio/           synthesized chime, text-to-speech with engine fallback
     voice/           MediaSession bridge (Alexa transport commands)
-    ui/              ViewModel, theme, components, screens (Home, Detail, Cooking, overlays)
-tools/gen_art.py     regenerates the launcher banner (drawn dish placeholders only with --dishes)
-tools/apply_photos.py / find_commons_photos.py  real dish photos + credits
-tools/qr_relay.py    emulator-only: lets a phone reach the local Wi-Fi QR page
-tools/build_site.py  builds site/, the public phone page (GitHub Pages)
-tools/import_recipes.py  imports a RecipeSage / JSON-LD recipe export
-tools/import_based_cooking.py  imports public-domain recipes from a based.cooking clone
-site/                published copy of the phone page + dish pictures
+    ui/              ViewModel, theme, components, screens (Home, Detail, Cooking, Fridge scan, Plan, Alexa, overlays)
+backend/
+  lambda_function.py recipes API, fridge scan, TV bridge routes (Lambda cookalong-fridge-scan)
+  dinner_agent.py    Strands dinner-planner agent (Lambda cookalong-agent)
+  alexa_skill.py     Alexa skill handler (Lambda cookalong-alexa, eu-west-1)
+  tv_bridge.py       pairing, command queue and TV state in DynamoDB
+  setup_guardrail.py Bedrock Guardrail
+  template.yaml      CloudFormation for the AWS resources
+  deploy*.sh         deploy scripts; test_*.py unit tests
+alexa/skill-package/ Alexa skill manifest and interaction model
+docs/                AWS integration, Devpost text, product feedback, feature requests, friction log, demo script
+photos/              credited dish photos (640x360) for the online recipes
+recipes-data/        recipe batches (JSON) and the import scripts that built the online library
+tools/               recipe_db.py (validate/upload recipes), photo tools, import tools, build_site.py, qr_relay.py
 ```
 
 ## Known limitations
@@ -269,7 +327,8 @@ site/                published copy of the phone page + dish pictures
 - Free-form voice works through the Cook Along Alexa skill only while CookAlong is on screen; the TV polls for commands and has no push channel (ADM).
 - No foreground service, so timer alerts can't fire while the process is dead. They fire on return.
 - While cooking, the active media session may show a "Now playing: <recipe>" tile in the system UI.
-- Tested on an Android TV (API 30) emulator, not yet on Fire TV hardware (see below).
+- The Alexa skill is not published (see its status note); the media-session voice commands are unconfirmed on a real Fire TV.
+- Verified on an Android TV emulator and one real Fire TV Stick (Amazon AFTSSS, Fire OS 7); see below.
 
 ## Verification status
 
@@ -289,7 +348,9 @@ site/                published copy of the phone page + dish pictures
 - A missing image shows generated fallback art.
 - The release APK makes no outbound network requests; INTERNET is used only for the LAN shopping-list page.
 
-**Needs a real Fire TV:**
+**Verified on a real Fire TV Stick (AFTSSS, Fire OS 7):** the app installs and launches, Home shows all 429 online recipes with photos, Read aloud works after the engine-fallback fix (the stick's default text-to-speech engine has no voices; `com.svox.pico` is used instead), and the cooking flow runs.
+
+**Still needs a real Fire TV:**
 
 - Alexa routing of "next / previous / pause / play" to the MediaSession.
 - VoiceView traversal.
