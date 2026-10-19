@@ -3,6 +3,7 @@
   "companionBaseUrl": "https://cookalong-tv.github.io/",
   "recipesApiUrl": "https://o4cyhys2fpdkczhn5n2ftvp7be0izfyg.lambda-url.ap-south-1.on.aws/",
   "scanApiUrl": "https://o4cyhys2fpdkczhn5n2ftvp7be0izfyg.lambda-url.ap-south-1.on.aws/",
+  "plannerApiUrl": "https://fjdofcjokrp5mnfuarasiwwjrm0iayjd.lambda-url.ap-south-1.on.aws/",
   "scanPageUrl": "https://cookalong-tv.github.io/scan.html",
   "alexaApiUrl": "https://o4cyhys2fpdkczhn5n2ftvp7be0izfyg.lambda-url.ap-south-1.on.aws/",
   "defaultCustomTimerMinutes": 5,

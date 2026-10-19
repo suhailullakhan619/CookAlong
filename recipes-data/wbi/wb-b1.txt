@@ -1,0 +1,456 @@
+!source wikibooks
+
+@ aloo-bonda | Aloo Bonda | Spiced potato balls dipped in gram flour batter and deep fried until golden, a South Indian teatime snack. | 25 | 30 | 4 | indian,south-indian,snack | Cookbook:Bonda (South Indian Vegetable Fritter) | vegan
+- 2 potatoes
+- 1 onion, finely chopped
+- 4 green chillies, chopped
+- 2 tbsp chopped coriander leaves
+- 1 tsp finely chopped ginger
+- 1 tsp finely chopped garlic
+- 2 tbsp oil
+- 1 cup besan (gram flour)
+- 1/4 cup rice flour
+- 1/2 tsp baking soda
+- salt
+- water
+- oil for deep frying
+> Boil the potatoes, peel them and mash coarsely.
+> Heat 2 tbsp of the oil in a pan. When hot, add the green chillies and fry for a few seconds.
+> Add the onion and fry until browned.
+> Add the ginger and garlic and fry for 1 minute.
+> Fold in the coriander leaves, mashed potatoes and salt. Let cool, then shape into golf-ball-sized balls.
+> For the batter, mix the besan, rice flour, baking soda and salt.
+> Add enough water to make a smooth batter, slightly thicker than ketchup.
+> Heat oil for deep frying, at least 4 cm deep, in a deep pan.
+> Dip each potato ball in the batter so it is completely coated, and slide it into the hot oil. Don't overcrowd the pan.
+> Fry the bondas until golden, then drain. Serve hot with chutney or ketchup.
+
+@ kadhi-pakora | Kadhi Pakora | Tangy buttermilk and besan curry tempered with mustard and curry leaves, with fried besan pakoras soaked in. | 15 | 30 | 4 | indian | Cookbook:Buttermilk Curry Soup (Kadi Pakora)
+- 1 cup besan (gram flour)
+- 1 tbsp gram flour (besan), for the curry
+- water
+- salt
+- turmeric powder
+- oil, for frying
+- 500 ml buttermilk
+- 1 pinch hing (asafoetida)
+- black mustard seeds
+- 1 clove garlic, minced
+- 1/2 tsp minced ginger
+- 5 curry leaves
+- 1 small onion, finely chopped
+> For the pakoras, mix the 1 cup besan with water, salt and turmeric powder to make a thick batter.
+> Heat the oil in a large pan for frying.
+> Drop round spoonfuls of the batter into the hot oil so the pakoras come out round and fluffy.
+> Fry the pakoras until golden, then lift them out of the oil.
+> For the curry, whisk the buttermilk with the 1 tbsp gram flour, turmeric powder, hing and salt until smooth and lump-free.
+> Heat a little oil in a pan. Add the mustard seeds, garlic, ginger, curry leaves and onion, and fry until slightly reddish.
+> Stir the buttermilk mixture and pour it into the pan. Keep stirring over medium heat until it starts bubbling.
+> Add the pakoras and lower the heat. Leave them in the kadhi for a while, then cover and switch off the heat.
+> Serve hot with rice or roti.
+
+@ chapati | Chapati (Roti) | Soft whole wheat flatbread cooked on a hot dry tava, the everyday bread of North India. | 20 | 30 | 8 | indian,north-indian,baking | Cookbook:Chapati
+- 3 cups whole wheat flour (atta)
+- 1 tsp salt
+- 1 1/2 cups warm water
+- ghee, for brushing (optional)
+> Mix the whole wheat flour and salt. Add the warm water a little at a time, kneading until the dough is smooth but not too sticky.
+> Cover the dough and let it rest for at least 5 minutes.
+> Divide the dough into balls. Roll each into a thin disc, sprinkling with flour as you roll.
+> Heat an ungreased tava or pan over moderately high heat until very hot.
+> Put a chapati on the hot pan and press it with a spatula or a dry cloth so it puffs up.
+> Flip it and cook until lightly browned on both sides.
+> Brush with ghee if you like, and serve warm.
+
+@ chicken-vindaloo | Chicken Vindaloo | Hot, tangy Goan-style chicken curry in a vinegar-browned onion sauce with garlic, chilli and black pepper. | 25 | 60 | 4 | indian | Cookbook:Chicken Vindaloo | none
+- 3 chicken breast fillets, chopped
+- 3 large onions
+- 2 fresh chillies
+- 6 cloves garlic
+- 1 ginger, 2 cm piece
+- 1 tsp turmeric
+- 2 tbsp white wine vinegar
+- 1 tsp coriander powder
+- 1 tsp garam masala
+- 1/2 tsp cinnamon powder
+- 1 1/2 tsp black peppercorns
+- 1 tsp black mustard seeds
+- 1/2 tsp rock salt
+- 1/2 cup water
+- oil
+- 1 tbsp chopped coriander leaves
+> Heat enough oil to cover the base of a heavy frying pan. Slice the onions into thin slivers and add them to the very hot oil.
+> Turn the heat to low and let the onions sauté gently for about 3 minutes, until they start to caramelize.
+> Gradually raise the heat and keep stirring until the onions brown heavily without burning.
+> Add the white wine vinegar and stir until it evaporates. Keep frying until the onions are very brown but not burnt.
+> Lift out the onions, letting the oil drip back. Blend them with 1 tbsp oil for about 1 minute into a thick, dark brown sauce.
+> Chop the garlic, ginger and deseeded chillies and blend to a grainy paste. Stir in the turmeric, coriander powder, garam masala and cinnamon powder.
+> Crush the black peppercorns coarsely, then grind in the mustard seeds and rock salt. Stir this powder into the paste.
+> Heat a little oil in a saucepan and add the spice paste. When it bubbles, add the chicken and stir until browned and mostly cooked.
+> Add the onion sauce and stir for 1 minute.
+> Add the water and stir for 2 minutes, then turn the heat to low. The sauce should be quite runny at this stage.
+> Cover and cook for 30-40 minutes, stirring every 5-10 minutes so it doesn't stick. The sauce will darken. {t=2100 Simmer}
+> Spoon the vindaloo over boiled basmati rice and sprinkle with the coriander leaves.
+
+@ coconut-chutney | Coconut Chutney | Fresh coconut ground with roasted chana dal, green chillies and ginger, finished with a mustard tempering. | 10 | 5 | 4 | indian,south-indian,snack,quick | Cookbook:Coconut Chutney (South Indian) | vegan
+- 1 1/2 tbsp chana dal
+- 1 cup grated fresh coconut
+- 6 green chillies
+- 1/2 tsp tamarind paste
+- 1 tbsp chopped coriander leaves
+- 1 tsp ginger paste
+- salt
+- 1/2 tsp oil
+- 1/2 tsp mustard seeds
+- 4 curry leaves, chopped
+- 1/4 tsp hing (asafoetida)
+> Dry roast the chana dal until browned, then let it cool.
+> Grind the roasted chana dal, coconut, green chillies, tamarind paste, coriander leaves, ginger paste and salt with as little water as possible.
+> The chutney should be somewhere between a coarse and a smooth paste.
+> For the tempering, heat the oil in a small ladle and add the mustard seeds. Let them crackle.
+> As the crackling dies down, add the hing and curry leaves and stir for a few seconds.
+> Pour the tempering over the chutney and mix well.
+
+@ dabeli | Dabeli | Kutchi street snack of toasted pav stuffed with spiced potato, sweet and garlic chutneys, sev and peanuts. | 25 | 15 | 3 | indian,street-food,snack | Cookbook:Dabeli (Potato-stuffed Buns with Chutney)
+- 1 tbsp oil
+- 1 pinch hing (asafoetida)
+- 2 tsp dabeli masala
+- 2 potatoes, boiled and mashed
+- salt
+- water
+- green chillies, finely chopped (optional)
+- 2 tbsp roasted peanuts, plus extra to garnish
+- 6 ladi pav (soft bread buns)
+- butter
+- garlic chutney
+- tamarind date chutney
+- 1 onion, finely chopped
+- 1/4 cup sev
+- chopped coriander leaves
+- 1 handful pomegranate seeds
+> Heat the oil in a pan. Add the hing, dabeli masala, mashed potatoes, salt and a sprinkle of water. Mix very well so the masala coats the potatoes.
+> Mix in the green chillies, if using.
+> Take off the heat and taste. Add a little more dabeli masala if you want it spicier, then toss in 2 tbsp of the roasted peanuts and mix well.
+> Slice each pav in half and toast the halves with a little butter on a griddle.
+> Spread garlic chutney on one cut side and tamarind date chutney on the other.
+> Place a portion of the potato filling between the halves.
+> Top the filling with chopped onion, coriander leaves and sev.
+> Press the pav down, garnish with the pomegranate seeds and more peanuts, and serve right away with extra chutney.
+
+@ onion-pakoda | Onion Pakoda | Crunchy Tamil Nadu-style fritters of onion and peanuts in a spiced, crumbly gram flour dough. | 15 | 15 | 2 | indian,south-indian,snack,quick | Cookbook:Deep Fried Chickpea Dough Curry Snacks (Pakoda) | vegan
+- 1 cup besan (gram flour)
+- 2 tsp rice flour
+- 2 tsp green gram flour (optional)
+- 1/4 tsp hing (asafoetida)
+- 1/4 tsp turmeric
+- 1/4 tsp cayenne pepper
+- 10 curry leaves
+- 1 tsp cumin powder
+- 1 tsp crushed black peppercorns
+- 1 onion, finely chopped
+- 1/2 cup roasted peanuts
+- 1 tsp oil
+- salt
+- 1/2 cup water
+- oil for deep frying
+> Mix the besan, rice flour, green gram flour, hing, turmeric, cayenne pepper, curry leaves, cumin powder and crushed black peppercorns.
+> Add the onion, peanuts, 1 tsp oil and salt. Mix well and set aside for about 10 minutes so the onion releases its moisture. {t=600 Rest}
+> Add the water a little at a time to make a crumbly dough that holds in chunks but breaks with light pressure. Too much water makes them soft.
+> Heat the oil for deep frying in a heavy-bottomed pan.
+> Pinch off chunks of the dough and deep fry them in medium-hot oil until golden brown and crisp.
+> Serve the pakoda hot or at room temperature.
+
+@ mirchi-bada | Mirchi Bada | Large green chillies stuffed with spiced mashed potato, coated in besan batter and deep fried. | 25 | 20 | 4 | indian,snack | Cookbook:Deep Fried Chiles Stuffed with Potato (Mirchi Bada) | vegan
+- large green chillies, for stuffing
+- 3 large potatoes
+- 1 tsp red chilli powder
+- chaat masala
+- 1/2 cup chopped coriander leaves
+- salt
+- 1 cup besan (gram flour)
+- 2 pinch turmeric powder
+- water
+- oil, for deep frying
+> Slit the large green chillies lengthwise, remove the seeds and set aside.
+> Boil the potatoes in salted water, then peel and mash them well.
+> Mix the red chilli powder, chaat masala and coriander leaves into the potatoes.
+> Make a thick batter with the besan, water, turmeric powder and salt.
+> Fill the chillies with the potato mixture, then dip them in the batter so they are completely covered.
+> Deep fry the battered chillies in hot oil until golden brown.
+
+@ punugulu | Punugulu | Crisp fritters of fermented urad dal and rice rava batter, studded with onion and green chilli. | 480 | 30 | 6 | indian,south-indian,snack | Cookbook:Deep Fried Lentil Dough Balls (Punugu) | vegan
+- 1 cup urad dal
+- 1 cup rice rava (coarse rice flour)
+- 1 cup maida (all-purpose flour)
+- onions, chopped
+- green chillies, chopped
+- salt
+- oil, for deep frying
+> Soak the urad dal in water for several hours.
+> Soak the rice rava in water in a separate bowl.
+> Grind the soaked urad dal to a slightly loose batter, then mix in the soaked rice rava.
+> Mix in the maida, adding a little water to thin the batter if needed.
+> Stir in the onions, green chillies and salt. Leave the batter to ferment and rise.
+> Heat the oil for deep frying. Drop in small balls of batter and fry until golden.
+
+@ white-dhokla | White Dhokla (Rice & Urad Dal) | Soft, tangy Gujarati steamed cake of fermented rice and urad dal batter, topped with coriander. | 540 | 30 | 4 | indian,snack | Cookbook:Dhokla (Steamed Black Gram Bread)
+- 1 cup rice
+- 1/4 cup urad dal (skinned black gram)
+- 1/4 cup yogurt
+- 1 1/2 cups warm water
+- salt
+- 1 ginger, 2 cm piece
+- 4 green chillies
+- 1/2 tsp baking soda
+- 1 tbsp lemon juice
+- 2 tbsp oil
+- 2 tbsp chopped coriander leaves
+> Toast the rice and urad dal in a pan over medium heat for 4-5 minutes.
+> Let cool, then grind to a semi-coarse powder and tip it into a bowl.
+> Whisk in the yogurt and warm water until there are no lumps and the batter is of pouring consistency.
+> Add salt and leave the batter to ferment for 8-10 hours. {notimer}
+> Grind the ginger and green chillies to a paste and mix it into the fermented batter.
+> Grease a dhokla plate or thali with a little oil, and bring water to a boil in the steamer.
+> Set half the batter aside. Mix 1/4 tsp baking soda, 1/2 tsp oil and 1/2 tbsp lemon juice into the other half.
+> Pour it into the greased plate and steam for 8-10 minutes, until a knife poked in comes out clean.
+> Repeat with the remaining batter, baking soda, oil and lemon juice, mixing them in just before steaming.
+> Sprinkle with the coriander leaves and serve hot with green chutney.
+
+@ ghevar | Ghevar | Rajasthani honeycomb disc of ghee and flour batter, fried in a ring mould and dipped in sugar syrup. | 30 | 90 | 10 | indian,north-indian,sweet | Cookbook:Ghevar (Rajasthani Honeycomb Fritter)
+- 1 cup sugar
+- 1/2 cup water for the syrup
+- 200 g maida (plain flour)
+- 10 g arrowroot or cornflour
+- 1/4 cup melted ghee, cooled
+- kewra essence (a few drops)
+- 3 cups water for the batter
+- ghee for deep frying
+> Simmer the sugar and 1/2 cup water to a one-string syrup. Take off the heat and keep warm.
+> Combine the maida, arrowroot, melted ghee and kewra essence in a bowl.
+> For the batter, whisk in 1 cup of the water in a very thin stream, so the ghee and water form an emulsion and don't separate.
+> Whisk in the other 2 cups water the same way, to a very thin batter, thinner than crepe batter. Keep it in a cool place.
+> Heat ghee for deep frying in a kadhai with a ghevar mould or metal ring set in it. The ghee should come 3/4 of the way up the mould.
+> Over medium heat, pour a ladleful of batter in a thin stream into the centre of the mould. It will froth and spread to the edges.
+> When the froth subsides, pour in another spoonful. Use a skewer to keep a hole in the centre. Repeat about seven times.
+> Raise the heat and pour a few ladlefuls of hot ghee into the centre to cook it through.
+> When the centre is firm and the ghevar is golden, lift it out with a skewer through the centre and let the excess ghee drip off.
+> Dip the ghevar in the sugar syrup, drain quickly and place on a serving plate.
+> Repeat with the remaining batter to make 10 ghevar in all.
+
+@ gulab-jamun | Gulab Jamun | Soft milk-powder dumplings fried dark brown and soaked overnight in cardamom sugar syrup. | 500 | 40 | 10 | indian,sweet | Cookbook:Gulab Jamun (Fried Milk Balls in Syrup)
+- 3 cups milk powder
+- 1 cup baking mix (such as Bisquick)
+- 200 ml warm milk
+- 2 tbsp butter, melted
+- oil, for deep frying
+- 2 cups water
+- 2 1/2 cups sugar
+- 4 cardamom pods
+> Heat oil 4-5 cm deep in a small saucepan over medium heat.
+> Mix the milk powder, baking mix and melted butter in a bowl.
+> Add the warm milk 2 tbsp at a time, mixing with a wooden spoon, until you have a firm, moist dough that is not sticky.
+> Roll into evenly sized balls and fry them within a few minutes, before they dry out.
+> Fry a few balls at a time without crowding the pan, stirring so they brown evenly. They sink at first, then float.
+> When dark brown, lift them out and drain on paper. Repeat with the rest of the dough.
+> Take the seeds out of the cardamom pods and crush them lightly.
+> Heat the water, sugar and cardamom for 10 minutes. Don't overheat, or the syrup will caramelize.
+> Soak the gulab jamuns in the syrup overnight. Serve hot or cold.
+
+@ homemade-paneer | Homemade Paneer | Fresh Indian cheese made by curdling boiling milk with lemon juice, then draining and pressing it. | 160 | 15 | 4 | indian | Cookbook:Homemade Paneer
+- 3 l milk
+- 6 tbsp lemon juice or vinegar
+> Bring the milk to a boil in a large pan.
+> Just before it boils, add the lemon juice to curdle the milk.
+> Pour the curdled milk through a cheesecloth to drain off most of the whey.
+> Press out the water firmly, then put a weight on top of the paneer.
+> Leave it in the fridge for 2-3 hours to rest and firm up. {notimer}
+
+@ double-ka-meetha | Double ka Meetha | Hyderabadi bread pudding: ghee-fried bread soaked in cardamom milk syrup with khoa, nuts and raisins. | 15 | 45 | 8 | indian,south-indian,sweet | Cookbook:Hyderabadi Fried Bread with Syrup and Nuts (Double ka meetha)
+- 1 sliced white bread loaf
+- 250 g ghee
+- 500 g sugar
+- 500 ml water
+- 1 l milk
+- 10 g green cardamom
+- 250 g khoa (milk solids)
+- 100 g almonds
+- 100 g cashews
+- 100 g pistachios
+- 100 g raisins
+> Trim the crusts off the bread slices and cut each slice into four.
+> Fry the bread pieces in the ghee until golden brown.
+> Dissolve the sugar in the water to make a syrup. Add the milk and boil until it starts to thicken.
+> Grind the cardamom seeds to a powder.
+> Stir the cardamom powder and khoa into the thickened milk.
+> Arrange the fried bread on a flat tray and pour the syrup over it while the bread is still hot.
+> Garnish with the raisins, almonds, cashews and pistachios. Chill and serve.
+
+@ idli | Idli | Soft, fluffy steamed cakes of fermented rice and urad dal batter, the classic South Indian breakfast. | 600 | 30 | 8 | indian,south-indian,breakfast,healthy | Cookbook:Idli (Steamed Rice and Black Gram Bread) | vegan
+- 4 cups idli rice (parboiled short-grain rice)
+- 1 cup urad dal (skinned)
+- 1 tsp methi (fenugreek seeds)
+- 2 cups filtered water (chlorine-free)
+- 2 tsp non-iodised salt
+- oil, for greasing
+> Wash the idli rice and urad dal thoroughly.
+> Soak the rice in one bowl, and the urad dal with the methi in another, for no more than 2 hours. Use about twice as much water as dal.
+> Drain both. Keep the dal soaking water, but discard the rice soaking water.
+> Grind the urad dal to a fine paste, adding a little of its soaking water if needed.
+> Grind the rice to a coarse paste with about 1 cup of the filtered water, or less if you can.
+> Mix the rice and urad dal pastes together well and season with the salt.
+> Set the batter aside somewhere warm to ferment for 8 hours. {notimer}
+> Grease the idli moulds well with oil.
+> Gently spoon in the batter without stirring, so the trapped bubbles stay in for a fluffy texture.
+> Steam for 12 minutes.
+> Ease the idlis out of the moulds with a thin knife or spatula. Serve hot with sambar.
+
+@ bhapa-doi-with-figs | Bhapa Doi with Spiced Figs | Baked sweet yoghurt with cardamom, pistachios and raisins, topped with figs poached in spiced lemon syrup. | 15 | 45 | 4 | indian,sweet | Cookbook:Indian Baked Yoghurt with Saffron and Cardamom
+- 200 g sweetened condensed milk
+- 200 g set or Greek yoghurt
+- 1 pinch green cardamom powder
+- 1 tbsp pistachios, slivered
+- 1 tbsp raisins
+- 2 tbsp sugar
+- 300 ml water
+- 1 lemon
+- 2 whole cloves
+- 1 cinnamon stick, 2.5 cm piece
+- 1 star anise
+- 4 ripe figs
+> Soak the raisins in warm water for 10 minutes, then drain.
+> Preheat the oven to 150 °C (130 °C fan). Line four ramekins with paper muffin cases.
+> Whisk the condensed milk, yoghurt and cardamom powder together, then fold in the pistachios and raisins.
+> Pour into the ramekins and stand them in a roasting tin. Pour warm water into the tin to come almost halfway up their sides.
+> Bake for 40-45 minutes, until set.
+> Meanwhile, pare the zest from the lemon and squeeze out 1 tsp of juice.
+> Heat the sugar, water, lemon zest and juice, cloves, cinnamon and star anise over low heat until the sugar dissolves, then bring to a boil.
+> Cut each fig into four, add to the syrup and simmer for 2 minutes. Take off the heat and let the figs cool in the syrup.
+> Lift the ramekins out of the water bath and let them cool.
+> Unmould the puddings onto plates, arrange the figs on top and drizzle the syrup around.
+
+@ chhundo | Chhundo (Sweet Mango Pickle) | Gujarati sweet and spicy grated raw mango pickle with cumin and chilli, cooked slowly in the sun for days. | 20 | 0 | 20 | indian,snack | Cookbook:Indian Mango, Chilli Powder, and Cumin Condiment (Chhundo) | vegan
+- 1 kg raw mangoes, deseeded
+- 600 g sugar
+- 25 g salt
+- 2 tsp red chilli powder
+- 2 tsp cumin powder
+- 2 tsp turmeric powder
+> Peel the mangoes and grate them finely.
+> Mix the grated mangoes evenly with the sugar, salt, red chilli powder, cumin powder and turmeric powder.
+> Spread the mixture in a shallow, wide-mouthed jar and cover it with a thin cloth.
+> Keep the jar in the sun for 5 days, stirring three times a day, until the syrup reaches one-string consistency. {notimer}
+
+@ moong-dal | Moong Dal | Simple pressure-cooked moong dal with green chillies and turmeric, finished with a cumin and curry leaf tadka. | 5 | 25 | 4 | indian,healthy,quick | Cookbook:Indian Moong Dal
+- 1/2 cup moong dal
+- 3 green chillies
+- 1/2 tsp turmeric powder
+- 1 1/2 cups water
+- salt
+- 2 tbsp oil or ghee
+- 1 sprig curry leaves
+- 1 tsp jeera (cumin seeds)
+> Put the moong dal, green chillies, turmeric powder and water in a pressure cooker. Cook for 15 minutes, then let the pressure release on its own.
+> Open the cooker and mash the dal. Add salt, and a little more water if it is too thick, and heat through over medium heat.
+> Heat the oil or ghee in a small pan and add the jeera and curry leaves.
+> When they splutter, pour the tadka over the dal. Serve hot with rice or rotis.
+
+@ jalebi | Jalebi | Crisp loops of fermented flour batter, deep fried and dunked in rose-scented sugar syrup. | 600 | 45 | 7 | indian,sweet | Cookbook:Jalebi (Fritters in Syrup)
+- 3 cups maida (all-purpose flour)
+- 1/4 cup besan (gram flour)
+- 1/4 tsp baking powder
+- 1 1/2 cups water for the batter
+- 3 cups oil or ghee, for deep frying
+- 4 cups sugar
+- 3 cups water for the syrup
+- 1/8 tsp cream of tartar
+- red and yellow food colouring
+- 1 tsp rose water
+> Mix the maida, besan, baking powder and 1 1/2 cups water into a smooth batter.
+> Leave the batter uncovered at room temperature overnight, about 12 hours. {notimer}
+> For the syrup, stir the sugar, 3 cups water and cream of tartar over moderate heat until the sugar dissolves.
+> Turn the heat to high and boil for 5 minutes.
+> Let the syrup cool, stir in the rose water and tint it light orange with the food colouring.
+> Heat the oil or ghee in a wide kadhai to about 175 °C (350 °F).
+> Spoon the batter into a piping bag with a 5 mm opening. If it is too thick to squeeze, mix in a little water.
+> Pipe the batter into the hot oil in loops and figure-eights on top of each other, about 7 cm across.
+> Fry each jalebi until golden brown, drain off the oil, and soak it in the syrup for 1 minute before serving.
+
+@ jigarthanda | Jigarthanda | Madurai's chilled milk drink with almond gum jelly, nannari syrup, caramel milk, ice cream and malai. | 600 | 120 | 6 | indian,south-indian,drink,street-food | Cookbook:Jigarthanda Milk
+- 2 tbsp badam pisin (almond gum)
+- 250 ml water for the jelly
+- 25 g nannari root (Indian sarsaparilla)
+- 300 ml water for the syrup
+- 10 tbsp sugar
+- 150 g sugar for the syrup
+- 2 1/2 l full-fat milk
+- 3 tbsp khova (milk solids)
+- 1/2 cup fresh cream
+> Wash the badam pisin and soak it in the 250 ml water overnight, until it swells into a jelly. Keep it in the fridge.
+> For the syrup, wash and crush the nannari root. Bring the 300 ml water to a boil, add the root and simmer until reduced by half.
+> Add the 150 g sugar and cook to a one-string syrup. Cool and store airtight.
+> For the ice cream, boil 1 1/2 l of the milk, stirring until frothy, and collect the malai that forms.
+> Whip the fresh cream and stir it into the milk. Lower the heat, stir in 4 tbsp of the sugar until dissolved, then mix in the khova.
+> Melt 2 tbsp of the sugar in a heavy pan over low heat until it caramelizes. Carefully pour in the hot milk mixture and stir until smooth.
+> Let cool, pour into an airtight container, cover with cling film and freeze for 4-5 hours. {notimer}
+> Beat the set ice cream with a whisk or blender, 3-4 times for creaminess, then freeze again for 5-6 hours. {notimer}
+> For the drink, simmer the remaining 1 l milk until reduced by half, collecting the malai that forms.
+> Caramelize the last 4 tbsp sugar in another pan, stir it into the milk until golden, and simmer for 10 minutes. Cool and chill.
+> Put 1-2 tbsp of the almond gum jelly and 1 tbsp nannari syrup in a tall glass. Fill it 3/4 full with the jigarthanda milk.
+> Add a scoop of the ice cream, top with the collected malai and serve immediately.
+
+@ kacchi-chicken-biryani | Kacchi Chicken Biryani | Raw chicken marinated in yoghurt, fried onions and mint, layered with part-cooked rice and slow-cooked on dum. | 330 | 70 | 6 | indian,rice | Cookbook:Katchi Biryani | none
+- 2 lb chicken pieces
+- 2 cups yoghurt
+- 4 large onions, sliced and fried in ghee
+- 5 green chillies (3 chopped, 2 whole)
+- 1 handful mint leaves, chopped
+- 2 tbsp ghee
+- 1 tsp garam masala, plus a sprinkle
+- 1 tbsp ginger-garlic paste
+- salt
+- whole spices (black cardamom, kala jeera, pepper, cinnamon)
+- 1 tbsp oil
+- 2 3/4 cups basmati rice
+- 8 tbsp butter, in 4 pieces
+- lemon juice
+- 1 pinch saffron
+- milk
+- 1 handful coriander leaves, chopped
+> Mix most of the fried onions with the yoghurt, chopped green chillies, mint leaves, ghee, 1 tsp garam masala, salt and ginger-garlic paste.
+> Add the chicken and leave to marinate for at least 4-5 hours. {notimer}
+> Bring a pot of water to a boil with the whole spices, salt and oil, then add the rice.
+> Cook the rice until almost tender but not fully cooked, then drain.
+> Spread a very thin layer of rice in a heavy pot. Add the marinated chicken, then cover it with the rest of the rice.
+> Mix the saffron into a little milk. Put a piece of butter in each quarter of the pot and pour the lemon juice and saffron milk over the rice.
+> Push the whole green chillies into the rice. Scatter over the coriander leaves, the remaining fried onions and a sprinkle of garam masala.
+> Seal the pot tightly with foil so no steam escapes. Cook over high heat for about 10 minutes.
+> Reduce the heat to medium and cook for 30-35 minutes more, turning the pot every 10 minutes for even heating. {t=2100 Cook}
+> Check that the chicken and rice are fully cooked, then serve.
+
+@ khandvi | Khandvi (Gram Flour Rolls) | Silky Gujarati rolls of besan cooked in spiced buttermilk, spread thin, rolled and topped with seeds. | 10 | 25 | 3 | indian,snack | Cookbook:Khandvi (Rolled Chickpea Noodles)
+- 1/2 cup besan (gram flour)
+- 1 cup buttermilk
+- 1 tsp ground ginger
+- 1/2 tsp turmeric
+- 1/2 tsp red chilli powder
+- salt
+- 3 tsp oil, plus extra for greasing
+- 1 1/2 tsp mustard seeds
+- 1 tsp sesame seeds
+- 15 curry leaves, slivered
+- 1 jalapeño or other green chilli, finely diced
+- 2 tbsp grated coconut
+> Whisk the besan, buttermilk, ground ginger, turmeric, red chilli powder and salt into a smooth batter with no lumps.
+> Heat 2-3 tsp oil in a kadhai or pan over medium-low heat and pour in the batter.
+> Stir continuously so no lumps form, until the mixture thickens almost to a dough.
+> To test, spread a little on a greased surface, let it cool and try to roll it up. If it won't roll, cook it a little longer.
+> When ready, quickly spread the mixture very thinly, thinner than a crepe, on a greased sheet. Let it cool.
+> Cut the cooled sheet into strips and roll each strip up.
+> Garnish with the mustard seeds, sesame seeds, curry leaves, jalapeño and coconut.
+
+# skipped: Cookbook:Chicken Curry — ~29 ingredient lines (curry powder listed three times), and 500 g tomatoes and coconut oil are listed but never used in the method; too inconsistent to condense faithfully (and we already have Simple Chicken Curry)
+# skipped: Cookbook:Deep Fried Chiles Filled with Chickpea Flour (Mirchi Bhajji) — method is unworkable as written: the coating is a dry flour mix with no liquid, and pepper counts don't add up
+# skipped: Cookbook:Dharwad Pedha (Sweetened Paneer Cheese) — main ingredient (milk for the paneer) and lime juice have no quantities
+# skipped: Cookbook:Green Chicken Curry with Coconut Milk — Thai/Vietnamese, not Indian; key ingredients unquantified; near-duplicate of Thai Green Curry with Chicken online
+# skipped: Cookbook:Hyderabad Biryani — 26 ingredients (still >20 after merging whole spices), inconsistent rice amount (1 kg listed, 3 cups cooked), green chilli paste never used; Chicken Biryani already online
+# skipped: Cookbook:Kaju Barfi (Indian Cashew Milk Confection) — sugar, ghee and cashew powder have no quantities; saffron used but not listed

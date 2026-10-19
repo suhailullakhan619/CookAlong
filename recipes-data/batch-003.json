@@ -1,0 +1,3070 @@
+{
+ "recipes": [
+  {
+   "id": "colcannon-bake",
+   "title": "Colcannon Bake",
+   "description": "Irish baked mash with cabbage, leeks and cheese.",
+   "prepTime": 20,
+   "cookTime": 70,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "Potatoes, peeled and quartered",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "Butter, cut into small chunks",
+     "amount": 7.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sour-cream",
+     "name": "Sour Cream",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "egg",
+     "name": "Egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "Milk",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cabbage",
+     "name": "Cabbage, shredded",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "leeks",
+     "name": "Leeks, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "small-onion",
+     "name": "small Onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cubes-chicken-bouillon",
+     "name": "cubes Chicken Bouillon",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cheddar-cheese",
+     "name": "Cheddar Cheese, shredded",
+     "amount": 0.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Place the potatoes into a large pot and cover with salted water.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring to a boil, then reduce heat to medium-low, cover and simmer until tender, about 20 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Drain and allow to steam dry for a minute or two.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Dry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Season the potatoes with salt, and mash with 6 Tbsp of the butter, the sour cream, egg, and milk.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "butter",
+      "sour-cream",
+      "milk"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Preheat oven to 350F. Grease a 2-quart casserole dish.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat the remaining butter in a skillet over medium heat. Stir in the cabbage, leeks, and onion until the cabbage is tender and the onion is translucent (10 mins).",
+     "relatedIngredientIds": [
+      "butter",
+      "cabbage",
+      "leeks",
+      "small-onion"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Crush the bouillon cubes into the cabbage mixture, and stir to blend and dissolve the cubes. Stir the cabbage mixture into the potato mixture until thoroughly mixed, and spoon into the prepared casserole dish.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "cabbage",
+      "cubes-chicken-bouillon"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Bake in the preheated oven for 40 minutes, top with cheddar cheese, and return to oven until the cheese melts (10 mins).",
+     "relatedIngredientIds": [
+      "cheddar-cheese"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Preheat"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/colcannon-bake/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "irish-potato-casserole",
+   "title": "Irish Potato Casserole",
+   "description": "Shredded potato bake with butter, egg and cheddar.",
+   "prepTime": 5,
+   "cookTime": 45,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "Potatoes, peeled and shredded",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "Butter, melted",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "whole-eggs",
+     "name": "whole Eggs, beaten",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "Onion, minced",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "paprika",
+     "name": "Paprika",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "milk",
+     "name": "Milk",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "sharp-cheddar-cheese",
+     "name": "Sharp Cheddar Cheese, shredded",
+     "amount": 0.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat oven to 350F. Butter a 1.5 quart baking dish.",
+     "relatedIngredientIds": [
+      "butter"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a medium bowl, combine the potatoes, butter, eggs, onion, salt, and paprika. Mix well.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "butter",
+      "whole-eggs",
+      "onion",
+      "salt",
+      "paprika"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Place potato mixture into the prepared baking dish and pour milk over top. Bake in the preheated oven for 40 minutes. Sprinkle top with cheese, return to oven until cheese melts and is slightly browned.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "milk",
+      "sharp-cheddar-cheese"
+     ],
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Preheat"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/irish-potato-casserole/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "yorkshire-puddings",
+   "title": "Yorkshire Puddings",
+   "description": "Light, puffy English batter puddings baked in hot fat.",
+   "prepTime": 5,
+   "cookTime": 20,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 140.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sunflower-oil",
+     "name": "sunflower oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat oven to 230°C / gas mark 8.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drizzle oil into 24 'cupcake tin' slots. (The pans you make cupcakes in). Heat in oven.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour flour into bowl.",
+     "relatedIngredientIds": [
+      "flour"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Whisk eggs, add to bowl.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add milk to bowl in small amounts, beating/whisking after each addition. Until there are no lumps in the batter. You may season with salt & pepper.",
+     "relatedIngredientIds": [
+      "milk"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Tip batter into a jug so that you may pour into the cupcake pan slots evenly and carefully.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Bake undisturbed ( opening oven will impede the rising ), until the puddings have puffed up and browned.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/yorkshire-puddings/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "salsa",
+   "title": "Salsa",
+   "description": "Fresh tomato salsa that comes together in minutes.",
+   "prepTime": 5,
+   "cookTime": 0,
+   "servings": 14,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "mexican",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "tomatoes",
+     "name": "tomatoes",
+     "amount": 1.25,
+     "unit": "lb"
+    },
+    {
+     "id": "14-5-oz",
+     "name": "14.5 oz (400 grams) canned tomatoes",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "green-onion",
+     "name": "green onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "red-onion",
+     "name": "red onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "jalape-o-pepper",
+     "name": "jalapeño pepper",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "handfull-fresh-cilantro",
+     "name": "handfull fresh cilantro",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 1.0,
+     "unit": "clove"
+    },
+    {
+     "id": "lime",
+     "name": "lime, juice squeezed (optional)",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "chili-pepper",
+     "name": "chili pepper (optional)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ground-cumin",
+     "name": "ground cumin (optional)",
+     "amount": 0.25,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Add all ingredients to a food processor and burst shortly for desired degree of chunkyness.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Refrigerate until consumption. (max 1 week)",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/salsa/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "coleslaw",
+   "title": "Coleslaw",
+   "description": "Creamy, tangy cabbage slaw for sandwiches and barbecues.",
+   "prepTime": 25,
+   "cookTime": 0,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "quick",
+    "salad"
+   ],
+   "ingredients": [
+    {
+     "id": "mayonnaise",
+     "name": "mayonnaise",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "buttermilk",
+     "name": "buttermilk",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "apple-cider-vinegar",
+     "name": "apple cider vinegar",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "distilled-vinegar",
+     "name": "distilled vinegar",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "granulated-sugar",
+     "name": "granulated sugar",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "kosher-salt",
+     "name": "kosher salt",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-black-pepper",
+     "name": "ground black pepper",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "celery-seeds",
+     "name": "celery seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "onion-powder",
+     "name": "onion powder",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "granulated-garlic",
+     "name": "granulated garlic",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "mustard-powder",
+     "name": "mustard powder",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "one-large-head-of-green",
+     "name": "One large head of green cabbage",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "one-large-carrot",
+     "name": "One large carrot",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Finely shred, rinse, and drain the carrot",
+     "relatedIngredientIds": [
+      "one-large-carrot"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Finely shred the cabbage (use a food processor if possible)",
+     "relatedIngredientIds": [
+      "one-large-head-of-green"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Whisk together the mayonnaise, buttermilk, lemon juice, cider vinegar, distilled vinegar, olive oil, and sugar",
+     "relatedIngredientIds": [
+      "mayonnaise",
+      "buttermilk",
+      "lemon-juice",
+      "apple-cider-vinegar",
+      "distilled-vinegar",
+      "olive-oil",
+      "granulated-sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the salt, pepper, celery seeds, onion powder, and granulated garlic, and combine well",
+     "relatedIngredientIds": [
+      "kosher-salt",
+      "ground-black-pepper",
+      "celery-seeds",
+      "onion-powder",
+      "granulated-garlic",
+      "mustard-powder"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Combine the shredded cabbage and carrot in a separate bowl",
+     "relatedIngredientIds": [
+      "one-large-head-of-green",
+      "one-large-carrot"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Slowly add the dressing until it lightly coats the vegetables, and toss well. Add more dressing until it tastes good",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Refrigerate for at least an hour before serving",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Chill"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/coleslaw/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "perfect-potato-salad",
+   "title": "Perfect Potato Salad",
+   "description": "Classic creamy potato salad for picnics.",
+   "prepTime": 15,
+   "cookTime": 5,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "quick",
+    "salad"
+   ],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "Potatoes, peeled and cut into bite-size chunks (about 2 lbs)",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "plain-yogurt",
+     "name": "Plain Yogurt",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "mayonnaise",
+     "name": "Mayonnaise",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "prepared-horseradish",
+     "name": "Prepared Horseradish",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "radishes",
+     "name": "Radishes, thinly sliced",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "stalks-celery",
+     "name": "stalks Celery, diced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "large-green-onions",
+     "name": "large Green Onions, thinly sliced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "fresh-parsley",
+     "name": "Fresh Parsley, chopped",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "fresh-dill",
+     "name": "Fresh Dill, chopped",
+     "amount": 0.25,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Place potatoes in a pot and just cover with water. Partially lid and bring to a boil. Reduce heat and simmer partially covered just until potatoes are tender (5 mins). Don't overcook. Drain well.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Meanwhile in a large bowl, stir yogurt with mayonnaise, horseradish, salt, and pepper. Stir in radishes, celery, green onions, parsley, and dill until mixed.",
+     "relatedIngredientIds": [
+      "plain-yogurt",
+      "mayonnaise",
+      "prepared-horseradish",
+      "radishes",
+      "stalks-celery",
+      "large-green-onions",
+      "fresh-parsley",
+      "fresh-dill"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add warm potatoes and stir to combine. Refrigerate at least 1 hour before serving. Taste and adjust seasonings if desired.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Chill"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/perfect-potato-salad/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "stuffed-round-squash",
+   "title": "Stuffed Round Squash",
+   "description": "Round squash filled with rice and vegetables and baked.",
+   "prepTime": 50,
+   "cookTime": 0,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "onions",
+     "name": "Onions",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "carrot",
+     "name": "Carrot",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "round-squash",
+     "name": "Round squash",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "rice",
+     "name": "rice",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cheese",
+     "name": "Cheese (optional)",
+     "amount": 100.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cook the rice. This usually takes 20 minutes. In the meantime, cut the onion into small cubes, grate the carrot, and cut the squash in halves.",
+     "relatedIngredientIds": [
+      "onions",
+      "carrot",
+      "round-squash",
+      "rice"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Scoop the squash halves, and cut the core in small cubes. Save them for later.",
+     "relatedIngredientIds": [
+      "round-squash"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Strain the rice and let it cool. On an oiled pan, mix the onion, carrot and squash core, and cook them for 10 minutes. You may now add seasoning.",
+     "relatedIngredientIds": [
+      "onions",
+      "carrot",
+      "round-squash",
+      "rice"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Place the squash halves facing down on a metal griddle in the oven. Add the rice to the vegetables, stir, and cook for 10 more minutes.",
+     "relatedIngredientIds": [
+      "round-squash",
+      "rice"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Flip the squash, stuff them with cheese and the vegetables mixture, and put them again in the oven for 10 minutes at max heat.",
+     "relatedIngredientIds": [
+      "round-squash",
+      "cheese"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/stuffed-round-squash/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "spinach-rice-casserole",
+   "title": "Spinach-Rice Casserole",
+   "description": "Baked casserole of rice, spinach and cheese.",
+   "prepTime": 10,
+   "cookTime": 40,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "brown-rice",
+     "name": "Brown Rice, cooked",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "raw-spinach",
+     "name": "raw Spinach, chopped",
+     "amount": 2.0,
+     "unit": "lb"
+    },
+    {
+     "id": "onion",
+     "name": "Onion, chopped",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "butter",
+     "name": "Butter",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "eggs",
+     "name": "Eggs, beaten",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "Milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cheddar",
+     "name": "Cheddar, grated",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "parsley",
+     "name": "Parsley, chopped",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "tamari",
+     "name": "Tamari",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "Salt (or more, to taste)",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "sunflower-seeds",
+     "name": "Sunflower Seeds",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "a-few-dashes-each-nutmeg",
+     "name": "A few dashes each - Nutmeg; Cayenne; Paprika",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Saute onions and garlic with salt in butter. When onions are soft, add spinach. Cook 2 minutes.",
+     "relatedIngredientIds": [
+      "raw-spinach",
+      "onion",
+      "garlic",
+      "butter",
+      "salt"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine with all ingredients except sunflower seeds and paprika.",
+     "relatedIngredientIds": [
+      "sunflower-seeds",
+      "a-few-dashes-each-nutmeg"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Spread into buttered casserole dish and sprinkle sunflower seeds and paprika on top.",
+     "relatedIngredientIds": [
+      "butter",
+      "sunflower-seeds",
+      "a-few-dashes-each-nutmeg"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Bake, covered, 35 minutes at 350F.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2100,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/spinach-rice-casserole/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "turkish-yogurt-soup",
+   "title": "Turkish Yogurt Soup",
+   "description": "Tangy yogurt and rice soup finished with mint.",
+   "prepTime": 15,
+   "cookTime": 35,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "middle-eastern",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "yogurt",
+     "name": "yogurt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "rice",
+     "name": "rice",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "egg-yolk",
+     "name": "egg yolk",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "wash the rice",
+     "relatedIngredientIds": [
+      "rice"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "put water in the pot and wait for water to boil",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "add some salt and rice",
+     "relatedIngredientIds": [
+      "rice"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "wait for 15 minutes",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Wait"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "mix yogurt, egg and flour and salt in a different bowl",
+     "relatedIngredientIds": [
+      "yogurt",
+      "flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "add water from the soup and mix by warming",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "when the rice is soft, add the yogurt mixture to the soup and mix quickly",
+     "relatedIngredientIds": [
+      "yogurt",
+      "rice"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "cut down the heat, wait for 15 minutes",
+     "relatedIngredientIds": [],
+     "animation": "chop",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Wait"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "for the sauce, simply melt the butter in a separate small pan and stir in the dried mint",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "add sauteed dried mint to the soup and stir well",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "serve warm",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/turkish-yogurt-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "okroshka",
+   "title": "Russian Okroshka",
+   "description": "Cold Russian summer soup of vegetables, egg and kefir.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "quick",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "medium-potatoes",
+     "name": "medium potatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "long-or-4-short-cucumber",
+     "name": "long or 4 short cucumbers",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "strands-of-spring-onions",
+     "name": "strands of spring onions",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "radishes",
+     "name": "radishes",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "bunch-of-dill",
+     "name": "bunch of dill",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "kefir-or-1-kvass",
+     "name": "Kefir or 1 kvass",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "boiled-sausage-or-boiled",
+     "name": "boiled sausage or boiled chicken meat",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "mineral-water",
+     "name": "mineral water (optional)",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Prepare a saucepan where you will put the ingredients (5 liters) and a saucepan for boiling eggs and potatoes",
+     "relatedIngredientIds": [
+      "medium-potatoes",
+      "eggs"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Boil potatoes and eggs (hard boiled)",
+     "relatedIngredientIds": [
+      "medium-potatoes",
+      "eggs"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Finely chop cucumbers, radishes, onions, dill and sausage (or meat)",
+     "relatedIngredientIds": [
+      "long-or-4-short-cucumber",
+      "strands-of-spring-onions",
+      "radishes",
+      "bunch-of-dill",
+      "boiled-sausage-or-boiled"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Peel eggs and potatoes and chop finely",
+     "relatedIngredientIds": [
+      "medium-potatoes",
+      "eggs"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour kefir (or kvass) and mix all the ingredients",
+     "relatedIngredientIds": [
+      "kefir-or-1-kvass"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "If necessary, add boiled water or mineral water.",
+     "relatedIngredientIds": [
+      "mineral-water"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Let it brew for a few minutes and the dish is ready to eat.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/okroshka/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "ukrainian-borscht",
+   "title": "Ukrainian Borscht",
+   "description": "Classic Ukrainian beetroot soup with vegetables.",
+   "prepTime": 25,
+   "cookTime": 40,
+   "servings": 10,
+   "dietaryTags": [],
+   "categories": [
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "red-beetroots",
+     "name": "red beetroots",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "extra-virgin-olive-oil",
+     "name": "extra virgin olive oil",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chicken-broth-2-cups-wat",
+     "name": "chicken broth + 2 cups water",
+     "amount": 8.0,
+     "unit": "cup"
+    },
+    {
+     "id": "yukon-potatoes",
+     "name": "yukon potatoes",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "carrots",
+     "name": "carrots",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "celery-ribs",
+     "name": "celery ribs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ketchup-or-3-tbsp-tomato",
+     "name": "ketchup or 3 Tbsp tomato sauce",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "red-bell-pepper",
+     "name": "red bell pepper (optional)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "white-cannelini-beans-wi",
+     "name": "white cannelini beans with their juice (optional)",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves (optional)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "pressed-garlic-clove",
+     "name": "pressed garlic clove (optional)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "sour-cream",
+     "name": "sour cream (optional)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "fresh-dill-to-taste",
+     "name": "fresh dill to taste (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel, grate and/or slice all vegetables (keeping sliced potatoes in cold water to prevent browning until ready to use then drain).",
+     "relatedIngredientIds": [
+      "chicken-broth-2-cups-wat",
+      "yukon-potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat a large soup pot (5 1/2 Qt or larger) over medium/high heat and add 2 Tbsp olive oil.",
+     "relatedIngredientIds": [
+      "extra-virgin-olive-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add grated beets and sauté 10 minutes, stirring occasionally until beets are softened.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add 8 cups broth and 2 cups water.",
+     "relatedIngredientIds": [
+      "chicken-broth-2-cups-wat"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add sliced potatoes and sliced carrots then cook for 10-15 minutes or until easily pierced with a fork.",
+     "relatedIngredientIds": [
+      "yukon-potatoes",
+      "carrots"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "While potatoes are cooking, place a large skillet over medium/high heat and add 2 Tbsp oil.",
+     "relatedIngredientIds": [
+      "yukon-potatoes"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add chopped onion, celery and bell pepper. Saute stirring occasionally until softened and lightly golden (7-8 minutes).",
+     "relatedIngredientIds": [
+      "onion",
+      "red-bell-pepper"
+     ],
+     "suggestedTimerSeconds": 480,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add 4 Tbsp Ketchup and stir fry for 30 seconds then transfer to the soup pot to continue cooking with the potatoes.",
+     "relatedIngredientIds": [
+      "yukon-potatoes"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "When potatoes and carrots reach desired softness, add optional ingredients from the list.",
+     "relatedIngredientIds": [
+      "yukon-potatoes",
+      "carrots",
+      "red-bell-pepper",
+      "white-cannelini-beans-wi",
+      "bay-leaves",
+      "pressed-garlic-clove",
+      "sour-cream",
+      "fresh-dill-to-taste"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Simmer for an additional 2-3 minutes and add more spices to taste.",
+     "relatedIngredientIds": [
+      "fresh-dill-to-taste"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Serve with a dollop of sour cream on top.",
+     "relatedIngredientIds": [
+      "sour-cream"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/ukrainian-borscht/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "erwtensoep",
+   "title": "Erwtensoep (Dutch pea soup)",
+   "description": "Thick Dutch split-pea soup, a winter classic.",
+   "prepTime": 15,
+   "cookTime": 90,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 7.5,
+     "unit": "cup"
+    },
+    {
+     "id": "peas",
+     "name": "peas (dried green split)",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "pork-belly",
+     "name": "pork belly (Dutch speklapjes or thick-cut bacon)",
+     "amount": 3.5,
+     "unit": "oz"
+    },
+    {
+     "id": "pork-chop",
+     "name": "pork chop",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "bouillon-cube",
+     "name": "bouillon cube (vegetable, pork or chicken)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ribs-celery",
+     "name": "ribs celery",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "carrots",
+     "name": "carrots (peeled and sliced)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "large-potato",
+     "name": "large potato (peeled and cubed)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-onion",
+     "name": "small onion (chopped)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-leek",
+     "name": "small leek (sliced)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "celeriac",
+     "name": "celeriac (cubed)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sausage",
+     "name": "sausage (chopped rookworst, smoked sausage)",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "salt-and-pepper",
+     "name": "Salt and pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a large soup pot, bring water, split peas, pork belly or bacon, pork chop, and bouillon cube to a boil.",
+     "relatedIngredientIds": [
+      "water",
+      "peas",
+      "pork-belly",
+      "pork-chop",
+      "bouillon-cube"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Reduce the heat to a simmer, cover and let cook for 45 minutes, stirring occasionally and skimming off any foam that rises to the top.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Remove the pork chop, debone, and thinly slice the meat. Set aside.",
+     "relatedIngredientIds": [
+      "pork-chop"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the celery, carrots, potato, onion, leek, and celeriac to the soup.",
+     "relatedIngredientIds": [
+      "ribs-celery",
+      "carrots",
+      "large-potato",
+      "small-onion",
+      "small-leek",
+      "celeriac"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Return to the boil, reduce the heat to a simmer and let cook, uncovered, for another 30 minutes",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the smoked sausage for the last 15 minutes of cooking time.",
+     "relatedIngredientIds": [
+      "sausage"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When the vegetables are tender, remove the bacon and smoked sausage, slice thinly, and set aside.",
+     "relatedIngredientIds": [
+      "pork-belly",
+      "sausage"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "If you prefer a smooth consistency, purée the soup with a stick blender.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Season to taste with salt and pepper.",
+     "relatedIngredientIds": [
+      "salt-and-pepper"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Add the meat back to the soup, setting some slices of sausage aside.",
+     "relatedIngredientIds": [
+      "sausage"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Serve in heated bowls or soup plates, garnished with slices of rookworst and chopped celery leaf. Enjoy!",
+     "relatedIngredientIds": [
+      "pork-chop",
+      "ribs-celery",
+      "small-onion"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/erwtensoep/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "french-onion-soup",
+   "title": "French Onion Soup",
+   "description": "Slow-caramelised onion soup under melted cheese toast.",
+   "prepTime": 30,
+   "cookTime": 180,
+   "servings": 5,
+   "dietaryTags": [],
+   "categories": [
+    "french",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "onions",
+     "name": "Onions, cut into quarter moons",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 113.0,
+     "unit": "g"
+    },
+    {
+     "id": "olive-oil",
+     "name": "Olive oil",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "Salt, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "baguette-loaf",
+     "name": "Baguette Loaf, sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "chicken-broth",
+     "name": "Chicken Broth",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "garlic-cloves",
+     "name": "Garlic cloves, finely chopped",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "balsamic-vinegar",
+     "name": "Balsamic vinegar, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "worcestershire-sauce",
+     "name": "Worcestershire Sauce, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "Soy Sauce, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "beef-broth",
+     "name": "Beef Broth",
+     "amount": 64.0,
+     "unit": "oz"
+    },
+    {
+     "id": "bay-leaves",
+     "name": "Bay Leaves",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "melty-cheese",
+     "name": "Melty cheese, preferably guereye or swiss",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Sweat the onions in a covered Dutch oven over med-low heat, salt them, with 1 whole stick of butter.",
+     "relatedIngredientIds": [
+      "onions",
+      "butter",
+      "salt"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "And some olive oil for about 2 hours stirring occasionally but increasing in frequency as the heat gets raised over time.",
+     "relatedIngredientIds": [
+      "olive-oil"
+     ],
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "When the onions are soft and mostly shrunken down, and mostly covered by the butter, oil, and onion juice, strain and collect the juice in a bowl. Brush the onion juice over each side of slices of baguette bread.",
+     "relatedIngredientIds": [
+      "onions",
+      "butter"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Return the strained onions to med-high heat, uncovered, stirring and deglazing with chicken broth frequently but not so frequent that they turn to mush.",
+     "relatedIngredientIds": [
+      "onions",
+      "chicken-broth",
+      "beef-broth"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "When the entire can of chicken broth has been added for deglazing, add 3 finely chopped garlic cloves, 1/4 cup brown sugar, balsamic vinegar, Worcestershire sauce, soy sauce.",
+     "relatedIngredientIds": [
+      "chicken-broth",
+      "garlic-cloves",
+      "brown-sugar",
+      "balsamic-vinegar",
+      "worcestershire-sauce",
+      "soy-sauce",
+      "beef-broth"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Wait until the pot dries and a fond is formed in between adding each liquid ingredient slowly.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Keep slowly deglazing with the wooden spoon and caramelizing those onions.",
+     "relatedIngredientIds": [
+      "onions"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "After onions are thoroughly caramelized and there are no more liquid ingredients to add, pour in 64oz beef broth and 2-3 Bay leaves. Cover on medium heat until it simmers. It is now ready to serve!",
+     "relatedIngredientIds": [
+      "onions",
+      "chicken-broth",
+      "beef-broth",
+      "bay-leaves"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Put sliced (and onion-juice brushed) bread in 400F oven until toasted, then under the broiler covered in cheese until melted. Soup can be served poured over the bread slices or the bread floating on top.",
+     "relatedIngredientIds": [
+      "onions",
+      "baguette-loaf",
+      "melty-cheese"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/french-onion-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "chicken-soup",
+   "title": "Chicken Soup",
+   "description": "Hearty chicken and vegetable soup you can customise.",
+   "prepTime": 30,
+   "cookTime": 120,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "chicken-breasts",
+     "name": "chicken breasts",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "Onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "carrots",
+     "name": "carrots",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "celery-stalks",
+     "name": "celery stalks",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "chicken-stock-or-broth",
+     "name": "Chicken Stock or Broth",
+     "amount": 32.0,
+     "unit": "oz"
+    },
+    {
+     "id": "pasta",
+     "name": "Pasta (Optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cook chicken breasts, shred, and set aside in a bowl.",
+     "relatedIngredientIds": [
+      "chicken-breasts"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut up carrots and celery, place in pot and saute.",
+     "relatedIngredientIds": [
+      "carrots"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add in chicken and stock or broth and mix together well. Season with salt, pepper, hot sauce, whatever you desire",
+     "relatedIngredientIds": [
+      "chicken-stock-or-broth"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Allow it to simmer on low heat for 2 hours mixing every so often.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "If adding noodles, add in pasta and allow pasta to cook until al dente.",
+     "relatedIngredientIds": [
+      "pasta"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/chicken-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "paella",
+   "title": "Valencian Paella",
+   "description": "Valencian saffron rice with meat and vegetables.",
+   "prepTime": 20,
+   "cookTime": 60,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "rice",
+    "spanish"
+   ],
+   "ingredients": [
+    {
+     "id": "bomba-rice",
+     "name": "bomba rice",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "free-range-chicken",
+     "name": "free-range chicken, cut into pieces",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "rabbit",
+     "name": "rabbit, cut into pieces",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "flat-green-beans",
+     "name": "flat green beans (bajoqueta)",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "large-white-beans",
+     "name": "large white beans (garrofó)",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "ripe-tomatoes",
+     "name": "ripe tomatoes, grated",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "sweet-paprika",
+     "name": "sweet paprika",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "a-few-saffron-threads",
+     "name": "A few saffron threads",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "extra-virgin-olive-oil",
+     "name": "extra virgin olive oil",
+     "amount": 5.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 1.5,
+     "unit": "l"
+    },
+    {
+     "id": "artichokes",
+     "name": "artichokes, chopped, optional",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "cleaned-snails",
+     "name": "cleaned snails, optional",
+     "amount": 500.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the olive oil in a paella pan over medium-high heat. Add the chicken and rabbit pieces and fry them until golden brown on all sides.",
+     "relatedIngredientIds": [
+      "free-range-chicken",
+      "rabbit",
+      "extra-virgin-olive-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the green beans and garrofó to the pan. Sauté the vegetables with the meats for a few minutes so they absorb the flavors.",
+     "relatedIngredientIds": [
+      "flat-green-beans",
+      "large-white-beans"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the grated tomato and cook until it reduces and the oil separates, indicating it is ready.",
+     "relatedIngredientIds": [
+      "ripe-tomatoes"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Sprinkle the sweet paprika over the mixture and stir well, being careful not to burn it to avoid bitterness.",
+     "relatedIngredientIds": [
+      "sweet-paprika"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour the hot water into the pan and bring it to a boil. Cook over medium heat for about 20 minutes to let the flavors blend and create a rich broth.",
+     "relatedIngredientIds": [
+      "water"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Evenly distribute the rice across the paella pan. Add the saffron threads and adjust the salt if needed.",
+     "relatedIngredientIds": [
+      "bomba-rice",
+      "a-few-saffron-threads"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cook over high heat for 10 minutes without stirring the rice.",
+     "relatedIngredientIds": [
+      "bomba-rice"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Then, lower to medium-low heat and continue cooking for another 8-10 minutes, until the rice absorbs all the broth and is perfectly cooked.",
+     "relatedIngredientIds": [
+      "bomba-rice"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "If desired, place a few sprigs of fresh rosemary on top of the rice during the last few minutes of cooking for extra aroma.",
+     "relatedIngredientIds": [
+      "bomba-rice"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Once the rice is cooked, remove the pan from the heat and let the paella rest, covered with a clean cloth, for 5 minutes before serving.",
+     "relatedIngredientIds": [
+      "bomba-rice"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Rest"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/paella/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "loaded-mexican-rice",
+   "title": "Loaded Mexican Rice",
+   "description": "Tex-Mex rice with beans and meat in one pan.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "mexican",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "uncooked-long-grain-whit",
+     "name": "uncooked long grain white rice",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "frozen-peas",
+     "name": "frozen peas",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "frozen-corn",
+     "name": "frozen corn",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "caned-adobo-chilies-chop",
+     "name": "Caned adobo chilies chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "tomato-paste",
+     "name": "tomato paste",
+     "amount": 5.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "black-or-pinto-beans",
+     "name": "black or pinto beans",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "ground-meat",
+     "name": "ground meat (optional)",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "onion-diced",
+     "name": "Onion diced (optional)",
+     "amount": 0.25,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cook rice per manufactures instructions.",
+     "relatedIngredientIds": [
+      "uncooked-long-grain-whit"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pore enough neutral oil in a large pan to cover the bottom entirely, and turn on to medium heat.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Once pan is hot add rice, brake up the rice to ensue there are no clumps.",
+     "relatedIngredientIds": [
+      "uncooked-long-grain-whit"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add tomato paste and chilies to the pan, mix until rice is coated add water if needed.",
+     "relatedIngredientIds": [
+      "uncooked-long-grain-whit",
+      "tomato-paste"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Strain and add the beans, corn, and peas; if you are adding meat and or onion do so now.",
+     "relatedIngredientIds": [
+      "frozen-peas",
+      "frozen-corn",
+      "black-or-pinto-beans",
+      "ground-meat"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Mix well, ensue peas and corn thaw.",
+     "relatedIngredientIds": [
+      "frozen-peas",
+      "frozen-corn"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve hot as either a burrito or bowl with your choice of fillings/toppings.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/loaded-mexican-rice/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "dominican-spaghetti",
+   "title": "Dominican Spaghetti",
+   "description": "Dominican-style spaghetti with a savoury sauce.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "box-spaghetti",
+     "name": "box Spaghetti",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "onion-minced",
+     "name": "Onion minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "green-pepper-minced",
+     "name": "Green Pepper minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic-cloves-minced",
+     "name": "Garlic cloves minced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "chicken-bouillon-cube-or",
+     "name": "Chicken Bouillon Cube or Adobo",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "saz-n",
+     "name": "sazón",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "tomato-paste",
+     "name": "Tomato Paste",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "tomato-sauce",
+     "name": "Tomato Sauce",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "Butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "evaporated-milk",
+     "name": "Evaporated Milk",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "green-olives",
+     "name": "Green Olives",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "Sugar",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "starchy-pasta-water",
+     "name": "Starchy Pasta Water",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Boil spaghetti.",
+     "relatedIngredientIds": [
+      "box-spaghetti"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a separate pan, Sauté onions, peppers, and garlic until soft.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add seasonings and black pepper to taste. Mix until well combined.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add tomato paste, sauce, and the pasta water. Mix and let it come to a simmer. Simmer for 5 minutes.",
+     "relatedIngredientIds": [
+      "tomato-paste",
+      "tomato-sauce",
+      "starchy-pasta-water"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add evaporated milk, butter, sugar, and olives.",
+     "relatedIngredientIds": [
+      "butter",
+      "evaporated-milk",
+      "green-olives",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Taste for seasoning and heat to desired temperature.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add spaghetti and toss into the sauce.",
+     "relatedIngredientIds": [
+      "box-spaghetti",
+      "tomato-sauce"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/dominican-spaghetti/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "pilaf",
+   "title": "Pilaf",
+   "description": "Central Asian rice pilaf with meat, carrots and spices.",
+   "prepTime": 10,
+   "cookTime": 185,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "long-grain-rice",
+     "name": "long grain rice",
+     "amount": 1.0,
+     "unit": "kg"
+    },
+    {
+     "id": "meat",
+     "name": "meat (lamb or any other kind of meat)",
+     "amount": 1.5,
+     "unit": "kg"
+    },
+    {
+     "id": "onions",
+     "name": "onions",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "carrots",
+     "name": "carrots",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 5.0,
+     "unit": "clove"
+    },
+    {
+     "id": "raisins",
+     "name": "raisins, cardamom, paprika, coriander, cinnamon, cumin",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the cooking oil in a cauldron and heat it until the oil is boiling, add a head of onion until it is black, then throw it out.",
+     "relatedIngredientIds": [
+      "cooking-oil",
+      "onions"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Throw coarsely chopped meat into the cauldron and let it boil until it's golden brown, then add a pinch of salt.",
+     "relatedIngredientIds": [
+      "meat",
+      "salt"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the chopped onions, then wait 2 minutes and add the sliced carrots, boil for another 2 minutes.",
+     "relatedIngredientIds": [
+      "onions",
+      "carrots"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Wait"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add 500 ml of water diluted with tomato paste, boil for 5 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Rinse the rice and put it into the cauldron but do not mix.",
+     "relatedIngredientIds": [
+      "long-grain-rice"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add another 500 ml of water diluted with tomato paste and wait until it is boiling.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Reduce the heat to minimum, then add two table spoons of salt.",
+     "relatedIngredientIds": [
+      "salt"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Close the cauldron and leave it on low heat for 1.5-2 hours.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "1 hour before it is ready(or when you can't see water above the rice), add the garlic.",
+     "relatedIngredientIds": [
+      "long-grain-rice",
+      "garlic"
+     ],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "You can now turn over the rice if it is undercooked and add some raisins.",
+     "relatedIngredientIds": [
+      "long-grain-rice",
+      "raisins"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Keep boiling until all water is evaporated.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/pilaf/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "couscous",
+   "title": "Tunisian Couscous",
+   "description": "Tunisian couscous with lamb and stewed vegetables.",
+   "prepTime": 20,
+   "cookTime": 100,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "middle-eastern"
+   ],
+   "ingredients": [
+    {
+     "id": "lamb-stew-meat",
+     "name": "lamb stew meat , cut into large pieces",
+     "amount": 2.0,
+     "unit": "lb"
+    },
+    {
+     "id": "couscous-fine-semolina",
+     "name": "couscous fine semolina (or medium)",
+     "amount": 6.0,
+     "unit": "cup"
+    },
+    {
+     "id": "onions",
+     "name": "onions , finely chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic , pressed",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "tomato-paste",
+     "name": "tomato paste",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "harissa",
+     "name": "harissa",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ground-caraway",
+     "name": "ground caraway",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ground-coriander",
+     "name": "ground coriander",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chili-powder",
+     "name": "chili powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turnips",
+     "name": "turnips , cut in half",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "medium-carrots",
+     "name": "medium carrots , peeled",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "zucchini",
+     "name": "zucchini , peeled lengthwise, alternately leaving a layer",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "small-potatoes",
+     "name": "small potatoes , peeled",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "chickpeas",
+     "name": "chickpeas (canned)",
+     "amount": 10.0,
+     "unit": "oz"
+    },
+    {
+     "id": "green-hot-peppers",
+     "name": "green hot peppers , fried in oil (optional)",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "Vegetable oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "Pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Add ½ cup of oil into a large pan. Fry the onion over medium heat for 2 minutes.",
+     "relatedIngredientIds": [
+      "couscous-fine-semolina",
+      "onions"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the garlic, tomato paste and harissa and continue frying for 2 minutes.",
+     "relatedIngredientIds": [
+      "garlic",
+      "tomato-paste",
+      "harissa"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the caraway, coriander, and chili powder. Mix and continue cooking for another 2 minutes.",
+     "relatedIngredientIds": [
+      "ground-caraway",
+      "ground-coriander",
+      "chili-powder"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the lamb meat and mix well so that the pieces are covered with the sauce. Cook for 5 minutes stirring regularly.",
+     "relatedIngredientIds": [
+      "lamb-stew-meat"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cover with water. Add the turnips and carrots, and cook on low/medium heat for 45 minutes.",
+     "relatedIngredientIds": [
+      "couscous-fine-semolina",
+      "turnips",
+      "medium-carrots"
+     ],
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Meanwhile, prepare the couscous semolina as indicated on the package, with boiling water, salt, and oil.",
+     "relatedIngredientIds": [
+      "couscous-fine-semolina",
+      "salt"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "After 45 minutes, add the zucchini, potatoes and chickpeas.",
+     "relatedIngredientIds": [
+      "zucchini",
+      "small-potatoes",
+      "chickpeas"
+     ],
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cook for at least another 30 to 40 minutes over low to medium heat. Monitor the cooking of the vegetables.",
+     "relatedIngredientIds": [
+      "couscous-fine-semolina",
+      "vegetable-oil"
+     ],
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "If some vegetables are cooked before the meat, remove them from the pan and place them on a serving platter.",
+     "relatedIngredientIds": [
+      "lamb-stew-meat",
+      "vegetable-oil"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Proceed in the same way with all the vegetables to prevent them from cooking too much.",
+     "relatedIngredientIds": [
+      "vegetable-oil"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "10 minutes before the end of cooking, get a few ladles of broth (one at a time) and wet the couscous semolina. Mix the semolina well after each ladle until it gets moistened enough.",
+     "relatedIngredientIds": [
+      "couscous-fine-semolina"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Mix"
+    },
+    {
+     "id": "s12",
+     "order": 12,
+     "instructionText": "Arrange the semolina in a tajine pot. Decorate the dish with the vegetables and the meat all around. Garnish with fried green hot peppers (optional).",
+     "relatedIngredientIds": [
+      "lamb-stew-meat",
+      "couscous-fine-semolina",
+      "green-hot-peppers",
+      "vegetable-oil",
+      "pepper"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/couscous/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "merchants-buckwheat",
+   "title": "Merchant's Buckwheat",
+   "description": "Russian buckwheat with pork, onion and tomato.",
+   "prepTime": 10,
+   "cookTime": 40,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "pork-meat",
+     "name": "pork meat",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "metric-cup",
+     "name": "metric cup (~125ml) buckwheat",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "metric-cup-2",
+     "name": "metric cup (~300ml) water",
+     "amount": 1.2,
+     "unit": ""
+    },
+    {
+     "id": "medium-sized-carrot",
+     "name": "medium-sized carrot",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-onion",
+     "name": "small onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "tomato-paste",
+     "name": "tomato paste",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "wheat-flour",
+     "name": "Wheat flour",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "curcuma",
+     "name": "Curcuma",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "chili-powder",
+     "name": "Chili powder (optional)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "garlic-cloves",
+     "name": "garlic cloves",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "parsley",
+     "name": "Parsley",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves",
+     "amount": 3.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Chop the onion and cut the pork into small pieces.",
+     "relatedIngredientIds": [
+      "small-onion"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Dust the pork with some flour. I sometimes like to do this once I've added the pork to the pan, just because I am lazy and I haven't noticed much difference between either approach.",
+     "relatedIngredientIds": [
+      "wheat-flour"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the frying pan add a bit of oil, add the pork and onion, and fry for about 10-15 minutes over medium-high heat.",
+     "relatedIngredientIds": [
+      "small-onion"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "While the pork and onion are being fried, cut the carrot into small pieces and chop the parsley.",
+     "relatedIngredientIds": [
+      "medium-sized-carrot",
+      "small-onion",
+      "parsley"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Once the pork and onion are fried, add the water, tomato paste, buckwheat and carrots.",
+     "relatedIngredientIds": [
+      "metric-cup",
+      "metric-cup-2",
+      "medium-sized-carrot",
+      "small-onion",
+      "tomato-paste"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add curcuma, chili powder, salt and black pepper to taste; mix thoroughly.",
+     "relatedIngredientIds": [
+      "curcuma",
+      "chili-powder"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add in the garlic cloves, bay leaves and chopped parsley.",
+     "relatedIngredientIds": [
+      "garlic-cloves",
+      "parsley",
+      "bay-leaves"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Once the water is boiling, close the pan with a lid and stew for about 25 minutes over low heat.",
+     "relatedIngredientIds": [
+      "metric-cup-2"
+     ],
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Serve hot and enjoy!",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/merchants-buckwheat/",
+   "credit": "based.cooking contributors"
+  }
+ ]
+}

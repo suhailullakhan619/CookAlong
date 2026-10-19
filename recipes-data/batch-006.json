@@ -1,0 +1,2603 @@
+{
+ "recipes": [
+  {
+   "id": "hamburger-patties",
+   "title": "Hamburger Patties",
+   "description": "Basic homemade hamburger patties.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "soft-bread-crumb",
+     "name": "soft bread crumb",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "ground-beef",
+     "name": "ground beef",
+     "amount": 1.5,
+     "unit": "lb"
+    },
+    {
+     "id": "medium-onion",
+     "name": "medium onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "dash-pepper",
+     "name": "dash pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cayenne",
+     "name": "cayenne",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "worcestershire-sauce",
+     "name": "Worcestershire sauce",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fat-or-salad-oil",
+     "name": "fat or salad oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine all ingredients except fat: mix well; shape into 6 patties.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat fat in skillet.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Brown patties on all sides; lower heat; cook to desired degree of doneness.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/hamburger-patties/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "marinated-pork-steaks",
+   "title": "Marinated pork steaks",
+   "description": "Pork steaks in a simple tasty marinade.",
+   "prepTime": 35,
+   "cookTime": 10,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "honey",
+     "name": "honey",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "juice-from-1-lime",
+     "name": "Juice from 1 lime",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "peeled-cloves-garlic",
+     "name": "peeled cloves garlic",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "inch-thick-boneless-pork",
+     "name": "inch thick boneless pork shoulder steaks",
+     "amount": 4.25,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix olive oil, soy sauce, honey and lime juice until you have an even marinade. Add pepper and crushed garlic.",
+     "relatedIngredientIds": [
+      "olive-oil",
+      "soy-sauce",
+      "honey",
+      "juice-from-1-lime",
+      "peeled-cloves-garlic"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the pork steaks to the marinade and leave in room temperature for 30 minutes or a bit longer.",
+     "relatedIngredientIds": [
+      "inch-thick-boneless-pork"
+     ],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Preheat your grill/frying pan. Add marinated steaks, grill for 2 minutes, flip, repeat until you've grilled them for 10 minutes total. Towards the last minutes pour the remaining marinade over the steaks.",
+     "relatedIngredientIds": [
+      "inch-thick-boneless-pork"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Grill"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Let the steaks rest for 10 minutes before serving.",
+     "relatedIngredientIds": [
+      "inch-thick-boneless-pork"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Rest"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/marinated-pork-steaks/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "baked-mostaccioli",
+   "title": "Baked Mostaccioli",
+   "description": "Baked pasta with tomato sauce and melted cheese.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "italian"
+   ],
+   "ingredients": [
+    {
+     "id": "fradiavolo-sauce",
+     "name": "Fradiavolo Sauce",
+     "amount": 24.0,
+     "unit": "oz"
+    },
+    {
+     "id": "box-mostaccioli-rigati-o",
+     "name": "box mostaccioli rigati or penne rigate",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "shredded-mozzarella-chee",
+     "name": "shredded mozzarella cheese",
+     "amount": 8.0,
+     "unit": "oz"
+    },
+    {
+     "id": "i-ve-found-that-pre-shre",
+     "name": "I've found that pre-shredded cheese doesn't taste as good",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Bring a pot to a boil and cook pasta for 6 minutes (very al dente).",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 360,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Put pasta and sauce in baking dish(es) and mix well.",
+     "relatedIngredientIds": [
+      "fradiavolo-sauce"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cover pasta and sauce generously with grated cheese until you can't see the pasta.",
+     "relatedIngredientIds": [
+      "fradiavolo-sauce",
+      "shredded-mozzarella-chee"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Bake at 350°F / 175°C for 20 minutes, or 375°F / 190°C for 15 minutes on convection bake.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/baked-mostaccioli/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "aelplermagronen",
+   "title": "Älplermagronen (Alpine macaroni)",
+   "description": "Swiss Alpine macaroni with potato, cheese and apple sauce.",
+   "prepTime": 0,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "bacon-cubes",
+     "name": "bacon cubes",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "onions",
+     "name": "onions (medium size)",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes (firm/waxy)",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "macaroni",
+     "name": "macaroni (dry weight)",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "medium-soft-cheese-appen",
+     "name": "medium soft cheese. Appenzeller works best. Gruyère would",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "a-jar-of-apple-sauce",
+     "name": "a jar of apple sauce",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Fry bacon cubes in pot (this pot will be used for everything so choose an appropriately large one).",
+     "relatedIngredientIds": [
+      "bacon-cubes"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut onions into half-rings and let them sweat in the same pot. Add some butter if your bacon was not fatty enough.",
+     "relatedIngredientIds": [
+      "onions"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Peel potatoes and cut them into ~1 cm/half inch cubes.",
+     "relatedIngredientIds": [
+      "bacon-cubes",
+      "potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When the onions have become sufficiently cooked, add potatoes.",
+     "relatedIngredientIds": [
+      "onions",
+      "potatoes"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Top everything with milk and let the potatoes cook for about 10 minutes.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "milk"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add macaroni and the remaining milk to cover everything. Most of the milk will be absorbed by the macaroni.",
+     "relatedIngredientIds": [
+      "milk",
+      "macaroni"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Shred your cheese.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "A minute or two before the macaroni are done, add the shredded cheese into the pot. It should appear a bit too runny in the pot.",
+     "relatedIngredientIds": [
+      "macaroni"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "While cooling it will increase in viscosity quite a bit. If the final texture is not creamy enough, it is most likely due to using the wrong cheese.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Season to taste. (Needs quite a bit of salt). Nutmeg also works well here.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Serve with apple sauce. Should be eaten together, not as a dessert.",
+     "relatedIngredientIds": [
+      "a-jar-of-apple-sauce"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/aelplermagronen/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "banana-bread",
+   "title": "Banana Bread",
+   "description": "Moist, lightly sweet banana bread.",
+   "prepTime": 10,
+   "cookTime": 60,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "baking",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "all-purpose-flour",
+     "name": "all purpose flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "nutmeg",
+     "name": "nutmeg",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "mashed-bananas",
+     "name": "mashed bananas (this is around 4-5 bananas)",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar (brown or white is fine)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "crushed-walnuts",
+     "name": "crushed walnuts",
+     "amount": 0.25,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat oven to 350°F",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the wet ingredients (eggs, bananas, butter, sugar) in one bowl.",
+     "relatedIngredientIds": [
+      "mashed-bananas",
+      "eggs",
+      "sugar",
+      "butter"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the dry ingredients (flour, baking soda/powder, spices, salt) in another bowl.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "baking-powder",
+      "baking-soda",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Slowly add the wet to the dry while mixing.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix until dry bits of flour are gone.",
+     "relatedIngredientIds": [
+      "all-purpose-flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour into lightly buttered or oiled loaf pan.",
+     "relatedIngredientIds": [
+      "butter"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Bake for around an hour (it's definitely ready when a wooden skewer or chopstick poked inside comes out clean).",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/banana-bread/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "banana-oatmeal-cookies",
+   "title": "Banana and oatmeal cookies",
+   "description": "Simple banana and oat cookies.",
+   "prepTime": 3,
+   "cookTime": 20,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "quick",
+    "snack",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "ripe-bananas",
+     "name": "ripe bananas (250 g/9 oz peeled)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "oatmeal",
+     "name": "oatmeal",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "table-spoon-of-cinnamon",
+     "name": "table spoon of cinnamon powder (optional)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "table-spoon-of-honey",
+     "name": "table spoon of honey (optional)",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Pre-heat the oven to 180°C",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Peel the bananas and squash them not too finely in a bowl.",
+     "relatedIngredientIds": [
+      "ripe-bananas"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Incorporate the oatmeal.",
+     "relatedIngredientIds": [
+      "oatmeal"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Incorporate cinnamon powder and/or honey (optional).",
+     "relatedIngredientIds": [
+      "table-spoon-of-cinnamon",
+      "table-spoon-of-honey"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "On the oven tray, place parchment paper and form discs of the mix, each around 8 cm (3 in)",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cook with rotating heat for around 20 minutes, until outside becomes golden and slightly crispy.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Eat warm or cold. Can be kept a couple of days in a sealed container.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/banana-oatmeal-cookies/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "blueberry-muffins",
+   "title": "Blueberry Muffins",
+   "description": "Classic blueberry muffins.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "granulated-sugar",
+     "name": "granulated sugar",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter, melted",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "large-eggs",
+     "name": "large eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-blueberries",
+     "name": "fresh blueberries",
+     "amount": 1.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 375°F. Line a muffin tin with paper liners or just grease the tin directly.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a large mixing bowl, combine the dry ingredients: flour, sugar, baking powder, and salt.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "granulated-sugar",
+      "baking-powder",
+      "salt"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In a separate bowl, whisk together the wet ingredients: melted butter, milk, eggs, and vanilla extract.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "milk",
+      "large-eggs",
+      "vanilla-extract"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour the wet ingredients into the dry ingredients and stir until just combined. Do not overmix.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Gently fold in the fresh blueberries.",
+     "relatedIngredientIds": [
+      "fresh-blueberries"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Spoon the batter into the prepared muffin tin, filling each cup about three-quarters full.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Bake in the preheated oven for 20-25 minutes, or until a toothpick inserted into the center of a muffin comes out clean.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Preheat"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Remove the muffins from the oven and allow them to cool in the tin for a few minutes.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Transfer the muffins to a wire rack to cool completely before serving.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/blueberry-muffins/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "butter-cake",
+   "title": "Butter Cake",
+   "description": "Simple, rich butter cake.",
+   "prepTime": 10,
+   "cookTime": 50,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "snack",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter (warm to room temperature first)",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "caster-sugar",
+     "name": "caster sugar",
+     "amount": 130.0,
+     "unit": "g"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "egg-yolks",
+     "name": "egg yolks",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "sifted-self-raising-flou",
+     "name": "sifted self-raising flour",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 60.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cocoa-powder",
+     "name": "cocoa powder (for a marbled appearance), optional",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "caster-sugar-2",
+     "name": "caster sugar",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg-whites-separated-fro",
+     "name": "Egg whites separated from the yolks above",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Beat butter, sugar, and vanilla extract until incorporated.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "caster-sugar",
+      "vanilla-extract",
+      "caster-sugar-2"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Beat in egg yolks one at a time.",
+     "relatedIngredientIds": [
+      "egg-yolks"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat in half of the sifted flour, then the milk. Take care not to overwork the gluten after the flour is added. You may well find that manually stirring in the flour yields better results.",
+     "relatedIngredientIds": [
+      "sifted-self-raising-flou",
+      "milk"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Beat or stir in the remainder of the flour until just incorporated.",
+     "relatedIngredientIds": [
+      "sifted-self-raising-flou"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "(optional) Separate approximately one-third of the batter and mix in with it cocoa powder.",
+     "relatedIngredientIds": [
+      "cocoa-powder"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "To make the meringue, beat egg whites at high speed while gradually adding sugar until firm peaks form.",
+     "relatedIngredientIds": [
+      "caster-sugar",
+      "caster-sugar-2"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Fold the meringue into the batter. If you have done the fifth optional step, then you'll need to portion out approximately one-third of the meringue for the cocoa batter, and the remainder for the normal one.",
+     "relatedIngredientIds": [
+      "cocoa-powder"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Pour the batter(s) into a cake tin, and tap it on the countertop to get rid of any large air pockets.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "(optional) For the marbled appearance, run a skewer or chopstick through the batter a few times.",
+     "relatedIngredientIds": [
+      "cocoa-powder"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Do not overdo this lest you end up with a homogenously light brown cake rather than a yellow cake with dark brown streaks.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Bake at 175°C/350°F (conventional non-fan-forced) for 40-60min depending on the resulting batter thickness in your specific cake tin.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s12",
+     "order": 12,
+     "instructionText": "Just keep an eye on it and you'll be fine; test its doneness by inserting a skewer and seeing whether it comes out clean.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/butter-cake/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "bolinhos-de-coco",
+   "title": "Bolinhos de Coco",
+   "description": "Portuguese coconut cupcakes.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "quick",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "coconut",
+     "name": "coconut",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg-yolks",
+     "name": "egg yolks",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "whole-egg",
+     "name": "whole egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "powdered-sugar",
+     "name": "Powdered sugar (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the non-optional ingredients in a medium bowl.",
+     "relatedIngredientIds": [
+      "powdered-sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Scoop tablespoons of the batter into a cookie sheet or cupcake pan.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cook for around 10 minutes or until slightly brown on top.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Top with powdered sugar if desired.",
+     "relatedIngredientIds": [
+      "sugar",
+      "powdered-sugar"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Let cool and enjoy!",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/bolinhos-de-coco/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "creme-brulee",
+   "title": "Crème brûlée",
+   "description": "Vanilla custard with a burnt-sugar crust.",
+   "prepTime": 20,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "french",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "high-fat-cream",
+     "name": "high fat cream",
+     "amount": 400.0,
+     "unit": "ml"
+    },
+    {
+     "id": "whole-milk",
+     "name": "whole milk",
+     "amount": 140.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar (preferred brown)",
+     "amount": 85.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg-yolk",
+     "name": "egg yolk",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "vanilla-bean",
+     "name": "vanilla bean (mark, optionally essence)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "lemon-peel",
+     "name": "Lemon peel, rubbed",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "sugar-for-the-top-crust",
+     "name": "Sugar for the top crust",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix cream, milk and yolks.",
+     "relatedIngredientIds": [
+      "high-fat-cream",
+      "whole-milk",
+      "egg-yolk"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add sugar, vanilla and lemon.",
+     "relatedIngredientIds": [
+      "sugar"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Let rest for at least 30 min (optionally over night)",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour into 4-6 fireproof ramekins.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pre-heat oven to 150°C and put the grease pan on the middle rail.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Put the ramekins onto the grease pan and fill it with boiling water.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Let the crème cook for 55 min.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 3300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Let the ramekins cool down to room temperature and put them in the fridge for at least 2 hours.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Cool"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Spread a teaspoon of sugar onto each ramekin.",
+     "relatedIngredientIds": [
+      "sugar"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Use a blowtorch to flambé the sugar. Alternatively the grill of your oven may work too.",
+     "relatedIngredientIds": [
+      "sugar"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/creme-brulee/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "cuca-italiana",
+   "title": "Cuca Italiana",
+   "description": "Brazilian sweet bread with a crumbly streusel top.",
+   "prepTime": 150,
+   "cookTime": 40,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "a-cup-of-warm-water",
+     "name": "a cup of warm water",
+     "amount": 0.75,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "lard-or-butter",
+     "name": "lard or butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "instant-dry-yeast",
+     "name": "instant dry yeast",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "a-pinch-of-nutmeg",
+     "name": "A pinch of nutmeg",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "vanilla-essence",
+     "name": "vanilla essence (optional).",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "herbs-and-spices-fennel",
+     "name": "herbs and spices: Fennel seeds, cinammon, cloves. Don't put",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "sugar-2",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "lard-or-butter-2",
+     "name": "lard or butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vanilla-essence-2",
+     "name": "vanilla essence",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Add the sifted flour, the nutmeg and a pinch of salt into a bowl. In another one, add the sugar, the warm water, the fat of choice, the yeast and the vanilla essence.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "sugar",
+      "a-cup-of-warm-water",
+      "instant-dry-yeast",
+      "a-pinch-of-nutmeg",
+      "vanilla-essence",
+      "sugar-2",
+      "flour",
+      "vanilla-essence-2"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Unite both mixes and knead it until an homogenous dough forms. Put it in a properly floured and greased baking tray that you would use for baking bread, or a tall, round tray for cake.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "flour"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Prepare the \"farofa\" mixing the sugar, the flour, the fat and the vanilla essence with your fingertips, until they form crumbles.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "sugar",
+      "vanilla-essence",
+      "sugar-2",
+      "flour",
+      "vanilla-essence-2"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Now put the \"farofa\" over the dough, cover it with a cloth and leave it to rest for 2 hours.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Then, bake it at a pre-heated 180C (356F) oven for 40 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Have it with fruit jam (grape is my favourite) or dulce de leche, and some coffee.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/cuca-italiana/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "greek-easter-cookies",
+   "title": "Greek Easter Cookies",
+   "description": "Traditional Greek Easter cookies.",
+   "prepTime": 45,
+   "cookTime": 22,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "greek",
+    "snack",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "tsps-baking-powder",
+     "name": "tsps baking powder",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "tsps-baker-s-ammonium",
+     "name": "tsps baker’s ammonium",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "powder-vanilla",
+     "name": "powder vanilla",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "zest-of-3-oranges",
+     "name": "Zest of 3 oranges",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "zest-of-2-lemons",
+     "name": "Zest of 2 lemons",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "orange-juice",
+     "name": "orange juice",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "warmed-milk",
+     "name": "warmed milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "egg-yolk-whisked-to-brus",
+     "name": "egg yolk whisked to brush cookies",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "enough-flour-to-make-a-s",
+     "name": "Enough flour to make a soft pliable dough",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cream butter and sugar together until fluffy. Add eggs one at a time and blend well between each.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "sugar",
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add ammonium to the warmed milk and add to the butter, sugar, and egg mixture.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "sugar",
+      "eggs",
+      "tsps-baker-s-ammonium",
+      "warmed-milk"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Start adding flour to the wet mixture and at this time also add the baking powder, vanilla, lemon/orange zest, salt and orange juice.",
+     "relatedIngredientIds": [
+      "tsps-baking-powder",
+      "powder-vanilla",
+      "zest-of-3-oranges",
+      "zest-of-2-lemons",
+      "orange-juice"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix well and start adding flour slowly until you are able to roll the dough easily between your hands. (This is a big batch, if your mixer can’t handle the volume, then knead by hand).",
+     "relatedIngredientIds": [
+      "enough-flour-to-make-a-s"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Form dough in a ball and place in a big bowl. Let it rest for about 30 minutes, cover it with saran wrap and keep in oven or draft free area.",
+     "relatedIngredientIds": [
+      "enough-flour-to-make-a-s"
+     ],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Line pans with parchment paper.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Form dough by hand in ½ inch thick 3 inch long strips and then twist together or any shape you like. If the dough is sticky dip hands in oil.",
+     "relatedIngredientIds": [
+      "enough-flour-to-make-a-s"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Brush with beaten egg yolks and bake at 350F for about 20 minutes or 325F convection. Watch carefully as they can burn easily!",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/greek-easter-cookies/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "homemade-ice-cream",
+   "title": "Homemade Ice Cream",
+   "description": "No-churn ice cream with only a few ingredients.",
+   "prepTime": 10,
+   "cookTime": 0,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "condensed-milk",
+     "name": "condensed milk",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "heavy-whipping-cream",
+     "name": "heavy whipping cream (approx. 2 cups)",
+     "amount": 500.0,
+     "unit": "ml"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "blended-blueberries",
+     "name": "blended blueberries (or any mix-in of your choice)",
+     "amount": 2.0,
+     "unit": "handful"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Beat the condensed milk with a mixer for about 2 minutes until smooth. Set aside.",
+     "relatedIngredientIds": [
+      "condensed-milk"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a separate bowl, whip the heavy cream for about 4 minutes until thick and stiff peaks form.",
+     "relatedIngredientIds": [
+      "heavy-whipping-cream"
+     ],
+     "suggestedTimerSeconds": 240,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Gently fold the condensed milk into the whipped cream. Add vanilla extract and blended blueberries, or your preferred mix-ins. Mix by hand until just combined.",
+     "relatedIngredientIds": [
+      "condensed-milk",
+      "heavy-whipping-cream",
+      "vanilla-extract",
+      "blended-blueberries"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Transfer to a clean 1 kg container. Spread evenly, press lightly to remove air pockets, and shake gently from side to side to level the surface.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cover with plastic wrap, then secure with a lid. Freeze for 5-6 hours until firm.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 21600,
+     "timerLabel": "Freeze"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/homemade-ice-cream/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "honey-vanilla-ice-cream",
+   "title": "Honey Vanilla Ice Cream",
+   "description": "Creamy honey and vanilla ice cream.",
+   "prepTime": 125,
+   "cookTime": 0,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "heavy-cream",
+     "name": "heavy cream",
+     "amount": 473.0,
+     "unit": "ml"
+    },
+    {
+     "id": "milk",
+     "name": "milk (whole milk recommended)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "honey",
+     "name": "honey",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Add milk and sugar to medium sized bowl and mix until dissolved.",
+     "relatedIngredientIds": [
+      "milk",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add heavy cream and vanilla extract and mix.",
+     "relatedIngredientIds": [
+      "heavy-cream",
+      "vanilla-extract"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in honey.",
+     "relatedIngredientIds": [
+      "honey"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Chill in refrigerator for at least 2 hours.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add to ice cream maker and let it go for 30 minutes.",
+     "relatedIngredientIds": [
+      "heavy-cream"
+     ],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Swiftly remove from ice cream maker (I use a silicone spatula as it allows for sides to be scraped down) and put into container.",
+     "relatedIngredientIds": [
+      "heavy-cream"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Freeze ice cream overnight - a few hours will do in a pinch but overnight is better.",
+     "relatedIngredientIds": [
+      "heavy-cream"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Scoop out of container and serve! Goes great with honey cake.",
+     "relatedIngredientIds": [
+      "honey"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/honey-vanilla-ice-cream/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "kettlecorn",
+   "title": "Kettle Corn",
+   "description": "Sweet and salty stove-top kettle corn.",
+   "prepTime": 2,
+   "cookTime": 5,
+   "servings": 2,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "quick",
+    "snack",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil, or oil of your choice",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "popcorn-kernels",
+     "name": "popcorn kernels",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar (brown sugar works too)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Add oil into your saucepan and 3 popcorn kernels.",
+     "relatedIngredientIds": [
+      "popcorn-kernels"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cover with lid and set stove to medium-high heat.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Once all 3 kernels pop, add in the rest of your kernels and shake to coat in oil. Pour sugar directly onto the kernels.",
+     "relatedIngredientIds": [
+      "popcorn-kernels",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Shake the pot for 3 seconds, rest for 3 seconds, and repeat till the kernels start to pop steadily. Depending on your stove, you may need to lift the pot to shake.",
+     "relatedIngredientIds": [
+      "popcorn-kernels"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Once kernels start popping, shake pot every 1-2 seconds.",
+     "relatedIngredientIds": [
+      "popcorn-kernels"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Important. Once you no longer hear pops for about 3 seconds, immediately transfer into a bowl to avoid burning.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/kettlecorn/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "matcha-cookies",
+   "title": "Matcha Cookies",
+   "description": "Crisp green matcha tea cookies.",
+   "prepTime": 40,
+   "cookTime": 10,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "snack",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "unsalted-butter",
+     "name": "Unsalted butter",
+     "amount": 115.0,
+     "unit": "g"
+    },
+    {
+     "id": "caster-sugar",
+     "name": "Caster sugar",
+     "amount": 60.0,
+     "unit": "g"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "Brown sugar",
+     "amount": 115.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg",
+     "name": "Egg",
+     "amount": 55.0,
+     "unit": "g"
+    },
+    {
+     "id": "plain-flour",
+     "name": "Plain flour",
+     "amount": 153.0,
+     "unit": "g"
+    },
+    {
+     "id": "matcha-powder",
+     "name": "Matcha powder",
+     "amount": 12.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-soda",
+     "name": "Baking soda",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": 1.0,
+     "unit": "g"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "Vanilla extract",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-coverture-chocolat",
+     "name": "White coverture chocolate",
+     "amount": 70.0,
+     "unit": "g"
+    },
+    {
+     "id": "macadamia-nut",
+     "name": "Macadamia nut",
+     "amount": 45.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Melt butter in a bath or microwave.",
+     "relatedIngredientIds": [
+      "unsalted-butter"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add white sugar, brown sugar and salt and mix with a whisk",
+     "relatedIngredientIds": [
+      "caster-sugar",
+      "brown-sugar",
+      "salt"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add egg and vanilla extract and mix with a whisk until well mixed.",
+     "relatedIngredientIds": [
+      "vanilla-extract"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add flour, matcha powder and baking soda and mix with a whisk until you can hardly see the powder.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "matcha-powder",
+      "baking-soda"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add white coverture chocolate and macadamia and mix evenly with spatula.",
+     "relatedIngredientIds": [
+      "white-coverture-chocolat",
+      "macadamia-nut"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Allow 30 minutes to 1 hour in the refrigerator until the dough hardens.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pan with a 5cm diameter cookie and bake at 170°C for 9 minutes. (Unox convection oven)",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 540,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Preheat the oven beforehand. My oven is very hot, so raise the oven temperature a little bit higher if you have common oven.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "If you bake too little, it will not be cooked. If you bake too long, it will become hard.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "The white coverture chocolate melts smoothly in your mouth, and the white chocolate chip has a more chewy texture. So you can choose anything to your taste.",
+     "relatedIngredientIds": [
+      "white-coverture-chocolat"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/matcha-cookies/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "pumpkin-loaves",
+   "title": "Pumpkin Loaves",
+   "description": "Spiced pumpkin loaves for tea time.",
+   "prepTime": 20,
+   "cookTime": 75,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cloves",
+     "name": "ground cloves",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-nutmeg",
+     "name": "ground nutmeg",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "grated-ginger",
+     "name": "grated ginger",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "pumpkin",
+     "name": "pumpkin",
+     "amount": 1.0,
+     "unit": "can"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Grease 2 loaf pans or cover with parchment paper, then preheat oven to 325°F",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sift flour with all other dry ingredients (optional)",
+     "relatedIngredientIds": [
+      "flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat sugar and butter",
+     "relatedIngredientIds": [
+      "sugar",
+      "butter"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add eggs to sugar/butter mixture, one at a time",
+     "relatedIngredientIds": [
+      "sugar",
+      "butter",
+      "eggs"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Beat in pureed pumpkin",
+     "relatedIngredientIds": [
+      "pumpkin"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Whisk in flour and other dry ingrients",
+     "relatedIngredientIds": [
+      "flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add batter to loaf pans and bake for ~ 1 hour 15 minutes",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 4500,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/pumpkin-loaves/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "tahini-short-bread",
+   "title": "Tahini Shortbread",
+   "description": "Shortbread made with sesame tahini.",
+   "prepTime": 15,
+   "cookTime": 15,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "baking",
+    "snack",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "from-30g-to-70g-of-sugar",
+     "name": "from 30g to 70g of sugar",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "tahini",
+     "name": "Tahini",
+     "amount": 75.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "flour",
+     "name": "flour (T45)",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "any-toppings-if-desired",
+     "name": "Any toppings if desired although it is very enjoyable on",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Thoroughly mix the egg, sugar and Tahini",
+     "relatedIngredientIds": [
+      "from-30g-to-70g-of-sugar",
+      "tahini"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Warm the butter so it is \"pommade\" meaning not liquide but soft enough so you can mix it with the preparation",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Have a good mixing of the butter and the preparation so it gets a bit airy.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the flour slowly so the preparation stays homogenous.",
+     "relatedIngredientIds": [
+      "flour"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the baking powder",
+     "relatedIngredientIds": [
+      "baking-powder"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Let the dough sit and then cook it as described in butter-based biscuits recipe",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Enjoy with tea",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/tahini-short-bread/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "tarta-de-santiago",
+   "title": "Tarta de Santiago",
+   "description": "Spanish almond cake from Galicia.",
+   "prepTime": 15,
+   "cookTime": 40,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "baking",
+    "spanish"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar (150 gr)",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "almond-meal",
+     "name": "almond meal (150 gr)",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "cinnamon-powder",
+     "name": "cinnamon powder",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "zest-of-1-lemon",
+     "name": "Zest of 1 lemon",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "zest-of-1-clementine",
+     "name": "Zest of 1 clementine",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "icing-sugar",
+     "name": "Icing sugar, for dusting on top",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Add eggs and sugar into a bowl and whisk until the mixture turns pale.",
+     "relatedIngredientIds": [
+      "eggs",
+      "sugar",
+      "icing-sugar"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the rest of the ingredients, except for icing sugar and using a spatula, gently fold everything until well combine.",
+     "relatedIngredientIds": [
+      "sugar",
+      "icing-sugar"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour batter into a 7 inch (18 cm) springform pan that has been buttered and floured. Bake in a preheated oven at 360ºF (180ºC) for 40 minutes or until golden brown and fully cooked.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Preheat"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cool completely. Place the Santiago cross cut out on top and dust generous amount of icing sugar all over the cake. Carefully remove the cut out. Slice and serve, enjoy!",
+     "relatedIngredientIds": [
+      "sugar",
+      "icing-sugar"
+     ],
+     "animation": "rest"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/tarta-de-santiago/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "tarte-merengada",
+   "title": "Tarte Merengada de Limão",
+   "description": "Portuguese lemon meringue pie.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "buttered-cookies",
+     "name": "buttered cookies (shortcake)",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "margarine",
+     "name": "margarine",
+     "amount": 80.0,
+     "unit": "g"
+    },
+    {
+     "id": "condensed-milk",
+     "name": "condensed milk",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "3-4-lemons",
+     "name": "3 / 4 lemons ( 1 dl of juice + the outer scrapings )",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 150.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Pre-heat the oven to 220ºC.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Separate the yolk from the egg whites and mix the yolks with the condensed milk into whipped cream.",
+     "relatedIngredientIds": [
+      "condensed-milk",
+      "eggs"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Meanwhile mash the cookies into a powder and mix it with the margarine while covering the bottom and sides of a pie dish.",
+     "relatedIngredientIds": [
+      "buttered-cookies",
+      "margarine"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Take the outer scrapings of a lemon with a gratter and squeeze the juice of all the lemons.",
+     "relatedIngredientIds": [
+      "3-4-lemons"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix the scrappings and the juice with the yolk and add to the pie dish.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Take it to the oven.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Meanwhile mix the egg whites until they start to foam, add the sugar then and keep mixing them until the meringe starts to be firm.",
+     "relatedIngredientIds": [
+      "eggs",
+      "sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "After 10 to 15 minutes in the oven, cover the surface of the pie with small dumpings of meringe with a spoon.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Reduce the heat of the oven to 160ºC and put the pie back into the oven until the meringe on top becomes golden brown.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/tarte-merengada/",
+   "credit": "based.cooking contributors"
+  }
+ ]
+}

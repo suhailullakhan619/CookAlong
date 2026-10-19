@@ -1,0 +1,7510 @@
+{
+ "recipes": [
+  {
+   "id": "oyster-sauce-lettuce",
+   "title": "Oyster Sauce Lettuce",
+   "description": "Lettuce leaves blanched for seconds and topped with a hot garlic and oyster sauce dressing.",
+   "prepTime": 5,
+   "cookTime": 5,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "quick",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "head-lettuce",
+     "name": "head lettuce (about 200 g)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 7.0,
+     "unit": "ml"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 5.0,
+     "unit": "clove"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 6.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 10.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the lettuce and discard any damaged leaves.",
+     "relatedIngredientIds": [
+      "head-lettuce"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Put 1 litre of cold water in a pot with 3 ml of the oil and half the salt, and bring it to a boil.",
+     "relatedIngredientIds": [
+      "salt",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Blanch the lettuce leaf by leaf, each for 10 seconds. Drain well and arrange on a plate.",
+     "relatedIngredientIds": [
+      "head-lettuce"
+     ],
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Drain"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In a bowl, mix the soy sauce, oyster sauce, remaining salt and the sugar with 15 ml of cold water.",
+     "relatedIngredientIds": [
+      "oyster-sauce",
+      "light-soy-sauce",
+      "salt",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Heat the remaining oil in a wok, add the garlic and fry until fragrant.",
+     "relatedIngredientIds": [
+      "garlic",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour in the sauce, bring it to a boil and turn off the heat at once. Pour it evenly over the lettuce.",
+     "relatedIngredientIds": [
+      "head-lettuce",
+      "oyster-sauce"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E7%94%9F%E8%8F%9C.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "stir-fried-bok-choy",
+   "title": "Stir-fried Bok Choy",
+   "description": "Bok choy stir-fried with garlic, then briefly braised with a pinch of sugar.",
+   "prepTime": 5,
+   "cookTime": 5,
+   "servings": 2,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "quick",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "bok-choy",
+     "name": "bok choy (or other Chinese greens)",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 4.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 140.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 10.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Separate the bok choy into leaves and wash them well.",
+     "relatedIngredientIds": [
+      "bok-choy"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mince the garlic.",
+     "relatedIngredientIds": [
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the wok over medium-high heat and add the oil. Wait 30 seconds for the oil to get hot.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Wait"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the bok choy and stir-fry for about 1 minute, until it softens.",
+     "relatedIngredientIds": [
+      "bok-choy"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the garlic and stir.",
+     "relatedIngredientIds": [
+      "garlic"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour in the water so it almost covers the greens, add the salt and stir-fry for about 1 minute.",
+     "relatedIngredientIds": [
+      "salt",
+      "water"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the sugar, cover and cook over low heat for 2 minutes, then serve.",
+     "relatedIngredientIds": [
+      "sugar"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%82%92%E9%9D%92%E8%8F%9C.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "tiger-skin-peppers",
+   "title": "Tiger Skin Peppers",
+   "description": "Long green peppers pressed in hot garlic oil until blistered, then tossed in a sweet-sour soy sauce.",
+   "prepTime": 10,
+   "cookTime": 5,
+   "servings": 2,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "long-green-peppers",
+     "name": "long green peppers (10-15 cm)",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 3.0,
+     "unit": "clove"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chinese-black-vinegar",
+     "name": "Chinese black vinegar",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 4.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut off the pepper stems and rinse the peppers under the tap.",
+     "relatedIngredientIds": [
+      "long-green-peppers"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut each pepper lengthways into 3-4 long pieces.",
+     "relatedIngredientIds": [
+      "long-green-peppers"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Peel the garlic and chop it finely. Put the oil in a small bowl and stir in the garlic.",
+     "relatedIngredientIds": [
+      "garlic",
+      "cooking-oil"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In another bowl, mix the sugar, soy sauce, vinegar and salt.",
+     "relatedIngredientIds": [
+      "sugar",
+      "light-soy-sauce",
+      "chinese-black-vinegar",
+      "salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour the garlic oil into the wok and heat it to about 150 °C. Add the peppers in a single layer, not overlapping.",
+     "relatedIngredientIds": [
+      "long-green-peppers",
+      "garlic",
+      "cooking-oil"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Keep pressing the peppers with the spatula, turning them over now and then.",
+     "relatedIngredientIds": [
+      "long-green-peppers"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Stir-fry for about 2 minutes, until the skins blister and wrinkle, then pour in the sauce.",
+     "relatedIngredientIds": [
+      "light-soy-sauce"
+     ],
+     "animation": "stir",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Turn up the heat, stir-fry for 30 seconds and serve.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "zucchini-egg-stir-fry",
+   "title": "Zucchini and Egg Stir-fry",
+   "description": "Soft zucchini and fluffy scrambled egg, stir-fried with a little tomato.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "zucchini",
+     "name": "zucchini",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "tomato",
+     "name": "tomato, optional",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 6.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the tomato and cut it into small pieces.",
+     "relatedIngredientIds": [
+      "tomato"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Wash the zucchini and cut it into diamonds about 4 cm across.",
+     "relatedIngredientIds": [
+      "zucchini"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Crack the eggs into a bowl and beat well.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the wok and add 10 ml of the oil. Pour in the eggs and stir-fry until set. Break them into small pieces with the spatula and move them to a bowl.",
+     "relatedIngredientIds": [
+      "eggs",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the remaining oil and the tomato and stir-fry until soft.",
+     "relatedIngredientIds": [
+      "tomato",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the zucchini and toss well. Add the salt, turn the heat down and cook for 4-5 minutes.",
+     "relatedIngredientIds": [
+      "zucchini",
+      "salt"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Return the eggs and stir-fry over medium heat for 15 seconds. Turn off the heat and serve.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "suggestedTimerSeconds": 15,
+     "timerLabel": "Fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "spinach-egg-stir-fry",
+   "title": "Spinach and Egg Stir-fry",
+   "description": "Blanched spinach tossed over high heat with pieces of golden egg.",
+   "prepTime": 5,
+   "cookTime": 5,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "quick",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "spinach",
+     "name": "spinach",
+     "amount": 350.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 5.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Trim the roots off the spinach, wash it, put it in a sieve and blanch it in boiling water. Drain.",
+     "relatedIngredientIds": [
+      "spinach"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Crack the eggs into a bowl and beat well.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the wok and add 10 ml of the oil.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When the oil is hot, pour in the eggs and cook over medium heat for 15 seconds to set into a pancake, then cut it into small pieces with the spatula.",
+     "relatedIngredientIds": [
+      "eggs",
+      "cooking-oil"
+     ],
+     "suggestedTimerSeconds": 15,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Turn off the heat and move the egg to a plate. Do not wash the wok.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Turn the heat back on and add the remaining oil. When hot, add the spinach and stir-fry over high heat for 15 seconds, then add the egg and toss.",
+     "relatedIngredientIds": [
+      "spinach",
+      "eggs",
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 15,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the salt and 100 ml of drinking water and stir-fry over high heat for 10 seconds. Turn off the heat and serve.",
+     "relatedIngredientIds": [
+      "salt"
+     ],
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "steamed-egg-custard",
+   "title": "Steamed Egg Custard",
+   "description": "Silky savoury egg custard steamed until it wobbles like jelly, finished with soy sauce and sesame oil.",
+   "prepTime": 5,
+   "cookTime": 15,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "quick",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-vinegar",
+     "name": "white vinegar, optional",
+     "amount": 2.0,
+     "unit": "ml"
+    },
+    {
+     "id": "warm-water",
+     "name": "warm water (about 70 °C)",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 3.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 8.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Crack the eggs into a bowl, add the salt and beat well.",
+     "relatedIngredientIds": [
+      "eggs",
+      "salt"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the vinegar if using; it takes away the eggy smell.",
+     "relatedIngredientIds": [
+      "eggs",
+      "white-vinegar"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the warm water, 1 to 1.5 times the volume of the egg. Less water gives a firmer custard, more water a softer one.",
+     "relatedIngredientIds": [
+      "eggs",
+      "warm-water"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Strain the egg mixture to remove the foam, so the custard is smooth. Cover the bowl with a lid, an upturned plate or cling film.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bring 300-500 ml of water to a boil in a pot, then put the covered bowl in.",
+     "relatedIngredientIds": [
+      "warm-water"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Steam over medium heat for 10 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Steam"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Turn off the heat and leave the lid on for 5 more minutes.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Shake the bowl: the custard is done when it is no longer liquid and wobbles like jelly.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Drizzle with the sesame oil and soy sauce and serve.",
+     "relatedIngredientIds": [
+      "sesame-oil",
+      "light-soy-sauce"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E7%BE%B9/%E9%B8%A1%E8%9B%8B%E7%BE%B9.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "pan-fried-scallion-tofu",
+   "title": "Pan-fried Scallion Tofu",
+   "description": "Golden pan-fried tofu slices tossed with green chilli and finished with scallion.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "blocks-firm-tofu",
+     "name": "blocks firm tofu",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "long-green-chilli",
+     "name": "long green chilli",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 6.0,
+     "unit": "g"
+    },
+    {
+     "id": "chicken-bouillon-powder",
+     "name": "chicken bouillon powder",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil, plus a little extra",
+     "amount": 18.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Rinse the tofu, cut it into slices about 5 mm thick and lay them on a plate.",
+     "relatedIngredientIds": [
+      "blocks-firm-tofu"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Wash the scallion, trim the root and chop it.",
+     "relatedIngredientIds": [
+      "scallion"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Wash the chilli, split it, remove the seeds and cut it into 1 cm squares.",
+     "relatedIngredientIds": [
+      "long-green-chilli"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the wok and add the 18 ml of oil, swirling it over the base.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Lay in the tofu and fry over low heat until golden underneath, then turn. When both sides are golden, move it to a plate.",
+     "relatedIngredientIds": [
+      "blocks-firm-tofu"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add a little more oil to cover the base. Add the chilli and stir-fry over high heat for 3 minutes, pressing it with the spatula.",
+     "relatedIngredientIds": [
+      "long-green-chilli",
+      "cooking-oil"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Return the tofu, add the salt and bouillon powder and stir-fry over medium heat for 1 minute.",
+     "relatedIngredientIds": [
+      "blocks-firm-tofu",
+      "salt",
+      "chicken-bouillon-powder"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add 10 ml of water and let it cook off over high heat. Sprinkle with the scallion and serve.",
+     "relatedIngredientIds": [
+      "scallion"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%91%B1%E7%85%8E%E8%B1%86%E8%85%90.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "crispy-tofu-soy-glaze",
+   "title": "Crispy Tofu with Soy Glaze",
+   "description": "Egg-coated tofu slices fried golden, then simmered in a sweet soy and oyster sauce glaze.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "block-firm-tofu",
+     "name": "block firm tofu",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 60.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 18.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Beat the eggs in a bowl.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "For the sauce, mix the light soy sauce, oyster sauce, dark soy sauce, sugar, 10 g of the cornstarch and the water.",
+     "relatedIngredientIds": [
+      "cornstarch",
+      "light-soy-sauce",
+      "oyster-sauce",
+      "sugar",
+      "water"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cut the tofu into 10 slices about 1.2 cm thick.",
+     "relatedIngredientIds": [
+      "block-firm-tofu"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Spread the remaining cornstarch on a plate. Coat each tofu slice in cornstarch, then dip it in the egg.",
+     "relatedIngredientIds": [
+      "block-firm-tofu",
+      "eggs",
+      "cornstarch"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Heat a frying pan, add the oil and wait 10 seconds for it to heat up.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Wait"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Lay the tofu in the pan in one layer and fry over low heat until golden, then turn.",
+     "relatedIngredientIds": [
+      "block-firm-tofu"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When both sides are golden, pour in the sauce so every piece sits in it. Cook over high heat for 3 minutes until thick.",
+     "relatedIngredientIds": [
+      "light-soy-sauce"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Turn off the heat and serve.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%84%86%E7%9A%AE%E8%B1%86%E8%85%90.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "cold-tofu-salad",
+   "title": "Cold Tofu Salad",
+   "description": "Briefly boiled tofu cubes dressed with soy sauce, garlic, sesame oil and scallion.",
+   "prepTime": 10,
+   "cookTime": 5,
+   "servings": 1,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "quick",
+    "healthy",
+    "salad"
+   ],
+   "ingredients": [
+    {
+     "id": "firm-tofu",
+     "name": "firm tofu",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 3.0,
+     "unit": "clove"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "vinegar",
+     "name": "vinegar, optional",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar, optional",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "chilli-oil",
+     "name": "chilli oil, optional",
+     "amount": 5.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the tofu into 2 cm cubes.",
+     "relatedIngredientIds": [
+      "firm-tofu"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring 500 ml of drinking water to a boil over high heat.",
+     "relatedIngredientIds": [],
+     "animation": "boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Boil the tofu for 1-2 minutes to remove the beany taste and firm it up.",
+     "relatedIngredientIds": [
+      "firm-tofu"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Lift out the tofu, drain well and put it in a bowl.",
+     "relatedIngredientIds": [
+      "firm-tofu"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Wash the scallion and chop it. Peel and mince the garlic.",
+     "relatedIngredientIds": [
+      "scallion",
+      "garlic"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "In a small bowl, mix the soy sauce, sesame oil, vinegar, sugar and garlic until the sugar dissolves.",
+     "relatedIngredientIds": [
+      "garlic",
+      "light-soy-sauce",
+      "sesame-oil",
+      "vinegar",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour the sauce over the tofu and sprinkle with the scallion.",
+     "relatedIngredientIds": [
+      "firm-tofu",
+      "scallion",
+      "light-soy-sauce"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Drizzle with the chilli oil if you like, then toss gently and serve.",
+     "relatedIngredientIds": [
+      "chilli-oil"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E8%B1%86%E8%85%90.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "braised-ash-gourd",
+   "title": "Braised Ash Gourd (Winter Melon)",
+   "description": "Golden-fried ash gourd cubes braised soft in soy and oyster sauce, with a glossy sauce.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "ash-gourd",
+     "name": "ash gourd (winter melon)",
+     "amount": 600.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 4.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 30.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chicken-bouillon-powder",
+     "name": "chicken bouillon powder",
+     "amount": 6.0,
+     "unit": "g"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-pieces-ginger",
+     "name": "small pieces ginger, minced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 30.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the ash gourd and cut it into cubes no bigger than 2 cm.",
+     "relatedIngredientIds": [
+      "ash-gourd"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the oil in a wok, add the ash gourd and fry gently, turning, for 2 minutes until the surface is golden.",
+     "relatedIngredientIds": [
+      "ash-gourd",
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Lift the ash gourd into a large bowl, leaving the oil in the wok.",
+     "relatedIngredientIds": [
+      "ash-gourd",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Fry the ginger, light soy sauce and oyster sauce in the remaining oil for 15 seconds.",
+     "relatedIngredientIds": [
+      "cooking-oil",
+      "light-soy-sauce",
+      "small-pieces-ginger",
+      "oyster-sauce"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 15,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Return the ash gourd and stir-fry for 30 seconds.",
+     "relatedIngredientIds": [
+      "ash-gourd"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour in boiling water to just cover the ash gourd and boil over high heat for 10 minutes.",
+     "relatedIngredientIds": [
+      "ash-gourd"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the dark soy sauce for colour and keep cooking until the ash gourd is soft and a chopstick goes in easily.",
+     "relatedIngredientIds": [
+      "ash-gourd",
+      "dark-soy-sauce"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the bouillon powder, rice wine and scallion, stir-fry for 30 seconds, then lift the ash gourd into a bowl.",
+     "relatedIngredientIds": [
+      "ash-gourd",
+      "shaoxing-rice-wine",
+      "chicken-bouillon-powder",
+      "scallion"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Mix the cornstarch with a little water. Stir it into the liquid left in the wok, bring to a boil and pour over the ash gourd.",
+     "relatedIngredientIds": [
+      "ash-gourd",
+      "cornstarch"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "salt-pepper-corn",
+   "title": "Salt and Pepper Corn",
+   "description": "Starch-coated sweetcorn fried crisp and tossed with Sichuan pepper salt and sesame seeds.",
+   "prepTime": 25,
+   "cookTime": 5,
+   "servings": 3,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "frozen-sweetcorn-kernels",
+     "name": "frozen sweetcorn kernels",
+     "amount": 350.0,
+     "unit": "g"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "sichuan-pepper-salt",
+     "name": "Sichuan pepper salt",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "sesame-seeds",
+     "name": "sesame seeds",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil, for frying",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Thaw the corn by soaking it in warm water for 15 minutes (or boiling it for 5 minutes). Drain.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Spread the corn in a sieve or tray lined with paper towels and shake until the paper is soaked.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Move the corn to a second lined tray and shake again. Repeat until no water drops are visible but the corn is still slightly moist.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the cornstarch, enough to cover the corn, and shake until every kernel is coated.",
+     "relatedIngredientIds": [
+      "frozen-sweetcorn-kernels",
+      "cornstarch"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Heat a wok and add enough oil to cover the base, but not much more. Heat it until very hot (about 200 °C), then add the corn.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Fry over medium heat for 30 seconds without stirring, so the coating stays on.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Stir gently for 3 minutes, then take the corn out.",
+     "relatedIngredientIds": [],
+     "animation": "stir",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Sprinkle with the pepper salt and sesame seeds and serve.",
+     "relatedIngredientIds": [
+      "sichuan-pepper-salt",
+      "sesame-seeds"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "candied-potatoes",
+   "title": "Candied Potatoes (Basi Tudou)",
+   "description": "Fried potato chunks coated in hot caramel that pulls into threads, topped with sesame.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "sweet",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 300.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 120.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sesame-seeds",
+     "name": "sesame seeds",
+     "amount": 5.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the potatoes and cut them into small even chunks. Toss them in the dry cornstarch until coated.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "cornstarch"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the oil in a wok, add the potatoes and fry, turning gently, for 5-7 minutes until a chopstick goes in easily.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Lift the potatoes into a large bowl. Pour the oil out of the wok and keep it for other cooking.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Put the water and sugar in the wok. Stir slowly in one direction until the syrup turns brown.",
+     "relatedIngredientIds": [
+      "sugar",
+      "water"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Return the potatoes and toss for 30 seconds to coat them, then plate.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Sprinkle with the sesame seeds and serve.",
+     "relatedIngredientIds": [
+      "sesame-seeds"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "cabbage-egg-glass-noodles",
+   "title": "Cabbage, Egg and Glass Noodles",
+   "description": "Shredded cabbage and carrot stir-fried with soft glass noodles, scrambled egg and soy sauces.",
+   "prepTime": 70,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "noodles"
+   ],
+   "ingredients": [
+    {
+     "id": "head-cabbage",
+     "name": "head cabbage",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "glass-noodles",
+     "name": "glass noodles (bean thread vermicelli)",
+     "amount": 1.0,
+     "unit": "handful"
+    },
+    {
+     "id": "carrot",
+     "name": "carrot",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "rapeseed-oil",
+     "name": "rapeseed oil",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "spring-onion",
+     "name": "spring onion",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "dried-red-chillies",
+     "name": "dried red chillies",
+     "amount": 5.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the carrot and cabbage into thin strips.",
+     "relatedIngredientIds": [
+      "head-cabbage",
+      "carrot"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Soak the glass noodles in cold water for 1 hour.",
+     "relatedIngredientIds": [
+      "glass-noodles"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put the noodles into boiling water until soft, then drain.",
+     "relatedIngredientIds": [
+      "glass-noodles"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Beat the eggs with 1 g of the salt for 15 seconds.",
+     "relatedIngredientIds": [
+      "eggs",
+      "salt"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 15,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Chop the spring onion, garlic and dried chillies into small pieces.",
+     "relatedIngredientIds": [
+      "spring-onion",
+      "garlic",
+      "dried-red-chillies"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat half the oil in a wok, add the eggs and scramble until cooked. Take them out.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the remaining oil and fry the spring onion, garlic and chillies for 8 seconds.",
+     "relatedIngredientIds": [
+      "spring-onion",
+      "garlic",
+      "dried-red-chillies"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the carrot and cabbage and stir-fry for 30 seconds.",
+     "relatedIngredientIds": [
+      "head-cabbage",
+      "carrot"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add the glass noodles, the light soy sauce, dark soy sauce, oyster sauce and remaining salt and toss well.",
+     "relatedIngredientIds": [
+      "glass-noodles",
+      "salt",
+      "light-soy-sauce",
+      "oyster-sauce"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Return the eggs and stir-fry for about 15 seconds, then serve.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "suggestedTimerSeconds": 15,
+     "timerLabel": "Fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B%E7%B2%89%E4%B8%9D/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B%E7%B2%89%E4%B8%9D.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "golden-coin-eggs",
+   "title": "Golden Coin Eggs",
+   "description": "Hunan-style boiled egg slices pan-fried golden with chillies, garlic and bean paste.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch, optional",
+     "amount": 40.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 35.0,
+     "unit": "ml"
+    },
+    {
+     "id": "long-green-chilli",
+     "name": "long green chilli",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "bird-s-eye-chillies",
+     "name": "bird's eye chillies (about 10 g)",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic (about 10 g)",
+     "amount": 3.0,
+     "unit": "clove"
+    },
+    {
+     "id": "doubanjiang",
+     "name": "doubanjiang (chilli bean paste)",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 5.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the eggs in cold water, bring to a boil over high heat, then cook over low heat for 8 minutes.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "suggestedTimerSeconds": 480,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cool the eggs under running water so they peel easily, then peel them.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mince the garlic finely. Chop the long green chilli and bird's eye chillies into 2-3 mm pieces.",
+     "relatedIngredientIds": [
+      "long-green-chilli",
+      "bird-s-eye-chillies",
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cut each egg crossways into 4 round slices of similar size.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "If using cornstarch, coat each egg slice and shake off the excess.",
+     "relatedIngredientIds": [
+      "eggs",
+      "cornstarch"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat 25 ml of the oil in a pan (20 ml if not using cornstarch) and add the egg slices.",
+     "relatedIngredientIds": [
+      "eggs",
+      "cornstarch",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When lightly browned underneath, add the remaining 10 ml of oil and turn the slices.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "When the second side is golden, add the chillies and garlic and fry for about 1 minute, then turn the slices.",
+     "relatedIngredientIds": [
+      "long-green-chilli",
+      "garlic"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add the doubanjiang, fry for about 30 seconds and turn the slices again.",
+     "relatedIngredientIds": [
+      "doubanjiang"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Mix the soy sauce, oyster sauce and sugar, pour it over the eggs, toss the pan gently and serve.",
+     "relatedIngredientIds": [
+      "eggs",
+      "light-soy-sauce",
+      "oyster-sauce",
+      "sugar"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%87%91%E9%92%B1%E8%9B%8B.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "silky-scrambled-eggs",
+   "title": "Silky Scrambled Eggs",
+   "description": "Soft, barely set Cantonese-style scrambled eggs made creamy with a splash of milk.",
+   "prepTime": 2,
+   "cookTime": 3,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "quick",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 30.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 10.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Beat the eggs with the milk and 5 ml of the oil until evenly mixed.",
+     "relatedIngredientIds": [
+      "eggs",
+      "milk",
+      "cooking-oil"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat a frying pan over high heat for 30 seconds, then add the remaining oil.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat for 30 seconds more, then turn the heat to low and pour in the eggs.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Leave for 5 seconds, then slowly push the egg from the edges towards the centre with the spatula.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "When the eggs are mostly set, turn off the heat and serve.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%82%92%E6%BB%91%E8%9B%8B/%E7%82%92%E6%BB%91%E8%9B%8B.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "garlic-stir-fried-celery",
+   "title": "Garlic Stir-fried Celery",
+   "description": "Crunchy celery flashed over high heat with garlic for just 30 seconds.",
+   "prepTime": 5,
+   "cookTime": 2,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "quick",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "celery",
+     "name": "celery",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "lard-or-cooking-oil",
+     "name": "lard or cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Pick off most of the celery leaves, keeping a few tender ones. Split thick stalks lengthways, then cut into pieces no longer than 5 cm.",
+     "relatedIngredientIds": [
+      "celery"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mince the garlic.",
+     "relatedIngredientIds": [
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Drain the celery and shake it as dry as you can.",
+     "relatedIngredientIds": [
+      "celery"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the wok and add the lard. When hot, sprinkle in the salt.",
+     "relatedIngredientIds": [
+      "lard-or-cooking-oil",
+      "salt"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the garlic and fry over low heat for 10 seconds until fragrant.",
+     "relatedIngredientIds": [
+      "garlic"
+     ],
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Turn the heat to high, add the celery and stir-fry quickly for 30 seconds. Serve at once, while it is bright green and crisp.",
+     "relatedIngredientIds": [
+      "celery"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "sweetcorn-pine-nuts",
+   "title": "Sweetcorn with Pine Nuts",
+   "description": "Sweetcorn and carrot in a light sweet glaze, finished with toasted pine nuts.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "sweetcorn-kernels",
+     "name": "sweetcorn kernels",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "toasted-pine-nuts",
+     "name": "toasted pine nuts",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "carrot",
+     "name": "carrot, diced, optional",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "g"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 20.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Blanch the corn and carrot in boiling water for 1 minute, then drain.",
+     "relatedIngredientIds": [
+      "carrot",
+      "water"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Drain"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the wok, add the oil and stir-fry the carrot briefly, then add the corn and stir-fry.",
+     "relatedIngredientIds": [
+      "carrot",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the sugar and salt and toss well.",
+     "relatedIngredientIds": [
+      "sugar",
+      "salt"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the cornstarch with the water, pour it in and stir quickly until the sauce thickens slightly.",
+     "relatedIngredientIds": [
+      "cornstarch",
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the pine nuts, toss and serve.",
+     "relatedIngredientIds": [
+      "toasted-pine-nuts"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%9D%BE%E4%BB%81%E7%8E%89%E7%B1%B3.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "stir-fried-lotus-root",
+   "title": "Stir-fried Lotus Root",
+   "description": "Crisp lotus root cubes stir-fried with spring onion, chilli and soy and oyster sauces.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "quick",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "lotus-root",
+     "name": "lotus root (kamal kakdi)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "thick-spring-onion",
+     "name": "thick spring onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "bird-s-eye-chillies",
+     "name": "bird's eye chillies",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 30.0,
+     "unit": "ml"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the spring onion and chillies into short pieces.",
+     "relatedIngredientIds": [
+      "thick-spring-onion",
+      "bird-s-eye-chillies"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Peel the lotus root and cut it into pieces no bigger than 3 cm. Keep them in water so they do not darken.",
+     "relatedIngredientIds": [
+      "lotus-root"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bring 500 ml of water to a boil in a wok. Blanch the lotus root for 2 minutes, then lift it onto a plate.",
+     "relatedIngredientIds": [
+      "lotus-root"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour out the water and heat the wok until dry. Add the oil.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "When the oil is hot, fry the spring onion and chillies until fragrant.",
+     "relatedIngredientIds": [
+      "thick-spring-onion",
+      "bird-s-eye-chillies",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the lotus root and stir-fry over high heat.",
+     "relatedIngredientIds": [
+      "lotus-root"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the light soy sauce, dark soy sauce and oyster sauce, stir-fry for 2 minutes and serve.",
+     "relatedIngredientIds": [
+      "light-soy-sauce",
+      "oyster-sauce"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "qianlong-cabbage-salad",
+   "title": "Qianlong Cabbage Salad",
+   "description": "Beijing cold dish of hand-torn napa cabbage in a tangy sesame paste and vinegar dressing.",
+   "prepTime": 10,
+   "cookTime": 0,
+   "servings": 2,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "quick",
+    "salad"
+   ],
+   "ingredients": [
+    {
+     "id": "napa-cabbage",
+     "name": "napa cabbage, tender inner leaves",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "chinese-sesame-paste",
+     "name": "Chinese sesame paste",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "chinese-black-vinegar",
+     "name": "Chinese black vinegar",
+     "amount": 45.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "g"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "toasted-sesame-seeds",
+     "name": "toasted sesame seeds, optional",
+     "amount": 3.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Use only the tender yellow inner leaves of the cabbage. Tear them by hand into pieces about half the size of your palm; do not cut them.",
+     "relatedIngredientIds": [
+      "napa-cabbage"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Rinse the leaves and drain them very well, or the dressing will not cling.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put the sesame paste in a bowl. Add the vinegar and stir in one direction until it thins and falls in a thin ribbon.",
+     "relatedIngredientIds": [
+      "chinese-sesame-paste",
+      "chinese-black-vinegar"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir in the sugar, then the salt, then the sesame oil, mixing well after each.",
+     "relatedIngredientIds": [
+      "sugar",
+      "salt",
+      "sesame-oil"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour the dressing over the cabbage and toss gently by hand until every leaf is coated.",
+     "relatedIngredientIds": [
+      "napa-cabbage"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Sprinkle with the sesame seeds and serve, or leave for 5 minutes first to let the flavours soak in.",
+     "relatedIngredientIds": [
+      "toasted-sesame-seeds"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Rest"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "hunan-vinegar-eggs",
+   "title": "Hunan Sour and Spicy Eggs",
+   "description": "Eggs fried in hot oil and broken up, then tossed with garlic, chilli and a black vinegar sauce.",
+   "prepTime": 5,
+   "cookTime": 5,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "bird-s-eye-chillies",
+     "name": "bird's eye chillies (about 10 g)",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 40.0,
+     "unit": "ml"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "chinese-black-vinegar",
+     "name": "Chinese black vinegar",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 12.0,
+     "unit": "ml"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar, optional",
+     "amount": 3.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Crack the eggs into a bowl without beating them.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut the scallion into 3 cm lengths. Crush the garlic and chillies to a paste (a garlic press works well).",
+     "relatedIngredientIds": [
+      "bird-s-eye-chillies",
+      "scallion",
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In a small bowl, mix the vinegar, soy sauce, oyster sauce, sugar and a splash of water to make the sauce.",
+     "relatedIngredientIds": [
+      "chinese-black-vinegar",
+      "light-soy-sauce",
+      "oyster-sauce",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the oil in a wok until hot and pour in the eggs. When they set, break them into large pieces with the spatula.",
+     "relatedIngredientIds": [
+      "eggs",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the garlic and chilli paste and pour in the sauce.",
+     "relatedIngredientIds": [
+      "bird-s-eye-chillies",
+      "garlic",
+      "light-soy-sauce"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Let the sauce reduce over high heat. Just before serving, add the scallion.",
+     "relatedIngredientIds": [
+      "scallion",
+      "light-soy-sauce"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B2%B9%E9%86%8B%E7%88%86%E8%9B%8B.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "fish-fragrant-aubergine",
+   "title": "Fish-fragrant Aubergine",
+   "description": "Sichuan fried aubergine with a little pork in a sweet, sour and spicy bean paste sauce (no fish).",
+   "prepTime": 15,
+   "cookTime": 15,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "long-aubergines",
+     "name": "long aubergines",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "minced-pork",
+     "name": "minced pork",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 4.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 8.0,
+     "unit": "g"
+    },
+    {
+     "id": "msg",
+     "name": "MSG",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "vinegar",
+     "name": "vinegar",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cornstarch-slurry",
+     "name": "cornstarch slurry (cornstarch mixed with water)",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "doubanjiang",
+     "name": "doubanjiang (chilli bean paste)",
+     "amount": 25.0,
+     "unit": "g"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "bird-s-eye-chilli",
+     "name": "bird's eye chilli",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil, for frying",
+     "amount": 300.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the aubergines into strips. Chop the scallion, keeping the white and green parts apart. Chop the ginger and garlic and dice the chilli.",
+     "relatedIngredientIds": [
+      "long-aubergines",
+      "scallion",
+      "ginger",
+      "garlic",
+      "bird-s-eye-chilli"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "For the sauce, mix the salt, MSG, sugar, light soy sauce, dark soy sauce, vinegar and cornstarch slurry in a bowl.",
+     "relatedIngredientIds": [
+      "salt",
+      "sugar",
+      "msg",
+      "light-soy-sauce",
+      "vinegar",
+      "cornstarch-slurry"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil in a wok over low heat until very hot and just smoking, about 40 seconds.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 40,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Fry the aubergine for 2 minutes, until the edges are lightly golden. Lift it out and pour off the oil, leaving about 20 ml in the wok.",
+     "relatedIngredientIds": [
+      "long-aubergines",
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir-fry the pork until it turns white, then take it out.",
+     "relatedIngredientIds": [
+      "minced-pork"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add 20 ml of the frying oil. Fry the doubanjiang, scallion whites, ginger, garlic and chilli until fragrant, then return the pork and stir.",
+     "relatedIngredientIds": [
+      "minced-pork",
+      "doubanjiang",
+      "scallion",
+      "ginger",
+      "garlic",
+      "bird-s-eye-chilli",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add 100 ml of water, the aubergine and the sauce. Stir-fry over high heat until the sauce thickens and coats the aubergine.",
+     "relatedIngredientIds": [
+      "long-aubergines",
+      "light-soy-sauce"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Stir in the scallion greens and serve.",
+     "relatedIngredientIds": [
+      "scallion"
+     ],
+     "animation": "stir"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "yangzhou-fried-rice",
+   "title": "Yangzhou Fried Rice",
+   "description": "Loaded egg fried rice with prawns, luncheon meat, peas, carrot and corn.",
+   "prepTime": 20,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "cold-cooked-rice",
+     "name": "cold cooked rice",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "frozen-peeled-prawns",
+     "name": "frozen peeled prawns",
+     "amount": 12.0,
+     "unit": ""
+    },
+    {
+     "id": "luncheon-meat",
+     "name": "luncheon meat (canned pork)",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "green-peas",
+     "name": "green peas",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "carrot",
+     "name": "carrot",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "sweetcorn-kernels",
+     "name": "sweetcorn kernels, optional",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 35.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 12.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Dice the carrot and luncheon meat into very small cubes (about 2 mm). Chop the scallion, keeping the white and green parts apart.",
+     "relatedIngredientIds": [
+      "luncheon-meat",
+      "carrot",
+      "scallion"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Beat the eggs in a bowl.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Boil the carrot, peas and corn until cooked and lift them out. Cook the prawns in the same water, then drain.",
+     "relatedIngredientIds": [
+      "frozen-peeled-prawns",
+      "green-peas",
+      "carrot"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the wok, add 25 ml of the oil and heat it. Pour in the egg in a thin stream and do not stir.",
+     "relatedIngredientIds": [
+      "eggs",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "As soon as the egg sets, lift it out.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Stir-fry the luncheon meat, peas, carrot, corn and prawns for 1-2 minutes, then set aside.",
+     "relatedIngredientIds": [
+      "frozen-peeled-prawns",
+      "luncheon-meat",
+      "green-peas",
+      "carrot"
+     ],
+     "animation": "stir",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Rinse the wok so it is clean; a little oil can stay.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Heat the remaining oil and fry the scallion whites until fragrant.",
+     "relatedIngredientIds": [
+      "scallion",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Turn the heat to low, add the rice and press and toss it with the spatula until every grain is coated in oil and separate.",
+     "relatedIngredientIds": [
+      "cold-cooked-rice",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Add the egg and keep pressing so it breaks up and mixes into the rice.",
+     "relatedIngredientIds": [
+      "cold-cooked-rice",
+      "eggs"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Turn the heat to high, add the other cooked ingredients and stir-fry quickly for 1-2 minutes. Add the salt and toss well.",
+     "relatedIngredientIds": [
+      "salt"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s12",
+     "order": 12,
+     "instructionText": "Add the scallion greens, stir-fry for 1 minute and serve.",
+     "relatedIngredientIds": [
+      "scallion"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/staple/%E6%89%AC%E5%B7%9E%E7%82%92%E9%A5%AD/%E6%89%AC%E5%B7%9E%E7%82%92%E9%A5%AD.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "scallion-oil-noodles",
+   "title": "Scallion Oil Noodles",
+   "description": "Shanghai noodles tossed in slowly fried scallion oil with soy sauce and sugar.",
+   "prepTime": 5,
+   "cookTime": 25,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "noodles",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "scallions",
+     "name": "scallions",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 60.0,
+     "unit": "ml"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "dried-noodles",
+     "name": "dried noodles",
+     "amount": 160.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the scallions and cut them into 5-7 cm lengths, keeping the white and green parts apart.",
+     "relatedIngredientIds": [
+      "scallions"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the oil in a wok over medium heat. Fry the scallion whites until lightly golden.",
+     "relatedIngredientIds": [
+      "scallions",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the scallion greens and turn the heat to low.",
+     "relatedIngredientIds": [
+      "scallions"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Keep frying gently for 15-20 minutes, until the scallions are dark golden and crisp. Lift them out, leaving the oil in the wok.",
+     "relatedIngredientIds": [
+      "scallions",
+      "cooking-oil"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the light soy sauce, dark soy sauce and sugar to the oil. Stir over low heat for about 1 minute until the sugar dissolves, then turn off the heat.",
+     "relatedIngredientIds": [
+      "cooking-oil",
+      "light-soy-sauce",
+      "sugar"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour the sauce into a jar. You need 30 ml now; the rest keeps in the sealed jar once cool.",
+     "relatedIngredientIds": [
+      "light-soy-sauce"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Bring 2 litres of water to a boil. Cook the noodles until done, usually 3-8 minutes (check the packet).",
+     "relatedIngredientIds": [
+      "dried-noodles"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 480,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Drain the noodles and divide them between two bowls.",
+     "relatedIngredientIds": [
+      "dried-noodles"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add 15 ml of the scallion oil sauce to each bowl, top with some fried scallions if you like, and mix well.",
+     "relatedIngredientIds": [
+      "scallions",
+      "cooking-oil",
+      "light-soy-sauce"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/staple/%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "tomato-egg-noodles",
+   "title": "Tomato and Egg Noodles",
+   "description": "Noodles tossed in a quick tomato, egg and capsicum sauce.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "noodles",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "dried-noodles",
+     "name": "dried noodles",
+     "amount": 80.0,
+     "unit": "g"
+    },
+    {
+     "id": "tomato",
+     "name": "tomato (about 200 g)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "green-capsicum",
+     "name": "green capsicum (bell pepper)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-vinegar",
+     "name": "white vinegar, optional",
+     "amount": 2.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Chop the scallion, keeping the white and green parts apart. Mince the garlic. Cut the tomato into chunks and the capsicum into diamonds.",
+     "relatedIngredientIds": [
+      "tomato",
+      "green-capsicum",
+      "scallion",
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Beat the eggs in a small bowl, adding the vinegar if they smell eggy.",
+     "relatedIngredientIds": [
+      "eggs",
+      "white-vinegar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the wok and add the oil. When hot, pour in the eggs and scramble until fully set. Move them to a bowl, leaving some oil in the wok.",
+     "relatedIngredientIds": [
+      "eggs",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Fry the scallion whites and garlic until fragrant. Add the tomato and capsicum and cook until the tomato releases some juice.",
+     "relatedIngredientIds": [
+      "tomato",
+      "green-capsicum",
+      "scallion",
+      "garlic"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the soy sauce and sugar and stir-fry for 10 seconds. Pour in just enough water to almost cover the tomato.",
+     "relatedIngredientIds": [
+      "tomato",
+      "soy-sauce",
+      "sugar"
+     ],
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "When it boils, add the eggs, oyster sauce and salt. Simmer over medium-low heat, stirring, until the sauce thickens.",
+     "relatedIngredientIds": [
+      "eggs",
+      "oyster-sauce",
+      "salt"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Stir in the scallion greens and sesame oil and move the sauce to a serving bowl.",
+     "relatedIngredientIds": [
+      "scallion",
+      "cooking-oil",
+      "soy-sauce",
+      "sesame-oil"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Without washing the wok, bring 500 ml of water to a boil and add the noodles. When they soften, add 100 ml of cold water.",
+     "relatedIngredientIds": [
+      "dried-noodles"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "When it boils again and the noodles float, add another 100 ml of water.",
+     "relatedIngredientIds": [
+      "dried-noodles"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "When it boils once more and the noodles look translucent, lift them into the sauce bowl and mix.",
+     "relatedIngredientIds": [
+      "dried-noodles",
+      "soy-sauce"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/staple/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E9%B8%A1%E8%9B%8B%E6%8C%82%E9%9D%A2/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E9%B8%A1%E8%9B%8B%E6%8C%82%E9%9D%A2.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "shaanxi-oil-splashed-noodles",
+   "title": "Shaanxi Oil-splashed Noodles",
+   "description": "Thick wheat noodles and greens topped with chilli flakes, garlic and scallion, then doused in smoking oil.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "noodles",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "fresh-thick-wheat-noodle",
+     "name": "fresh thick wheat noodles",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 3.0,
+     "unit": "clove"
+    },
+    {
+     "id": "dried-chilli-flakes",
+     "name": "dried chilli flakes",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 50.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chinese-black-vinegar",
+     "name": "Chinese black vinegar",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "greens",
+     "name": "greens (bok choy or spinach)",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "bean-sprouts",
+     "name": "bean sprouts, optional",
+     "amount": 50.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "If using hand-pulled noodle strips, press each lightly with a rolling pin, hold both ends and gently pull it longer.",
+     "relatedIngredientIds": [
+      "fresh-thick-wheat-noodle"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Chop the scallion and mince the garlic. Wash the greens and bean sprouts.",
+     "relatedIngredientIds": [
+      "scallion",
+      "garlic",
+      "greens",
+      "bean-sprouts"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bring a large pot of water to a boil over high heat and add 1 g of the salt.",
+     "relatedIngredientIds": [
+      "salt"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the noodles and stir gently so they do not stick. When they float, cook for 1-2 minutes more, adding the greens and bean sprouts for the last minute.",
+     "relatedIngredientIds": [
+      "fresh-thick-wheat-noodle",
+      "greens",
+      "bean-sprouts"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Drain the noodles, greens and sprouts and put them in a large bowl.",
+     "relatedIngredientIds": [
+      "fresh-thick-wheat-noodle",
+      "greens",
+      "bean-sprouts"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Top with the soy sauce, vinegar, scallion, garlic, chilli flakes and remaining salt.",
+     "relatedIngredientIds": [
+      "salt",
+      "scallion",
+      "garlic",
+      "dried-chilli-flakes",
+      "light-soy-sauce",
+      "chinese-black-vinegar"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Heat the oil in a pan until very hot and just smoking. Pour it evenly over the chilli flakes; it should sizzle.",
+     "relatedIngredientIds": [
+      "dried-chilli-flakes",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Mix the noodles and toppings well with chopsticks and serve.",
+     "relatedIngredientIds": [
+      "fresh-thick-wheat-noodle"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/staple/%E9%99%95%E8%A5%BF%E6%B2%B9%E6%B3%BC%E9%9D%A2/%E9%99%95%E8%A5%BF%E6%B2%B9%E6%B3%BC%E9%9D%A2.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "stir-fried-instant-noodles",
+   "title": "Stir-fried Instant Noodles",
+   "description": "Instant noodles briefly boiled, then stir-fried with egg, sausage and their own seasoning.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "quick",
+    "noodles"
+   ],
+   "ingredients": [
+    {
+     "id": "pack-instant-noodles",
+     "name": "pack instant noodles (with seasoning sachets)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ham-sausage",
+     "name": "ham sausage, optional",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 18.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the ham sausage into 1 cm pieces.",
+     "relatedIngredientIds": [
+      "ham-sausage"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring 1200 ml of water to a full boil. Add the noodle block and cook for 45 seconds, loosening the noodles, then turn off the heat. Do not cook them through.",
+     "relatedIngredientIds": [
+      "pack-instant-noodles"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 45,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Scoop out 80 ml of the hot noodle water and keep it. Drain the noodles, rinse briefly in cold water and drain well.",
+     "relatedIngredientIds": [
+      "pack-instant-noodles"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Squeeze all the vegetable and sauce sachets and half to most of the seasoning powder into a small bowl. Stir in the 80 ml of noodle water.",
+     "relatedIngredientIds": [
+      "pack-instant-noodles"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Beat the egg in a bowl, without salt.",
+     "relatedIngredientIds": [
+      "egg"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat the wok, add 8 ml of the oil and pour in the egg. Stir-fry for about 20 seconds until set, then take it out.",
+     "relatedIngredientIds": [
+      "egg",
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 20,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Reheat the wok and add the remaining oil. Stir-fry the sausage for 10 seconds.",
+     "relatedIngredientIds": [
+      "ham-sausage",
+      "cooking-oil"
+     ],
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the noodles and stir-fry for 30 seconds.",
+     "relatedIngredientIds": [
+      "pack-instant-noodles"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add the sauce from the bowl and stir-fry for 30 seconds.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Return the egg, stir-fry for 30 seconds more and serve.",
+     "relatedIngredientIds": [
+      "egg"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/staple/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "shou-zhua-bing",
+   "title": "Shou Zhua Bing (Flaky Pancake)",
+   "description": "Layered, crisp pan-fried flatbread rolled up with egg, lettuce, ham and cheese.",
+   "prepTime": 35,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "plain-flour",
+     "name": "plain flour (maida)",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "boiling-water",
+     "name": "boiling water",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cold-water",
+     "name": "cold water",
+     "amount": 50.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "lettuce",
+     "name": "lettuce",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "ham",
+     "name": "ham",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "cheese",
+     "name": "cheese",
+     "amount": 1.0,
+     "unit": "slice"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the flour in a bowl and stir in the boiling water until shaggy. Add the cold water and knead into a smooth dough. Cover with a damp cloth and rest for 20 minutes.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "boiling-water",
+      "cold-water"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Divide the dough into pieces of about 100 g, shape them into balls and roll each one out thinly.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Brush with oil and sprinkle with salt. Roll each sheet up and coil it like a snail shell. Rest for 10 minutes.",
+     "relatedIngredientIds": [
+      "cooking-oil",
+      "salt"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Roll each coil out again into an even, thin pancake.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Heat a little oil in a pan and fry the pancakes over low heat until golden and puffed on both sides.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Fry the egg. Top the pancakes with the egg, lettuce, ham and cheese, roll them up and serve.",
+     "relatedIngredientIds": [
+      "egg",
+      "lettuce",
+      "ham",
+      "cheese"
+     ],
+     "animation": "fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/breakfast/%E6%89%8B%E6%8A%93%E9%A5%BC.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "ants-climbing-a-tree",
+   "title": "Ants Climbing a Tree",
+   "description": "Sichuan glass noodles simmered with minced pork in chilli bean paste until they soak up the sauce.",
+   "prepTime": 25,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "noodles",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "sweet-potato-glass-noodl",
+     "name": "sweet potato glass noodles (dry weight)",
+     "amount": 80.0,
+     "unit": "g"
+    },
+    {
+     "id": "minced-pork",
+     "name": "minced pork",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "doubanjiang",
+     "name": "doubanjiang (chilli bean paste)",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 300.0,
+     "unit": "ml"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion, optional",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the glass noodles in water for 20 minutes until soft, then drain.",
+     "relatedIngredientIds": [
+      "sweet-potato-glass-noodl",
+      "water"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Finely chop the garlic and ginger.",
+     "relatedIngredientIds": [
+      "garlic",
+      "ginger"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the wok, add the oil and fry the garlic and ginger until fragrant.",
+     "relatedIngredientIds": [
+      "cooking-oil",
+      "garlic",
+      "ginger"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the pork and stir-fry until it turns pale and releases a little fat.",
+     "relatedIngredientIds": [
+      "minced-pork"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the doubanjiang and fry until the oil turns red.",
+     "relatedIngredientIds": [
+      "doubanjiang",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the light and dark soy sauce and stir well.",
+     "relatedIngredientIds": [
+      "light-soy-sauce"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour in the water and bring to a boil.",
+     "relatedIngredientIds": [
+      "water"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the noodles and stir gently with chopsticks so they do not stick.",
+     "relatedIngredientIds": [
+      "sweet-potato-glass-noodl"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Simmer over medium-low heat for about 5 minutes, until the noodles have soaked up the liquid and look almost dry.",
+     "relatedIngredientIds": [
+      "sweet-potato-glass-noodl"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Sprinkle with chopped scallion if you like, turn off the heat and serve.",
+     "relatedIngredientIds": [
+      "scallion"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%9A%82%E8%9A%81%E4%B8%8A%E6%A0%91.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "pan-fried-frozen-dumplings",
+   "title": "Pan-fried Frozen Dumplings",
+   "description": "Frozen dumplings steamed and then fried in one pan until crisp and golden underneath.",
+   "prepTime": 0,
+   "cookTime": 15,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "quick",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "frozen-dumplings",
+     "name": "frozen dumplings",
+     "amount": 12.0,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 12.0,
+     "unit": "ml"
+    },
+    {
+     "id": "black-sesame-seeds",
+     "name": "black sesame seeds",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "chopped-scallion",
+     "name": "chopped scallion",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the oil in a frying pan (non-stick is best), turn on the heat and add the dumplings in one layer, not stacked.",
+     "relatedIngredientIds": [
+      "frozen-dumplings",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Straight away, pour in water to come halfway up the dumplings.",
+     "relatedIngredientIds": [
+      "frozen-dumplings"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cover and cook over high heat for 8-10 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When only about 2 mm of water is left, turn the heat to medium and let them fry.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "When the water has gone, shake the pan so the dumplings brown evenly.",
+     "relatedIngredientIds": [
+      "frozen-dumplings"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Scatter over the sesame seeds and scallion, cover and cook for 10 seconds.",
+     "relatedIngredientIds": [
+      "black-sesame-seeds",
+      "chopped-scallion"
+     ],
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "After 1-2 minutes, lift one dumpling to check. When the bottom is golden and crisp, take them out at once.",
+     "relatedIngredientIds": [
+      "frozen-dumplings"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Timer"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/breakfast/%E7%85%8E%E9%A5%BA.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "millet-congee",
+   "title": "Millet Congee",
+   "description": "Northern Chinese foxtail millet porridge, simmered until creamy.",
+   "prepTime": 2,
+   "cookTime": 35,
+   "servings": 3,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "breakfast",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "foxtail-millet",
+     "name": "foxtail millet",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 2.0,
+     "unit": "l"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Rinse the millet once in a bowl of water, swirling it by hand, and pour the water off. Do not rub the grains.",
+     "relatedIngredientIds": [
+      "foxtail-millet",
+      "water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring the water to a full boil.",
+     "relatedIngredientIds": [
+      "water"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour the millet into the boiling water and stir so it does not stick to the bottom.",
+     "relatedIngredientIds": [
+      "foxtail-millet",
+      "water"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Boil over high heat for 6-10 minutes, stirring a few times.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Turn the heat to medium-low and simmer for 15-20 minutes with the lid slightly open, stirring now and then so it does not catch.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/soup/%E5%B0%8F%E7%B1%B3%E7%B2%A5.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "seaweed-egg-drop-soup",
+   "title": "Seaweed and Egg Drop Soup",
+   "description": "Light soup of soaked laver seaweed with ribbons of egg, scallion and sesame oil.",
+   "prepTime": 15,
+   "cookTime": 10,
+   "servings": 3,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "soup",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "dried-seaweed",
+     "name": "dried seaweed (laver or nori)",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 1.5,
+     "unit": "l"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "chopped-scallion",
+     "name": "chopped scallion",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the seaweed in water for 15 minutes, then drain.",
+     "relatedIngredientIds": [
+      "dried-seaweed",
+      "water"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Beat the eggs.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put the water, oil and salt in a pot and bring to a boil. Add the seaweed.",
+     "relatedIngredientIds": [
+      "dried-seaweed",
+      "water",
+      "cooking-oil",
+      "salt"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Boil the seaweed for 3 minutes.",
+     "relatedIngredientIds": [
+      "dried-seaweed"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Slowly pour in the egg in a thin stream and cook for 30 seconds.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the scallion and cook over low heat for 20 seconds.",
+     "relatedIngredientIds": [
+      "chopped-scallion"
+     ],
+     "suggestedTimerSeconds": 20,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Turn off the heat, add a few drops of sesame oil and serve.",
+     "relatedIngredientIds": [
+      "cooking-oil",
+      "sesame-oil"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/soup/%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "tomato-egg-tofu-soup",
+   "title": "Tomato, Egg and Tofu Soup",
+   "description": "Quick tomato broth with soft tofu and egg, lightly thickened with cornstarch.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "soup",
+    "quick",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "tomatoes",
+     "name": "tomatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "tofu",
+     "name": "tofu",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 4.0,
+     "unit": "g"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "chicken-bouillon-powder",
+     "name": "chicken bouillon powder",
+     "amount": 4.0,
+     "unit": "g"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "boiling-water",
+     "name": "boiling water",
+     "amount": 700.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Dice the tomatoes, beat the eggs in a bowl and cut the tofu into cubes. Mix the cornstarch with a little cold water.",
+     "relatedIngredientIds": [
+      "tomatoes",
+      "eggs",
+      "tofu",
+      "cornstarch"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the oil in a pot, add the ginger and after 5 seconds add the tomatoes. Stir-fry for 30 seconds.",
+     "relatedIngredientIds": [
+      "tomatoes",
+      "cooking-oil",
+      "ginger"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour in the boiling water. When it boils again, wait 60 seconds, then add the egg and tofu.",
+     "relatedIngredientIds": [
+      "eggs",
+      "tofu",
+      "boiling-water"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Wait"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When the soup returns to the boil, add the cornstarch mixture and stir twice in one direction.",
+     "relatedIngredientIds": [
+      "cornstarch"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the bouillon powder, salt and scallion, cook for 30 seconds and serve.",
+     "relatedIngredientIds": [
+      "salt",
+      "chicken-bouillon-powder",
+      "scallion"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "corn-pork-rib-soup",
+   "title": "Corn and Pork Rib Soup",
+   "description": "Clear pork rib soup slow-simmered with sweetcorn and carrot.",
+   "prepTime": 15,
+   "cookTime": 75,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "pork-ribs",
+     "name": "pork ribs",
+     "amount": 600.0,
+     "unit": "g"
+    },
+    {
+     "id": "corn-cob",
+     "name": "corn cob",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "carrot",
+     "name": "carrot",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "leek",
+     "name": "leek",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, 4 cm piece",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "vinegar",
+     "name": "vinegar",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 4.0,
+     "unit": "g"
+    },
+    {
+     "id": "boiling-water",
+     "name": "boiling water",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "spring-onion",
+     "name": "spring onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the leek into 3-4 cm lengths and bruise them with the back of a knife. Cut the corn into small pieces and the carrot into chunks. Peel the ginger and cut it into large slices.",
+     "relatedIngredientIds": [
+      "corn-cob",
+      "carrot",
+      "leek",
+      "ginger"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Chop the ribs into small pieces.",
+     "relatedIngredientIds": [
+      "pork-ribs"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put the ribs in cold water with the leek, half the ginger and the rice wine. Bring to a boil over high heat, skim off the scum, then drain the ribs.",
+     "relatedIngredientIds": [
+      "pork-ribs",
+      "leek",
+      "ginger",
+      "shaoxing-rice-wine"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the oil in a pot and fry the ribs with the remaining ginger until lightly browned. Add the vinegar and fry for 1 more minute.",
+     "relatedIngredientIds": [
+      "pork-ribs",
+      "ginger",
+      "cooking-oil",
+      "vinegar"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour in all the boiling water at once (do not add more later) and bring to a boil over high heat.",
+     "relatedIngredientIds": [
+      "boiling-water"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the corn and black pepper, cover and simmer over low heat for 20 minutes.",
+     "relatedIngredientIds": [
+      "corn-cob",
+      "black-pepper"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the carrot, cover and simmer for 40 minutes more.",
+     "relatedIngredientIds": [
+      "carrot"
+     ],
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Stir in the salt and simmer for 3 minutes more. Sprinkle with the spring onion and serve.",
+     "relatedIngredientIds": [
+      "salt",
+      "spring-onion"
+     ],
+     "animation": "stir",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Simmer"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/soup/%E7%8E%89%E7%B1%B3%E6%8E%92%E9%AA%A8%E6%B1%A4/%E7%8E%89%E7%B1%B3%E6%8E%92%E9%AA%A8%E6%B1%A4.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "tea-eggs",
+   "title": "Tea Eggs",
+   "description": "Boiled eggs with cracked shells simmered in black tea, soy sauce and whole spices.",
+   "prepTime": 5,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "breakfast",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs (about 400 g)",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "star-anise",
+     "name": "star anise",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "small-piece-cinnamon",
+     "name": "small piece cinnamon (about 3 g)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "fennel-seeds",
+     "name": "fennel seeds (saunf)",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "rock-sugar",
+     "name": "rock sugar (mishri)",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "black-tea-leaves",
+     "name": "black tea leaves",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 25.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 3.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the eggs in cold water and boil them over high heat for about 8 minutes.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "suggestedTimerSeconds": 480,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Lift out the eggs and cool them in cold water.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Tap the eggs against each other until every shell is cracked.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Return the eggs to the pot with the star anise, bay leaves, cinnamon, fennel seeds, rock sugar, black tea, light soy sauce, dark soy sauce and salt.",
+     "relatedIngredientIds": [
+      "eggs",
+      "star-anise",
+      "bay-leaves",
+      "small-piece-cinnamon",
+      "fennel-seeds",
+      "rock-sugar",
+      "black-tea-leaves",
+      "light-soy-sauce",
+      "salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add water to cover the eggs. Bring to a boil over high heat, then simmer over medium-low heat for 15 minutes.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Remove the tea and spices. For a deeper flavour, leave the eggs to soak in the liquid a while longer.",
+     "relatedIngredientIds": [
+      "eggs",
+      "black-tea-leaves"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/breakfast/%E8%8C%B6%E5%8F%B6%E8%9B%8B.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "oat-egg-pancake",
+   "title": "Oat and Egg Pancake",
+   "description": "Quick breakfast pancake of oats, milk and egg, with optional greens.",
+   "prepTime": 5,
+   "cookTime": 5,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "breakfast",
+    "quick",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "rolled-oats",
+     "name": "rolled oats",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chopped-greens-such-as-s",
+     "name": "chopped greens such as spinach, optional",
+     "amount": 1.0,
+     "unit": "handful"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix about 80 ml of the milk with the oats until thick.",
+     "relatedIngredientIds": [
+      "rolled-oats",
+      "milk"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Beat the eggs until evenly yellow.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour the eggs into the oat mixture and stir until thick and even.",
+     "relatedIngredientIds": [
+      "eggs",
+      "rolled-oats"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Melt a thin layer of butter in a frying pan, spreading it over the base.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour in the batter and spread it into a round pancake.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cook over low heat for 2-3 minutes. If using the greens, scatter them on while it cooks.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Flip and cook for 2 minutes more.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve with the rest of the milk to drink.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/breakfast/%E7%87%95%E9%BA%A6%E9%B8%A1%E8%9B%8B%E9%A5%BC.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "yang-zhi-gan-lu-chia",
+   "title": "Yang Zhi Gan Lu (Mango Chia)",
+   "description": "Hong Kong mango dessert drink made with chia seeds, grapefruit and coconut milk.",
+   "prepTime": 15,
+   "cookTime": 0,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "sweet",
+    "drink",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "chia-seeds",
+     "name": "chia seeds",
+     "amount": 24.0,
+     "unit": "g"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 50.0,
+     "unit": "ml"
+    },
+    {
+     "id": "mango",
+     "name": "mango",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "grapefruit",
+     "name": "grapefruit",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "coconut-milk",
+     "name": "coconut milk",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "small-ice-cubes",
+     "name": "small ice cubes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "shredded-dried-mango",
+     "name": "shredded dried mango, optional",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "shredded-dried-orange",
+     "name": "shredded dried orange, optional",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the chia seeds in the milk for 10 minutes.",
+     "relatedIngredientIds": [
+      "chia-seeds",
+      "milk"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Meanwhile, peel half the mango and the grapefruit, dice them and put them in a tall glass.",
+     "relatedIngredientIds": [
+      "mango",
+      "grapefruit"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cut the other half of the mango into chunks and blend with the ice cubes and coconut milk until smooth.",
+     "relatedIngredientIds": [
+      "mango",
+      "coconut-milk",
+      "small-ice-cubes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the soaked chia seeds to the glass and pour in the mango mixture. Top with the dried mango and orange, if using.",
+     "relatedIngredientIds": [
+      "chia-seeds",
+      "shredded-dried-mango",
+      "shredded-dried-orange"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/drink/%E6%9D%A8%E6%9E%9D%E7%94%98%E9%9C%B2.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "winter-melon-tea",
+   "title": "Winter Melon Tea",
+   "description": "Ash gourd slowly cooked down with rock sugar into a sweet concentrate to dilute and drink.",
+   "prepTime": 130,
+   "cookTime": 120,
+   "servings": 5,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "drink"
+   ],
+   "ingredients": [
+    {
+     "id": "ash-gourd",
+     "name": "ash gourd (winter melon)",
+     "amount": 1.0,
+     "unit": "kg"
+    },
+    {
+     "id": "rock-sugar",
+     "name": "rock sugar (mishri)",
+     "amount": 300.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the ash gourd, remove the seeds and cut it into pieces no bigger than 4 cm.",
+     "relatedIngredientIds": [
+      "ash-gourd"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix in the rock sugar, cover with cling film and refrigerate for at least 2 hours.",
+     "relatedIngredientIds": [
+      "rock-sugar"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "The ash gourd will have released lots of liquid. Tip everything into a pot and bring to a boil over high heat.",
+     "relatedIngredientIds": [
+      "ash-gourd"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Simmer over medium-low heat for 1-2 hours, stirring often so it does not catch.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Strain through a sieve. Discard the ash gourd and keep the liquid.",
+     "relatedIngredientIds": [
+      "ash-gourd"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Let it cool, pour it into a clean container and refrigerate.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "This is a concentrate: dilute it with water to taste and serve hot or cold.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/drink/%E5%86%AC%E7%93%9C%E8%8C%B6.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "fried-milk",
+   "title": "Fried Milk (Zha Xian Nai)",
+   "description": "Chilled sweet milk custard cut into sticks, crumbed and fried until crisp outside and soft inside.",
+   "prepTime": 150,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "sweet",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 25.0,
+     "unit": "g"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour (maida)",
+     "amount": 40.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "breadcrumbs",
+     "name": "breadcrumbs",
+     "amount": 80.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil, for deep-frying",
+     "amount": 700.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix 80 ml of the milk with the cornstarch until no lumps remain.",
+     "relatedIngredientIds": [
+      "milk",
+      "cornstarch"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Put the remaining 170 ml of milk and the sugar in a pan and stir over low heat until the sugar dissolves.",
+     "relatedIngredientIds": [
+      "milk",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir the cornstarch mixture again and pour it slowly into the pan, stirring all the time.",
+     "relatedIngredientIds": [
+      "cornstarch"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Keep stirring over low heat for 3-5 minutes, until thick enough that a line drawn across the base holds for 3 seconds.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Brush a 20 x 15 cm heatproof dish with about 2 ml of the oil. Pour in the mixture and smooth it to about 2 cm thick.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cool to room temperature, cover and chill for at least 2 hours, until firm and not sticky to the touch.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Turn it out and cut it into 12 sticks of about 6 x 2 x 2 cm.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Put the flour, beaten egg and breadcrumbs in three dishes. Coat each stick in flour, then egg, then breadcrumbs.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "egg",
+      "breadcrumbs"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Heat the oil over medium heat to 165-175 °C. Without a thermometer, a few breadcrumbs should float within 2 seconds and keep bubbling.",
+     "relatedIngredientIds": [
+      "breadcrumbs",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Fry in 2-3 batches for 60-90 seconds each, turning once or twice.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 90,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "When evenly golden, lift out and drain on kitchen paper for about 2 minutes before eating.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Drain"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/dessert/%E7%82%B8%E9%B2%9C%E5%A5%B6/%E7%82%B8%E9%B2%9C%E5%A5%B6.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "sugar-frosted-taro",
+   "title": "Sugar-frosted Taro (Arbi)",
+   "description": "Chaoshan snack of fried taro sticks tossed in hot syrup until the sugar turns white and frosty.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "sweet",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "taro",
+     "name": "taro (arbi)",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "chopped-scallion",
+     "name": "chopped scallion",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil, for deep-frying",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the taro and cut it into fairly thick sticks so they do not break when tossed.",
+     "relatedIngredientIds": [
+      "taro"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat enough oil to cover the taro until small bubbles form around a chopstick dipped in it.",
+     "relatedIngredientIds": [
+      "taro",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Fry the taro until it floats, turns pale golden and a chopstick goes in easily. Lift it out (keep the oil for other cooking).",
+     "relatedIngredientIds": [
+      "taro",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In a clean pan, heat the sugar and water until full of small bubbles but not yet coloured.",
+     "relatedIngredientIds": [
+      "sugar",
+      "water"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the scallion and taro, turn off the heat and keep tossing. As it cools, the sugar turns white and frosty on the taro.",
+     "relatedIngredientIds": [
+      "taro",
+      "sugar",
+      "chopped-scallion"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/dessert/%E5%8F%8D%E6%B2%99%E8%8A%8B%E5%A4%B4/%E5%8F%8D%E6%B2%99%E8%8A%8B%E5%A4%B4.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "kung-pao-chicken",
+   "title": "Kung Pao Chicken",
+   "description": "Sichuan chicken cubes with peanuts, toasted dried chillies and Sichuan pepper in a light sweet-sour sauce.",
+   "prepTime": 85,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "large-chicken-leg",
+     "name": "large chicken leg (about 350 g)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "spring-onions",
+     "name": "spring onions",
+     "amount": 180.0,
+     "unit": "g"
+    },
+    {
+     "id": "roasted-peanuts",
+     "name": "roasted peanuts",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, sliced",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "dried-red-chillies",
+     "name": "dried red chillies",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "sichuan-peppercorns",
+     "name": "Sichuan peppercorns",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 25.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "chicken-bouillon-powder",
+     "name": "chicken bouillon powder",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "chinese-black-vinegar",
+     "name": "Chinese black vinegar",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 10.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Debone the chicken leg with scissors (skip this for chicken breast). Pound the meat with the back of a knife and cut it into 1.5 cm cubes. Soak in water for 10 minutes, then drain.",
+     "relatedIngredientIds": [
+      "large-chicken-leg"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Put the spring onion greens and the ginger in a bowl and pour over 50 ml of boiling water. Cut the spring onion whites into 1.5 cm pieces.",
+     "relatedIngredientIds": [
+      "spring-onions",
+      "ginger"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Microwave the peanuts on high for 5 minutes to dry them out.",
+     "relatedIngredientIds": [
+      "roasted-peanuts"
+     ],
+     "animation": "microwave",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Microwave"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the chicken with the salt, dark soy sauce, rice wine and 15 g of the cornstarch. Slowly mix in some of the spring onion water until sticky.",
+     "relatedIngredientIds": [
+      "large-chicken-leg",
+      "spring-onions",
+      "salt",
+      "dark-soy-sauce",
+      "shaoxing-rice-wine",
+      "cornstarch"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cover the chicken and marinate in the fridge for 1 hour.",
+     "relatedIngredientIds": [
+      "large-chicken-leg"
+     ],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cut the chillies into short pieces. Heat the wok, turn it to low and toast the chillies until slightly charred, then the Sichuan peppercorns until fragrant. Set aside.",
+     "relatedIngredientIds": [
+      "dried-red-chillies",
+      "sichuan-peppercorns"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Turn the heat to high and add the oil. When hot, add the chicken. Fry until the top turns white, then turn it, fry for 30 seconds and stir-fry.",
+     "relatedIngredientIds": [
+      "large-chicken-leg",
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the spring onion whites. Top up the leftover spring onion water to 100 ml with hot water, pour it in, cover and cook over medium-low heat for 2 minutes.",
+     "relatedIngredientIds": [
+      "spring-onions"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Turn the heat to high. Add the peanuts, chillies, Sichuan peppercorns, bouillon powder, vinegar and sugar and toss well.",
+     "relatedIngredientIds": [
+      "roasted-peanuts",
+      "dried-red-chillies",
+      "sichuan-peppercorns",
+      "chicken-bouillon-powder",
+      "chinese-black-vinegar",
+      "sugar"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Mix the remaining 10 g of cornstarch with 50 ml of water, stir it in and cook until the sauce is as thick as you like.",
+     "relatedIngredientIds": [
+      "dark-soy-sauce",
+      "cornstarch"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Turn off the heat, drizzle with the sesame oil and serve.",
+     "relatedIngredientIds": [
+      "cooking-oil",
+      "sesame-oil"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "fish-fragrant-shredded-pork",
+   "title": "Fish-fragrant Shredded Pork",
+   "description": "Sichuan pork strips with carrot, capsicum and wood ear in a sweet, sour and spicy sauce (no fish).",
+   "prepTime": 270,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "pork-tenderloin",
+     "name": "pork tenderloin",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "carrot",
+     "name": "carrot",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "green-capsicum",
+     "name": "green capsicum",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "dried-wood-ear-mushrooms",
+     "name": "dried wood ear mushrooms",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "egg-white",
+     "name": "egg white",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "vinegar",
+     "name": "vinegar",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "g"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "doubanjiang",
+     "name": "doubanjiang (chilli bean paste)",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 40.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the wood ear mushrooms for 4 hours, rinse and cut them into small pieces.",
+     "relatedIngredientIds": [
+      "dried-wood-ear-mushrooms"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 14400,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut the pork into thin strips. Mix 5 ml of the soy sauce, the rice wine, 5 g of the cornstarch, 20 ml of the water and the egg white, add the pork and marinate for 15-30 minutes.",
+     "relatedIngredientIds": [
+      "pork-tenderloin",
+      "light-soy-sauce",
+      "shaoxing-rice-wine",
+      "egg-white",
+      "cornstarch",
+      "water"
+     ],
+     "animation": "chop",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "For the sauce, mix the remaining soy sauce, the vinegar, sugar, salt, remaining cornstarch and remaining water.",
+     "relatedIngredientIds": [
+      "light-soy-sauce",
+      "cornstarch",
+      "vinegar",
+      "sugar",
+      "salt",
+      "water"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Seed the capsicum and cut it into strips. Cut the carrot into strips and blanch it in boiling water.",
+     "relatedIngredientIds": [
+      "carrot",
+      "green-capsicum",
+      "water"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mince the ginger and garlic. Cut the scallion into 5 mm pieces.",
+     "relatedIngredientIds": [
+      "ginger",
+      "scallion",
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat the wok, add 15 ml of the oil and quickly stir-fry the pork until it turns pale. Take it out.",
+     "relatedIngredientIds": [
+      "pork-tenderloin",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Heat the remaining oil and add the scallion, ginger, garlic and doubanjiang.",
+     "relatedIngredientIds": [
+      "ginger",
+      "scallion",
+      "garlic",
+      "doubanjiang",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the carrot and stir-fry for 20 seconds.",
+     "relatedIngredientIds": [
+      "carrot"
+     ],
+     "suggestedTimerSeconds": 20,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add the capsicum and wood ear and stir-fry for 2 minutes.",
+     "relatedIngredientIds": [
+      "green-capsicum",
+      "dried-wood-ear-mushrooms"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Return the pork and toss quickly, for no more than 20 seconds.",
+     "relatedIngredientIds": [
+      "pork-tenderloin"
+     ],
+     "suggestedTimerSeconds": 20,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Pour in the sauce and toss for no more than 15 seconds. Turn off the heat and serve.",
+     "relatedIngredientIds": [
+      "light-soy-sauce"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 15,
+     "timerLabel": "Timer"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "cola-chicken-wings",
+   "title": "Cola Chicken Wings",
+   "description": "Pan-fried chicken wings simmered in cola and soy sauce until sticky and glossy.",
+   "prepTime": 15,
+   "cookTime": 30,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "chicken-wing-middles",
+     "name": "chicken wing middles",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "cola",
+     "name": "cola",
+     "amount": 500.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 13.0,
+     "unit": "g"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion, tied in a knot",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the wings in a pot, cover with cold water and add 1 slice of ginger and the rice wine. Bring to a boil over high heat (about 2 minutes), skim off the scum and drain. Skip this for fresh wings.",
+     "relatedIngredientIds": [
+      "chicken-wing-middles",
+      "ginger",
+      "shaoxing-rice-wine"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut two slashes into each side of every wing. Marinate the wings in 10 g of the light soy sauce for 10 minutes.",
+     "relatedIngredientIds": [
+      "chicken-wing-middles",
+      "light-soy-sauce"
+     ],
+     "animation": "chop",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat a little oil over low heat and fry the remaining ginger until fragrant. Add the wings and fry until golden on both sides, stirring a few times so nothing sticks.",
+     "relatedIngredientIds": [
+      "chicken-wing-middles",
+      "ginger",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour in cola to cover the wings and bring to a boil over high heat. Skim off the dark foam and add the scallion knot.",
+     "relatedIngredientIds": [
+      "chicken-wing-middles",
+      "cola",
+      "scallion"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Season with the salt, sugar, remaining light soy sauce and the dark soy sauce for colour.",
+     "relatedIngredientIds": [
+      "sugar",
+      "light-soy-sauce",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "When the scallion knot turns yellow, remove it with the ginger. Keep simmering over medium heat.",
+     "relatedIngredientIds": [
+      "ginger",
+      "scallion"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When the cola turns syrupy and clings to the wings, turn the heat to low so the glaze coats them, then serve.",
+     "relatedIngredientIds": [
+      "chicken-wing-middles",
+      "cola"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "hunan-red-braised-pork",
+   "title": "Hunan Red-braised Pork",
+   "description": "Pork belly cubes caramelised in rock sugar and slowly braised with spices and soy sauce.",
+   "prepTime": 15,
+   "cookTime": 45,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "pork-belly",
+     "name": "pork belly, skin on",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "rock-sugar-lumps",
+     "name": "rock sugar lumps (mishri)",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 3.0,
+     "unit": "slice"
+    },
+    {
+     "id": "star-anise",
+     "name": "star anise",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "small-piece-cinnamon",
+     "name": "small piece cinnamon (cassia bark)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "dried-bird-s-eye-chillie",
+     "name": "dried bird's eye chillies, optional",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the pork belly, put it in cold water with 2 slices of the ginger and bring to a boil. Lift it out and rinse off the scum under cold water.",
+     "relatedIngredientIds": [
+      "pork-belly",
+      "ginger"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut the pork into 1.5 cm cubes.",
+     "relatedIngredientIds": [
+      "pork-belly"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil in a wok, add the rock sugar and stir over low heat until it turns caramel brown. Add the pork and stir-fry over medium heat until coloured.",
+     "relatedIngredientIds": [
+      "pork-belly",
+      "cooking-oil",
+      "rock-sugar-lumps"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the remaining ginger, star anise, cinnamon, bay leaves, light soy sauce, dark soy sauce, rice wine, dried chillies and salt. Stir-fry over low heat for 1 minute.",
+     "relatedIngredientIds": [
+      "ginger",
+      "star-anise",
+      "small-piece-cinnamon",
+      "bay-leaves",
+      "light-soy-sauce",
+      "shaoxing-rice-wine",
+      "salt",
+      "dried-bird-s-eye-chillie"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour in boiling water to cover the pork. Cover and bring to a boil over medium heat.",
+     "relatedIngredientIds": [
+      "pork-belly"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Turn the heat to low and simmer for 30 minutes, stirring every 10 minutes so it does not stick.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When about a third of the liquid is left, turn the heat to medium and reduce the sauce until thick, then serve.",
+     "relatedIngredientIds": [
+      "light-soy-sauce"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "sweet-sour-pork-ribs",
+   "title": "Sweet and Sour Pork Ribs",
+   "description": "Blanched and fried pork ribs glazed in a sweet, tangy sauce with sesame seeds.",
+   "prepTime": 15,
+   "cookTime": 30,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "pork-ribs",
+     "name": "pork ribs, cut small",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil, for deep-frying",
+     "amount": 300.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "chinese-black-vinegar",
+     "name": "Chinese black vinegar",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chicken-bouillon-powder",
+     "name": "chicken bouillon powder",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "tomato-ketchup",
+     "name": "tomato ketchup",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "five-spice-powder",
+     "name": "five-spice powder",
+     "amount": 0.5,
+     "unit": "g"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sesame-seeds",
+     "name": "sesame seeds",
+     "amount": 2.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the ribs and ginger in cold water and bring to a boil over high heat. When lots of foam appears, turn the heat down and blanch for 2-3 minutes. Drain.",
+     "relatedIngredientIds": [
+      "pork-ribs",
+      "ginger"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Rinse the ribs 2-3 times with boiling water to remove all the scum.",
+     "relatedIngredientIds": [
+      "pork-ribs"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil to about 170 °C and fry the ribs for 3-5 minutes until lightly golden. Drain.",
+     "relatedIngredientIds": [
+      "pork-ribs",
+      "cooking-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In a clean wok over low heat, warm 50 ml of hot water, add the sugar and stir gently until dissolved and pale yellow.",
+     "relatedIngredientIds": [
+      "sugar"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the ribs and stir-fry quickly for 30 seconds.",
+     "relatedIngredientIds": [
+      "pork-ribs"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the vinegar, light soy sauce, oyster sauce, bouillon powder, ketchup and five-spice powder and stir-fry for 30 seconds to coat.",
+     "relatedIngredientIds": [
+      "chinese-black-vinegar",
+      "light-soy-sauce",
+      "oyster-sauce",
+      "chicken-bouillon-powder",
+      "tomato-ketchup",
+      "five-spice-powder"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour in boiling water to just cover the ribs and bring to a boil over high heat. Add the dark soy sauce for colour and reduce the sauce quickly.",
+     "relatedIngredientIds": [
+      "pork-ribs",
+      "dark-soy-sauce"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "If the ribs are large, cover and simmer over low heat for 5-10 minutes so they absorb the flavour.",
+     "relatedIngredientIds": [
+      "pork-ribs"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Plate the ribs and sprinkle with the sesame seeds.",
+     "relatedIngredientIds": [
+      "pork-ribs",
+      "sesame-seeds"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "hunan-chilli-pork",
+   "title": "Hunan Chilli Pork Stir-fry",
+   "description": "Thin pork belly slices stir-fried with fresh red chillies, fermented black beans and bean paste.",
+   "prepTime": 35,
+   "cookTime": 10,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "pork-belly",
+     "name": "pork belly",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "red-chillies",
+     "name": "red chillies",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "bird-s-eye-chillies",
+     "name": "bird's eye chillies",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "douchi",
+     "name": "douchi (fermented black beans)",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "doubanjiang",
+     "name": "doubanjiang (chilli bean paste)",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Slice the pork belly thinly. Mix it with the cornstarch, dark soy sauce and salt and marinate for 30 minutes.",
+     "relatedIngredientIds": [
+      "pork-belly",
+      "dark-soy-sauce",
+      "cornstarch",
+      "salt"
+     ],
+     "animation": "chop",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut the scallion into lengths. Slice the red chillies and bird's eye chillies diagonally.",
+     "relatedIngredientIds": [
+      "bird-s-eye-chillies",
+      "scallion"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the wok and add the oil. When hot, stir-fry the pork until it changes colour, then take it out.",
+     "relatedIngredientIds": [
+      "pork-belly",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Fry the garlic in the wok until fragrant, add the douchi and stir well.",
+     "relatedIngredientIds": [
+      "douchi",
+      "garlic"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the doubanjiang and stir well.",
+     "relatedIngredientIds": [
+      "doubanjiang"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Return the pork and stir-fry to mix.",
+     "relatedIngredientIds": [
+      "pork-belly"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add all the chillies and the scallion, stir-fry for 40 seconds and serve.",
+     "relatedIngredientIds": [
+      "red-chillies",
+      "scallion"
+     ],
+     "suggestedTimerSeconds": 40,
+     "timerLabel": "Fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B0%8F%E7%82%92%E8%82%89.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "huangmen-braised-chicken",
+   "title": "Huangmen Braised Chicken",
+   "description": "Chicken pieces caramelised, then braised with shiitake, dried chilli and green pepper.",
+   "prepTime": 490,
+   "cookTime": 30,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "chicken-legs",
+     "name": "chicken legs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "dried-shiitake-mushrooms",
+     "name": "dried shiitake mushrooms",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "green-peppers",
+     "name": "green peppers",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "dried-red-chillies",
+     "name": "dried red chillies",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "white-pepper-powder",
+     "name": "white pepper powder",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "potato",
+     "name": "potato, optional",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "msg",
+     "name": "MSG",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Rinse the dried shiitake and soak them overnight. Keep the soaking water and slice the mushrooms.",
+     "relatedIngredientIds": [
+      "dried-shiitake-mushrooms"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Wash the chicken legs and chop them into 4 cm pieces.",
+     "relatedIngredientIds": [
+      "chicken-legs"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Slice the ginger and cut the chillies into rings. Cut the green peppers into long strips and the potato, if using, into chunks the size of the chicken.",
+     "relatedIngredientIds": [
+      "chicken-legs",
+      "green-peppers",
+      "ginger",
+      "dried-red-chillies",
+      "potato"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Put a little oil and the sugar in a cold wok. Heat slowly over low heat, stirring all the time, until the sugar melts and turns deep brown.",
+     "relatedIngredientIds": [
+      "sugar",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Quickly add the chicken, turn the heat to high and stir-fry fast. Splash in the rice wine and stir-fry briefly.",
+     "relatedIngredientIds": [
+      "chicken-legs",
+      "shaoxing-rice-wine"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the ginger and dried chillies, then the soy sauce, and stir well.",
+     "relatedIngredientIds": [
+      "ginger",
+      "dried-red-chillies",
+      "soy-sauce"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour in the mushroom water (or plain water) to cover the chicken. Add the mushrooms, white pepper, salt and potato.",
+     "relatedIngredientIds": [
+      "chicken-legs",
+      "dried-shiitake-mushrooms",
+      "salt",
+      "white-pepper-powder",
+      "potato"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Stir, cover and simmer over medium-low heat for 15-20 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "stir",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "When the chicken is tender and the sauce is thick but not dry, add the green peppers.",
+     "relatedIngredientIds": [
+      "chicken-legs",
+      "green-peppers",
+      "soy-sauce"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Add the MSG, toss well and turn off the heat while the peppers are still crisp.",
+     "relatedIngredientIds": [
+      "green-peppers",
+      "msg"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%BB%84%E7%84%96%E9%B8%A1.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "scallion-braised-chicken",
+   "title": "Scallion-braised Chicken",
+   "description": "Boneless chicken leg seared crisp, then braised briefly with leek, spring onion and soy sauce.",
+   "prepTime": 20,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "chicken-legs",
+     "name": "chicken legs (about 500 g)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "leek",
+     "name": "leek (about 100 g)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "spring-onions",
+     "name": "spring onions",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-pepper",
+     "name": "white pepper",
+     "amount": 1.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, optional",
+     "amount": 3.0,
+     "unit": "slice"
+    },
+    {
+     "id": "sichuan-peppercorns",
+     "name": "Sichuan peppercorns, optional",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "toasted-sesame-seeds",
+     "name": "toasted sesame seeds, optional",
+     "amount": 2.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Debone the chicken legs with scissors: cut along the bone from the thick end, snip the meat free and pull the bone out.",
+     "relatedIngredientIds": [
+      "chicken-legs"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut the meat into 2-3 cm pieces. Cut the leek into 0.5 cm slices and the spring onions into 1 cm lengths.",
+     "relatedIngredientIds": [
+      "leek",
+      "spring-onions"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the chicken with the rice wine, 5 ml of the light soy sauce, the salt and white pepper and marinate for 10 minutes.",
+     "relatedIngredientIds": [
+      "chicken-legs",
+      "light-soy-sauce",
+      "shaoxing-rice-wine",
+      "salt",
+      "white-pepper"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "For the sauce, mix the remaining light soy sauce, the dark soy sauce, oyster sauce and sugar in a small bowl.",
+     "relatedIngredientIds": [
+      "light-soy-sauce",
+      "oyster-sauce",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Heat the oil in a wok. Fry the ginger and Sichuan peppercorns over low heat until the ginger browns, then scoop them out and discard.",
+     "relatedIngredientIds": [
+      "white-pepper",
+      "cooking-oil",
+      "ginger",
+      "sichuan-peppercorns"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Over medium-high heat, spread out the chicken and leave it for 2-3 minutes to form a golden crust underneath.",
+     "relatedIngredientIds": [
+      "chicken-legs"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Stir-fry until all sides have changed colour and the chicken is cooked through.",
+     "relatedIngredientIds": [
+      "chicken-legs"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the leek and stir-fry for 1 minute until fragrant.",
+     "relatedIngredientIds": [
+      "leek"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Pour in the sauce, toss well, cover and cook for 2 minutes.",
+     "relatedIngredientIds": [
+      "light-soy-sauce"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Uncover, add the spring onions and sesame seeds, toss for 5-10 seconds and serve.",
+     "relatedIngredientIds": [
+      "spring-onions",
+      "toasted-sesame-seeds"
+     ],
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Timer"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%91%B1%E7%83%A7%E9%B8%A1%E8%85%BF.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "shredded-chicken-salad",
+   "title": "Shredded Chicken Salad",
+   "description": "Poached chicken breast torn into shreds and dressed with Sichuan pepper oil, soy sauce and vinegar.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "salad",
+    "healthy",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "chicken-breast",
+     "name": "chicken breast",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sichuan-pepper-oil",
+     "name": "Sichuan pepper oil",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 4.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chinese-black-vinegar",
+     "name": "Chinese black vinegar",
+     "amount": 4.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Slice the ginger.",
+     "relatedIngredientIds": [
+      "ginger"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Put 4 litres of water in a pot with the chicken breast, ginger and rice wine.",
+     "relatedIngredientIds": [
+      "chicken-breast",
+      "ginger",
+      "shaoxing-rice-wine"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bring to a boil over high heat, uncovered. Turn to medium heat and skim off the foam.",
+     "relatedIngredientIds": [],
+     "animation": "boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cook for 5-7 minutes more: 5 for fresh chicken, 7 for frozen. It is done when a chopstick goes in easily; cook longer if needed.",
+     "relatedIngredientIds": [
+      "chicken-breast"
+     ],
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Rinse the chicken in cooled boiled water until it is at room temperature.",
+     "relatedIngredientIds": [
+      "chicken-breast"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Tear the chicken into thin shreds along the grain.",
+     "relatedIngredientIds": [
+      "chicken-breast"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "In a bowl, stir the Sichuan pepper oil, soy sauce, vinegar, sugar and salt until the sugar and salt dissolve.",
+     "relatedIngredientIds": [
+      "sichuan-pepper-oil",
+      "light-soy-sauce",
+      "chinese-black-vinegar",
+      "sugar",
+      "salt"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Pour the dressing over the chicken, mix well and serve.",
+     "relatedIngredientIds": [
+      "chicken-breast"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "cantonese-steamed-sea-bass",
+   "title": "Cantonese Steamed Sea Bass",
+   "description": "Whole sea bass steamed with ginger and scallion, dressed with soy sauce and sizzling oil.",
+   "prepTime": 20,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "whole-sea-bass",
+     "name": "whole sea bass (bhetki), cleaned",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "scallions",
+     "name": "scallions",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, 4 cm piece",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "steamed-fish-soy-sauce",
+     "name": "steamed-fish soy sauce",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 10.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Slice the ginger, then cut it into thin shreds. Cut the scallion whites into lengths and the greens into fine shreds. Soak the shreds in cold water.",
+     "relatedIngredientIds": [
+      "scallions",
+      "ginger"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Rinse the fish and pat it dry. Score both sides a few times. Rub the salt over the fish inside and out to clean off the slime, then leave for at least 10 minutes.",
+     "relatedIngredientIds": [
+      "salt",
+      "steamed-fish-soy-sauce"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stuff half the ginger and scallion whites into the belly and scatter the rest over the fish. Put the fish on chopsticks laid across a plate.",
+     "relatedIngredientIds": [
+      "scallions",
+      "ginger",
+      "steamed-fish-soy-sauce"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Bring the water in a steamer to a boil, put in the fish and steam over high heat for 10 minutes.",
+     "relatedIngredientIds": [
+      "steamed-fish-soy-sauce"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Steam"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Move the fish to a clean plate and remove the ginger and scallion it was steamed with.",
+     "relatedIngredientIds": [
+      "scallions",
+      "ginger",
+      "steamed-fish-soy-sauce"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour the soy sauce over the fish and scatter the remaining ginger and the scallion greens on top.",
+     "relatedIngredientIds": [
+      "scallions",
+      "ginger",
+      "steamed-fish-soy-sauce"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Heat the oil in a small pan until very hot and pour it over the fish. Serve.",
+     "relatedIngredientIds": [
+      "steamed-fish-soy-sauce",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "wine-steamed-prawns",
+   "title": "Wine-steamed Prawns",
+   "description": "Prawns steamed on onion and ginger in rice wine, served with a hot soy, garlic and vinegar dip.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "prawns",
+     "name": "prawns, shell on",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "onion",
+     "name": "onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, 4 cm piece",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 6.0,
+     "unit": "clove"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 12.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sesame-seeds",
+     "name": "sesame seeds",
+     "amount": 1.0,
+     "unit": "handful"
+    },
+    {
+     "id": "chinese-black-vinegar",
+     "name": "Chinese black vinegar",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 12.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the onion into small pieces and slice the ginger. Spread them over the base of a wide pan.",
+     "relatedIngredientIds": [
+      "onion",
+      "ginger"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Rinse the prawns (deveining and trimming the legs is optional), drain and lay them on the onion and ginger.",
+     "relatedIngredientIds": [
+      "prawns",
+      "onion",
+      "ginger"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour in the rice wine, cover and cook over medium heat for 1 minute.",
+     "relatedIngredientIds": [
+      "shaoxing-rice-wine"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Turn the heat to low and cook for 5 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Turn off the heat and leave covered for 5 minutes more.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Meanwhile, make the dip: chop the scallion and mince the garlic, then mix them with the soy sauce, sesame seeds and vinegar.",
+     "relatedIngredientIds": [
+      "scallion",
+      "garlic",
+      "light-soy-sauce",
+      "sesame-seeds",
+      "chinese-black-vinegar"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Heat the oil until hot and pour it over the dip.",
+     "relatedIngredientIds": [
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Lift the prawns onto a clean plate and serve with the dip.",
+     "relatedIngredientIds": [
+      "prawns"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E7%99%BD%E7%81%BC%E8%99%BE/%E7%99%BD%E7%81%BC%E8%99%BE.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "steamed-pork-patty-egg",
+   "title": "Steamed Pork Patty with Egg",
+   "description": "Seasoned minced pork steamed on a plate with a whole egg in the centre.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "minced-pork",
+     "name": "minced pork",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "white-pepper-powder",
+     "name": "white pepper powder",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 12.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a bowl, mix the pork with the rice wine, soy sauce, white pepper, 1 of the eggs and the sesame oil until well combined.",
+     "relatedIngredientIds": [
+      "minced-pork",
+      "eggs",
+      "shaoxing-rice-wine",
+      "light-soy-sauce",
+      "white-pepper-powder",
+      "sesame-oil"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Spread the pork over a plate. Make a hollow in the middle with a spoon and crack the other egg into it.",
+     "relatedIngredientIds": [
+      "minced-pork",
+      "eggs"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Fill a pot a quarter full with water and bring to a boil. Put in the plate, cover and steam for 15 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Steam"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%82%89%E9%A5%BC%E7%82%96%E8%9B%8B.md",
+   "credit": "HowToCook contributors"
+  }
+ ]
+}

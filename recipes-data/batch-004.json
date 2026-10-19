@@ -1,0 +1,2673 @@
+{
+ "recipes": [
+  {
+   "id": "chicken-satay",
+   "title": "Chicken Satay with Peanut Sauce",
+   "description": "Skewered Thai-style chicken with peanut sauce.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "quick",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "boneless-chicken-breast",
+     "name": "boneless chicken breast or thigh",
+     "amount": 2.0,
+     "unit": "lb"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 1.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ground-tumeric",
+     "name": "ground tumeric",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "coconut-milk",
+     "name": "coconut milk",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "peanut-butter",
+     "name": "peanut butter (creamy)",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "massaman-curry-paste",
+     "name": "massaman curry paste",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "water-to-thin-peanut-sau",
+     "name": "water to thin peanut sauce",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the chicken into 1/2 inch thick strips.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix chicken with oyster sauce, tumeric, 1 tbsp sugar and coconut milk. Allow chicken to marinade for at least an hour.",
+     "relatedIngredientIds": [
+      "oyster-sauce",
+      "ground-tumeric",
+      "sugar",
+      "coconut-milk",
+      "water-to-thin-peanut-sau"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Optionally, you can skewer the meat with wooden skewers.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Grill chicken until cooked through.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix peanut butter, 1 tbsp sugar and curry paste together in a small saucepan. Add enough water to thin to a thick sauce.",
+     "relatedIngredientIds": [
+      "oyster-sauce",
+      "sugar",
+      "peanut-butter",
+      "massaman-curry-paste",
+      "water-to-thin-peanut-sau"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cook for 1-2 min stirring frequently.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve chicken with peanut sauce for dipping.",
+     "relatedIngredientIds": [
+      "oyster-sauce",
+      "water-to-thin-peanut-sau"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/chicken-satay/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "fish-curry",
+   "title": "Fish Curry",
+   "description": "Thai-style fish curry, best with white rice.",
+   "prepTime": 0,
+   "cookTime": 30,
+   "servings": 5,
+   "dietaryTags": [],
+   "categories": [
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "neutral-oil",
+     "name": "neutral oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "red-onion",
+     "name": "red onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "cm-ginger",
+     "name": "cm ginger",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "red-pepper",
+     "name": "red pepper",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "curry-powder",
+     "name": "curry powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "green-beans",
+     "name": "green beans",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "fish-broth",
+     "name": "fish broth",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "coconut-milk",
+     "name": "coconut milk",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "fish-fillet",
+     "name": "fish fillet (white fish)",
+     "amount": 400.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Boil green beans for 10 minutes",
+     "relatedIngredientIds": [
+      "green-beans"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut onions, tomato, garlic and fish.",
+     "relatedIngredientIds": [
+      "onion",
+      "red-onion",
+      "garlic",
+      "tomatoes",
+      "fish-fillet"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat oil on a wok and sauté the onion and garlic",
+     "relatedIngredientIds": [
+      "onion",
+      "red-onion",
+      "garlic"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add beans, tomato, broth and spices and boil for 6 minutes",
+     "relatedIngredientIds": [
+      "green-beans",
+      "tomatoes",
+      "fish-broth"
+     ],
+     "suggestedTimerSeconds": 360,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add coconut milk, fish and pepper (whole) and boil for an additional 6 minutes.",
+     "relatedIngredientIds": [
+      "red-pepper",
+      "coconut-milk",
+      "fish-fillet"
+     ],
+     "suggestedTimerSeconds": 360,
+     "timerLabel": "Boil"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/fish-curry/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "panang-style-beef-curry",
+   "title": "Panang-Style Beef Curry",
+   "description": "Rich, coconutty Thai panang curry with beef.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "ground-beef",
+     "name": "Ground Beef",
+     "amount": 0.5,
+     "unit": "lb"
+    },
+    {
+     "id": "coconut-milk",
+     "name": "Coconut Milk",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "red-chili-pepper",
+     "name": "Red Chili Pepper",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "red-curry-paste",
+     "name": "Red Curry Paste",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "peanut-butter",
+     "name": "Peanut Butter",
+     "amount": 4.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "jasmine-rice",
+     "name": "Jasmine Rice",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "cilantro",
+     "name": "Cilantro",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sweet-bell-pepper",
+     "name": "Sweet Bell Pepper",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "Onion, chopped",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "garlic-puree",
+     "name": "Garlic Puree",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "peanuts",
+     "name": "Peanuts, chopped",
+     "amount": 1.0,
+     "unit": "oz"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "Soy Sauce",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "mild-curry-paste",
+     "name": "Mild Curry Paste",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Start rice. While water comes to a boil, core and cut pepper into 1/2 inch pieces. Roughly chop cilantro. Finely chop the chili pepper - remove seeds for less heat.",
+     "relatedIngredientIds": [
+      "red-chili-pepper",
+      "jasmine-rice",
+      "cilantro",
+      "sweet-bell-pepper"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add rice to boiling water. Reduce heat to low, cover and cook until rice is tender and absorbed, about 12-14 minutes. Remove from heat and keep covered.",
+     "relatedIngredientIds": [
+      "jasmine-rice"
+     ],
+     "suggestedTimerSeconds": 840,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "While rice cooks, heat a large non-stick pan over medium-high heat. Once hot, add a tablespoon of oil, then the beef and garlic puree. Cook, breaking up beef into smaller pieces, until no pink remains (4-5 mins).",
+     "relatedIngredientIds": [
+      "ground-beef",
+      "jasmine-rice",
+      "garlic-puree"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add peppers and onions to the pan with beef.",
+     "relatedIngredientIds": [
+      "ground-beef",
+      "red-chili-pepper",
+      "sweet-bell-pepper",
+      "onion"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cook, stirring occasionally until softened (2-3 mins).",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add mild curry paste, red curry base, soy sauce, peanut butter, and the minced chili pepper.",
+     "relatedIngredientIds": [
+      "red-chili-pepper",
+      "red-curry-paste",
+      "peanut-butter",
+      "sweet-bell-pepper",
+      "peanuts",
+      "soy-sauce",
+      "mild-curry-paste"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cook, stirring often, until fragrant (1 min).",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add coconut milk to the pan. Cook, stirring often, until curry thickens slightly (2-3 mins).",
+     "relatedIngredientIds": [
+      "coconut-milk"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Fluff rice with a fork. Add half the cilantro and season, then stir to combine. Divide rice between plates and top with beef curry. Sprinkle peanuts and remaining cilantro over top.",
+     "relatedIngredientIds": [
+      "ground-beef",
+      "jasmine-rice",
+      "cilantro",
+      "peanuts"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/panang-style-beef-curry/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "beef-and-broccoli",
+   "title": "Beef and Broccoli",
+   "description": "Takeaway-style beef and broccoli in a glossy sauce.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "beef",
+     "name": "Beef, cut into strips",
+     "amount": 0.5,
+     "unit": "lb"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "Vegetable Oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ginger",
+     "name": "Ginger, minced",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "carrots",
+     "name": "Carrots, sliced",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "snow-peas",
+     "name": "Snow Peas",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "bean-sprouts",
+     "name": "Bean Sprouts",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "broccoli-pieces",
+     "name": "Broccoli Pieces",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "beef-bouillon",
+     "name": "Beef Bouillon",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "corn-starch",
+     "name": "Corn starch",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "Soy Sauce",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat oil, add beef and stir-fry until meat is browned and push to sides of pan.",
+     "relatedIngredientIds": [
+      "beef"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add broccoli and carrots. Cover and steam vegetables until they are only slightly crunchy.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "carrots"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Remove vegetables to a bowl. Add bouillon, salt and pepper to meat.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "beef-bouillon"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Combine corn starch, 2 Tbsp water, and soy sauce. Add to meat to thicken sauce.",
+     "relatedIngredientIds": [
+      "corn-starch",
+      "soy-sauce"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add vegetables and heat. Serve over rice.",
+     "relatedIngredientIds": [
+      "vegetable-oil"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/beef-and-broccoli/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "guobaorou",
+   "title": "Guobaorou (sweet-and-sour pork)",
+   "description": "Crispy sweet-and-sour pork from northeast China.",
+   "prepTime": 15,
+   "cookTime": 30,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "pork-tenderloin-or-loin",
+     "name": "pork tenderloin or loin",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "potato-starch-or-cornsta",
+     "name": "potato starch or cornstarch",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "carrot",
+     "name": "carrot",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "tomato-paste",
+     "name": "tomato paste",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vinegar",
+     "name": "vinegar (rice one ideally. 1 teaspoon if high %)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "oil",
+     "name": "oil (to fry)",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut pork into thin slices about 2x2cm wide. They must be grabbable with chopsticks.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix starch with water into thick cream-like batter. Coat pork slices, massage the batter into the meat. Marinate for 30 minutes. Massage it from time to time",
+     "relatedIngredientIds": [],
+     "animation": "mix",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil. Fry pork in batches until golden and crispy. Drain on paper towels.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Julienne that carrot",
+     "relatedIngredientIds": [
+      "carrot"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix 2 tbsp starch with 1 cup cold water.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "In a deep pan, combine tomato paste, sugar, and a splash (not more) of water. Cook on high heat, stir until bubbly.",
+     "relatedIngredientIds": [
+      "tomato-paste",
+      "sugar",
+      "vinegar"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When the tomato-sugar mix boils, add vinegar and starch slurry. Stir until thickened a little.",
+     "relatedIngredientIds": [
+      "sugar",
+      "vinegar"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Toss fried pork. Stir. Add carrot in a bit. Fry until sauce clings to the pork and caramelizes slightly.",
+     "relatedIngredientIds": [
+      "carrot"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/guobaorou/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "bebek-mropol",
+   "title": "Bebek Mropol",
+   "description": "Indonesian duck simmered in coconut milk and spices.",
+   "prepTime": 10,
+   "cookTime": 60,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "whole-duck",
+     "name": "whole duck, cut into pieces",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "coconut-milk",
+     "name": "coconut milk",
+     "amount": 2.0,
+     "unit": "can"
+    },
+    {
+     "id": "lemongrass-stalks",
+     "name": "lemongrass stalks, bruised",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "kaffir-lime-leaves",
+     "name": "kaffir lime leaves",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "shallots",
+     "name": "shallots, minced",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "red-chilies",
+     "name": "red chilies, sliced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "tamarind-paste",
+     "name": "tamarind paste",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat up a large pot over medium-high heat, and add the duck pieces skin side first to render the fat. Flip and cook until the duck is browned on all sides.",
+     "relatedIngredientIds": [
+      "whole-duck"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the minced garlic, shallots, and sliced chilies to the pot, and stir-fry for a few minutes until fragrant.",
+     "relatedIngredientIds": [
+      "garlic",
+      "shallots",
+      "red-chilies"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour in the coconut milk, and add the lemongrass, kaffir lime leaves, bay leaves, salt, sugar, and tamarind paste. Stir well to combine.",
+     "relatedIngredientIds": [
+      "coconut-milk",
+      "kaffir-lime-leaves",
+      "bay-leaves",
+      "salt",
+      "sugar",
+      "tamarind-paste"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Bring the mixture to a boil, then reduce the heat to low and let it simmer for about 1 hour, or until the duck is tender and the sauce has thickened.",
+     "relatedIngredientIds": [
+      "whole-duck"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Serve the Bebek Mprol hot with a side of white rice.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/bebek-mropol/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "pininyahang-manok",
+   "title": "Pininyahang Manok",
+   "description": "Filipino chicken simmered in pineapple.",
+   "prepTime": 20,
+   "cookTime": 45,
+   "servings": 5,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "chicken",
+     "name": "chicken, cut into serving pieces",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "pineapple-chunks",
+     "name": "pineapple chunks",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "pineapple-juice",
+     "name": "pineapple juice",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-carrots",
+     "name": "chopped carrots",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "red-bell-pepper",
+     "name": "red bell pepper, sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "chopped-onion",
+     "name": "chopped onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 3.0,
+     "unit": "clove"
+    },
+    {
+     "id": "evaporated-milk",
+     "name": "evaporated milk (optional for creamy version)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "fish-sauce",
+     "name": "fish sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt-and-pepper-to-taste",
+     "name": "Salt and pepper to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat cooking oil in a pan and sauté onions and garlic until fragrant.",
+     "relatedIngredientIds": [
+      "chopped-onion",
+      "garlic",
+      "cooking-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add chicken pieces and cook until lightly browned.",
+     "relatedIngredientIds": [
+      "chicken"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour fish sauce and stir for a minute.",
+     "relatedIngredientIds": [
+      "fish-sauce"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add pineapple juice and simmer for 15–20 minutes until the chicken becomes tender.",
+     "relatedIngredientIds": [
+      "chicken",
+      "pineapple-juice"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add carrots and pineapple chunks, then continue cooking until vegetables soften.",
+     "relatedIngredientIds": [
+      "pineapple-chunks",
+      "chopped-carrots",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour evaporated milk for a creamy texture (optional).",
+     "relatedIngredientIds": [
+      "evaporated-milk"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add bell peppers and season with salt and pepper.",
+     "relatedIngredientIds": [
+      "red-bell-pepper"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Simmer for another 3–5 minutes and serve hot.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/pininyahang-manok/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "sticky-porkchops",
+   "title": "Sticky Porkchops",
+   "description": "Simple Chinese-inspired pork chops in a sticky glaze.",
+   "prepTime": 180,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "pork-chops",
+     "name": "Pork chops",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "heaped-tbsp-set-honey",
+     "name": "heaped tbsp Set honey",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic-cloves",
+     "name": "Garlic cloves, crushed",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "soy-sauce",
+     "name": "Soy sauce",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ginger",
+     "name": "Ginger (thumb sized piece), sliced",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "chinese-five-spice",
+     "name": "Chinese Five Spice",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Fill a shallow dish with soy sauce to about half the thickness of your porkchops. The level shouldn't be able to fully submerge them.",
+     "relatedIngredientIds": [
+      "soy-sauce"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix in the honey until fully combined with the soy sauce, then mix in the garlic, ginger and chinese five spice.",
+     "relatedIngredientIds": [
+      "heaped-tbsp-set-honey",
+      "soy-sauce",
+      "ginger",
+      "chinese-five-spice"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Place your porkchops in the dish, then flip them.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cover the dish with clingfilm, then chill in the fridge for 1h 30mins.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 5400,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Take the dish out of the fridge, flip the porkchops, then recover the dish and chill for a further 1h 30mins.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 5400,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat some olive oil in a pan over medium heat, then place your porkchops in the pan and cook for 10-15mins or until cooked through.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Take the porkchops out the pan, then rest for a couple of minutes before slicing and serving.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/sticky-porkchops/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "instant-tom-yam-kung-noodle-soup",
+   "title": "Instant Tom Yam Kung noodle soup",
+   "description": "Instant noodles upgraded with coconut milk, mushrooms and egg.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "noodles",
+    "quick",
+    "soup",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "packages-of-vegetable-or",
+     "name": "packages of vegetable- or tom yam-quick noodles",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "coconut-milk",
+     "name": "coconut milk",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "small-or-5-big-mushrooms",
+     "name": "small or 5 big mushrooms",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "a-few-salad-leaves",
+     "name": "A few salad leaves",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "lime",
+     "name": "lime",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "coriander",
+     "name": "Coriander",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put small amount of water and coconut milk to boil. Add the noodle spices. (If you don't like it too creamy, add extra water.)",
+     "relatedIngredientIds": [
+      "packages-of-vegetable-or",
+      "coconut-milk"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Chop the mushrooms and coriander (and other veggies if you wish). Cut the lime into four pieces.",
+     "relatedIngredientIds": [
+      "small-or-5-big-mushrooms",
+      "lime",
+      "coriander"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "When boiling add mushroom, and crack the eggs directly into the pot (be sure not to stir after this, otherwise they will break). Wait 30 seconds to 1 minute.",
+     "relatedIngredientIds": [
+      "small-or-5-big-mushrooms",
+      "eggs"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Wait"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the noodles and salad leaves (or whatever veggie you got).",
+     "relatedIngredientIds": [
+      "packages-of-vegetable-or",
+      "a-few-salad-leaves"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "After 3-5 minutes it's done. Serve in deep bowls. Squeeze the lime juice and chopped coriander on top.",
+     "relatedIngredientIds": [
+      "lime",
+      "coriander"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Timer"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/instant-tom-yam-kung-noodle-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "fajitas",
+   "title": "Fajitas",
+   "description": "Sizzling Tex-Mex fajitas with peppers and onions.",
+   "prepTime": 20,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "1-2-tsp-lime-juice",
+     "name": "+ 1/2 tsp Lime Juice, divided",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "olive-oil",
+     "name": "Olive Oil, divided",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, crushed",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "Soy Sauce, divided",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "liquid-smoke",
+     "name": "Liquid Smoke",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "Cayenne Pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "Black Pepper",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "chicken-breasts-or-skirt",
+     "name": "Chicken Breasts or Skirt Steak, bones/skin removed",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "water",
+     "name": "Water",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "large-spanish-onion",
+     "name": "large Spanish Onion, thinly sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "each-green",
+     "name": "each Green, Red, and Yellow Bell Pepper, thinly sliced",
+     "amount": 0.5,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine 1/4 cup lime juice, 2 Tbsp of the oil, garlic, 2 tsp soy sauce, the salt, liquid smoke, cayenne pepper, and black pepper in a resealable container, add chicken/steak, cover.",
+     "relatedIngredientIds": [
+      "1-2-tsp-lime-juice",
+      "garlic",
+      "soy-sauce",
+      "salt",
+      "liquid-smoke",
+      "cayenne-pepper",
+      "black-pepper",
+      "chicken-breasts-or-skirt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "And refrigerate for at least 2 hours or overnight.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Combine water, remaining soy sauce and lime juice, and a dash of salt and pepper - set aside.",
+     "relatedIngredientIds": [
+      "1-2-tsp-lime-juice",
+      "soy-sauce",
+      "salt",
+      "cayenne-pepper",
+      "black-pepper",
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Grill meat over a medium-high flame for 4-5 minutes per side, or until cooked through.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Grill"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cut meat into thin strips - set aside and keep warm.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "In a large skillet over medium-high heat, cook onion and peppers in remaining oil until brown - remove from heat and pour reserved liquid mixture over onions and peppers.",
+     "relatedIngredientIds": [
+      "cayenne-pepper",
+      "black-pepper",
+      "large-spanish-onion"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Toss together meat, onions, and peppers.",
+     "relatedIngredientIds": [
+      "cayenne-pepper",
+      "black-pepper",
+      "large-spanish-onion"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Can serve with warm tortillas, pico de gallo, cheese, sour cream, and guacamole.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/fajitas/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "taco-meat",
+   "title": "Taco Meat",
+   "description": "Seasoned ground beef filling for tacos.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "ground-beef-or-turkey",
+     "name": "ground beef or turkey",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "medium-onion",
+     "name": "medium onion, finely chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "medium-tomato",
+     "name": "medium tomato, chopped (or 1 small can of tomato sauce)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "chili-powder",
+     "name": "chili powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "oregano",
+     "name": "oregano (ground or leaf)",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin",
+     "name": "cumin",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "dash-of-pepper",
+     "name": "dash of pepper (1/8 teaspoon or less)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Brown beef and onion together. Drain grease.",
+     "relatedIngredientIds": [
+      "medium-onion"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the rest of the ingredients to the browned meat.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir well.",
+     "relatedIngredientIds": [],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat this mixture thoroughly.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add more tomato sauce if the mixture is dry.",
+     "relatedIngredientIds": [
+      "medium-tomato"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cover and simmer for 20 minutes, or less if the mixture begins to dry out.",
+     "relatedIngredientIds": [
+      "dash-of-pepper"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/taco-meat/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "pork-carnitas",
+   "title": "Slow-cooked Pork Carnitas",
+   "description": "Slow-cooked, crisp-edged Mexican pulled pork.",
+   "prepTime": 15,
+   "cookTime": 510,
+   "servings": 10,
+   "dietaryTags": [],
+   "categories": [
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "boneless-pork-shoulder",
+     "name": "boneless pork shoulder",
+     "amount": 2.5,
+     "unit": "lb"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, cut into slivers",
+     "amount": 6.0,
+     "unit": "clove"
+    },
+    {
+     "id": "cumin",
+     "name": "cumin",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "sazon",
+     "name": "sazon",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "dry-oregano",
+     "name": "dry oregano",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "low-sodium-chicken-broth",
+     "name": "low sodium chicken broth",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "chipotle-peppers-in-adob",
+     "name": "chipotle peppers in adobo sauce",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "dry-adobo-seasoning",
+     "name": "dry adobo seasoning",
+     "amount": 0.25,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Season pork with kosher salt and pepper.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a medium sauté pan on medium-high heat, brown pork on all sides.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Remove from heat and allow to cool, about 10 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cool"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Using a sharp knife, insert blade into pork, cutting small holes and insert garlic slivers as far in as you can.",
+     "relatedIngredientIds": [
+      "garlic"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour chicken broth in slow cooker.",
+     "relatedIngredientIds": [
+      "low-sodium-chicken-broth"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add pork and season with cumin, adobo, sazon, and oregano.",
+     "relatedIngredientIds": [
+      "cumin",
+      "sazon",
+      "dry-oregano"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add bay leaves and chipotle peppers.",
+     "relatedIngredientIds": [
+      "bay-leaves"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cover and cook low for 8 hours.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "After 8 hours, shred pork using 2 forks and combine with juices.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Let cook for another 15-30 mins.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/pork-carnitas/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "frijol-con-puerco",
+   "title": "Frijol con puerco",
+   "description": "Yucatecan pork and bean stew.",
+   "prepTime": 10,
+   "cookTime": 60,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "black-beans",
+     "name": "black beans, rinsed and drained.",
+     "amount": 1.0,
+     "unit": "kg"
+    },
+    {
+     "id": "pork-loin-or-ribs-cut-in",
+     "name": "pork loin or ribs cut into 5 cm pieces, it can be mixture",
+     "amount": 2.0,
+     "unit": "kg"
+    },
+    {
+     "id": "white-onion-without-skin",
+     "name": "white onion without skin cut, in half.",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "branches-of-fresh-epazot",
+     "name": "branches of fresh epazote, or 15 branches of coriander tied",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "radishes",
+     "name": "radishes, julienned or striped.",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "chopped-cilantro",
+     "name": "chopped cilantro.",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "mexican-avocado",
+     "name": "Mexican avocado, halved, pitted, pulp cut into squares.",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "lemons",
+     "name": "lemons, quartered.",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "yucatan-style-tomato-sau",
+     "name": "Yucatan style tomato sauce or Chiltomate to taste (optional)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "mexican-tortillas",
+     "name": "Mexican tortillas",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a large pot, put the black beans and 6 liters of water.",
+     "relatedIngredientIds": [
+      "black-beans"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring to a boil over medium heat and cook, with the lid half-open, for 45 minutes.",
+     "relatedIngredientIds": [
+      "white-onion-without-skin"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the pork, onion, epazote or cilantro, and salt.",
+     "relatedIngredientIds": [
+      "branches-of-fresh-epazot",
+      "chopped-cilantro"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir well. Cook for another hour and a half, with the pot partially covered, until the pork is cooked and tender.",
+     "relatedIngredientIds": [
+      "white-onion-without-skin"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Make sure the broth does not dry out. You can add about 4 extra cups of boiling water after adding the pork.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Put out the fire. Make sure the seasoning is OK.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve the beans with pork with the radishes, cilantro, avocado, lemons, chiltomate sauce and habaneros.",
+     "relatedIngredientIds": [
+      "black-beans",
+      "radishes",
+      "chopped-cilantro",
+      "mexican-avocado",
+      "lemons"
+     ],
+     "animation": "serve"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Enjoy with some authentic mexican tortillas.",
+     "relatedIngredientIds": [
+      "mexican-tortillas"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/frijol-con-puerco/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "mexican-meat-loaf",
+   "title": "Mexican Meat Loaf",
+   "description": "Meat loaf with a Mexican twist.",
+   "prepTime": 10,
+   "cookTime": 60,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "baking",
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "lean-ground-beef",
+     "name": "Lean Ground Beef",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "black-beans",
+     "name": "Black Beans (canned), rinsed and drained",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salsa",
+     "name": "Salsa, divided",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "corn",
+     "name": "Corn (frozen)",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "bread-crumbs",
+     "name": "Bread Crumbs",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "cooking-spray",
+     "name": "Cooking Spray",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In bowl, place all ingredients except spray and using 3/4 cup of the salsa - mix well.",
+     "relatedIngredientIds": [
+      "salsa",
+      "cooking-spray"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Spray a loaf pan (approx. 5\"x9\"), and add above mix.",
+     "relatedIngredientIds": [
+      "cooking-spray"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bake for 50 to 60 minutes - sit 15 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Top with last 1/4 cup of salsa.",
+     "relatedIngredientIds": [
+      "salsa"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/mexican-meat-loaf/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "shepherds-pie",
+   "title": "Shepherd's Pie",
+   "description": "English minced lamb pie under mashed potato.",
+   "prepTime": 60,
+   "cookTime": 40,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "mealy-floury-potatoes",
+     "name": "mealy/floury potatoes",
+     "amount": 600.0,
+     "unit": "g"
+    },
+    {
+     "id": "onions",
+     "name": "onions",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "carrots",
+     "name": "carrots",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "minced-lamb",
+     "name": "minced lamb",
+     "amount": 800.0,
+     "unit": "g"
+    },
+    {
+     "id": "frozen-peas",
+     "name": "frozen peas",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "tomato-paste-puree",
+     "name": "tomato paste/puree",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "beef-stock",
+     "name": "beef stock",
+     "amount": 300.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sweet-or-smoked-paprika",
+     "name": "sweet or smoked paprika",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "nutmeg",
+     "name": "nutmeg",
+     "amount": 1.0,
+     "unit": "pinch"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel potatoes, cut into cubes and boil in saltwater for 20 minutes. Peel the onions and carrots and cut into small cubes.",
+     "relatedIngredientIds": [
+      "mealy-floury-potatoes",
+      "onions",
+      "carrots"
+     ],
+     "animation": "chop",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the oil in a pan and fry the minced meat until crumbly. Add the onions, carrots and peas. Add the tomato paste and beef stock. Stir well and season with paprika, pepper and salt.",
+     "relatedIngredientIds": [
+      "onions",
+      "carrots",
+      "frozen-peas",
+      "beef-stock",
+      "sweet-or-smoked-paprika"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Drain potatoes and mash with butter. Add milk, season with nutmeg and stir until creamy.",
+     "relatedIngredientIds": [
+      "mealy-floury-potatoes",
+      "butter",
+      "milk",
+      "nutmeg"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Preheat the oven to 200°C. Grease a casserole dish with butter, put the minced meat in it and spread the mashed potatoes on it with a piping bag. Put the dish in the oven for 30-40 minutes.",
+     "relatedIngredientIds": [
+      "mealy-floury-potatoes",
+      "butter"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Preheat"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/shepherds-pie/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "zurich-sytle-meat-saute",
+   "title": "Zurich-Style Meat Saute",
+   "description": "Sliced meat in a creamy sauce, a Zurich speciality.",
+   "prepTime": 15,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "beef",
+     "name": "Beef, finely sliced",
+     "amount": 600.0,
+     "unit": "g"
+    },
+    {
+     "id": "mushrooms",
+     "name": "Mushrooms, finely sliced",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "onion",
+     "name": "Onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "flour",
+     "name": "Flour",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "white-whine",
+     "name": "White whine",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cream",
+     "name": "Cream",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chopped-parsley",
+     "name": "chopped parsley",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Fry the meat in butter at high heat until it starts loosing liquid.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Take the meat out of the pan and set aside.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Saute the onions.",
+     "relatedIngredientIds": [
+      "onion"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the mushrooms, saute, then add a tbsp of flour and mix well. The flour will make the sauce thicker, so use carfully.",
+     "relatedIngredientIds": [
+      "mushrooms",
+      "flour"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the white wine and let it boil for a few minutes.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add cream, boil until the sauce is very creamy.",
+     "relatedIngredientIds": [
+      "cream"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the meat, boil until the meat is warm.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add parsley, and serve.",
+     "relatedIngredientIds": [
+      "chopped-parsley"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/zurich-sytle-meat-saute/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "tiroler-groestl",
+   "title": "Tiroler Gröstl",
+   "description": "Austrian pan-fried potatoes with bacon and egg.",
+   "prepTime": 15,
+   "cookTime": 30,
+   "servings": 5,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 1.0,
+     "unit": "kg"
+    },
+    {
+     "id": "red-onions",
+     "name": "red onions",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "porkchops",
+     "name": "porkchops",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "bacon",
+     "name": "bacon (smoked)",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 3.0,
+     "unit": "clove"
+    },
+    {
+     "id": "ample-amount-of-chopped",
+     "name": "Ample amount of chopped parsley",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "marjoram-and-cumin-to-ta",
+     "name": "Marjoram and cumin to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Clean potatoes and boil with skin.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Chop onion, squeeze and mince the garlic.",
+     "relatedIngredientIds": [
+      "red-onions",
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Dice pork and bacon.",
+     "relatedIngredientIds": [
+      "bacon"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Slice cooked potatoes in thick wedges.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Fry potato wedges in butter, add more butter while stirring.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add pork and bacon and bake until crispy.",
+     "relatedIngredientIds": [
+      "bacon"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add and stir the rest of the ingredients, except eggs.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Fry the eggs separately and serve on top.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "fry"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/tiroler-groestl/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "flammkuchen",
+   "title": "Flammkuchen",
+   "description": "Thin Alsatian flatbread with cream, onion and bacon.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "french",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "pizza-dough",
+     "name": "Pizza dough (either bought or from Pizza Dough)",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "onion",
+     "name": "onion (I prefer the red ones for optical reasons)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "bacon",
+     "name": "bacon",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "big-spoons-of-sour-creme",
+     "name": "big spoons of sour creme or creme fraiche",
+     "amount": 2.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "we start by flattening the dough. Even if you buy thin crust that is already sold as 'super thin' you have to make it even thinner.",
+     "relatedIngredientIds": [
+      "pizza-dough"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Make it so thin that you can fill 2 baking sheets with it (yes, you will make two large flammkuchen - since they are thin you need one per person) :) I take two pieces of parchment paper.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put the dough in between and flatten it using a bottle (e.g. wine). It has to be as thin as possible (1-2 mm).",
+     "relatedIngredientIds": [
+      "pizza-dough"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "once the dough is flat, put it on your baking tray and preheat the oven at 450 to 500 Fahrenheit (230 to 260 Celsius)",
+     "relatedIngredientIds": [
+      "pizza-dough"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "distribute the sour cream evenly (it should be a very thin layer, just barely covering the dough",
+     "relatedIngredientIds": [
+      "pizza-dough"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "cut the onion and bacon into small pieces and distribute onion, bacon/vegetables (also in small pieces) evenly",
+     "relatedIngredientIds": [
+      "onion",
+      "bacon"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "put in the oven for 10 minutes and take it out when it is getting a bit dark. The thin parts will get a bit brown",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "put salt and pepper",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/flammkuchen/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "spatchcock-chicken",
+   "title": "Spatchcock Chicken",
+   "description": "Flattened whole chicken roasted quickly and evenly.",
+   "prepTime": 15,
+   "cookTime": 35,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "pound-whole-chickens",
+     "name": "pound whole chickens, wingtips removed",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dried-tarragon",
+     "name": "dried tarragon",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "paprika",
+     "name": "paprika",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 4.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "lemons",
+     "name": "lemons, thinly sliced and seeded",
+     "amount": 2.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat oven to 450 degrees F (230 degrees C). Line a large rimmed baking sheet with foil.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Place chicken, breast side down, on a work surface. Starting at the tail end, cut along both sides of backbone with kitchen shears. Remove backbone.",
+     "relatedIngredientIds": [
+      "pound-whole-chickens"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Grabbing hold of both sides of the chicken, open it like a book. Turn breast side up. Push down on each side of breast with your hands until you hear it crack.",
+     "relatedIngredientIds": [
+      "pound-whole-chickens"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Flatten chicken and transfer to one short end of the prepared baking sheet. Repeat with the second chicken.",
+     "relatedIngredientIds": [
+      "pound-whole-chickens"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Combine salt, tarragon, paprika, and pepper in a small bowl. Stir in oil. Run your fingers under chicken skin and rub tarragon paste under skin. Slide lemon slices under skin, in a single layer.",
+     "relatedIngredientIds": [
+      "pound-whole-chickens",
+      "salt",
+      "dried-tarragon",
+      "paprika",
+      "black-pepper",
+      "lemons"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Roast until skin is crisp and an instant-read thermometer inserted into thickest part of breast reads 165 degrees F, about 35 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2100,
+     "timerLabel": "Roast"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Let stand 5 minutes before cutting each chicken into 8 pieces.",
+     "relatedIngredientIds": [
+      "pound-whole-chickens"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Stand"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/spatchcock-chicken/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "cheddar-crusted-chicken",
+   "title": "Cheddar-Crusted Chicken",
+   "description": "Baked chicken with a crisp cheddar crust.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "chicken-breasts",
+     "name": "Chicken Breasts",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "mayonnaise",
+     "name": "Mayonnaise",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "panko-breadcrumbs",
+     "name": "Panko Breadcrumbs",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "cheddar-cheese",
+     "name": "Cheddar Cheese, shredded",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "smoked-paprika-garlic-bl",
+     "name": "Smoked Paprika-Garlic Blend",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine panko, cheese, and smoked paprika-garlic blend in a shallow dish. Preheat oven to 425F.",
+     "relatedIngredientIds": [
+      "cheddar-cheese",
+      "smoked-paprika-garlic-bl"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pat chicken dry with paper towel. Carefully slice into the centre of each chicken breast lengthwise and parallel to the cutting board - leaving 1/2 inch intact on the other end.",
+     "relatedIngredientIds": [
+      "chicken-breasts"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Open up chicken like a book, and season both sides with salt and pepper.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Coat one side of each chicken breast with mayo. Firmly press mayo-coated side into panko mixture to adhere, one at a time.",
+     "relatedIngredientIds": [
+      "chicken-breasts"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Transfer chicken to a parchment-lined baking sheet, coated-side up. Bake chicken on the middle oven rack until cooked through (18-20 mins).",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/cheddar-crusted-chicken/",
+   "credit": "based.cooking contributors"
+  }
+ ]
+}

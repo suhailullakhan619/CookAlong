@@ -325,6 +325,26 @@
           ]
         },
         {
+          "name": "PlanDinnerIntent",
+          "samples": [
+            "what's for dinner",
+            "what is for dinner",
+            "plan dinner",
+            "plan dinner for {count} people",
+            "plan dinner for {count}",
+            "plan my dinner",
+            "what can i cook tonight",
+            "what should i make for dinner",
+            "what should i cook tonight"
+          ],
+          "slots": [
+            {
+              "name": "count",
+              "type": "AMAZON.NUMBER"
+            }
+          ]
+        },
+        {
           "name": "SubstituteIntent",
           "samples": [
             "what can i use instead of {item}",

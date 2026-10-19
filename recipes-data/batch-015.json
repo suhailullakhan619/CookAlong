@@ -1,0 +1,3112 @@
+{
+ "recipes": [
+  {
+   "id": "potato-and-eggplant-curry",
+   "title": "Potato and Aubergine Curry",
+   "description": "Baked aubergine and potato simmered in garam masala, tomato and coconut milk.",
+   "prepTime": 15,
+   "cookTime": 45,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "large-aubergine",
+     "name": "large aubergine (eggplant)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "medium-potatoes",
+     "name": "medium potatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onions",
+     "name": "onions, finely sliced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, crushed",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric",
+     "name": "turmeric",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-coriander",
+     "name": "ground coriander",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "canned-chopped-tomatoes",
+     "name": "canned chopped tomatoes",
+     "amount": 400.0,
+     "unit": "ml"
+    },
+    {
+     "id": "canned-coconut-milk",
+     "name": "canned coconut milk",
+     "amount": 400.0,
+     "unit": "ml"
+    },
+    {
+     "id": "rice",
+     "name": "rice, to serve",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the oven to 200 °C (392 °F).",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut the aubergine into 1 cm slices and lay them on a tray. Coat with some of the olive oil and bake for 20 minutes.",
+     "relatedIngredientIds": [
+      "large-aubergine",
+      "olive-oil"
+     ],
+     "animation": "chop",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cook the onions in the rest of the oil over medium heat for 6 minutes, until soft.",
+     "relatedIngredientIds": [
+      "onions"
+     ],
+     "suggestedTimerSeconds": 360,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the garlic, garam masala, turmeric and ground coriander and stir for 2 minutes, until fragrant.",
+     "relatedIngredientIds": [
+      "garlic",
+      "garam-masala",
+      "turmeric",
+      "ground-coriander"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the chopped tomatoes and coconut milk, then the baked aubergine and the potatoes cut into chunks.",
+     "relatedIngredientIds": [
+      "large-aubergine",
+      "medium-potatoes",
+      "canned-chopped-tomatoes",
+      "canned-coconut-milk"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cover and simmer for 20 minutes. Meanwhile, boil the rice.",
+     "relatedIngredientIds": [
+      "rice"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Uncover and cook for 5 more minutes, until the sauce reduces. Serve with the rice.",
+     "relatedIngredientIds": [
+      "rice"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/potato-and-eggplant-curry/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "coriander-chicken",
+   "title": "Coriander Chicken",
+   "description": "Boneless chicken marinated in a green coriander, yoghurt and chilli paste, cooked with whole spices.",
+   "prepTime": 40,
+   "cookTime": 20,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "boneless-chicken-breast",
+     "name": "boneless chicken breast",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "plain-yoghurt",
+     "name": "plain yoghurt",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "coriander-leaves",
+     "name": "coriander leaves",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "green-chillies",
+     "name": "green chillies",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 10.0,
+     "unit": "clove"
+    },
+    {
+     "id": "medium-onions",
+     "name": "medium onions",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "oil",
+     "name": "oil (mustard or sunflower)",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cardamom-pods",
+     "name": "cardamom pods",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "small-cinnamon-stick",
+     "name": "small cinnamon stick",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "bay-leaf",
+     "name": "bay leaf",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the chicken into small bite-sized pieces.",
+     "relatedIngredientIds": [
+      "boneless-chicken-breast"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Blend the coriander leaves, green chillies, yoghurt, ginger, garlic and onions into a smooth paste.",
+     "relatedIngredientIds": [
+      "plain-yoghurt",
+      "coriander-leaves",
+      "green-chillies",
+      "ginger",
+      "garlic",
+      "medium-onions"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix half of the paste into the chicken with the garam masala and a little salt.",
+     "relatedIngredientIds": [
+      "boneless-chicken-breast",
+      "garam-masala",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Leave the chicken to marinate for 30 minutes.",
+     "relatedIngredientIds": [
+      "boneless-chicken-breast",
+      "coriander-leaves"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Heat the oil in a frying pan. Add the sugar and cook until it melts into the oil.",
+     "relatedIngredientIds": [
+      "oil",
+      "sugar"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the cardamom pods, cinnamon stick and bay leaf and cook for 1 minute, then lower the heat to medium.",
+     "relatedIngredientIds": [
+      "cardamom-pods",
+      "small-cinnamon-stick",
+      "bay-leaf"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the marinated chicken and cook, stirring so it doesn't stick, until the oil starts to separate.",
+     "relatedIngredientIds": [
+      "boneless-chicken-breast",
+      "oil"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the rest of the paste and stir until thick. Season with salt and serve with naan or rice.",
+     "relatedIngredientIds": [
+      "salt"
+     ],
+     "animation": "rest"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/coriander-chicken/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "lamb-biryani",
+   "title": "Lamb Biryani",
+   "description": "Tamil-style one-pot biryani: lamb simmered with whole spices, then basmati rice cooked in the same pot.",
+   "prepTime": 40,
+   "cookTime": 75,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "indian",
+    "south-indian",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "basmati-rice",
+     "name": "basmati rice",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "boneless-lamb-or-mutton",
+     "name": "boneless lamb or mutton",
+     "amount": 600.0,
+     "unit": "g"
+    },
+    {
+     "id": "neutral-oil",
+     "name": "neutral oil",
+     "amount": 30.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cardamom-pods",
+     "name": "cardamom pods",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "cinnamon-sticks",
+     "name": "cinnamon sticks",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "whole-cloves",
+     "name": "whole cloves",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "red-onions",
+     "name": "red onions",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 10.0,
+     "unit": "clove"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, 5 cm piece",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "green-chilli",
+     "name": "green chilli",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "curry-powder",
+     "name": "curry powder",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "chilli-powder",
+     "name": "chilli powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "lemon",
+     "name": "lemon, juiced",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "mint-or-coriander",
+     "name": "mint or coriander",
+     "amount": 1.0,
+     "unit": "sprig"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the basmati rice until the water runs clear, then soak it for 30 minutes.",
+     "relatedIngredientIds": [
+      "basmati-rice"
+     ],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Dice the tomatoes and slice the onions thinly. Grind the ginger and garlic to a paste. Slit the green chilli lengthways.",
+     "relatedIngredientIds": [
+      "red-onions",
+      "tomatoes",
+      "garlic",
+      "ginger",
+      "green-chilli"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil in a big pot over medium heat and toast the cardamom, bay leaves, cinnamon and cloves for 30 seconds.",
+     "relatedIngredientIds": [
+      "cardamom-pods",
+      "bay-leaves",
+      "cinnamon-sticks",
+      "whole-cloves"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Toast"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the onions and sauté for 3 minutes.",
+     "relatedIngredientIds": [
+      "red-onions"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the tomatoes and the ginger-garlic paste and sauté for 3 more minutes.",
+     "relatedIngredientIds": [
+      "tomatoes",
+      "garlic",
+      "ginger"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the lamb, 500 ml water, the green chilli, turmeric, curry powder, chilli powder and salt. Cook on high heat for 50 minutes, adding water if needed.",
+     "relatedIngredientIds": [
+      "boneless-lamb-or-mutton",
+      "green-chilli",
+      "turmeric-powder",
+      "curry-powder",
+      "salt"
+     ],
+     "suggestedTimerSeconds": 3000,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add enough water to make about 800 ml of liquid in the pot and bring it back to the boil.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Drain the rice and add it to the pot with the garam masala and lemon juice.",
+     "relatedIngredientIds": [
+      "basmati-rice",
+      "garam-masala",
+      "lemon"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "When most of the water has been absorbed, turn the heat to its lowest and adjust the salt and spice.",
+     "relatedIngredientIds": [
+      "salt"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Cover and cook for 10 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Garnish with mint or coriander and serve with raita.",
+     "relatedIngredientIds": [
+      "mint-or-coriander"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/lamb-biriyani/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "homemade-yogurt-dahi",
+   "title": "Homemade Yogurt (Dahi)",
+   "description": "Set your own thick yogurt from milk and a spoonful of starter, kept warm in flasks overnight.",
+   "prepTime": 600,
+   "cookTime": 10,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "plain-yogurt",
+     "name": "plain yogurt, as starter",
+     "amount": 100.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the milk to 45 °C (113 °F).",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Whisk the yogurt into the milk.",
+     "relatedIngredientIds": [
+      "milk",
+      "plain-yogurt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bring the milk back to 45 °C. Don't let it get hotter.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Rinse two 500 ml thermos flasks with about 100 ml of just-boiled water, then pour the water out.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour the milk into the flasks.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Leave them somewhere without draughts, such as a switched-off oven, for 12 hours.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Refrigerate the yogurt once it has set.",
+     "relatedIngredientIds": [
+      "plain-yogurt"
+     ],
+     "animation": "rest"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/yogurt/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "greek-yogurt-hung-curd",
+   "title": "Greek Yogurt (Hung Curd)",
+   "description": "Homemade yogurt strained in cheesecloth until thick and creamy.",
+   "prepTime": 600,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "plain-yogurt",
+     "name": "plain yogurt, as starter",
+     "amount": 100.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the milk to 45 °C (113 °F), whisk in the yogurt and bring it back to 45 °C. Don't let it get hotter.",
+     "relatedIngredientIds": [
+      "milk",
+      "plain-yogurt"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Rinse two 500 ml thermos flasks with about 100 ml of just-boiled water, then pour the water out.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour the milk into the flasks and leave them somewhere without draughts, such as a switched-off oven, for 12 hours.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour the set yogurt into a cheesecloth.",
+     "relatedIngredientIds": [
+      "plain-yogurt"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Hang the cheesecloth for 30 minutes to 4 hours: the longer it hangs, the thicker the yogurt.",
+     "relatedIngredientIds": [
+      "plain-yogurt"
+     ],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Drain"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Refrigerate the yogurt.",
+     "relatedIngredientIds": [
+      "plain-yogurt"
+     ],
+     "animation": "rest"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/greek-yogurt/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "tomato-and-red-pepper-soup",
+   "title": "Tomato and Red Pepper Soup",
+   "description": "Grilled red peppers and fresh tomatoes blended into a lightly spiced soup with a swirl of cream.",
+   "prepTime": 20,
+   "cookTime": 30,
+   "servings": 12,
+   "dietaryTags": [],
+   "categories": [
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "tomatoes",
+     "name": "tomatoes",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "red-peppers",
+     "name": "red peppers",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "onions",
+     "name": "onions",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 1.0,
+     "unit": "clove"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "stock-or-broth",
+     "name": "stock or broth",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "cayenne pepper",
+     "amount": 0.75,
+     "unit": "tsp"
+    },
+    {
+     "id": "paprika-powder",
+     "name": "paprika powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dried-italian-herbs",
+     "name": "dried Italian herbs",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "oregano",
+     "name": "oregano",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ginger-syrup",
+     "name": "ginger syrup",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "heavy-cream",
+     "name": "heavy cream",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Halve and deseed the red peppers, then grill them in the oven or on a grill. Peel off the skins.",
+     "relatedIngredientIds": [
+      "red-peppers"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Peel and quarter the tomatoes.",
+     "relatedIngredientIds": [
+      "tomatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Sauté the chopped onions and crushed garlic in the olive oil in a large soup pan until soft.",
+     "relatedIngredientIds": [
+      "onions",
+      "garlic",
+      "olive-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the stock, tomatoes and peppers and purée with a stick blender.",
+     "relatedIngredientIds": [
+      "tomatoes",
+      "red-peppers",
+      "stock-or-broth"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir in the cayenne pepper, paprika powder, herbs, oregano, ginger syrup and cream. Heat through and serve.",
+     "relatedIngredientIds": [
+      "cayenne-pepper",
+      "paprika-powder",
+      "dried-italian-herbs",
+      "oregano",
+      "ginger-syrup",
+      "heavy-cream"
+     ],
+     "animation": "stir"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/tomato-and-grilled-paprika-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "chicken-paprikash",
+   "title": "Chicken Paprikash",
+   "description": "Hungarian chicken thighs braised in a rich paprika and tomato sauce, finished with sour cream.",
+   "prepTime": 10,
+   "cookTime": 85,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "chicken-thighs",
+     "name": "chicken thighs (bone-in, skin-on)",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "medium-onions",
+     "name": "medium onions, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic-powder",
+     "name": "garlic powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "tomato-paste",
+     "name": "tomato paste",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "paprika",
+     "name": "paprika (Hungarian if possible)",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "chicken-or-beef-broth",
+     "name": "chicken or beef broth",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "cayenne pepper, optional",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sour-cream",
+     "name": "sour cream, optional",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Pat the chicken thighs dry with paper towels and season with salt and pepper.",
+     "relatedIngredientIds": [
+      "chicken-thighs",
+      "salt",
+      "pepper"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat a little olive oil in a heavy, deep pan over high heat.",
+     "relatedIngredientIds": [
+      "olive-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Brown the chicken skin-side down for 5 minutes on each side, then set aside.",
+     "relatedIngredientIds": [
+      "chicken-thighs"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Fry the onions in the chicken fat until golden.",
+     "relatedIngredientIds": [
+      "chicken-thighs",
+      "medium-onions"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the garlic powder and tomato paste and stir for 5 minutes.",
+     "relatedIngredientIds": [
+      "garlic-powder",
+      "tomato-paste"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the paprika and stir for 1 more minute.",
+     "relatedIngredientIds": [
+      "paprika"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour in the broth and heat until it is just bubbling.",
+     "relatedIngredientIds": [
+      "chicken-or-beef-broth"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Turn the heat to medium-low, return the chicken and its juices to the pan, cover and simmer for 60 minutes.",
+     "relatedIngredientIds": [
+      "chicken-thighs"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Check the chicken is tender, then season with salt and pepper.",
+     "relatedIngredientIds": [
+      "chicken-thighs",
+      "salt",
+      "pepper"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Stir the sour cream into the sauce, dust with cayenne and serve with crusty bread.",
+     "relatedIngredientIds": [
+      "cayenne-pepper",
+      "sour-cream"
+     ],
+     "animation": "stir"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/chicken-paprikash/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "red-bean-buns-dou-sha-bao",
+   "title": "Red Bean Buns (Dou Sha Bao)",
+   "description": "Soft, fluffy steamed buns filled with sweet homemade adzuki bean paste.",
+   "prepTime": 120,
+   "cookTime": 140,
+   "servings": 6,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "snack",
+    "breakfast",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "adzuki-red-beans",
+     "name": "adzuki red beans, soaked for 24 hours",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "wheat-flour",
+     "name": "wheat flour",
+     "amount": 350.0,
+     "unit": "g"
+    },
+    {
+     "id": "dried-yeast",
+     "name": "dried yeast (1 sachet)",
+     "amount": 4.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sunflower-oil",
+     "name": "sunflower oil",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Boil the soaked adzuki beans for 5 minutes, then drain and rinse.",
+     "relatedIngredientIds": [
+      "adzuki-red-beans"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Simmer the beans in fresh water for 2 hours, until easily squashed. Drain and blend to a smooth paste.",
+     "relatedIngredientIds": [
+      "adzuki-red-beans",
+      "water"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cook the bean paste in a pan over low heat with 150 g of the sugar and a pinch of salt for 10 minutes, stirring, until dry. Cool.",
+     "relatedIngredientIds": [
+      "adzuki-red-beans",
+      "sugar",
+      "salt"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In a bowl, mix the flour, the rest of the sugar, a pinch of salt, the baking powder and yeast with the water to make a dough.",
+     "relatedIngredientIds": [
+      "sugar",
+      "salt",
+      "wheat-flour",
+      "dried-yeast",
+      "baking-powder",
+      "water"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Knead the dough for 5 minutes, then add the oil and knead 2 minutes more.",
+     "relatedIngredientIds": [],
+     "animation": "mix",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Knead"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cover the dough and leave it to rise for 1 hour.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Rise"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Roll the bean paste into 6 balls. Knock the air out of the dough and divide it into 6 pieces.",
+     "relatedIngredientIds": [
+      "adzuki-red-beans"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Roll each piece into a 10-12 cm disc, put a ball of bean paste in the middle and pleat the edges to seal.",
+     "relatedIngredientIds": [
+      "adzuki-red-beans"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Set the buns on squares of baking paper in a covered steamer basket and rest for 10 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Steam for 20 minutes, then leave covered for 5 minutes before opening.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Steam"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/dou-sha-bao/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "hoisin-tofu-and-broccoli",
+   "title": "Hoisin Tofu and Broccoli",
+   "description": "Marinated tofu pan-fried golden, then tossed with steamed broccoli in a glossy hoisin sauce.",
+   "prepTime": 45,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "firm-tofu",
+     "name": "firm tofu",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "broccoli-florets",
+     "name": "broccoli florets",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, diced",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "rice-vinegar",
+     "name": "rice vinegar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "shaoxing-wine",
+     "name": "Shaoxing wine, optional",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "hoisin-sauce",
+     "name": "hoisin sauce",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "peanut-oil",
+     "name": "peanut oil",
+     "amount": 2.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, diced (optional)",
+     "amount": 50.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the tofu into 2 cm cubes.",
+     "relatedIngredientIds": [
+      "firm-tofu"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix 1/4 cup of the light soy sauce with the dark soy sauce, sugar and rice vinegar. Add the tofu and refrigerate for 30 minutes.",
+     "relatedIngredientIds": [
+      "firm-tofu",
+      "light-soy-sauce",
+      "sugar",
+      "rice-vinegar"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In another bowl, stir together the water, remaining light soy sauce, Shaoxing wine, sesame oil, cornstarch and hoisin sauce.",
+     "relatedIngredientIds": [
+      "light-soy-sauce",
+      "water",
+      "shaoxing-wine",
+      "hoisin-sauce",
+      "cornstarch",
+      "sesame-oil"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cut the broccoli into 1 cm chunks.",
+     "relatedIngredientIds": [
+      "broccoli-florets"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Boil 1/3 cup of water in a large pan, add the broccoli, cover and steam for 3 minutes. Drain and set aside.",
+     "relatedIngredientIds": [
+      "broccoli-florets",
+      "water"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Steam"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat 2 tbsp of the peanut oil in the same pan. Fry the tofu until golden on both sides, then push it to one side.",
+     "relatedIngredientIds": [
+      "firm-tofu",
+      "peanut-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the rest of the peanut oil with the garlic and ginger and stir for 30 seconds, until fragrant.",
+     "relatedIngredientIds": [
+      "garlic",
+      "peanut-oil",
+      "ginger"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Pour in the sauce and cook until it thickens, then add the broccoli and toss everything together.",
+     "relatedIngredientIds": [
+      "broccoli-florets",
+      "light-soy-sauce"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/hoisin-tofu-and-broccoli/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "stuffed-vegetables",
+   "title": "Stuffed Vegetables",
+   "description": "Halved tomato, pepper, courgette and aubergine baked under crisp breadcrumbs and Parmesan.",
+   "prepTime": 15,
+   "cookTime": 45,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "medium-tomato",
+     "name": "medium tomato",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "sweet-pepper",
+     "name": "sweet pepper",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "courgette",
+     "name": "courgette",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "long-aubergine",
+     "name": "long aubergine",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "breadcrumbs",
+     "name": "breadcrumbs",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "grated-parmigiano-cheese",
+     "name": "grated Parmigiano cheese",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "parsley",
+     "name": "parsley, chopped",
+     "amount": 1.0,
+     "unit": "handful"
+    },
+    {
+     "id": "extra-virgin-olive-oil",
+     "name": "extra virgin olive oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt",
+     "name": "salt, optional",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the oven to 170 °C (340 °F).",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Halve the tomato, pepper, courgette and aubergine lengthways. Scoop a little pulp from the tomato and courgette.",
+     "relatedIngredientIds": [
+      "medium-tomato",
+      "sweet-pepper",
+      "courgette",
+      "long-aubergine"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Lay the vegetables on baking paper in a baking tray, cut side up.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Sprinkle with parsley and a little salt, then cover generously with the breadcrumbs and Parmigiano.",
+     "relatedIngredientIds": [
+      "breadcrumbs",
+      "grated-parmigiano-cheese",
+      "parsley",
+      "salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Drizzle with enough olive oil to moisten all the breadcrumbs, so they stick and don't burn.",
+     "relatedIngredientIds": [
+      "breadcrumbs",
+      "extra-virgin-olive-oil"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 45 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/stuffed-vegetables/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "apple-pie",
+   "title": "Apple Pie",
+   "description": "Double-crust pie with a cinnamon apple filling, reduced on the stove before baking.",
+   "prepTime": 45,
+   "cookTime": 45,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet",
+    "baking",
+    "american"
+   ],
+   "ingredients": [
+    {
+     "id": "golden-delicious-apples",
+     "name": "golden delicious apples",
+     "amount": 900.0,
+     "unit": "g"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "white-sugar",
+     "name": "white sugar",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 65.0,
+     "unit": "g"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "nutmeg",
+     "name": "nutmeg",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 350.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-sugar-for-the-crus",
+     "name": "white sugar for the crust",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "cold-butter",
+     "name": "cold butter, cut into pieces",
+     "amount": 225.0,
+     "unit": "g"
+    },
+    {
+     "id": "ice-water",
+     "name": "ice water",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "egg",
+     "name": "egg, optional",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "water",
+     "name": "water, optional",
+     "amount": 15.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the apples and cut them into 3-5 cm strips.",
+     "relatedIngredientIds": [
+      "golden-delicious-apples"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the apples with the lemon juice, 50 g white sugar, brown sugar, cinnamon, nutmeg and cornstarch. Leave for 15 minutes to release their juice.",
+     "relatedIngredientIds": [
+      "golden-delicious-apples",
+      "lemon-juice",
+      "white-sugar",
+      "cinnamon",
+      "nutmeg",
+      "cornstarch"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Tip into a saucepan and reduce the liquid over medium-low heat for 15 minutes, stirring often. Turn off the heat.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Reduce"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Meanwhile, pulse the flour, salt, sugar for the crust and butter in a food processor for 10 seconds, until like coarse sand.",
+     "relatedIngredientIds": [
+      "flour",
+      "salt",
+      "white-sugar-for-the-crus",
+      "cold-butter"
+     ],
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Blend"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "With the motor running, drip in the ice water until the dough clumps and holds together when pinched.",
+     "relatedIngredientIds": [
+      "ice-water"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat the oven to 180 °C (350 °F).",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Halve the dough and roll each half into a circle big enough for a 23 cm (9 inch) pie dish.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Line the dish with one circle, trim the excess, then spread in the apple filling.",
+     "relatedIngredientIds": [
+      "golden-delicious-apples"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Cover with the second circle, tuck in the edges and press the crusts together with a fork.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Beat the egg with the water and brush it over the top, if using. Cut a few slits in the crust.",
+     "relatedIngredientIds": [
+      "ice-water",
+      "egg"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Bake for 45 minutes, until the crust is brown and the filling bubbles.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/apple-pie/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "ukrainian-vareniki",
+   "title": "Ukrainian Vareniki",
+   "description": "Boiled half-moon dumplings filled with mashed potato, fried onion and mushrooms.",
+   "prepTime": 30,
+   "cookTime": 50,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 510.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sour-cream",
+     "name": "sour cream",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "onions",
+     "name": "onions, finely diced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "button-mushrooms",
+     "name": "button mushrooms, finely chopped",
+     "amount": 3.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cover the potatoes with salted water and bring to the boil, then simmer for 25 minutes, until tender.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "salt",
+      "water"
+     ],
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drain and mash the potatoes, seasoning with salt and pepper.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "salt",
+      "pepper"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Meanwhile, mix the flour with 1 tsp salt. In another bowl, stir the sour cream and baking soda together.",
+     "relatedIngredientIds": [
+      "salt",
+      "all-purpose-flour",
+      "sour-cream",
+      "baking-soda"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the water into the flour, then the sour cream mixture, and knead into a smooth dough.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "sour-cream",
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cover the dough and refrigerate for 15 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Melt the butter in a frying pan over medium heat and fry the onions for 10 minutes, until browned.",
+     "relatedIngredientIds": [
+      "butter",
+      "onions"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the mushrooms and cook for 5 minutes, until browned, then mix into the mashed potatoes.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "button-mushrooms"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Divide the dough into 4, roll each into a 4 cm thick rope and cut into 1 cm pieces. Press each piece into a small flat circle.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Put 1 tsp of filling in the middle of each circle, fold into a half-moon and seal the edges.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Cook in batches in gently boiling salted water until they float, then 3 minutes more.",
+     "relatedIngredientIds": [
+      "salt",
+      "water"
+     ],
+     "suggestedTimerSeconds": 360,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Lift out with a slotted spoon and drain.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/ukrainian-vareniki/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "bolo-do-caco",
+   "title": "Bolo do Caco",
+   "description": "Madeiran sweet potato flatbreads, slow-fermented for 3 days and cooked in a dry pan.",
+   "prepTime": 600,
+   "cookTime": 45,
+   "servings": 10,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "sweet-potato",
+     "name": "sweet potato",
+     "amount": 750.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "active-dry-yeast",
+     "name": "active dry yeast",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "warm-water",
+     "name": "warm water",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 1.0,
+     "unit": "kg"
+    },
+    {
+     "id": "salted-butter",
+     "name": "salted butter, to serve",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "parsley",
+     "name": "parsley, to serve",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the sweet potatoes, cut them into large pieces and cover with water in a saucepan.",
+     "relatedIngredientIds": [
+      "sweet-potato",
+      "warm-water"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring to the boil, cover and cook over medium-high heat for 20 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Drain, mash and mix in the salt.",
+     "relatedIngredientIds": [
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the yeast with the warm water and leave for 10 minutes.",
+     "relatedIngredientIds": [
+      "active-dry-yeast",
+      "warm-water"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Put the flour in a large bowl, make a well and add the mashed sweet potato and yeast.",
+     "relatedIngredientIds": [
+      "sweet-potato",
+      "active-dry-yeast",
+      "all-purpose-flour"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Knead into a smooth, elastic dough.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cover and leave the dough to ferment in the fridge for 3 days.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Divide into 10 equal pieces on a floured surface. Shape into balls and flatten to 2.5 cm thick.",
+     "relatedIngredientIds": [
+      "all-purpose-flour"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Leave to rest somewhere warm and draught-free for 30 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Cook in a dry pan over medium-high heat, turning often, until a thin crust forms on both sides. Roll them on their edges to cook the sides.",
+     "relatedIngredientIds": [
+      "active-dry-yeast"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Serve warm with salted butter and parsley.",
+     "relatedIngredientIds": [
+      "salt",
+      "salted-butter",
+      "parsley"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/bolo-do-caco/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "scandinavian-coffee-cake",
+   "title": "Scandinavian Coffee Cake",
+   "description": "Yeasted cinnamon-sugar ring, sliced and fanned, iced and topped with walnuts.",
+   "prepTime": 180,
+   "cookTime": 30,
+   "servings": 10,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "shortening",
+     "name": "shortening",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "active-dry-yeast",
+     "name": "active dry yeast (1 packet)",
+     "amount": 7.0,
+     "unit": "g"
+    },
+    {
+     "id": "warm-water",
+     "name": "warm water",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "sifted-flour",
+     "name": "sifted flour",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, beaten",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "melted-butter",
+     "name": "melted butter",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "firmly-packed-brown-suga",
+     "name": "firmly packed brown sugar",
+     "amount": 0.667,
+     "unit": "cup"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "powdered-sugar-icing",
+     "name": "powdered sugar icing",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "chopped-walnuts",
+     "name": "chopped walnuts",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Scald the milk, then stir in the shortening, sugar and salt until the sugar dissolves. Cool to lukewarm.",
+     "relatedIngredientIds": [
+      "milk",
+      "shortening",
+      "sugar",
+      "salt"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Dissolve the yeast in the warm water and add it to the milk mixture.",
+     "relatedIngredientIds": [
+      "milk",
+      "active-dry-yeast",
+      "warm-water"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in half the flour, add the eggs and beat well. Add enough of the remaining flour to make a soft dough.",
+     "relatedIngredientIds": [
+      "sifted-flour",
+      "eggs"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Knead on a lightly floured board until smooth and elastic.",
+     "relatedIngredientIds": [
+      "sifted-flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Put in a greased bowl, brush with shortening, cover and leave somewhere warm for 2 hours, until doubled.",
+     "relatedIngredientIds": [
+      "shortening"
+     ],
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Roll out into a 20 x 30 cm rectangle and brush with melted butter.",
+     "relatedIngredientIds": [
+      "melted-butter"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Sprinkle with the brown sugar and cinnamon, roll up like a Swiss roll and shape into a ring on a greased baking sheet. Pinch the ends together.",
+     "relatedIngredientIds": [
+      "firmly-packed-brown-suga",
+      "cinnamon"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cut from the outside towards the centre, almost all the way through, in 2.5 cm slices. Fan the slices out slightly.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Brush with shortening, cover and leave to rise for 45 minutes, until doubled.",
+     "relatedIngredientIds": [
+      "shortening"
+     ],
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Rise"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Heat the oven to 190 °C (375 °F).",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Bake for 30 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s12",
+     "order": 12,
+     "instructionText": "Spread with the powdered sugar icing while warm and sprinkle with the chopped walnuts.",
+     "relatedIngredientIds": [
+      "powdered-sugar-icing",
+      "chopped-walnuts"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/scandinavian-coffee-cake/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "cinnamon-sugar-biscuits",
+   "title": "Cinnamon Sugar Biscuits",
+   "description": "Flaky brown-butter biscuits brushed with butter and dipped in cinnamon sugar.",
+   "prepTime": 65,
+   "cookTime": 20,
+   "servings": 10,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet",
+    "baking",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 113.0,
+     "unit": "g"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "granulated-sugar",
+     "name": "granulated sugar",
+     "amount": 25.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "fine-sea-salt",
+     "name": "fine sea salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cold-whole-milk",
+     "name": "cold whole milk",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "unsalted-butter-for-the",
+     "name": "unsalted butter for the glaze",
+     "amount": 57.0,
+     "unit": "g"
+    },
+    {
+     "id": "granulated-sugar-for-the",
+     "name": "granulated sugar for the glaze",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "ground-cinnamon-for-the",
+     "name": "ground cinnamon for the glaze",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Melt 113 g butter in a saucepan over medium heat and swirl until it foams, turns golden brown and smells nutty.",
+     "relatedIngredientIds": [
+      "unsalted-butter"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pour it into a bowl and refrigerate for 45 minutes, until solid and cold.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Whisk the flour, 25 g sugar, baking powder, salt and 1/2 tbsp cinnamon in a large bowl.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "granulated-sugar",
+      "baking-powder",
+      "fine-sea-salt",
+      "ground-cinnamon"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cube the cold browned butter and rub it into the flour until it looks like coarse crumbs.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "all-purpose-flour"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour in the cold milk and stir gently with a fork into a shaggy dough.",
+     "relatedIngredientIds": [
+      "cold-whole-milk"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Knead 4-5 times on a floured surface, press into a rectangle and fold in thirds like a letter. Turn, press out and repeat the folding 3 more times.",
+     "relatedIngredientIds": [
+      "all-purpose-flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Shape into a 2.5 cm thick square, trim the edges and cut into 9 squares. Shape the scraps into 1 more biscuit.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Heat the oven to 220 °C (425 °F). Set the biscuits close together in a buttered skillet or lined tray.",
+     "relatedIngredientIds": [
+      "unsalted-butter"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Bake for 20 minutes, until golden on top.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Meanwhile, melt the butter for the glaze and mix the sugar for the glaze with the cinnamon for the glaze.",
+     "relatedIngredientIds": [
+      "unsalted-butter-for-the",
+      "granulated-sugar-for-the",
+      "ground-cinnamon-for-the"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Brush the hot biscuits with the melted butter and sprinkle at once with the cinnamon sugar. Serve warm.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "granulated-sugar",
+      "ground-cinnamon"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/cinnamon-biscuits/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "sugar-free-peanut-butter-cookies",
+   "title": "Sugar-Free Peanut Butter Cookies",
+   "description": "Soft, chewy peanut butter cookies sweetened with a brown-sugar-style erythritol and stevia blend.",
+   "prepTime": 45,
+   "cookTime": 11,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter, softened",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "brown-sweetener",
+     "name": "brown sweetener (erythritol/stevia blend)",
+     "amount": 0.8,
+     "unit": "cup"
+    },
+    {
+     "id": "creamy-peanut-butter",
+     "name": "creamy peanut butter, no sugar added",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "large-egg",
+     "name": "large egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "large-egg-yolk",
+     "name": "large egg yolk",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "heavy-cream-or-whole-mil",
+     "name": "heavy cream or whole milk",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 1.3,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 0.8,
+     "unit": "tsp"
+    },
+    {
+     "id": "fine-sea-salt",
+     "name": "fine sea salt",
+     "amount": 0.8,
+     "unit": "tsp"
+    },
+    {
+     "id": "flaky-sea-salt",
+     "name": "flaky sea salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Blend the brown sweetener in a blender until it looks like powdered sugar. Let the dust settle before opening.",
+     "relatedIngredientIds": [
+      "brown-sweetener"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Beat the butter with the powdered sweetener using a hand mixer until pale and fluffy.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "brown-sweetener"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat in the peanut butter, then the egg, egg yolk, cream and vanilla, until smooth and glossy.",
+     "relatedIngredientIds": [
+      "creamy-peanut-butter",
+      "large-egg-yolk",
+      "heavy-cream-or-whole-mil",
+      "vanilla-extract"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the flour, baking soda and fine sea salt and mix on low just until no dry streaks remain.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "baking-soda",
+      "fine-sea-salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cover and refrigerate the dough for 30 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat the oven to 180 °C (350 °F) and line two baking sheets with parchment.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Roll the dough into balls of about 1 1/2 tbsp, set them 5 cm apart and press a light crosshatch with a fork.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Bake for 11 minutes, until the edges are set but the centres still look puffy.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 660,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Sprinkle at once with the flaky sea salt and leave on the hot sheet for 15 minutes to set.",
+     "relatedIngredientIds": [
+      "flaky-sea-salt"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Rest"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/sugar-free-brown-sugar-peanut-butter-cookies/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "oatmeal-cookies",
+   "title": "Oatmeal Cookies",
+   "description": "Chewy cinnamon oat cookies, with raisins, cranberries, coconut or nuts if you like.",
+   "prepTime": 20,
+   "cookTime": 10,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "butter",
+     "name": "butter, softened",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "vanilla",
+     "name": "vanilla",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "oats",
+     "name": "oats",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "raisins",
+     "name": "raisins, cranberries, coconut or nuts, optional",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the oven to 180 °C (350 °F) and line trays with parchment paper.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Whisk the butter, eggs, vanilla and sugar together.",
+     "relatedIngredientIds": [
+      "butter",
+      "eggs",
+      "vanilla",
+      "sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix in the flour, cinnamon, salt, oats and any raisins or nuts.",
+     "relatedIngredientIds": [
+      "flour",
+      "cinnamon",
+      "salt",
+      "oats",
+      "raisins"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Roll into about 24 golf-ball-sized balls and space them out on the trays.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake for 10 minutes, until the edges begin to brown.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/oatmeal-cookies/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "herb-and-ricotta-pie",
+   "title": "Herb and Ricotta Pie",
+   "description": "Italian \"pizza di erbe\": a yeasted double crust filled with chopped greens and ricotta.",
+   "prepTime": 50,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "italian",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "boiled-greens",
+     "name": "boiled greens (spinach, chicory)",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "ricotta",
+     "name": "ricotta",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper, optional",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "nutmeg",
+     "name": "nutmeg, optional",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "flour",
+     "name": "flour (type 0 or 00)",
+     "amount": 350.0,
+     "unit": "g"
+    },
+    {
+     "id": "warm-water",
+     "name": "warm water",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "extra-virgin-olive-oil",
+     "name": "extra-virgin olive oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "butter",
+     "name": "butter, softened",
+     "amount": 25.0,
+     "unit": "g"
+    },
+    {
+     "id": "fresh-yeast",
+     "name": "fresh yeast",
+     "amount": 15.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Dry the boiled greens well and chop them finely.",
+     "relatedIngredientIds": [
+      "boiled-greens"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the greens with the ricotta, salt, pepper and nutmeg.",
+     "relatedIngredientIds": [
+      "boiled-greens",
+      "ricotta",
+      "salt",
+      "pepper",
+      "nutmeg"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Knead the flour with warm water, a little salt and a little olive oil.",
+     "relatedIngredientIds": [
+      "salt",
+      "flour",
+      "warm-water",
+      "extra-virgin-olive-oil"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the softened butter and the yeast and knead into a soft dough.",
+     "relatedIngredientIds": [
+      "butter",
+      "fresh-yeast"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Divide the dough in two and roll each half out about 1 cm thick.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Lay one disc on baking paper in a tray and spread the filling over it, leaving a 1.5 cm border.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cover with the second disc and press the edges together, wetting them with a few drops of water if needed.",
+     "relatedIngredientIds": [
+      "warm-water"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cover with a cloth and leave to rise for 30 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Rise"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Prick the top all over with a fork. Heat the oven to 180 °C (350 °F).",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Bake for 30 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/herbs-pizza/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "orange-jam",
+   "title": "Orange Jam",
+   "description": "Chunky orange and lemon jam, a Polish topping for mazurek and a bright spread for toast.",
+   "prepTime": 15,
+   "cookTime": 40,
+   "servings": 12,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "medium-oranges",
+     "name": "medium oranges",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "lemon",
+     "name": "lemon",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Zest the oranges and lemon.",
+     "relatedIngredientIds": [
+      "medium-oranges",
+      "lemon"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Peel off the white pith under the skin.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Blend the fruit briefly, just into small pieces.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Put the blended fruit, zest and sugar in a pot.",
+     "relatedIngredientIds": [
+      "sugar"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bring to the boil, then boil gently on low heat for 30-40 minutes, until thick but still a little runny.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Let it cool; it thickens further as it cools.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/orange-jam/",
+   "credit": "based.cooking contributors"
+  }
+ ]
+}

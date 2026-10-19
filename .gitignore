@@ -9,5 +9,11 @@ captures/
 keystore.properties
 *.log
 backend/build/
-recipes-data/
 backend/build-alexa/
+backend/build-agent/
+site/
+__pycache__/
+*.pyc
+.kotlin/
+.env
+tools/photo_keys.json

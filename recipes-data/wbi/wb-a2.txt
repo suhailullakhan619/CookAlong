@@ -1,0 +1,405 @@
+!source wikibooks
+
+# skipped: Cookbook:Potato-Chickpea Curry — near-duplicate of online Chickpea Coconut Curry (same onion, curry powder, coconut milk, chickpea method)
+
+@ pudina-hilsa | Pudina Hilsa (Mint Fish) | Bengali hilsa baked in butter with mint, ginger paste, green chilli, capsicum and nutmeg. | 15 | 30 | 5 | indian | Cookbook:Pudina Hilsa (Bengali Fish with Mint) | none
+- 1 kg hilsa fish (ilish), cut into 10 pieces
+- 1 tsp pudina (mint leaves), chopped
+- 1 tsp ginger paste
+- 1 tsp ground nutmeg
+- 50 g butter, chopped
+- 3 tbsp capsicum, chopped
+- salt
+- 1 pinch sugar
+- 1 tsp green chilli paste
+> Wash the hilsa fish pieces thoroughly in water.
+> Heat the oven to 200 °C (400 °F).
+> In a baking dish, mix the salt, sugar, 25 g of the butter, pudina, ginger paste, nutmeg, capsicum and green chilli paste.
+> Add the hilsa pieces, coat them in the mixture and dot the rest of the butter on top.
+> Bake at 200 °C (400 °F) until the fish turns golden and is cooked through. Serve hot with boiled rice.
+
+@ sprouted-moong-chutney | Sprouted Moong Chutney | Fiery raw chutney of sprouted green moong ground with ginger and green chillies, sharpened with lemon. | 600 | 0 | 4 | indian,healthy | Cookbook:Pulse Chutney | vegan
+- 50 g green moong (whole green gram)
+- 1 fresh ginger, 3.5 cm piece
+- 4 green chillies
+- salt
+- lemon juice
+> Soak the green moong in water for 3-4 hours, then drain and leave it to sprout. {notimer}
+> Mince the green chillies and ginger with a little salt.
+> Grind the sprouted moong, chillies and ginger to a paste in a mortar and pestle or food processor.
+> Season with lemon juice to taste and serve.
+
+@ sindhi-rajma | Sindhi Rajma | Kidney beans simmered with fried onion, tomato and chillies, finished with garam masala and pepper. | 490 | 60 | 4 | indian,north-indian | Cookbook:Rajma (Sindhi Kidney Bean Curry)
+- 250 g rajma (red kidney beans)
+- 1 pinch baking soda
+- 75 g onion, chopped
+- oil
+- 100 g tomato, chopped
+- 4 green chillies, finely chopped
+- salt
+- 1 tbsp red chilli powder
+- 2 tbsp garam masala
+- 1 tbsp ground black pepper
+> Soak the rajma in water overnight, then drain.
+> Cover the rajma with fresh water, add the baking soda and boil briskly for at least 30 minutes, until tender.
+> Drain, keeping back 100 ml of the cooking water.
+> Fry the onion in a little oil until golden brown.
+> Add the tomato and green chillies and fry until the oil separates.
+> Add the rajma and the reserved cooking water and cook for 10 minutes.
+> Stir in the salt and red chilli powder.
+> Take off the heat and mix in the garam masala and black pepper. Serve hot with roti or rice.
+
+@ rasmalai | Rasmalai | Soft paneer discs poached in sugar syrup, then soaked in chilled, cardamom-scented reduced milk. | 120 | 90 | 8 | indian,sweet | Cookbook:Rasmalai (Indian Cheese and Milk Dessert) | vegetarian
+- 250 g paneer or chenna
+- 2 1/2 tbsp maida (refined flour)
+- 4 cups sugar
+- 2 cups water
+- 10 cups milk
+- 1/4 tsp cardamom powder
+- 4 almonds
+- 4 pistachios
+> Crumble the paneer, add 2 tbsp of the maida and knead with your palm into a smooth dough.
+> Divide into 16 equal portions, roll into balls and press them slightly to flatten.
+> Thinly slice the almonds and pistachios.
+> Dissolve 2 cups of the sugar in the water and bring to the boil.
+> Slowly lower the paneer balls into the boiling syrup and cook on high heat for 10 minutes.
+> Sprinkle in a little water and the remaining 1/2 tbsp maida, bring back to the boil and cook for a few minutes more.
+> Meanwhile, boil the milk in a heavy pan, then lower the heat and keep boiling until it reduces to a third of its volume.
+> Add the rest of the sugar and the cardamom powder and boil until the sugar dissolves. Cool, then refrigerate for 1 hour. {t=3600 Chill}
+> Mix the almonds and pistachios into the milk.
+> Gently squeeze the paneer balls and add them to the chilled milk. Refrigerate for 30 more minutes and serve chilled. {t=1800 Chill}
+
+@ sai-bhaji | Sai Bhaji | Sindhi chana dal cooked with spinach, methi, dill and vegetables, finished with a garlic tadka. | 490 | 45 | 6 | indian,north-indian,healthy | Cookbook:Sai Bhaji (Sindhi Vegetable Curry) | vegan
+- 150 g chana dal (split Bengal gram)
+- 1 tbsp ginger, minced
+- 4 green chillies, chopped
+- oil
+- 3 handful methi (fenugreek leaves), finely chopped
+- 500 g palak (spinach), finely chopped
+- 1 handful suva (dill leaves), finely chopped
+- 2 tomatoes, chopped
+- 2 brinjals (baingan), chopped
+- 2 potatoes, chopped
+- 10 bhindi (okra)
+- 50 cloves garlic, minced
+- salt
+- 2 pinch turmeric powder
+- 1 tbsp red chilli powder
+> Soak the chana dal overnight, then drain and put it in a pot.
+> Add the ginger and green chillies, cover with water and boil for at least 5 minutes, until the dal is tender. Drain.
+> Heat some oil in a large pan. Add the methi, palak, suva, tomatoes, brinjals, potatoes and bhindi.
+> Cook, stirring now and then, until the greens are well wilted and the vegetables are soft.
+> In a small pan, fry the garlic in a little oil until golden. Stir in the salt, turmeric and red chilli powder.
+> Stir the garlic mixture and the dal into the vegetables and serve hot.
+
+@ kerala-sambar | Kerala Sambar (Roasted Coconut) | Toor dal and vegetable sambar thickened with coconut roasted dark with chilli and coriander. | 15 | 50 | 6 | indian,south-indian | Cookbook:Sambar II (Kerala/Tamil style) | vegan
+- 1 cup toor dal (split pigeon peas)
+- oil
+- 3/4 tbsp hing (asafoetida)
+- 2 tbsp red chilli powder
+- 2 tbsp coriander powder
+- 1 tbsp whole dhania (coriander seeds)
+- 1/2 coconut, grated
+- 2 cups mixed vegetables (small onions, tomato, drumstick)
+- 1/2 tbsp turmeric powder
+- 1 tbsp tamarind paste
+- 1 tbsp mustard seeds
+- curry leaves
+- coriander leaves, finely chopped
+- salt
+> Wash the toor dal and cook it in water until soft, then mash it.
+> Heat 1 tsp oil in a pan. Fry the hing, red chilli powder, coriander powder and whole dhania well.
+> Add the coconut and fry until the mixture turns dark red, without burning it. Take off the heat and let it cool.
+> Wash the mixed vegetables and boil them in a pot of water with the turmeric powder.
+> When the vegetables are almost done, add the tamarind paste and let it boil for a while.
+> Grind the roasted coconut mixture, then mix in the mashed dal.
+> Stir this into the pot of vegetables and let it boil for a while. Season with salt.
+> Fry the mustard seeds and curry leaves in a little oil until they splutter, and stir them into the sambar.
+> Serve hot, garnished with the coriander leaves.
+
+@ sev-puri | Sev Puri | Crisp papdi topped with potato, tamarind and green chutneys, onion, spices and a heap of fine sev. | 15 | 0 | 2 | indian,street-food,snack,quick | Cookbook:Sev Puri (Crispy Indian Snack with Potato)
+- 10 papdi (flat crisp puris)
+- 1/2 cup boiled potato, cubed
+- 3 tbsp tamarind chutney
+- 3 tbsp coriander chutney (green chutney)
+- 1/2 tsp cumin powder (jeera)
+- salt
+- 1/2 tsp red chilli powder (lal mirch)
+- 1/2 cup onion, finely chopped
+- 1 cup fine sev
+- coriander leaves, finely chopped
+> Arrange the papdi on a plate and make a small hole in the centre of each one.
+> Fill each papdi with a few cubes of boiled potato.
+> Add about 1/4 tsp each of tamarind chutney and coriander chutney to each one.
+> Sprinkle with the cumin powder, salt and red chilli powder.
+> Top with the onion, then sprinkle the sev generously over all the papdi.
+> Garnish with the coriander leaves and serve at once.
+
+@ seviyan-ji-khirni | Seviyan Kheer (Sindhi Khirni) | Sindhi pudding of ghee-roasted vermicelli simmered in milk with cardamom, saffron and almonds. | 5 | 50 | 6 | indian,north-indian,sweet | Cookbook:Seviyan Ji Khirni (Sindhi Vermicelli Pudding) | vegetarian
+- 1 tbsp ghee
+- 3 tbsp seviyan (fine wheat vermicelli)
+- 2 l milk
+- 10 green cardamom pods
+- 20 saffron strands
+- 2 cups sugar
+- 10 almonds
+> Heat the ghee in a pan, add the seviyan and fry on low heat until golden brown. Take off the heat.
+> Bring the milk to the boil. Add the seviyan, cardamom and saffron.
+> Simmer until the seviyan is tender and the milk has reduced to a little over half its volume.
+> Mix in the sugar and boil for 5-7 minutes. {t=420 Boil}
+> Serve garnished with the almonds.
+
+@ sheer-khurma | Sheer Khurma | Eid vermicelli pudding in milk and cream, rich with ghee-fried cashews, raisins, dates and almonds. | 480 | 30 | 12 | indian,north-indian,sweet | Cookbook:Sheer Khurma | vegetarian
+- 200 g seviyan (dry vermicelli)
+- 1 1/4 cups ghee
+- 100 g dried dates (chhuhara), soaked overnight, pitted, sliced
+- 100 g almonds, blanched and slivered
+- 100 g golden raisins (kishmish)
+- 100 g cashews, halved
+- 12 cups milk
+- 2 cups cream
+- 4 cups water
+- 3 cups sugar
+- 2 tbsp cardamom powder
+> Heat the ghee in a large pot over low heat. Fry the cashews until browned.
+> Turn off the heat and add the raisins. When they swell, lift out the raisins and cashews with a spoon and set aside.
+> Reheat the ghee on low heat. Fry the seviyan, stirring, until golden brown; watch that it doesn't burn.
+> Pour in the milk and water, and return the cashews and raisins to the pot.
+> Add the dates and almonds and cook for about 2 minutes, until the seviyan starts to soften. Add the sugar.
+> Keep on low heat for 2 more minutes, then add the cream and cardamom powder. {t=120 Simmer}
+> Heat a little longer, mix well and serve hot.
+
+@ goan-prawn-hooman | Goan Prawn Hooman | Goan prawn and drumstick curry in a smooth paste of coconut, dried red chilli, turmeric and tamarind. | 15 | 15 | 3 | indian,quick | Cookbook:Shrimp Hooman (Goan Shrimp Curry) | none
+- 1 cup grated coconut, preferably fresh
+- 2 dried red chillies
+- 1/2 tsp turmeric powder
+- 2 black peppercorns
+- 1 small piece tamarind (marble-sized)
+- 1/2 onion, finely chopped
+- 1 drumstick (moringa), cut into 10 pieces
+- 15 prawns (shrimp), cleaned and deveined
+- 1 pinch hing (asafoetida)
+- salt
+> Put the prawns, onion, drumstick and hing in a saucepan with a little water. Cook until the prawns and drumstick are done.
+> Grind the coconut, dried red chillies, turmeric, peppercorns and tamarind to a fine, thick paste, adding only a tiny amount of water if needed.
+> Add the paste to the prawns and bring to the boil.
+> Add salt to taste and serve with hot white rice.
+
+@ sindhi-besan-mithai | Sindhi Besan Mithai | Gram flour roasted in ghee, sweetened with sugar and topped with chopped cashews, almonds and pistachios. | 5 | 25 | 10 | indian,north-indian,sweet | Cookbook:Sindhi Chickpea Confection | vegetarian
+- 500 g besan (gram flour)
+- 250 g ghee
+- 150 g sugar
+- 15 cashews, chopped
+- 15 almonds, chopped
+- 10 pistachios, chopped
+> Heat the ghee in a heavy pan. Add the besan and stir continuously until toasted and fragrant.
+> Take the pan off the heat and stir in the sugar.
+> Return to the heat and stir until the sugar melts.
+> Transfer to a bowl and garnish with the cashews, almonds and pistachios.
+> Serve hot or cold.
+
+# skipped: Cookbook:Simple Biryani — near-duplicate of online Chicken Biryani; shortcut version built on ready-made curry paste and stock
+
+# skipped: Cookbook:Sindhi Fried Potatoes — main ingredient (potatoes) has no quantity; just fried potato cubes with a spice sprinkle
+
+@ sindhi-pulao | Sindhi Pulao | Basmati rice cooked with deeply browned onions, green chillies, curry leaves, cashews and garam masala. | 10 | 40 | 4 | indian,north-indian,rice | Cookbook:Sindhi Pulao | vegan
+- oil
+- 5 onions, finely chopped
+- 4 green chillies, finely chopped
+- curry leaves
+- 10 cashews
+- 1 tbsp garam masala
+- 1 tbsp ground black pepper
+- 1 tsp red chilli powder
+- 1 bay leaf
+- salt
+- 2 cups basmati rice
+> Heat some oil in a pot and fry the onions until dark brown.
+> Add the green chillies, curry leaves and cashews and stir for a moment.
+> Stir in the garam masala, black pepper, red chilli powder, bay leaf and salt.
+> Add the basmati rice and enough water to cook it (about 4 cups).
+> Simmer uncovered until all the water is absorbed and the rice is cooked. Serve hot.
+
+@ sindhi-raita | Sindhi Tomato-Onion Raita | Cool curd mixed with chopped onion, tomato, green chilli and a pinch of tangy amchur. | 10 | 0 | 2 | indian,north-indian,quick | Cookbook:Sindhi Raitha | vegetarian
+- 100 g curd (thick plain yogurt)
+- 50 g onion, finely chopped
+- 2 green chillies, finely chopped
+- 1 small tomato, chopped
+- 2 pinch amchur (dry mango powder)
+- salt
+> Mix the curd, onion, green chillies, tomato, amchur and salt in a bowl.
+> Serve cool, as a side with rice or roti.
+
+@ sindhi-spiced-fish | Sindhi Spiced Fish | Fish fillets seared on one side, then baked under a tangy curd, onion, coriander and tamarind topping. | 15 | 25 | 2 | indian,north-indian | Cookbook:Sindhi Spiced Fish | none
+- oil
+- 2 fish fillets
+- 5 tbsp curd (yogurt)
+- 2 onions, chopped
+- 1 tbsp coriander leaves, chopped
+- 1 tsp green chilli, minced
+- 1 tsp dhania powder (ground coriander)
+- 1 tsp cumin powder
+- salt
+- 1 tsp tamarind paste
+> Heat the oven to about 200 °C (400 °F).
+> Shallow fry the fish fillets in a little oil on one side only, then place them fried-side down in a baking dish.
+> Mix the curd, onions, coriander leaves, green chilli, dhania powder, cumin powder, salt and tamarind paste.
+> Spread the curd mixture over the fish and bake until golden.
+> Serve hot with chapatis.
+
+@ sindhi-vegetable-kofta | Sindhi Vegetable Kofta | Fried carrot, cauliflower and potato dumplings simmered in a spiced onion and tomato gravy. | 30 | 40 | 4 | indian,north-indian | Cookbook:Sindhi Vegetable Kofta
+- 20 ml water
+- 4 tbsp cornflour (cornstarch)
+- salt
+- 75 g carrot, finely chopped
+- 150 g cauliflower, finely chopped
+- 100 g potatoes, boiled and mashed
+- 75 g capsicum (bell pepper), finely chopped
+- 4 green chillies, finely chopped
+- 1 tbsp ground black pepper
+- 2 slices bread
+- oil
+- 150 g onion, finely chopped
+- 250 g tomatoes, chopped
+- 1 tbsp red chilli powder
+- 1 tbsp coriander powder
+- 2 tbsp garam masala
+> Mix the water, a pinch of salt and the cornflour into a thick batter.
+> Mix the carrot, cauliflower, potatoes, capsicum, green chillies, salt to taste, and half each of the black pepper and garam masala.
+> Wet the bread, squeeze it dry and mix it into the vegetables.
+> Shape into small balls and dip each one in the cornflour batter to coat well.
+> Fry the balls in a pan of hot oil until golden brown, then drain on paper towels.
+> Fry the onion in a little oil until golden brown. Add the tomatoes and fry until the oil separates.
+> Add a little water, salt to taste, the red chilli powder and coriander powder, and bring to the boil.
+> Add the fried kofta balls and simmer for a few minutes.
+> Take off the heat, mix in the remaining garam masala and black pepper, and serve hot with roti, naan or rice.
+
+@ ragi-mudde | Ragi Mudde | Stiff finger millet balls, a rural staple of Karnataka, eaten with ghee and a thin saaru. | 5 | 30 | 6 | indian,south-indian,healthy | Cookbook:South Indian Millet Swallow (Mudde) | vegetarian
+- 2 1/2 cups ragi flour (finger millet flour)
+- 5 cups water
+- ghee
+> Bring the water to the boil in a heavy pot. Stir in a little of the ragi flour to make a paste, then add the rest of the flour.
+> Stir once with the handle of a wooden spoon, then leave it in the pot.
+> Keep on low heat for about 10 minutes, until it smells cooked. {t=600 Cook}
+> Stir until the mixture turns dark reddish-brown and starts to leave the sides of the pot.
+> Take the pot off the heat and stir vigorously for 5-10 minutes; the longer you stir, the lighter the mudde. {t=300 Stir}
+> Shape the mixture into fist-sized balls.
+> Serve hot: poke a hole in each ball, pour in a little ghee, and eat with a thin saaru, swallowing pieces without chewing.
+
+@ sylheti-beef-curry | Sylheti Beef Curry | Slow-simmered beef curry from Sylhet, made tangy with the wild citrus hatkora and whole spices. | 15 | 120 | 4 | indian | Cookbook:Sylheti Beef Curry | none
+- 1/2 hatkora (Sylheti wild citrus)
+- 500 g beef, cut into cubes
+- 2 onions, finely chopped
+- 3 tbsp vegetable oil
+- 2 tbsp ginger-garlic paste
+- 1 tsp cumin powder
+- 1 tsp coriander powder
+- 1/2 tsp turmeric powder
+- 1/2 tsp red chilli powder
+- 2 tomatoes, chopped
+- 2 green chillies, slit
+- 2 bay leaves
+- 5 whole cloves
+- 5 green cardamom pods
+- 1 cinnamon stick
+- salt
+- coriander leaves, to garnish
+> Heat the vegetable oil in a large, heavy pan over medium heat.
+> Add the cloves, cardamom, cinnamon and bay leaves and saute for 1 minute until fragrant.
+> Add the onions and saute until golden brown.
+> Add the ginger-garlic paste and saute for 2 minutes, until the raw smell goes.
+> Add the beef and cook until browned on all sides.
+> Stir in the cumin powder, coriander powder, turmeric and red chilli powder and cook for 2 minutes to toast the spices.
+> Add the hatkora, tomatoes and green chillies and cook until the tomatoes are soft and the oil separates.
+> Pour in enough water to cover the beef, season with salt and bring to the boil.
+> Cover, reduce the heat to low and simmer for 1 1/2 to 2 hours, until the beef is tender. {t=5400 Simmer}
+> Garnish with the coriander leaves and serve hot with steamed rice or naan.
+
+# skipped: Cookbook:Sylheti Biryani — main ingredient unspecified ("your choice of meat", no quantity); overlaps online Chicken Biryani
+
+# skipped: Cookbook:Tamil Spice Mix (Milagai Podi) — not real milagai podi (just chilli powder, garlic and ghee stirred together); too thin to be a recipe
+
+# skipped: Cookbook:Tandoori Tofu — tomato sauce and seasonings have no quantities and the oven temperature is missing from the page
+
+@ vedhmi-puran-poli | Vedhmi (Puran Poli) | Gujarati flatbread stuffed with a sweet toor dal, jaggery and cardamom filling, brushed with ghee. | 30 | 90 | 10 | indian,sweet | Cookbook:Vedhmi (Sweet Stuffed Flatbread) | vegetarian
+- 500 g toor dal (split pigeon peas)
+- 1 tsp salt
+- 1 tsp cardamom powder
+- 500 g jaggery
+- 500 g wheat flour (maida)
+- 100 ml oil
+- 1 tsp ghee
+> Wash the toor dal and boil it in water with 1/2 tsp of the salt until soft.
+> Cool slightly and drain the dal in a strainer.
+> Add the cardamom powder and jaggery to the dal and grind to a fine paste. If it is sticky, stir it over the heat until dry. This is the puran.
+> Knead the wheat flour with the remaining 1/2 tsp salt and enough water into a soft dough.
+> Add the oil and knead again until it is absorbed.
+> Make an equal number of balls from the dough and the puran.
+> Roll out each dough ball into a small round, place a ball of puran in the centre and close the dough over it.
+> Roll it out again gently into a flat stuffed poli, like a stuffed paratha.
+> Heat a tawa (griddle) and cook each poli on both sides.
+> Brush both sides with the ghee and serve.
+
+@ dahi-chicken-curry | Dahi Chicken Curry | Chicken marinated in spiced yogurt, then simmered with onion, tomato, ground cashews and coconut milk. | 500 | 60 | 4 | indian | Cookbook:Curry Chicken I | none
+- 1 whole chicken
+- 4 cloves garlic, minced
+- 2 tsp salt
+- 2 tsp red chilli powder
+- 2 tsp garam masala
+- 1 tsp cayenne (red pepper powder)
+- 150 ml curd (yogurt)
+- 20 coriander leaves
+- 1/2 tsp ground black pepper
+- 2 onions, sliced into rings
+- 3 green chillies
+- 1 tomato, finely chopped
+- 2 tsp oil (olive or sunflower)
+- 3 cashews, ground
+- 1 tsp curry powder
+- 100 ml coconut milk (optional)
+> Cut the chicken into 5-7 cm pieces and make small slashes in each with a knife.
+> In a large bowl, mix the garlic, 1 tsp salt, 1 tsp red chilli powder, 1 tsp garam masala, the cayenne, curd, coriander leaves and black pepper.
+> Add the chicken, coat it well and marinate in the fridge for 8 hours. {notimer}
+> In a large pot, fry the onions, green chillies and tomato in the oil over low heat until the onions are light yellow.
+> Stir in the remaining salt, red chilli powder and garam masala, the curry powder and the ground cashews.
+> Add the chicken pieces and fry for about 5 minutes, stirring gently.
+> Add the leftover marinade and enough water to cover the chicken. Stir in the coconut milk, if using.
+> Cook over low to medium heat for 30-45 minutes, until the chicken is done. {t=2400 Cook}
+> Take off the heat and rest for a few minutes so the chicken absorbs the sauce. Serve with basmati rice.
+
+@ tuna-curry | Tuna Curry | Quick pantry curry of canned tuna and frozen vegetables in a creamy curry-powder milk sauce. | 5 | 15 | 2 | quick | Cookbook:Tuna Curry | none
+- 3 tbsp butter or olive oil
+- 1 onion, diced
+- 1 tbsp plain flour (maida)
+- 1 tbsp curry powder
+- 250 ml milk
+- 100 g frozen vegetables (carrot, green beans or peas)
+- 1 can tuna in water (150 g), drained
+- salt
+- ground black pepper
+> Melt the butter (or heat the olive oil) in a saucepan and saute the onion until transparent.
+> Add the flour and stir until it is fully mixed in.
+> Add the curry powder and stir until it is fully mixed in.
+> Add the milk and frozen vegetables and stir until the mixture is hot again.
+> Stir in the tuna, then season with salt and black pepper; tuna is salty, so taste first.
+> Heat through and serve over rice.
+
+@ red-curry-chicken-stew | Spicy Red Curry Chicken Stew | Chicken thighs and potatoes slow-baked with red curry paste, Thai chillies, fish sauce and tomato paste. | 20 | 290 | 6 | thai | Cookbook:Spicy Chicken Stew | none
+- 2 lb boneless skinless chicken thighs, in 4 cm cubes
+- flour, for dredging
+- 1/4 cup oil
+- 1 large onion, finely diced
+- 1/4 cup red curry paste
+- 5 Thai chillies, stemmed
+- 3 tbsp fish sauce
+- 1 cup chicken broth
+- 1/2 cup tomato paste
+- 4 red potatoes, in 5 cm cubes
+- 1 tbsp garlic, minced
+- parsley, chopped
+> Heat the oven to 120 °C (250 °F). Dredge the chicken in the flour.
+> Heat the oil in a heavy ovenproof pot. Brown the chicken a few pieces at a time on all sides, then lift it out.
+> Saute the onion in the remaining oil until translucent and slightly browned at the edges.
+> Mix in the red curry paste, Thai chillies, fish sauce, chicken broth, tomato paste, potatoes and garlic.
+> Return the chicken to the pot, cover tightly and bake for 4 1/2 hours, until the chicken is tender. {t=16200 Bake}
+> Sprinkle the parsley over each bowl and serve warm.

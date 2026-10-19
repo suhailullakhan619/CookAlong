@@ -1,0 +1,2482 @@
+{
+ "recipes": [
+  {
+   "id": "naan",
+   "title": "Naan",
+   "description": "Yogurt-leavened Indian flatbread, rested and baked until puffed.",
+   "prepTime": 10,
+   "cookTime": 110,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "baking",
+    "indian",
+    "north-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "yogurt",
+     "name": "yogurt",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 0.75,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Make the dough by kneading together all the ingredients and sufficient water (this will be approximately ¾ cup but some judgement is required).",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Wrap the dough in a damp muslin cloth and leave it to rise for 2–3 hours.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 10800,
+     "timerLabel": "Rise"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Divide the dough into small balls.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Roll out the balls in oblong or round shapes with a rolling pin or by slapping and stretching with your hands.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Smear the surface with water and bake in a tandoor or preheated oven (as hot as your oven will go).",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "The naans should puff up a little, and be ready to remove from the oven in 4–5 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Brush the naan with butter. Serve hot.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Naan",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "fried-wheat-bread-balls-bhatoora",
+   "title": "Fried Wheat Bread Balls",
+   "description": "Puffy deep-fried yogurt bread, served hot with chickpeas.",
+   "prepTime": 20,
+   "cookTime": 240,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "baking",
+    "indian",
+    "north-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "wheat-flour",
+     "name": "wheat flour",
+     "amount": 5.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "active-dry-yeast-or-1-ts",
+     "name": "active dry yeast OR 1 tsp baking soda",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ghee",
+     "name": "ghee",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "yoghurt",
+     "name": "yoghurt",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Sift together the flour and salt.",
+     "relatedIngredientIds": [
+      "wheat-flour",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the yeast with ½ cup lukewarm water, and keep aside for 10 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "mix",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the ghee and sugar with the flour. Add the yoghurt and dissolved yeast or the baking soda.",
+     "relatedIngredientIds": [
+      "wheat-flour",
+      "active-dry-yeast-or-1-ts",
+      "ghee",
+      "sugar",
+      "yoghurt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "A little more lukewarm water may be added if necessary. Knead well until the dough becomes soft and pliable. Use a little oil to knead well.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cover it with a wet cloth and keep aside for 4 hours.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 14400,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat the ghee in a frying pan.",
+     "relatedIngredientIds": [
+      "ghee"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Make the dough into small balls. Roll the balls out very thin.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Deep fry the dough in hot ghee until golden brown. The dough should puff up a lot and develop a large airy pocket inside.",
+     "relatedIngredientIds": [
+      "ghee"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Remove from the oil, and serve hot with channa or choley (chickpea curry).",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Fried_Wheat_Bread_Balls_(Bhatoora)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "saffron-rice",
+   "title": "Saffron Rice",
+   "description": "Fragrant basmati rice cooked with saffron, cinnamon, cloves and cardamom.",
+   "prepTime": 15,
+   "cookTime": 35,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "indian",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "long-grain-rice",
+     "name": "long-grain rice (basmati preferred)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "saffron-threads",
+     "name": "saffron threads",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "chicken-stock",
+     "name": "chicken stock",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "oil-or-ghee",
+     "name": "oil or ghee",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "minced-celery",
+     "name": "minced celery",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "inch-piece-of-cinnamon-s",
+     "name": "inch piece of cinnamon stick or equivalent ground cinnamon",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cloves",
+     "name": "cloves",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 1.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "molasses",
+     "name": "molasses",
+     "amount": 1.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-coriander",
+     "name": "ground coriander",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "ground-cardamom",
+     "name": "ground cardamom",
+     "amount": 1.0,
+     "unit": "pinch"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the rice in cool water until the water runs absolutely clear.",
+     "relatedIngredientIds": [
+      "long-grain-rice"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Place the saffron threads in a teaspoon or tablespoon of boiling water to soak.",
+     "relatedIngredientIds": [
+      "saffron-threads"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil, cinnamon, and cloves in a heavy saucepan.",
+     "relatedIngredientIds": [
+      "inch-piece-of-cinnamon-s",
+      "cloves"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the celery to the saucepan.",
+     "relatedIngredientIds": [
+      "minced-celery"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the rice to the saucepan; stir for 5 minutes and/or until the grains are golden.",
+     "relatedIngredientIds": [
+      "long-grain-rice"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the stock, sugar, molasses, salt, coriander, and cardamom.",
+     "relatedIngredientIds": [
+      "chicken-stock",
+      "brown-sugar",
+      "molasses",
+      "salt",
+      "ground-coriander",
+      "ground-cardamom"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Stir to dissolve the sugar.",
+     "relatedIngredientIds": [
+      "brown-sugar"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Bring to a boil, then reduce to a low simmer.",
+     "relatedIngredientIds": [],
+     "animation": "boil"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add the saffron mix, both water and threads, stirring gently.",
+     "relatedIngredientIds": [
+      "saffron-threads"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Cover and cook 25 minutes, or until rice is tender and the liquid absorbed.",
+     "relatedIngredientIds": [
+      "long-grain-rice"
+     ],
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Fluff with a fork.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Saffron_Rice",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "khara-pongal-rice-and-mung-bean-porridge",
+   "title": "Khara Pongal",
+   "description": "Savoury rice and moong dal porridge with pepper, cumin and cashews.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "rice",
+    "south-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "white-rice",
+     "name": "white rice",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "moong-dhal",
+     "name": "moong dhal",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chopped-cashew-nuts",
+     "name": "chopped cashew nuts",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "coarsely-ground-black-pe",
+     "name": "coarsely-ground black pepper",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "green-chillies",
+     "name": "green chillies, split lengthwise",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ghee",
+     "name": "ghee (or substitute butter)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "mustard-seed",
+     "name": "mustard seed",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cook the rice and dhal together with turmeric powder in a pot or pressure cooker until mushy.",
+     "relatedIngredientIds": [
+      "white-rice",
+      "moong-dhal",
+      "turmeric-powder"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat a little ghee in a large pan and brown the cashew nuts. Remove them from the pan.",
+     "relatedIngredientIds": [
+      "chopped-cashew-nuts",
+      "ghee"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the rest of the ghee and the oil and heat.",
+     "relatedIngredientIds": [
+      "ghee"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Throw in all of the spices, starting with the mustard seed and finishing with the cashew nuts.",
+     "relatedIngredientIds": [
+      "chopped-cashew-nuts",
+      "cumin-seeds",
+      "mustard-seed"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix in the rice and dhal, warming through. If it is too thick, add a little water.",
+     "relatedIngredientIds": [
+      "white-rice",
+      "moong-dhal",
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add salt and extra ghee to taste. You can also add some grated coconut at the end.",
+     "relatedIngredientIds": [
+      "ghee",
+      "salt-to-taste"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Khara_Pongal_(Rice_and_Mung_Bean_Porridge)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "chakarai-pongal-sweet-rice-and-black-gram-pudding",
+   "title": "Chakarai Pongal",
+   "description": "Sweet jaggery pongal with rice, moong dal, ghee, cashews and raisins.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "white-rice",
+     "name": "white rice",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "moong-dhal",
+     "name": "moong dhal",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-cashew-nuts",
+     "name": "chopped cashew nuts",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "white-raisins",
+     "name": "white raisins",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "cardamom-powder",
+     "name": "cardamom powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ghee",
+     "name": "ghee (or butter)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "jaggery",
+     "name": "jaggery",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 0.25,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cook the rice and dhal together with cups of water in a pot or pressure cooker until mushy.",
+     "relatedIngredientIds": [
+      "white-rice",
+      "moong-dhal",
+      "water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Meanwhile, melt the jaggery with 1 cup of water in a pan.",
+     "relatedIngredientIds": [
+      "water",
+      "jaggery"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the cardamom to the jaggery as it melts.",
+     "relatedIngredientIds": [
+      "jaggery"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mush the rice and paruppu (dal) mixture well and add to the pan of jaggery.",
+     "relatedIngredientIds": [
+      "white-rice",
+      "jaggery"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir well and cook on low heat till the mixture comes together well.",
+     "relatedIngredientIds": [],
+     "animation": "stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat 4 tablespoons of the ghee in a separate pan and fry cashews to golden brown.",
+     "relatedIngredientIds": [
+      "ghee"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add raisins and fry for a few more seconds or until they swell up.",
+     "relatedIngredientIds": [
+      "white-raisins"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the nuts and raisins to into the pongal.",
+     "relatedIngredientIds": [
+      "chopped-cashew-nuts",
+      "white-raisins"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Serve hot with an additional dollop of neyyi or ghee.",
+     "relatedIngredientIds": [
+      "ghee"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chakarai_Pongal_(Sweet_Rice_and_Black_Gram_Pudding)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "kheer-rice-pudding",
+   "title": "Kheer (Rice Pudding)",
+   "description": "Creamy rice pudding simmered in milk with cardamom, raisins and rosewater.",
+   "prepTime": 10,
+   "cookTime": 50,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "rice",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "long-grain-white-rice",
+     "name": "long grain white rice",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "white-sugar",
+     "name": "white sugar",
+     "amount": 125.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sultanas",
+     "name": "sultanas (raisins)",
+     "amount": 65.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cardamom-pods",
+     "name": "cardamom pods",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "slivered-blanched-almond",
+     "name": "slivered blanched almonds",
+     "amount": 65.0,
+     "unit": "ml"
+    },
+    {
+     "id": "rosewater",
+     "name": "rosewater",
+     "amount": 15.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Bring the milk to a boil. Stir regularly to prevent scorching.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add rice and simmer slowly until thick (about 20 minutes).",
+     "relatedIngredientIds": [
+      "long-grain-white-rice"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the sugar, sultanas, and the ground cardamom seeds. Cook for 5 minutes.",
+     "relatedIngredientIds": [
+      "white-sugar",
+      "sultanas"
+     ],
+     "animation": "stir",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Remove from the heat, stir in the almonds and rosewater, and cover until ready to serve.",
+     "relatedIngredientIds": [
+      "slivered-blanched-almond",
+      "rosewater"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Kheer_(Rice_Pudding)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "gajjar-halwa-carrot-pudding",
+   "title": "Gajjar Halwa (Carrot Pudding)",
+   "description": "Grated carrot cooked in milk with cashews, raisins and cardamom.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "large-carrots",
+     "name": "large carrots",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cashew-nuts",
+     "name": "cashew nuts, broken",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "raisins",
+     "name": "raisins, washed",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "pods-cardamom",
+     "name": "pods cardamom",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "cinnamon-powder",
+     "name": "cinnamon powder",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut off the blemished ends of the carrots, wash them, and then peel them.",
+     "relatedIngredientIds": [
+      "large-carrots"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Grate the carrots, and transfer the grated carrots into a saucepan.",
+     "relatedIngredientIds": [
+      "large-carrots"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the cashews, raisins, salt, sugar, cardamom, cinnamon, butter, and milk.",
+     "relatedIngredientIds": [
+      "raisins",
+      "salt",
+      "sugar",
+      "pods-cardamom",
+      "butter",
+      "milk"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the saucepan and bring the contents to a boil, while mixing.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cook until the milk has mostly evaporated.",
+     "relatedIngredientIds": [
+      "milk"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve with a sprinkling of cinnamon powder on top.",
+     "relatedIngredientIds": [
+      "cinnamon-powder"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Gajjar_Halwa_(Carrot_Pudding)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "kesari-south-indian-semolina-pudding",
+   "title": "Kesari",
+   "description": "Saffron semolina pudding with ghee, cashews and raisins.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "south-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "a-few-strands-of-saffron",
+     "name": "A few strands of saffron (optional)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "warm-milk",
+     "name": "warm milk",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "white-semolina",
+     "name": "white semolina",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "jaggery-or-granulated-su",
+     "name": "jaggery or granulated sugar",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "pineapple-chunks",
+     "name": "pineapple chunks (optional)",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "cardamom-powder",
+     "name": "cardamom powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ghee-or-butter",
+     "name": "ghee or butter",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-cashew-nuts",
+     "name": "chopped cashew nuts",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "white-raisins",
+     "name": "white raisins",
+     "amount": 0.25,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Bring the water to a boil.",
+     "relatedIngredientIds": [
+      "water"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Soak the saffron in the warm milk.",
+     "relatedIngredientIds": [
+      "a-few-strands-of-saffron",
+      "warm-milk"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Lightly toast the semolina in a deep-bottom pot. When the semolina is golden brown, add the boiling water, stirring continuously to avoid lumps.",
+     "relatedIngredientIds": [
+      "water",
+      "white-semolina"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the sugar, pineapple, and cardamom to the mix while stirring.",
+     "relatedIngredientIds": [
+      "jaggery-or-granulated-su"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Keep stirring well, and cook on low heat until the mixture comes together well.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat the ghee or butter in a separate pan, add cashews, and fry to golden brown.",
+     "relatedIngredientIds": [
+      "ghee-or-butter"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add raisins and fry for a few seconds until they swell up.",
+     "relatedIngredientIds": [
+      "white-raisins"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the nuts and raisins to the kesari.",
+     "relatedIngredientIds": [
+      "chopped-cashew-nuts",
+      "white-raisins"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add the saffron milk along with the saffron, and mix well.",
+     "relatedIngredientIds": [
+      "a-few-strands-of-saffron",
+      "warm-milk"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Serve hot.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Kesari_(South_Indian_Semolina_Pudding)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "soji-indian-wheat-pudding",
+   "title": "Soji (Indian Wheat Pudding)",
+   "description": "Quick toasted cream-of-wheat pudding with milk, cashews and raisins.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "indian",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "cashew-nuts",
+     "name": "cashew nuts, broken",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "raisins",
+     "name": "raisins",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "pods-cardamom",
+     "name": "pods cardamom",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "cream-of-wheat",
+     "name": "cream of wheat",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the cashews and raisins and keep them ready.",
+     "relatedIngredientIds": [
+      "raisins"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Crush the cardamom pods to remove the contents and discard the husks. Pound the contents of the pods into a black powder, and mix with the cream of wheat.",
+     "relatedIngredientIds": [
+      "pods-cardamom",
+      "cream-of-wheat"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the sugar and salt to the cream of wheat and mix thoroughly.",
+     "relatedIngredientIds": [
+      "cream-of-wheat",
+      "sugar",
+      "salt"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Melt the butter in a saucepan and gently fry the cream of wheat in it.",
+     "relatedIngredientIds": [
+      "cream-of-wheat",
+      "butter"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the cashews and raisins to the saucepan and continue to fry until the cream of wheat is light brown.",
+     "relatedIngredientIds": [
+      "raisins",
+      "cream-of-wheat"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the milk to the saucepan and stir. The mixture will thicken and you will need to keep stirring to prevent it sticking to the bottom of the saucepan and burning.",
+     "relatedIngredientIds": [
+      "milk"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When the mixture solidifies, turn off the heat and take the saucepan off the heat.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve hot.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Soji_(Indian_Wheat_Pudding)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "mishti-doi-bengali-sweetened-yogurt",
+   "title": "Mishti Doi",
+   "description": "Bengali caramelised sweet yogurt, set overnight.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "whole-milk",
+     "name": "whole milk",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "yoghurt",
+     "name": "yoghurt, whisked",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Place a heavy-bottomed pan on the heat. Add milk, and warm it on medium heat.",
+     "relatedIngredientIds": [
+      "whole-milk"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Keep aside ⅓ of the sugar and add the rest of sugar to the milk.",
+     "relatedIngredientIds": [
+      "whole-milk",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Reduce the heat and continue to heat the milk until it reduces by half. Remove from the heat and and keep aside.",
+     "relatedIngredientIds": [
+      "whole-milk"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the remaining sugar to another pan over medium heat. Allow the sugar to get warm and then melt. You will gradually notice the sugar browning and caramelizing.",
+     "relatedIngredientIds": [
+      "sugar"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "When it gets to the point of a golden bubbly mixture, add a tablespoon of water in the caramelized sugar and then pour this mixture into the heavy-bottomed pan with milk. Stir well until combined.",
+     "relatedIngredientIds": [
+      "whole-milk",
+      "sugar",
+      "water"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Once milk cools off, add the whisked yoghurt, stir well and pour the mixture into earthen pots.",
+     "relatedIngredientIds": [
+      "whole-milk",
+      "yoghurt"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Let the doi set in a warm place for few hours. Once set, refrigerate and serve chilled.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Mishti_Doi_(Bengali_Sweetened_Yogurt)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "coconut-barfi",
+   "title": "Coconut Barfi",
+   "description": "Sugar-syrup coconut fudge cut into squares.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "north-indian",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "finely-grated-coconut",
+     "name": "finely-grated coconut",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "ghee",
+     "name": "Ghee",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ground-cardamom",
+     "name": "Ground cardamom (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine sugar and water in a pot, and cook to a 2–3 thread (about 235–255°F) sugar syrup.",
+     "relatedIngredientIds": [
+      "sugar",
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Warm the coconut in a heavy saucepan, and pour in the hot syrup. Stir well, and cook until a soft lump forms.",
+     "relatedIngredientIds": [
+      "finely-grated-coconut"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Press and spread the mixture into a ghee-greased pan or mold, and let cool.",
+     "relatedIngredientIds": [
+      "ghee"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Sprinkle with cardamom.",
+     "relatedIngredientIds": [
+      "ground-cardamom"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cut into squares, and store in an airtight container.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Coconut_Barfi",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "kulfi-south-asian-frozen-custard",
+   "title": "Kulfi",
+   "description": "Dense Indian ice cream made by reducing milk with cardamom and nuts.",
+   "prepTime": 10,
+   "cookTime": 410,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 8.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-green-cardamom-se",
+     "name": "ground green cardamom seeds",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "pistachios",
+     "name": "pistachios, thinly sliced",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "almonds",
+     "name": "almonds, thinly sliced (optional)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the milk into a wide, heavy pan, and bring to boil over high heat, stirring constantly.",
+     "relatedIngredientIds": [
+      "milk"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Lower the heat and cook the milk, stirring constantly until it has thickened and reduced to ¾ cup—this will take about 40–45 minutes. Stir the sides of the pan constantly to avoid scorching.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Reduce"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the sugar, nuts, and cardamom powder. Set aside to cool.",
+     "relatedIngredientIds": [
+      "sugar"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour the mixture evenly into kulfi moulds or small ramekins. Cover with plastic wrap or foil, and freeze for about 6 hours until set.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 21600,
+     "timerLabel": "Freeze"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "To serve, run a sharp knife dipped in hot water along the sides of the moulds, and unmold them onto a serving plate.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Kulfi_(South_Asian_Frozen_Custard)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "papaya-lassi",
+   "title": "Papaya Lassi",
+   "description": "Papaya, yogurt and honey blended into a cooling lassi.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "drink",
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "plain-yogurt",
+     "name": "plain yogurt",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "honey",
+     "name": "honey",
+     "amount": 0.667,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "papaya-pulp",
+     "name": "papaya pulp",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine everything in a blender.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Blend until smooth.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Papaya_Lassi",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "mild-salty-lassi",
+   "title": "Mild Salty Lassi",
+   "description": "Savoury yogurt drink with roasted cumin, lime and mint.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "drink",
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "full-fat-yogurt",
+     "name": "full-fat yogurt",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chilled-milk",
+     "name": "chilled milk",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "lime-or-lemon-juice",
+     "name": "lime or lemon juice",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ice-cubes",
+     "name": "ice cubes",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "mint",
+     "name": "mint (finely crumbled, dried; optional)",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "small-pinch-of-cayenne-p",
+     "name": "small pinch of cayenne pepper (optional)",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Dry-roast cumin seeds by cooking them over low heat in a small pan until you can smell the seasoning (about 2–3 minutes). Cool and grind.",
+     "relatedIngredientIds": [
+      "cumin-seeds"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In blender, blend cumin seed powder with yoghurt, milk, lemon juice, salt, and ice cubes.",
+     "relatedIngredientIds": [
+      "cumin-seeds",
+      "chilled-milk",
+      "lime-or-lemon-juice",
+      "salt",
+      "ice-cubes"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Serve chilled, optionally garnished with crumbled mint and a small pinch of cayenne.",
+     "relatedIngredientIds": [
+      "mint",
+      "small-pinch-of-cayenne-p"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Mild_Salty_Lassi",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "sweet-mango-lassi",
+   "title": "Sweet Mango Lassi",
+   "description": "Mango nectar, yogurt and milk drink for a crowd.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "drink",
+    "indian",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "mango-nectar",
+     "name": "mango nectar (strained puréed mango)",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "full-fat-yoghurt",
+     "name": "full-fat yoghurt",
+     "amount": 500.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chilled-milk",
+     "name": "chilled milk",
+     "amount": 500.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 250.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix sugar with the mango nectar until dissolved.",
+     "relatedIngredientIds": [
+      "mango-nectar",
+      "sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Gradually add the milk to the yoghurt.",
+     "relatedIngredientIds": [
+      "full-fat-yoghurt",
+      "chilled-milk"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix together the mango and yoghurt mixtures.",
+     "relatedIngredientIds": [
+      "mango-nectar",
+      "full-fat-yoghurt"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Sweet_Mango_Lassi",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "sweet-lassi",
+   "title": "Sweet Lassi",
+   "description": "Classic sweet yogurt lassi with cardamom and rosewater.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "drink",
+    "indian",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "yogurt",
+     "name": "yogurt",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cold-water",
+     "name": "cold water",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar-or-honey",
+     "name": "sugar or honey",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ground-cardamom",
+     "name": "ground cardamom",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "a-few-drops-rosewater",
+     "name": "A few drops rosewater",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "crushed-ice",
+     "name": "crushed ice",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine all ingredients except ice in blender, and blend until smooth.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add ice and continue blending until frothy.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Sweet_Lassi",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "masala-chai-ii",
+   "title": "Masala Chai II",
+   "description": "Spiced tea with cardamom, cinnamon and cream, steeped in the cup.",
+   "prepTime": 20,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "drink",
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "boiling-water",
+     "name": "boiling water",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "heavy-cream",
+     "name": "heavy cream",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "bag-black-tea-leaves",
+     "name": "bag black tea leaves",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "vanilla-sugar",
+     "name": "vanilla sugar",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cocoa-powder",
+     "name": "cocoa powder",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "cardamom-seeds",
+     "name": "cardamom seeds",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "caraway-seeds",
+     "name": "caraway seeds",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "anise-seeds",
+     "name": "anise seeds",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "ground-ginger",
+     "name": "ground ginger (optional)",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "ground-cloves",
+     "name": "ground cloves (optional)",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "saffron",
+     "name": "saffron (optional)",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "crushed-almonds",
+     "name": "Crushed almonds (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine all ingredients in a serving cup. Steep for about 5 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "mix",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Steep"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Stir vigorously to incorporate the cocoa and cinnamon.",
+     "relatedIngredientIds": [
+      "cinnamon"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Reheat in the microwave if you prefer it very hot.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Masala_Chai_II",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "madras-filter-coffee",
+   "title": "Madras Filter Coffee",
+   "description": "Frothy South Indian milk coffee poured between vessels.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "drink",
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "instant-coffee-with-chic",
+     "name": "instant coffee with chicory root",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "Sugar (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Bring the water to a boil, and stir in the coffee. Ensure there are no lumps.",
+     "relatedIngredientIds": [
+      "water"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring the milk to a boil.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the coffee mixture to the milk, and sweeten with sugar to taste.",
+     "relatedIngredientIds": [
+      "milk",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "While the coffee is still boiling hot, pour it into a mug or, preferably, a stainless steel tumbler.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "While pouring the coffee, slowly raise the saucepan so the coffee falls into the mug from a height of about 1–1½ ft.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "This will cause the coffee to froth like espresso.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "If desired, you can dip a teaspoon in the coffee and lightly spread a few drops of it over the froth in the mug.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve piping hot.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Madras_Filter_Coffee",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "borhani-spiced-yogurt-drink",
+   "title": "Borhani (Spiced Yogurt Drink)",
+   "description": "Bangladeshi-style salted spiced yogurt drink with mint and cumin.",
+   "prepTime": 15,
+   "cookTime": 10,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "drink",
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "full-fat-plain-yoghurt",
+     "name": "full-fat plain yoghurt",
+     "amount": 500.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cold-water",
+     "name": "cold water",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "fresh-green-chile-pepper",
+     "name": "fresh green chile peppers",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "mint",
+     "name": "mint",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "coriander",
+     "name": "coriander",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "white-mustard-seeds",
+     "name": "white mustard seeds",
+     "amount": 0.75,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-white-pepper",
+     "name": "ground white pepper",
+     "amount": 0.75,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-black-pepper",
+     "name": "ground black pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "rock-salt",
+     "name": "rock salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Dry-roast cumin seeds by cooking them over low heat in small pan until you can smell the seasoning, about 2 minutes. Cool and grind to a powder.",
+     "relatedIngredientIds": [
+      "cumin-seeds",
+      "white-mustard-seeds"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Beat yoghurt with water until it becomes smooth. Strain green chili, mint, leaf and coriander pastes with some water blend into the yoghurt. Combine all other ingredients and mix well.",
+     "relatedIngredientIds": [
+      "full-fat-plain-yoghurt",
+      "cold-water",
+      "mint",
+      "coriander"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Serve cold.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Borhani_(Spiced_Yogurt_Drink)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "jal-jeera-cumin-mango-lemonade",
+   "title": "Jal-jeera (Cumin Mango Lemonade)",
+   "description": "Fizzy cumin, mint and green mango lemonade.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 1,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "drink",
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "cumin-powder",
+     "name": "cumin powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "green-mango-powder",
+     "name": "green mango powder",
+     "amount": 0.125,
+     "unit": "tsp"
+    },
+    {
+     "id": "himalayan-black-salt",
+     "name": "Himalayan black salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "ground-mint-leaves",
+     "name": "ground mint leaves (grind to paste)",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "plain-soda-water",
+     "name": "plain soda water",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine all the ingredients in a glass.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Serve.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Jal-jeera_(Cumin_Mango_Lemonade)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "raita",
+   "title": "Raita",
+   "description": "Cooling cucumber and mint yogurt dip.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "grated-cucumber",
+     "name": "grated cucumber (about 1 inch of cucumber)",
+     "amount": 0.125,
+     "unit": "cup"
+    },
+    {
+     "id": "plain-yogurt",
+     "name": "plain yogurt",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "mint-leaves",
+     "name": "mint leaves, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cilantro-leaves",
+     "name": "cilantro leaves, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "finely-chopped-or-minced",
+     "name": "finely chopped or minced onions (optional)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "Salt (coarse salt preferred)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "chile-powder",
+     "name": "Chile powder",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ground-cumin",
+     "name": "Ground cumin",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Squeeze the grated cucumber to remove and discard excess liquid.",
+     "relatedIngredientIds": [
+      "grated-cucumber"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Stir the cucumber into the yogurt.",
+     "relatedIngredientIds": [
+      "grated-cucumber",
+      "plain-yogurt"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add chopped mint, cilantro, and onion.",
+     "relatedIngredientIds": [
+      "mint-leaves",
+      "cilantro-leaves",
+      "finely-chopped-or-minced"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add salt to taste.",
+     "relatedIngredientIds": [
+      "salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Sprinkle a little ground cumin on top.",
+     "relatedIngredientIds": [
+      "ground-cumin"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Sprinkle with chili powder if desired.",
+     "relatedIngredientIds": [
+      "chile-powder"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Refrigerate and serve cold.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Raita",
+   "credit": "Wikibooks Cookbook contributors"
+  }
+ ]
+}

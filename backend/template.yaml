@@ -1,0 +1,243 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  CookAlong backend on AWS: three DynamoDB tables, two Lambda functions with public Function URLs (fridge scan + recipes +
+  Alexa bridge, and the Strands dinner-planner agent), their least-privilege roles, and a Bedrock Guardrail.
+  The Alexa skill Lambda lives in eu-west-1 (Alexa serves India from its Europe endpoint) and is deployed with
+  backend/deploy_alexa.sh. See docs/AWS.md.
+
+Parameters:
+  Prefix:
+    Type: String
+    Default: cookalong
+    AllowedPattern: "^[a-z][a-z0-9-]{2,20}$"
+    Description: Name prefix. Use a different one (e.g. cookalongdemo) to deploy next to an existing copy.
+  CodeBucket:
+    Type: String
+    Description: S3 bucket holding the two Lambda zips (same region as this stack).
+  ScanCodeKey:
+    Type: String
+    Default: fridge-scan.zip
+    Description: Zip with lambda_function.py + tv_bridge.py (what backend/deploy.sh builds).
+  AgentCodeKey:
+    Type: String
+    Default: agent.zip
+    Description: Zip with dinner_agent.py + the Strands SDK (what backend/deploy_agent.sh builds).
+  PhoneOrigin:
+    Type: String
+    Default: https://cookalong-tv.github.io
+    Description: Origin of the phone camera page (CORS).
+  ModelIds:
+    Type: String
+    Default: apac.amazon.nova-pro-v1:0,global.amazon.nova-2-lite-v1:0
+    Description: Amazon Nova inference profiles, best first.
+
+Resources:
+  # ---- DynamoDB ---------------------------------------------------------------------------------------------------
+  RecipesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "${Prefix}-recipes"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions: [{AttributeName: id, AttributeType: S}]
+      KeySchema: [{AttributeName: id, KeyType: HASH}]
+      Tags: [{Key: app, Value: !Ref Prefix}]
+
+  ScansTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "${Prefix}-scans"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions: [{AttributeName: code, AttributeType: S}]
+      KeySchema: [{AttributeName: code, KeyType: HASH}]
+      TimeToLiveSpecification: {AttributeName: expires, Enabled: true}   # fridge-scan results vanish after an hour
+      Tags: [{Key: app, Value: !Ref Prefix}]
+
+  TvTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "${Prefix}-tv"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions: [{AttributeName: pk, AttributeType: S}]
+      KeySchema: [{AttributeName: pk, KeyType: HASH}]
+      TimeToLiveSpecification: {AttributeName: expires, Enabled: true}   # pairing codes, command queues, rate limits
+      Tags: [{Key: app, Value: !Ref Prefix}]
+
+  # ---- Bedrock Guardrail (attached to the dinner-planner agent's model calls) -------------------------------------------
+  KitchenGuardrail:
+    Type: AWS::Bedrock::Guardrail
+    Properties:
+      Name: !Sub "${Prefix}-kitchen"
+      Description: Keeps the AI on cooking - no medical advice, no abuse, no prompt attacks, no personal data.
+      BlockedInputMessaging: "Sorry, I can only help with cooking. For health or allergy questions, please check with a doctor or the food label."
+      BlockedOutputsMessaging: "Sorry, I can only help with cooking. For health or allergy questions, please check with a doctor or the food label."
+      TopicPolicyConfig:
+        TopicsConfig:
+          - Name: medical-advice
+            Type: DENY
+            Definition: Diagnosing or treating medical conditions, advising on medication, or saying a food is safe or unsafe for an allergy, illness or pregnancy.
+            Examples:
+              - Is this recipe safe for my peanut allergy?
+              - What medicine should I take for food poisoning?
+              - Can I eat this while pregnant?
+      ContentPolicyConfig:
+        FiltersConfig:
+          - {Type: SEXUAL, InputStrength: MEDIUM, OutputStrength: MEDIUM}
+          - {Type: VIOLENCE, InputStrength: MEDIUM, OutputStrength: MEDIUM}
+          - {Type: HATE, InputStrength: MEDIUM, OutputStrength: MEDIUM}
+          - {Type: INSULTS, InputStrength: MEDIUM, OutputStrength: MEDIUM}
+          - {Type: MISCONDUCT, InputStrength: MEDIUM, OutputStrength: MEDIUM}
+          - {Type: PROMPT_ATTACK, InputStrength: HIGH, OutputStrength: NONE}
+      SensitiveInformationPolicyConfig:
+        PiiEntitiesConfig:
+          - {Type: EMAIL, Action: ANONYMIZE}
+          - {Type: PHONE, Action: ANONYMIZE}
+
+  KitchenGuardrailVersion:
+    Type: AWS::Bedrock::GuardrailVersion
+    Properties:
+      GuardrailIdentifier: !GetAtt KitchenGuardrail.GuardrailId
+      Description: CookAlong release
+
+  # ---- Fridge scan + recipes + Alexa bridge endpoints ----------------------------------------------------------------
+  ScanRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${Prefix}-fridge-scan-role"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement: [{Effect: Allow, Principal: {Service: lambda.amazonaws.com}, Action: "sts:AssumeRole"}]
+      ManagedPolicyArns: [!Sub "arn:${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"]
+      Policies:
+        - PolicyName: access
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: [dynamodb:GetItem, dynamodb:PutItem, dynamodb:UpdateItem]
+                Resource: !GetAtt ScansTable.Arn
+              - Effect: Allow
+                Action: [dynamodb:GetItem, dynamodb:Scan]
+                Resource: !GetAtt RecipesTable.Arn
+              - Effect: Allow
+                Action: [dynamodb:GetItem, dynamodb:PutItem, dynamodb:UpdateItem, dynamodb:DeleteItem]
+                Resource: !GetAtt TvTable.Arn
+              - Effect: Allow
+                Action: [bedrock:InvokeModel]
+                Resource:
+                  - !Sub "arn:${AWS::Partition}:bedrock:${AWS::Region}:${AWS::AccountId}:inference-profile/*amazon.nova-*"
+                  - !Sub "arn:${AWS::Partition}:bedrock:*::foundation-model/amazon.nova-*"
+
+  ScanFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${Prefix}-fridge-scan"
+      Runtime: python3.12
+      Handler: lambda_function.handler
+      Role: !GetAtt ScanRole.Arn
+      Timeout: 60
+      MemorySize: 512
+      Code: {S3Bucket: !Ref CodeBucket, S3Key: !Ref ScanCodeKey}
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref ScansTable
+          RECIPES_TABLE: !Ref RecipesTable
+          TV_TABLE: !Ref TvTable
+          TV_TABLE_REGION: !Ref "AWS::Region"
+          BEDROCK_REGION: !Ref "AWS::Region"
+          MODEL_IDS: !Ref ModelIds
+      Tags: [{Key: app, Value: !Ref Prefix}]
+
+  ScanUrl:
+    Type: AWS::Lambda::Url
+    Properties:
+      TargetFunctionArn: !GetAtt ScanFunction.Arn
+      AuthType: NONE
+      Cors: {AllowOrigins: [!Ref PhoneOrigin], AllowMethods: [GET, POST], AllowHeaders: [content-type], MaxAge: 300}
+
+  ScanUrlPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref ScanFunction
+      Action: lambda:InvokeFunctionUrl
+      Principal: "*"
+      FunctionUrlAuthType: NONE
+
+  # ---- Strands dinner-planner agent -----------------------------------------------------------------------------------
+  AgentRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${Prefix}-agent-role"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement: [{Effect: Allow, Principal: {Service: lambda.amazonaws.com}, Action: "sts:AssumeRole"}]
+      ManagedPolicyArns: [!Sub "arn:${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"]
+      Policies:
+        - PolicyName: access
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: [dynamodb:GetItem, dynamodb:Scan]
+                Resource: !GetAtt RecipesTable.Arn
+              - Effect: Allow
+                Action: [dynamodb:GetItem]
+                Resource: !GetAtt ScansTable.Arn
+              - Effect: Allow
+                Action: [dynamodb:UpdateItem, dynamodb:PutItem]
+                Resource: !GetAtt TvTable.Arn
+              - Effect: Allow
+                Action: [bedrock:InvokeModel, bedrock:InvokeModelWithResponseStream]
+                Resource:
+                  - !Sub "arn:${AWS::Partition}:bedrock:${AWS::Region}:${AWS::AccountId}:inference-profile/*amazon.nova-*"
+                  - !Sub "arn:${AWS::Partition}:bedrock:*::foundation-model/amazon.nova-*"
+              - Effect: Allow
+                Action: [bedrock:ApplyGuardrail]
+                Resource: !GetAtt KitchenGuardrail.GuardrailArn
+
+  AgentFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "${Prefix}-agent"
+      Runtime: python3.12
+      Handler: dinner_agent.handler
+      Role: !GetAtt AgentRole.Arn
+      Timeout: 90
+      MemorySize: 1024
+      Code: {S3Bucket: !Ref CodeBucket, S3Key: !Ref AgentCodeKey}
+      Environment:
+        Variables:
+          BEDROCK_REGION: !Ref "AWS::Region"
+          AGENT_MODEL_ID: !Select [0, !Split [",", !Ref ModelIds]]
+          GUARDRAIL_ID: !GetAtt KitchenGuardrail.GuardrailId
+          GUARDRAIL_VERSION: !GetAtt KitchenGuardrailVersion.Version
+          RECIPES_TABLE: !Ref RecipesTable
+          TABLE_NAME: !Ref ScansTable
+          TV_TABLE: !Ref TvTable
+      Tags: [{Key: app, Value: !Ref Prefix}]
+
+  AgentUrl:
+    Type: AWS::Lambda::Url
+    Properties:
+      TargetFunctionArn: !GetAtt AgentFunction.Arn
+      AuthType: NONE
+
+  AgentUrlPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref AgentFunction
+      Action: lambda:InvokeFunctionUrl
+      Principal: "*"
+      FunctionUrlAuthType: NONE
+
+Outputs:
+  ScanApiUrl:
+    Description: Put in app/src/main/assets/config.json as scanApiUrl, recipesApiUrl and alexaApiUrl.
+    Value: !GetAtt ScanUrl.FunctionUrl
+  PlannerApiUrl:
+    Description: Put in config.json as plannerApiUrl.
+    Value: !GetAtt AgentUrl.FunctionUrl
+  GuardrailId:
+    Value: !GetAtt KitchenGuardrail.GuardrailId
+  TvTableName:
+    Description: Pass to deploy_alexa.sh so the skill Lambda shares this table.
+    Value: !Ref TvTable

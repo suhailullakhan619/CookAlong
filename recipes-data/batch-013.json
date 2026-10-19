@@ -1,0 +1,1662 @@
+{
+ "recipes": [
+  {
+   "id": "tomato-egg-stir-fry",
+   "title": "Tomato and Egg Stir-fry",
+   "description": "Soft scrambled egg folded into juicy, lightly sweet stir-fried tomato.",
+   "prepTime": 10,
+   "cookTime": 5,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "tomatoes",
+     "name": "tomatoes (about 360 g)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 12.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar, optional",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "chopped-scallion",
+     "name": "chopped scallion, optional",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the tomatoes. Optionally blanch them in boiling water, then cold water, and peel. Cut the tomatoes into pieces no bigger than 4 cm.",
+     "relatedIngredientIds": [
+      "tomatoes",
+      "sugar",
+      "chopped-scallion"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Crack the eggs into a bowl, add 2 g of the salt and beat well.",
+     "relatedIngredientIds": [
+      "eggs",
+      "salt"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the wok and add the oil. When it is hot, pour in the eggs and stir-fry until just set and lightly yellow. Turn off the heat and move the eggs to a plate. Do not wash the wok.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Turn the heat back on and add the tomato pieces. Press them with the spatula and stir-fry for 20 seconds, or until soft.",
+     "relatedIngredientIds": [
+      "tomatoes"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 20,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Return the eggs to the wok and toss everything together.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the remaining salt, the sugar if you like it sweeter, and the scallion. Stir to mix, then turn off the heat and serve.",
+     "relatedIngredientIds": [
+      "salt",
+      "sugar",
+      "chopped-scallion"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%92%E9%B8%A1%E8%9B%8B.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "smashed-cucumber-salad",
+   "title": "Smashed Cucumber Salad",
+   "description": "Crunchy cucumber pieces in a garlicky soy and vinegar dressing.",
+   "prepTime": 25,
+   "cookTime": 0,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "salad",
+    "quick",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "cucumbers",
+     "name": "cucumbers (about 400 g)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 6.0,
+     "unit": "clove"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "vinegar",
+     "name": "vinegar",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "g"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 9.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Smash the cucumbers flat with the side of a cleaver, then chop them into pieces about 3 cm long. Put them in a bowl.",
+     "relatedIngredientIds": [
+      "cucumbers"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Crush the garlic and mince it finely.",
+     "relatedIngredientIds": [
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the sugar into the cucumber and leave it to marinate for 15 minutes. This keeps the cucumber crisp and bright green.",
+     "relatedIngredientIds": [
+      "cucumbers",
+      "sugar"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the vinegar, soy sauce, salt, oyster sauce and garlic and mix well.",
+     "relatedIngredientIds": [
+      "garlic",
+      "vinegar",
+      "soy-sauce",
+      "oyster-sauce",
+      "salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour in the sesame oil, toss again and serve.",
+     "relatedIngredientIds": [
+      "sesame-oil"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E9%BB%84%E7%93%9C.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "hot-sour-potato-strips",
+   "title": "Hot and Sour Potato Strips",
+   "description": "Crisp shredded potato stir-fried with garlic, chilli and black vinegar.",
+   "prepTime": 15,
+   "cookTime": 5,
+   "servings": 1,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "potato",
+     "name": "potato",
+     "amount": 240.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "green-pepper",
+     "name": "green pepper",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "red-pepper",
+     "name": "red pepper",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "dried-chillies",
+     "name": "dried chillies",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chinese-black-vinegar",
+     "name": "Chinese black vinegar",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the potato and cut it into thin, long strips, as fine as you can.",
+     "relatedIngredientIds": [
+      "potato"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Rinse the strips in water to remove excess starch, then blanch in boiling water for 10 seconds. Drain well.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Chop the scallion. Crush and mince the garlic and split it in two. Cut the dried chillies into short pieces and the peppers into strips.",
+     "relatedIngredientIds": [
+      "garlic",
+      "green-pepper",
+      "red-pepper",
+      "dried-chillies",
+      "scallion"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the oil over low heat. Add half the scallion whites, half the garlic and the dried chillies and fry until fragrant.",
+     "relatedIngredientIds": [
+      "garlic",
+      "dried-chillies",
+      "scallion"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the pepper strips, stir a few times, then add the potato and stir-fry until it changes colour.",
+     "relatedIngredientIds": [
+      "potato",
+      "green-pepper",
+      "red-pepper"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the soy sauce, vinegar, remaining garlic and the salt and toss quickly.",
+     "relatedIngredientIds": [
+      "garlic",
+      "soy-sauce",
+      "chinese-black-vinegar",
+      "salt"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Sprinkle with the rest of the scallion, toss and serve.",
+     "relatedIngredientIds": [
+      "scallion"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "garlic-broccoli",
+   "title": "Garlic Broccoli",
+   "description": "Tender-crisp broccoli under a quick garlic and oyster sauce glaze.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "quick",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "broccoli",
+     "name": "broccoli",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 30.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the broccoli into small florets and wash them. Peel and mince the garlic.",
+     "relatedIngredientIds": [
+      "broccoli",
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring 1000 ml of water to a boil over high heat.",
+     "relatedIngredientIds": [
+      "water"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Boil the broccoli for 2-3 minutes, until bright green and slightly soft.",
+     "relatedIngredientIds": [
+      "broccoli"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Lift out the broccoli, drain it well and arrange it on a plate.",
+     "relatedIngredientIds": [
+      "broccoli"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Heat the oil in a wok and gently fry the garlic over low heat until fragrant.",
+     "relatedIngredientIds": [
+      "garlic"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the soy sauce, oyster sauce, sugar and 30 ml of water, then bring the sauce to a boil.",
+     "relatedIngredientIds": [
+      "soy-sauce",
+      "oyster-sauce",
+      "sugar",
+      "water"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour the garlic sauce evenly over the broccoli and serve.",
+     "relatedIngredientIds": [
+      "broccoli",
+      "garlic",
+      "soy-sauce",
+      "oyster-sauce"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E8%A5%BF%E5%85%B0%E8%8A%B1.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "stir-fried-cauliflower",
+   "title": "Stir-fried Cauliflower",
+   "description": "Cauliflower blanched, then quickly stir-fried with garlic and steamed tender.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese",
+    "quick",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "cauliflower",
+     "name": "cauliflower",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 3.0,
+     "unit": "clove"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 50.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the cauliflower and break it into small florets. Slice any thick stems. Peel the garlic and slice it.",
+     "relatedIngredientIds": [
+      "cauliflower",
+      "garlic"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring 1000 ml of water to a boil. Blanch the cauliflower for 2-3 minutes, until it turns paler and slightly soft. Drain.",
+     "relatedIngredientIds": [
+      "cauliflower",
+      "water"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil in a wok over high heat. Add the garlic slices and fry briefly until fragrant.",
+     "relatedIngredientIds": [
+      "garlic"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the cauliflower and stir-fry over medium-high heat for about 2 minutes.",
+     "relatedIngredientIds": [
+      "cauliflower"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the salt and keep stirring.",
+     "relatedIngredientIds": [
+      "salt"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour the water down the side of the wok, cover and steam for 1 minute so the cauliflower cooks through.",
+     "relatedIngredientIds": [
+      "cauliflower",
+      "water"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Steam"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Uncover, toss quickly and serve.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B8%85%E7%82%92%E8%8A%B1%E8%8F%9C.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "stir-fried-aubergine",
+   "title": "Soy-braised Stir-fried Aubergine",
+   "description": "Aubergine chunks fried in plenty of hot oil and finished with soy sauce.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "slender-aubergines",
+     "name": "slender aubergines (about 1.8)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "star-anise",
+     "name": "star anise, optional",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-handful-dried-shri",
+     "name": "small handful dried shrimp, optional",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "scallions",
+     "name": "scallions, optional",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "minced-pork",
+     "name": "minced pork, optional",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 40.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar, optional",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "vinegar",
+     "name": "vinegar, optional",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cooking-oil-for-the-pork",
+     "name": "cooking oil for the pork",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cooking-oil-for-frying",
+     "name": "cooking oil for frying",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the aubergines, cut each in half lengthways, then cut each half into diamond-shaped chunks. Put them in a bowl.",
+     "relatedIngredientIds": [
+      "slender-aubergines"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Wash the scallions and chop them. Break up the star anise.",
+     "relatedIngredientIds": [
+      "star-anise",
+      "scallions"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "If using pork, stir-fry it in 10 ml of oil over medium heat for about 1 minute until it changes colour, then set aside.",
+     "relatedIngredientIds": [
+      "slender-aubergines",
+      "minced-pork",
+      "cooking-oil-for-the-pork"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the wok until completely dry, then add enough oil to cover the base twice over. Heat to medium-hot and add the star anise, dried shrimp and scallions if using them.",
+     "relatedIngredientIds": [
+      "star-anise",
+      "small-handful-dried-shri",
+      "scallions"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "If you are not using those, heat the oil until very hot instead. Add the aubergine and stir-fry for about 40 seconds.",
+     "relatedIngredientIds": [
+      "slender-aubergines"
+     ],
+     "suggestedTimerSeconds": 40,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour the soy sauce over the aubergine. Do not use too much or it will be salty.",
+     "relatedIngredientIds": [
+      "slender-aubergines",
+      "soy-sauce"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When the aubergine is half soft, after about 1 minute, return the pork. Add the sugar and vinegar if using, and keep stir-frying until all the aubergine is soft and has changed colour.",
+     "relatedIngredientIds": [
+      "slender-aubergines",
+      "minced-pork",
+      "sugar",
+      "vinegar",
+      "cooking-oil-for-the-pork",
+      "cooking-oil-for-frying"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%82%92%E8%8C%84%E5%AD%90.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "aloo-gobi-hc",
+   "title": "Aloo Gobi, Wok-style",
+   "description": "North Indian dry curry of potato and cauliflower with cumin, turmeric and garam masala.",
+   "prepTime": 15,
+   "cookTime": 25,
+   "servings": 3,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "north-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes (about 250 g)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cauliflower",
+     "name": "cauliflower (about 300 g)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "onion (about 100 g)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "tomato",
+     "name": "tomato (about 100 g)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "fresh-ginger",
+     "name": "fresh ginger",
+     "amount": 8.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic (about 9 g)",
+     "amount": 3.0,
+     "unit": "clove"
+    },
+    {
+     "id": "green-chilli",
+     "name": "green chilli",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 30.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "red-chilli-powder",
+     "name": "red chilli powder",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "ground-coriander",
+     "name": "ground coriander",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 3.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "fresh-coriander-leaves",
+     "name": "fresh coriander leaves",
+     "amount": 15.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the potatoes and cut them into 2 cm chunks. Break the cauliflower into small florets. Chop the onion, tomato, garlic and green chilli and grate the ginger.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "cauliflower",
+      "onion",
+      "tomato",
+      "fresh-ginger",
+      "garlic",
+      "green-chilli"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the oil in a lidded pan over medium heat. Add the cumin seeds and fry for about 10 seconds until darker and fragrant. Do not let them burn.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "cauliflower",
+      "onion",
+      "tomato",
+      "garlic",
+      "cumin-seeds"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the onion and fry for 3-4 minutes until translucent and lightly golden.",
+     "relatedIngredientIds": [
+      "onion"
+     ],
+     "suggestedTimerSeconds": 240,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the ginger, garlic and green chilli and fry for 1 minute.",
+     "relatedIngredientIds": [
+      "fresh-ginger",
+      "garlic",
+      "green-chilli"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the tomato and cook for 2-3 minutes until soft.",
+     "relatedIngredientIds": [
+      "tomato"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the turmeric, chilli powder, ground coriander and salt and stir for 1 minute.",
+     "relatedIngredientIds": [
+      "green-chilli",
+      "turmeric-powder",
+      "red-chilli-powder",
+      "ground-coriander",
+      "salt"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the potatoes and stir for 2 minutes to coat them.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the cauliflower and toss gently. Cover, turn the heat to medium-low and cook for 12-15 minutes, stirring every 3-4 minutes so it does not stick.",
+     "relatedIngredientIds": [
+      "cauliflower"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "When a chopstick goes easily through the potato and the cauliflower has some browned edges, sprinkle in the garam masala and stir for 1 minute.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "cauliflower",
+      "garam-masala"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Turn off the heat, scatter with fresh coriander and serve.",
+     "relatedIngredientIds": [
+      "ground-coriander"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%8D%B0%E5%BA%A6%E5%9C%9F%E8%B1%86%E8%8A%B1%E8%8F%9C.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "spicy-stir-fried-green-beans",
+   "title": "Spicy Stir-fried Green Beans",
+   "description": "Braised green beans in a savoury soy and oyster sauce with chilli and garlic.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "green-beans",
+     "name": "green beans",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "bird-s-eye-chillies",
+     "name": "bird's eye chillies",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 3.0,
+     "unit": "slice"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 6.0,
+     "unit": "ml"
+    },
+    {
+     "id": "dark-soy-sauce",
+     "name": "dark soy sauce",
+     "amount": 2.0,
+     "unit": "ml"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 6.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 6.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 150.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Chop the scallion and mince the garlic. Slice the chillies into rings.",
+     "relatedIngredientIds": [
+      "bird-s-eye-chillies",
+      "scallion",
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the light soy sauce, dark soy sauce, oyster sauce and salt into a sauce.",
+     "relatedIngredientIds": [
+      "light-soy-sauce",
+      "dark-soy-sauce",
+      "oyster-sauce",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Remove the strings from the beans and cut them at a 45° angle into 4-10 cm pieces.",
+     "relatedIngredientIds": [
+      "green-beans"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the oil until it smokes. Add the scallion and chillies and stir-fry until fragrant.",
+     "relatedIngredientIds": [
+      "bird-s-eye-chillies",
+      "scallion"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the beans and stir-fry for 30 seconds.",
+     "relatedIngredientIds": [
+      "green-beans"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the sauce, turn up the heat and stir-fry for 2 minutes.",
+     "relatedIngredientIds": [
+      "light-soy-sauce",
+      "dark-soy-sauce",
+      "oyster-sauce"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour in the water, lower the heat to medium-low, cover and braise for 8-10 minutes.",
+     "relatedIngredientIds": [
+      "water"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Stir in the minced garlic and serve.",
+     "relatedIngredientIds": [
+      "garlic"
+     ],
+     "animation": "stir"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%B4%A0%E7%82%92%E8%B1%86%E8%A7%92.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "hand-torn-cabbage",
+   "title": "Hand-torn Cabbage with Pork",
+   "description": "Fiery Hunan-style cabbage torn by hand and stir-fried with crisp pork belly.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "chinese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "small-head-cabbage",
+     "name": "small head cabbage",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "pork-belly",
+     "name": "pork belly",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "bird-s-eye-chillies",
+     "name": "bird's eye chillies",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "garlic-shoot",
+     "name": "garlic shoot",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 60.0,
+     "unit": "ml"
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "rice-vinegar",
+     "name": "rice vinegar",
+     "amount": 5.0,
+     "unit": "ml"
+    },
+    {
+     "id": "chicken-bouillon-powder",
+     "name": "chicken bouillon powder",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 7.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Halve the cabbage and cut out the white core. Tear the leaves into pieces by hand. Wash them in a bowl with 2 g of salt, then drain.",
+     "relatedIngredientIds": [
+      "small-head-cabbage",
+      "salt"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Prepare the ginger, garlic, chillies and garlic shoot. Slice the pork belly and rinse it.",
+     "relatedIngredientIds": [
+      "pork-belly",
+      "bird-s-eye-chillies",
+      "ginger",
+      "garlic",
+      "garlic-shoot"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat 30 ml of the oil and add the cabbage. Stir-fry over high heat for 1 minute, add 3 g of salt, stir-fry for 2 more minutes, then take it out.",
+     "relatedIngredientIds": [
+      "small-head-cabbage",
+      "salt"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the remaining 30 ml of oil and add the pork. Stir-fry over high heat for 1 minute.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the ginger, garlic, chillies and garlic shoot and stir-fry for 1 minute.",
+     "relatedIngredientIds": [
+      "bird-s-eye-chillies",
+      "ginger",
+      "garlic",
+      "garlic-shoot"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Return the cabbage and add the vinegar, rice wine, soy sauce, bouillon powder and remaining salt. Stir-fry over high heat for 2 minutes and serve.",
+     "relatedIngredientIds": [
+      "small-head-cabbage",
+      "shaoxing-rice-wine",
+      "light-soy-sauce",
+      "rice-vinegar",
+      "chicken-bouillon-powder",
+      "salt"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Heat"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "di-san-xian",
+   "title": "Di San Xian",
+   "description": "Fried potato, aubergine and green pepper in a glossy savoury garlic sauce.",
+   "prepTime": 20,
+   "cookTime": 20,
+   "servings": 3,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "chinese"
+   ],
+   "ingredients": [
+    {
+     "id": "aubergine",
+     "name": "aubergine",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "potato",
+     "name": "potato",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "long-green-peppers",
+     "name": "long green peppers",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 8.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, minced",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "doubanjiang",
+     "name": "doubanjiang (chilli bean paste)",
+     "amount": 15.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 10.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 80.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the potato. Cut the potato and aubergine into irregular 15 g pieces. Tear the peppers along the grain into pieces slightly bigger than the potato. Dry the peppers well.",
+     "relatedIngredientIds": [
+      "aubergine",
+      "potato",
+      "long-green-peppers"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut the scallion into 0.5 cm lengths. Mince the garlic and split it into two portions. Mince the ginger.",
+     "relatedIngredientIds": [
+      "scallion",
+      "garlic",
+      "ginger"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In a bowl, mix the soy sauce, sugar, cornstarch and water into a sauce.",
+     "relatedIngredientIds": [
+      "cornstarch",
+      "light-soy-sauce",
+      "sugar",
+      "water"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the oil in a wok and fry the potato for 3-4 minutes until golden and tender. Lift it out and keep the oil.",
+     "relatedIngredientIds": [
+      "potato"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 240,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Fry the aubergine for 2-3 minutes until soft with slightly browned edges. Lift it out. Add 15 ml of oil if the pan is dry.",
+     "relatedIngredientIds": [
+      "aubergine"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Fry the peppers for 15 seconds until the skin blisters, then lift them out and pour off the oil.",
+     "relatedIngredientIds": [
+      "long-green-peppers"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 15,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Heat 15 ml of fresh oil. Fry the scallion, ginger and half the garlic over medium-low heat until fragrant, then add the bean paste and fry until the oil turns red.",
+     "relatedIngredientIds": [
+      "scallion",
+      "garlic",
+      "ginger",
+      "doubanjiang"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Pour in the sauce, turn up the heat and stir fast. After about 10 seconds it bubbles and thickens.",
+     "relatedIngredientIds": [
+      "light-soy-sauce"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add all the fried vegetables and toss for 20 seconds so the sauce coats them. Turn off the heat, stir in the rest of the garlic and serve.",
+     "relatedIngredientIds": [
+      "garlic",
+      "light-soy-sauce"
+     ],
+     "suggestedTimerSeconds": 20,
+     "timerLabel": "Rest"
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%9C%B0%E4%B8%89%E9%B2%9C/%E5%9C%B0%E4%B8%89%E9%B2%9C.md",
+   "credit": "HowToCook contributors"
+  },
+  {
+   "id": "onion-egg-stir-fry",
+   "title": "Onion and Egg Stir-fry",
+   "description": "Fast savoury scrambled eggs with sweet onion, ready in about five minutes.",
+   "prepTime": 3,
+   "cookTime": 3,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "chinese",
+    "quick",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "onion, sliced",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 50.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "scallion",
+     "name": "scallion, chopped",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "shaoxing-rice-wine",
+     "name": "Shaoxing rice wine",
+     "amount": 2.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Crack the eggs into a large bowl, add the onion and salt, and beat for 60 seconds.",
+     "relatedIngredientIds": [
+      "eggs",
+      "onion",
+      "salt"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the oil in a wok and pour in the egg mixture.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Fry one side for 30-45 seconds, then flip and stir-fry.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 45,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Repeat for 2-3 minutes in total.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Splash in the rice wine, then serve on a plate and sprinkle with the scallion.",
+     "relatedIngredientIds": [
+      "scallion",
+      "shaoxing-rice-wine"
+     ]
+    }
+   ],
+   "source": "howtocook",
+   "license": "Public domain",
+   "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B.md",
+   "credit": "HowToCook contributors"
+  }
+ ]
+}

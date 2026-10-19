@@ -1,0 +1,2560 @@
+{
+ "recipes": [
+  {
+   "id": "chickpea-curry-masaledaar-chole",
+   "title": "Chickpea Curry",
+   "description": "Soaked chickpeas simmered with onion, tomato and Indian spices.",
+   "prepTime": 15,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "healthy",
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "dried-chickpeas",
+     "name": "dried chickpeas",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion, finely chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "tomato",
+     "name": "tomato, medium chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "chilli-powder",
+     "name": "chilli powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "madras-curry-powder",
+     "name": "Madras curry powder",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "garlic-paste",
+     "name": "garlic paste",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ginger-paste",
+     "name": "ginger paste",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cilantro",
+     "name": "Cilantro, for garnishing",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the chickpeas overnight in water.",
+     "relatedIngredientIds": [
+      "dried-chickpeas"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pressure cook the chickpeas until done (3 whistles).",
+     "relatedIngredientIds": [
+      "dried-chickpeas"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the cooking oil in a pot. Add the onions and sauté until golden brown.",
+     "relatedIngredientIds": [
+      "cooking-oil",
+      "onion"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the turmeric powder, chilli powder, garam masala, and Madras curry powder.",
+     "relatedIngredientIds": [
+      "chilli-powder",
+      "madras-curry-powder",
+      "garam-masala",
+      "turmeric-powder"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the tomatoes, ginger, and garlic paste and stir for about 1 minute.",
+     "relatedIngredientIds": [
+      "tomato",
+      "garlic-paste",
+      "ginger-paste"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the boiled chickpeas and some water.",
+     "relatedIngredientIds": [
+      "dried-chickpeas"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add salt to taste. Cook for about 10 minutes on medium heat.",
+     "relatedIngredientIds": [
+      "salt-to-taste"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Garnish with cilantro and serve with chapattis or paratha.",
+     "relatedIngredientIds": [
+      "cilantro"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chickpea_Curry_(Masaledaar_Chole)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "baingan-bartha-south-indian-eggplant-with-coconut-and-chili",
+   "title": "Baingan Bartha I",
+   "description": "Roasted, mashed aubergine mixed with coconut, chilli and coriander.",
+   "prepTime": 30,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "eggplant",
+     "name": "eggplant (aubergine)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "green-chillies",
+     "name": "green chillies, as desired",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "fresh-ground-coconut",
+     "name": "fresh ground coconut",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-fresh-coriander",
+     "name": "chopped fresh coriander leaves (cilantro)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "paneer-or-yoghurt",
+     "name": "paneer or yoghurt (optional)",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Roast the eggplant directly over a low flame. Don't be afraid to set it right on the gas burner, turning it regularly until the skin becomes blackened and brittle and the flesh soft (about 15–20 minutes).",
+     "relatedIngredientIds": [
+      "eggplant"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Set"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Set aside to cool.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Grind the chillies, coconut, and coriander together in a food processor to form a paste.",
+     "relatedIngredientIds": [
+      "green-chillies",
+      "fresh-ground-coconut"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Peel the eggplant skin off and mash the flesh to a uniform pulp by hand.",
+     "relatedIngredientIds": [
+      "eggplant"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix in the coconut paste and paneer/yogurt, along with salt to taste.",
+     "relatedIngredientIds": [
+      "fresh-ground-coconut",
+      "salt-to-taste"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve with chapatis, dosa or rice.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Baingan_Bartha_(South_Indian_Eggplant_with_Coconut_and_Chili)_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "potato-curry-aloo-masala",
+   "title": "Potato Curry (Aloo Masala)",
+   "description": "Mustard-seed and curry-leaf tempered potato curry.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "healthy",
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "mustard-seed",
+     "name": "mustard seed",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "chana-dhal",
+     "name": "chana dhal (optional)",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "medium-onion",
+     "name": "medium onion, chopped thin",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "split-green-chillies",
+     "name": "split green chillies",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "large-potatoes",
+     "name": "large potatoes, cubed and par-boiled",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat oil.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sautée the mustard seed first, then add chana dhal, curry leaves, onion and chillies.",
+     "relatedIngredientIds": [
+      "mustard-seed",
+      "chana-dhal",
+      "curry-leaves",
+      "medium-onion",
+      "split-green-chillies"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Fry until the onions begin to change color.",
+     "relatedIngredientIds": [
+      "medium-onion"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add potatoes.",
+     "relatedIngredientIds": [
+      "large-potatoes"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Sprinkle the turmeric evenly and stir well to mix all the ingredients",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cover and cook on a medium flame for about 5 minutes, stirring well, until the potatoes become very soft and somewhat mashed.",
+     "relatedIngredientIds": [
+      "large-potatoes"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Season with salt to taste.",
+     "relatedIngredientIds": [
+      "salt"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Potato_Curry_(Aloo_Masala)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "cholley-chickpea-curry",
+   "title": "Cholley (Chickpea Curry)",
+   "description": "Slow-boiled chickpeas finished in a garam masala and tomato masala.",
+   "prepTime": 600,
+   "cookTime": 165,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "healthy",
+    "indian",
+    "north-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "dried-chickpeas",
+     "name": "dried chickpeas",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "water-for-cooking",
+     "name": "water for cooking",
+     "amount": 500.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "Salt (to taste)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "coriander-seeds",
+     "name": "coriander seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds (optional)",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "nigella-seeds",
+     "name": "nigella seeds (optional)",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion, sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 1.0,
+     "unit": "clove"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "medium-tomatoes",
+     "name": "medium tomatoes, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "turmeric",
+     "name": "turmeric",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-coriander-leaves",
+     "name": "Fresh coriander leaves (as a garnish)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the chickpeas, then soak overnight in water, allowing them to soften somewhat.",
+     "relatedIngredientIds": [
+      "dried-chickpeas"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Make sure that the chickpeas are well-immersed with at least a few inches of water above them, as they will expand significantly while soaking.",
+     "relatedIngredientIds": [
+      "dried-chickpeas"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "The next day, drain the water and place the chickpeas in a pressure cooker or large cooking pot.",
+     "relatedIngredientIds": [
+      "dried-chickpeas",
+      "water-for-cooking"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the 500 ml fresh water and salt to taste, then cook until the chickpeas are tender (10 minutes at 15 psi in a pressure cooker; if using a regular pot, place the chickpeas in hot water to boil, and.",
+     "relatedIngredientIds": [
+      "dried-chickpeas",
+      "salt"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Then reduce to a simmer for 60–90 minutes).",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 5400,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat the oil in a thick-bottomed pan. Add the coriander seeds, cumin seeds, and nigella seeds, cooking them briefly until they crackle.",
+     "relatedIngredientIds": [
+      "water-for-cooking",
+      "coriander-seeds",
+      "cumin-seeds",
+      "nigella-seeds"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Quickly add the onions and garlic, reduce the heat to medium, and sauté until the onions are transparent.",
+     "relatedIngredientIds": [
+      "onion",
+      "garlic"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add garam masala, tomato, turmeric, and salt and cook for 1 minute.",
+     "relatedIngredientIds": [
+      "salt",
+      "garam-masala",
+      "medium-tomatoes",
+      "turmeric"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add the boiled chickpeas, reduce the heat, and allow the cholley to simmer for around 15 minutes. Check that the gravy has thickened before removing from the heat.",
+     "relatedIngredientIds": [
+      "dried-chickpeas"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Once done, place the cholley in a serving bowl, add your coriander garnish, and serve with rice or bread.",
+     "relatedIngredientIds": [
+      "fresh-coriander-leaves"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Cholley_(Chickpea_Curry)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "dahi-baingana-fried-eggplant-in-yogurt",
+   "title": "Dahi Baingana",
+   "description": "Fried aubergine slices in a lightly sweet, tempered yogurt gravy.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "medium-sized-bainganas",
+     "name": "medium-sized bainganas (eggplant / brinjal / begun)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "oil",
+     "name": "Oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "panch-puran",
+     "name": "Panch puran (futana / Bengali five spice)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "indian-red-chiles",
+     "name": "Indian red chiles (sukhila lanka)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves (kadi patta / bhersunga patra)",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "dahi",
+     "name": "dahi (yogurt)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut eggplant into thin slices, lengthwise. Deep fry in oil. Keep aside.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix dahi with water.",
+     "relatedIngredientIds": [
+      "dahi",
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat 1 tbsp of oil in a pan. Add panch puran and red chili, then cook until the spices splutter.",
+     "relatedIngredientIds": [
+      "panch-puran"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add dahi-water mix, salt to taste, and sugar. Stir properly and make a gravy.",
+     "relatedIngredientIds": [
+      "dahi",
+      "water",
+      "sugar",
+      "salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add fried eggplant to the gravy, and lower the flame.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat it for 2–3 minutes, then leave it to cool.",
+     "relatedIngredientIds": [
+      "curry-leaves"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve with rice.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Dahi_Baingana_(Fried_Eggplant_in_Yogurt)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "keralan-vegetable-stew",
+   "title": "Keralan Vegetable Stew",
+   "description": "Mild Kerala vegetable stew in fresh coconut milk with whole spices.",
+   "prepTime": 15,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "healthy",
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "coconut",
+     "name": "coconut, freshly grated",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "boiled-vegetables",
+     "name": "boiled vegetables",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion, diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "very-small-piece-of-ging",
+     "name": "very small piece of ginger, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "green-chillies",
+     "name": "green chillies (as desired), split lengthwise",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "cloves",
+     "name": "cloves",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "small-pieces-cinnamon",
+     "name": "small pieces cinnamon",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "pods-green-cardamom",
+     "name": "pods green cardamom",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "vinegar",
+     "name": "vinegar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "flour-or-rice-flour-or-c",
+     "name": "flour or rice flour or cornstarch",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "ground-black-pepper",
+     "name": "ground black pepper",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "mustard-seed",
+     "name": "mustard seed",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "shallot",
+     "name": "shallot",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Pour ¾ cup of water into the grated coconut. Squeeze out the milk through a strainer. Set aside; this is first milk.",
+     "relatedIngredientIds": [
+      "coconut"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pour ½ cup of water into the same coconut and squeeze out the second milk. Keep this aside as well.",
+     "relatedIngredientIds": [
+      "coconut"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In a large pan, heat oil and add the cloves, cinnamon, and cardamom.",
+     "relatedIngredientIds": [
+      "cloves",
+      "small-pieces-cinnamon",
+      "pods-green-cardamom"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the chopped onion, ginger, chillies and curry leaves. Fry until the onion is slightly browned.",
+     "relatedIngredientIds": [
+      "onion",
+      "very-small-piece-of-ging",
+      "green-chillies",
+      "curry-leaves"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the boiled vegetables and stir for 1 minute.",
+     "relatedIngredientIds": [
+      "boiled-vegetables"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour in the second milk and boil for about 5–7 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add salt. Dissolve the maida/rice flour in a little water and add it to the sauce.",
+     "relatedIngredientIds": [
+      "salt"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "When it boils again, add the first milk.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Remove from the flame when it starts to boil once more.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Season with the pepper, mustard, and shallot.",
+     "relatedIngredientIds": [
+      "ground-black-pepper",
+      "shallot"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Keralan_Vegetable_Stew",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "kashmiri-pulao",
+   "title": "Kashmiri Pulao",
+   "description": "Saffron basmati rice with dried fruit, nuts and whole spices.",
+   "prepTime": 15,
+   "cookTime": 35,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "ghee-or-butter",
+     "name": "ghee or butter",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cloves",
+     "name": "cloves",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "pods-green-cardamom",
+     "name": "pods green cardamom",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "cinnamon-tree-leaf",
+     "name": "cinnamon tree leaf (or substitute 2 bay leaves)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-onion",
+     "name": "small onion, sliced thin",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger-garlic-paste",
+     "name": "ginger-garlic paste",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "green-chillies",
+     "name": "green chillies, split lengthwise",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "strands-saffron",
+     "name": "strands saffron",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "basmati-or-other-long-gr",
+     "name": "basmati or other long-grained rice, cooked and drained",
+     "amount": 0.5,
+     "unit": "kg"
+    },
+    {
+     "id": "dried-dates",
+     "name": "dried dates, pitted and sliced thin",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-raisins",
+     "name": "white raisins",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "cashew-nuts",
+     "name": "cashew nuts",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "pistachio-nuts",
+     "name": "pistachio nuts",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "almonds",
+     "name": "almonds, blanched and diced",
+     "amount": 50.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat ghee or butter in a large wide pan or wok.",
+     "relatedIngredientIds": [
+      "ghee-or-butter"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the cloves, cardamom, and cinnamon tree leaf.",
+     "relatedIngredientIds": [
+      "cloves",
+      "pods-green-cardamom",
+      "cinnamon-tree-leaf"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the chopped onion, and fry until it just begins to turn brown.",
+     "relatedIngredientIds": [
+      "small-onion"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add ginger-garlic paste and chillies and fry for about 1 minute before tossing in all of the dried fruits and nuts.",
+     "relatedIngredientIds": [
+      "ginger-garlic-paste",
+      "green-chillies",
+      "cashew-nuts",
+      "pistachio-nuts"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add salt to taste.",
+     "relatedIngredientIds": [
+      "salt"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Turn the flame down to low.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Soak the strands of saffron in milk, mixing until the milk turns orange.",
+     "relatedIngredientIds": [
+      "strands-saffron",
+      "milk"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Pour the cooked rice into the pan and sprinkle the saffron-milk on top.",
+     "relatedIngredientIds": [
+      "strands-saffron",
+      "milk",
+      "basmati-or-other-long-gr"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Stir very carefully so as not to break or mash up the rice grains, mixing the flavourings and saffron colour in uniformly and heating the rice.",
+     "relatedIngredientIds": [
+      "strands-saffron",
+      "basmati-or-other-long-gr"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Mix in dried fruits and nuts.",
+     "relatedIngredientIds": [
+      "cashew-nuts",
+      "pistachio-nuts"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Add more ghee according to your preference.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s12",
+     "order": 12,
+     "instructionText": "Serve with a gravy such as the basic tomato gravy.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Kashmiri_Pulao",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "lemon-rice",
+   "title": "Lemon Rice",
+   "description": "South Indian rice tossed with peanuts, curry leaves and lemon.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "cooked-white-rice",
+     "name": "cooked white rice",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "mustard-seeds",
+     "name": "mustard seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil (also called til/gingely oil or NaLEnnai)",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "split-peas",
+     "name": "split peas",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "groundnuts",
+     "name": "groundnuts (peanuts)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "asafoetida",
+     "name": "asafoetida (heengh/perungayum)",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "dry-red-chillies",
+     "name": "dry red chillies, broken into pieces",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "lemons",
+     "name": "lemons, juiced, or 4 tbsp lemon concentrate",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.75,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the oil in a pan.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add groundnuts and split-peas, and fry until golden brown.",
+     "relatedIngredientIds": [
+      "split-peas",
+      "groundnuts"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add mustard seeds, asafoetida, curry leaves, and red chillies. Wait until the mustard seeds sputter.",
+     "relatedIngredientIds": [
+      "mustard-seeds",
+      "asafoetida",
+      "dry-red-chillies",
+      "curry-leaves"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix in a little salt, turmeric powder and lemon concentrate.",
+     "relatedIngredientIds": [
+      "lemons",
+      "turmeric-powder",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Let it boil and reduce.",
+     "relatedIngredientIds": [],
+     "animation": "boil"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Remove pan from stove, add to the rice, and mix well.",
+     "relatedIngredientIds": [
+      "cooked-white-rice"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Lemon_Rice",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "lentil-potato-and-tomato-curry",
+   "title": "Lentil, Potato, and Tomato Curry",
+   "description": "Easy red lentil curry with potato, tomato and garam masala.",
+   "prepTime": 15,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "red-split-lentils",
+     "name": "red split lentils",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "bay-leaf",
+     "name": "bay leaf",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "margarine-or-butter",
+     "name": "margarine or butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "large-potatoes",
+     "name": "large potatoes, cut into 1/2 inch cubes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "turmeric",
+     "name": "turmeric",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "cayenne pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "canned-diced-tomatoes",
+     "name": "canned diced tomatoes",
+     "amount": 28.0,
+     "unit": "oz"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "honey-or-sugar",
+     "name": "honey or sugar",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a large pot, combine and cook water, lentils, salt and bay leaf.",
+     "relatedIngredientIds": [
+      "red-split-lentils",
+      "water",
+      "salt",
+      "bay-leaf"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a large frying pan, combine potatoes, turmeric, cayenne pepper, olive oil and margarine. Fry for 5–10 minutes.",
+     "relatedIngredientIds": [
+      "olive-oil",
+      "large-potatoes",
+      "turmeric",
+      "cayenne-pepper"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add potato mixture to the pot with the lentils along with all remaining ingredients. Cook until the potatoes are soft and tender.",
+     "relatedIngredientIds": [
+      "red-split-lentils",
+      "large-potatoes"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Remove bay leaf before serving.",
+     "relatedIngredientIds": [
+      "bay-leaf"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Lentil,_Potato,_and_Tomato_Curry",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "sambar-i",
+   "title": "Sambar I",
+   "description": "South Indian toor dal and vegetable stew soured with tamarind.",
+   "prepTime": 15,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "toor-dal",
+     "name": "toor dal",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sambhar-masala",
+     "name": "sambhar masala (see note)",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cubed-mixed-vegetables",
+     "name": "cubed mixed vegetables (see notes)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "big-onion",
+     "name": "big onion, cut into quarters",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "thickish-tamarind-pulp-o",
+     "name": "thickish tamarind pulp OR 1 tsp tamarind concentrate",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "oil-or-ghee",
+     "name": "oil or ghee",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "mustard-seeds",
+     "name": "mustard seeds",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "whole-dry-red-chile-pepp",
+     "name": "whole dry red chile peppers",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "leaves-of-curry-leaves",
+     "name": "leaves of curry leaves",
+     "amount": 7.0,
+     "unit": ""
+    },
+    {
+     "id": "chopped-coriander-leaves",
+     "name": "chopped coriander leaves, to garnish",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the dal, and cook in the water with the salt until absolutely tender and soft, with no grains remaining.",
+     "relatedIngredientIds": [
+      "water",
+      "salt"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add sambhar masala, sugar and vegetables, including the onions, and cook until the vegetables are tender. Add the tamarind after the vegetables are tenderly cooked.",
+     "relatedIngredientIds": [
+      "sambhar-masala",
+      "sugar",
+      "cubed-mixed-vegetables",
+      "big-onion"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat oil in a saucepan, and add the mustard seeds. When they splutter, add the whole red peppers and the curry leaves.",
+     "relatedIngredientIds": [
+      "mustard-seeds",
+      "whole-dry-red-chile-pepp",
+      "leaves-of-curry-leaves",
+      "chopped-coriander-leaves"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir 2–3 times, then add the dal mixture. Bring to a boil, and then simmer for about 5 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "stir",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Garnish with the coriander leaves.",
+     "relatedIngredientIds": [
+      "leaves-of-curry-leaves",
+      "chopped-coriander-leaves"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Sambar_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "yogurt-curry-soup-kadhi",
+   "title": "Yogurt Curry Soup (Kadhi)",
+   "description": "Tangy chickpea-flour and yogurt soup with a ghee and cumin tempering.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "chickpea-flour",
+     "name": "chickpea flour (besan)",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "curds-yogurt",
+     "name": "curds/yogurt (dahi)",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "ginger-green-chilli-past",
+     "name": "ginger-green chilli paste",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves (kadi patta)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ghee",
+     "name": "ghee (clarified butter)",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds (jeera)",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "mustard-seeds",
+     "name": "mustard seeds (rai/sarson)",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "asafoetida",
+     "name": "asafoetida (hing)",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "red-chilli",
+     "name": "red chilli, broken into pieces",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "chopped-fresh-coriander",
+     "name": "chopped fresh coriander (dhania)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine the gram flour, curds and 3 teacups of water in a pot. Beat well.",
+     "relatedIngredientIds": [
+      "chickpea-flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the chilli-ginger paste, curry leaves, sugar, and salt. Bring to a boil.",
+     "relatedIngredientIds": [
+      "ginger-green-chilli-past",
+      "curry-leaves",
+      "sugar",
+      "red-chilli"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Boil whilst stirring for a while.",
+     "relatedIngredientIds": [],
+     "animation": "boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the ghee in a pan, add the cumin and mustard seeds, and toast until light brown. Don't let burn.",
+     "relatedIngredientIds": [
+      "ghee",
+      "cumin-seeds",
+      "mustard-seeds"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the asafoetida and red chilli.",
+     "relatedIngredientIds": [
+      "asafoetida",
+      "red-chilli"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the seasoning mixture to the curry, and boil for a few minutes.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Sprinkle coriander on top and serve hot.",
+     "relatedIngredientIds": [
+      "chopped-fresh-coriander"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Yogurt_Curry_Soup_(Kadhi)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "khichdi-south-asian-rice-and-lentils",
+   "title": "Khichdi",
+   "description": "Comforting pressure-cooked rice and lentils with turmeric.",
+   "prepTime": 25,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "teacup-rice",
+     "name": "teacup rice",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "teacup-dal",
+     "name": "teacup dal",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash rice and lentils and soak them for 10–15 minutes in water.",
+     "relatedIngredientIds": [
+      "teacup-rice"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add salt and turmeric powder.",
+     "relatedIngredientIds": [
+      "turmeric-powder"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pressure cook with 3–4 cups of water.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "After the first whistle, reduce the heat and cook for 4–5 more minutes.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Allow to cool. Serve with ghee or buttermilk.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Khichdi_(South_Asian_Rice_and_Lentils)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "mango-and-yellow-split-pea-curry",
+   "title": "Mango and Yellow Split Pea Curry",
+   "description": "Toor dal and mango curry with mustard, cumin and fenugreek.",
+   "prepTime": 15,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "toor-dal",
+     "name": "toor dal",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "mango",
+     "name": "mango (or fresh mango if available), sliced",
+     "amount": 2.0,
+     "unit": "can"
+    },
+    {
+     "id": "onion",
+     "name": "onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "galangal-or-ginger",
+     "name": "galangal or ginger",
+     "amount": 1.0,
+     "unit": "clove"
+    },
+    {
+     "id": "garlic-paste",
+     "name": "garlic paste",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ghee",
+     "name": "ghee",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "hing-powder",
+     "name": "hing powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric",
+     "name": "turmeric",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "chilli-powder",
+     "name": "chilli powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "mustard-seeds",
+     "name": "mustard seeds",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin",
+     "name": "cumin",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fenugreek-leaves",
+     "name": "fenugreek leaves",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak dal over night.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Boil dal in water. Rinse, drain, and keep in separate container.",
+     "relatedIngredientIds": [],
+     "animation": "boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Boil mango slices in their juice. Add boiled dal and add additional water if required.",
+     "relatedIngredientIds": [
+      "mango"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In a separate pan, sauté onion, ginger paste, and garlic paste in oil until golden brown.",
+     "relatedIngredientIds": [
+      "onion",
+      "galangal-or-ginger",
+      "garlic-paste"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "In a separate pan heat ghee, hing, turmeric, garam masala, chilli powder, mustard seeds, and cumin.",
+     "relatedIngredientIds": [
+      "ghee",
+      "hing-powder",
+      "turmeric",
+      "garam-masala",
+      "chilli-powder",
+      "mustard-seeds",
+      "cumin"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add all mixtures together in boiling mango and dal pot.",
+     "relatedIngredientIds": [
+      "mango"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add fenugreek leaves, and continue boiling.",
+     "relatedIngredientIds": [
+      "fenugreek-leaves"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Allow to cool and serve with rotis or naan and rice.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Mango_and_Yellow_Split_Pea_Curry",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "indian-potatoes",
+   "title": "Indian Potatoes",
+   "description": "Potatoes simmered in coconut milk, tomato and garlic.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "small-potatoes",
+     "name": "small potatoes, peeled and cut in half",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "small-cans-coconut-milk",
+     "name": "small cans coconut milk",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes",
+     "amount": 0.5,
+     "unit": "can"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "red-pepper-flakes",
+     "name": "red pepper flakes",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "olive-oil",
+     "name": "Olive oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Sauté the garlic in olive oil.",
+     "relatedIngredientIds": [
+      "garlic",
+      "olive-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add tomatoes. Cook for 10 minutes, until the oil and tomatoes separate (they will bubble).",
+     "relatedIngredientIds": [
+      "tomatoes"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the coconut milk.",
+     "relatedIngredientIds": [
+      "small-cans-coconut-milk"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add ½ teaspoon red pepper, and salt to taste. Boil it all together.",
+     "relatedIngredientIds": [
+      "salt-to-taste"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the potatoes. Cook over low-medium heat until the potatoes are done. They will become fairly soft; check with a fork.",
+     "relatedIngredientIds": [
+      "small-potatoes"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Indian_Potatoes",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "indian-beans",
+   "title": "Indian Beans",
+   "description": "Lentils and kidney beans cooked with onion, tomato and spices.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "lentils",
+     "name": "lentils",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "kidney-beans",
+     "name": "kidney beans",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "onion",
+     "name": "onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes",
+     "amount": 0.5,
+     "unit": "can"
+    },
+    {
+     "id": "paprika",
+     "name": "paprika",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin",
+     "name": "cumin",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric",
+     "name": "turmeric",
+     "amount": 1.0,
+     "unit": "pinch"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Chop and sauté the onion.",
+     "relatedIngredientIds": [
+      "onion"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the tomatoes.",
+     "relatedIngredientIds": [
+      "tomatoes"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add all the spices.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the lentils and kidney beans.",
+     "relatedIngredientIds": [
+      "lentils",
+      "kidney-beans"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cook everything for 20 minutes over medium heat.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Indian_Beans",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "sindhi-spiced-moong-dal",
+   "title": "Sindhi Spiced Moong Dal",
+   "description": "Yellow moong dal cooked with green chillies and ginger.",
+   "prepTime": 70,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "yellow-moong-dal",
+     "name": "yellow moong dal",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "green-chiles",
+     "name": "green chiles",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "fresh-whole-ginger",
+     "name": "fresh whole ginger",
+     "amount": 8.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "coriander-powder",
+     "name": "coriander powder",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "ground-pepper",
+     "name": "ground pepper",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "red-chile-powder",
+     "name": "red chile powder",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "oil",
+     "name": "Oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the dal in water for 1 hour. Drain.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine the dal, chiles, and ginger in a pot. Do not add salt.",
+     "relatedIngredientIds": [
+      "green-chiles",
+      "fresh-whole-ginger"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cover the dal with water. Boil in a pressure cooker for at least 3–4 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 240,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Transfer the dal to a bowl. Season with salt, coriander, and pepper.",
+     "relatedIngredientIds": [
+      "ground-pepper"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Sprinkle with chili powder, and drizzle with some oil.",
+     "relatedIngredientIds": [
+      "coriander-powder",
+      "red-chile-powder"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Sindhi_Spiced_Moong_Dal",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "khatti-dal-spiced-tamarind-pigeon-peas",
+   "title": "Khatti Dal",
+   "description": "Tangy tamarind toor dal tempered with mustard, cumin and curry leaves.",
+   "prepTime": 15,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "toor-daal",
+     "name": "toor daal (split pigeon peas)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger-paste",
+     "name": "ginger paste",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "garlic-paste",
+     "name": "garlic paste",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "diced-or-crushed-tomato",
+     "name": "diced or crushed tomato",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "pieces-whole-tamarind",
+     "name": "pieces whole tamarind",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "red-chilli-powder",
+     "name": "red chilli powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric",
+     "name": "turmeric",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "mustard-seeds",
+     "name": "mustard seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds (jeera)",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "curry-leaves",
+     "name": "Curry leaves",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "coriander-leaves",
+     "name": "Coriander leaves (cilantro) for garnish",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash toor daal and boil for about 20 minutes until soft. Drain and smash the dal.",
+     "relatedIngredientIds": [
+      "toor-daal"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a kadai, heat the oil until hot. Add curry leaves, mustard seeds and jeera seeds. Fry for a minute. They will pop at first, so a cover will help to avoid a mess.",
+     "relatedIngredientIds": [
+      "mustard-seeds",
+      "cumin-seeds",
+      "curry-leaves",
+      "coriander-leaves"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add onion and fry until slightly brown.",
+     "relatedIngredientIds": [
+      "onion"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add ginger and garlic paste. Fry for a minute, then add the tomatoes. Cook until the oil separates.",
+     "relatedIngredientIds": [
+      "ginger-paste",
+      "garlic-paste",
+      "diced-or-crushed-tomato"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add tamarind pieces, turmeric powder, and red chilli powder. Cook it for 4–5 minutes.",
+     "relatedIngredientIds": [
+      "pieces-whole-tamarind",
+      "red-chilli-powder",
+      "turmeric"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the toor daal and enough water for your desired thickness.",
+     "relatedIngredientIds": [
+      "toor-daal"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add salt to taste, and garnish with coriander leaves.",
+     "relatedIngredientIds": [
+      "curry-leaves",
+      "salt-to-taste",
+      "coriander-leaves"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve with a roti or poured over rice.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Khatti_Dal_(Spiced_Tamarind_Pigeon_Peas)",
+   "credit": "Wikibooks Cookbook contributors"
+  }
+ ]
+}

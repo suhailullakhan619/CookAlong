@@ -1,0 +1,3195 @@
+{
+ "recipes": [
+  {
+   "id": "rasam",
+   "title": "Rasam",
+   "description": "Thin, peppery South Indian tamarind and tomato soup, served over rice.",
+   "prepTime": 15,
+   "cookTime": 40,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "south-indian",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "coriander-seeds",
+     "name": "coriander seeds",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dried-red-chillies",
+     "name": "dried red chillies",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "asafoetida",
+     "name": "asafoetida",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "toor-dal",
+     "name": "toor dal",
+     "amount": 14.0,
+     "unit": "g"
+    },
+    {
+     "id": "turmeric",
+     "name": "turmeric",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "tamarind-paste",
+     "name": "tamarind paste",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar-or-jaggery",
+     "name": "sugar or jaggery",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ghee",
+     "name": "ghee",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "black-mustard-seeds",
+     "name": "black mustard seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "urad-dal",
+     "name": "urad dal",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "chopped-coriander-leaves",
+     "name": "chopped coriander leaves",
+     "amount": 1.0,
+     "unit": "handful"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "For the rasam powder, toast the coriander seeds, 4 of the chillies, the cumin and the asafoetida in the oil until lightly browned.",
+     "relatedIngredientIds": [
+      "oil",
+      "coriander-seeds",
+      "dried-red-chillies",
+      "cumin-seeds",
+      "asafoetida"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Grind the toasted spices to a powder.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Wash the toor dal until the water runs clear.",
+     "relatedIngredientIds": [
+      "toor-dal"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cook the dal with double its volume of water and the turmeric for 30 minutes, until mushy.",
+     "relatedIngredientIds": [
+      "toor-dal",
+      "turmeric"
+     ],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Quarter the tomatoes and bring them to the boil in a saucepan of water.",
+     "relatedIngredientIds": [
+      "tomatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the tamarind, salt and sugar, a little tamarind at a time.",
+     "relatedIngredientIds": [
+      "tamarind-paste",
+      "sugar-or-jaggery",
+      "salt"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When the tomatoes are half cooked, add the cooked dal and 4-5 tsp of the rasam powder. Simmer for 5 minutes.",
+     "relatedIngredientIds": [
+      "toor-dal",
+      "tomatoes"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Heat the ghee in a small pan. Fry the mustard seeds, urad dal, remaining chillies and curry leaves until the dal browns.",
+     "relatedIngredientIds": [
+      "dried-red-chillies",
+      "ghee",
+      "black-mustard-seeds",
+      "urad-dal",
+      "curry-leaves"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Pour the seasoning into the rasam and stir it through.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Add the coriander leaves and serve with hot boiled rice.",
+     "relatedIngredientIds": [
+      "chopped-coriander-leaves"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Rasam_(Tamarind_and_Tomato_Soup)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "aloo-tikki",
+   "title": "Aloo Tikki (Twice-Fried)",
+   "description": "Potato halves deep-fried until tender, pressed flat, fried again till golden and dusted with spices.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "north-indian",
+    "snack",
+    "street-food"
+   ],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "red-chilli-powder",
+     "name": "red chilli powder",
+     "amount": 2.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "coriander-powder",
+     "name": "coriander powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "amchur",
+     "name": "amchur (dried mango powder)",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "oil",
+     "name": "oil, for deep frying",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel and halve the potatoes, then sprinkle them with salt.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "salt"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the oil for deep frying. Fry the potatoes over low heat until tender, then lift them out and let them cool.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Place the potatoes on a board and gently flatten each one with the palm of your hand.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Deep fry the flattened potatoes again until golden.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Sprinkle each with a little red chilli powder, amchur and coriander powder, and serve hot.",
+     "relatedIngredientIds": [
+      "red-chilli-powder",
+      "coriander-powder",
+      "amchur"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Aloo_Tikki_(Spiced_Potato_Patties)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "banana-curry",
+   "title": "Banana Curry",
+   "description": "Firm bananas simmered gently in a creamy, lightly spiced milk sauce with cumin and turmeric.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "bananas",
+     "name": "bananas, slightly unripe",
+     "amount": 750.0,
+     "unit": "g"
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 125.0,
+     "unit": "ml"
+    },
+    {
+     "id": "fresh-cream",
+     "name": "fresh cream",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chilli-powder",
+     "name": "chilli powder",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the bananas and cut them into 2 cm slices.",
+     "relatedIngredientIds": [
+      "bananas"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the milk, fresh cream, garam masala, chilli powder, lemon juice and a little salt to the bananas.",
+     "relatedIngredientIds": [
+      "bananas",
+      "garam-masala",
+      "lemon-juice",
+      "milk",
+      "fresh-cream",
+      "chilli-powder",
+      "salt"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Melt the butter, add the cumin seeds and turmeric powder, and cook for 2 minutes over medium-low heat, until fragrant.",
+     "relatedIngredientIds": [
+      "cumin-seeds",
+      "turmeric-powder",
+      "butter"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the bananas and their sauce.",
+     "relatedIngredientIds": [
+      "bananas"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cook on a gentle flame until the bananas are just tender. Do not overcook.",
+     "relatedIngredientIds": [
+      "bananas"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Banana_Curry",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "indian-tomato-gravy",
+   "title": "Basic Indian Tomato Gravy",
+   "description": "Simple onion-tomato curry base with ginger, garlic and ground spices, ready for vegetables, eggs or chicken.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "tomatoes",
+     "name": "tomatoes, diced",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "onion, finely diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ghee",
+     "name": "ghee",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ginger-paste",
+     "name": "ginger paste",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, crushed",
+     "amount": 5.0,
+     "unit": "clove"
+    },
+    {
+     "id": "chilli-powder",
+     "name": "chilli powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "coriander-powder",
+     "name": "coriander powder",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin-powder",
+     "name": "cumin powder",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the ghee and fry the onion until it starts to brown.",
+     "relatedIngredientIds": [
+      "onion",
+      "ghee"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the ginger paste and garlic and stir, then add the chilli powder, coriander powder, cumin powder and turmeric powder. Mix well.",
+     "relatedIngredientIds": [
+      "ginger-paste",
+      "garlic",
+      "chilli-powder",
+      "coriander-powder",
+      "cumin-powder",
+      "turmeric-powder"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the tomatoes and salt to taste.",
+     "relatedIngredientIds": [
+      "tomatoes",
+      "salt"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Turn the heat to medium, cover and cook for 10 minutes, until it forms a thick, spicy gravy.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Use the gravy as a base for vegetables, boiled eggs, paneer or chicken, and serve with plain rice.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Basic_Indian_Tomato_Gravy",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pani-puri",
+   "title": "Pani Puri",
+   "description": "Crisp puris filled with potato, moong and tamarind chutney, then topped up with chilled spiced water.",
+   "prepTime": 30,
+   "cookTime": 30,
+   "servings": 3,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "snack",
+    "street-food"
+   ],
+   "ingredients": [
+    {
+     "id": "chaat-masala",
+     "name": "chaat masala",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "amchur",
+     "name": "amchur (dried mango powder)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "red-chilli-powder",
+     "name": "red chilli powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "coriander-powder",
+     "name": "coriander powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "jeera-powder",
+     "name": "jeera powder (ground cumin)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "hing",
+     "name": "hing (asafoetida)",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "black-salt",
+     "name": "black salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "chilled-water",
+     "name": "chilled water",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "moong-dal",
+     "name": "moong dal",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "tamarind",
+     "name": "tamarind",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "boondi",
+     "name": "boondi",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "coriander-leaves",
+     "name": "coriander leaves, chopped",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "small-puris",
+     "name": "small puris",
+     "amount": 15.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "For the pani, blend the chaat masala, amchur, jeera powder, coriander powder, red chilli powder, black pepper, hing, lemon juice and black salt with chilled water. Chill it.",
+     "relatedIngredientIds": [
+      "chaat-masala",
+      "amchur",
+      "red-chilli-powder",
+      "coriander-powder",
+      "jeera-powder",
+      "black-pepper",
+      "hing",
+      "lemon-juice",
+      "black-salt",
+      "chilled-water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Boil the potatoes and the moong dal separately until soft.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "moong-dal"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Peel the potatoes and roughly mash them.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Soak the tamarind in a little hot water, squeeze out the pulp and simmer it with the sugar into a thick chutney. Chill it.",
+     "relatedIngredientIds": [
+      "tamarind",
+      "sugar"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Break a small hole in the top of each puri.",
+     "relatedIngredientIds": [
+      "small-puris"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Fill each puri with potato, moong dal, a few boondi, coriander leaves and a little tamarind chutney.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "moong-dal",
+      "tamarind",
+      "boondi",
+      "coriander-leaves",
+      "small-puris"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour in the chilled pani and eat at once.",
+     "relatedIngredientIds": [
+      "chilled-water"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Bread_Filled_with_Potato_Curry_(Pani_Puri)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "chicken-tikka",
+   "title": "Chicken Tikka",
+   "description": "Boneless chicken cubes marinated in spiced yogurt, then skewered and grilled until cooked through.",
+   "prepTime": 500,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "indian",
+    "north-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "boneless-chicken-breast",
+     "name": "boneless chicken breast",
+     "amount": 675.0,
+     "unit": "g"
+    },
+    {
+     "id": "mustard-oil",
+     "name": "mustard oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 50.0,
+     "unit": "ml"
+    },
+    {
+     "id": "plain-yogurt",
+     "name": "plain yogurt",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "tomato-paste",
+     "name": "tomato paste",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "coriander-leaves",
+     "name": "coriander leaves, chopped",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, finely chopped",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "fresh-red-chillies",
+     "name": "fresh red chillies, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "paprika",
+     "name": "paprika",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin-powder",
+     "name": "cumin powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric",
+     "name": "turmeric",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the chicken breast into bite-sized cubes.",
+     "relatedIngredientIds": [
+      "boneless-chicken-breast"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a non-metal bowl, mix the mustard oil, milk, yogurt, lemon juice, tomato paste, coriander leaves, garlic, red chillies, paprika, garam masala, cumin powder, turmeric and salt.",
+     "relatedIngredientIds": [
+      "mustard-oil",
+      "milk",
+      "plain-yogurt",
+      "lemon-juice",
+      "tomato-paste",
+      "coriander-leaves",
+      "garlic",
+      "fresh-red-chillies",
+      "paprika",
+      "garam-masala",
+      "cumin-powder",
+      "turmeric",
+      "salt"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the chicken and mix until fully coated.",
+     "relatedIngredientIds": [
+      "boneless-chicken-breast"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cover and marinate in the fridge overnight, ideally for 24 hours.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Thread the chicken onto skewers.",
+     "relatedIngredientIds": [
+      "boneless-chicken-breast"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Grill the chicken under a medium grill for 8 minutes.",
+     "relatedIngredientIds": [
+      "boneless-chicken-breast"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 480,
+     "timerLabel": "Grill"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Turn the skewers and grill the other side of the chicken for 8 minutes, until cooked through.",
+     "relatedIngredientIds": [
+      "boneless-chicken-breast"
+     ],
+     "suggestedTimerSeconds": 480,
+     "timerLabel": "Grill"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Check that the chicken comes apart easily when pressed with a fork, then serve with naan or rice.",
+     "relatedIngredientIds": [
+      "boneless-chicken-breast"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Tikka",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "chana-dal-masala",
+   "title": "Chana Dal Masala",
+   "description": "Soaked chana dal cooked soft and tossed in a fried onion-tomato masala with chillies, ginger and pepper.",
+   "prepTime": 495,
+   "cookTime": 35,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "chana-dal",
+     "name": "chana dal",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "onions",
+     "name": "onions, finely chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes, chopped",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "green-chillies",
+     "name": "green chillies, finely chopped",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, minced",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "coriander-leaves",
+     "name": "coriander leaves, finely chopped",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "red-chilli-powder",
+     "name": "red chilli powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the chana dal in water overnight.",
+     "relatedIngredientIds": [
+      "chana-dal"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drain the chana dal and pressure cook it until tender. Drain well.",
+     "relatedIngredientIds": [
+      "chana-dal"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Fry the onions in hot oil until golden brown.",
+     "relatedIngredientIds": [
+      "onions",
+      "oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the tomatoes and fry until the oil separates.",
+     "relatedIngredientIds": [
+      "oil",
+      "tomatoes"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the green chillies, ginger and salt.",
+     "relatedIngredientIds": [
+      "green-chillies",
+      "ginger",
+      "salt"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the red chilli powder and the drained chana dal. Boil for 2 minutes.",
+     "relatedIngredientIds": [
+      "chana-dal",
+      "red-chilli-powder"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Stir in the black pepper and garam masala, and garnish with the coriander leaves.",
+     "relatedIngredientIds": [
+      "coriander-leaves",
+      "black-pepper",
+      "garam-masala"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve hot with roti or naan.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chola_and_Roti",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "churri",
+   "title": "Churri (Yogurt Herb Sauce)",
+   "description": "Cool blend of yogurt and buttermilk with ground mint, coriander, ginger, green chilli and toasted cumin.",
+   "prepTime": 10,
+   "cookTime": 5,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "north-indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-mint-leaves",
+     "name": "fresh mint leaves",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "coriander-leaves",
+     "name": "coriander leaves",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, 2 cm piece",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "green-chillies",
+     "name": "green chillies",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "plain-yogurt",
+     "name": "plain yogurt",
+     "amount": 300.0,
+     "unit": "ml"
+    },
+    {
+     "id": "buttermilk",
+     "name": "buttermilk",
+     "amount": 300.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "onion",
+     "name": "onion",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Toast the cumin seeds in a dry pan over medium heat until fragrant, without letting them burn.",
+     "relatedIngredientIds": [
+      "cumin-seeds"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Grind the toasted cumin seeds in a mortar.",
+     "relatedIngredientIds": [
+      "cumin-seeds"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Chop the mint leaves, coriander leaves, ginger and green chillies, then grind them to a paste.",
+     "relatedIngredientIds": [
+      "fresh-mint-leaves",
+      "coriander-leaves",
+      "ginger",
+      "green-chillies"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the yogurt, buttermilk and salt and mix everything together well.",
+     "relatedIngredientIds": [
+      "plain-yogurt",
+      "buttermilk",
+      "salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Chop the onion and stir it in with the ground cumin seeds.",
+     "relatedIngredientIds": [
+      "cumin-seeds",
+      "onion"
+     ],
+     "animation": "chop"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Churri_(Indian_Yogurt_Herb_Sauce)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "coconut-chutney-north-indian",
+   "title": "Coconut Chutney (North Indian)",
+   "description": "Fresh coconut ground with green chilli, garlic and coriander leaves into a quick, punchy chutney.",
+   "prepTime": 10,
+   "cookTime": 0,
+   "servings": 6,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "north-indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "fresh-coconut",
+     "name": "fresh coconut, grated",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "green-chillies",
+     "name": "green chillies, split",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 5.0,
+     "unit": "clove"
+    },
+    {
+     "id": "coriander-leaves",
+     "name": "coriander leaves, chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 0.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the coconut, green chillies, garlic, coriander leaves, salt and water in a blender.",
+     "relatedIngredientIds": [
+      "fresh-coconut",
+      "green-chillies",
+      "garlic",
+      "coriander-leaves",
+      "salt",
+      "water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Grind everything well into a smooth chutney.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Serve fresh; keep leftovers in the fridge and use within 2 days.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Coconut_Chutney_(North_Indian)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "coriander-chutney",
+   "title": "Coriander Chutney",
+   "description": "Fresh green chutney of coriander leaves, onion, green chilli, cumin and lemon, blended to a fine paste.",
+   "prepTime": 10,
+   "cookTime": 0,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "north-indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "coriander-leaves",
+     "name": "coriander leaves",
+     "amount": 1.0,
+     "unit": "handful"
+    },
+    {
+     "id": "green-chillies",
+     "name": "green chillies",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "small-onion",
+     "name": "small onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "lemon",
+     "name": "lemon, juiced",
+     "amount": 0.5,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the coriander leaves well.",
+     "relatedIngredientIds": [
+      "coriander-leaves"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Finely chop the onion, green chillies and coriander leaves.",
+     "relatedIngredientIds": [
+      "coriander-leaves",
+      "green-chillies",
+      "small-onion"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the salt, cumin seeds and the juice of the lemon.",
+     "relatedIngredientIds": [
+      "cumin-seeds",
+      "salt",
+      "lemon"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Blend everything to a fine paste.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Coriander_Chutney",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "mirchi-ka-salan",
+   "title": "Mirchi ka Salan",
+   "description": "Hyderabadi curry of fried green chillies in a nutty sesame, poppy seed and coconut gravy soured with tamarind.",
+   "prepTime": 15,
+   "cookTime": 40,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "south-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "khus-khus",
+     "name": "khus khus (poppy seeds)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "til",
+     "name": "til (sesame seeds)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "coriander-seeds",
+     "name": "coriander seeds",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "desiccated-coconut",
+     "name": "desiccated coconut",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 5.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "medium-green-chillies",
+     "name": "medium green chillies",
+     "amount": 0.5,
+     "unit": "kg"
+    },
+    {
+     "id": "dried-red-chillies",
+     "name": "dried red chillies",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "methi-seeds",
+     "name": "methi seeds (fenugreek)",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves",
+     "amount": 7.0,
+     "unit": ""
+    },
+    {
+     "id": "large-onions",
+     "name": "large onions, finely chopped",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "red-chilli-powder",
+     "name": "red chilli powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "haldi",
+     "name": "haldi (turmeric powder)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ginger-garlic-paste",
+     "name": "ginger garlic paste",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "kalonji",
+     "name": "kalonji (nigella seeds)",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "tamarind-juice",
+     "name": "tamarind juice",
+     "amount": 0.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Lightly dry-roast the khus khus, til, coriander seeds, cumin seeds and desiccated coconut, then grind them in a mortar and pestle.",
+     "relatedIngredientIds": [
+      "khus-khus",
+      "til",
+      "coriander-seeds",
+      "cumin-seeds",
+      "desiccated-coconut"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the oil in a frying pan and stir-fry the green chillies with a little salt. Lift them out, drain and keep aside.",
+     "relatedIngredientIds": [
+      "oil",
+      "medium-green-chillies",
+      "salt"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat a little of the oil in a pan. Add the dried red chillies, methi seeds and a few curry leaves and fry until they pop.",
+     "relatedIngredientIds": [
+      "oil",
+      "dried-red-chillies",
+      "methi-seeds",
+      "curry-leaves"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the onions and fry until golden brown.",
+     "relatedIngredientIds": [
+      "large-onions"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix in the ground spices, red chilli powder, haldi, ginger garlic paste and kalonji. Stir well and cook for 2 minutes.",
+     "relatedIngredientIds": [
+      "red-chilli-powder",
+      "haldi",
+      "ginger-garlic-paste",
+      "kalonji"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the tamarind juice and cook for 1 minute.",
+     "relatedIngredientIds": [
+      "tamarind-juice"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the fried green chillies and the remaining curry leaves, and simmer for 20 minutes.",
+     "relatedIngredientIds": [
+      "medium-green-chillies",
+      "curry-leaves"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve with biryani or plain rice.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Curried_Chiles_(Mirchi_ka_Salan)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "dal-makhani",
+   "title": "Dal Makhani",
+   "description": "Punjabi black urad dal and rajma, slow-simmered in a tomato masala and finished with cream and ghee.",
+   "prepTime": 490,
+   "cookTime": 75,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "north-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "whole-urad-dal",
+     "name": "whole urad dal (black gram)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "rajma",
+     "name": "rajma (kidney beans)",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 6.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "red-chilli-powder",
+     "name": "red chilli powder",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "grated-ginger",
+     "name": "grated ginger",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "hing",
+     "name": "hing (asafoetida)",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cinnamon-stick",
+     "name": "cinnamon stick",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "laung",
+     "name": "laung (cloves)",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "onion, finely chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger-garlic-paste",
+     "name": "ginger garlic paste",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes, finely chopped",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "coriander-powder",
+     "name": "coriander powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-cream",
+     "name": "fresh cream",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "ghee",
+     "name": "ghee",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "coriander-leaves",
+     "name": "coriander leaves, chopped",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the urad dal and rajma and soak them overnight in lukewarm water.",
+     "relatedIngredientIds": [
+      "whole-urad-dal",
+      "rajma",
+      "water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drain, then cook the dal and rajma in the water with salt, red chilli powder, turmeric powder and grated ginger until soft. Keep aside.",
+     "relatedIngredientIds": [
+      "whole-urad-dal",
+      "rajma",
+      "water",
+      "salt",
+      "red-chilli-powder",
+      "turmeric-powder",
+      "grated-ginger"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil in a heavy pan. Add the hing, bay leaves, cinnamon stick, laung and onion, and fry until golden brown.",
+     "relatedIngredientIds": [
+      "oil",
+      "hing",
+      "bay-leaves",
+      "cinnamon-stick",
+      "laung",
+      "onion"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the ginger garlic paste and sauté briefly.",
+     "relatedIngredientIds": [
+      "ginger-garlic-paste"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the tomatoes and coriander powder, and sauté until the tomatoes are well mashed.",
+     "relatedIngredientIds": [
+      "tomatoes",
+      "coriander-powder"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the cooked dal and a little water as needed. Mix well and simmer for 20 minutes.",
+     "relatedIngredientIds": [
+      "whole-urad-dal",
+      "water"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Stir in the fresh cream and ghee and simmer for 5 minutes more.",
+     "relatedIngredientIds": [
+      "fresh-cream",
+      "ghee"
+     ],
+     "animation": "stir",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Garnish with the coriander leaves and serve hot with naan, paratha or rice.",
+     "relatedIngredientIds": [
+      "coriander-leaves"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Dal_Makhani_(Black_Gram_with_Cream)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "cheeyam",
+   "title": "Cheeyam (Sweet Chana Dal Balls)",
+   "description": "Tamil sweet of chana dal and jaggery dough balls, dipped in a thin maida batter and deep-fried golden.",
+   "prepTime": 510,
+   "cookTime": 40,
+   "servings": 10,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "south-indian",
+    "sweet",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "kadalai-paruppu",
+     "name": "kadalai paruppu (chana dal)",
+     "amount": 0.5,
+     "unit": "kg"
+    },
+    {
+     "id": "vellam",
+     "name": "vellam (jaggery)",
+     "amount": 0.5,
+     "unit": "kg"
+    },
+    {
+     "id": "cardamom-pods",
+     "name": "cardamom pods (elakkai)",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "maida",
+     "name": "maida (refined flour)",
+     "amount": 0.5,
+     "unit": "kg"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "oil",
+     "name": "oil, for deep frying",
+     "amount": 1.0,
+     "unit": "l"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the kadalai paruppu in plenty of water for at least 8 hours; it doubles in size.",
+     "relatedIngredientIds": [
+      "kadalai-paruppu",
+      "water"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pressure cook the kadalai paruppu with water for 9 minutes, then let the pressure drop on its own.",
+     "relatedIngredientIds": [
+      "kadalai-paruppu",
+      "water"
+     ],
+     "suggestedTimerSeconds": 540,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Drain well, then grind with the vellam and cardamom pods, without adding water, into a thick dough.",
+     "relatedIngredientIds": [
+      "vellam",
+      "cardamom-pods",
+      "water"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Roll the dough into small balls.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Whisk the maida with water and salt into a thin batter.",
+     "relatedIngredientIds": [
+      "maida",
+      "water",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat the oil in a deep pan until a small piece of dough floats and bubbles when dropped in.",
+     "relatedIngredientIds": [
+      "oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Dip each ball in the batter and deep fry a few at a time until golden.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Deep_Fried_Chickpea_Dough_Balls_(Chyueeam)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "gobi-bhaji",
+   "title": "Gobi Bhaji (Cauliflower Stew)",
+   "description": "Cauliflower pressure-cooked in a spicy onion-tomato masala with green chillies, ginger and garam masala.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 3,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "cauliflower",
+     "name": "cauliflower",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "onions",
+     "name": "onions, finely chopped",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes, chopped",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "green-chillies",
+     "name": "green chillies, finely chopped",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, finely chopped",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "red-chilli-powder",
+     "name": "red chilli powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "coriander-leaves",
+     "name": "coriander leaves, finely chopped",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Boil the cauliflower in water for 5 minutes. Drain and cut it into big pieces.",
+     "relatedIngredientIds": [
+      "cauliflower"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat some oil in a pressure cooker and add the onions.",
+     "relatedIngredientIds": [
+      "oil",
+      "onions"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the tomatoes and fry until the oil separates.",
+     "relatedIngredientIds": [
+      "oil",
+      "tomatoes"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the cauliflower, green chillies and ginger.",
+     "relatedIngredientIds": [
+      "cauliflower",
+      "green-chillies",
+      "ginger"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the red chilli powder and a little water. Pressure cook for 7 minutes.",
+     "relatedIngredientIds": [
+      "red-chilli-powder"
+     ],
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Stir in the garam masala, black pepper and salt, and garnish with the coriander leaves.",
+     "relatedIngredientIds": [
+      "coriander-leaves",
+      "garam-masala",
+      "black-pepper",
+      "salt"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve with chapati, naan or pulao.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Gobi_Bhagi_(Spiced_Cauliflower_Stew)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "aam-panna",
+   "title": "Aam Panna",
+   "description": "Tangy summer drink concentrate of cooked green mango, roasted cumin, mint and rock salt.",
+   "prepTime": 20,
+   "cookTime": 15,
+   "servings": 20,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "north-indian",
+    "drink"
+   ],
+   "ingredients": [
+    {
+     "id": "green-mangoes",
+     "name": "green mangoes, medium",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "rock-salt",
+     "name": "rock salt",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "roasted-cumin-seeds",
+     "name": "roasted cumin seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "roasted-chilli",
+     "name": "roasted chilli",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "fresh-mint-leaves",
+     "name": "fresh mint leaves",
+     "amount": 1.0,
+     "unit": "handful"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut each green mango into 3 pieces: one from each side of the seed and one with the seed.",
+     "relatedIngredientIds": [
+      "green-mangoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pressure cook the mangoes with a small cup of water, turning off the heat at the first whistle.",
+     "relatedIngredientIds": [
+      "green-mangoes"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Let the cooker rest for 7 minutes, then open it and let the mangoes cool.",
+     "relatedIngredientIds": [
+      "green-mangoes"
+     ],
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Grind the sugar, roasted cumin seeds and roasted chilli in a food processor.",
+     "relatedIngredientIds": [
+      "sugar",
+      "roasted-cumin-seeds",
+      "roasted-chilli"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mince the mint leaves in the food processor.",
+     "relatedIngredientIds": [
+      "fresh-mint-leaves"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Squeeze the pulp of the cooled mangoes into a blender, discarding the skins and seeds.",
+     "relatedIngredientIds": [
+      "green-mangoes"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Purée the mango pulp until smooth.",
+     "relatedIngredientIds": [
+      "green-mangoes"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the ground sugar mixture, rock salt and mint leaves, and blend well.",
+     "relatedIngredientIds": [
+      "sugar",
+      "rock-salt",
+      "fresh-mint-leaves"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Pour into a clean bottle and refrigerate; it keeps for about 2 weeks.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "To serve, stir 4-5 tsp of the concentrate into a glass of water.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Green_Mango_and_Cumin_Drink_(Aam_Panna)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "baati",
+   "title": "Baati (Rajasthani Hard Bread)",
+   "description": "Dense, unleavened wheat discs kneaded very firm, cooked in a dry pan, charred lightly and served with ghee.",
+   "prepTime": 20,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "north-indian",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "wheat-flour",
+     "name": "wheat flour",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ghee",
+     "name": "ghee",
+     "amount": 1.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the wheat flour and salt.",
+     "relatedIngredientIds": [
+      "wheat-flour",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Working with about 1 cup of the flour mixture at a time, rub in a little of the oil, breaking up any lumps.",
+     "relatedIngredientIds": [
+      "wheat-flour",
+      "oil"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add water 1 tbsp at a time and knead very hard until the dough holds in a firm, compact ball. Repeat with the rest.",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Let the dough balls rest for 5 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Flatten each ball by hand, then roll into smooth discs about 10 cm across and 1 cm thick.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cook in a dry pan on a low flame. Flip once the bottom starts to harden, then pinch the top all over with two fingers.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When the bottom browns in spots, turn the baati upside-down onto a wire grate over the flame to blacken the bumps a little.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Drizzle with the ghee and serve with dal or a vegetable dish.",
+     "relatedIngredientIds": [
+      "ghee"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Indian_Hard_Tack_(Baati)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "jeera-rice-cashews",
+   "title": "Jeera Rice with Cashews",
+   "description": "Basmati rice cooked with cumin seeds, raisins and cashews for an easy, fragrant side dish.",
+   "prepTime": 5,
+   "cookTime": 20,
+   "servings": 6,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "rice",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "raisins",
+     "name": "raisins",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "cashews",
+     "name": "cashews",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "basmati-rice",
+     "name": "basmati rice",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 4.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the olive oil in a pot.",
+     "relatedIngredientIds": [
+      "olive-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the cumin seeds, then the raisins and cashews. Sauté for 2 minutes.",
+     "relatedIngredientIds": [
+      "cumin-seeds",
+      "raisins",
+      "cashews"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the basmati rice and sauté for 1 more minute.",
+     "relatedIngredientIds": [
+      "basmati-rice"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the water and bring everything to the boil.",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Lower the heat, cover and cook for 12 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 720,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Indian_Rice",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "nimbu-achar",
+   "title": "Lemon Pickle (Nimbu Achar)",
+   "description": "Oil-free lemon pickle with roasted mustard, methi and chilli, matured in the sun for a month or more.",
+   "prepTime": 25,
+   "cookTime": 5,
+   "servings": 20,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "small-lemons",
+     "name": "small lemons",
+     "amount": 12.0,
+     "unit": ""
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice (from 1 large lemon)",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "red-chilli-powder",
+     "name": "red chilli powder",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "methi-seeds",
+     "name": "methi seeds (fenugreek)",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "black-mustard-seeds",
+     "name": "black mustard seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "hing",
+     "name": "hing (asafoetida)",
+     "amount": 0.25,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the small lemons and dry them completely, leaving no water on them. Trim off the stalks.",
+     "relatedIngredientIds": [
+      "small-lemons"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut the lemons into 2 cm pieces and put them in a dry bowl.",
+     "relatedIngredientIds": [
+      "small-lemons"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Dry-roast the methi seeds, black mustard seeds and hing in a pan for about 5 minutes over medium heat, without burning them.",
+     "relatedIngredientIds": [
+      "methi-seeds",
+      "black-mustard-seeds",
+      "hing"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Roast"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Grind the roasted spices to a powder.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the ground spices, turmeric powder, salt, sugar, red chilli powder and lemon juice to the lemons. Mix well.",
+     "relatedIngredientIds": [
+      "lemon-juice",
+      "salt",
+      "red-chilli-powder",
+      "sugar",
+      "turmeric-powder"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pack into a clean, dry 2 litre jar, leaving at least 1 cm space at the top.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Put the jar in the sun each morning and bring it in each evening, for at least a month (two in winter), until it matures.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Lemon_Pickle_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "chunky-mango-chutney",
+   "title": "Chunky Mango Chutney",
+   "description": "Sweet-sour chutney of under-ripe mango, raisins and onion cooked down in cider vinegar with ginger and garlic.",
+   "prepTime": 20,
+   "cookTime": 40,
+   "servings": 10,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "firm-under-ripe-mangoes",
+     "name": "firm under-ripe mangoes",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "raisins",
+     "name": "raisins",
+     "amount": 75.0,
+     "unit": "g"
+    },
+    {
+     "id": "cider-vinegar",
+     "name": "cider vinegar",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "light-brown-sugar",
+     "name": "light brown sugar",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, finely chopped",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion, finely chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "fresh-ginger",
+     "name": "fresh ginger, minced",
+     "amount": 1.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cayenne",
+     "name": "cayenne",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper, freshly ground",
+     "amount": 0.25,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the mangoes and cut them into cubes.",
+     "relatedIngredientIds": [
+      "firm-under-ripe-mangoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Dissolve the brown sugar and salt in the cider vinegar and boil for 15 minutes.",
+     "relatedIngredientIds": [
+      "cider-vinegar",
+      "light-brown-sugar",
+      "salt"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the mangoes, raisins and onion and bring back to the boil.",
+     "relatedIngredientIds": [
+      "firm-under-ripe-mangoes",
+      "raisins",
+      "onion"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Reduce the heat to low and simmer the mangoes for 15 minutes, stirring constantly so they do not stick.",
+     "relatedIngredientIds": [
+      "firm-under-ripe-mangoes"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the garlic, ginger, cayenne and black pepper and simmer for 5 minutes.",
+     "relatedIngredientIds": [
+      "garlic",
+      "fresh-ginger",
+      "cayenne",
+      "black-pepper"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Take off the heat and let it cool before serving.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Store in the fridge for up to 6 months.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Mango_Chutney_(Chunky)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "aam-ki-chutney",
+   "title": "Aam ki Chutney (Mango Coconut)",
+   "description": "Fresh, uncooked chutney of ripe mango cubes with coconut, ginger, coriander, chilli and orange juice.",
+   "prepTime": 75,
+   "cookTime": 0,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "almost-ripe-mangoes",
+     "name": "almost-ripe mangoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "coconut",
+     "name": "coconut, finely chopped",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "coriander-leaves",
+     "name": "coriander leaves, chopped",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-ginger",
+     "name": "fresh ginger, finely chopped",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "cayenne pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-orange-juice",
+     "name": "fresh orange juice",
+     "amount": 3.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Slice the flesh off both sides of each mango stone, as close to the stone as possible, keeping the skin on.",
+     "relatedIngredientIds": [
+      "almost-ripe-mangoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Score each mango half in a criss-cross pattern down to the skin, making 1 cm squares.",
+     "relatedIngredientIds": [
+      "almost-ripe-mangoes"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Push the skin up from underneath to turn each half inside out, then cut the mango cubes off the skin into a small bowl.",
+     "relatedIngredientIds": [
+      "almost-ripe-mangoes"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the coconut, coriander leaves, ginger, cayenne pepper, orange juice and salt, and mix gently.",
+     "relatedIngredientIds": [
+      "coconut",
+      "coriander-leaves",
+      "fresh-ginger",
+      "salt",
+      "cayenne-pepper",
+      "fresh-orange-juice"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Chill in the fridge for 1-2 hours before serving.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Chill"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Mango_and_Coconut_Chutney_(Am_ki_Chatni)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "onion-chutney",
+   "title": "Onion Chutney",
+   "description": "South Indian red onion chutney with roasted chana dal, coconut, dried chillies and tamarind, for dosa or idli.",
+   "prepTime": 5,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "south-indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "chana-dal",
+     "name": "chana dal",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "red-onions",
+     "name": "red onions, coarsely chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "coconut-pieces",
+     "name": "coconut pieces, 2.5 cm each",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "tamarind-paste",
+     "name": "tamarind paste",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dried-red-chillies",
+     "name": "dried red chillies",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the oil in a shallow pan. Add the chana dal and stir until it is roasted.",
+     "relatedIngredientIds": [
+      "oil",
+      "chana-dal"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the red onions and stir-fry until transparent and golden brown at the edges.",
+     "relatedIngredientIds": [
+      "red-onions"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Turn off the heat and let the mixture cool for a few minutes.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Blend the onion mixture with the coconut, dried red chillies, tamarind paste and salt to a smooth paste, adding a few teaspoons of water if needed.",
+     "relatedIngredientIds": [
+      "red-onions",
+      "coconut-pieces",
+      "tamarind-paste",
+      "dried-red-chillies",
+      "salt"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Onion_Chutney",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "phulourie",
+   "title": "Phulourie (Split Pea Fritters)",
+   "description": "Indo-Caribbean fritters of ground split peas, garlic, cumin and turmeric, fried into small golden balls.",
+   "prepTime": 495,
+   "cookTime": 20,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "split-peas",
+     "name": "split peas",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "maida",
+     "name": "maida (plain flour)",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, crushed",
+     "amount": 3.0,
+     "unit": "clove"
+    },
+    {
+     "id": "egg",
+     "name": "egg, beaten",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "turmeric",
+     "name": "turmeric",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cumin",
+     "name": "ground cumin",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "oil",
+     "name": "oil, for deep frying",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the split peas overnight in lightly salted cold water.",
+     "relatedIngredientIds": [
+      "split-peas",
+      "salt",
+      "water"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drain the split peas and grind them finely in a mixer.",
+     "relatedIngredientIds": [
+      "split-peas"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix in the maida, baking powder, garlic, egg, salt, turmeric and ground cumin, adding enough water to make a thick dropping batter.",
+     "relatedIngredientIds": [
+      "maida",
+      "baking-powder",
+      "garlic",
+      "egg",
+      "salt",
+      "turmeric",
+      "ground-cumin",
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the oil for deep frying.",
+     "relatedIngredientIds": [
+      "oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Squeeze small dollops of batter between thumb and forefinger into the hot oil, making balls about 2 cm across.",
+     "relatedIngredientIds": [
+      "oil"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Fry until golden brown, then drain on kitchen paper.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve hot with dal or a sour chutney.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Phulourie_(Split_Pea_Fritters)",
+   "credit": "Wikibooks Cookbook contributors"
+  }
+ ]
+}

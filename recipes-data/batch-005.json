@@ -1,0 +1,2841 @@
+{
+ "recipes": [
+  {
+   "id": "crunchy-coated-chicken-breasts",
+   "title": "Crunchy Coated Chicken Breasts",
+   "description": "Oven-baked chicken breasts with a crunchy coating.",
+   "prepTime": 15,
+   "cookTime": 30,
+   "servings": 5,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "boneless",
+     "name": "boneless, skinless chicken breasts, about 6 ounces each",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "saltine-crackers",
+     "name": "Saltine crackers",
+     "amount": 55.0,
+     "unit": ""
+    },
+    {
+     "id": "grated-parmesan-cheese",
+     "name": "grated Parmesan cheese",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "dried-thyme",
+     "name": "dried thyme",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dijon-mustard",
+     "name": "Dijon mustard (optionally substitute honey mustard)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 400º F",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Line a baking sheet with aluminum foil",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Crush the crackers into a medium bowl.",
+     "relatedIngredientIds": [
+      "saltine-crackers"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the thyme, Parmesan cheese, and generously salt and pepper. Drizzle with the olive oil and mix well.",
+     "relatedIngredientIds": [
+      "grated-parmesan-cheese",
+      "dried-thyme",
+      "olive-oil"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Place chicken breasts on cutting board to trim fat and tenderize till flat and even.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cover the bottom of a large plate with a layer of the crumb mixture.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Salt and pepper both sides of one chicken breast. Coat one side with mustard. Place mustard side down on crumb mixture, then coat the exposed with mustard and pat with crumb mix.",
+     "relatedIngredientIds": [
+      "dijon-mustard"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Repeat for the other chicken breasts.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Bake for ~ 18 minutes, or until juices run clear and the chicken is fully cooked through.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1080,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/crunchy-coated-chicken-breasts/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "easy-chicken-and-rice-casserole",
+   "title": "Easy Chicken and Rice Casserole",
+   "description": "Easy one-dish chicken and rice bake.",
+   "prepTime": 5,
+   "cookTime": 40,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "quick",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "onion",
+     "name": "Onion, chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "celery",
+     "name": "Celery, chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "butter-or-margarine",
+     "name": "Butter or margarine",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chicken",
+     "name": "Chicken, cooked and chopped",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "hot-water",
+     "name": "Hot water",
+     "amount": 1.75,
+     "unit": "cup"
+    },
+    {
+     "id": "long-grain-white-rice",
+     "name": "Long Grain White Rice",
+     "amount": 0.667,
+     "unit": "cup"
+    },
+    {
+     "id": "mushrooms-with-liquid",
+     "name": "Mushrooms with liquid",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "frozen-peas-and-carrots",
+     "name": "Frozen Peas and Carrots",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "dried-thyme-and-rosemary",
+     "name": "Dried Thyme and Rosemary",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In large fry pan, cook onion and celery in butter until soft.",
+     "relatedIngredientIds": [
+      "onion",
+      "celery"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Stir in remaining ingredients.",
+     "relatedIngredientIds": [],
+     "animation": "stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bake in covered 8 cup baking dish in preheated (350F) oven for about 30 minutes or until rice is cooked.",
+     "relatedIngredientIds": [
+      "long-grain-white-rice"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Preheat"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/easy-chicken-and-rice-casserole/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "one-pot-chicken-tetrazzini",
+   "title": "One-Pot Chicken Tetrazzini",
+   "description": "Creamy chicken and pasta cooked in one pot.",
+   "prepTime": 20,
+   "cookTime": 20,
+   "servings": 5,
+   "dietaryTags": [],
+   "categories": [
+    "italian"
+   ],
+   "ingredients": [
+    {
+     "id": "butter",
+     "name": "Butter",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "mushrooms",
+     "name": "Mushrooms, sliced",
+     "amount": 8.0,
+     "unit": "oz"
+    },
+    {
+     "id": "small-red-pepper",
+     "name": "small Red Pepper, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-onion",
+     "name": "small Onion, finely chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, minced",
+     "amount": 1.0,
+     "unit": "clove"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "All-Purpose Flour",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "Milk",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "worcestershire-sauce",
+     "name": "Worcestershire Sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "extra-broad-egg-noodles",
+     "name": "Extra Broad Egg Noodles",
+     "amount": 8.0,
+     "unit": "oz"
+    },
+    {
+     "id": "boursin-garlic-and-fine",
+     "name": "Boursin Garlic and Fine Herbs",
+     "amount": 5.0,
+     "unit": "oz"
+    },
+    {
+     "id": "deli-chicken",
+     "name": "Deli Chicken, cooked and cut into bite-size pieces",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "frozen-peas",
+     "name": "Frozen Peas",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "fresh-parsley",
+     "name": "Fresh Parsley, chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "small-fresh-basil-leaves",
+     "name": "Small Fresh Basil Leaves (optional)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "parmesan",
+     "name": "Parmesan, grated",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Melt butter in a large saucepan over medium-high heat. Add mushrooms, red pepper, onion and garlic; cook, stirring about 5 minutes until tender.",
+     "relatedIngredientIds": [
+      "butter",
+      "mushrooms",
+      "small-red-pepper",
+      "small-onion",
+      "garlic",
+      "worcestershire-sauce"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sprinkle with flour and stir. Gradually whisk in milk then Worcestershire, salt and pepper. Stirring occasionally, bring to a boil.",
+     "relatedIngredientIds": [
+      "small-red-pepper",
+      "all-purpose-flour",
+      "milk"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add noodles, reduce heat to a low boil. Stirring constantly and around edges of pan, cook until pasta is tender, about 7 minutes.",
+     "relatedIngredientIds": [
+      "extra-broad-egg-noodles"
+     ],
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir in chunks of Boursin, then chicken, peas, and parsley, stirring until chicken is hot and Boursin is melted. Serve sprinkled with basil and Parmesan.",
+     "relatedIngredientIds": [
+      "deli-chicken",
+      "frozen-peas",
+      "fresh-parsley",
+      "parmesan"
+     ],
+     "animation": "stir"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/one-pot-chicken-tetrazzini/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "chicken-biscuit-potpie",
+   "title": "Chicken Biscuit Potpie Recipe",
+   "description": "Chicken pot pie topped with biscuit dough.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "frozen-mixed-vegetables",
+     "name": "frozen mixed vegetables, thawed",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cubed-cooked-chicken",
+     "name": "cubed cooked chicken",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "condensed-cream-of-chick",
+     "name": "condensed cream of chicken soup, undiluted",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "dried-thyme",
+     "name": "dried thyme",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "biscuit-baking-mix",
+     "name": "biscuit/baking mix",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "whole-milk",
+     "name": "whole milk",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "large-egg",
+     "name": "large egg",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat oven to 400°F. In a large bowl, combine the vegetables, chicken, soup and thyme. Pour into an ungreased deep-dish 9-in. pie plate. Combine the biscuit mix, milk and egg; spoon over chicken mixture.",
+     "relatedIngredientIds": [
+      "frozen-mixed-vegetables",
+      "cubed-cooked-chicken",
+      "condensed-cream-of-chick",
+      "dried-thyme",
+      "whole-milk",
+      "large-egg"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bake until topping is golden brown and toothpick inserted in the center comes out clean, 25-30 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Brown"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/chicken-biscuit-potpie/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "exotic-ginger-cumin-chicken",
+   "title": "Exotic Ginger Cumin Chicken",
+   "description": "Chicken in a ginger and cumin spice rub.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "Vegetable Oil, divided",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "boneless-skinless-chicke",
+     "name": "Boneless Skinless Chicken, cut bite-size",
+     "amount": 2.0,
+     "unit": "lb"
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, minced",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "onion",
+     "name": "Onion, chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "ginger-root",
+     "name": "Ginger Root, minced",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "Cayenne Pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin",
+     "name": "Cumin",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric",
+     "name": "Turmeric",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "chicken-stock",
+     "name": "Chicken Stock",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "stewed-tomatoes",
+     "name": "Stewed Tomatoes",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "tomato-paste",
+     "name": "Tomato Paste",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "Sugar",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "low-fat-plain-yogurt",
+     "name": "Low Fat Plain Yogurt",
+     "amount": 0.75,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In large saucepan heat 2 tsp oil over medium heat. Add half of the chicken and cook 3 minutes until brown. Remove from pan and set aside. Repeat with remaining chicken.",
+     "relatedIngredientIds": [
+      "boneless-skinless-chicke"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add remaining oil to pan; add garlic, onion, and ginger.",
+     "relatedIngredientIds": [
+      "garlic",
+      "onion"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Reduce heat to medium and cook, stirring constantly for 5 minutes or until soft.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir in cayenne, cumin, and turmeric; saute for 1 minute.",
+     "relatedIngredientIds": [
+      "cumin",
+      "turmeric"
+     ],
+     "animation": "stir",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir in stock, tomatoes, tomato paste, and sugar; return chicken to pan. Bring to boil; reduce heat and simmer 5 minutes.",
+     "relatedIngredientIds": [
+      "boneless-skinless-chicke",
+      "chicken-stock",
+      "stewed-tomatoes",
+      "tomato-paste",
+      "sugar"
+     ],
+     "animation": "stir",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Stir in yogurt and simmer 2 minutes.",
+     "relatedIngredientIds": [
+      "low-fat-plain-yogurt"
+     ],
+     "animation": "stir",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Simmer"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/exotic-ginger-cumin-chicken/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "pesto-chicken-quinoa-bowls",
+   "title": "Pesto Chicken Quinoa Bowls",
+   "description": "Pesto chicken and vegetables over quinoa.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "italian"
+   ],
+   "ingredients": [
+    {
+     "id": "raw-quinoa",
+     "name": "raw quinoa",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "chicken-breasts",
+     "name": "chicken breasts",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil, plus more for the pan",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "italian-seasoning",
+     "name": "Italian seasoning (or dried oregano)",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "garlic-powder",
+     "name": "garlic powder (or 2 cloves, minced)",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "red-pepper-flakes",
+     "name": "red pepper flakes (optional)",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cherry-tomatoes",
+     "name": "cherry tomatoes",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "medium-zucchini",
+     "name": "medium zucchini, quartered and sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "pesto",
+     "name": "pesto, plus more to serve",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "fresh-basil-and-grated-p",
+     "name": "Fresh basil and grated parmesan, to serve (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Boil salted water, add the quinoa, and cook about 15 minutes until tender. Drain well in a fine mesh strainer.",
+     "relatedIngredientIds": [
+      "raw-quinoa"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Whisk the olive oil, lemon juice, Italian seasoning, garlic powder, and red pepper flakes in a large bowl with salt and pepper to taste. Add the chicken and toss to coat.",
+     "relatedIngredientIds": [
+      "olive-oil",
+      "lemon-juice",
+      "italian-seasoning",
+      "garlic-powder",
+      "red-pepper-flakes"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Sear the chicken in an oiled skillet over medium-high heat, 5-6 minutes per side, until it reaches 165°F inside.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 360,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Rest 5 minutes, then slice.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Toss the tomatoes and zucchini in the leftover marinade bowl, then cook in the same pan over medium heat, 3-4 minutes, until the zucchini is tender and the tomatoes burst.",
+     "relatedIngredientIds": [
+      "cherry-tomatoes",
+      "medium-zucchini"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 240,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Stir the pesto into the drained quinoa.",
+     "relatedIngredientIds": [
+      "raw-quinoa",
+      "pesto"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Build the bowls with pesto quinoa, sliced chicken, and the vegetables. Finish with more pesto, basil, and parmesan.",
+     "relatedIngredientIds": [
+      "raw-quinoa",
+      "olive-oil",
+      "medium-zucchini",
+      "pesto",
+      "fresh-basil-and-grated-p"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/pesto-chicken-quinoa-bowls/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "zaatar-chicken-bulgur-bowls",
+   "title": "Za'atar Chicken Bulghur Bowls",
+   "description": "Za'atar chicken served on bulgur with fresh vegetables.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "mediterranean",
+    "middle-eastern"
+   ],
+   "ingredients": [
+    {
+     "id": "chicken-breasts",
+     "name": "chicken breasts",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "bulghur-wheat",
+     "name": "bulghur wheat",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "mixed-olives",
+     "name": "mixed olives, drained",
+     "amount": 1.0,
+     "unit": "oz"
+    },
+    {
+     "id": "baby-spinach",
+     "name": "baby spinach, chopped",
+     "amount": 4.0,
+     "unit": "oz"
+    },
+    {
+     "id": "za-atar-spice-blend",
+     "name": "za'atar spice blend",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "roma-tomatoes",
+     "name": "Roma tomatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "lemon",
+     "name": "lemon",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "feta-cheese",
+     "name": "feta cheese, crumbled",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic-cloves",
+     "name": "garlic cloves, minced/grated",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "white-vinegar",
+     "name": "white vinegar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat oven to 450F. Add 1 1/2 cup water and 1/4 tsp salt to a medium pot. Cover and bring to a boil over high heat. While water comes to a boil, cut tomato into 1/4\" pieces. Zest and juice the lemon.",
+     "relatedIngredientIds": [
+      "roma-tomatoes",
+      "lemon"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add garlic and bulghur to the boiling water. Stir to combine, remove pot from heat, cover, and let stand until bulghur is tender and liquid is absorbed (15 mins).",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Stand"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "While bulghur rehydrates, pat chicken dry and season with Za'atar spice blend, salt, and pepper.",
+     "relatedIngredientIds": [
+      "za-atar-spice-blend"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat a large non-stick pan over medium-high heat. Add 1/2 tsp oil, then the chicken. Sear until golden-brown.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Transfer chicken to a sheet and bake on the middle rack in the oven until chicken is cooked through (10-12 mins)",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 720,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Meanwhile, whisk together vinegar, lemon juice, lemon zest, 1 tsp oil, and 1/2 tsp salt in a small bowl. Set aside.",
+     "relatedIngredientIds": [
+      "lemon",
+      "white-vinegar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When bulghur is done, fluff with a fork. Add olives, spinach, tomatoes, and half the dressing to the pot. Season with salt and pepper, then stir to combine.",
+     "relatedIngredientIds": [
+      "mixed-olives",
+      "baby-spinach",
+      "roma-tomatoes"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Thinly slice chicken. Divide bulghur salad between plates, then top with chicken. Sprinkle with feta and drizzle remaining dressing over top.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/zaatar-chicken-bulgur-bowls/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "finnish-salmon-soup",
+   "title": "Finnish Salmon Soup",
+   "description": "Creamy Finnish salmon and potato soup (lohikeitto).",
+   "prepTime": 20,
+   "cookTime": 30,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "pcs-salmon-fillet",
+     "name": "pcs salmon fillet",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "water-or-stock",
+     "name": "water or stock",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "leek",
+     "name": "leek",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "carrots",
+     "name": "carrots",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "heavy-cream",
+     "name": "heavy cream",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt-and-pepper-to-taste",
+     "name": "salt and pepper to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "dill-to-garnish",
+     "name": "dill to garnish",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash, clean, and dice all vegetables.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Remove scales from salmon fillet or remove skin entirely, up to you. Dice.",
+     "relatedIngredientIds": [
+      "pcs-salmon-fillet"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In a pot, melt butter. Add diced leeks and cook on medium-high about 5 minutes until the leeks wilt a bit.",
+     "relatedIngredientIds": [
+      "leek",
+      "butter"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add water (or stock) and other vegetables. Bring to a boil and cook on medium heat about 10-15 minutes until the potatoes are ready.",
+     "relatedIngredientIds": [
+      "water-or-stock",
+      "potatoes"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add diced salmon fillet and heavy cream. Cook for additional 5-10 minutes to cook the salmon.",
+     "relatedIngredientIds": [
+      "pcs-salmon-fillet",
+      "heavy-cream"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add salt and pepper to taste at the end. Serve with dill as garnish.",
+     "relatedIngredientIds": [
+      "salt-and-pepper-to-taste",
+      "dill-to-garnish"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/finnish-salmon-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "smoked-salmon-pasta-primavera",
+   "title": "Smoked Salmon Pasta Primavera",
+   "description": "Pasta with smoked salmon and spring vegetables.",
+   "prepTime": 20,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "linguine",
+     "name": "Linguine",
+     "amount": 12.0,
+     "unit": "oz"
+    },
+    {
+     "id": "asparagus",
+     "name": "Asparagus, cut into 2\" pieces",
+     "amount": 0.5,
+     "unit": "lb"
+    },
+    {
+     "id": "green-beans",
+     "name": "Green Beans, halved",
+     "amount": 0.25,
+     "unit": "lb"
+    },
+    {
+     "id": "sugar-snap-peas",
+     "name": "Sugar Snap Peas, trimmed",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "frozen-edamame-or-peas",
+     "name": "Frozen Edamame or Peas",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "Butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "small-onion",
+     "name": "small Onion, minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "All-Purpose Flour",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "Milk",
+     "amount": 2.5,
+     "unit": "cup"
+    },
+    {
+     "id": "smoked-salmon",
+     "name": "Smoked Salmon, cut into wide strips",
+     "amount": 0.333,
+     "unit": "lb"
+    },
+    {
+     "id": "fresh-mint",
+     "name": "Fresh Mint, coarsely chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "lemon",
+     "name": "Lemon",
+     "amount": 0.5,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a large pot of boiling salted water, cook linguine 10 min or until al dente, adding asparagus, beans, and sugar snap peas during the last 3 minutes of cooking and edamame during the last minute. Drain very well.",
+     "relatedIngredientIds": [
+      "linguine",
+      "asparagus",
+      "green-beans",
+      "sugar-snap-peas",
+      "frozen-edamame-or-peas"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Meanwhile in large saucepan, melt butter over medium heat.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add onion and garlic; cook, stirring 3 minutes.",
+     "relatedIngredientIds": [
+      "small-onion",
+      "garlic"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir in flour.",
+     "relatedIngredientIds": [
+      "all-purpose-flour"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Very gradually whisk in milk until smooth and stir often until mixture boils and has thickened (5 mins).",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add pasta mixture, stirring until hot. Stir in salmon and mint just until mixed. Squeeze juice from lemon into pasta and stir.",
+     "relatedIngredientIds": [
+      "smoked-salmon",
+      "fresh-mint",
+      "lemon"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/smoked-salmon-pasta-primavera/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "smoked-salmon-quiche",
+   "title": "Smoked Salmon Quiche",
+   "description": "Savoury quiche with smoked salmon.",
+   "prepTime": 60,
+   "cookTime": 30,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "french"
+   ],
+   "ingredients": [
+    {
+     "id": "flour",
+     "name": "Flour",
+     "amount": 1.75,
+     "unit": "cup"
+    },
+    {
+     "id": "2-1-2-tbsp-butter",
+     "name": "+ 2 1/2 Tbsp Butter, divided",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "up-to-1-3-cup-water",
+     "name": "Up to 1/3 cup Water, chilled",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "onion",
+     "name": "Onion, finely chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "smoked-salmon",
+     "name": "Smoked Salmon, chopped",
+     "amount": 14.0,
+     "unit": "oz"
+    },
+    {
+     "id": "fresh-chives",
+     "name": "Fresh Chives, chopped",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, chopped",
+     "amount": 1.0,
+     "unit": "clove"
+    },
+    {
+     "id": "fresh-basil",
+     "name": "Fresh Basil, chopped",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "whole-eggs",
+     "name": "whole Eggs",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "Milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "whipping-cream",
+     "name": "Whipping Cream",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine all pastry ingredients in a food processor (mix flour and butter, then add water gradually while mixing).",
+     "relatedIngredientIds": [
+      "flour",
+      "2-1-2-tbsp-butter",
+      "up-to-1-3-cup-water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Gather into a ball, cover with plastic wrap and chill 1 hour.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Saute onion until shiny in the butter.",
+     "relatedIngredientIds": [
+      "2-1-2-tbsp-butter",
+      "onion"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir in salmon, chives, garlic, and basil. Cool.",
+     "relatedIngredientIds": [
+      "smoked-salmon",
+      "fresh-chives",
+      "garlic",
+      "fresh-basil"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Preheat the oven to 400F.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Roll out the dough to fit a 10\" tart pan. Prick with a fork.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Arrange the salmon mixture in the pre-baked tart shell.",
+     "relatedIngredientIds": [
+      "smoked-salmon"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Whisk eggs with milk and cream, season with pepper and pour in the tart shell.",
+     "relatedIngredientIds": [
+      "whole-eggs",
+      "milk",
+      "whipping-cream"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Bake about 30 minutes at 325F, until puffed and golden.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/smoked-salmon-quiche/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "newfoundland-cod-chowder",
+   "title": "Newfoundland Cod Chowder",
+   "description": "Chunky cod and potato chowder from Newfoundland.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "bacon",
+     "name": "Bacon",
+     "amount": 4.0,
+     "unit": "slice"
+    },
+    {
+     "id": "onions",
+     "name": "Onions, sliced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "savoury",
+     "name": "Savoury",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "potatoes",
+     "name": "Potatoes, peeled and cubed",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "carrots",
+     "name": "Carrots, sliced",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "cod-fillets",
+     "name": "Cod Fillets",
+     "amount": 1.5,
+     "unit": "lb"
+    },
+    {
+     "id": "evaporated-milk",
+     "name": "Evaporated Milk",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "fresh-parsley-or-chives",
+     "name": "Fresh Parsley or Chives, chopped",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a large, heavy saucepan, cook bacon over medium-high heat for about 10 minutes or until crisp. Chop coarsely and set aside.",
+     "relatedIngredientIds": [
+      "bacon"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drain off all but 1 tbsp. fat from saucepan. Add onions and savoury. Cook, stirring occasionally for 5 minutes or until softened.",
+     "relatedIngredientIds": [
+      "onions",
+      "savoury"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add potatoes, carrots, water and salt. Bring to boil, cover, reduce heat and simmer for about 20 minutes or until tender",
+     "relatedIngredientIds": [
+      "potatoes",
+      "carrots"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cut cod into 1-inch chunks. Add to vegetables and simmer for about 5 minutes or until fish flakes easily",
+     "relatedIngredientIds": [],
+     "animation": "chop",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add milk and white pepper, heat through. Garnish with bacon and parsley.",
+     "relatedIngredientIds": [
+      "bacon",
+      "evaporated-milk"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/newfoundland-cod-chowder/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "portuguese-creamy-cod",
+   "title": "Portuguese Creamy Cod",
+   "description": "Portuguese baked cod in a creamy sauce.",
+   "prepTime": 15,
+   "cookTime": 50,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "cod-fillets",
+     "name": "cod fillets (+- 250 grams)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk, either whole or semi-skimmed",
+     "amount": 400.0,
+     "unit": "ml"
+    },
+    {
+     "id": "half-an-onion",
+     "name": "half an onion, sliced",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "fresh-cream",
+     "name": "fresh cream",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "grated-cheese",
+     "name": "grated cheese (mozzarella works fine)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ground-nutmeg",
+     "name": "ground nutmeg",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Pour the milk into a saucepan, bring to boil, then place the cod fillets inside. Boil for 10-15 minutes.",
+     "relatedIngredientIds": [
+      "cod-fillets",
+      "milk"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Slice the onions and place in a frying pan with some olive oil. Fry until golden.",
+     "relatedIngredientIds": [
+      "half-an-onion"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Drain the cod (keep the milk!), place in a chopping board, then shred it. Mix with the onions, fry for a couple of minutes, then add the milk you used to boil it with. Add the flour to thicken.",
+     "relatedIngredientIds": [
+      "milk",
+      "half-an-onion",
+      "flour"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Keep on low heat for 5-10 minutes until you get the desired consistency.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Chop the potatoes into cubes roughly the size of a dice. Lightly fry them in some oil or olive oil (not deep frying) for around 5-10 minutes, in low heat.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Get an oven tray, oil it with some olive oil, then put in the cod and the potatoes, mixing well. Add the ground nutmeg, salt and pepper.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "ground-nutmeg"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour the cream on top. Sprinkle with cheese. Put it in the oven and bake for about 20 minutes, until the top is golden and crispy.",
+     "relatedIngredientIds": [
+      "fresh-cream",
+      "grated-cheese"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Enjoy!",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/portuguese-creamy-cod/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "shrimp-and-grits",
+   "title": "Shrimp and Grits",
+   "description": "Southern shrimp over creamy grits.",
+   "prepTime": 5,
+   "cookTime": 20,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "breakfast",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "large-jumbo-shrimp",
+     "name": "Large/Jumbo Shrimp",
+     "amount": 2.0,
+     "unit": "lb"
+    },
+    {
+     "id": "bacon",
+     "name": "Bacon",
+     "amount": 6.0,
+     "unit": "slice"
+    },
+    {
+     "id": "un-cooked-grits",
+     "name": "Un-Cooked Grits",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chicken-broth",
+     "name": "Chicken Broth",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "shredded-cheddar-cheese",
+     "name": "Shredded Cheddar Cheese",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "Butter",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chopped-fresh-parsley",
+     "name": "Chopped Fresh Parsley",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "creole-cajun-seasoning",
+     "name": "Creole / Cajun seasoning",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "worcestershire-sauce",
+     "name": "Worcestershire Sauce",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "Lemon Juice",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Add bacon to hot pan. Meanwhile, in separate pot , bring chicken broth to a boil.",
+     "relatedIngredientIds": [
+      "bacon",
+      "chicken-broth"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add grits to chicken broth and stir. Cover and simmer per instructions on box.",
+     "relatedIngredientIds": [
+      "un-cooked-grits",
+      "chicken-broth"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Once grits are done, add butter plus salt and pepper to taste. Stir until combined.",
+     "relatedIngredientIds": [
+      "un-cooked-grits",
+      "butter"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add cheese. Stir until combined.",
+     "relatedIngredientIds": [
+      "shredded-cheddar-cheese"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Once bacon is done, keep bacon fat in the pan. Add shrimp and fry on medium-high heat",
+     "relatedIngredientIds": [
+      "large-jumbo-shrimp",
+      "bacon"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add Creole seasoning, lemon juice, Worcestershire Sauce, garlic and toss.",
+     "relatedIngredientIds": [
+      "creole-cajun-seasoning",
+      "garlic",
+      "worcestershire-sauce",
+      "lemon-juice"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Fry until shrimp turns white on each side which is about 5-7 minutes total.",
+     "relatedIngredientIds": [
+      "large-jumbo-shrimp"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "In a bowl, serve shrimp and bacon over grits. Top with parsley.",
+     "relatedIngredientIds": [
+      "large-jumbo-shrimp",
+      "bacon",
+      "un-cooked-grits",
+      "chopped-fresh-parsley"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/shrimp-and-grits/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "tuna-salad",
+   "title": "Simple Tuna Salad",
+   "description": "Simple tuna salad for sandwiches or crackers.",
+   "prepTime": 5,
+   "cookTime": 0,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "white-tuna",
+     "name": "white tuna, drained",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "mayonnaise",
+     "name": "mayonnaise",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sweet-pickle-relish",
+     "name": "sweet pickle relish",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "a-pinch-of-garlic-powder",
+     "name": "A pinch of garlic powder (optional)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "white-vinegar-or-lemon-j",
+     "name": "white vinegar or lemon juice (optional)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "shredded-cheese",
+     "name": "shredded cheese (optional)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-hard-boiled-egg",
+     "name": "chopped hard-boiled egg (optional)",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a medium bowl, stir together tuna, mayonnaise, and relish.",
+     "relatedIngredientIds": [
+      "white-tuna",
+      "mayonnaise",
+      "sweet-pickle-relish"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add optional ingredients like vinegar, cheese or hard-boiled eggs if wanted.",
+     "relatedIngredientIds": [
+      "a-pinch-of-garlic-powder",
+      "white-vinegar-or-lemon-j",
+      "shredded-cheese",
+      "chopped-hard-boiled-egg"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Season with garlic powder, salt, and pepper if wanted.",
+     "relatedIngredientIds": [
+      "a-pinch-of-garlic-powder"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/tuna-salad/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "sardine-cakes",
+   "title": "Sardine Cakes",
+   "description": "Crisp sardine patties, great as tapas.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 15,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "sardines",
+     "name": "sardines (~4oz)",
+     "amount": 2.0,
+     "unit": "can"
+    },
+    {
+     "id": "mayonnaise",
+     "name": "mayonnaise",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "panko-breadcrumbs",
+     "name": "Panko breadcrumbs",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "old-bay-seasoning",
+     "name": "Old Bay seasoning",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice (optional)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "plain-yogurt",
+     "name": "plain yogurt (whole milk)",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "sriracha",
+     "name": "sriracha",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dijon-mustard",
+     "name": "Dijon mustard",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "worcestershire-sauce",
+     "name": "Worcestershire sauce",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "minced-garlic",
+     "name": "minced garlic (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Remove sardines from tin, reserving oil, and place fish in a mixing bowl. Add remaining fish cake ingredients, along with the oil from one tin (about 2 TB) to the bowl.",
+     "relatedIngredientIds": [
+      "sardines"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Gently mix all the ingredients together with a fork. Mix until incorporated, but don't purée.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Use something to scoop the fish cake mix into small balls. Flatten into small patties 2\" across, and about ½\" thick.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Set patties on a rimmed baking sheet, large cast iron pan, or casserole dish.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Refrigerate patties for about 30 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "While fish cakes chill, mix together all the ingredients for the yogurt sauce.",
+     "relatedIngredientIds": [
+      "plain-yogurt",
+      "worcestershire-sauce"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Move oven rack to the top 3rd of the oven. Broil for 5 minutes, flip, and broil 3-5 minutes more, until cakes are golden brown.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Drizzle some lemon juice on cakes. Serve while still hot with the yogurt sauce. Enjoy!",
+     "relatedIngredientIds": [
+      "lemon-juice",
+      "plain-yogurt",
+      "worcestershire-sauce"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/sardine-cakes/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "ham-and-lentil-soup",
+   "title": "Ham and Lentil Soup",
+   "description": "Slow-cooked ham and lentil soup.",
+   "prepTime": 5,
+   "cookTime": 480,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "lentils",
+     "name": "Lentils",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "ham",
+     "name": "Ham, diced",
+     "amount": 0.5,
+     "unit": "lb"
+    },
+    {
+     "id": "onion",
+     "name": "Onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "bay-leaf",
+     "name": "Bay leaf",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ribs-celery",
+     "name": "ribs Celery, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, minced",
+     "amount": 1.0,
+     "unit": "clove"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine all ingredients with 2 quarts water in the Crock Pot.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cook on low, covered, 8 to 10 hours.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Adjust seasonings and serve.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/ham-and-lentil-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "spicy-sausage-pasta",
+   "title": "Spicy Sausage Pasta",
+   "description": "Penne with spicy sausage in a creamy tomato and parmesan sauce.",
+   "prepTime": 10,
+   "cookTime": 50,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "italian"
+   ],
+   "ingredients": [
+    {
+     "id": "red-onions",
+     "name": "red onions, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "olive-oil",
+     "name": "Olive oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "spicy-italian-sausages",
+     "name": "spicy Italian sausages",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "rosemary",
+     "name": "rosemary, needles finely chopped",
+     "amount": 1.0,
+     "unit": "sprig"
+    },
+    {
+     "id": "red-chilli",
+     "name": "red chilli, deseeded and diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "a-large-glass-of-red-win",
+     "name": "A large glass of red wine",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "x-400g-tins-chopped-plum",
+     "name": "x 400g tins chopped plum tomatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "pasta",
+     "name": "pasta, preferably penne",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "parmesan",
+     "name": "parmesan",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "double-cream",
+     "name": "double cream",
+     "amount": 300.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Fry red onions with a splash of oil in a deep frying pan. Add the sausage meat (discarding the casings if need be). Add the rosemary and chilli",
+     "relatedIngredientIds": [
+      "red-onions",
+      "spicy-italian-sausages",
+      "rosemary",
+      "red-chilli"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Increase the heat and break up the sausage meat with a wooden spoon. Once meat has browned, pour in red wine and reduce by half.",
+     "relatedIngredientIds": [
+      "spicy-italian-sausages",
+      "a-large-glass-of-red-win"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the chopped tomatoes and reduce the sauce, uncovered, for about 30 mins. Cook the pasta according to packet instructions.",
+     "relatedIngredientIds": [
+      "red-onions",
+      "rosemary",
+      "x-400g-tins-chopped-plum",
+      "pasta"
+     ],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Reduce"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Grate the parmesan into a bowl. Drain the pasta and stir into the sauce with the parmesan, double cream and some seasoning.",
+     "relatedIngredientIds": [
+      "pasta",
+      "parmesan",
+      "double-cream"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Serve :)",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/spicy-sausage-pasta/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "ragu",
+   "title": "Ragù",
+   "description": "Slow-simmered Italian meat sauce for pasta.",
+   "prepTime": 10,
+   "cookTime": 65,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "italian"
+   ],
+   "ingredients": [
+    {
+     "id": "tubular-dried-pasta",
+     "name": "tubular dried pasta",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "sweet-italian-sausage",
+     "name": "sweet Italian sausage",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "onion",
+     "name": "onion, minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "carrot",
+     "name": "carrot, minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "celery-stalk",
+     "name": "celery stalk, minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "can-of-whole-tomatoes",
+     "name": "can of whole tomatoes",
+     "amount": 28.0,
+     "unit": "oz"
+    },
+    {
+     "id": "tomato-paste",
+     "name": "tomato paste",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "fresh-parsley",
+     "name": "fresh parsley",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "fresh-thyme",
+     "name": "fresh thyme",
+     "amount": 1.0,
+     "unit": "sprig"
+    },
+    {
+     "id": "fresh-rosemary",
+     "name": "fresh rosemary",
+     "amount": 1.0,
+     "unit": "sprig"
+    },
+    {
+     "id": "grated-parmesan-cheese",
+     "name": "grated Parmesan cheese (optional)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "extra-virgin-olive-oil",
+     "name": "extra-virgin olive oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Sauté sausage crumbles in a large pan or dutch oven over medium-low heat. Add enough olive oil to gently fry the crumbles. Cook about five minutes until opaque, not browned.",
+     "relatedIngredientIds": [
+      "sweet-italian-sausage",
+      "extra-virgin-olive-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add minced onion, carrot, and celery, and parsley to the pan. Stir often and add more olive oil if pan is dry. Cook 30 minutes on very low heat until vegetables are caramelized and sausage is browned.",
+     "relatedIngredientIds": [
+      "sweet-italian-sausage",
+      "onion",
+      "carrot",
+      "celery-stalk",
+      "fresh-parsley",
+      "extra-virgin-olive-oil"
+     ],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add canned tomatoes and their juice. Break up tomatoes in the pan.",
+     "relatedIngredientIds": [
+      "can-of-whole-tomatoes"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Bring to a simmer then add thyme and rosemary",
+     "relatedIngredientIds": [
+      "fresh-thyme",
+      "fresh-rosemary"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Continue simmer uncovered for 20 minutes, until thickened.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Mix tomato paste with 1 cup of hot water. Reduce heat to very low and add mix to the pan.",
+     "relatedIngredientIds": [
+      "can-of-whole-tomatoes",
+      "tomato-paste"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cook about 10 minutes until the sauce is dark red and glistens with oil.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Remove herb sprigs and add pepper to taste.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Meanwhile, boil large pot of salted water then cook and drain the pasta.",
+     "relatedIngredientIds": [
+      "tubular-dried-pasta"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Serve ragù over plate of pasta and top with grated parmesan cheese;",
+     "relatedIngredientIds": [
+      "tubular-dried-pasta",
+      "grated-parmesan-cheese"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/ragu/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "spaghetti-alla-puttanesca",
+   "title": "Spaghetti alla puttanesca",
+   "description": "Spaghetti with olives, capers and anchovy in tomato sauce.",
+   "prepTime": 18,
+   "cookTime": 7,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "italian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "pot-of-water",
+     "name": "Pot of water",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "italian-spaghetti",
+     "name": "italian spaghetti",
+     "amount": 320.0,
+     "unit": "g"
+    },
+    {
+     "id": "garlic-cloves",
+     "name": "garlic cloves",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "salted-capers",
+     "name": "salted capers",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "anchovies-in-oil",
+     "name": "anchovies in oil",
+     "amount": 25.0,
+     "unit": "g"
+    },
+    {
+     "id": "peeled-tomatoes-sugo",
+     "name": "peeled tomatoes \"sugo\"",
+     "amount": 800.0,
+     "unit": "g"
+    },
+    {
+     "id": "bunch-of-parsley",
+     "name": "bunch of parsley",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "gaeta-olives",
+     "name": "Gaeta olives",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "chopped-chillies",
+     "name": "chopped chillies",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "a-pinch-of-salt",
+     "name": "A pinch of salt",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash capers from salt, then cut them",
+     "relatedIngredientIds": [
+      "salted-capers",
+      "a-pinch-of-salt"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pit and crush Gaeta olives",
+     "relatedIngredientIds": [
+      "gaeta-olives"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Wash and chop the bunch of parsley",
+     "relatedIngredientIds": [
+      "bunch-of-parsley"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Start cooking the pasta until al dente.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour the oil, the peeled garlic cloves and the chopped dry chilli peppers into a large pan",
+     "relatedIngredientIds": [
+      "garlic-cloves"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the anchovy fillets and capers",
+     "relatedIngredientIds": [
+      "salted-capers"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Brown over medium heat for 5 minutes, stirring often, so the anchovies will melt",
+     "relatedIngredientIds": [
+      "anchovies-in-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Now add peeled tomatoes \"sugo\"; mix it with a spoon and cook for another 10 minutes over medium heat",
+     "relatedIngredientIds": [
+      "peeled-tomatoes-sugo"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "When the sauce is ready, remove the garlic cloves",
+     "relatedIngredientIds": [
+      "garlic-cloves"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Add crushed olives and chopped parsley",
+     "relatedIngredientIds": [
+      "bunch-of-parsley",
+      "gaeta-olives"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Drain spaghetti directly in the pan and sauté it for half a minute",
+     "relatedIngredientIds": [
+      "italian-spaghetti"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s12",
+     "order": 12,
+     "instructionText": "The dish is ready",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/spaghetti-alla-puttanesca/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "basic-meatballs",
+   "title": "Basic Meatballs",
+   "description": "Beef and pork meatballs for spaghetti or subs.",
+   "prepTime": 0,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "italian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "ground-beef",
+     "name": "ground beef (preferably 90/10 or 93/7)",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "ground-pork",
+     "name": "ground pork",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "italian-breadcrumbs",
+     "name": "italian breadcrumbs",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "milk",
+     "name": "milk (I use 2% but doesn't matter too much)",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "yellow-onion-diced",
+     "name": "yellow onion diced (about 1/2 small yellow onion)",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "shredded-parmesan",
+     "name": "shredded parmesan",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-parsley",
+     "name": "chopped parsley",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "red-pepper-flakes",
+     "name": "red pepper flakes",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dried-oregano",
+     "name": "dried oregano",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "rosemary",
+     "name": "rosemary",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "basil",
+     "name": "basil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic-powder",
+     "name": "garlic powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt-and-pepper-to-taste",
+     "name": "Salt and pepper to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat oven to 200°C/400F",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a bowl, combine all ingredients",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Hand form into balls by packing with your hands and then rolling. Set aside on a baking sheet, preferably one with a cooling rack",
+     "relatedIngredientIds": [
+      "ground-beef"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "I prefer large meatballs (larger than a golf ball) and shoot for 16-20 for 2 lbs of meat, but if you prefer smaller meatballs you can opt for as many as 48",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Either halfway through the packing process or after forming all meatballs, heat a large skillet to medium-high heat",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add 1-2 tbsp of oil to the skillet (enough to evenly coat the skillet), and bring to heat",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Fill the skillet with meatballs, start by browning one face, flip once at after 2-3 minutes, and then remove to the baking sheet after another 2-3 minute. Continue in batches until all meatballs have been browned",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "It is OK and expected for the meatballs to lose some of their spherical shape at this point",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "You can skip this step and go straight the oven if you want to cut corners",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Transfer to the oven, and cook until the inside registers 60°C/140F on an instant read thermometer. This should be about 20 minutes for large meatballs (16 per batch), maybe 10 for small (48 per batch)",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Serve with pasta or on a meatball sub",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/basic-meatballs/",
+   "credit": "based.cooking contributors"
+  }
+ ]
+}

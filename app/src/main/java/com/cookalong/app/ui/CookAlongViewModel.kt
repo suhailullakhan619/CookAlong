@@ -8,6 +8,8 @@ import com.cookalong.app.alexa.AlexaClient
 import com.cookalong.app.alexa.AlexaCommand
 import com.cookalong.app.alexa.AlexaState
 import com.cookalong.app.ai.FridgeScanClient
+import com.cookalong.app.ai.PlanResult
+import com.cookalong.app.ai.PlannerClient
 import com.cookalong.app.audio.Chime
 import com.cookalong.app.audio.Speaker
 import com.cookalong.app.companion.CompanionServer
@@ -61,6 +63,16 @@ sealed interface Screen {
     data class Search(val title: String, val recipeIds: List<String>) : Screen
     /** Connect Alexa: the pairing code, then the "connected" confirmation. */
     data object Alexa : Screen
+    /** The dinner-planner agent's plan for the ingredients of the last fridge scan. */
+    data object Plan : Screen
+}
+
+sealed interface PlanUi {
+    data object Loading : PlanUi
+    data class Done(val result: PlanResult, val servings: Int) : PlanUi
+    data class Failed(val message: String) : PlanUi
+    /** The TV is offline: the planner needs the internet. */
+    data object NeedsInternet : PlanUi
 }
 
 sealed interface AlexaUi {
@@ -131,6 +143,11 @@ data class UiState(
     val alexaLinked: Boolean = false,
     val alexa: AlexaUi = AlexaUi.Starting,
     val chef: ChefNote? = null,
+    val plan: PlanUi = PlanUi.Loading,
+    /** Where Back goes from the plan: the fridge-scan results, or Home when null. */
+    val planReturn: Screen? = null,
+    /** Ingredient names from the last fridge scan (what "Plan dinner" cooks with); empty before the first scan. */
+    val scanIngredients: List<String> = emptyList(),
 ) {
     fun recipe(id: String): Recipe? = recipes.firstOrNull { it.id == id }
     val cookingRecipe: Recipe? get() = (screen as? Screen.Cooking)?.let { recipe(it.recipeId) }
@@ -366,6 +383,12 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
             Screen.Alexa -> {
                 pairJob?.cancel()
                 _state.update { it.copy(screen = Screen.Home) }
+                true
+            }
+            Screen.Plan -> {
+                planJob?.cancel()
+                speaker.stop()
+                _state.update { it.copy(screen = it.planReturn ?: Screen.Home, planReturn = null) }
                 true
             }
             else -> false
@@ -642,7 +665,7 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
         viewModelScope.launch {
             _state.map { s ->
                 if (!s.alexaLinked) null
-                else listOf(s.screen, s.servings, s.stepIndex, s.timers, s.readAloud, s.recipes.size)
+                else listOf(s.screen, s.servings, s.stepIndex, s.timers, s.readAloud, s.recipes.size, s.scanIngredients)
             }
                 .distinctUntilChanged()
                 .debounce(400)
@@ -660,11 +683,12 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
             Screen.FridgeScan -> "scan"
             is Screen.Search -> "search"
             Screen.Alexa -> "alexa"
+            Screen.Plan -> "plan"
             else -> "home"
         }
         val state = AlexaState.of(
             screenName, recipeOnScreen(), s.servings, s.config.minServings, s.config.maxServings,
-            s.stepIndex, s.timers, tvSpeaks = shouldSpeak(), nowMs = clock(),
+            s.stepIndex, s.timers, tvSpeaks = shouldSpeak(), nowMs = clock(), scanIngredients = s.scanIngredients,
         )
         try {
             client.publish(deviceId, state)
@@ -705,6 +729,7 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
             "search" -> { search(cmd.query.orEmpty(), cmd.maxMinutes); null }
             "shoppingList" -> { if (recipeOnScreen() != null) showOverlay(Overlay.ShoppingQr); "Shopping list" }
             "fridgeScan" -> { if (!cooking) startFridgeScan(); null }
+            "plan" -> { if (!cooking) planDinner(servings = cmd.servings ?: 2); null }
             "chef" -> { showChef(cmd.question.orEmpty(), cmd.text.orEmpty()); null }
             else -> null
         }
@@ -826,6 +851,7 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
                         shown = poll.items
                         shownProblem = null
                         val names = poll.items.map { it.name }
+                        _state.update { it.copy(scanIngredients = names) }
                         val recipes = _state.value.recipes
                         val matches = withContext(Dispatchers.Default) { RecipeMatcher.rank(recipes, names) }
                         _state.update { it.copy(scan = ScanUi.Results(poll.items, poll.note, matches)) }
@@ -853,6 +879,58 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
             }
         }
     }
+
+    // ---- Dinner planner (AWS agent) -------------------------------------------------------------------------------------
+
+    private var planJob: Job? = null
+    private var planIngredients: List<String> = emptyList()
+    private var planServings = 2
+
+    /**
+     * Asks the dinner-planner agent (Strands on Amazon Nova, behind [PlannerClient]) what to cook with [ingredients],
+     * by default the last fridge scan's, and shows the Plan screen. Called by the "Plan dinner" button, by Alexa's
+     * `plan` command (with the servings she heard) and by Try again.
+     */
+    fun planDinner(servings: Int = 2, ingredients: List<String> = _state.value.scanIngredients, force: Boolean = false) {
+        val s = _state.value
+        if (s.config.plannerApiUrl.isBlank() || s.screen is Screen.Cooking) return
+        if (ingredients.isEmpty()) {
+            toast("Scan your fridge first")
+            return
+        }
+        val n = servings.coerceIn(s.config.minServings, s.config.maxServings)
+        planIngredients = ingredients
+        planServings = n
+        val back = when (s.screen) {
+            Screen.Plan -> s.planReturn
+            Screen.FridgeScan -> Screen.FridgeScan
+            else -> null
+        }
+        planJob?.cancel()
+        speaker.stop()
+        if (!force && !online.value) {
+            _state.update { it.copy(screen = Screen.Plan, plan = PlanUi.NeedsInternet, planReturn = back, overlay = null) }
+            return
+        }
+        _state.update { it.copy(screen = Screen.Plan, plan = PlanUi.Loading, planReturn = back, servings = n, overlay = null) }
+        planJob = viewModelScope.launch {
+            val result = try {
+                PlannerClient(s.config.plannerApiUrl, store.deviceId()).plan(ingredients, n)
+            } catch (e: NoInternetException) {
+                _state.update { it.copy(plan = PlanUi.NeedsInternet) }
+                return@launch
+            } catch (e: java.io.IOException) {
+                _state.update { it.copy(plan = PlanUi.Failed(e.message ?: "The planner couldn't finish.")) }
+                return@launch
+            }
+            _state.update { it.copy(plan = PlanUi.Done(result, n)) }
+            if (shouldSpeak() && _state.value.screen == Screen.Plan) {
+                speaker.speak(result.plan.summary.ifBlank { "I couldn't find a dinner for those ingredients." })
+            }
+        }
+    }
+
+    fun retryPlan() = planDinner(planServings, planIngredients, force = true)
 
     // ---- Shopping-list QR ---------------------------------------------------------------------------------------
 

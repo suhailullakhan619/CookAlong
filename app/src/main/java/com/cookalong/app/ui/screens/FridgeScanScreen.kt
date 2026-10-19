@@ -56,6 +56,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.tv.material3.Icon
@@ -88,6 +89,8 @@ fun FridgeScanScreen(
     onRetry: () -> Unit,
     onBack: () -> Unit,
     restoreFocus: String? = null,
+    /** Opens the dinner-planner agent with what was detected; null hides "Plan dinner". */
+    onPlan: (() -> Unit)? = null,
 ) {
     val c = LocalCookColors.current
     Column(Modifier.fillMaxSize().background(c.background).padding(horizontal = Safe.horizontal, vertical = Safe.vertical)) {
@@ -113,7 +116,7 @@ fun FridgeScanScreen(
             when (s) {
                 ScanUi.Starting -> Shimmer(Modifier.size(320.dp).clip(RoundedCornerShape(20.dp)))
                 is ScanUi.WaitingForPhone -> Waiting(s, onBack)
-                is ScanUi.Results -> Results(s, restoreFocus, onOpenRecipe, onRetry, onBack)
+                is ScanUi.Results -> Results(s, restoreFocus, onOpenRecipe, onRetry, onBack, onPlan)
                 is ScanUi.Failed -> Problem(s.message, onRetry, onBack)
                 ScanUi.NeedsInternet -> Problem(
                     "Fridge scan needs the internet. Connect this TV to Wi-Fi or Ethernet, then try again.", onRetry, onBack,
@@ -165,7 +168,7 @@ private fun Waiting(s: ScanUi.WaitingForPhone, onBack: () -> Unit) {
 }
 
 @Composable
-private fun StepLine(n: Int, text: String, done: Boolean) {
+internal fun StepLine(n: Int, text: String, done: Boolean) {
     val c = LocalCookColors.current
     Row(verticalAlignment = Alignment.CenterVertically) {
         Box(
@@ -182,7 +185,7 @@ private fun StepLine(n: Int, text: String, done: Boolean) {
 
 /** Three dots that bounce in turn while the AI works. Still when motion is reduced. */
 @Composable
-private fun ThinkingDots() {
+internal fun ThinkingDots() {
     val c = LocalCookColors.current
     val reduce = rememberReduceMotion()
     val t = rememberInfiniteTransition(label = "dots")
@@ -208,6 +211,7 @@ private fun Results(
     onOpenRecipe: (Recipe) -> Unit,
     onRetry: () -> Unit,
     onBack: () -> Unit,
+    onPlan: (() -> Unit)?,
 ) {
     val usable = remember(s) { RecipeMatcher.usable(s.items.map { it.name }).toSet() }
     if (s.matches.isEmpty()) {
@@ -218,7 +222,7 @@ private fun Results(
     val target = s.matches.firstOrNull { it.recipe.id == restoreFocus } ?: s.matches.first()
     val focus = remember { FocusRequester() }
     Column(Modifier.fillMaxSize()) {
-        Summary(s, usable, onRetry)
+        Summary(s, usable, onRetry, onPlan)
         // Only the rows scroll; the summary stays put so you always see what was found.
         val rowScrolling = LocalBringIntoViewSpec.current
         CompositionLocalProvider(LocalBringIntoViewSpec provides rememberCaptionSpec()) {
@@ -241,11 +245,11 @@ private fun Results(
  */
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-private fun rememberCaptionSpec(): BringIntoViewSpec {
+internal fun rememberCaptionSpec(captionDp: Dp = 74.dp, titleDp: Dp = 48.dp): BringIntoViewSpec {
     val density = LocalDensity.current
-    return remember(density) {
-        val caption = with(density) { 74.dp.toPx() } // the two-line "You have … Need: …" text under a card
-        val title = with(density) { 48.dp.toPx() } // the row title above it
+    return remember(density, captionDp, titleDp) {
+        val caption = with(density) { captionDp.toPx() } // the two-line "You have … Need: …" text under a card
+        val title = with(density) { titleDp.toPx() } // the row title above it
         object : BringIntoViewSpec {
             override fun calculateScrollDistance(offset: Float, size: Float, containerSize: Float): Float {
                 val end = offset + size + caption
@@ -261,7 +265,7 @@ private fun rememberCaptionSpec(): BringIntoViewSpec {
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun Summary(s: ScanUi.Results, usable: Set<String>, onRetry: () -> Unit) {
+private fun Summary(s: ScanUi.Results, usable: Set<String>, onRetry: () -> Unit, onPlan: (() -> Unit)?) {
     val c = LocalCookColors.current
     val ready = s.matches.count { it.tier == MatchTier.READY }
     val almost = s.matches.count { it.tier == MatchTier.ALMOST }
@@ -288,6 +292,10 @@ private fun Summary(s: ScanUi.Results, usable: Set<String>, onRetry: () -> Unit)
             }
         }
         Spacer(Modifier.width(16.dp))
+        if (onPlan != null) {
+            PillButton("Plan dinner", icon = CookIcons.List, primary = true, compact = true, onClick = onPlan)
+            Spacer(Modifier.width(12.dp))
+        }
         PillButton("Scan again", icon = CookIcons.Camera, compact = true, onClick = onRetry)
     }
 }

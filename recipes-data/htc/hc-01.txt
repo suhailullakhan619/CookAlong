@@ -1,0 +1,195 @@
+@ tomato-egg-stir-fry | Tomato and Egg Stir-fry | Soft scrambled egg folded into juicy, lightly sweet stir-fried tomato. | 10 | 5 | 2 | chinese,quick | vegetable_dish/西红柿炒鸡蛋.md
+- 2 tomatoes (about 360 g)
+- 3 eggs
+- 12 ml cooking oil
+- 3 g salt
+- 2 g sugar, optional
+- 1 tbsp chopped scallion, optional
+> Wash the tomatoes. Optionally blanch them in boiling water, then cold water, and peel. Cut the tomatoes into pieces no bigger than 4 cm.
+> Crack the eggs into a bowl, add 2 g of the salt and beat well.
+> Heat the wok and add the oil. When it is hot, pour in the eggs and stir-fry until just set and lightly yellow. Turn off the heat and move the eggs to a plate. Do not wash the wok.
+> Turn the heat back on and add the tomato pieces. Press them with the spatula and stir-fry for 20 seconds, or until soft.
+> Return the eggs to the wok and toss everything together.
+> Add the remaining salt, the sugar if you like it sweeter, and the scallion. Stir to mix, then turn off the heat and serve.
+
+@ smashed-cucumber-salad | Smashed Cucumber Salad | Crunchy cucumber pieces in a garlicky soy and vinegar dressing. | 25 | 0 | 2 | chinese,salad,quick,healthy | vegetable_dish/凉拌黄瓜.md
+- 2 cucumbers (about 400 g)
+- 6 cloves garlic
+- 5 g sugar
+- 15 ml vinegar
+- 10 ml soy sauce
+- 5 ml oyster sauce
+- 1 g salt
+- 9 ml sesame oil
+> Smash the cucumbers flat with the side of a cleaver, then chop them into pieces about 3 cm long. Put them in a bowl.
+> Crush the garlic and mince it finely.
+> Mix the sugar into the cucumber and leave it to marinate for 15 minutes. This keeps the cucumber crisp and bright green.
+> Add the vinegar, soy sauce, salt, oyster sauce and garlic and mix well.
+> Pour in the sesame oil, toss again and serve.
+
+@ hot-sour-potato-strips | Hot and Sour Potato Strips | Crisp shredded potato stir-fried with garlic, chilli and black vinegar. | 15 | 5 | 1 | chinese,quick | vegetable_dish/酸辣土豆丝.md
+- 240 g potato
+- 4 cloves garlic
+- 0.5 green pepper
+- 0.5 red pepper
+- 3 dried chillies
+- 1 scallion
+- 5 ml soy sauce
+- 10 ml Chinese black vinegar
+- 2 g salt
+- 15 ml cooking oil
+> Peel the potato and cut it into thin, long strips, as fine as you can.
+> Rinse the strips in water to remove excess starch, then blanch in boiling water for 10 seconds. Drain well.
+> Chop the scallion. Crush and mince the garlic and split it in two. Cut the dried chillies into short pieces and the peppers into strips.
+> Heat the oil over low heat. Add half the scallion whites, half the garlic and the dried chillies and fry until fragrant.
+> Add the pepper strips, stir a few times, then add the potato and stir-fry until it changes colour.
+> Add the soy sauce, vinegar, remaining garlic and the salt and toss quickly.
+> Sprinkle with the rest of the scallion, toss and serve.
+
+@ garlic-broccoli | Garlic Broccoli | Tender-crisp broccoli under a quick garlic and oyster sauce glaze. | 5 | 10 | 2 | chinese,quick,healthy | vegetable_dish/蒜蓉西兰花.md
+- 200 g broccoli
+- 4 cloves garlic
+- 10 ml soy sauce
+- 5 ml oyster sauce
+- 2 g sugar
+- 10 ml cooking oil
+- 30 ml water
+> Cut the broccoli into small florets and wash them. Peel and mince the garlic.
+> Bring 1000 ml of water to a boil over high heat.
+> Boil the broccoli for 2-3 minutes, until bright green and slightly soft.
+> Lift out the broccoli, drain it well and arrange it on a plate.
+> Heat the oil in a wok and gently fry the garlic over low heat until fragrant.
+> Add the soy sauce, oyster sauce, sugar and 30 ml of water, then bring the sauce to a boil.
+> Pour the garlic sauce evenly over the broccoli and serve.
+
+@ stir-fried-cauliflower | Stir-fried Cauliflower | Cauliflower blanched, then quickly stir-fried with garlic and steamed tender. | 5 | 10 | 2 | chinese,quick,healthy | vegetable_dish/清炒花菜.md
+- 300 g cauliflower
+- 3 cloves garlic
+- 3 g salt
+- 15 ml cooking oil
+- 50 ml water
+> Wash the cauliflower and break it into small florets. Slice any thick stems. Peel the garlic and slice it.
+> Bring 1000 ml of water to a boil. Blanch the cauliflower for 2-3 minutes, until it turns paler and slightly soft. Drain.
+> Heat the oil in a wok over high heat. Add the garlic slices and fry briefly until fragrant.
+> Add the cauliflower and stir-fry over medium-high heat for about 2 minutes.
+> Add the salt and keep stirring.
+> Pour the water down the side of the wok, cover and steam for 1 minute so the cauliflower cooks through.
+> Uncover, toss quickly and serve.
+
+@ stir-fried-aubergine | Soy-braised Stir-fried Aubergine | Aubergine chunks fried in plenty of hot oil and finished with soy sauce. | 10 | 10 | 1 | chinese | vegetable_dish/炒茄子.md
+- 2 slender aubergines (about 1.8)
+- 1 star anise, optional
+- 1 small handful dried shrimp, optional
+- 2 scallions, optional
+- 50 g minced pork, optional
+- 40 ml soy sauce
+- 5 g sugar, optional
+- 10 ml vinegar, optional
+- 10 ml cooking oil for the pork
+- cooking oil for frying
+> Wash the aubergines, cut each in half lengthways, then cut each half into diamond-shaped chunks. Put them in a bowl.
+> Wash the scallions and chop them. Break up the star anise.
+> If using pork, stir-fry it in 10 ml of oil over medium heat for about 1 minute until it changes colour, then set aside.
+> Heat the wok until completely dry, then add enough oil to cover the base twice over. Heat to medium-hot and add the star anise, dried shrimp and scallions if using them.
+> If you are not using those, heat the oil until very hot instead. Add the aubergine and stir-fry for about 40 seconds.
+> Pour the soy sauce over the aubergine. Do not use too much or it will be salty.
+> When the aubergine is half soft, after about 1 minute, return the pork. Add the sugar and vinegar if using, and keep stir-frying until all the aubergine is soft and has changed colour.
+
+@ aloo-gobi-hc | Aloo Gobi (Potato and Cauliflower) | North Indian dry curry of potato and cauliflower with cumin, turmeric and garam masala. | 15 | 25 | 3 | indian,north-indian | vegetable_dish/印度土豆花菜.md
+- 2 potatoes (about 250 g)
+- 1 cauliflower (about 300 g)
+- 1 onion (about 100 g)
+- 1 tomato (about 100 g)
+- 8 g fresh ginger
+- 3 cloves garlic (about 9 g)
+- 1 green chilli
+- 30 ml cooking oil
+- 3 g cumin seeds
+- 3 g turmeric powder
+- 3 g red chilli powder
+- 5 g ground coriander
+- 3 g garam masala
+- 5 g salt
+- 15 g fresh coriander leaves
+> Peel the potatoes and cut them into 2 cm chunks. Break the cauliflower into small florets. Chop the onion, tomato, garlic and green chilli and grate the ginger.
+> Heat the oil in a lidded pan over medium heat. Add the cumin seeds and fry for about 10 seconds until darker and fragrant. Do not let them burn.
+> Add the onion and fry for 3-4 minutes until translucent and lightly golden.
+> Add the ginger, garlic and green chilli and fry for 1 minute. Add the tomato and cook for 2-3 minutes until soft.
+> Add the turmeric, chilli powder, ground coriander and salt and stir for 1 minute. Add the potatoes and stir for 2 minutes to coat them.
+> Add the cauliflower and toss gently. Cover, turn the heat to medium-low and cook for 12-15 minutes, stirring every 3-4 minutes so it does not stick.
+> When a chopstick goes easily through the potato and the cauliflower has some browned edges, sprinkle in the garam masala and stir for 1 minute.
+> Turn off the heat, scatter with fresh coriander and serve.
+
+@ spicy-stir-fried-green-beans | Spicy Stir-fried Green Beans | Braised green beans in a savoury soy and oyster sauce with chilli and garlic. | 10 | 15 | 2 | chinese | vegetable_dish/素炒豆角.md
+- 250 g green beans
+- 2 bird's eye chillies
+- 3 slices scallion
+- 2 cloves garlic
+- 6 ml light soy sauce
+- 2 ml dark soy sauce
+- 6 ml oyster sauce
+- 6 g salt
+- 15 ml cooking oil
+- 150 ml water
+> Chop the scallion and mince the garlic. Slice the chillies into rings.
+> Mix the light soy sauce, dark soy sauce, oyster sauce and salt into a sauce.
+> Remove the strings from the beans and cut them at a 45° angle into 4-10 cm pieces.
+> Heat the oil until it smokes. Add the scallion and chillies and stir-fry until fragrant.
+> Add the beans and stir-fry for 30 seconds.
+> Add the sauce, turn up the heat and stir-fry for 2 minutes.
+> Pour in the water, lower the heat to medium-low, cover and braise for 8-10 minutes.
+> Stir in the minced garlic and serve.
+
+@ hand-torn-cabbage | Hand-torn Cabbage with Pork | Fiery Hunan-style cabbage torn by hand and stir-fried with crisp pork belly. | 10 | 10 | 2 | chinese,quick | vegetable_dish/手撕包菜/手撕包菜.md
+- 1 small head cabbage
+- 200 g pork belly
+- 2 bird's eye chillies
+- 2 slices ginger
+- 2 cloves garlic
+- 0.5 garlic shoot
+- 60 ml cooking oil
+- 5 ml Shaoxing rice wine
+- 5 ml light soy sauce
+- 5 ml rice vinegar
+- 2 g chicken bouillon powder
+- 7 g salt
+> Halve the cabbage and cut out the white core. Tear the leaves into pieces by hand. Wash them in a bowl with 2 g of salt, then drain.
+> Prepare the ginger, garlic, chillies and garlic shoot. Slice the pork belly and rinse it.
+> Heat 30 ml of the oil and add the cabbage. Stir-fry over high heat for 1 minute, add 3 g of salt, stir-fry for 2 more minutes, then take it out.
+> Heat the remaining 30 ml of oil and add the pork. Stir-fry over high heat for 1 minute.
+> Add the ginger, garlic, chillies and garlic shoot and stir-fry for 1 minute.
+> Return the cabbage and add the vinegar, rice wine, soy sauce, bouillon powder and remaining salt. Stir-fry over high heat for 2 minutes and serve.
+
+@ di-san-xian | Di San Xian (Potato and Aubergine) | Fried potato, aubergine and green pepper in a glossy savoury garlic sauce. | 20 | 20 | 3 | chinese | vegetable_dish/地三鲜/地三鲜.md
+- 200 g aubergine
+- 150 g potato
+- 3 long green peppers
+- 8 g cornstarch
+- 150 ml cooking oil
+- 5 g scallion
+- 15 g garlic, minced
+- 5 g ginger, minced
+- 15 ml doubanjiang (chilli bean paste)
+- 10 ml light soy sauce
+- 10 g sugar
+- 80 ml water
+> Peel the potato. Cut the potato and aubergine into irregular 15 g pieces. Tear the peppers along the grain into pieces slightly bigger than the potato. Dry the peppers well.
+> Cut the scallion into 0.5 cm lengths. Mince the garlic and split it into two portions. Mince the ginger.
+> In a bowl, mix the soy sauce, sugar, cornstarch and water into a sauce.
+> Heat the oil in a wok and fry the potato for 3-4 minutes until golden and tender. Lift it out and keep the oil.
+> Fry the aubergine for 2-3 minutes until soft with slightly browned edges. Lift it out. Add 15 ml of oil if the pan is dry.
+> Fry the peppers for 15 seconds until the skin blisters, then lift them out and pour off the oil.
+> Heat 15 ml of fresh oil. Fry the scallion, ginger and half the garlic over medium-low heat until fragrant, then add the bean paste and fry until the oil turns red.
+> Pour in the sauce, turn up the heat and stir fast. After about 10 seconds it bubbles and thickens.
+> Add all the fried vegetables and toss for 20 seconds so the sauce coats them. Turn off the heat, stir in the rest of the garlic and serve.
+
+@ onion-egg-stir-fry | Onion and Egg Stir-fry | Fast savoury scrambled eggs with sweet onion, ready in about five minutes. | 3 | 3 | 1 | chinese,quick,breakfast | vegetable_dish/洋葱炒鸡蛋/洋葱炒鸡蛋.md
+- 2 eggs
+- 50 g onion, sliced
+- 50 ml cooking oil
+- 2 g salt
+- 0.5 scallion, chopped
+- 2 ml Shaoxing rice wine
+> Crack the eggs into a large bowl, add the onion and salt, and beat for 60 seconds.
+> Heat the oil in a wok and pour in the egg mixture. Fry one side for 30-45 seconds, then flip and stir-fry. Repeat for 2-3 minutes in total.
+> Splash in the rice wine, then serve on a plate and sprinkle with the scallion.

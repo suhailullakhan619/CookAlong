@@ -1,0 +1,2881 @@
+{
+ "recipes": [
+  {
+   "id": "chicken-madras",
+   "title": "Chicken Madras",
+   "description": "Hot, tomato-based Madras chicken curry with cardamom and cayenne.",
+   "prepTime": 15,
+   "cookTime": 50,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "chicken-breasts",
+     "name": "chicken breasts, diced",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "large-onions",
+     "name": "large onions, finely chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "jar-of-tomato-puree",
+     "name": "jar of tomato puree, mixed with an equal volume of water",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ground-cayenne-pepper",
+     "name": "ground cayenne pepper",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cumin",
+     "name": "ground cumin",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-turmeric",
+     "name": "ground turmeric",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cardamom-pods",
+     "name": "cardamom pods",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "ground-ginger",
+     "name": "ground ginger",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-coriander",
+     "name": "ground coriander",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "juice-of-1-2-lemon",
+     "name": "Juice of 1/2 lemon",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "fresh-chiles",
+     "name": "Fresh chiles",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "garam-masala-2",
+     "name": "garam masala",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "freshly-chopped-coriande",
+     "name": "Freshly-chopped coriander leaves",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat a large skillet or saucepan over medium heat, and add a liberal amount of cooking oil. When at temperature add the chopped onions. Cook the onions for a couple of minutes until they start to brown slightly.",
+     "relatedIngredientIds": [
+      "large-onions"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the minced garlic, cayenne pepper, and garam masala. Stir for 2 to 3 minutes.",
+     "relatedIngredientIds": [
+      "garlic",
+      "ground-cayenne-pepper",
+      "garam-masala",
+      "garam-masala-2"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the ground cumin, ground turmeric, ground ginger, and ground coriander. Stir in for about 30 seconds.",
+     "relatedIngredientIds": [
+      "ground-cumin",
+      "ground-turmeric",
+      "ground-ginger",
+      "ground-coriander"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the diced chicken. Cook, stirring, until the chicken is cooked through.",
+     "relatedIngredientIds": [
+      "chicken-breasts"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the diluted tomato puree and the seeds from the 8 cardamom pods. Stir, then lower the heat and place a lid on the saucepan.",
+     "relatedIngredientIds": [
+      "jar-of-tomato-puree",
+      "cardamom-pods"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Simmer for 30 minutes stirring occasionally. If the sauce starts to stick to the pan add some water.",
+     "relatedIngredientIds": [
+      "jar-of-tomato-puree"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Remove the lid and squeeze the juice of half a lemon into the pan along with a pinch of salt. Stir and let simmer uncovered for 10 to 15 minutes.",
+     "relatedIngredientIds": [
+      "juice-of-1-2-lemon"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve with garnishes.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Madras",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "chicken-biryani",
+   "title": "Chicken Biryani",
+   "description": "Layered basmati rice and yogurt-marinated chicken, baked slowly with saffron.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "indian",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "rice",
+     "name": "rice (preferably Basmati)",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chicken",
+     "name": "chicken",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "yoghurt",
+     "name": "yoghurt",
+     "amount": 300.0,
+     "unit": "ml"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, crushed and chopped",
+     "amount": 3.0,
+     "unit": "clove"
+    },
+    {
+     "id": "cm-ginger",
+     "name": "cm ginger, peeled and sliced",
+     "amount": 1.5,
+     "unit": ""
+    },
+    {
+     "id": "large-onions",
+     "name": "large onions, chopped",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes, puréed",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "chiles",
+     "name": "chiles, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "strands-saffron",
+     "name": "strands saffron",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "cloves",
+     "name": "cloves",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "cm",
+     "name": "cm (4 inches) cinnamon stick",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "black-pepper-corns",
+     "name": "black pepper corns",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "cardamom-pods",
+     "name": "cardamom pods",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "cumin",
+     "name": "cumin",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cook soaked and washed rice.",
+     "relatedIngredientIds": [
+      "rice"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Marinate the chicken in lemon juice, yoghurt, ginger, garlic, salt, turmeric powder, cumin powder, cloves, chillis, chopped tomatoes, and tomato purée.",
+     "relatedIngredientIds": [
+      "chicken",
+      "yoghurt",
+      "garlic",
+      "cm-ginger",
+      "large-onions",
+      "tomatoes",
+      "chiles",
+      "turmeric-powder",
+      "cloves",
+      "cumin"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat oil in a pan, add onions, and cook until onions turn golden brown. Add these to the chicken.",
+     "relatedIngredientIds": [
+      "chicken",
+      "large-onions"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Grease a heavy-bottomed deep and wide mouthed pan. Add a layer of rice. Put in the chicken mixture, top with the rest of the rice, and put the saffron on top.",
+     "relatedIngredientIds": [
+      "rice",
+      "chicken",
+      "strands-saffron"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake in the oven for 1–1½ hours at 150°C (300°F); cut into a piece of chicken to see if it is cooked.",
+     "relatedIngredientIds": [
+      "chicken"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve the biryani with yoghurt on the side.",
+     "relatedIngredientIds": [
+      "yoghurt"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Biryani",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "indian-butter-chicken-i",
+   "title": "Indian Butter Chicken I",
+   "description": "Tandoori-marinated chicken finished in a buttery tomato and cream sauce.",
+   "prepTime": 15,
+   "cookTime": 70,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "skinless",
+     "name": "skinless, boneless chicken thighs or breasts",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "tandoori-masala-powder",
+     "name": "tandoori masala powder",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "unsweetened-yoghurt",
+     "name": "unsweetened yoghurt",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "small-lemon-or-lime",
+     "name": "small lemon or lime, juiced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "large-onion",
+     "name": "large onion, sliced finely",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon (optional)",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "crushed-garlic",
+     "name": "crushed garlic",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "grated-ginger",
+     "name": "grated ginger",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-turmeric",
+     "name": "ground turmeric",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-coriander",
+     "name": "ground coriander",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chile-powder",
+     "name": "chile powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "tomato-paste",
+     "name": "tomato paste",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "full-cream",
+     "name": "full cream",
+     "amount": 100.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Trim and cut the chicken into small cubes. If you prefer chicken on the bone, cut long thin slices laterally into the chicken.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a big bowl combine the tandoori powder, yogurt, lemon juice, and chicken. Massage this well with your hands so that all the chicken is evenly covered in the Tandoori powder.",
+     "relatedIngredientIds": [
+      "tandoori-masala-powder",
+      "chile-powder"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cover and put aside for at least ½ an hour.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat a large saucepan or frying pan until evenly hot.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "In the pan melt 2 tablespoons of butter until it is frothy. Add the onions and the cinnamon to the pan and fry lightly.",
+     "relatedIngredientIds": [
+      "butter",
+      "large-onion",
+      "cinnamon"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "When the onions are soft and starting to brown, stir in the crushed garlic and ginger. Then add the turmeric, chili, and coriander, and sauté over a medium heat.",
+     "relatedIngredientIds": [
+      "large-onion",
+      "crushed-garlic",
+      "grated-ginger",
+      "ground-turmeric",
+      "ground-coriander"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the chicken and sauté, stirring constantly until the chicken has turned white. This doesn't take long, so make sure you don't overcook the chicken.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Mix in the tomato paste. Add the cream and heat through. After adding the cream and stirring, you may add additional tandoori masala. About 3–5 tablespoons is generally sufficient.",
+     "relatedIngredientIds": [
+      "tomato-paste",
+      "full-cream"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Cover and simmer for just over 10 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Simmer"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Indian_Butter_Chicken_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "malvani-chicken-curry",
+   "title": "Malvani Chicken Curry",
+   "description": "Coconut and green chilli chicken curry from the Konkan coast.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "green-chillies",
+     "name": "green chillies, chopped",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger-paste",
+     "name": "ginger paste",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic-paste",
+     "name": "garlic paste",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "medium-sized-pieces-of-c",
+     "name": "medium-sized pieces of chicken",
+     "amount": 800.0,
+     "unit": "g"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "fresh-coconut",
+     "name": "fresh coconut, flesh grated",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "onions",
+     "name": "onions, chopped",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "chilli-powder",
+     "name": "chilli powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric",
+     "name": "turmeric",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "tsps-garam-masala",
+     "name": "tsps garam masala",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "tsps-malvani-special-mas",
+     "name": "tsps Malvani Special Masala",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "finely-chopped-coriander",
+     "name": "Finely-chopped coriander leaves for garnishing",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Grind half of the green chillies to a paste and mix it well with the ginger and garlic pastes.",
+     "relatedIngredientIds": [
+      "green-chillies",
+      "ginger-paste",
+      "garlic-paste"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Make cuts on the chicken pieces, rub this mixture on to them well, and marinate for about an hour at least.",
+     "relatedIngredientIds": [
+      "medium-sized-pieces-of-c"
+     ],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Toast coconut shavings in a pan with a little hot oil until light brown. Cool and grind along with half the onions to a paste.",
+     "relatedIngredientIds": [
+      "ginger-paste",
+      "garlic-paste",
+      "fresh-coconut",
+      "onions"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat oil in a heavy-bottomed pan and sauté the onions on medium level for about 2 minute(s) or until they are light brown in color.",
+     "relatedIngredientIds": [
+      "onions"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the remaining chopped green chillies and spice powders and fry for a few seconds. Add the marinated chicken pieces and fry on medium level for about 3 minutes or until they are lightly browned.",
+     "relatedIngredientIds": [
+      "green-chillies",
+      "medium-sized-pieces-of-c",
+      "onions",
+      "chilli-powder"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the paste and salt, then mix well. Add water according to the desired level of consistency and bring to a boil.",
+     "relatedIngredientIds": [
+      "ginger-paste",
+      "garlic-paste"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cover and cook on low level for about 25 minute(s) or until the chicken pieces are tender and fully cooked.",
+     "relatedIngredientIds": [
+      "medium-sized-pieces-of-c"
+     ],
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Garnish with finely-chopped coriander leaves.",
+     "relatedIngredientIds": [
+      "green-chillies",
+      "onions"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Malvani_Chicken_Curry",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "spicy-chilli-chicken",
+   "title": "Spicy Chilli Chicken",
+   "description": "Indo-Chinese fried chicken tossed with peppers in a soy and ketchup sauce.",
+   "prepTime": 75,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "boneless-chicken-meat",
+     "name": "boneless chicken meat",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "masala",
+     "name": "masala",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "canola-oil",
+     "name": "canola oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ea-red-onion",
+     "name": "ea. red onion, chopped",
+     "amount": 1.5,
+     "unit": ""
+    },
+    {
+     "id": "red-chile-powder",
+     "name": "red chile powder",
+     "amount": 0.75,
+     "unit": "tbsp"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 0.75,
+     "unit": "tsp"
+    },
+    {
+     "id": "smoked-paprika",
+     "name": "smoked paprika",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "coriander",
+     "name": "coriander",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "medium-tomatoes",
+     "name": "medium tomatoes, chopped",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "minced-ginger",
+     "name": "minced ginger",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "minced-garlic",
+     "name": "minced garlic",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "tomato-ketchup",
+     "name": "tomato ketchup",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 8.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "indian-green-chiles",
+     "name": "Indian green chiles, chopped",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "green-bell-peppers",
+     "name": "green bell peppers, sliced",
+     "amount": 2.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Marinate the chicken with lemon juice, masala, and salt for 1 hour.",
+     "relatedIngredientIds": [
+      "masala",
+      "lemon-juice"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a large pot, fry the marinated chicken in canola oil until golden brown (5–7 minutes).",
+     "relatedIngredientIds": [
+      "canola-oil"
+     ],
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Remove the chicken from the pot and cut into pieces.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Into the remaining oil, add the onions, red chili powder, turmeric, paprika, and coriander powder, and sauté until wilted.",
+     "relatedIngredientIds": [
+      "ea-red-onion",
+      "red-chile-powder",
+      "turmeric-powder",
+      "smoked-paprika",
+      "coriander"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the tomatoes, ginger, and garlic, and cook till the tomatoes are softened and breaking apart.",
+     "relatedIngredientIds": [
+      "medium-tomatoes",
+      "minced-ginger",
+      "minced-garlic"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Put the ketchup, soy sauce, fried chicken pieces, green chiles, and green peppers in the pot, and simmer until peppers are soft and chicken is fully-cooked.",
+     "relatedIngredientIds": [
+      "tomato-ketchup",
+      "soy-sauce",
+      "indian-green-chiles",
+      "green-bell-peppers"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve over steamed rice.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Spicy_Chilli_Chicken",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "shrimp-curry",
+   "title": "Shrimp Curry",
+   "description": "Quick shrimp curry with onion, garlic, curry powder and red curry paste.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "peeled",
+     "name": "peeled, deveined jumbo shrimp, heads removed",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "onion",
+     "name": "onion, finely diced",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "minced-garlic",
+     "name": "minced garlic",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "curry-powder",
+     "name": "curry powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chicken-broth",
+     "name": "chicken broth",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "heaping-tbsp-red-curry-p",
+     "name": "heaping tbsp red curry paste",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ghee",
+     "name": "ghee",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat oil in a large stainless steel sauté pan over medium high heat. Add shrimp and sauté just until bright pink. Remove and keep warm.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Melt ghee in same pan. Add vegetables and sauté until browned around edges.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "ghee"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add remaining ingredients and shrimp and toss to coat. Reduce heat to medium low and cook until shrimp are heated through.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Remove and serve.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Shrimp_Curry",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "prawn-curry",
+   "title": "Prawn Curry",
+   "description": "Prawns in a rich onion and tomato masala with potatoes and whole spices.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "medium-sized-prawns",
+     "name": "medium-sized prawns (shrimp), cleaned with tails removed",
+     "amount": 1.0,
+     "unit": "kg"
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes",
+     "amount": 0.5,
+     "unit": "kg"
+    },
+    {
+     "id": "medium-sized-onions",
+     "name": "medium-sized onions, cut in julienne",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes, cut in small cubes",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "green-cardamom-pods",
+     "name": "green cardamom pods",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "black-cardamom-pod",
+     "name": "black cardamom pod",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cinnamon-sticks",
+     "name": "cinnamon sticks",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "whole-cloves",
+     "name": "whole cloves",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic-paste",
+     "name": "garlic paste",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ginger-paste",
+     "name": "ginger paste (optional)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "red-chile-powder",
+     "name": "red chile powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin-powder",
+     "name": "cumin powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "nutmeg-and-mace-powder",
+     "name": "nutmeg and mace powder",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-coriander-leaves",
+     "name": "Fresh coriander leaves",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat a tablespoon of oil in a pan and sauté prawns over medium-high heat for 2 minutes only, just until that their water dries out and they turn pink in color.",
+     "relatedIngredientIds": [
+      "medium-sized-prawns"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Don't try to cook prawns for more than that because they will become rubbery and hard to chew.",
+     "relatedIngredientIds": [
+      "medium-sized-prawns"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In a saucepan, heat the remaining oil and fry onions over high heat for 8–10 minutes, stirring constantly until they become light golden in color.",
+     "relatedIngredientIds": [
+      "medium-sized-onions"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When onions have been fried, add tomato pieces, ginger garlic paste, red chili powder, turmeric powder, salt, cloves, cardamoms and cinnamon sticks.",
+     "relatedIngredientIds": [
+      "tomatoes",
+      "medium-sized-onions",
+      "black-cardamom-pod",
+      "cinnamon-sticks",
+      "whole-cloves",
+      "garlic-paste",
+      "ginger-paste",
+      "red-chile-powder",
+      "turmeric-powder",
+      "cumin-powder",
+      "nutmeg-and-mace-powder"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cover the pan and cook them over medium heat until they all mix together and form a curry.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "It takes at least 10–15 minutes for the curry to be cooked.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "When curry becomes red and the onions soften, mix in potato pieces and 1 cup water. Let them cook for 15 minutes until the potatoes are tender.",
+     "relatedIngredientIds": [
+      "medium-sized-onions",
+      "potatoes"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Uncover the pan and cook over high heat until the oil starts to separate from the gravy. Add the cumin powder, black pepper powder, garam masala, nutmeg, and mace powder.",
+     "relatedIngredientIds": [
+      "red-chile-powder",
+      "turmeric-powder",
+      "cumin-powder",
+      "black-pepper",
+      "garam-masala",
+      "nutmeg-and-mace-powder"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add fried prawn pieces and a sprinkle of coriander leaves. Mix them together and then cover the pan. Cook for just a minute over very low heat.",
+     "relatedIngredientIds": [
+      "medium-sized-prawns",
+      "fresh-coriander-leaves"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Serve with boiled rice or naan.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Prawn_Curry",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "keralan-prawns",
+   "title": "Keralan Prawns",
+   "description": "Kerala-style prawns sautéed with curry leaves, coconut and kudampuli.",
+   "prepTime": 15,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "whole-prawns",
+     "name": "whole prawns",
+     "amount": 0.5,
+     "unit": "kg"
+    },
+    {
+     "id": "red-chile-powder",
+     "name": "red chile powder",
+     "amount": 0.25,
+     "unit": "tbsp"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "coriander-powder",
+     "name": "coriander powder",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "minced-ginger",
+     "name": "minced ginger",
+     "amount": 0.25,
+     "unit": "tbsp"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "kudampuli",
+     "name": "Kudampuli to your preferred sourness",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves",
+     "amount": 15.0,
+     "unit": ""
+    },
+    {
+     "id": "pieces-chipped-coconut-k",
+     "name": "pieces chipped coconut kernel",
+     "amount": 20.0,
+     "unit": ""
+    },
+    {
+     "id": "big-green-chile",
+     "name": "big green chile",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "big-onion",
+     "name": "big onion (not sweet)",
+     "amount": 0.25,
+     "unit": ""
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Remove the prawn tails and heads.",
+     "relatedIngredientIds": [
+      "whole-prawns"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cook the prawns in water with ginger, salt, curry leaves, green chillies, kudampuli and coconut. Leave a little water in the vessel at the end of cooking.",
+     "relatedIngredientIds": [
+      "whole-prawns",
+      "minced-ginger",
+      "curry-leaves"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil in a pan and fry the turmeric, chili powder and coriander powder in it until they turn brown.",
+     "relatedIngredientIds": [
+      "red-chile-powder",
+      "turmeric-powder",
+      "coriander-powder"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the onion and sauté until wilted.",
+     "relatedIngredientIds": [
+      "big-onion"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the cooked shrimp and simmer, stirring, until it reaches a semi-dry consistency.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Keralan_Prawns",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "egg-roast",
+   "title": "Egg Roast",
+   "description": "Boiled eggs in a thick, spicy onion and tomato roast masala.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "oil",
+     "name": "Oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "medium-sized-onions",
+     "name": "medium-sized onions, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ginger-garlic-paste",
+     "name": "ginger-garlic paste",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "coriander-powder",
+     "name": "coriander powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chile-powder",
+     "name": "chile powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "large-tomato",
+     "name": "large tomato, finely minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "green-chiles",
+     "name": "green chiles, sliced in half",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "hard-boiled-eggs",
+     "name": "hard-boiled eggs, sliced in half",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "small-tomato",
+     "name": "small tomato, chopped into large chunks",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves, leaves separated from the stalk",
+     "amount": 1.0,
+     "unit": "sprig"
+    },
+    {
+     "id": "cinnamon-powder",
+     "name": "cinnamon powder",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "clove-powder",
+     "name": "clove powder",
+     "amount": 0.25,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat oil in a kadai, add onions and a pinch of salt, and fry until golden brown.",
+     "relatedIngredientIds": [
+      "medium-sized-onions",
+      "salt"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the ginger-garlic paste, and cook until the raw smell disappears.",
+     "relatedIngredientIds": [
+      "ginger-garlic-paste"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the coriander, chili, and turmeric powders, and sauté for 2 minutes.",
+     "relatedIngredientIds": [
+      "coriander-powder",
+      "chile-powder",
+      "turmeric-powder",
+      "cinnamon-powder",
+      "clove-powder"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the minced tomato to the kadai, and sauté until the oil separates from the mixture.",
+     "relatedIngredientIds": [
+      "large-tomato",
+      "small-tomato"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the green chillies, and fry for a few minutes. Add the eggs, and coat the pieces with the mixture.",
+     "relatedIngredientIds": [
+      "hard-boiled-eggs"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the chunked tomatoes, curry leaves, cinnamon, and clove. Sauté for a couple of minutes, and serve.",
+     "relatedIngredientIds": [
+      "large-tomato",
+      "small-tomato",
+      "curry-leaves"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Egg_Roast",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "egg-rice",
+   "title": "Egg Rice",
+   "description": "Quick rice stir-fried with onion, green chilli and scrambled egg.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "indian",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "uncooked-rice",
+     "name": "uncooked rice",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "small",
+     "name": "small (a little bit bigger than a golf ball) onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "medium-sized-green-chile",
+     "name": "medium-sized green chile peppers, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "ginger-paste",
+     "name": "ginger paste",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "garlic-paste",
+     "name": "garlic paste",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "spice-blend",
+     "name": "spice blend",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, beaten",
+     "amount": 2.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cook rice and keep it aside.",
+     "relatedIngredientIds": [
+      "uncooked-rice"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sweat onions and green chilies in a pan together over medium heat.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add ginger and garlic pastes.",
+     "relatedIngredientIds": [
+      "ginger-paste",
+      "garlic-paste"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add rice, and mix everything well.",
+     "relatedIngredientIds": [
+      "uncooked-rice"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add salt and spice powder.",
+     "relatedIngredientIds": [
+      "salt"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Stir in the beaten eggs.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cook until everything is mixed well.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Egg_Rice",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "indian-omelet",
+   "title": "Indian Omelet",
+   "description": "Spiced omelette with onion, tomato, green chilli and coriander.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "large-eggs",
+     "name": "large eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "finely-chopped-onion",
+     "name": "finely-chopped onion",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-tomatoes",
+     "name": "chopped tomatoes",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "finely-chopped-coriander",
+     "name": "Finely-chopped coriander leaves, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "finely-chopped-hot-green",
+     "name": "Finely-chopped hot green chiles, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "red-chile-powder",
+     "name": "Red chile powder, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "oil",
+     "name": "Oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a small bowl, whisk the eggs lightly. Add in all the other ingredients and mix properly.",
+     "relatedIngredientIds": [
+      "large-eggs"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Set a skillet on stove, and smear its surface with a thin coat of oil.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour the contents of the bowl into the skillet.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Lightly brown on one side.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Turn over and lightly brown other side.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Indian_Omelet",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "curry-fried-rice",
+   "title": "Curry Fried Rice",
+   "description": "Wok fried basmati rice with chicken, beef and curry powder.",
+   "prepTime": 15,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "indian",
+    "quick",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, crushed and minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "scallions",
+     "name": "scallions, cut into 2 cm pieces",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "sukiyaki-beef",
+     "name": "sukiyaki beef",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "bean-sprouts",
+     "name": "bean sprouts, soaked in hot water",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "chicken",
+     "name": "chicken, diced",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "basmati-rice",
+     "name": "Basmati rice, cooked",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chilli-powder",
+     "name": "chilli powder",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "curry-powder",
+     "name": "curry powder",
+     "amount": 20.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-soy-sauce",
+     "name": "light soy sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the oils in a non-stick frying pan. Add the garlic and scallion, and fry until fragrant.",
+     "relatedIngredientIds": [
+      "garlic",
+      "scallions"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add sukiyaki beef and chicken. Cook, stirring, for 1 minute until golden brown.",
+     "relatedIngredientIds": [
+      "sukiyaki-beef",
+      "chicken"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add bean sprouts, basmati rice, chilli powder and curry powder.",
+     "relatedIngredientIds": [
+      "bean-sprouts",
+      "basmati-rice",
+      "chilli-powder",
+      "curry-powder"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add soy sauce, salt, and pepper. Stir until well-mixed.",
+     "relatedIngredientIds": [
+      "light-soy-sauce",
+      "salt",
+      "pepper"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Curry_Fried_Rice",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pohe-spiced-flattened-rice",
+   "title": "Pohe (Spiced Flattened Rice)",
+   "description": "Soft flattened rice tempered with mustard, turmeric and green chilli.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 1,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "quick",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "thick-pohe",
+     "name": "thick pohe (flattened rice)",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "rai",
+     "name": "rai (mustard seeds)",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "haldi",
+     "name": "haldi (turmeric powder)",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "asafoetida-powder",
+     "name": "asafoetida powder",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "indian-green-chiles",
+     "name": "Indian green chiles, finely chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "medium-size-onion",
+     "name": "medium-size onion, finely chopped",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "cilantro",
+     "name": "cilantro (coriander)",
+     "amount": 2.0,
+     "unit": "sprig"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Moisten the pohe with cold water by putting in a bowl and holding under a slow running tap. Mix by hand, then drain excess water and set aside (take care not to soak too long or the pohe would turn pasty).",
+     "relatedIngredientIds": [
+      "thick-pohe"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the oil in a frying pan until medium hot. Add the mustard seeds and let them crackle for a few seconds",
+     "relatedIngredientIds": [
+      "rai"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the turmeric powder and asafoetida and fry for a few seconds (take care not to burn the turmeric).",
+     "relatedIngredientIds": [
+      "haldi",
+      "asafoetida-powder"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the green chillies and fry for a few seconds.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the chopped onion and lower the heat. Cover and cook for 2 minutes. The onions should turn soft but not brown.",
+     "relatedIngredientIds": [
+      "indian-green-chiles",
+      "medium-size-onion"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "The pohe that was kept aside should have absorbed the excess moisture by now.",
+     "relatedIngredientIds": [
+      "thick-pohe"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Mix the pohe by hand so that the flakes do not stick together and add to the frying pan.",
+     "relatedIngredientIds": [
+      "thick-pohe"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add salt to taste and stir the contents of the fry pay so that the yellow color of the turmeric is spread evenly through the pohe.",
+     "relatedIngredientIds": [
+      "thick-pohe",
+      "salt-to-taste"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Cover and cook for 5 minutes on low heat. Do not uncover during this time, as the pohe must cook in the steam.",
+     "relatedIngredientIds": [
+      "thick-pohe"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Stir and cook for another 1 minute uncovered.",
+     "relatedIngredientIds": [],
+     "animation": "stir",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Serve in a bowl garnished with chopped coriander leaves.",
+     "relatedIngredientIds": [
+      "indian-green-chiles",
+      "medium-size-onion",
+      "cilantro"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pohe_(Spiced_Flattened_Rice)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "medu-vada-south-indian-savory-lentil-donut",
+   "title": "Medu Vada",
+   "description": "Crisp deep-fried urad dal doughnuts with curry leaf and pepper.",
+   "prepTime": 370,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian",
+    "street-food"
+   ],
+   "ingredients": [
+    {
+     "id": "skinless-black-gram",
+     "name": "skinless black gram",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "asafoetida",
+     "name": "asafoetida",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "curry-leaves",
+     "name": "curry leaves",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "cumin-powder",
+     "name": "cumin powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "crushed-black-peppercorn",
+     "name": "crushed black peppercorns",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "oil-to-fry",
+     "name": "Oil to fry",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash and soak urad dal for 6 hours. Grind into a fine paste.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 21600,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add salt, asafoetida, curry leaves, cumin powder, and crushed peppercorns to the batter and mix well.",
+     "relatedIngredientIds": [
+      "asafoetida",
+      "curry-leaves",
+      "cumin-powder",
+      "crushed-black-peppercorn"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat oil in a kadai.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Wet your palms and take batter into the palms.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Shape into balls and make a hole with the thumb in the centre like a doughnut.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Deep-fry this in medium-hot oil until golden brown and crisp.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve hot with sambhar and coconut chutney.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Medu_Vada_(South_Indian_Savory_Lentil_Donut)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "rava-dosa-indian-semolina-pancake",
+   "title": "Rava Dosa",
+   "description": "Lacy, crisp semolina and rice flour pancakes.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "rice-flour",
+     "name": "rice flour",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "maida",
+     "name": "maida (or all-purpose flour)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "suji",
+     "name": "suji (semolina flour)",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "indian-green-chiles",
+     "name": "Indian green chiles",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "jeera",
+     "name": "jeera (cumin)",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "buttermilk",
+     "name": "buttermilk",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "Water",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix all the ingredients together to a watery batter.",
+     "relatedIngredientIds": [
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat a griddle or pan, and grease it with oil.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Sprinkle the batter on the pan with your hand .",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cook it on medium temperature for 3–4 minutes, or until it is completely cooked.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 240,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Serve it with tomato or peanut chutney.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Rava_Dosa_(Indian_Semolina_Pancake)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "uppittu-indian-semolina-porridge",
+   "title": "Uppittu",
+   "description": "Savoury semolina porridge cooked with mustard seed, tomato and green chilli.",
+   "prepTime": 15,
+   "cookTime": 35,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "upma-rava",
+     "name": "upma rava",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "mustard-seeds",
+     "name": "mustard seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "finely-chopped-ginger",
+     "name": "finely-chopped ginger",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "finely-chopped-garlic",
+     "name": "finely-chopped garlic",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "medium-sized-onion",
+     "name": "medium-sized onion, finely chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "medium-sized-tomato",
+     "name": "medium-sized tomato, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "finely-chopped-green-chi",
+     "name": "finely-chopped green chilli peppers",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "Salt (to taste)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a wok or other suitable pan, heat 1 tbsp of oil. When the oil is hot add the rava, and stir it with a spoon until it starts browning.",
+     "relatedIngredientIds": [
+      "upma-rava"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "The main purpose of this is to coat the rava grains with the oil so that they don’t stick.",
+     "relatedIngredientIds": [
+      "upma-rava"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Be sure not to burn the rava or you will have to restart. Set the rava aside, and let it cool.",
+     "relatedIngredientIds": [
+      "upma-rava"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In the same wok or another suitable pan, heat the remaining oil. When hot, add the mustard seeds and wait until the seeds start crackling.",
+     "relatedIngredientIds": [
+      "mustard-seeds"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "When the crackling starts tapering off, add the onions and fry until golden brown.",
+     "relatedIngredientIds": [
+      "medium-sized-onion"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the ginger and the garlic, and stir for a few seconds.",
+     "relatedIngredientIds": [
+      "finely-chopped-ginger",
+      "finely-chopped-garlic"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the remaining vegetables and the water, plus enough salt such that when tasted it is slightly saltier than required. Turn the heat to medium and let it simmer until the vegetables are cooked but still crispy.",
+     "relatedIngredientIds": [
+      "salt",
+      "water"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Turn the heat to low, and start adding the rava to the water. This is the most important step that determines the correct consistency of the upma.",
+     "relatedIngredientIds": [
+      "upma-rava",
+      "water"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "The rava must be added as quickly as possible while continuously stirring the contents, ensuring no lumps are formed.",
+     "relatedIngredientIds": [
+      "upma-rava"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "When the rava is thoroughly mixed, cover the vessel and let it cook for a few minutes, stirring the contents every 20 seconds or so.",
+     "relatedIngredientIds": [
+      "upma-rava"
+     ],
+     "suggestedTimerSeconds": 20,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Turn the heat off, add the lemon juice, and mix it well.",
+     "relatedIngredientIds": [
+      "lemon-juice"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s12",
+     "order": 12,
+     "instructionText": "Eat with a variety of sides like chutney, sugar, pickles, etc.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Uppittu_(Indian_Semolina_Porridge)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "appam-fermented-rice-pancake",
+   "title": "Appam (Fermented Rice Pancake)",
+   "description": "Lacy fermented rice and coconut pancakes with soft centres.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "breakfast",
+    "indian",
+    "rice",
+    "south-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "uncooked-white-rice",
+     "name": "uncooked white rice",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "fresh-grated-coconut",
+     "name": "fresh grated coconut",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt, or to taste",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "white-rice",
+     "name": "white rice, cooked",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "water-for-soaking-rice",
+     "name": "water for soaking rice, and 2 to 2 1/2 cups for grinding",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "yeast-or-kefir",
+     "name": "yeast or kefir, to start the ferment (optional)",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the raw rice in water.",
+     "relatedIngredientIds": [
+      "uncooked-white-rice",
+      "white-rice",
+      "water-for-soaking-rice"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Grind the soaked rice until about ¼ ground.",
+     "relatedIngredientIds": [
+      "uncooked-white-rice",
+      "white-rice",
+      "water-for-soaking-rice"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the grated coconut along with a little water and continue grinding.",
+     "relatedIngredientIds": [
+      "fresh-grated-coconut",
+      "water-for-soaking-rice"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the sugar, cooked rice and yeast or kefir, and keep grinding until the whole mixture becomes smooth. It should be thinner than pancake batter.",
+     "relatedIngredientIds": [
+      "uncooked-white-rice",
+      "sugar",
+      "white-rice",
+      "water-for-soaking-rice",
+      "yeast-or-kefir"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Transfer it to a wide open container and leave it to rise overnight.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "The next morning, add salt and refrigerate the batter until use.",
+     "relatedIngredientIds": [
+      "salt"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "To fry the appams, use a tava or a small bowl-shaped pan with either a non-stick coating or a little oil (coconut or any other refined oil) or ghee.",
+     "relatedIngredientIds": [
+      "fresh-grated-coconut"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Pour a full serving spoon of batter into the middle of the pan and swirl it around a single time so that a little of the batter sticks to the sides.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Cover the pan with a hot lid and remove the appam with a spatula after 2–3 minutes, when it becomes slightly browned around the edges. It should be round, with a thick centre and thin, lacy edges.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Brown"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Appam_(Fermented_Rice_Pancake)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "idiyappam-south-indian-rice-noodles",
+   "title": "Idiyappam",
+   "description": "Steamed rice-flour string hoppers served with coconut.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "quick",
+    "south-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "raw",
+     "name": "raw (i.e. not roasted) rice flour",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water (hot water preferred by some)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "grated-coconut",
+     "name": "grated coconut",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "ghee",
+     "name": "ghee",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix rice flour with hot water and salt.",
+     "relatedIngredientIds": [
+      "raw",
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Knead it into a smooth dough.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Press the dough through an idiyappam presser or sieve onto banana leaves on which a little grated coconut has been sprinkled. Alternatively, press it directly onto an idli pan without banana leaves.",
+     "relatedIngredientIds": [
+      "grated-coconut"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Steam for 5–10 minutes. Some people add a little grated coconut on top before steaming.",
+     "relatedIngredientIds": [
+      "water",
+      "grated-coconut"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Steam"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Idiyappam_(South_Indian_Rice_Noodles)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "ragi-dosa-south-indian-millet-and-rice-pancake",
+   "title": "Ragi Dosa",
+   "description": "Fermented finger millet, rice and urad dal pancakes.",
+   "prepTime": 310,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "breakfast",
+    "south-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "ragi",
+     "name": "ragi (finger millet)",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "rice",
+     "name": "rice",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "urad-dal",
+     "name": "urad dal",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "Salt, to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak ragi, rice and urad dal separately in water for 5 hours.",
+     "relatedIngredientIds": [
+      "ragi",
+      "rice",
+      "urad-dal"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 18000,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Grind the soaked rice with water first and next with urad dal and ragi (both) with water.",
+     "relatedIngredientIds": [
+      "ragi",
+      "rice",
+      "urad-dal"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix up all the ground batter. Leave it for about 10 hours to ferment.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "After 10 hours put some salt as per your taste to the batter and water if needed.",
+     "relatedIngredientIds": [
+      "salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Take a cup of batter and spread it onto a hot tava.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Ragi_Dosa_(South_Indian_Millet_and_Rice_Pancake)",
+   "credit": "Wikibooks Cookbook contributors"
+  }
+ ]
+}

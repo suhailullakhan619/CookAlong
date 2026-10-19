@@ -272,6 +272,52 @@ class EdgeCaseTest(unittest.TestCase):
             alexa_skill._bedrock, alexa_skill.CHEF_BUDGET_SECONDS = old[0], old[1]
         self.assertEqual(len(calls), 1)
 
+    SCANNED = {"screen": "scan", "scanIngredients": ["paneer", "onion", "tomato"], "timers": []}
+
+    def test_plan_dinner_pushes_plan_with_servings(self):
+        store = FakeStore(state=self.SCANNED)
+        resp = self.run_intent(store, "PlanDinnerIntent", count="4")
+        self.assertEqual(speech(resp), "Planning dinner with what you scanned. Watch your TV.")
+        self.assertEqual(store.pushed, [{"type": "plan", "servings": 4}])
+
+    def test_plan_dinner_defaults_to_two(self):
+        store = FakeStore(state=self.SCANNED)
+        self.run_intent(store, "PlanDinnerIntent")
+        self.assertEqual(store.pushed, [{"type": "plan", "servings": 2}])
+
+    def test_plan_dinner_needs_a_scan(self):
+        for state in ({"screen": "home", "timers": []}, {"screen": "home", "scanIngredients": []},
+                      {"screen": "home", "scanIngredients": None}, {"screen": "home", "scanIngredients": ["", "  "]}):
+            store = FakeStore(state=state)
+            resp = self.run_intent(store, "PlanDinnerIntent", count="4")
+            self.assertEqual(speech(resp), "Scan your fridge first: say 'scan my fridge'.")
+            self.assertEqual(store.pushed, [])
+
+    def test_plan_dinner_needs_a_linked_live_tv(self):
+        self.assertIn("Connect Alexa", speech(self.run_intent(FakeStore(linked=False), "PlanDinnerIntent")))
+        resp = self.run_intent(FakeStore(state=self.SCANNED, age=10 * 60_000), "PlanDinnerIntent")
+        self.assertIn("can't reach", speech(resp))
+
+    def test_plan_dinner_not_while_cooking(self):
+        store = FakeStore(state=dict(COOKING, scanIngredients=["paneer"]))
+        self.assertIn("Finish or leave", speech(self.run_intent(store, "PlanDinnerIntent")))
+        self.assertEqual(store.pushed, [])
+
+    def test_plan_dinner_rejects_silly_counts(self):
+        store = FakeStore(state=self.SCANNED)
+        for n in ("0", "13", "-2"):
+            self.assertIn("one to twelve", speech(self.run_intent(store, "PlanDinnerIntent", count=n)))
+        self.assertEqual(store.pushed, [])
+
+    def test_every_model_intent_has_a_handler_and_vice_versa(self):
+        import json, os
+        path = os.path.join(os.path.dirname(__file__), "..", "alexa", "skill-package", "interactionModels", "custom", "en-US.json")
+        with open(path, encoding="utf-8") as f:
+            model = {i["name"] for i in json.load(f)["interactionModel"]["languageModel"]["intents"]}
+        handled = set(alexa_skill.INTENTS)
+        self.assertEqual(model - handled, set(), "intent in the model without a handler")
+        self.assertEqual(handled - model, set(), "handler without an intent in the model")
+
 
 class HelperTest(unittest.TestCase):
     def test_parse_duration(self):

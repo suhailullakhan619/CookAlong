@@ -1,0 +1,4007 @@
+{
+ "recipes": [
+  {
+   "id": "simple-nachos",
+   "title": "Simple Nachos",
+   "description": "Tortilla chips piled with seasoned ground beef, tomato and sour cream.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "mexican",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "lean-ground-beef",
+     "name": "lean ground beef (92% lean or greater)",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "diced-tomatoes-with-gree",
+     "name": "diced tomatoes with green chiles",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "or-less-taco-seasoning-m",
+     "name": "or less taco seasoning mix (mostly cumin)",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sour-cream",
+     "name": "sour cream",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "mexican-seasoning",
+     "name": "Mexican seasoning",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "corn-tortilla-chips",
+     "name": "Corn tortilla chips",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a skillet, brown ground beef with Mexican seasoning and Taco Mix.",
+     "relatedIngredientIds": [
+      "lean-ground-beef",
+      "or-less-taco-seasoning-m",
+      "mexican-seasoning"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "When beef is browned add the can of diced tomatoes with green chiles, cover and allow to simmer an additional 5 minutes.",
+     "relatedIngredientIds": [
+      "lean-ground-beef",
+      "diced-tomatoes-with-gree"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put tortilla chips on a large plate. Place 2 tablespoons of sour cream on plate. Sprinkle beef and diced tomato mixture over top of the chips.",
+     "relatedIngredientIds": [
+      "lean-ground-beef",
+      "sour-cream",
+      "corn-tortilla-chips"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Serve and enjoy.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Simple_Nachos",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pico-de-gallo",
+   "title": "Pico de Gallo",
+   "description": "Fresh chopped tomato, onion, cilantro and lime salsa.",
+   "prepTime": 40,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "mexican",
+    "salad"
+   ],
+   "ingredients": [
+    {
+     "id": "chopped-fresh",
+     "name": "chopped fresh, seeded tomato",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-white-or-yellow",
+     "name": "chopped white or yellow onion",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-cilantro",
+     "name": "chopped cilantro",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "freshly-squeezed-lime-ju",
+     "name": "freshly squeezed lime juice",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-black-pepper",
+     "name": "ground black pepper",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "stemmed",
+     "name": "stemmed, seeded, and minced jalapeño or other chiles",
+     "amount": 1.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "small-clove-of-garlic",
+     "name": "small clove of garlic, minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "hot-sauce",
+     "name": "Hot sauce, to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash vegetables and cilantro.",
+     "relatedIngredientIds": [
+      "chopped-cilantro"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine vegetables, mixing well.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add salt, pepper, chiles, lime juice, and garlic.",
+     "relatedIngredientIds": [
+      "salt",
+      "freshly-squeezed-lime-ju",
+      "ground-black-pepper",
+      "stemmed",
+      "small-clove-of-garlic"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add hot sauce as desired.",
+     "relatedIngredientIds": [
+      "hot-sauce"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Let stand 30 minutes to allow flavors to meld.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Stand"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pico_de_Gallo",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "homemade-wheat-tortillas",
+   "title": "Homemade Wheat Tortillas",
+   "description": "Soft flour tortillas rolled thin and cooked in a dry skillet.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "baking",
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "unbleached-all-purpose-f",
+     "name": "unbleached all-purpose flour",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "lard-or-vegetable-shorte",
+     "name": "lard or vegetable shortening",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "warm-water",
+     "name": "warm water, or more if needed",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder (optional, for thicker and chewier tortillas)",
+     "amount": 4.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a large bowl, stir together the flour, salt and baking powder.",
+     "relatedIngredientIds": [
+      "unbleached-all-purpose-f",
+      "salt",
+      "baking-powder"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "With a pastry blender, a fork, or your hands, gradually work in the lard or shortening until it is all incorporated.",
+     "relatedIngredientIds": [
+      "lard-or-vegetable-shorte"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add enough warm water to make a soft but not sticky dough.",
+     "relatedIngredientIds": [
+      "warm-water"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Turn out onto a lightly-floured board and knead for 5 minutes.",
+     "relatedIngredientIds": [
+      "unbleached-all-purpose-f"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Knead"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Divide the dough into ¼ cup (3 oz / 90 g) portions and form them into balls.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Roll each ball into a flat round about 6 inches (15 cm) in diameter and ⅛ inches (0.3 cm) thick. You can use a tortilla press for this.",
+     "relatedIngredientIds": [
+      "baking-powder"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Heat a large heavy skillet over medium high heat.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Place the tortillas one at a time into the dry (or very lightly oiled) hot skillet; cook until browned in spots on one side, then turn and brown the other in spots side (about 1 minute/side)",
+     "relatedIngredientIds": [
+      "baking-powder"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Remove from the skillet and keep warm in cloth towel. ko:밀가루 토르티야",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Homemade_Wheat_Tortillas",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "homemade-corn-tortillas",
+   "title": "Homemade Corn Tortillas",
+   "description": "Three-ingredient corn tortillas pressed from masa and cooked on a hot pan.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "baking",
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "masa",
+     "name": "masa (masa harina, masa lista)",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a large bowl, stir together the masa and salt.",
+     "relatedIngredientIds": [
+      "masa",
+      "salt"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the water, and mix together well to form a dough.",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Turn out onto a lightly floured board and knead for 5 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Knead"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Divide the dough into ¼ cup (3 oz / 90 g) portions, and form them into balls.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Roll each ball into a flat round about 6 inches (10 cm) in diameter and ⅛ inches (0.25 cm) thick.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat a large heavy skillet over medium high heat.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Place the tortillas one at a time into the dry hot skillet; cook until brown on one side, then turn and brown the other side.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Remove from the skillet and keep warm in cloth towel.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Homemade_Corn_Tortillas",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "mexican-tomato-soup",
+   "title": "Mexican Tomato Soup",
+   "description": "Chunky tomato, pepper and sweet corn soup, served with tortilla chips.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "mexican",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "tomato-sauce",
+     "name": "tomato sauce, tomato purée, or similar",
+     "amount": 0.5,
+     "unit": "l"
+    },
+    {
+     "id": "large-onions-or-equivale",
+     "name": "large onions or equivalent",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "red-bell-peppers",
+     "name": "red bell peppers",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "tomatoes",
+     "name": "tomatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "onion-or-leek-greens",
+     "name": "Onion or leek greens",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "sweet-corn",
+     "name": "sweet corn",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "vegetable-or-olive-oil",
+     "name": "vegetable or olive oil",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "sugar",
+     "name": "Sugar",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "more-vegetables-accordin",
+     "name": "More vegetables according to your taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut onion fine and fry lightly in a large saucepan with a bit of oil.",
+     "relatedIngredientIds": [
+      "tomato-sauce"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add vegetables, roughly in the order you find logical (ie, tomatoes don't take long, peppers can be there from the start).",
+     "relatedIngredientIds": [
+      "red-bell-peppers",
+      "tomatoes"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add about ½ teaspoon salt, adjusting to taste. The salt will extract water from the vegetables and make them 'stew' faster.",
+     "relatedIngredientIds": [
+      "salt",
+      "more-vegetables-accordin"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "You can cover the pot if it goes slowly—once again, this slows the evaporation and allows the vegetables to cook in the water they lose themselves.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add tomato sauce and corn.",
+     "relatedIngredientIds": [
+      "tomato-sauce",
+      "tomatoes",
+      "sweet-corn"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add salt and sugar to taste. Be bold; tomato sauce takes a lot of salt and at least a heaping teaspoon of sugar to taste right.",
+     "relatedIngredientIds": [
+      "tomato-sauce",
+      "tomatoes",
+      "salt",
+      "sugar",
+      "more-vegetables-accordin"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "If unsure, separate a small amount and try adding more salt—you will see the tastes changes significantly.",
+     "relatedIngredientIds": [
+      "salt",
+      "more-vegetables-accordin"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve with tortilla chips, or toasted bread if not available.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Mexican_Tomato_Soup",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "huevos-rancheros",
+   "title": "Huevos Rancheros",
+   "description": "Fried eggs on crisp tortillas under a cooked ranchero tomato sauce.",
+   "prepTime": 15,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "medium-onion",
+     "name": "medium onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic (optional), minced",
+     "amount": 1.0,
+     "unit": "clove"
+    },
+    {
+     "id": "chopped-chile-peppers",
+     "name": "Chopped chile peppers, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "chili-powder",
+     "name": "chili powder",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "plum-tomatoes",
+     "name": "plum tomatoes, peeled, seeded and chopped",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "corn-tortillas",
+     "name": "corn tortillas",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper-to-taste",
+     "name": "Pepper to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cilantro-or-parsley",
+     "name": "cilantro or parsley (optional), finely chopped",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "To prepare the ranchero sauce, in a skillet, heat 1 tablespoon oil over medium-high heat. Add the onion and optional garlic, and sauté until softened but not brown (4–5 minutes).",
+     "relatedIngredientIds": [
+      "medium-onion",
+      "garlic"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the tomatoes, peppers, chili powder, salt and a few grinds of black pepper and reduce to a simmer. Simmer for about 10 minutes, until the sauce begins to thicken up.",
+     "relatedIngredientIds": [
+      "chopped-chile-peppers",
+      "chili-powder",
+      "plum-tomatoes"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the cilantro or parsley, turn off the heat and cover the pan to keep the sauce warm.",
+     "relatedIngredientIds": [
+      "cilantro-or-parsley"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In another skillet, lightly fry the tortillas in 1 tablespoon of oil. Remove and drain.",
+     "relatedIngredientIds": [
+      "corn-tortillas"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "If necessary, add additional oil to the second skillet, and fry the eggs until they are \"sunny-side up\". Transfer the eggs to the tortillas, and cover with the ranchero sauce.",
+     "relatedIngredientIds": [
+      "corn-tortillas",
+      "eggs"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Huevos_Rancheros",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "chalupa",
+   "title": "Chalupa",
+   "description": "Crisp fried corn tortillas with refried beans, cheese, lettuce and tomato.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "mexican",
+    "quick",
+    "salad"
+   ],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "Vegetable oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "corn-tortillas",
+     "name": "corn tortillas",
+     "amount": 12.0,
+     "unit": ""
+    },
+    {
+     "id": "refried-beans",
+     "name": "refried beans",
+     "amount": 6.0,
+     "unit": "cup"
+    },
+    {
+     "id": "grated-queso-fresco-chee",
+     "name": "grated queso fresco cheese",
+     "amount": 0.5,
+     "unit": "lb"
+    },
+    {
+     "id": "chopped-onion",
+     "name": "Chopped onion",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "large-tomato",
+     "name": "large tomato, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "shredded-lettuce",
+     "name": "shredded lettuce",
+     "amount": 3.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a small skillet, heat about ½ inch of vegetable oil. Test the oil for the correct temperature by putting in a small piece of tortilla.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "corn-tortillas"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "If the oil immediately bubbles frantically and the bread quickly becomes crisp then the oil is at the right temperature.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "This is important because a low temperature will produce an unpleasantly oily and soggy chalupa shell.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Fry the tortilla completely flat in the oil, on both sides, until very crisp. Drain and keep the fried tortilla warm on a newspaper or paper towel-covered cookie sheet in a warm oven.",
+     "relatedIngredientIds": [
+      "corn-tortillas"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Spread a layer of refried beans on each fried tortilla, about ¼ inch thick. Top with a generous amount of grated cheddar cheese and about 1 tablespoon of chopped onion.",
+     "relatedIngredientIds": [
+      "corn-tortillas",
+      "refried-beans",
+      "grated-queso-fresco-chee",
+      "chopped-onion",
+      "large-tomato"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Place the assembled chalupas on a cookie sheet and brown under broiler until the cheese melts and begins to bubble. Watch them carefully at this stage, as they can burn quite quickly.",
+     "relatedIngredientIds": [
+      "grated-queso-fresco-chee"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Top with shredded lettuce and tomato, and serve immediately.",
+     "relatedIngredientIds": [
+      "large-tomato",
+      "shredded-lettuce"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chalupa",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "sincronizada-fried-ham-and-cheese-tortilla-sandwich",
+   "title": "Sincronizada",
+   "description": "Pan-fried tortilla sandwich of ham and queso fresco.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 10,
+   "dietaryTags": [],
+   "categories": [
+    "mexican",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "tortillas",
+     "name": "tortillas",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "deli-ham",
+     "name": "deli ham",
+     "amount": 1.0,
+     "unit": "slice"
+    },
+    {
+     "id": "queso-fresco",
+     "name": "queso fresco",
+     "amount": 1.0,
+     "unit": "slice"
+    },
+    {
+     "id": "oil",
+     "name": "Oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat up some oil in a pan over medium heat.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "On a cutting board, with two tortillas, place a slice of deli ham and then queso fresco in the middle, and place another tortilla on top.",
+     "relatedIngredientIds": [
+      "tortillas",
+      "deli-ham",
+      "queso-fresco"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "When the oil is hot, place the raw sincronizada on the pan and let the first side brown for a few minutes until the outside becomes crispy.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Once the first side is golden brown, flip the sincronizada over and brown the other side to crisp up in the same manner.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "After a few more minutes, place the sincronizada on a plate with napkins, and enjoy.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Sincronizada_(Fried_Ham_and_Cheese_Tortilla_Sandwich)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "miso-soup",
+   "title": "Miso Soup",
+   "description": "Quick miso soup with green onion, tofu and mushrooms.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "japanese",
+    "quick",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "miso",
+     "name": "miso",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "green-onions",
+     "name": "green onions (optional), finely minced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cake-tofu",
+     "name": "cake tofu (optional), cut into 1/2-inch cubes",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "fresh-mushrooms",
+     "name": "fresh mushrooms (optional), thinly sliced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "shrimp",
+     "name": "shrimp (optional), cubed or shredded",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "some-pieces-of-seaweed",
+     "name": "Some pieces of seaweed (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat oil in a small pot.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add green onion. Cook for a few minutes while stirring frequently.",
+     "relatedIngredientIds": [
+      "green-onions"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add 2 ½ cups of water. Bring to a boil.",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Dissolve miso in remaining ½ cup of water and add to pot.",
+     "relatedIngredientIds": [
+      "water",
+      "miso"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Lower heat and add mushrooms, seaweed, and tofu, if desired.",
+     "relatedIngredientIds": [
+      "cake-tofu",
+      "fresh-mushrooms",
+      "some-pieces-of-seaweed"
+     ],
+     "animation": "fry"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Miso_Soup",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "meat-and-potatoes-in-broth-niku-jaga",
+   "title": "Meat and Potatoes in Broth",
+   "description": "Japanese simmered beef, potatoes and onion in a sweet soy broth.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "japanese",
+    "quick",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "sliced-beef",
+     "name": "sliced beef",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "small-potatoes",
+     "name": "small potatoes (red potatoes recommended)",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "white-onion",
+     "name": "white onion, sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "mirin",
+     "name": "mirin",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 1.0,
+     "unit": "slice"
+    },
+    {
+     "id": "shirataki-noodles",
+     "name": "shirataki noodles",
+     "amount": 100.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut potatoes into bite-sized pieces. Set aside to soak in cold water.",
+     "relatedIngredientIds": [
+      "small-potatoes",
+      "water"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine mirin, soy sauce, sugar, ginger, and beef in a saucepan. Boil lightly for 2–3 minutes.",
+     "relatedIngredientIds": [
+      "sliced-beef",
+      "mirin",
+      "soy-sauce",
+      "sugar",
+      "ginger"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Remove beef from pan. Add potatoes, sliced onion, and water. Bring to a boil.",
+     "relatedIngredientIds": [
+      "sliced-beef",
+      "small-potatoes",
+      "white-onion",
+      "water"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Simmer uncovered until the broth reduces to about ⅓ by volume.",
+     "relatedIngredientIds": [],
+     "animation": "boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Replace beef in pan, add shirataki noodles, and simmer for roughly 5 minutes.",
+     "relatedIngredientIds": [
+      "sliced-beef",
+      "shirataki-noodles"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Remove from heat and serve.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Meat_and_Potatoes_in_Broth_(Niku_Jaga)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "gyudon-japanese-beef-and-rice-bowl",
+   "title": "Gyudon",
+   "description": "Thin beef and onion simmered in a sweet soy sauce over rice with soft egg.",
+   "prepTime": 35,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "japanese",
+    "noodles"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "thinly-sliced-beef",
+     "name": "thinly-sliced beef",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "onion",
+     "name": "onion, cut into wedges",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "sake",
+     "name": "sake",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "mirin",
+     "name": "mirin",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "dashi",
+     "name": "dashi",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger, grated",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "steamed-rice",
+     "name": "Steamed rice",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "beni-sh-ga",
+     "name": "Beni shōga (pickled ginger)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "shichimi-seasoning",
+     "name": "Shichimi seasoning",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "scallions",
+     "name": "Scallions, chopped",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cover the eggs in boiling water, and let them sit for 20 minutes so they are soft inside and not hard. Carefully peel off the shell.",
+     "relatedIngredientIds": [
+      "eggs",
+      "water"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Boil the beef and drain the water.",
+     "relatedIngredientIds": [
+      "thinly-sliced-beef",
+      "water"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Combine sake, mirin, soy sauce, and sugar in a frying pan. Stir over at medium heat.",
+     "relatedIngredientIds": [
+      "sake",
+      "sugar",
+      "mirin",
+      "soy-sauce"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add beef and cook. Before all the sauce evaporates, remove the beef.",
+     "relatedIngredientIds": [
+      "thinly-sliced-beef",
+      "soy-sauce"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add water, dashi, grated ginger, and onions to the sauce. Cover and boil.",
+     "relatedIngredientIds": [
+      "onion",
+      "soy-sauce",
+      "water",
+      "dashi",
+      "ginger",
+      "beni-sh-ga"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Mix in the beef.",
+     "relatedIngredientIds": [
+      "thinly-sliced-beef"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Put the steamed rice in a bowl, and top with the sauced meat.",
+     "relatedIngredientIds": [
+      "soy-sauce",
+      "steamed-rice"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Arrange the soft egg and pickled ginger on top. Top with scallions and shichimi seasoning.",
+     "relatedIngredientIds": [
+      "eggs",
+      "ginger",
+      "beni-sh-ga",
+      "shichimi-seasoning",
+      "scallions"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Gyudon_(Japanese_Beef_and_Rice_Bowl)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "simple-restaurant-miso-soup",
+   "title": "Simple Restaurant Miso Soup",
+   "description": "Dashi miso soup with wakame and tofu, restaurant style.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "japanese",
+    "quick",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "dashi",
+     "name": "dashi",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "pieces-of-wakame",
+     "name": "pieces of wakame",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "a-few-1-cm-cubes-of-medi",
+     "name": "A few 1 cm cubes of medium-firm tofu",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "miso-paste",
+     "name": "miso paste (either white, red, or a mixture)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the dashi to a light simmer.",
+     "relatedIngredientIds": [
+      "dashi"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "While this is heating, lay out your bowl and place the wakame and tofu in the bottom.",
+     "relatedIngredientIds": [
+      "pieces-of-wakame",
+      "a-few-1-cm-cubes-of-medi"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "When the dashi simmers, take a ladle or so of liquid aside and mix it with the miso paste.",
+     "relatedIngredientIds": [
+      "dashi",
+      "miso-paste"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Remove the pot of dashi from the stove and stir in the miso mixture.",
+     "relatedIngredientIds": [
+      "dashi",
+      "miso-paste"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Ladle the prepared soup into the bowl and serve.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Simple_Restaurant_Miso_Soup",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "grilled-aubergine",
+   "title": "Grilled Aubergine",
+   "description": "Grilled aubergine slices glazed with sweet miso sauce and sesame.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "japanese",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "large-aubergine",
+     "name": "large aubergine (eggplant)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "Vegetable oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "miso-paste",
+     "name": "miso paste",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "soup-stock",
+     "name": "soup stock",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "white-sesame-seeds",
+     "name": "white sesame seeds",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash the aubergine, and cut it into 2.5 cm slices lengthwise.",
+     "relatedIngredientIds": [
+      "large-aubergine"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Brush the cut surfaces with oil.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Grill 7–10 cm from the source of the heat until the aubergine is tender and browned all over (about 5 minutes).",
+     "relatedIngredientIds": [
+      "large-aubergine"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In a small saucepan combine the miso, sugar, and soup stock. Cook, stirring, over low heat until the mixture is smooth and hot. Do not let it boil.",
+     "relatedIngredientIds": [
+      "sugar",
+      "soup-stock"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour the sauce mixture over the aubergine.",
+     "relatedIngredientIds": [
+      "large-aubergine"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "In a small frying pan toast the sesame seeds until they jump, then sprinkle them over the aubergine.",
+     "relatedIngredientIds": [
+      "large-aubergine",
+      "white-sesame-seeds"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Grilled_Aubergine",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "spanakopita",
+   "title": "Spanakopita",
+   "description": "Greek spinach and feta pie baked in crisp buttered phyllo.",
+   "prepTime": 25,
+   "cookTime": 45,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "baking",
+    "greek"
+   ],
+   "ingredients": [
+    {
+     "id": "fresh-spinach-or-580-g",
+     "name": "fresh spinach or 580 g frozen, thawed, and drained spinach",
+     "amount": 900.0,
+     "unit": "g"
+    },
+    {
+     "id": "large-onion",
+     "name": "large onion, finely chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "extra-virgin-olive-oil",
+     "name": "extra-virgin olive oil",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-scallions",
+     "name": "chopped scallions",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "minced-fresh-parsley",
+     "name": "minced fresh parsley",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "minced-fresh-dill",
+     "name": "minced fresh dill",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "freshly-ground-nutmeg",
+     "name": "freshly ground nutmeg",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "crumbled-feta-cheese",
+     "name": "crumbled feta cheese",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "small-curd-cottage-chees",
+     "name": "small curd cottage cheese",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "freshly-grated-parmesan",
+     "name": "freshly grated parmesan cheese",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, beaten",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "sheets-phyllo-pastry",
+     "name": "sheets phyllo pastry",
+     "amount": 12.0,
+     "unit": ""
+    },
+    {
+     "id": "clarified-butter",
+     "name": "clarified butter",
+     "amount": 0.667,
+     "unit": "cup"
+    },
+    {
+     "id": "freshly-ground-black-pep",
+     "name": "freshly-ground black pepper",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt (or to taste)",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat oven to 180°C (350°F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Wash the spinach, remove large stems, and chop. Place in a steamer over boiling water and steam for 2 minutes, or until wilted and reduced in volume. Drain, pressing out any liquid with the back of a spoon.",
+     "relatedIngredientIds": [
+      "fresh-spinach-or-580-g"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Steam"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil in a large skillet. Add onion and cook over medium heat until slightly tender. Add scallions and cook until limp. Remove from heat. Stir in parsley, dill, nutmeg, salt and pepper.",
+     "relatedIngredientIds": [
+      "large-onion",
+      "chopped-scallions",
+      "minced-fresh-parsley",
+      "minced-fresh-dill",
+      "freshly-ground-nutmeg",
+      "freshly-ground-black-pep",
+      "salt"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the cheeses, spinach, and lemon juice to the skillet. Mix. Add eggs and mix again gently.",
+     "relatedIngredientIds": [
+      "fresh-spinach-or-580-g",
+      "lemon-juice",
+      "crumbled-feta-cheese",
+      "small-curd-cottage-chees",
+      "freshly-grated-parmesan",
+      "eggs"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Brush a 9x12-inch baking dish with some of the butter. Lay a sheet of phyllo dough across the bottom of the dish, covering the entire surface and letting the edges fold upward against the sides.",
+     "relatedIngredientIds": [
+      "clarified-butter"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Brush with butter, and place another sheet on top. Continue layering the phyllo (brushing each sheet) until the bottom of the dish is covered with about 8 sheets.",
+     "relatedIngredientIds": [
+      "clarified-butter"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Place half of the spinach filling on top of the phyllo, smoothing out with a rubber spatula until evenly distributed.",
+     "relatedIngredientIds": [
+      "fresh-spinach-or-580-g"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cover the filling with 5–8 phyllo sheets, brushing each layer with butter. Place remaining spinach filling on top and smooth as above.",
+     "relatedIngredientIds": [
+      "fresh-spinach-or-580-g",
+      "clarified-butter"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Cover with 5–8 phyllo sheets, brushing with butter as above. Roll up all overhanging phyllo sheets and crumble any broken sheet bits on top. Drizzle any remaining clarified butter over top.",
+     "relatedIngredientIds": [
+      "clarified-butter"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Place the spanakopita in the oven on a medium rack.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Bake for 45 minutes, or until puffed and golden.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s12",
+     "order": 12,
+     "instructionText": "Let sit for 10 minutes before cutting and serving.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Spanakopita",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "spanish-flan",
+   "title": "Spanish Flan",
+   "description": "Easy baked caramel custard made with condensed and evaporated milk.",
+   "prepTime": 10,
+   "cookTime": 60,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "spanish",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "vanilla",
+     "name": "vanilla",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sweetened-condensed-milk",
+     "name": "sweetened condensed milk",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "evaporated-milk",
+     "name": "evaporated milk (large can)",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "caramel-ice-cream-toppin",
+     "name": "Caramel ice cream topping",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat oven to 375°F.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine all ingredients except caramel topping in blender. Blend for 2 minutes.",
+     "relatedIngredientIds": [
+      "caramel-ice-cream-toppin"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Blend"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Place a thin layer of caramel topping on bottom of a round pie pan. Pour egg mixture on top of caramel topping.",
+     "relatedIngredientIds": [
+      "eggs",
+      "caramel-ice-cream-toppin"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Place the smaller pie pan in a larger pan filled with enough water so that it comes about 1 inch up the side of the smaller pan. This will act as a bain marie and stop the flan from burning.",
+     "relatedIngredientIds": [
+      "evaporated-milk"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Place both pans in oven. Cook for 1 hour or until center is firm.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Remove from oven and let cool.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Place a round dish over the top of the smaller pan, and flip it over to unmold it. The flan can be served on the dish.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Spanish_Flan",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "tyropita-greek-cheese-pie",
+   "title": "Tyropita (Greek Cheese Pie)",
+   "description": "Layered phyllo pie filled with feta, egg and a milk sauce.",
+   "prepTime": 10,
+   "cookTime": 45,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "baking",
+    "greek",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "feta-cheese",
+     "name": "feta cheese",
+     "amount": 1.5,
+     "unit": "lb"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 5.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 8.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "scalded-milk",
+     "name": "scalded milk",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, lightly beaten",
+     "amount": 7.0,
+     "unit": ""
+    },
+    {
+     "id": "phyllo-pastry",
+     "name": "phyllo pastry",
+     "amount": 0.75,
+     "unit": "lb"
+    },
+    {
+     "id": "butter-2",
+     "name": "Butter, melted",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper-to-taste",
+     "name": "Pepper to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Crumble cheese into very small pieces.",
+     "relatedIngredientIds": [
+      "feta-cheese"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Melt butter in small pot. Add flour, blend well. Slowly add scalded milk, stirring constantly to make a smooth bechamel sauce. Add a little salt and pepper.",
+     "relatedIngredientIds": [
+      "butter",
+      "flour",
+      "scalded-milk",
+      "butter-2"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Remove from heat and stir until cool. Add crumbled cheese and mix well. Add eggs and mix again.",
+     "relatedIngredientIds": [
+      "feta-cheese",
+      "eggs"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Butter a pan about 2 inches (5 cm) smaller than the phyllo sheets. Use a little more than half of the phyllo sheets to make the bottom layer of the pie.",
+     "relatedIngredientIds": [
+      "butter",
+      "butter-2"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Brush each with melted butter and place it in the pan letting the edges hang over the pan.",
+     "relatedIngredientIds": [
+      "butter",
+      "butter-2"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour in the cheese-egg mixture, spreading evenly.",
+     "relatedIngredientIds": [
+      "feta-cheese",
+      "eggs"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cover mixture with the phyllo that extended beyond pan. This will prevent mixture from leaking out.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Carefully cut remaining phyllo to fit pan. Brush each sheet with butter before placing on pita.",
+     "relatedIngredientIds": [
+      "butter",
+      "butter-2"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Brush top with butter and sprinkle with a little water. Score into strips to make cutting the pie easier after it is baked.",
+     "relatedIngredientIds": [
+      "butter",
+      "butter-2"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Bake in a preheated 300°F (150°C) oven for 45 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Preheat"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Cut into pieces and serve hot.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Tyropita_(Greek_Cheese_Pie)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "gambas-al-ajillo-garlic-shrimp",
+   "title": "Gambas al Ajillo (Garlic Shrimp)",
+   "description": "Spanish tapas shrimp sizzled in olive oil with garlic, paprika and sherry.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "quick",
+    "spanish"
+   ],
+   "ingredients": [
+    {
+     "id": "shrimp",
+     "name": "shrimp",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "large-cloves-of-garlic",
+     "name": "large cloves of garlic, finely minced",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "sweet-spanish-paprika",
+     "name": "sweet Spanish paprika",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dry-sherry",
+     "name": "dry sherry (you may substitute cognac instead)",
+     "amount": 2.0,
+     "unit": "oz"
+    },
+    {
+     "id": "virgin-olive-oil",
+     "name": "virgin olive oil",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-fresh-parsley",
+     "name": "chopped fresh parsley",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-lemon-juice",
+     "name": "fresh lemon juice",
+     "amount": 1.0,
+     "unit": "oz"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a sauté pan or other heavy frying pan, warm the olive oil over medium heat. Add the garlic and sauté for about one minute or until it begins to brown. Be careful not to burn the garlic.",
+     "relatedIngredientIds": [
+      "large-cloves-of-garlic",
+      "virgin-olive-oil"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Raise the heat to high and add the shrimp, lemon juice, sherry or cognac and paprika. Stir well, then sauté, stirring briskly until the shrimp turn pink and curl (about 3 minutes).",
+     "relatedIngredientIds": [
+      "shrimp",
+      "sweet-spanish-paprika",
+      "dry-sherry",
+      "fresh-lemon-juice"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Remove from heat and transfer shrimp with oil and sauce to a warm plate or serve right from the pan.",
+     "relatedIngredientIds": [
+      "shrimp"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Season to taste with salt and freshly ground black pepper. Sprinkle with parsley.",
+     "relatedIngredientIds": [
+      "chopped-fresh-parsley"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Gambas_al_Ajillo_(Garlic_Shrimp)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "tzatziki",
+   "title": "Tzatziki",
+   "description": "Greek yogurt dip with cucumber, garlic and dill.",
+   "prepTime": 70,
+   "cookTime": 180,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "greek"
+   ],
+   "ingredients": [
+    {
+     "id": "yogurt",
+     "name": "yogurt",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "dill",
+     "name": "dill",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice (optional)",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "small-cucumbers",
+     "name": "small cucumbers, diced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "white-pepper",
+     "name": "White pepper, to taste (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Drain yogurt in a sieve or a cheesecloth for about 3 hours prior to using it.",
+     "relatedIngredientIds": [
+      "yogurt"
+     ],
+     "suggestedTimerSeconds": 10800,
+     "timerLabel": "Drain"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drain the cucumber and salt it to further remove moisture.",
+     "relatedIngredientIds": [
+      "small-cucumbers",
+      "salt"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Combine yogurt, garlic, olive oil, and lemon juice in a bowl and cover and refrigerate for 1 hour or more.",
+     "relatedIngredientIds": [
+      "yogurt",
+      "garlic",
+      "olive-oil",
+      "lemon-juice"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "After refrigerating, add dill and cucumber into bowl and mix with a whisk until smooth.",
+     "relatedIngredientIds": [
+      "dill",
+      "small-cucumbers"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add pepper and salt to taste.",
+     "relatedIngredientIds": [
+      "salt",
+      "white-pepper"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Tzatziki",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "greek-style-grilled-chicken",
+   "title": "Greek-Style Grilled Chicken",
+   "description": "Chicken rubbed with oregano, thyme, mint and rosemary and grilled.",
+   "prepTime": 80,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "greek"
+   ],
+   "ingredients": [
+    {
+     "id": "whole-broiler-fryer-chic",
+     "name": "whole broiler/fryer chicken, cut into serving pieces",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "dried-oregano",
+     "name": "dried oregano",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dried-thyme",
+     "name": "dried thyme",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dried-mint-flakes",
+     "name": "dried mint flakes",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dried-rosemary",
+     "name": "dried rosemary",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "freshly-ground-black-pep",
+     "name": "Freshly-ground black pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "garlic-powder",
+     "name": "garlic powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "extra-virgin-olive-oil",
+     "name": "Extra-virgin olive oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Brush chicken pieces with olive oil. Set aside.",
+     "relatedIngredientIds": [
+      "whole-broiler-fryer-chic",
+      "extra-virgin-olive-oil"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine all remaining ingredients and rub into chicken. Refrigerate for at least 1 hour.",
+     "relatedIngredientIds": [
+      "whole-broiler-fryer-chic"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat about 28 charcoal briquets in a large chimney starter. Disperse evenly around bottom of grill and reapply the grate.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add chicken and cook, turning often, until internal temperature of the breast is 165°F and the thigh is 170°F.",
+     "relatedIngredientIds": [
+      "whole-broiler-fryer-chic"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Remove to a plate and cover with foil. Let rest 10 minutes before serving warm.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Greek-Style_Grilled_Chicken",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "greek-chicken-wrap",
+   "title": "Greek Chicken Wrap",
+   "description": "Toasted tortilla wraps filled with chicken, feta and oregano.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "greek",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "shredded-cooked-chicken",
+     "name": "shredded cooked chicken",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "crumbled-feta-cheese",
+     "name": "crumbled feta cheese",
+     "amount": 2.5,
+     "unit": "cup"
+    },
+    {
+     "id": "greek-yogurt-sauce",
+     "name": "Greek Yogurt Sauce",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "fresh-oregano",
+     "name": "fresh oregano, finely chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "flour-tortillas",
+     "name": "flour tortillas",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "olive-oil",
+     "name": "Olive oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine feta, chicken, yogurt sauce, and oregano. Set aside.",
+     "relatedIngredientIds": [
+      "shredded-cooked-chicken",
+      "greek-yogurt-sauce",
+      "fresh-oregano"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Brush one side of each tortilla with olive oil. Add ¼ of chicken mixture and roll the longer side up.",
+     "relatedIngredientIds": [
+      "shredded-cooked-chicken",
+      "flour-tortillas",
+      "olive-oil"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Repeat until all tortillas have been rolled.",
+     "relatedIngredientIds": [
+      "flour-tortillas"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Sprinkle with additional chopped oregano, and serve cold as a snack.",
+     "relatedIngredientIds": [
+      "fresh-oregano"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Greek_Chicken_Wrap",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pan-fried-white-brined-cheese-saganaki",
+   "title": "Pan-Fried White Brined Cheese",
+   "description": "Salty white cheese pan-fried until golden, served with lemon.",
+   "prepTime": 1,
+   "cookTime": 4,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "greek",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "large-slice-of-salty",
+     "name": "large slice of salty, brined white cheese",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil (not extra virgin)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "large-lemon-wedge",
+     "name": "large lemon wedge",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "a-small-amount-of-flour",
+     "name": "A small amount of flour (optional)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pita-or-other-bread",
+     "name": "Pita or other bread (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat a small frying pan over medium-high heat.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "While the pan heats, cut the cheese into slices of the desired size and thickness. Thicker slices will take longer to melt through and may result in burning, while thinner ones will have less chance to brown.",
+     "relatedIngredientIds": [
+      "large-slice-of-salty"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Optionally, dredge the slices in flour—this will create a darker and slightly crispier crust, but is an optional step as the cheese will acquire a very slight crust on its own by virtue of the oil and high heat.",
+     "relatedIngredientIds": [
+      "large-slice-of-salty",
+      "a-small-amount-of-flour",
+      "pita-or-other-bread"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "It will also reduce the spitting somewhat.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the oil to the hot pan and swirl it around. When the oil shimmers and seems to become more fluid, it is ready. Add the cheese and step back—it will spit due to the brine-water on the cheese.",
+     "relatedIngredientIds": [
+      "large-slice-of-salty"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Flip the cheese after a minute or two.",
+     "relatedIngredientIds": [
+      "large-slice-of-salty"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "A slice of ¾ centimeter should get about 1–2 minutes per side.",
+     "relatedIngredientIds": [],
+     "animation": "chop",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve immediately, with lemon and (optionally) bread.",
+     "relatedIngredientIds": [
+      "a-small-amount-of-flour",
+      "pita-or-other-bread"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pan-Fried_White_Brined_Cheese_(Saganaki)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "bulgogi",
+   "title": "Bulgogi",
+   "description": "Korean marinated beef with soy, sesame and garlic, grilled and served with rice.",
+   "prepTime": 40,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "korean"
+   ],
+   "ingredients": [
+    {
+     "id": "beef-suitable-for-grilli",
+     "name": "beef suitable for grilling, sliced as thin as possible",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "green-onions",
+     "name": "green onions, sliced on the bias",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "button-mushrooms",
+     "name": "button mushrooms (optional), sliced",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "onion (optional), thinly sliced",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "white-granulated-sugar",
+     "name": "white granulated sugar",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": 4.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "minced-garlic",
+     "name": "minced garlic",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "mirin",
+     "name": "mirin (optional)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine all the ingredients in a big bowl. Marinate for at least 30 minutes, but marinating overnight will get the best flavor and tenderization.",
+     "relatedIngredientIds": [],
+     "animation": "mix",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Marinate"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Grill the beef.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Serve with rice.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Bulgogi",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "cabbage-kimchi",
+   "title": "Cabbage Kimchi",
+   "description": "Fermented napa cabbage stuffed with a gochugaru, garlic and ginger paste.",
+   "prepTime": 15,
+   "cookTime": 35,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "korean"
+   ],
+   "ingredients": [
+    {
+     "id": "head-napa-cabbage",
+     "name": "head napa cabbage (baechu, Chinese cabbage, wombok)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "sea-salt",
+     "name": "sea salt (or any coarse salt)",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "minced-garlic",
+     "name": "minced garlic",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "minced-ginger",
+     "name": "minced ginger",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "gochugaru",
+     "name": "gochugaru (Korean chile flakes)",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "aekjeot",
+     "name": "aekjeot (Korean fish sauce)",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "onion",
+     "name": "onion, thinly sliced",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "carrot",
+     "name": "carrot, thinly julienned",
+     "amount": 0.25,
+     "unit": ""
+    },
+    {
+     "id": "korean-radish",
+     "name": "Korean radish (muwoo), thinly julienned",
+     "amount": 0.25,
+     "unit": ""
+    },
+    {
+     "id": "green-onions",
+     "name": "green onions, cut into 3-cm pieces",
+     "amount": 4.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Quarter the napa cabbage, wash, and drain.",
+     "relatedIngredientIds": [
+      "head-napa-cabbage"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine coarse sea salt and water.",
+     "relatedIngredientIds": [
+      "sea-salt",
+      "water",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put cabbages in salted water and take out one at a time to get salt down.",
+     "relatedIngredientIds": [
+      "head-napa-cabbage",
+      "sea-salt",
+      "water",
+      "salt"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add cabbages to a container. Pour salted water over top, and set aside for at least 6–8 hours (overnight is great). The cabbage should be soft enough to bend.",
+     "relatedIngredientIds": [
+      "head-napa-cabbage",
+      "sea-salt",
+      "water",
+      "salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Wash cabbages and drain well.",
+     "relatedIngredientIds": [
+      "head-napa-cabbage"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Combine gochugaru, salt, sugar, jeot gal (Korean fish sauce), minced garlic, and minced ginger.",
+     "relatedIngredientIds": [
+      "sea-salt",
+      "minced-garlic",
+      "minced-ginger",
+      "gochugaru",
+      "salt",
+      "sugar",
+      "aekjeot"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Mix the onion, carrot, radish, and green onion into the chilli powder mixture.",
+     "relatedIngredientIds": [
+      "onion",
+      "carrot",
+      "korean-radish",
+      "green-onions"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Take one cabbage, and stuff the above mixture between every layer.",
+     "relatedIngredientIds": [
+      "head-napa-cabbage"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Try to fold the cabbage in half. With 2 outer leaves, wrap the whole thing securely.",
+     "relatedIngredientIds": [
+      "head-napa-cabbage"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Put cabbages in an airtight container, and let it sit at room temperature overnight.",
+     "relatedIngredientIds": [
+      "head-napa-cabbage"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Refrigerate for 2–3 days at minimum. After a few days, you will notice some liquid. This is totally normal and a sign that the kimchi is ripening.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    },
+    {
+     "id": "s12",
+     "order": 12,
+     "instructionText": "Enjoy your kimchi!",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Cabbage_Kimchi",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "baba-ganoush",
+   "title": "Baba Ganoush",
+   "description": "Smoky roasted aubergine blended with tahini, lemon and garlic.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "mediterranean",
+    "middle-eastern",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "medium-large-eggplant",
+     "name": "medium-large eggplant, any variety",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "raw-tahini",
+     "name": "raw tahini",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "juice-of-1-lime-or-lemon",
+     "name": "Juice of 1 lime or lemon",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, crushed",
+     "amount": 1.0,
+     "unit": "clove"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "paprika-or-cayenne-peppe",
+     "name": "Paprika or cayenne pepper, as a garnish",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Roast the eggplant. This can be done in a variety of ways, but the flesh should be fully cooked and the skin should be burned and falling off easily.",
+     "relatedIngredientIds": [
+      "medium-large-eggplant"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "An effective method is to prick the eggplant and place it a few inches under a broiler, turning it as the exposed skin blackens, about every 3-4 minutes.",
+     "relatedIngredientIds": [
+      "medium-large-eggplant"
+     ],
+     "suggestedTimerSeconds": 240,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Place a pan underneath to catch the juices, and discard them.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Scrape off the eggplant skin. It's alright if you miss a few burned bits.",
+     "relatedIngredientIds": [
+      "medium-large-eggplant"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Finely chop or blend the eggplant flesh with the rest of the ingredients. The consistency should be smooth. Reserve a bit of the olive oil, and drizzle that over the top. Sprinkle with some paprika or cayenne.",
+     "relatedIngredientIds": [
+      "medium-large-eggplant",
+      "olive-oil"
+     ],
+     "animation": "chop"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Baba_Ganoush",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "hummus-greek",
+   "title": "Hummus (Greek)",
+   "description": "Chickpea dip made from scratch with tahini, lemon and plenty of garlic.",
+   "prepTime": 480,
+   "cookTime": 190,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "breakfast",
+    "greek",
+    "mediterranean"
+   ],
+   "ingredients": [
+    {
+     "id": "raw-dried-chickpeas",
+     "name": "raw dried chickpeas",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 9.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "tahini",
+     "name": "tahini (ground sesame seeds)",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "freshly-squeezed-lemon-j",
+     "name": "freshly squeezed lemon juice",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic (peeled and roughly chopped)",
+     "amount": 12.0,
+     "unit": "clove"
+    },
+    {
+     "id": "extra-virgin-olive-oil",
+     "name": "extra virgin olive oil",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "freshly-ground-black-pep",
+     "name": "freshly-ground black pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the chickpeas in water overnight, then drain.",
+     "relatedIngredientIds": [
+      "raw-dried-chickpeas",
+      "water"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Gently simmer the chickpeas with the 9 cups water (generously salted) and the tablespoon of oil until very soft, but still whole (about 3 hours, or 10 minutes + cooling time if using a pressure cooker).",
+     "relatedIngredientIds": [
+      "raw-dried-chickpeas",
+      "water",
+      "salt"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 10800,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Drain the chickpeas, and reserve a few cups of the cooking liquid (you will need it later).",
+     "relatedIngredientIds": [
+      "raw-dried-chickpeas",
+      "cooking-oil"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Rinse the chickpeas with plenty of cold water. While doing so, gently rub them between your hands to release the skins—they should float away with the rinsing water.",
+     "relatedIngredientIds": [
+      "raw-dried-chickpeas",
+      "water"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "After several changes of water, and removing a majority of the skins, drain the chickpeas again.",
+     "relatedIngredientIds": [
+      "raw-dried-chickpeas",
+      "water"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Using a food processor (or other means), mix the lemon juice with the tahini.",
+     "relatedIngredientIds": [
+      "tahini",
+      "freshly-squeezed-lemon-j"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Purée (or mash) the chickpeas in batches, using the lemon juice and tahini mixture, the olive oil.",
+     "relatedIngredientIds": [
+      "raw-dried-chickpeas",
+      "tahini",
+      "freshly-squeezed-lemon-j",
+      "extra-virgin-olive-oil"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "And the cooking liquid as required to maintain the desired consistency (add the garlic to the batch with the olive oil, and process until smooth).",
+     "relatedIngredientIds": [
+      "cooking-oil",
+      "garlic",
+      "extra-virgin-olive-oil"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "In a large bowl, using a spoon, mix the salt and pepper into the other blended ingredients (add additional cooking liquid, if still too thick).",
+     "relatedIngredientIds": [
+      "cooking-oil",
+      "salt",
+      "freshly-ground-black-pep"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Hummus_(Greek)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pita",
+   "title": "Pita",
+   "description": "Soft yeasted pita breads baked hot until puffed.",
+   "prepTime": 40,
+   "cookTime": 20,
+   "servings": 8,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "baking",
+    "mediterranean",
+    "middle-eastern"
+   ],
+   "ingredients": [
+    {
+     "id": "warm-water",
+     "name": "warm water",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "instant-yeast",
+     "name": "instant yeast",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "durum-wheat-flour",
+     "name": "durum wheat flour",
+     "amount": 500.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Dissolve the yeast in a bowl of warm water. Add salt, oil and flour, mix it, and knead it into a dough.",
+     "relatedIngredientIds": [
+      "warm-water",
+      "instant-yeast",
+      "salt",
+      "durum-wheat-flour"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Let the dough rise to twice its size.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Divide the risen dough into 8 pieces and shape them into balls.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Then roll the balls into flat and round pita breads (to a diameter of 15 cm or 6 inches).",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Let the breads rise in a warm place covered with a cloth for about 30 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Rise"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake at 225°C (435°F) for about 12 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 720,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pita",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "shakshuka-i",
+   "title": "Shakshuka I",
+   "description": "Eggs poached in a spiced tomato and pepper sauce.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "middle-eastern"
+   ],
+   "ingredients": [
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sweet-paprika",
+     "name": "sweet paprika",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 6.0,
+     "unit": "clove"
+    },
+    {
+     "id": "large-sweet-red-pepper",
+     "name": "large sweet red pepper, diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "chile-pepper",
+     "name": "chile pepper (red or green), chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ripe-tomatoes-diced",
+     "name": "ripe tomatoes diced",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "ground-black-pepper",
+     "name": "Ground black pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 6.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "On a high heat, heat the oil for about ½ minute. Add the paprika and blend well.",
+     "relatedIngredientIds": [
+      "sweet-paprika"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the garlic and peppers, and turn to low flame. Cook for about 10 minutes, until the peppers have slightly softened.",
+     "relatedIngredientIds": [
+      "garlic",
+      "large-sweet-red-pepper",
+      "chile-pepper",
+      "ground-black-pepper"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the tomatoes and bring to a boil, then season to taste with salt and pepper.",
+     "relatedIngredientIds": [
+      "large-sweet-red-pepper",
+      "chile-pepper",
+      "ground-black-pepper",
+      "salt-to-taste"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Make 6 dents in the mixture. Into each dent, put an egg yolk, and spread the egg whites around.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Continue to cook on low until the egg whites have coagulated.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Shakshuka_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "persian-apple-dessert",
+   "title": "Persian Apple Dessert",
+   "description": "Chilled blended apple with rosewater and lemon.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 3,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "middle-eastern",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "medium-apples",
+     "name": "medium apples, peeled and cut up",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "white-granulated-sugar",
+     "name": "white granulated sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "rose-or-orange-flower-wa",
+     "name": "rose or orange flower water",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Place half the apples and the remaining ingredients in blender.",
+     "relatedIngredientIds": [
+      "medium-apples"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cover and blend until coarsely chopped, 20–30 seconds.",
+     "relatedIngredientIds": [],
+     "animation": "mix",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Blend"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add remaining apples; blend until coarsely chopped.",
+     "relatedIngredientIds": [
+      "medium-apples"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Persian_Apple_Dessert",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "tahdiq-crisped-persian-rice",
+   "title": "Tahdiq (Crisped Persian Rice)",
+   "description": "Persian rice steamed over sliced potato for a crunchy golden base.",
+   "prepTime": 10,
+   "cookTime": 50,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "middle-eastern",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "medium-size-potatoes",
+     "name": "medium size potatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "uncooked-basmati-rice",
+     "name": "uncooked basmati rice",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "Salt (as desired)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "water",
+     "name": "Water",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel and slice the raw potatoes into ½ inch thick slices.",
+     "relatedIngredientIds": [
+      "medium-size-potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Rinse and drain rice. Bring 4–5 cups of water to a boil in a 3-quart pot, adding salt if desired.",
+     "relatedIngredientIds": [
+      "uncooked-basmati-rice",
+      "salt",
+      "water"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add rice, and continue to boil the water, stirring occasionally, for about 10 minutes. Check to be sure that the rice doesn't cook completely at this point.",
+     "relatedIngredientIds": [
+      "uncooked-basmati-rice",
+      "water"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When rice is roughly half cooked, drain into a colander.",
+     "relatedIngredientIds": [
+      "uncooked-basmati-rice"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour ¼ cup of cooking oil into the pot and lay the potato slices in the bottom close together in a single layer.",
+     "relatedIngredientIds": [
+      "medium-size-potatoes"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add a small amount of salt (if desired). Layer the half-cooked, drained rice loosely atop the potatoes.",
+     "relatedIngredientIds": [
+      "medium-size-potatoes",
+      "uncooked-basmati-rice",
+      "salt"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Place pot on stove over medium high heat for 4–5 minutes or until rice begins to steam.",
+     "relatedIngredientIds": [
+      "uncooked-basmati-rice"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Lower heat and add 5 tbsp water and 2–3 tbsp oil on top of rice. Cover and let simmer for about ½ hour or until cooked and tender. The higher the heat, the crunchier the tahdig.",
+     "relatedIngredientIds": [
+      "uncooked-basmati-rice",
+      "water"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Scoop out the rice and use a soft spatula to remove tahdig at bottom, or try to make the contents of the pot come out as an entire cake of rice on the serving dish.",
+     "relatedIngredientIds": [
+      "uncooked-basmati-rice"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Tahdiq_(Crisped_Persian_Rice)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "middle-eastern-meatballs",
+   "title": "Middle Eastern Meatballs",
+   "description": "Broiled beef and rice meatballs with cinnamon, herbs and yogurt sauce.",
+   "prepTime": 15,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "middle-eastern"
+   ],
+   "ingredients": [
+    {
+     "id": "low-fat-plain-yogurt",
+     "name": "low-fat plain yogurt",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "finely-chopped-garlic",
+     "name": "finely-chopped garlic",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "crushed-dried-mint",
+     "name": "crushed dried mint",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt-to-taste",
+     "name": "Salt to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "93-lean-ground-beef",
+     "name": "93% lean ground beef",
+     "amount": 0.75,
+     "unit": "lb"
+    },
+    {
+     "id": "cooked-brown-rice",
+     "name": "cooked brown rice",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "finely-chopped-onion",
+     "name": "finely-chopped onion",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "packed-cilantro",
+     "name": "packed cilantro, chopped coriander",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "packed-flat-leaf-parsley",
+     "name": "packed flat-leaf parsley, chopped",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cumin",
+     "name": "ground cumin",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "red-pepper-flakes",
+     "name": "red pepper flakes",
+     "amount": 0.125,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-black-pepper",
+     "name": "ground black pepper",
+     "amount": 0.125,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a small bowl, whisk together the yogurt, garlic, and mint. Season to taste with salt.",
+     "relatedIngredientIds": [
+      "low-fat-plain-yogurt",
+      "finely-chopped-garlic",
+      "crushed-dried-mint",
+      "salt-to-taste",
+      "salt"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Set the broiler rack 5 inches from the heat.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Preheat the broiler.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In a mixing bowl, combine the meat, rice, onion, cilantro, parsley, cinnamon, cumin, red and black peppers, and ½ teaspoon salt, stirring mixture with a fork until it is well blended",
+     "relatedIngredientIds": [
+      "cooked-brown-rice",
+      "finely-chopped-onion",
+      "packed-cilantro",
+      "packed-flat-leaf-parsley",
+      "ground-cinnamon",
+      "ground-cumin",
+      "ground-black-pepper",
+      "salt"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "With your hands, form the mixture into 1½-inch meatballs.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "As you make them, place the meatballs on a baking sheet that fits under the broiler.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Broil the meatballs until they are well browned on top, 4 to 5 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Using tongs, turn and cook until the meatballs are browned outside and no longer pink in the center, 3–4 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 240,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Transfer them to a serving plate and serve warm, passing the yogurt sauce in a bowl.",
+     "relatedIngredientIds": [
+      "low-fat-plain-yogurt"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Middle_Eastern_Meatballs",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "beef-and-vegetable-kabobs",
+   "title": "Beef and Vegetable Kabobs",
+   "description": "Paprika-marinated beef and vegetable skewers cooked on the grill.",
+   "prepTime": 75,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "middle-eastern"
+   ],
+   "ingredients": [
+    {
+     "id": "beef-sirloin",
+     "name": "beef sirloin, cut into 1 1/2 inch (4 cm) cubes",
+     "amount": 1.5,
+     "unit": "lb"
+    },
+    {
+     "id": "smoked-paprika",
+     "name": "smoked paprika",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "kosher-salt",
+     "name": "kosher salt",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "freshly-ground-black-pep",
+     "name": "freshly-ground black pepper",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "cayenne pepper",
+     "amount": 1.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "balsamic-vinegar",
+     "name": "balsamic vinegar",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "large-onion",
+     "name": "large onion, wedged",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "several-assorted-bell-pe",
+     "name": "Several assorted bell peppers, cut into 3-inch strips",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "inch",
+     "name": "-inch (2.5 cm) slices zucchini",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "bamboo-skewers",
+     "name": "bamboo skewers, soaked in water 30 minutes",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "rosemary",
+     "name": "rosemary, finely chopped",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "thyme",
+     "name": "thyme, finely chopped",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine paprika, salt, pepper, cayenne pepper, olive oil, rosemary, thyme and balsamic vinegar in a gallon (4 liter) size zip-top bag. Add beef and refrigerate for at least 1 hour.",
+     "relatedIngredientIds": [
+      "smoked-paprika",
+      "kosher-salt",
+      "freshly-ground-black-pep",
+      "cayenne-pepper",
+      "olive-oil",
+      "balsamic-vinegar",
+      "several-assorted-bell-pe",
+      "rosemary",
+      "thyme"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sort beef cubes into equal size rows. Skewer 1 onion wedge, 1 strip bell pepper, 1 slice zucchini from the side, and 3 cubes of meat across the grain in a pattern per skewer.",
+     "relatedIngredientIds": [
+      "beef-sirloin",
+      "freshly-ground-black-pep",
+      "cayenne-pepper",
+      "large-onion",
+      "several-assorted-bell-pe",
+      "inch",
+      "bamboo-skewers"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Grill over medium high heat, turning often, 11 minutes for medium. Serve warm.",
+     "relatedIngredientIds": [
+      "bamboo-skewers"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 660,
+     "timerLabel": "Heat"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Beef_and_Vegetable_Kabobs",
+   "credit": "Wikibooks Cookbook contributors"
+  }
+ ]
+}

@@ -1,0 +1,386 @@
+!source wikibooks
+
+@ aloo-tikki | Aloo Tikki (Twice-Fried) | Potato halves deep-fried until tender, pressed flat, fried again till golden and dusted with spices. | 10 | 30 | 4 | indian,north-indian,snack,street-food | Cookbook:Aloo Tikki (Spiced Potato Patties)
+- 8 potatoes
+- 2 1/2 tsp red chilli powder
+- 1 tsp coriander powder
+- 1 tsp amchur (dried mango powder)
+- oil, for deep frying
+- salt
+> Peel and halve the potatoes, then sprinkle them with salt.
+> Heat the oil for deep frying. Fry the potatoes over low heat until tender, then lift them out and let them cool.
+> Place the potatoes on a board and gently flatten each one with the palm of your hand.
+> Deep fry the flattened potatoes again until golden.
+> Sprinkle each with a little red chilli powder, amchur and coriander powder, and serve hot.
+
+@ banana-curry | Banana Curry | Firm bananas simmered gently in a creamy, lightly spiced milk sauce with cumin and turmeric. | 10 | 15 | 4 | indian,quick | Cookbook:Banana Curry
+- 750 g bananas, slightly unripe
+- 1/2 tsp cumin seeds
+- 1/2 tsp turmeric powder
+- 1/2 tsp garam masala
+- 2 tsp lemon juice
+- 125 ml milk
+- 4 tbsp fresh cream
+- 1/2 tsp chilli powder
+- 30 g butter
+- salt
+> Peel the bananas and cut them into 2 cm slices.
+> Add the milk, fresh cream, garam masala, chilli powder, lemon juice and a little salt to the bananas.
+> Melt the butter, add the cumin seeds and turmeric powder, and cook for 2 minutes over medium-low heat, until fragrant.
+> Add the bananas and their sauce.
+> Cook on a gentle flame until the bananas are just tender. Do not overcook.
+
+@ indian-tomato-gravy | Basic Indian Tomato Gravy | Simple onion-tomato curry base with ginger, garlic and ground spices, ready for vegetables, eggs or chicken. | 10 | 20 | 4 | indian,quick | Cookbook:Basic Indian Tomato Gravy
+- 5 tomatoes, diced
+- 1 onion, finely diced
+- 1 tbsp ghee
+- 1/2 tsp ginger paste
+- 5 clove garlic, crushed
+- 1 tsp chilli powder
+- 1/2 tsp coriander powder
+- 1/2 tsp cumin powder
+- 1/4 tsp turmeric powder
+- salt
+> Heat the ghee and fry the onion until it starts to brown.
+> Add the ginger paste and garlic and stir, then add the chilli powder, coriander powder, cumin powder and turmeric powder. Mix well.
+> Add the tomatoes and salt to taste.
+> Turn the heat to medium, cover and cook for 10 minutes, until it forms a thick, spicy gravy.
+> Use the gravy as a base for vegetables, boiled eggs, paneer or chicken, and serve with plain rice.
+
+@ pani-puri | Pani Puri | Crisp puris filled with potato, moong and tamarind chutney, then topped up with chilled spiced water. | 30 | 30 | 3 | indian,snack,street-food | Cookbook:Bread Filled with Potato Curry (Pani Puri)
+- 1 tbsp chaat masala
+- 1 tbsp amchur (dried mango powder)
+- 1 tbsp red chilli powder
+- 1 tbsp coriander powder
+- 1 tbsp jeera powder (ground cumin)
+- 1/2 tbsp black pepper
+- 1 pinch hing (asafoetida)
+- 2 tbsp lemon juice
+- black salt
+- chilled water
+- 2 potatoes
+- 100 g moong dal
+- 50 g tamarind
+- 100 g sugar
+- 50 g boondi
+- 1 tbsp coriander leaves, chopped
+- 15 small puris
+> For the pani, blend the chaat masala, amchur, jeera powder, coriander powder, red chilli powder, black pepper, hing, lemon juice and black salt with chilled water. Chill it.
+> Boil the potatoes and the moong dal separately until soft.
+> Peel the potatoes and roughly mash them.
+> Soak the tamarind in a little hot water, squeeze out the pulp and simmer it with the sugar into a thick chutney. Chill it.
+> Break a small hole in the top of each puri.
+> Fill each puri with potato, moong dal, a few boondi, coriander leaves and a little tamarind chutney.
+> Pour in the chilled pani and eat at once.
+
+@ chicken-tikka | Chicken Tikka | Boneless chicken cubes marinated in spiced yogurt, then skewered and grilled until cooked through. | 500 | 20 | 4 | indian,north-indian | Cookbook:Chicken Tikka
+- 675 g boneless chicken breast
+- 1 tbsp mustard oil
+- 50 ml milk
+- 150 ml plain yogurt
+- 2 tbsp lemon juice
+- 1 tbsp tomato paste
+- 2 tbsp coriander leaves, chopped
+- 4 clove garlic, finely chopped
+- 2 fresh red chillies, chopped
+- 2 tsp paprika
+- 2 tsp garam masala
+- 1 tsp cumin powder
+- 1/2 tsp turmeric
+- 1 tsp salt
+> Cut the chicken breast into bite-sized cubes.
+> In a non-metal bowl, mix the mustard oil, milk, yogurt, lemon juice, tomato paste, coriander leaves, garlic, red chillies, paprika, garam masala, cumin powder, turmeric and salt.
+> Add the chicken and mix until fully coated.
+> Cover and marinate in the fridge overnight, ideally for 24 hours. {notimer}
+> Thread the chicken onto skewers.
+> Grill the chicken under a medium grill for 8 minutes.
+> Turn the skewers and grill the other side of the chicken for 8 minutes, until cooked through.
+> Check that the chicken comes apart easily when pressed with a fork, then serve with naan or rice.
+
+@ chana-dal-masala | Chana Dal Masala | Soaked chana dal cooked soft and tossed in a fried onion-tomato masala with chillies, ginger and pepper. | 495 | 35 | 4 | indian,healthy | Cookbook:Chola and Roti
+- 250 g chana dal
+- 2 onions, finely chopped
+- oil
+- 200 g tomatoes, chopped
+- 6 green chillies, finely chopped
+- 20 g ginger, minced
+- 50 g coriander leaves, finely chopped
+- salt
+- 1 tbsp black pepper
+- 1 tbsp red chilli powder
+- garam masala
+> Soak the chana dal in water overnight.
+> Drain the chana dal and pressure cook it until tender. Drain well.
+> Fry the onions in hot oil until golden brown.
+> Add the tomatoes and fry until the oil separates.
+> Add the green chillies, ginger and salt.
+> Add the red chilli powder and the drained chana dal. Boil for 2 minutes.
+> Stir in the black pepper and garam masala, and garnish with the coriander leaves.
+> Serve hot with roti or naan.
+
+@ churri | Churri (Yogurt Herb Sauce) | Cool blend of yogurt and buttermilk with ground mint, coriander, ginger, green chilli and toasted cumin. | 10 | 5 | 4 | indian,north-indian,quick | Cookbook:Churri (Indian Yogurt Herb Sauce)
+- 1 tsp cumin seeds
+- 10 g fresh mint leaves
+- 15 g coriander leaves
+- 1 ginger, 2 cm piece
+- 2 green chillies
+- 300 ml plain yogurt
+- 300 ml buttermilk
+- 1 pinch salt
+- 1 onion
+> Toast the cumin seeds in a dry pan over medium heat until fragrant, without letting them burn.
+> Grind the toasted cumin seeds in a mortar.
+> Chop the mint leaves, coriander leaves, ginger and green chillies, then grind them to a paste.
+> Add the yogurt, buttermilk and salt and mix everything together well.
+> Chop the onion and stir it in with the ground cumin seeds.
+
+@ coconut-chutney-north-indian | Coconut Chutney (North Indian) | Fresh coconut ground with green chilli, garlic and coriander leaves into a quick, punchy chutney. | 10 | 0 | 6 | indian,north-indian,quick | Cookbook:Coconut Chutney (North Indian)
+- 2 cups fresh coconut, grated
+- 2 green chillies, split
+- 5 clove garlic
+- 1/2 cup coriander leaves, chopped
+- 1/2 tsp salt
+- 1/2 cup water
+> Put the coconut, green chillies, garlic, coriander leaves, salt and water in a blender.
+> Grind everything well into a smooth chutney.
+> Serve fresh; keep leftovers in the fridge and use within 2 days. {notimer}
+
+@ coriander-chutney | Coriander Chutney | Fresh green chutney of coriander leaves, onion, green chilli, cumin and lemon, blended to a fine paste. | 10 | 0 | 4 | indian,north-indian,quick | Cookbook:Coriander Chutney
+- 1 handful coriander leaves
+- 2 green chillies
+- 1 tsp cumin seeds
+- 1 small onion
+- 1 pinch salt
+- 1/2 lemon, juiced
+> Wash the coriander leaves well.
+> Finely chop the onion, green chillies and coriander leaves.
+> Add the salt, cumin seeds and the juice of the lemon.
+> Blend everything to a fine paste.
+
+@ mirchi-ka-salan | Mirchi ka Salan | Hyderabadi curry of fried green chillies in a nutty sesame, poppy seed and coconut gravy soured with tamarind. | 15 | 40 | 4 | indian,south-indian | Cookbook:Curried Chiles (Mirchi ka Salan)
+- 2 tbsp khus khus (poppy seeds)
+- 2 tbsp til (sesame seeds)
+- 2 tbsp coriander seeds
+- 1 tbsp cumin seeds
+- 1 tbsp desiccated coconut
+- 5 tbsp oil
+- 1/2 kg medium green chillies
+- 6 dried red chillies
+- 6 methi seeds (fenugreek)
+- 7 curry leaves
+- 4 large onions, finely chopped
+- 1 tsp red chilli powder
+- 1 tbsp haldi (turmeric powder)
+- salt
+- 1 tbsp ginger garlic paste
+- 1 tsp kalonji (nigella seeds)
+- 1/2 cup tamarind juice
+> Lightly dry-roast the khus khus, til, coriander seeds, cumin seeds and desiccated coconut, then grind them in a mortar and pestle.
+> Heat the oil in a frying pan and stir-fry the green chillies with a little salt. Lift them out, drain and keep aside.
+> Heat a little of the oil in a pan. Add the dried red chillies, methi seeds and a few curry leaves and fry until they pop.
+> Add the onions and fry until golden brown.
+> Mix in the ground spices, red chilli powder, haldi, ginger garlic paste and kalonji. Stir well and cook for 2 minutes.
+> Add the tamarind juice and cook for 1 minute.
+> Add the fried green chillies and the remaining curry leaves, and simmer for 20 minutes.
+> Serve with biryani or plain rice.
+
+@ dal-makhani | Dal Makhani | Punjabi black urad dal and rajma, slow-simmered in a tomato masala and finished with cream and ghee. | 490 | 75 | 4 | indian,north-indian | Cookbook:Dal Makhani (Black Gram with Cream)
+- 1 cup whole urad dal (black gram)
+- 1/3 cup rajma (kidney beans)
+- 6 cups water
+- salt
+- red chilli powder
+- 1 tsp turmeric powder
+- 1 tbsp grated ginger
+- 4 tbsp oil
+- 1 pinch hing (asafoetida)
+- 2 bay leaves
+- 1/2 cinnamon stick
+- 3 laung (cloves)
+- 1 onion, finely chopped
+- 1 tbsp ginger garlic paste
+- 3 tomatoes, finely chopped
+- 2 tsp coriander powder
+- 1/2 cup fresh cream
+- 1 tbsp ghee
+- 2 tbsp coriander leaves, chopped
+> Wash the urad dal and rajma and soak them overnight in lukewarm water.
+> Drain, then cook the dal and rajma in the water with salt, red chilli powder, turmeric powder and grated ginger until soft. Keep aside.
+> Heat the oil in a heavy pan. Add the hing, bay leaves, cinnamon stick, laung and onion, and fry until golden brown.
+> Add the ginger garlic paste and sauté briefly.
+> Add the tomatoes and coriander powder, and sauté until the tomatoes are well mashed.
+> Add the cooked dal and a little water as needed. Mix well and simmer for 20 minutes.
+> Stir in the fresh cream and ghee and simmer for 5 minutes more.
+> Garnish with the coriander leaves and serve hot with naan, paratha or rice.
+
+@ cheeyam | Cheeyam (Sweet Chana Dal Balls) | Tamil sweet of chana dal and jaggery dough balls, dipped in a thin maida batter and deep-fried golden. | 510 | 40 | 10 | indian,south-indian,sweet,snack | Cookbook:Deep Fried Chickpea Dough Balls (Chyueeam)
+- 1/2 kg kadalai paruppu (chana dal)
+- 1/2 kg vellam (jaggery)
+- 10 cardamom pods (elakkai)
+- 1/2 kg maida (refined flour)
+- water
+- salt
+- 1 l oil, for deep frying
+> Soak the kadalai paruppu in plenty of water for at least 8 hours; it doubles in size. {notimer}
+> Pressure cook the kadalai paruppu with water for 9 minutes, then let the pressure drop on its own.
+> Drain well, then grind with the vellam and cardamom pods, without adding water, into a thick dough.
+> Roll the dough into small balls.
+> Whisk the maida with water and salt into a thin batter.
+> Heat the oil in a deep pan until a small piece of dough floats and bubbles when dropped in.
+> Dip each ball in the batter and deep fry a few at a time until golden.
+
+@ gobi-bhaji | Gobi Bhaji (Cauliflower Stew) | Cauliflower pressure-cooked in a spicy onion-tomato masala with green chillies, ginger and garam masala. | 10 | 25 | 3 | indian,healthy | Cookbook:Gobi Bhagi (Spiced Cauliflower Stew)
+- 300 g cauliflower
+- oil
+- 150 g onions, finely chopped
+- 5 tomatoes, chopped
+- 4 green chillies, finely chopped
+- ginger, finely chopped
+- 1 tbsp red chilli powder
+- coriander leaves, finely chopped
+- 1 tbsp garam masala
+- 1 tbsp black pepper
+- salt
+> Boil the cauliflower in water for 5 minutes. Drain and cut it into big pieces.
+> Heat some oil in a pressure cooker and add the onions.
+> Add the tomatoes and fry until the oil separates.
+> Add the cauliflower, green chillies and ginger.
+> Add the red chilli powder and a little water. Pressure cook for 7 minutes.
+> Stir in the garam masala, black pepper and salt, and garnish with the coriander leaves.
+> Serve with chapati, naan or pulao.
+
+@ aam-panna | Aam Panna | Tangy summer drink concentrate of cooked green mango, roasted cumin, mint and rock salt. | 20 | 15 | 20 | indian,north-indian,drink | Cookbook:Green Mango and Cumin Drink (Aam Panna)
+- 4 green mangoes, medium
+- 1/2 cup sugar
+- 2 tbsp rock salt
+- 1 tsp roasted cumin seeds
+- 1 roasted chilli
+- 1 handful fresh mint leaves
+> Cut each green mango into 3 pieces: one from each side of the seed and one with the seed.
+> Pressure cook the mangoes with a small cup of water, turning off the heat at the first whistle.
+> Let the cooker rest for 7 minutes, then open it and let the mangoes cool.
+> Grind the sugar, roasted cumin seeds and roasted chilli in a food processor.
+> Mince the mint leaves in the food processor.
+> Squeeze the pulp of the cooled mangoes into a blender, discarding the skins and seeds.
+> Purée the mango pulp until smooth.
+> Add the ground sugar mixture, rock salt and mint leaves, and blend well.
+> Pour into a clean bottle and refrigerate; it keeps for about 2 weeks. {notimer}
+> To serve, stir 4-5 tsp of the concentrate into a glass of water.
+
+@ baati | Baati (Rajasthani Hard Bread) | Dense, unleavened wheat discs kneaded very firm, cooked in a dry pan, charred lightly and served with ghee. | 20 | 30 | 4 | indian,north-indian,baking | Cookbook:Indian Hard Tack (Baati)
+- 450 g wheat flour
+- 1/2 tsp salt
+- 3 tbsp oil
+- water
+- 1 1/2 tsp ghee
+> Mix the wheat flour and salt.
+> Working with about 1 cup of the flour mixture at a time, rub in a little of the oil, breaking up any lumps.
+> Add water 1 tbsp at a time and knead very hard until the dough holds in a firm, compact ball. Repeat with the rest.
+> Let the dough balls rest for 5 minutes.
+> Flatten each ball by hand, then roll into smooth discs about 10 cm across and 1 cm thick.
+> Cook in a dry pan on a low flame. Flip once the bottom starts to harden, then pinch the top all over with two fingers.
+> When the bottom browns in spots, turn the baati upside-down onto a wire grate over the flame to blacken the bumps a little.
+> Drizzle with the ghee and serve with dal or a vegetable dish.
+
+@ jeera-rice-cashews | Jeera Rice with Cashews | Basmati rice cooked with cumin seeds, raisins and cashews for an easy, fragrant side dish. | 5 | 20 | 6 | indian,rice,quick | Cookbook:Indian Rice
+- 2 tsp olive oil
+- 1 tsp cumin seeds
+- 1/2 cup raisins
+- 1/4 cup cashews
+- 2 cups basmati rice
+- 4 cups water
+> Heat the olive oil in a pot.
+> Add the cumin seeds, then the raisins and cashews. Sauté for 2 minutes.
+> Add the basmati rice and sauté for 1 more minute.
+> Add the water and bring everything to the boil.
+> Lower the heat, cover and cook for 12 minutes.
+
+@ nimbu-achar | Lemon Pickle (Nimbu Achar) | Oil-free lemon pickle with roasted mustard, methi and chilli, matured in the sun for a month or more. | 25 | 5 | 20 | indian,snack | Cookbook:Lemon Pickle I
+- 12 small lemons
+- 3 tbsp lemon juice (from 1 large lemon)
+- 1/2 cup salt
+- 1/4 cup red chilli powder
+- 1/2 cup sugar
+- 3 tsp turmeric powder
+- 1 tsp methi seeds (fenugreek)
+- 1 tsp black mustard seeds
+- 1/4 tsp hing (asafoetida)
+> Wash the small lemons and dry them completely, leaving no water on them. Trim off the stalks.
+> Cut the lemons into 2 cm pieces and put them in a dry bowl.
+> Dry-roast the methi seeds, black mustard seeds and hing in a pan for about 5 minutes over medium heat, without burning them.
+> Grind the roasted spices to a powder.
+> Add the ground spices, turmeric powder, salt, sugar, red chilli powder and lemon juice to the lemons. Mix well.
+> Pack into a clean, dry 2 litre jar, leaving at least 1 cm space at the top.
+> Put the jar in the sun each morning and bring it in each evening, for at least a month (two in winter), until it matures. {notimer}
+
+@ chunky-mango-chutney | Chunky Mango Chutney | Sweet-sour chutney of under-ripe mango, raisins and onion cooked down in cider vinegar with ginger and garlic. | 20 | 40 | 10 | indian,snack | Cookbook:Mango Chutney (Chunky)
+- 6 firm under-ripe mangoes
+- 75 g raisins
+- 250 ml cider vinegar
+- 200 g light brown sugar
+- 2 tbsp garlic, finely chopped
+- 1 onion, finely chopped
+- 1 1/2 tbsp fresh ginger, minced
+- 2 tsp salt
+- 1/4 tsp cayenne
+- 1/4 tsp black pepper, freshly ground
+> Peel the mangoes and cut them into cubes.
+> Dissolve the brown sugar and salt in the cider vinegar and boil for 15 minutes.
+> Add the mangoes, raisins and onion and bring back to the boil.
+> Reduce the heat to low and simmer the mangoes for 15 minutes, stirring constantly so they do not stick.
+> Add the garlic, ginger, cayenne and black pepper and simmer for 5 minutes.
+> Take off the heat and let it cool before serving.
+> Store in the fridge for up to 6 months. {notimer}
+
+@ aam-ki-chutney | Aam ki Chutney (Mango Coconut) | Fresh, uncooked chutney of ripe mango cubes with coconut, ginger, coriander, chilli and orange juice. | 75 | 0 | 4 | indian,snack | Cookbook:Mango and Coconut Chutney (Am ki Chatni)
+- 2 almost-ripe mangoes
+- 1 tbsp coconut, finely chopped
+- 1 tsp coriander leaves, chopped
+- 1 tbsp fresh ginger, finely chopped
+- 1 tsp salt
+- 1/2 tsp cayenne pepper
+- 3 tbsp fresh orange juice
+> Slice the flesh off both sides of each mango stone, as close to the stone as possible, keeping the skin on.
+> Score each mango half in a criss-cross pattern down to the skin, making 1 cm squares.
+> Push the skin up from underneath to turn each half inside out, then cut the mango cubes off the skin into a small bowl.
+> Add the coconut, coriander leaves, ginger, cayenne pepper, orange juice and salt, and mix gently.
+> Chill in the fridge for 1-2 hours before serving. {t=3600 Chill}
+
+@ onion-chutney | Onion Chutney | South Indian red onion chutney with roasted chana dal, coconut, dried chillies and tamarind, for dosa or idli. | 5 | 15 | 4 | indian,south-indian,quick | Cookbook:Onion Chutney
+- 2 tsp oil
+- 2 tbsp chana dal
+- 2 red onions, coarsely chopped
+- 3 coconut pieces, 2.5 cm each
+- 1 tsp tamarind paste
+- 5 dried red chillies
+- salt
+> Heat the oil in a shallow pan. Add the chana dal and stir until it is roasted.
+> Add the red onions and stir-fry until transparent and golden brown at the edges.
+> Turn off the heat and let the mixture cool for a few minutes.
+> Blend the onion mixture with the coconut, dried red chillies, tamarind paste and salt to a smooth paste, adding a few teaspoons of water if needed.
+
+@ phulourie | Phulourie (Split Pea Fritters) | Indo-Caribbean fritters of ground split peas, garlic, cumin and turmeric, fried into small golden balls. | 495 | 20 | 6 | indian,snack | Cookbook:Phulourie (Split Pea Fritters)
+- 1 cup split peas
+- 1/2 cup maida (plain flour)
+- 1 tsp baking powder
+- 3 clove garlic, crushed
+- 1 egg, beaten
+- salt
+- 1/4 tsp turmeric
+- 1/2 tsp ground cumin
+- water
+- oil, for deep frying
+> Soak the split peas overnight in lightly salted cold water.
+> Drain the split peas and grind them finely in a mixer.
+> Mix in the maida, baking powder, garlic, egg, salt, turmeric and ground cumin, adding enough water to make a thick dropping batter.
+> Heat the oil for deep frying.
+> Squeeze small dollops of batter between thumb and forefinger into the hot oil, making balls about 2 cm across.
+> Fry until golden brown, then drain on kitchen paper.
+> Serve hot with dal or a sour chutney.
+
+# skipped: Cookbook:Corom Chatni (Mango Chutney with Hot Chillies) — near-duplicate of Am ki Chatni (same uncooked mango-cube method) written above
+# skipped: Cookbook:Kal Kals (Sweet Curled Fritters) — dough has only one egg as liquid for 280 g flour; unworkable as written
+# skipped: Cookbook:Khus Khus Halwa — content is mango-milk dipped fried bread with no poppy seeds; does not match its title
+# skipped: Cookbook:Kuddi (Spiced Yogurt Sauce) — near-duplicate of Kadhi already online
+# skipped: Cookbook:Leaf Masala Curry — no quantities for meat or vegetables; "leaf masala" undefined
+# skipped: Cookbook:Pork Aachi — relies on stock cube and instant potato mash, inconsistent (pork vs beef cube); not a recognisable dish

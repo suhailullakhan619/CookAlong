@@ -1,0 +1,395 @@
+# based.cooking (public domain) recipes not imported by the automatic pipeline (missing fields, long steps or titles),
+# hand-condensed. Skipped on purpose: meal-kit style cards (hakka-style-meatballs, spicy-kung-pao-style-chicken,
+# turkish-style-spiced-chicken, winter-risotto, fall-vegetable-and-chickpea-curry), offal, alcohol-led drinks.
+!source based-cooking
+
+@ potato-and-eggplant-curry | Potato and Aubergine Curry | Baked aubergine and potato simmered in garam masala, tomato and coconut milk. | 15 | 45 | 2 | indian | potato-and-eggplant-curry | vegetarian
+- 1 large aubergine (eggplant)
+- 2 medium potatoes
+- 3 tbsp olive oil
+- 2 onions, finely sliced
+- 2 cloves garlic, crushed
+- 2 tsp garam masala
+- 2 tsp turmeric
+- 2 tsp ground coriander
+- 400 ml canned chopped tomatoes
+- 400 ml canned coconut milk
+- rice, to serve
+> Heat the oven to 200 °C (392 °F).
+> Cut the aubergine into 1 cm slices and lay them on a tray. Coat with some of the olive oil and bake for 20 minutes.
+> Cook the onions in the rest of the oil over medium heat for 6 minutes, until soft.
+> Add the garlic, garam masala, turmeric and ground coriander and stir for 2 minutes, until fragrant.
+> Add the chopped tomatoes and coconut milk, then the baked aubergine and the potatoes cut into chunks.
+> Cover and simmer for 20 minutes. Meanwhile, boil the rice.
+> Uncover and cook for 5 more minutes, until the sauce reduces. Serve with the rice.
+
+@ coriander-chicken | Coriander Chicken | Boneless chicken marinated in a green coriander, yoghurt and chilli paste, cooked with whole spices. | 40 | 20 | 3 | indian | coriander-chicken
+- 500 g boneless chicken breast
+- 250 g plain yoghurt
+- 250 g coriander leaves
+- 3 green chillies
+- 20 g ginger
+- 10 cloves garlic
+- 2 medium onions
+- 1 tbsp garam masala
+- salt
+- 3 tbsp oil (mustard or sunflower)
+- 1 tbsp sugar
+- 3 cardamom pods
+- 1 small cinnamon stick
+- 1 bay leaf
+> Cut the chicken into small bite-sized pieces.
+> Blend the coriander leaves, green chillies, yoghurt, ginger, garlic and onions into a smooth paste.
+> Mix half of the paste into the chicken with the garam masala and a little salt.
+> Leave the chicken to marinate for 30 minutes.
+> Heat the oil in a frying pan. Add the sugar and cook until it melts into the oil.
+> Add the cardamom pods, cinnamon stick and bay leaf and cook for 1 minute, then lower the heat to medium.
+> Add the marinated chicken and cook, stirring so it doesn't stick, until the oil starts to separate.
+> Add the rest of the paste and stir until thick. Season with salt and serve with naan or rice.
+
+@ lamb-biryani | Lamb Biryani | Tamil-style one-pot biryani: lamb simmered with whole spices, then basmati rice cooked in the same pot. | 40 | 75 | 4 | indian,south-indian,rice | lamb-biriyani
+- 400 g basmati rice
+- 600 g boneless lamb or mutton
+- 30 ml neutral oil
+- 5 cardamom pods
+- 3 bay leaves
+- 3 cinnamon sticks
+- 8 whole cloves
+- 2 red onions
+- 2 tomatoes
+- 10 cloves garlic
+- 1 ginger, 5 cm piece
+- 1 green chilli
+- 1 pinch turmeric powder
+- 1 pinch curry powder
+- 1 tbsp chilli powder
+- salt
+- 1/2 tbsp garam masala
+- 1/2 lemon, juiced
+- 1 sprig mint or coriander
+> Wash the basmati rice until the water runs clear, then soak it for 30 minutes.
+> Dice the tomatoes and slice the onions thinly. Grind the ginger and garlic to a paste. Slit the green chilli lengthways.
+> Heat the oil in a big pot over medium heat and toast the cardamom, bay leaves, cinnamon and cloves for 30 seconds.
+> Add the onions and sauté for 3 minutes.
+> Add the tomatoes and the ginger-garlic paste and sauté for 3 more minutes.
+> Add the lamb, 500 ml water, the green chilli, turmeric, curry powder, chilli powder and salt. Cook on high heat for 50 minutes, adding water if needed.
+> Add enough water to make about 800 ml of liquid in the pot and bring it back to the boil.
+> Drain the rice and add it to the pot with the garam masala and lemon juice.
+> When most of the water has been absorbed, turn the heat to its lowest and adjust the salt and spice.
+> Cover and cook for 10 minutes.
+> Garnish with mint or coriander and serve with raita.
+
+@ homemade-yogurt-dahi | Homemade Yogurt (Dahi) | Set your own thick yogurt from milk and a spoonful of starter, kept warm in flasks overnight. | 600 | 10 | 6 | breakfast,healthy | yogurt | vegetarian
+- 1 l milk
+- 100 ml plain yogurt, as starter
+> Heat the milk to 45 °C (113 °F).
+> Whisk the yogurt into the milk.
+> Bring the milk back to 45 °C. Don't let it get hotter.
+> Rinse two 500 ml thermos flasks with about 100 ml of just-boiled water, then pour the water out.
+> Pour the milk into the flasks.
+> Leave them somewhere without draughts, such as a switched-off oven, for 12 hours.
+> Refrigerate the yogurt once it has set.
+
+@ greek-yogurt-hung-curd | Greek Yogurt (Hung Curd) | Homemade yogurt strained in cheesecloth until thick and creamy. | 600 | 10 | 4 | breakfast,healthy | greek-yogurt | vegetarian
+- 1 l milk
+- 100 ml plain yogurt, as starter
+> Heat the milk to 45 °C (113 °F), whisk in the yogurt and bring it back to 45 °C. Don't let it get hotter.
+> Rinse two 500 ml thermos flasks with about 100 ml of just-boiled water, then pour the water out.
+> Pour the milk into the flasks and leave them somewhere without draughts, such as a switched-off oven, for 12 hours.
+> Pour the set yogurt into a cheesecloth.
+> Hang the cheesecloth for 30 minutes to 4 hours: the longer it hangs, the thicker the yogurt. {t=1800 Drain}
+> Refrigerate the yogurt.
+
+@ tomato-and-red-pepper-soup | Tomato and Red Pepper Soup | Grilled red peppers and fresh tomatoes blended into a lightly spiced soup with a swirl of cream. | 20 | 30 | 12 | soup | tomato-and-grilled-paprika-soup
+- 10 tomatoes
+- 2 red peppers
+- 2 onions
+- 1 clove garlic
+- 2 tbsp olive oil
+- 1 l stock or broth
+- 3/4 tsp cayenne pepper
+- 1 tsp paprika powder
+- 3 tsp dried Italian herbs
+- 1 tsp oregano
+- 1 tsp ginger syrup
+- 2 tbsp heavy cream
+> Halve and deseed the red peppers, then grill them in the oven or on a grill. Peel off the skins.
+> Peel and quarter the tomatoes.
+> Sauté the chopped onions and crushed garlic in the olive oil in a large soup pan until soft.
+> Add the stock, tomatoes and peppers and purée with a stick blender.
+> Stir in the cayenne pepper, paprika powder, herbs, oregano, ginger syrup and cream. Heat through and serve.
+
+@ chicken-paprikash | Chicken Paprikash | Hungarian chicken thighs braised in a rich paprika and tomato sauce, finished with sour cream. | 10 | 85 | 8 |  | chicken-paprikash
+- 8 chicken thighs (bone-in, skin-on)
+- salt
+- pepper
+- 2 tbsp olive oil
+- 2 medium onions, chopped
+- 1 tbsp garlic powder
+- 3 tbsp tomato paste
+- 1/4 cup paprika (Hungarian if possible)
+- 2 cups chicken or beef broth
+- 1 tbsp cayenne pepper, optional
+- 1 cup sour cream, optional
+> Pat the chicken thighs dry with paper towels and season with salt and pepper.
+> Heat a little olive oil in a heavy, deep pan over high heat.
+> Brown the chicken skin-side down for 5 minutes on each side, then set aside.
+> Fry the onions in the chicken fat until golden.
+> Add the garlic powder and tomato paste and stir for 5 minutes.
+> Add the paprika and stir for 1 more minute.
+> Pour in the broth and heat until it is just bubbling.
+> Turn the heat to medium-low, return the chicken and its juices to the pan, cover and simmer for 60 minutes.
+> Check the chicken is tender, then season with salt and pepper.
+> Stir the sour cream into the sauce, dust with cayenne and serve with crusty bread.
+
+@ red-bean-buns-dou-sha-bao | Red Bean Buns (Dou Sha Bao) | Soft, fluffy steamed buns filled with sweet homemade adzuki bean paste. | 120 | 140 | 6 | chinese,snack,breakfast,sweet | dou-sha-bao | vegan
+- 250 g adzuki red beans, soaked for 24 hours
+- 200 g sugar
+- salt
+- 350 g wheat flour
+- 4 g dried yeast (1 sachet)
+- 1 tsp baking powder
+- 200 ml water
+- 1 tsp sunflower oil
+> Boil the soaked adzuki beans for 5 minutes, then drain and rinse.
+> Simmer the beans in fresh water for 2 hours, until easily squashed. Drain and blend to a smooth paste.
+> Cook the bean paste in a pan over low heat with 150 g of the sugar and a pinch of salt for 10 minutes, stirring, until dry. Cool.
+> In a bowl, mix the flour, the rest of the sugar, a pinch of salt, the baking powder and yeast with the water to make a dough.
+> Knead the dough for 5 minutes, then add the oil and knead 2 minutes more.
+> Cover the dough and leave it to rise for 1 hour.
+> Roll the bean paste into 6 balls. Knock the air out of the dough and divide it into 6 pieces.
+> Roll each piece into a 10-12 cm disc, put a ball of bean paste in the middle and pleat the edges to seal.
+> Set the buns on squares of baking paper in a covered steamer basket and rest for 10 minutes.
+> Steam for 20 minutes, then leave covered for 5 minutes before opening.
+
+@ hoisin-tofu-and-broccoli | Hoisin Tofu and Broccoli | Marinated tofu pan-fried golden, then tossed with steamed broccoli in a glossy hoisin sauce. | 45 | 10 | 4 | chinese,healthy | hoisin-tofu-and-broccoli | vegan
+- 400 g firm tofu
+- 300 g broccoli florets
+- 4 cloves garlic, diced
+- 1/2 cup light soy sauce
+- 1/2 tsp dark soy sauce
+- 2 tbsp sugar
+- 2 tbsp rice vinegar
+- 1/4 cup water
+- 2 tbsp Shaoxing wine, optional
+- 1 tbsp hoisin sauce
+- 1/2 tbsp cornstarch
+- 1/2 tbsp sesame oil
+- 2 1/2 tbsp peanut oil
+- 50 g ginger, diced (optional)
+> Cut the tofu into 2 cm cubes.
+> Mix 1/4 cup of the light soy sauce with the dark soy sauce, sugar and rice vinegar. Add the tofu and refrigerate for 30 minutes.
+> In another bowl, stir together the water, remaining light soy sauce, Shaoxing wine, sesame oil, cornstarch and hoisin sauce.
+> Cut the broccoli into 1 cm chunks.
+> Boil 1/3 cup of water in a large pan, add the broccoli, cover and steam for 3 minutes. Drain and set aside.
+> Heat 2 tbsp of the peanut oil in the same pan. Fry the tofu until golden on both sides, then push it to one side.
+> Add the rest of the peanut oil with the garlic and ginger and stir for 30 seconds, until fragrant.
+> Pour in the sauce and cook until it thickens, then add the broccoli and toss everything together.
+
+@ stuffed-vegetables | Stuffed Vegetables | Halved tomato, pepper, courgette and aubergine baked under crisp breadcrumbs and Parmesan. | 15 | 45 | 2 | baking | stuffed-vegetables
+- 1 medium tomato
+- 1 sweet pepper
+- 1 courgette
+- 1 long aubergine
+- 125 g breadcrumbs
+- 50 g grated Parmigiano cheese
+- 1 handful parsley, chopped
+- extra virgin olive oil
+- salt, optional
+> Heat the oven to 170 °C (340 °F).
+> Halve the tomato, pepper, courgette and aubergine lengthways. Scoop a little pulp from the tomato and courgette.
+> Lay the vegetables on baking paper in a baking tray, cut side up.
+> Sprinkle with parsley and a little salt, then cover generously with the breadcrumbs and Parmigiano.
+> Drizzle with enough olive oil to moisten all the breadcrumbs, so they stick and don't burn.
+> Bake for 45 minutes.
+
+@ apple-pie | Apple Pie | Double-crust pie with a cinnamon apple filling, reduced on the stove before baking. | 45 | 45 | 8 | sweet,baking,american | apple-pie
+- 900 g golden delicious apples
+- 15 ml lemon juice
+- 50 g white sugar
+- 65 g brown sugar
+- 5 g cinnamon
+- 2 g nutmeg
+- 15 g cornstarch
+- 350 g flour
+- 5 g salt
+- 30 g white sugar for the crust
+- 225 g cold butter, cut into pieces
+- 100 ml ice water
+- 1 egg, optional
+- 15 ml water, optional
+> Peel the apples and cut them into 3-5 cm strips.
+> Mix the apples with the lemon juice, 50 g white sugar, brown sugar, cinnamon, nutmeg and cornstarch. Leave for 15 minutes to release their juice.
+> Tip into a saucepan and reduce the liquid over medium-low heat for 15 minutes, stirring often. Turn off the heat.
+> Meanwhile, pulse the flour, salt, sugar for the crust and butter in a food processor for 10 seconds, until like coarse sand.
+> With the motor running, drip in the ice water until the dough clumps and holds together when pinched.
+> Heat the oven to 180 °C (350 °F).
+> Halve the dough and roll each half into a circle big enough for a 23 cm (9 inch) pie dish.
+> Line the dish with one circle, trim the excess, then spread in the apple filling.
+> Cover with the second circle, tuck in the edges and press the crusts together with a fork.
+> Beat the egg with the water and brush it over the top, if using. Cut a few slits in the crust.
+> Bake for 45 minutes, until the crust is brown and the filling bubbles.
+
+@ ukrainian-vareniki | Ukrainian Vareniki | Boiled half-moon dumplings filled with mashed potato, fried onion and mushrooms. | 30 | 50 | 6 |  | ukrainian-vareniki
+- 510 g potatoes
+- salt
+- pepper
+- 3 cups all-purpose flour
+- 1/4 cup sour cream
+- 1/2 tsp baking soda
+- 1/2 cup water
+- 1/4 cup butter
+- 2 onions, finely diced
+- 3 1/2 cups button mushrooms, finely chopped
+> Cover the potatoes with salted water and bring to the boil, then simmer for 25 minutes, until tender.
+> Drain and mash the potatoes, seasoning with salt and pepper.
+> Meanwhile, mix the flour with 1 tsp salt. In another bowl, stir the sour cream and baking soda together.
+> Mix the water into the flour, then the sour cream mixture, and knead into a smooth dough.
+> Cover the dough and refrigerate for 15 minutes.
+> Melt the butter in a frying pan over medium heat and fry the onions for 10 minutes, until browned.
+> Add the mushrooms and cook for 5 minutes, until browned, then mix into the mashed potatoes.
+> Divide the dough into 4, roll each into a 4 cm thick rope and cut into 1 cm pieces. Press each piece into a small flat circle.
+> Put 1 tsp of filling in the middle of each circle, fold into a half-moon and seal the edges.
+> Cook in batches in gently boiling salted water until they float, then 3 minutes more. {t=360 Boil}
+> Lift out with a slotted spoon and drain.
+
+@ bolo-do-caco | Bolo do Caco | Madeiran sweet potato flatbreads, slow-fermented for 3 days and cooked in a dry pan. | 600 | 45 | 10 | baking | bolo-do-caco
+- 750 g sweet potato
+- 3 tsp salt
+- 3 tbsp active dry yeast
+- 150 ml warm water
+- 1 kg all-purpose flour
+- salted butter, to serve
+- parsley, to serve
+> Peel the sweet potatoes, cut them into large pieces and cover with water in a saucepan.
+> Bring to the boil, cover and cook over medium-high heat for 20 minutes.
+> Drain, mash and mix in the salt.
+> Mix the yeast with the warm water and leave for 10 minutes.
+> Put the flour in a large bowl, make a well and add the mashed sweet potato and yeast.
+> Knead into a smooth, elastic dough.
+> Cover and leave the dough to ferment in the fridge for 3 days.
+> Divide into 10 equal pieces on a floured surface. Shape into balls and flatten to 2.5 cm thick.
+> Leave to rest somewhere warm and draught-free for 30 minutes.
+> Cook in a dry pan over medium-high heat, turning often, until a thin crust forms on both sides. Roll them on their edges to cook the sides.
+> Serve warm with salted butter and parsley.
+
+@ scandinavian-coffee-cake | Scandinavian Coffee Cake | Yeasted cinnamon-sugar ring, sliced and fanned, iced and topped with walnuts. | 180 | 30 | 10 | sweet,baking | scandinavian-coffee-cake
+- 1/2 cup milk
+- 1/2 cup shortening
+- 1/2 cup sugar
+- 1/2 tsp salt
+- 7 g active dry yeast (1 packet)
+- 1/4 cup warm water
+- 3 cups sifted flour
+- 2 eggs, beaten
+- melted butter
+- 2/3 cup firmly packed brown sugar
+- 2 tsp cinnamon
+- powdered sugar icing
+- chopped walnuts
+> Scald the milk, then stir in the shortening, sugar and salt until the sugar dissolves. Cool to lukewarm.
+> Dissolve the yeast in the warm water and add it to the milk mixture.
+> Stir in half the flour, add the eggs and beat well. Add enough of the remaining flour to make a soft dough.
+> Knead on a lightly floured board until smooth and elastic.
+> Put in a greased bowl, brush with shortening, cover and leave somewhere warm for 2 hours, until doubled.
+> Roll out into a 20 x 30 cm rectangle and brush with melted butter.
+> Sprinkle with the brown sugar and cinnamon, roll up like a Swiss roll and shape into a ring on a greased baking sheet. Pinch the ends together.
+> Cut from the outside towards the centre, almost all the way through, in 2.5 cm slices. Fan the slices out slightly.
+> Brush with shortening, cover and leave to rise for 45 minutes, until doubled.
+> Heat the oven to 190 °C (375 °F).
+> Bake for 30 minutes.
+> Spread with the powdered sugar icing while warm and sprinkle with the chopped walnuts.
+
+@ cinnamon-sugar-biscuits | Cinnamon Sugar Biscuits | Flaky brown-butter biscuits brushed with butter and dipped in cinnamon sugar. | 65 | 20 | 10 | sweet,baking,breakfast | cinnamon-biscuits
+- 113 g unsalted butter
+- 250 g all-purpose flour
+- 25 g granulated sugar
+- 2 1/2 tsp baking powder
+- 1 tsp fine sea salt
+- 1/2 tbsp ground cinnamon
+- 150 ml cold whole milk
+- 57 g unsalted butter for the glaze
+- 50 g granulated sugar for the glaze
+- 1 tsp ground cinnamon for the glaze
+> Melt 113 g butter in a saucepan over medium heat and swirl until it foams, turns golden brown and smells nutty.
+> Pour it into a bowl and refrigerate for 45 minutes, until solid and cold.
+> Whisk the flour, 25 g sugar, baking powder, salt and 1/2 tbsp cinnamon in a large bowl.
+> Cube the cold browned butter and rub it into the flour until it looks like coarse crumbs.
+> Pour in the cold milk and stir gently with a fork into a shaggy dough.
+> Knead 4-5 times on a floured surface, press into a rectangle and fold in thirds like a letter. Turn, press out and repeat the folding 3 more times.
+> Shape into a 2.5 cm thick square, trim the edges and cut into 9 squares. Shape the scraps into 1 more biscuit.
+> Heat the oven to 220 °C (425 °F). Set the biscuits close together in a buttered skillet or lined tray.
+> Bake for 20 minutes, until golden on top.
+> Meanwhile, melt the butter for the glaze and mix the sugar for the glaze with the cinnamon for the glaze.
+> Brush the hot biscuits with the melted butter and sprinkle at once with the cinnamon sugar. Serve warm.
+
+@ sugar-free-peanut-butter-cookies | Sugar-Free Peanut Butter Cookies | Soft, chewy peanut butter cookies sweetened with a brown-sugar-style erythritol and stevia blend. | 45 | 11 | 12 | sweet,baking | sugar-free-brown-sugar-peanut-butter-cookies
+- 6 tbsp unsalted butter, softened
+- 0.8 cup brown sweetener (erythritol/stevia blend)
+- 1 cup creamy peanut butter, no sugar added
+- 1 large egg
+- 1 large egg yolk
+- 3 tbsp heavy cream or whole milk
+- 2 tsp vanilla extract
+- 1.3 cups all-purpose flour
+- 0.8 tsp baking soda
+- 0.8 tsp fine sea salt
+- 0.5 tsp flaky sea salt
+> Blend the brown sweetener in a blender until it looks like powdered sugar. Let the dust settle before opening.
+> Beat the butter with the powdered sweetener using a hand mixer until pale and fluffy.
+> Beat in the peanut butter, then the egg, egg yolk, cream and vanilla, until smooth and glossy.
+> Add the flour, baking soda and fine sea salt and mix on low just until no dry streaks remain.
+> Cover and refrigerate the dough for 30 minutes.
+> Heat the oven to 180 °C (350 °F) and line two baking sheets with parchment.
+> Roll the dough into balls of about 1 1/2 tbsp, set them 5 cm apart and press a light crosshatch with a fork.
+> Bake for 11 minutes, until the edges are set but the centres still look puffy.
+> Sprinkle at once with the flaky sea salt and leave on the hot sheet for 15 minutes to set.
+
+@ oatmeal-cookies | Oatmeal Cookies | Chewy cinnamon oat cookies, with raisins, cranberries, coconut or nuts if you like. | 20 | 10 | 12 | sweet,baking | oatmeal-cookies
+- 1 cup butter, softened
+- 2 eggs
+- 1 tsp vanilla
+- 2 cups sugar
+- 2 cups flour
+- 1 1/2 tsp cinnamon
+- 1 tsp salt
+- 3 cups oats
+- raisins, cranberries, coconut or nuts, optional
+> Heat the oven to 180 °C (350 °F) and line trays with parchment paper.
+> Whisk the butter, eggs, vanilla and sugar together.
+> Mix in the flour, cinnamon, salt, oats and any raisins or nuts.
+> Roll into about 24 golf-ball-sized balls and space them out on the trays.
+> Bake for 10 minutes, until the edges begin to brown.
+
+@ herb-and-ricotta-pie | Herb and Ricotta Pie | Italian "pizza di erbe": a yeasted double crust filled with chopped greens and ricotta. | 50 | 30 | 4 | italian,baking | herbs-pizza
+- 500 g boiled greens (spinach, chicory)
+- 250 g ricotta
+- salt
+- pepper, optional
+- nutmeg, optional
+- 350 g flour (type 0 or 00)
+- warm water
+- extra-virgin olive oil
+- 25 g butter, softened
+- 15 g fresh yeast
+> Dry the boiled greens well and chop them finely.
+> Mix the greens with the ricotta, salt, pepper and nutmeg.
+> Knead the flour with warm water, a little salt and a little olive oil.
+> Add the softened butter and the yeast and knead into a soft dough.
+> Divide the dough in two and roll each half out about 1 cm thick.
+> Lay one disc on baking paper in a tray and spread the filling over it, leaving a 1.5 cm border.
+> Cover with the second disc and press the edges together, wetting them with a few drops of water if needed.
+> Cover with a cloth and leave to rise for 30 minutes.
+> Prick the top all over with a fork. Heat the oven to 180 °C (350 °F).
+> Bake for 30 minutes.
+
+@ orange-jam | Orange Jam | Chunky orange and lemon jam, a Polish topping for mazurek and a bright spread for toast. | 15 | 40 | 12 | sweet | orange-jam
+- 4 medium oranges
+- 1 lemon
+- 1 1/2 cups sugar
+> Zest the oranges and lemon.
+> Peel off the white pith under the skin.
+> Blend the fruit briefly, just into small pieces.
+> Put the blended fruit, zest and sugar in a pot.
+> Bring to the boil, then boil gently on low heat for 30-40 minutes, until thick but still a little runny.
+> Let it cool; it thickens further as it cools.

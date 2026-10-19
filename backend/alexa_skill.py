@@ -6,6 +6,7 @@ Lets any Echo on the user's Amazon account, or the Alexa button on the Fire TV r
   "Alexa, tell Cook Along to set a timer for 5 minutes"   "...add 2 minutes"  "...how long is left"
   "Alexa, ask Cook Along how much rice I need"       "...what can I use instead of cream"
   "Alexa, tell Cook Along to find paneer recipes"    "...make it for 6 people" "...start cooking"
+  "Alexa, ask Cook Along what's for dinner"          (plans dinner from the last fridge scan with the AWS agent)
 
 Commands go into the TV's queue (tv_bridge.py); the TV polls the CookAlong backend while it's on screen. Questions
 are answered from the state the TV publishes, so Alexa reads the same scaled quantities the TV shows.
@@ -436,6 +437,25 @@ class Turn:
         return self.say("Scan the code on your TV with your phone, then take one photo of your fridge. "
                         "I'll find recipes you can cook.")
 
+    def plan_dinner(self, slots):
+        """The TV runs the AWS dinner-planner agent on the ingredients of its last fridge scan (the TV holds them)."""
+        state, problem = self.tv()
+        if problem:
+            return self.say(problem)
+        if state.get("screen") == "cooking":
+            return self.say("Finish or leave this recipe on your TV first, then ask me again.")
+        scanned = [i for i in (state.get("scanIngredients") or []) if isinstance(i, str) and i.strip()]
+        if not scanned:
+            return self.say("Scan your fridge first: say 'scan my fridge'.")
+        try:
+            servings = int(slots.get("count") or "")
+        except ValueError:
+            servings = None
+        if servings is not None and not 1 <= servings <= 12:
+            return self.say("I can plan dinner for one to twelve people.")
+        self.send("plan", servings=servings or 2)
+        return self.say("Planning dinner with what you scanned. Watch your TV.")
+
     # ---- ask the chef ------------------------------------------------------------------------------------------
 
     def substitute(self, slots):
@@ -503,6 +523,7 @@ INTENTS = {
     "QuickRecipesIntent": Turn.quick_recipes,
     "ShoppingListIntent": Turn.shopping_list,
     "FridgeScanIntent": Turn.fridge_scan,
+    "PlanDinnerIntent": Turn.plan_dinner,
     "SubstituteIntent": Turn.substitute,
     "ChefQuestionIntent": Turn.chef_question,
     "AMAZON.HelpIntent": Turn.help,

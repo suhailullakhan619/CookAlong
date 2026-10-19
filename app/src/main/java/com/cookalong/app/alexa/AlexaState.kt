@@ -29,6 +29,8 @@ data class AlexaState(
     /** The TV reads steps aloud itself, so Alexa should keep its replies short. */
     val readAloud: Boolean = false,
     val timers: List<Timer> = emptyList(),
+    /** Ingredient names from the last fridge scan, so "what's for dinner" knows there is something to plan with. */
+    val scanIngredients: List<String> = emptyList(),
 ) {
     @Serializable
     data class Timer(val id: String, val label: String, val status: String, val remainingMs: Long)
@@ -44,9 +46,10 @@ data class AlexaState(
             timers: List<KitchenTimer>,
             tvSpeaks: Boolean,
             nowMs: Long,
+            scanIngredients: List<String> = emptyList(),
         ): AlexaState {
             val timerInfo = timers.map { Timer(it.id, it.label, it.status.name, it.remainingAt(nowMs)) }
-            if (recipe == null) return AlexaState(screen = screen, readAloud = tvSpeaks, timers = timerInfo)
+            if (recipe == null) return AlexaState(screen = screen, readAloud = tvSpeaks, timers = timerInfo, scanIngredients = scanIngredients)
             val factor = Scaling.factor(recipe.servings, servings)
             val steps = recipe.orderedSteps
             val step = steps.getOrNull(stepIndex)
@@ -67,6 +70,7 @@ data class AlexaState(
                 ingredients = recipe.ingredients.map { Speech.ingredient(Scaling.describe(it, factor)) },
                 readAloud = tvSpeaks,
                 timers = timerInfo,
+                scanIngredients = scanIngredients,
             )
         }
     }

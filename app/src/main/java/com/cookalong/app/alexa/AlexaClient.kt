@@ -19,6 +19,7 @@ data class AlexaCommand(
     val timerId: String? = null,
     val step: Int? = null,
     val count: Int? = null,
+    val servings: Int? = null,
     val query: String? = null,
     val maxMinutes: Int? = null,
     val question: String? = null,

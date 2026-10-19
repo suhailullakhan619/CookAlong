@@ -1,0 +1,2785 @@
+{
+ "recipes": [
+  {
+   "id": "pad-thai",
+   "title": "Pad Thai",
+   "description": "Stir-fried rice noodles with egg, bean sprouts, peanuts and a sweet-sour tamarind sauce.",
+   "prepTime": 40,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "noodles",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "rice-noodles",
+     "name": "rice noodles",
+     "amount": 0.5,
+     "unit": "lb"
+    },
+    {
+     "id": "fish-sauce",
+     "name": "fish sauce",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "white-vinegar",
+     "name": "white vinegar (or rice vinegar)",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "plus-1-tablespoon",
+     "name": "plus 1 tablespoon (75 ml) tamarind juice",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "and-1-tablespoon",
+     "name": "and 1 tablespoon (75 ml) palm sugar (or granulated sugar)",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, chopped",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "dried-red-chili-pepper-f",
+     "name": "dried red chili pepper flakes (or to taste)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "shrimp",
+     "name": "shrimp, tofu, chicken, squid, or beef",
+     "amount": 0.5,
+     "unit": "lb"
+    },
+    {
+     "id": "assorted-vegetables",
+     "name": "Assorted vegetables",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "chopped-green-onions",
+     "name": "chopped green onions",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "bean-sprouts",
+     "name": "bean sprouts",
+     "amount": 0.75,
+     "unit": "lb"
+    },
+    {
+     "id": "chopped-unroasted-peanut",
+     "name": "chopped unroasted peanuts",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "wedge-of-lime",
+     "name": "Wedge of lime (garnish)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cilantro",
+     "name": "Cilantro (coriander) leaves (garnish)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the noodles in warm water for about 20 minutes and strain.",
+     "relatedIngredientIds": [
+      "rice-noodles"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Alternatively, pour boiling water over the noodles and let them sit for 7 minutes.)",
+     "relatedIngredientIds": [
+      "rice-noodles"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the fish sauce with the vinegar, sugar and tamarind juice together in a small bowl.",
+     "relatedIngredientIds": [
+      "fish-sauce",
+      "white-vinegar",
+      "plus-1-tablespoon",
+      "and-1-tablespoon"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the vegetable oil in a wok on high, and brown the chopped garlic and chili peppers for a minute.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "garlic",
+      "assorted-vegetables"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cook the meats/tofu in oil, until they are browned (6–8 minutes).",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 480,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add assorted veggies and cook until tender.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add noodles. Crack the eggs over the noodles, allow them to cook, and then mix them up.",
+     "relatedIngredientIds": [
+      "rice-noodles",
+      "eggs"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the fish sauce mix into the wok, mix it all up and turn the heat down to medium.",
+     "relatedIngredientIds": [
+      "fish-sauce"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add the chopped green onions and bean sprouts, then stir fry for 2 more minutes.",
+     "relatedIngredientIds": [
+      "garlic",
+      "chopped-green-onions",
+      "bean-sprouts"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Serve on a large plate or bowl. Garnish with chopped peanuts and, optionally, chopped cilantro or coriander and a wedge of lime.",
+     "relatedIngredientIds": [
+      "garlic",
+      "chopped-unroasted-peanut",
+      "wedge-of-lime",
+      "cilantro"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pad_Thai",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "thai-green-curry-with-chicken",
+   "title": "Thai Green Curry with Chicken",
+   "description": "Chicken simmered in coconut milk with green curry paste and lime leaves.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "thai-green-curry-paste",
+     "name": "Thai green curry paste (according to taste)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "soft-dark-brown-sugar",
+     "name": "soft dark brown sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "thick-stalks-lemongrass",
+     "name": "thick stalks lemongrass, fat ends bashed with a rolling pin",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "skinless",
+     "name": "skinless, boneless chicken, cut into chunks",
+     "amount": 750.0,
+     "unit": "g"
+    },
+    {
+     "id": "kaffir-lime-leaves",
+     "name": "kaffir lime leaves, torn into pieces",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "coconut-milk",
+     "name": "coconut milk",
+     "amount": 400.0,
+     "unit": "ml"
+    },
+    {
+     "id": "good-shake-of-thai-fish",
+     "name": "good shake of Thai fish sauce or light soy sauce",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-handful-of-coriand",
+     "name": "small handful of coriander leaves, roughly chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ea-lime",
+     "name": "ea. lime, juiced",
+     "amount": 0.5,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the oil in a wok or large frying pan.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the green curry paste and sugar and cook over a fairly high heat for about a minute, stirring with the lemongrass, if using.",
+     "relatedIngredientIds": [
+      "thai-green-curry-paste",
+      "soft-dark-brown-sugar",
+      "thick-stalks-lemongrass"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Reduce the heat slightly and stir in the chicken pieces and lime leaves or zest until coated in the paste.",
+     "relatedIngredientIds": [
+      "thai-green-curry-paste",
+      "kaffir-lime-leaves",
+      "small-handful-of-coriand",
+      "ea-lime"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the coconut milk, fish sauce or soy sauce and bring to a simmer, cooking for 25–30 minutes until thickened slightly.",
+     "relatedIngredientIds": [
+      "coconut-milk",
+      "good-shake-of-thai-fish"
+     ],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir in the coriander and lime juice.",
+     "relatedIngredientIds": [
+      "ea-lime"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Check for seasoning, adding more fish sauce or soy sauce if needed.",
+     "relatedIngredientIds": [
+      "good-shake-of-thai-fish"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Leave the curry to sit for a few minutes so the sauce becomes creamier. You will also taste the true flavours of the curry paste ingredients when it's slightly cooler.",
+     "relatedIngredientIds": [
+      "thai-green-curry-paste",
+      "kaffir-lime-leaves",
+      "good-shake-of-thai-fish",
+      "small-handful-of-coriand"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve with lots of fragrant Thai jasmine rice.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Thai_Green_Curry_with_Chicken",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "khao-pad-gai-thai-chicken-fried-rice",
+   "title": "Khao Pad Gai",
+   "description": "Thai chicken fried rice with egg, tomato and fresh garnishes.",
+   "prepTime": 15,
+   "cookTime": 35,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "rice",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "peanut-oil",
+     "name": "Peanut oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "large-chicken-breast",
+     "name": "large chicken breast, sliced in thin strips",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, unbeaten",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cooked-thai-jasmine-rice",
+     "name": "cooked Thai jasmine rice, refrigerated overnight",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "yellow-onion",
+     "name": "yellow onion, chopped into strips",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "roma-tomato",
+     "name": "roma tomato, cut into strips",
+     "amount": 0.75,
+     "unit": ""
+    },
+    {
+     "id": "green-onions",
+     "name": "green onions, thinly sliced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cilantro",
+     "name": "cilantro, finely chopped",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "thai-fish-sauce",
+     "name": "Thai fish sauce (nam pla)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "Soy sauce",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar (preferably palm sugar)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced and fried",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "vinegar",
+     "name": "Vinegar",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "msg",
+     "name": "MSG",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "thai-chili-sauce",
+     "name": "Thai chili sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cucumber",
+     "name": "cucumber, peeled",
+     "amount": 3.0,
+     "unit": "slice"
+    },
+    {
+     "id": "roma-tomato-2",
+     "name": "roma tomato",
+     "amount": 3.0,
+     "unit": "slice"
+    },
+    {
+     "id": "green-onion",
+     "name": "green onion",
+     "amount": 3.0,
+     "unit": "sprig"
+    },
+    {
+     "id": "lettuce-leaf",
+     "name": "Lettuce leaf",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Make sure that all of the ingredients are prepared and set aside in small bowls by the stove.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add about 4 Tbsp peanut oil to the wok, and turn the flame to high heat.",
+     "relatedIngredientIds": [
+      "peanut-oil"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "When the oil is almost smoking, add the chicken strips and push around vigorously with a wok spoon or spatula.",
+     "relatedIngredientIds": [
+      "large-chicken-breast",
+      "yellow-onion",
+      "roma-tomato"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When the chicken seems as if it is starting to brown, push it up the side of the wok and crack the eggs into the wok.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir the eggs around a bit. When almost fully scrambled, mix in the chicken and stir around for 30 seconds more.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "stir",
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Push the eggs/chicken to the side, add some more oil, and throw in the tomato and onion. Stir-fry for about 5 minutes. They will not look done, but in the end, they will be fine.",
+     "relatedIngredientIds": [
+      "eggs",
+      "yellow-onion",
+      "roma-tomato",
+      "green-onions",
+      "roma-tomato-2",
+      "green-onion"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the cold cooked rice and mix it all in.",
+     "relatedIngredientIds": [
+      "cooked-thai-jasmine-rice"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Turn the heat to low, then add a few splashes of fish sauce and soy sauce to taste.",
+     "relatedIngredientIds": [
+      "thai-fish-sauce",
+      "soy-sauce",
+      "thai-chili-sauce"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add sugar, salt, MSG, a splash of vinegar, and chili sauce if wanted. Lastly, add the fried garlic on top. Stir it all in and turn off the heat.",
+     "relatedIngredientIds": [
+      "thai-fish-sauce",
+      "soy-sauce",
+      "sugar",
+      "salt",
+      "garlic",
+      "vinegar",
+      "thai-chili-sauce"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "On a large platter, arrange the garnishes on a lettuce leaf, and plate the fried rice next to it.",
+     "relatedIngredientIds": [
+      "cooked-thai-jasmine-rice",
+      "garlic",
+      "lettuce-leaf"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Eat the garnishes with the fried rice.",
+     "relatedIngredientIds": [
+      "cooked-thai-jasmine-rice",
+      "garlic"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Khao_Pad_Gai_(Thai_Chicken_Fried_Rice)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pattaya-fried-rice",
+   "title": "Pattaya Fried Rice",
+   "description": "Chicken and vegetable fried rice wrapped in a thin omelette.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "rice",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "red-chillies",
+     "name": "red chillies, cut in dice",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "shallots",
+     "name": "shallots, sliced finely",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "chicken-fillets",
+     "name": "chicken fillets, cut in pieces",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "green-peas",
+     "name": "green peas",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "carrot",
+     "name": "carrot, diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "scallion",
+     "name": "scallion, cut in dice",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cooked-rice",
+     "name": "cooked rice",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "tomato-sauce",
+     "name": "tomato sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "nam-pla",
+     "name": "nam pla (fish sauce)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": 1.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "small-jalapeno",
+     "name": "small jalapeno, minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "eggs-for-making-omelette",
+     "name": "eggs for making omelette",
+     "amount": 2.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the oil in a non-stick pan. When the oil is hot, fry the garlic and shallots, stirring until brown and fragrant.",
+     "relatedIngredientIds": [
+      "garlic",
+      "shallots"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the chicken pieces, carrot, green peas, and red chilli. Stir for 2 minutes.",
+     "relatedIngredientIds": [
+      "chicken-fillets",
+      "green-peas",
+      "carrot"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the rice, nam pla, tomato sauce, salt, and pepper. Stir until all mixed.",
+     "relatedIngredientIds": [
+      "cooked-rice",
+      "tomato-sauce",
+      "nam-pla",
+      "salt",
+      "pepper"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "To make the omelette, heat the oil in a separate pan. Beat the eggs, and pour into the pan. Cook until the egg is browned on the bottom.",
+     "relatedIngredientIds": [
+      "eggs-for-making-omelette"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Flip the egg over to cook on the other side.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Place a ball of the fried rice mixture in the center of the omelette. Fold up the 4 edges of the omelette to enclose the rice. Flip it onto a serving plate.",
+     "relatedIngredientIds": [
+      "cooked-rice",
+      "eggs-for-making-omelette"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve hot.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pattaya_Fried_Rice",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "khao-pad-thai-fried-rice",
+   "title": "Khao Pad (Thai Fried Rice)",
+   "description": "Basic Thai egg fried rice with garlic, fish sauce and spring onion.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "quick",
+    "rice",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "minced-garlic",
+     "name": "minced garlic",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cooked-rice",
+     "name": "cooked rice, cooled",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "fish-sauce",
+     "name": "fish sauce",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cooked-meat",
+     "name": "cooked meat (e.g. shrimp, pork, chicken, etc.)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-black-pepper",
+     "name": "ground black pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "spring-onion-as-desired",
+     "name": "Spring onion as desired, sliced",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat up a frying pan or wok and add the oil, then the minced garlic. Stir fry until fragrant.",
+     "relatedIngredientIds": [
+      "minced-garlic"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the eggs, and stir fry the eggs until cooked.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the rice and stir fry.",
+     "relatedIngredientIds": [
+      "cooked-rice"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Season with fish sauce, soy sauce, and sugar, then continue frying until the rice is crumbly.",
+     "relatedIngredientIds": [
+      "cooked-rice",
+      "fish-sauce",
+      "soy-sauce",
+      "sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add meat, pepper, and spring onions. Stir again until heated through, then transfer to a serving dish.",
+     "relatedIngredientIds": [
+      "cooked-meat",
+      "ground-black-pepper"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Khao_Pad_(Thai_Fried_Rice)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pad-kra-pao-gai-thai-basil-chicken-stir-fry",
+   "title": "Pad Kra Pao Gai",
+   "description": "Fiery minced chicken stir-fried with holy basil, chilli and green beans.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "cooking-oil",
+     "name": "cooking oil",
+     "amount": 1.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "thai-chillis",
+     "name": "Thai chillis",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, finely chopped",
+     "amount": 5.0,
+     "unit": "clove"
+    },
+    {
+     "id": "lean-minced-chicken",
+     "name": "lean minced chicken",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "green-beans",
+     "name": "green beans, finely chopped",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "fish-sauce",
+     "name": "fish sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "thai-or-sweet-basil-leav",
+     "name": "Thai or sweet basil leaves",
+     "amount": 15.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Add the oil to a pan over high heat. Wait until the oil has heated up.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "One the oil is hot, add the chillis and garlic to the pan and stir fry for roughly 10 seconds.",
+     "relatedIngredientIds": [
+      "thai-chillis",
+      "garlic"
+     ],
+     "suggestedTimerSeconds": 10,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the minced chicken, and stir fry with a spatula.",
+     "relatedIngredientIds": [
+      "lean-minced-chicken"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When the chicken is nearly done add the green beans.",
+     "relatedIngredientIds": [
+      "lean-minced-chicken",
+      "green-beans"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the fish sauce, oyster sauce, and sugar. Stir fry for 2 minutes.",
+     "relatedIngredientIds": [
+      "fish-sauce",
+      "oyster-sauce",
+      "sugar"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Turn the heat off, add basil, and stir for 5 seconds.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve with rice and a fried egg on top.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pad_Kra_Pao_Gai_(Thai_Basil_Chicken_Stir_Fry)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pineapple-curry",
+   "title": "Pineapple Curry",
+   "description": "Quick red curry with pineapple, coconut milk and shrimp.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "quick",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "pineapple-pieces",
+     "name": "pineapple pieces",
+     "amount": 175.0,
+     "unit": "g"
+    },
+    {
+     "id": "thai-red-curry-paste",
+     "name": "Thai red curry paste",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "coconut-milk",
+     "name": "coconut milk",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "shrimp",
+     "name": "shrimp, or whatever meat desired",
+     "amount": 8.0,
+     "unit": "oz"
+    },
+    {
+     "id": "palm-sugar",
+     "name": "palm sugar",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "fish-sauce",
+     "name": "fish sauce",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "ripe-tamarind",
+     "name": "ripe tamarind",
+     "amount": 1.5,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Simmer the coconut milk in a saucepan over medium heat for 5 minutes and add red curry paste.",
+     "relatedIngredientIds": [
+      "thai-red-curry-paste",
+      "coconut-milk",
+      "fish-sauce"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Put the sliced pineapple in the curry and wait until it is soft.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bring to a boil over high heat, then add the shrimp.",
+     "relatedIngredientIds": [
+      "shrimp"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Flavor the curry by adding the palm sugar, fish sauce, and ripe tamarind. Add more palm sugar for a sweeter curry, add more fish sauce for a salty curry, and add more ripe tamarind for a sour flavor.",
+     "relatedIngredientIds": [
+      "palm-sugar",
+      "fish-sauce",
+      "ripe-tamarind"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pineapple_Curry",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "tom-kha-kai",
+   "title": "Tom Kha Kai",
+   "description": "Thai coconut and galangal chicken soup with lemongrass and lime.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "soup",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "coconut-milk",
+     "name": "coconut milk",
+     "amount": 2.5,
+     "unit": "cup"
+    },
+    {
+     "id": "chicken-stock",
+     "name": "chicken stock",
+     "amount": 3.25,
+     "unit": "cup"
+    },
+    {
+     "id": "stalks-lemongrass",
+     "name": "stalks lemongrass, cut into 1-inch pieces or split",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "x-1-inch",
+     "name": "x 1-inch (5 x 2.5 cm) cube galangal, sliced thin",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "mini-thai-bird-chilies",
+     "name": "mini Thai bird chilies, finely chopped",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "chicken",
+     "name": "chicken, cubed",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "medium-onion",
+     "name": "medium onion, quartered",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "tomato",
+     "name": "tomato, quartered and peeled",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "mushrooms",
+     "name": "mushrooms, sliced",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "lime-juice",
+     "name": "lime juice",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cilantro",
+     "name": "cilantro",
+     "amount": 4.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Bring stock and coconut milk to a boil.",
+     "relatedIngredientIds": [
+      "coconut-milk",
+      "chicken-stock"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add lemongrass, galangal, chilies, sugar, and pepper.",
+     "relatedIngredientIds": [
+      "stalks-lemongrass",
+      "mini-thai-bird-chilies",
+      "sugar",
+      "pepper"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add onion, tomato, chicken bits, and mushrooms.",
+     "relatedIngredientIds": [
+      "chicken",
+      "medium-onion",
+      "tomato",
+      "mushrooms"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Keep at a rolling boil for 4 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 240,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Remove the pot from the heat.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Stir in lime juice and soy sauce.",
+     "relatedIngredientIds": [
+      "lime-juice",
+      "soy-sauce"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Garnish with cilantro and chilies.",
+     "relatedIngredientIds": [
+      "mini-thai-bird-chilies",
+      "cilantro"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Tom_Kha_Kai",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "tom-yum-gai",
+   "title": "Tom Yum Gai",
+   "description": "Hot and sour Thai chicken soup with lemongrass and mushrooms.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "quick",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "boneless-chicken-meat",
+     "name": "boneless chicken meat, diced",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "chicken-stock",
+     "name": "chicken stock",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "straw-mushrooms",
+     "name": "straw mushrooms, halved",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "cherry-tomatoes",
+     "name": "cherry tomatoes",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "fresh-lemongrass-stem",
+     "name": "fresh lemongrass stem, cut into short lengths",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "kaffir-lime-leaves",
+     "name": "kaffir lime leaves, torn",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "thai-fish-sauce",
+     "name": "Thai fish sauce",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "fresh-lime-juice",
+     "name": "fresh lime juice",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "hot-fresh-thai-chilies",
+     "name": "hot fresh Thai chilies, just broken with pestle",
+     "amount": 5.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Place the stock in a pot, add the lemongrass and kaffir lime leaves, and bring to boil over medium heat.",
+     "relatedIngredientIds": [
+      "chicken-stock",
+      "kaffir-lime-leaves"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the chicken meat, mushroom, fish sauce, lime juice, and sugar; cook slowly and uncovered for 10 minutes. Do not stir.",
+     "relatedIngredientIds": [
+      "boneless-chicken-meat",
+      "straw-mushrooms",
+      "thai-fish-sauce",
+      "fresh-lime-juice",
+      "sugar"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the tomatoes and chilies and cook for 5 more minutes. Remove from heat.",
+     "relatedIngredientIds": [
+      "cherry-tomatoes",
+      "hot-fresh-thai-chilies"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Serve with steamed jasmine rice.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Tom_Yum_Gai",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "thai-shrimp",
+   "title": "Thai Shrimp",
+   "description": "Shrimp and peppers stir-fried in a sweet-spicy soy and chilli sauce.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "thai-chili-paste",
+     "name": "Thai chili paste",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "rice-wine-vinegar",
+     "name": "rice wine vinegar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "chicken-broth",
+     "name": "chicken broth",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "peanut-oil",
+     "name": "peanut oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "jumbo-shrimp",
+     "name": "jumbo shrimp, peeled and deveined",
+     "amount": 24.0,
+     "unit": ""
+    },
+    {
+     "id": "red-bell-pepper",
+     "name": "red bell pepper, julienned",
+     "amount": 0.25,
+     "unit": ""
+    },
+    {
+     "id": "green-bell-pepper",
+     "name": "green bell pepper, julienned",
+     "amount": 0.25,
+     "unit": ""
+    },
+    {
+     "id": "minced-garlic",
+     "name": "minced garlic",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "Salt, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "Pepper, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "toasted-sesame-seeds",
+     "name": "toasted sesame seeds",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "hot-cooked-rice-or-noodl",
+     "name": "Hot cooked rice or noodles (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine soy sauce, chili paste, vinegar, sugar, cornstarch, sesame oil and broth. Set aside.",
+     "relatedIngredientIds": [
+      "soy-sauce",
+      "thai-chili-paste",
+      "rice-wine-vinegar",
+      "sugar",
+      "cornstarch",
+      "sesame-oil",
+      "chicken-broth"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Preheat a large sauté pan or wok over high heat. Add peanut oil and shrimp and stir-fry until shrimp is pink. Remove and keep warm.",
+     "relatedIngredientIds": [
+      "peanut-oil",
+      "jumbo-shrimp"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add bell pepper and garlic and stir-fry until bell pepper has taken on slight browning. Remove and keep warm.",
+     "relatedIngredientIds": [
+      "red-bell-pepper",
+      "green-bell-pepper",
+      "minced-garlic",
+      "pepper"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add liquid mixture to pan and bring to a boil. Cook until liquid has reduced to ¼ cup.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add shrimp and vegetables back to pan and toss. Heat through.",
+     "relatedIngredientIds": [
+      "jumbo-shrimp"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Garnish with sesame seeds and serve immediately over rice or noodles.",
+     "relatedIngredientIds": [
+      "sesame-oil",
+      "toasted-sesame-seeds",
+      "hot-cooked-rice-or-noodl"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Thai_Shrimp",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "tod-mun-thai-fish-cakes",
+   "title": "Tod Mun (Thai Fish Cakes)",
+   "description": "Fried Thai fish cakes with red curry paste and green beans.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "sweet",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil (for frying)",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "green-beans",
+     "name": "green beans",
+     "amount": 120.0,
+     "unit": "g"
+    },
+    {
+     "id": "ground-fish-or-fish-past",
+     "name": "ground fish or fish paste (pla kuud)",
+     "amount": 360.0,
+     "unit": "g"
+    },
+    {
+     "id": "red-curry-paste",
+     "name": "red curry paste",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "kaffir-lime-leaves",
+     "name": "Kaffir lime leaves",
+     "amount": 3.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Stack the lime leaves and roll them together into a tube shape. Slice them into thin strips.",
+     "relatedIngredientIds": [
+      "kaffir-lime-leaves"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Slice the green beans into small (½ inch) pieces.",
+     "relatedIngredientIds": [
+      "green-beans"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mince the fish.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix all the ingredients except the green beans and lime leaves in a bowl.",
+     "relatedIngredientIds": [
+      "green-beans",
+      "kaffir-lime-leaves"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir until the mixture is smooth.",
+     "relatedIngredientIds": [],
+     "animation": "stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the green beans and lime leaves to the mixture and stir again.",
+     "relatedIngredientIds": [
+      "green-beans",
+      "kaffir-lime-leaves"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the oil to a frying pan and heat to a medium temperature.",
+     "relatedIngredientIds": [
+      "vegetable-oil"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Drop a tablespoon of the mixture into the pan and flatten slightly. When the bottom is cooked, turn over.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "When cooked on both sides, place on a paper towel to drain any extra oil. Continue with the rest of the mixture.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Tod_Mun_(Thai_Fish_Cakes)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "fuk-thong-pad-khai-thai-stir-fried-pumpkin",
+   "title": "Fuk-Thong Pad Khai",
+   "description": "Pumpkin stir-fried with minced pork, egg and oyster sauce.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "japanese-pumpkin",
+     "name": "Japanese pumpkin (kabocha)",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 1.0,
+     "unit": "clove"
+    },
+    {
+     "id": "minced-pork-or-chicken",
+     "name": "minced pork or chicken",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "fish-sauce",
+     "name": "fish sauce",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "chopped-spring-onions",
+     "name": "chopped spring onions",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "oyster sauce",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "To prepare the pumpkin, remove seeds and cut off the outside skin of the pumpkin. Cut the pumpkin into 1-inch cubes and wash well with water.",
+     "relatedIngredientIds": [
+      "japanese-pumpkin"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Place pumpkin in a saucepan, and cover with water. Bring to the boil and cook until tender. When it is soft, drain the water.",
+     "relatedIngredientIds": [
+      "japanese-pumpkin",
+      "fish-sauce",
+      "oyster-sauce"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the oil in a pan, and fry the garlic until it becomes lightly browned and fragrant.",
+     "relatedIngredientIds": [
+      "garlic"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the minced pork to the pan, and let cook until the pork is nearly cooked through.",
+     "relatedIngredientIds": [
+      "garlic"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the cooked squash to the pork.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Crack the eggs into the pan.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Once the eggs are cooked, stir with pumpkin and minced pork.",
+     "relatedIngredientIds": [
+      "japanese-pumpkin",
+      "garlic",
+      "eggs"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Stir in the fish sauce, sugar, pepper, spring onion, and oyster sauce.",
+     "relatedIngredientIds": [
+      "fish-sauce",
+      "sugar",
+      "pepper",
+      "chopped-spring-onions",
+      "oyster-sauce"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Serve with warm rice.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Fuk-Thong_Pad_Khai_(Thai_Stir-Fried_Pumpkin)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "thai-rice-balls-in-coconut-milk-bua-loi",
+   "title": "Thai Rice Balls in Coconut Milk",
+   "description": "Chewy glutinous rice balls in sweet coconut cream.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "rice",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "glutinous-rice-flour",
+     "name": "glutinous rice flour",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "pandan-essence",
+     "name": "pandan essence",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "coconut-cream",
+     "name": "coconut cream",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "white-granulated-sugar",
+     "name": "white granulated sugar",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs (optional)",
+     "amount": 3.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the rice flour with enough water to make a stiff paste, adding the pandan essence to the water before mixing with the rice flour. Knead well, then form the dough into pea-sized balls.",
+     "relatedIngredientIds": [
+      "glutinous-rice-flour",
+      "pandan-essence"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring a large pot of water to a boil. Add the rice balls, and remove them when they float to the surface. Drain.",
+     "relatedIngredientIds": [],
+     "animation": "boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bring half the coconut cream to a boil, stirring constantly to prevent it from separating, then add the flour balls.",
+     "relatedIngredientIds": [
+      "glutinous-rice-flour",
+      "coconut-cream"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When the mixture returns to a boil, remove from heat and stir in the remaining coconut cream.",
+     "relatedIngredientIds": [
+      "coconut-cream"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "If serving this dish with eggs, in a separate saucepan bring water to a boil and reduce heat, then crack eggs one at a time into the water. When eggs are done, remove from water and set aside.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve as dessert in small bowls, adding one egg per bowl. Thais often add sweet corn kernels to the final product.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Thai_Rice_Balls_in_Coconut_Milk_(Bua_Loi)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "coconut-pudding-i",
+   "title": "Coconut Pudding I",
+   "description": "Chilled young-coconut pudding set with agar and milk.",
+   "prepTime": 30,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "tender",
+     "name": "tender (young) coconuts, flesh scooped out",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "tender-2",
+     "name": "tender (young) coconut water",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "china-grass",
+     "name": "China grass (agar) strands",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "condensed-milk",
+     "name": "condensed milk",
+     "amount": 0.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Purée the young coconut flesh in a blender, and keep aside.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a saucepan, combine the tender coconut water and china-grass strands. Heat gently until the china-grass strands melt completely.",
+     "relatedIngredientIds": [
+      "tender",
+      "tender-2",
+      "china-grass"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In the meantime, heat milk and condensed milk in another saucepan over medium heat. Let it come to a boil.",
+     "relatedIngredientIds": [
+      "milk",
+      "condensed-milk"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "To the boiled milk, add the melted china-grass mixture, and combine well.",
+     "relatedIngredientIds": [
+      "china-grass",
+      "milk",
+      "condensed-milk"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Remove from the flame and let it cool down for at least 5 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cool"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the pureed tender coconut to the cooled milk mixture, and mix everything well.",
+     "relatedIngredientIds": [
+      "tender",
+      "tender-2",
+      "milk",
+      "condensed-milk"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour the mixture into a cake pan or stainless steel pan.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Place the pudding in the freezer for about 15 minutes or until it begins to set.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Freeze"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Remove the pudding from the freezer and place it in the refrigerator until fully set.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Using a knife, gently cut the pudding and serve it in dessert bowls.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Coconut_Pudding_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "tub-tim-krob-thai-water-chestnuts-in-coconut",
+   "title": "Tub Tim Krob",
+   "description": "Water chestnut jewels in a tapioca coat, served in coconut milk.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "quick",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "coconut-milk",
+     "name": "coconut milk",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "drops-red-food-coloring",
+     "name": "drops red food coloring",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "tapioca-flour",
+     "name": "tapioca flour",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "whole-water-chestnuts",
+     "name": "whole water chestnuts",
+     "amount": 0.5,
+     "unit": "can"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel and cut the water chestnuts into small cubes.",
+     "relatedIngredientIds": [
+      "water",
+      "whole-water-chestnuts"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Soak the water chestnut cubes in red food coloring until their color changes to red.",
+     "relatedIngredientIds": [
+      "drops-red-food-coloring",
+      "water",
+      "whole-water-chestnuts"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the colored water chestnut cubes with tapioca flour until the skin of the cubes is covered with the flour.",
+     "relatedIngredientIds": [
+      "tapioca-flour",
+      "water",
+      "whole-water-chestnuts"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Boil them in hot water for several minutes or until the water chestnut cubes float to the top of the water.",
+     "relatedIngredientIds": [
+      "water",
+      "whole-water-chestnuts"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix the water chestnut cubes with coconut milk and serve with ice cubes in a bowl.",
+     "relatedIngredientIds": [
+      "coconut-milk",
+      "water",
+      "whole-water-chestnuts"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Tub_Tim_Krob_(Thai_Water_Chestnuts_in_Coconut)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "thai-lemonade",
+   "title": "Thai Lemonade",
+   "description": "Lemongrass and ginger syrup topped with sparkling water.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "drink",
+    "quick",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 125.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "stalks-lemongrass",
+     "name": "stalks lemongrass",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cm-piece-of-ginger",
+     "name": "cm piece of ginger, peeled and cut into pieces",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "carbonated-water",
+     "name": "carbonated water",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "lime",
+     "name": "Lime, sliced, for garnish",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Bring the water to a boil with the sugar, lemon grass, and ginger. Boil for 20 minutes.",
+     "relatedIngredientIds": [
+      "water",
+      "sugar",
+      "cm-piece-of-ginger",
+      "carbonated-water"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Allow the syrup to cool, then remove lemongrass and ginger.",
+     "relatedIngredientIds": [
+      "stalks-lemongrass",
+      "cm-piece-of-ginger"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour the syrup in 4 large glasses, and add the carbonated water.",
+     "relatedIngredientIds": [
+      "water",
+      "carbonated-water"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Garnish glasses with lime discs.",
+     "relatedIngredientIds": [
+      "lime"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Thai_Lemonade",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "chuu-chee-fish",
+   "title": "Chuu Chee Fish",
+   "description": "Whole fried fish under a thick chu chee curry and coconut sauce.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "whole-bream-or-similar-f",
+     "name": "whole bream or similar fish",
+     "amount": 650.0,
+     "unit": "g"
+    },
+    {
+     "id": "metric-cup-vegetable-oil",
+     "name": "metric cup vegetable oil",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "kaeng-chu-chee-curry-pas",
+     "name": "kaeng chu chee curry paste",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dried-kaffir-lime-leaves",
+     "name": "dried Kaffir lime leaves",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "metric-cup-coconut-milk",
+     "name": "metric cup coconut milk",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "fish-sauce",
+     "name": "fish sauce",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-cilantro",
+     "name": "Fresh cilantro",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "fresh-red-chile-pepper",
+     "name": "fresh red chile pepper",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a wok or large frypan, over high heat, fry fish using most of the vegetable oil, until golden on one side. It will take about 5 minutes.",
+     "relatedIngredientIds": [
+      "whole-bream-or-similar-f",
+      "metric-cup-vegetable-oil"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Lower heat and, using tongs, gently turn fish over.",
+     "relatedIngredientIds": [
+      "whole-bream-or-similar-f"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Turn up heat again and cook until golden. Using tongs again, lift fish gently onto a serving plate.",
+     "relatedIngredientIds": [
+      "whole-bream-or-similar-f"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In the wok, gently stir-fry the curry-paste and lime leaves in remaining tablespoon of oil.",
+     "relatedIngredientIds": [
+      "kaeng-chu-chee-curry-pas",
+      "dried-kaffir-lime-leaves"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add coconut milk and fish sauce. Simmer for about 5 minutes.",
+     "relatedIngredientIds": [
+      "whole-bream-or-similar-f",
+      "metric-cup-coconut-milk",
+      "fish-sauce"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add sugar and simmer for another 5 minutes.",
+     "relatedIngredientIds": [
+      "sugar"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Taste to see if extra coconut milk, fish sauce, or sugar is required.",
+     "relatedIngredientIds": [
+      "whole-bream-or-similar-f",
+      "metric-cup-coconut-milk",
+      "fish-sauce",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Pour sauce over fish and garnish with cilantro and chopped chili peppers.",
+     "relatedIngredientIds": [
+      "whole-bream-or-similar-f",
+      "fish-sauce",
+      "fresh-cilantro",
+      "fresh-red-chile-pepper"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chuu_Chee_Fish",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "khanom-mo-keang-thai-custard",
+   "title": "Khanom Mo Keang (Thai Custard)",
+   "description": "Baked Thai custard of mung beans, egg and coconut with crispy shallots.",
+   "prepTime": 15,
+   "cookTime": 45,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "sweet",
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "large-shallot",
+     "name": "large shallot, peeled and thinly sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "coconut-or-palm-sugar",
+     "name": "coconut or palm sugar",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cooked-and-hulled-mung-b",
+     "name": "cooked and hulled mung beans",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "large-whole-chicken-eggs",
+     "name": "large whole chicken eggs plus 3 yolks (or 5 duck eggs)",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "granulated-sugar",
+     "name": "granulated sugar",
+     "amount": 0.667,
+     "unit": "cup"
+    },
+    {
+     "id": "coconut-cream",
+     "name": "coconut cream",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the shallot slices and oil into a small frying pan over medium-low heat. Stir the shallot slices, until they are golden brown and crispy.",
+     "relatedIngredientIds": [
+      "large-shallot"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Grease the bottom and sides of a 9×13-inch baking pan. Preheat the oven to 180°C.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Soften the palm or coconut sugar in a pan over medium heat.",
+     "relatedIngredientIds": [
+      "coconut-or-palm-sugar",
+      "granulated-sugar"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Blend the mung beans, eggs, both sugars, coconut cream, salt, and any leftover oil from the shallots together until smooth.",
+     "relatedIngredientIds": [
+      "large-shallot",
+      "coconut-or-palm-sugar",
+      "cooked-and-hulled-mung-b",
+      "large-whole-chicken-eggs",
+      "granulated-sugar",
+      "coconut-cream",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Let the custard mixture sit for 5 minutes until it becomes less frothy.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour the custard mixture into the pan. Place the pan on a rack positioned in the upper third of the oven. Bake at 180°C for 35–45 minutes or until the center is slightly firm and the top is golden brown.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Put some of the fried shallots over the top of the custard.",
+     "relatedIngredientIds": [
+      "large-shallot"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Khanom_Mo_Keang_(Thai_Custard)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "kanom-piak-poon-thai-coconut-and-pandan-pudding",
+   "title": "Kanom Piak Poon",
+   "description": "Steamed-style pandan and coconut pudding, cut into squares.",
+   "prepTime": 50,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "thai"
+   ],
+   "ingredients": [
+    {
+     "id": "rice-flour",
+     "name": "rice flour",
+     "amount": 80.0,
+     "unit": "g"
+    },
+    {
+     "id": "arrowroot-starch",
+     "name": "arrowroot starch",
+     "amount": 40.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "limewater",
+     "name": "limewater (saturated calcium hydroxide solution)",
+     "amount": 600.0,
+     "unit": "ml"
+    },
+    {
+     "id": "fresh-pandan-juice",
+     "name": "fresh pandan juice",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "coconut-milk",
+     "name": "coconut milk",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "grated-coconut-meat",
+     "name": "grated coconut meat",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine the rice flour, arrowroot, and lime water. Stir in the sugar, water, pandan juice, coconut milk, and salt until the sugar dissolves. Strain this mixture into a brass pan or pot to remove any solids.",
+     "relatedIngredientIds": [
+      "rice-flour",
+      "sugar",
+      "fresh-pandan-juice",
+      "coconut-milk",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the pan over low heat. Stir the mixture continuously over low heat to keep it from sticking to the bottom of the pan.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cook until the mixture is glossy and thickened. This will take about 30–40 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour the mixture into an oiled mold. Smooth the top, then let rest until cool.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "When the pudding is cooled, use a knife to cut into the desired shape. Serve with grated coconut.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Kanom_Piak_Poon_(Thai_Coconut_and_Pandan_Pudding)",
+   "credit": "Wikibooks Cookbook contributors"
+  }
+ ]
+}

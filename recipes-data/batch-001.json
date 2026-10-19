@@ -1,0 +1,2945 @@
+{
+ "recipes": [
+  {
+   "id": "red-lentil-dahl",
+   "title": "Red Lentil Dahl",
+   "description": "Creamy red lentils simmered with tomato and vegetables, spiced the Indian way.",
+   "prepTime": 10,
+   "cookTime": 50,
+   "servings": 6,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "healthy",
+    "indian",
+    "north-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "olive-oil",
+     "name": "Olive Oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "medium-yellow-onion",
+     "name": "medium Yellow Onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "fresh-ginger",
+     "name": "Fresh Ginger, grated",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic-cloves",
+     "name": "Garlic Cloves, minced",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "yellow-curry",
+     "name": "Yellow Curry (mild madras)",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sea-salt",
+     "name": "Sea Salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dried-red-lentils",
+     "name": "dried Red Lentils",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "Water",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "plum-tomatoes",
+     "name": "Plum Tomatoes, chopped",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "juice-of-1-lemon",
+     "name": "juice of 1 Lemon",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "fresh-cilantro",
+     "name": "Fresh Cilantro, chopped and lightly packed",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "dried-red-chili-s-or-cay",
+     "name": "Dried Red Chili's or cayenne pepper, to taste",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "Ground Cinnamon",
+     "amount": 0.25,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat oil in a soup pot and saute onions for 5 minutes.",
+     "relatedIngredientIds": [
+      "medium-yellow-onion"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add garlic and ginger and saute 5 more minutes.",
+     "relatedIngredientIds": [
+      "fresh-ginger"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add spices and salt, saute 5 minutes more.",
+     "relatedIngredientIds": [
+      "sea-salt"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add 4 cups of water and stir. Add tomatoes and lentils. Bring to a boil and then lower the heat a bit and simmer for 20 minutes.",
+     "relatedIngredientIds": [
+      "dried-red-lentils",
+      "water",
+      "plum-tomatoes"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the lemon juice and cilantro and more water if it's too thick. Simmer 10 more minutes, or until lentils are completely tender. This may take a while.",
+     "relatedIngredientIds": [
+      "dried-red-lentils",
+      "water",
+      "juice-of-1-lemon",
+      "fresh-cilantro"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/red-lentil-dahl/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "paneer-tikka-masala",
+   "title": "Paneer Tikka Masala",
+   "description": "Paneer cubes in a rich, lightly spiced tomato masala sauce.",
+   "prepTime": 70,
+   "cookTime": 20,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "indian",
+    "north-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "cubes-paneer",
+     "name": "cubes paneer",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "onion",
+     "name": "onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "capsicum",
+     "name": "capsicum",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "tomato-puree",
+     "name": "tomato puree",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "red-chilli-powder",
+     "name": "red chilli powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric-powder",
+     "name": "turmeric powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "coriander-powder",
+     "name": "coriander powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "garam-masala-powder",
+     "name": "garam masala powder",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "thick-yogurt",
+     "name": "thick yogurt",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "fenugreek-powder",
+     "name": "fenugreek powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dry-fenugreek-leaves",
+     "name": "dry fenugreek leaves",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cardamom",
+     "name": "cardamom",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cumin-seeds",
+     "name": "cumin seeds",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "shaved-ginger",
+     "name": "shaved ginger",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "garlic-paste",
+     "name": "garlic paste",
+     "amount": 20.0,
+     "unit": "ml"
+    },
+    {
+     "id": "bowl-corn",
+     "name": "bowl corn",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Take a glass container, and mix the cubed paneers with half a tea spoon of red chilli powder, turmeric powder, coriander powder, garam masala powder, fenugreek powder, and 50g yogurt.",
+     "relatedIngredientIds": [
+      "cubes-paneer",
+      "red-chilli-powder",
+      "turmeric-powder",
+      "coriander-powder",
+      "garam-masala-powder",
+      "thick-yogurt",
+      "fenugreek-powder"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Let the mix marinade for at least an hour.",
+     "relatedIngredientIds": [],
+     "animation": "mix",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Preheat the oven to 200°C, and place the marinated paneer cubes, with onion, capsicum, and tomato on the skewers.",
+     "relatedIngredientIds": [
+      "cubes-paneer",
+      "onion",
+      "capsicum"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Let them grill in the oven using skewer support, by continuously flipping them every 5 minutes until the outer crust looks crispy enough.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Grill"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Start heating some oil in a pan to add some cardamom and cumin seeds. Let it heat until the flavour is transfused for about a minute or two.",
+     "relatedIngredientIds": [
+      "cardamom",
+      "cumin-seeds"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Heat"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Now add chopped onions and tomatoes to the sautee. Add some shaved ginger and garlic paste and let it sauté until some raw flavour disappears.",
+     "relatedIngredientIds": [
+      "onion",
+      "shaved-ginger",
+      "garlic-paste"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the tomato purée, dry fenugreek leaves, and let it cook for about 15 minutes.",
+     "relatedIngredientIds": [
+      "dry-fenugreek-leaves"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "As the spice and tomato purée looks cooked, add some water to the mixture and let it cook more.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Now add the grilled paneer, some chopped vegetables of choice, corn and stir the mixture well.",
+     "relatedIngredientIds": [
+      "cubes-paneer",
+      "bowl-corn"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "One the added water seems to be evaporated, and the mixture looks a little thicker, turn off the heat and garnish with lemon juice, fresh coriander. (It can be served with bread of any preference.)",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/paneer-tikka-masala/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "indian-tea",
+   "title": "Indian tea",
+   "description": "Spiced milky Indian chai brewed on the stove.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "drink",
+    "indian",
+    "north-indian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "fresh-ginger",
+     "name": "fresh ginger",
+     "amount": 8.0,
+     "unit": "g"
+    },
+    {
+     "id": "cardamom-seeds",
+     "name": "cardamom seeds",
+     "amount": 10.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "black-tea",
+     "name": "black tea",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel off the ginger and cut it to small pieces.",
+     "relatedIngredientIds": [
+      "fresh-ginger"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Crush ginger and cardamom seeds.",
+     "relatedIngredientIds": [
+      "fresh-ginger",
+      "cardamom-seeds"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bring 1 l water to boiling.",
+     "relatedIngredientIds": [],
+     "animation": "boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Turn off the stove.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add ginger, cardamom seeds, black tea and milk to the water and cover the pot.",
+     "relatedIngredientIds": [
+      "fresh-ginger",
+      "cardamom-seeds",
+      "milk",
+      "black-tea"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Wait 5-10 minutes for infusion.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Wait"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve with a teaspoon sugar per cup.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/indian-tea/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "chicken-tikka-masala",
+   "title": "Chicken Tikka Masala",
+   "description": "Slow-cooked chicken in a creamy, mildly spiced tomato masala.",
+   "prepTime": 25,
+   "cookTime": 240,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "indian",
+    "north-indian"
+   ],
+   "ingredients": [
+    {
+     "id": "tomato-puree",
+     "name": "tomato puree",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "plain-yogurt",
+     "name": "plain yogurt",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "large-onion",
+     "name": "large onion, finely chopped",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "minced-fresh-gingerroot",
+     "name": "minced fresh gingerroot",
+     "amount": 4.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "garlic-cloves",
+     "name": "garlic cloves, minced",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "garam-masala",
+     "name": "garam masala",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cumin",
+     "name": "ground cumin",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "paprika",
+     "name": "paprika",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": 0.75,
+     "unit": "tsp"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "cayenne pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "boneless-skinless-chicke",
+     "name": "boneless skinless chicken breasts, cut into 1-1/2-inch cubes",
+     "amount": 2.0,
+     "unit": "lb"
+    },
+    {
+     "id": "jalapeno-pepper",
+     "name": "jalapeno pepper, halved and seeded",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "bay-leaf",
+     "name": "bay leaf",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "cornstarch",
+     "name": "cornstarch",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "heavy-whipping-cream",
+     "name": "heavy whipping cream",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "hot-cooked-basmati-rice",
+     "name": "Hot cooked basmati rice",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "chopped-fresh-cilantro",
+     "name": "Chopped fresh cilantro, optional",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a 5-qt. slow cooker, combine the first 13 ingredients (Can blend these first for convenience). Add chicken, jalapeno and bay leaf.",
+     "relatedIngredientIds": [
+      "bay-leaf"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cook, covered, on low 4 hours or until chicken is tender. Remove jalapeno and bay leaf.",
+     "relatedIngredientIds": [
+      "bay-leaf"
+     ],
+     "suggestedTimerSeconds": 14400,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In a small bowl, mix cornstarch and cream until smooth; gradually stir into sauce. Cook, covered, on high 15-20 minutes or until sauce is thickened. Serve with rice. If desired, sprinkle with cilantro.",
+     "relatedIngredientIds": [
+      "cornstarch",
+      "heavy-whipping-cream",
+      "hot-cooked-basmati-rice",
+      "chopped-fresh-cilantro"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/chicken-tikka-masala/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "simple-chicken-curry",
+   "title": "Simple Chicken Curry",
+   "description": "An easy everyday chicken curry that scales up for a crowd.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [
+    "indian"
+   ],
+   "ingredients": [
+    {
+     "id": "coriander",
+     "name": "Coriander",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin",
+     "name": "Cumin",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric",
+     "name": "Turmeric",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-fennel-seeds",
+     "name": "Ground Fennel Seeds",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cinnamon",
+     "name": "Cinnamon",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "Black Pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ginger",
+     "name": "Ginger",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "mustard",
+     "name": "Mustard",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cloves",
+     "name": "Ground Cloves",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "sriracha-sauce",
+     "name": "Sriracha Sauce (optional)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "butter",
+     "name": "Butter",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "large-onion",
+     "name": "large Onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic",
+     "amount": 4.0,
+     "unit": "clove"
+    },
+    {
+     "id": "chicken-broth",
+     "name": "Chicken Broth",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "crushed-or-pureed-tomato",
+     "name": "Crushed or Pureed Tomatoes",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "boneless-skinless-chicke",
+     "name": "Boneless Skinless Chicken Breasts",
+     "amount": 1.5,
+     "unit": "lb"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mince the garlic and dice the onion.",
+     "relatedIngredientIds": [
+      "large-onion",
+      "garlic"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Saute onion and garlic with the butter in a pot.",
+     "relatedIngredientIds": [
+      "butter",
+      "large-onion",
+      "garlic"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Once the onion is just beginning to brown, pour in the chicken broth and tomato and raise heat to high.",
+     "relatedIngredientIds": [
+      "large-onion",
+      "chicken-broth",
+      "crushed-or-pureed-tomato"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cut the chicken breasts into bite-sized cubes.",
+     "relatedIngredientIds": [
+      "boneless-skinless-chicke"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the chicken and the spices.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Once the pot reaches a boil, reduce heat and let simmer for 30 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Simmer"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/simple-chicken-curry/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "turkish-red-lentil-soup",
+   "title": "Turkish Red Lentil Soup",
+   "description": "Smooth red lentil soup with a squeeze of lemon, Turkish style.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "middle-eastern",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "red-lentils",
+     "name": "Red Lentils",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "olive-oil",
+     "name": "Olive Oil",
+     "amount": 5.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "paprika",
+     "name": "Paprika",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "red-paper-flakes",
+     "name": "Red Paper Flakes",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "large-onion",
+     "name": "large Onion, finely diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "large-carrot",
+     "name": "large Carrot, diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "tomato-paste",
+     "name": "Tomato Paste",
+     "amount": 4.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin",
+     "name": "Cumin",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dried-mint",
+     "name": "Dried Mint",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "thyme-or-oregano",
+     "name": "Thyme or Oregano",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "vegetable-broth",
+     "name": "Vegetable Broth",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "Water",
+     "amount": 4.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Reserve half the paprika and red pepper flakes, set aside.",
+     "relatedIngredientIds": [
+      "paprika",
+      "red-paper-flakes"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pick through lentils for any foreign debris, rinse two or three times, drain and set aside.",
+     "relatedIngredientIds": [
+      "red-lentils"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In a large pot over medium-high heat, saute 2 Tbsp of the olive oil and and onion with a pinch of salt for 3 minutes. Add the carrots and saute for another 3 minutes.",
+     "relatedIngredientIds": [
+      "olive-oil",
+      "large-onion",
+      "large-carrot"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the tomato paste and stir it around for 1 minute. Add cumin, mint, thyme, and the paprika/pepper flakes not reserved - and saute for 10 seconds to bloom the spices.",
+     "relatedIngredientIds": [
+      "paprika",
+      "red-paper-flakes",
+      "tomato-paste",
+      "cumin",
+      "dried-mint"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Immediately add the lentils, water, broth, and salt. Bring the soup to a boil.",
+     "relatedIngredientIds": [
+      "red-lentils",
+      "vegetable-broth",
+      "water"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Once boiling, reduce heat to a medium, cover the pot halfway, and cook for 15-20 minutes or until the lentils have fallen apart and the carrots are fully softened.",
+     "relatedIngredientIds": [
+      "red-lentils",
+      "large-carrot"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Meanwhile, heat the remaining olive oil in a small sauce pan over medium heat, and swirl in the reserved paprika and red pepper flakes. The moment you see the paprika start to bubble, remove the pan from the heat.",
+     "relatedIngredientIds": [
+      "olive-oil",
+      "paprika",
+      "red-paper-flakes"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Blend the soup to reach the desired consistency. Taste for seasoning.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Divide soup into bowls and drizzle the paprika oil on top of each serving.",
+     "relatedIngredientIds": [
+      "paprika"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/turkish-red-lentil-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "lebanese-lentil-soup",
+   "title": "Lebanese Lentil Soup",
+   "description": "Hearty lentil soup with Swiss chard and lemon.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 8,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "healthy",
+    "mediterranean",
+    "middle-eastern",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "red-lentils",
+     "name": "red lentils",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 12.0,
+     "unit": "cup"
+    },
+    {
+     "id": "large-red-onion",
+     "name": "large red onion, diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-yukon-gold-potatoe",
+     "name": "small Yukon gold potatoes, diced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "medium-zucchini",
+     "name": "medium zucchini, diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "swiss-chard",
+     "name": "Swiss chard, chopped",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "bunch-of-cilantro",
+     "name": "bunch of cilantro, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice, more to taste",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "cumin",
+     "name": "cumin",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a large pot, add lentils and water and place on medium heat to boil.",
+     "relatedIngredientIds": [
+      "red-lentils",
+      "water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a pan, sauté onions until pink, about 5 minutes. Add chopped Swiss chard and sauté together until chard is wilted, 2-3 minutes.",
+     "relatedIngredientIds": [
+      "large-red-onion",
+      "swiss-chard",
+      "bunch-of-cilantro"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "After lentils have cooked about 8 minutes, add onion chard mixture, along with diced potatoes and zucchini to the boiling water.",
+     "relatedIngredientIds": [
+      "red-lentils",
+      "water",
+      "large-red-onion",
+      "small-yukon-gold-potatoe",
+      "medium-zucchini",
+      "swiss-chard"
+     ],
+     "suggestedTimerSeconds": 480,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add salt and pepper to taste.",
+     "relatedIngredientIds": [
+      "lemon-juice"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Reduce heat to medium-low, cover the pot, and cook until the potatoes and lentils are completely cooked, about 12 minutes.",
+     "relatedIngredientIds": [
+      "red-lentils",
+      "small-yukon-gold-potatoe"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 720,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the chopped cilantro. Stir and cook for about 5 minutes.",
+     "relatedIngredientIds": [
+      "swiss-chard",
+      "bunch-of-cilantro"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add lemon juice and cumin before serving.",
+     "relatedIngredientIds": [
+      "lemon-juice",
+      "cumin"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/lebanese-lentil-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "egyptian-lentils",
+   "title": "Egyptian Lentils",
+   "description": "Lentils, rice and macaroni with a tomato and onion topping.",
+   "prepTime": 5,
+   "cookTime": 40,
+   "servings": 5,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "lentils",
+     "name": "Lentils",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "elbow-macaroni",
+     "name": "Elbow Macaroni",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "fresh-chili-or-bell-pepp",
+     "name": "Fresh Chili or Bell Peppers",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "lime-juice",
+     "name": "Lime Juice",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "regular-rice",
+     "name": "Regular Rice",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "oil",
+     "name": "Oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "medium-tomatoes",
+     "name": "medium Tomatoes, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "large-onion",
+     "name": "large Onion, diced",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Place lentils in a saucepan and cover by 1\" or more of water. Turn heat to high and bring to a boil, then turn down heat to simmer, and cook covered for 35 minutes or until tender.",
+     "relatedIngredientIds": [
+      "lentils"
+     ],
+     "suggestedTimerSeconds": 2100,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drain and transfer to a large bowl. Set aside.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bring 3 cups of water to a boil, add rice. Turn down to simmer for 20 minutes and fluff up rice with a fork and add to lentils.",
+     "relatedIngredientIds": [
+      "lentils",
+      "regular-rice"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Boil 2 quarts of water, add elbow macaroni and cook until tender. Add to lentils.",
+     "relatedIngredientIds": [
+      "lentils",
+      "elbow-macaroni"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "In a small skillet add 1 Tbsp of oil and saute chopped peppers finely for two minutes. Add the tomato, 1/2 cup of water, bring to a boil and simmer for 5 minutes. Add the lime juice.",
+     "relatedIngredientIds": [
+      "fresh-chili-or-bell-pepp",
+      "lime-juice",
+      "medium-tomatoes"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Fold this sauce into the lentils.",
+     "relatedIngredientIds": [
+      "lentils"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "In another skillet heat 2 Tbsp oil, add onions and saute until brown. Garnish lentil mixture with the browned onions.",
+     "relatedIngredientIds": [
+      "lentils",
+      "large-onion"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/egyptian-lentils/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "tabouleh",
+   "title": "Tabouleh",
+   "description": "Fresh parsley, mint and bulgur salad with lemon and olive oil.",
+   "prepTime": 15,
+   "cookTime": 30,
+   "servings": 12,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "healthy",
+    "mediterranean",
+    "salad"
+   ],
+   "ingredients": [
+    {
+     "id": "cracked-wheat",
+     "name": "Cracked Wheat (bulghur)",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "very-hot-water",
+     "name": "Very Hot Water (or as directed)",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cucumber",
+     "name": "Cucumber, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-tomatoes",
+     "name": "small Tomatoes, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "bunch-green-onions",
+     "name": "bunch Green Onions, sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "mint",
+     "name": "Mint (fresh), chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "parsley",
+     "name": "Parsley (fresh), chopped",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, minced",
+     "amount": 1.0,
+     "unit": "clove"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "Lemon Juice (fresh)",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "olive-oil",
+     "name": "Olive Oil",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "pepper",
+     "name": "Pepper",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": 2.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Soak the cracked wheat in the hot water until the water is absorbed, about 30 minutes.",
+     "relatedIngredientIds": [
+      "cracked-wheat",
+      "very-hot-water"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drain any excess water, if necessary, and squeeze dry.",
+     "relatedIngredientIds": [
+      "very-hot-water"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Combine the salad ingredients (all but the oil, lemon juice, salt and pepper dressing ingredients) in a medium bowl.",
+     "relatedIngredientIds": [
+      "lemon-juice",
+      "pepper",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the dressing ingredients together and stir into the salad mix",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Serve chilled or at room temperature.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/tabouleh/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "cannellini-bean-salad",
+   "title": "Cannellini Bean Salad",
+   "description": "Warm cannellini beans in a smoky tomato dressing over arugula.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "italian",
+    "quick",
+    "salad"
+   ],
+   "ingredients": [
+    {
+     "id": "cannellini-beans",
+     "name": "Cannellini beans, drained and rinsed",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "minced-garlic",
+     "name": "minced garlic",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "smoked-paprika",
+     "name": "smoked paprika",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cumin",
+     "name": "ground cumin",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "15-oz-can-diced-tomatoes",
+     "name": "15 oz can diced tomatoes",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "parsley-flakes",
+     "name": "parsley flakes",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "prosciutto",
+     "name": "Prosciutto",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "arugula",
+     "name": "Arugula",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Sauté garlic and onions in olive oil until onions are translucent.",
+     "relatedIngredientIds": [
+      "minced-garlic",
+      "onion"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add diced tomatoes, seasonings, and salt and pepper to taste. Simmer for 3 minutes.",
+     "relatedIngredientIds": [
+      "15-oz-can-diced-tomatoes"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the beans, season to taste, mix until combined, and simmer for an additional 2 minutes.",
+     "relatedIngredientIds": [
+      "cannellini-beans"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Serve over arugula and top with bits of prosciutto.",
+     "relatedIngredientIds": [
+      "prosciutto",
+      "arugula"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/cannellini-bean-salad/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "bean-salad",
+   "title": "Three Bean Salad",
+   "description": "Three-bean salad in a sweet cider vinegar dressing, chilled before serving.",
+   "prepTime": 10,
+   "cookTime": 0,
+   "servings": 8,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "american",
+    "healthy",
+    "quick",
+    "salad"
+   ],
+   "ingredients": [
+    {
+     "id": "salad-oil",
+     "name": "Salad Oil (olive oil, canola, or sunflower)",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "cider-vinegar",
+     "name": "Cider Vinegar",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "pepper",
+     "name": "Pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "Sugar",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "celery-seed",
+     "name": "Celery Seed",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cut-green-beans",
+     "name": "Cut Green Beans",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "cut-waxed-beans",
+     "name": "Cut Waxed Beans",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "red-kidney-beans",
+     "name": "Red Kidney Beans",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "carrot",
+     "name": "Carrot, thinly sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-onion",
+     "name": "small Onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "bell-pepper",
+     "name": "Bell Pepper",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put dressing ingredients in a large salad bowl an whisk until blended.",
+     "relatedIngredientIds": [
+      "salad-oil"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Empty cans of beans into a colander and rinse under cold water.",
+     "relatedIngredientIds": [
+      "cut-green-beans",
+      "cut-waxed-beans",
+      "red-kidney-beans"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Chop remaining vegetables and add to dressing. Add beans and gently stir.",
+     "relatedIngredientIds": [
+      "cut-green-beans",
+      "cut-waxed-beans",
+      "red-kidney-beans"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Refrigerate for at least an hour before serving, stirring occasionally.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Chill"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/bean-salad/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "cooked-chickpeas",
+   "title": "Cooked Chickpeas",
+   "description": "Canned chickpeas pan-roasted with cumin, paprika and cayenne.",
+   "prepTime": 1,
+   "cookTime": 15,
+   "servings": 3,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "healthy",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "chickpeas-garbanzo-beans",
+     "name": "chickpeas / garbanzo beans, drained",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic-powder",
+     "name": "garlic powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cumin",
+     "name": "cumin",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "paprika",
+     "name": "paprika",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "cayenne pepper",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat oil in pan. Add chickpeas and seasonings.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cook over medium-high heat for 10-15 minutes. Salt and pepper to taste.",
+     "relatedIngredientIds": [
+      "cayenne-pepper"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Heat"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/cooked-chickpeas/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "gypsy-soup",
+   "title": "Gypsy Soup",
+   "description": "Sweet potato, tomato and chickpea soup with paprika and turmeric.",
+   "prepTime": 40,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "olive-oil",
+     "name": "Olive Oil",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chopped-onion",
+     "name": "Chopped Onion",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-garlic",
+     "name": "Chopped Garlic",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "sweet-potatoes",
+     "name": "Sweet Potatoes, chopped and peeled",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-celery",
+     "name": "Chopped Celery",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-fresh-tomatoes",
+     "name": "Chopped Fresh Tomatoes",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-sweet-peppers",
+     "name": "Chopped Sweet Peppers",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "cooked-chickpeas",
+     "name": "Cooked Chickpeas",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "stock-or-water",
+     "name": "Stock or Water",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "paprika",
+     "name": "Paprika",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "turmeric",
+     "name": "Turmeric",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "basil",
+     "name": "Basil",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dash-cinnamon",
+     "name": "dash Cinnamon",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "dash-cayenne",
+     "name": "dash Cayenne",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "bay-leaf",
+     "name": "Bay Leaf",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "tamari-soy-sauce",
+     "name": "Tamari Soy Sauce",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a soup kettle or large saucepan, saute onions garlic, celery, and sweet potatoes in olive oil for about five minutes.",
+     "relatedIngredientIds": [
+      "olive-oil",
+      "chopped-onion",
+      "chopped-garlic",
+      "sweet-potatoes",
+      "chopped-celery",
+      "tamari-soy-sauce"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Sauté"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add seasonings, except tamari, and the stock/water. Simmer covered, for fifteen minutes.",
+     "relatedIngredientIds": [
+      "stock-or-water"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add remaining vegetables, chickpeas, and tamari.",
+     "relatedIngredientIds": [
+      "cooked-chickpeas"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Simmer another 10 minutes or so - until all the vegetables are as tender as you like them.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Simmer"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/gypsy-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "autumn-soup",
+   "title": "Autumn Soup",
+   "description": "Squash, potato and carrot baked soft, then pureed with milk.",
+   "prepTime": 20,
+   "cookTime": 40,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "medium-squash",
+     "name": "Medium Squash",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "potatoes",
+     "name": "Potatoes",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "carrots",
+     "name": "Carrots",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "small-onion",
+     "name": "Small Onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "chicken-boullion-cube",
+     "name": "Chicken Boullion Cube",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "water",
+     "name": "Water",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "milk",
+     "name": "Milk",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "Pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel and chop squash, potatoes, carrots, and onion, add to oven-safe pot.",
+     "relatedIngredientIds": [
+      "medium-squash",
+      "potatoes",
+      "carrots",
+      "small-onion"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add boullion and enough water to avoid burning (1 cup), place pot in oven (350F) to bake until veggies are soft.",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "If there is too much stock, don't be scared to pour some down the drain.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Puree (I use electric beaters) while adding the milk.",
+     "relatedIngredientIds": [
+      "milk"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the salt and pepper, as desired.",
+     "relatedIngredientIds": [
+      "salt",
+      "pepper"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/autumn-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "potato-leek-soup",
+   "title": "Potato Leek Soup",
+   "description": "Silky potato and leek soup, comforting and simple.",
+   "prepTime": 15,
+   "cookTime": 80,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "large-leeks",
+     "name": "large leeks",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "chicken-or-veggie-stock",
+     "name": "chicken or veggie stock",
+     "amount": 946.0,
+     "unit": "ml"
+    },
+    {
+     "id": "peeled-and-sliced-waxy-p",
+     "name": "peeled and sliced waxy potatoes",
+     "amount": 11.0,
+     "unit": "oz"
+    },
+    {
+     "id": "bay-leaf",
+     "name": "bay leaf",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "heavy-cream",
+     "name": "heavy cream",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "white-pepper",
+     "name": "white pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ground-nutmeg",
+     "name": "ground nutmeg, optional",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "dill-weed",
+     "name": "dill weed, optional",
+     "amount": 0.5,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Chop the white to light-green part of the leek into moderately sized pieces and discard the dark-green ends.",
+     "relatedIngredientIds": [
+      "large-leeks"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Melt the butter in a pot on medium-low heat, add chopped leeks and potatoes. Stir until leeks are sweat.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "large-leeks",
+      "peeled-and-sliced-waxy-p"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add stock, bay leaf, pepper and optional ingredients now. Raise heat to medium-high, simmer until potatoes are tender.",
+     "relatedIngredientIds": [
+      "chicken-or-veggie-stock",
+      "peeled-and-sliced-waxy-p",
+      "bay-leaf",
+      "white-pepper",
+      "ground-nutmeg",
+      "dill-weed"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "After removing the pot from the heat, remove the bay leaf and immersion blend pot until you reach a desired consistency.",
+     "relatedIngredientIds": [
+      "bay-leaf"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir in heavy cream and salt to taste.",
+     "relatedIngredientIds": [
+      "heavy-cream"
+     ],
+     "animation": "stir"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/potato-leek-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "stracciatella-soup",
+   "title": "Stracciatella soup",
+   "description": "Egg-drop soup: beaten egg stirred into hot broth, ready in minutes.",
+   "prepTime": 15,
+   "cookTime": 0,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "quick",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "broth",
+     "name": "broth",
+     "amount": 500.0,
+     "unit": "ml"
+    },
+    {
+     "id": "olive-oil",
+     "name": "Olive oil (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Beat the eggs in a bowl.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat broth to boiling.",
+     "relatedIngredientIds": [
+      "broth"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour the eggs in the broth without removing from the stovetop.",
+     "relatedIngredientIds": [
+      "eggs",
+      "broth"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir with a whip until eggs coagulate.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Serve broth and eggs together.",
+     "relatedIngredientIds": [
+      "eggs",
+      "broth"
+     ],
+     "animation": "serve"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "If you want, you may season the dish with some olive oil.",
+     "relatedIngredientIds": [
+      "olive-oil"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/stracciatella-soup/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "ratatouille",
+   "title": "Ratatouille",
+   "description": "Provençal stewed summer vegetables in a tomato base.",
+   "prepTime": 12,
+   "cookTime": 75,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "french",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "tomatoes",
+     "name": "Tomatoes",
+     "amount": 3.5,
+     "unit": "lb"
+    },
+    {
+     "id": "eggplant",
+     "name": "Eggplant",
+     "amount": 1.5,
+     "unit": "lb"
+    },
+    {
+     "id": "zucchini",
+     "name": "Zucchini",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "bell-peppers",
+     "name": "Bell Peppers",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "onions",
+     "name": "Onions",
+     "amount": 2.0,
+     "unit": "lb"
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic",
+     "amount": 6.0,
+     "unit": "clove"
+    },
+    {
+     "id": "herbes-de-provence",
+     "name": "Herbes de Provence (Basil, Thyme, Parsley)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "olive-oil",
+     "name": "Olive Oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "Pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "tomato-paste",
+     "name": "Tomato Paste (optional if tomatoes aren't yummy)",
+     "amount": 140.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel and drain the tomatoes (don't mind the seeds): cut out the stem cores; drop the whole tomatoes into boiling water for 2 minutes. Remove into a colander.",
+     "relatedIngredientIds": [
+      "tomatoes"
+     ],
+     "animation": "chop",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "The skin should split for easy removal; otherwise, make an X cut in the top, then peel off the skin.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Chop the onion and garlic. Clean the bell pepper, cut into small strips.",
+     "relatedIngredientIds": [
+      "bell-peppers",
+      "onions",
+      "garlic",
+      "pepper"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In a large cooking pot with thick bottom, put in olive oil, onions, and chopped garlic. Add in the bell pepper. Cover to keep in the moisture.",
+     "relatedIngredientIds": [
+      "bell-peppers",
+      "onions",
+      "garlic",
+      "olive-oil",
+      "pepper"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cook for 20 minutes, stirring frequently, and add olive oil as necessary to prevent burning.",
+     "relatedIngredientIds": [
+      "olive-oil"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the tomatoes and Herbes de Provence. If you don't have good garden tomatoes with flavour, add a small can of tomato paste. Stir well and cook for another 15 minutes.",
+     "relatedIngredientIds": [
+      "tomatoes",
+      "herbes-de-provence",
+      "tomato-paste"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cut the eggplant into disks. Cut zucchini into disks.",
+     "relatedIngredientIds": [
+      "eggplant",
+      "zucchini"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Add the eggplant and zucchini to the pot.",
+     "relatedIngredientIds": [
+      "eggplant",
+      "zucchini"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Cook for about 30 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/ratatouille/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "tofu-and-cashew-chow-mein",
+   "title": "Tofu and Cashew Chow Mein",
+   "description": "Chewy noodles stir-fried with tofu, cashews and vegetables.",
+   "prepTime": 15,
+   "cookTime": 10,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [
+    "noodles",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "precooked-thick-wheat-no",
+     "name": "Precooked Thick Wheat Noodles",
+     "amount": 10.0,
+     "unit": "oz"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "Soy Sauce",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "oyster-sauce",
+     "name": "Oyster Sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "Sesame Oil",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "peanut-oil-or-other-suit",
+     "name": "Peanut Oil or other suitable frying oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "firm-tofu",
+     "name": "Firm Tofu, cut into cubes",
+     "amount": 6.0,
+     "unit": "oz"
+    },
+    {
+     "id": "carrot",
+     "name": "Carrot, julienned",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-broccoli-florets",
+     "name": "Small Broccoli Florets",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic",
+     "name": "Garlic, minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "ginger",
+     "name": "Ginger, finely grated",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "roasted-cashews",
+     "name": "Roasted Cashews",
+     "amount": 0.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Loosen the precooked noodles by soaking in a bowl of hot water for 2-3 minutes, then drain and set aside.",
+     "relatedIngredientIds": [
+      "precooked-thick-wheat-no"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Soak"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix together the soy sauce, oyster sauce, sesame oil and 2 Tbsp water in a bowl.",
+     "relatedIngredientIds": [
+      "soy-sauce",
+      "oyster-sauce",
+      "sesame-oil"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat a wok or large frying pan over a high heat, add the oil and stir-fry the carrot and broccoli for 2 minutes.",
+     "relatedIngredientIds": [
+      "peanut-oil-or-other-suit",
+      "carrot"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the tofu and stir-fry for 4 minutes.",
+     "relatedIngredientIds": [
+      "firm-tofu"
+     ],
+     "suggestedTimerSeconds": 240,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the garlic and ginger and stir-fry for a minute.",
+     "relatedIngredientIds": [
+      "garlic",
+      "ginger"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Stir through the noodles and then add the sauce mixture and cashews and mix until thoroughly combined and heated through.",
+     "relatedIngredientIds": [
+      "precooked-thick-wheat-no",
+      "soy-sauce",
+      "oyster-sauce",
+      "roasted-cashews"
+     ],
+     "animation": "stir"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/tofu-and-cashew-chow-mein/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "mushroom-stragonov",
+   "title": "Mushroom Stroganov",
+   "description": "Russian-style mushroom stroganoff with a creamy sauce.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "uncooked-pasta",
+     "name": "uncooked pasta",
+     "amount": 8.0,
+     "unit": "oz"
+    },
+    {
+     "id": "mushrooms",
+     "name": "mushrooms",
+     "amount": 12.0,
+     "unit": "oz"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "small-yellow-onion",
+     "name": "small yellow onion, minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "general-purpose-flour",
+     "name": "general purpose flour",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vegetable-broth",
+     "name": "vegetable broth",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "dijon-mustard",
+     "name": "dijon mustard",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "smoked-paprika",
+     "name": "Smoked paprika",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "creme-fraiche",
+     "name": "creme fraiche",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "parsely",
+     "name": "parsely",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Bring a large pot of salted water to a boil and cook pasta al dente",
+     "relatedIngredientIds": [
+      "uncooked-pasta"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a cup, combine flour, mustard, smoked paprika, salt and pepper. Add broth and whisk until no lumps remain.",
+     "relatedIngredientIds": [
+      "general-purpose-flour",
+      "vegetable-broth",
+      "dijon-mustard",
+      "smoked-paprika"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "While pasta is cooking, melt butter in a medium skillet and over medium heat.",
+     "relatedIngredientIds": [
+      "uncooked-pasta",
+      "butter"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When the butter is melted, add onions and cook until softened.",
+     "relatedIngredientIds": [
+      "small-yellow-onion",
+      "butter"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add mushrooms and cook until all water evaporates and mushrooms are slightly browned, about 7 minutes.",
+     "relatedIngredientIds": [
+      "mushrooms"
+     ],
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add garlic and cook for another 30 seconds.",
+     "relatedIngredientIds": [
+      "garlic"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour the flour and broth mixture into the mushrooms and cook until thickens, about 2 minutes.",
+     "relatedIngredientIds": [
+      "mushrooms",
+      "general-purpose-flour",
+      "vegetable-broth"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Stir in Creme Fraiche.",
+     "relatedIngredientIds": [
+      "creme-fraiche"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Add the strained pasta to the mushroom sauce and stir to coat the pasta completely.",
+     "relatedIngredientIds": [
+      "uncooked-pasta",
+      "mushrooms"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Serve immediately.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/mushroom-stragonov/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "pasta-alla-norma",
+   "title": "Pasta Alla Norma",
+   "description": "Sicilian pasta with aubergine in tomato sauce and fresh basil.",
+   "prepTime": 15,
+   "cookTime": 40,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "italian"
+   ],
+   "ingredients": [
+    {
+     "id": "aubergines",
+     "name": "aubergines",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "spaghetti",
+     "name": "spaghetti",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "garlic-cloves",
+     "name": "garlic cloves, minced",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "chilli",
+     "name": "chilli (or 1 tsp of dried chilli flakes)",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "x-400g-tinned-chopped-to",
+     "name": "x 400g tinned chopped tomatoes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "dried-oregano",
+     "name": "dried oregano",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "caster-sugar",
+     "name": "caster sugar",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-basil",
+     "name": "Fresh basil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat oven to 220c (fan), or gas mark 7.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Use a peeler to shave off alternating strips on your aubergines, so they looked striped, like zebras.",
+     "relatedIngredientIds": [
+      "aubergines"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Then cut the aubergine widthways into 1cm thick slices. Place into a bowl with 75ml of olive oil, a good pinch of salt and black pepper.",
+     "relatedIngredientIds": [
+      "aubergines",
+      "olive-oil"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Coat the aubergines, then spread them onto two or three baking paper-lined trays. Roast for 30-35 minutes until dark brown.",
+     "relatedIngredientIds": [
+      "aubergines"
+     ],
+     "suggestedTimerSeconds": 2100,
+     "timerLabel": "Roast"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Whilst the aubergines are cooking, put two tablespoons of olive oil into a frying pan or pot on a medium-high heat.",
+     "relatedIngredientIds": [
+      "aubergines",
+      "olive-oil"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add garlic and chilies and fry for 1 minute (don't burn them!). Add tinned tomatoes, oregano, sugar and a pinch of salt and pepper to the pot.",
+     "relatedIngredientIds": [
+      "x-400g-tinned-chopped-to",
+      "dried-oregano",
+      "caster-sugar"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Reduce heat to medium low and cook until the sauce has thickened.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cook the pasta according to packet instructions, once al dente, drain and retain some of the pasta water.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Once cooked, add the aubergine to the pasta sauce and mix well. Then add the spaghetti to the aubergine and sauce mixture, making sure everything is evenly coated.",
+     "relatedIngredientIds": [
+      "aubergines",
+      "spaghetti"
+     ]
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Add some of the pasta water if required to loosen the sauce, then top with fresh basil.",
+     "relatedIngredientIds": [
+      "fresh-basil"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Check for seasoning, then serve immediately.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/pasta-alla-norma/",
+   "credit": "based.cooking contributors"
+  }
+ ]
+}

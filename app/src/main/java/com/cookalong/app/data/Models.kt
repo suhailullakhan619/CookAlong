@@ -77,6 +77,8 @@ data class AppConfig(
     val recipesApiUrl: String = "",
     /** Fridge-scan API (backend/deploy.sh prints it). Blank hides the Fridge scan feature. */
     val scanApiUrl: String = "",
+    /** Dinner-planner agent (backend/dinner_agent.py, POST /plan). Blank hides "Plan dinner". */
+    val plannerApiUrl: String = "",
     /** Phone camera page opened from the fridge-scan QR code. */
     val scanPageUrl: String = "",
     /** Alexa bridge (POST /tv/pair, GET /tv/commands… on the backend). Blank hides "Connect Alexa". */

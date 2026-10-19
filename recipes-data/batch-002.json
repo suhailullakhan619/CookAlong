@@ -1,0 +1,2308 @@
+{
+ "recipes": [
+  {
+   "id": "aglio-e-olio",
+   "title": "Spaghetti aglio e olio",
+   "description": "Spaghetti tossed with garlic, olive oil, chilli and parsley.",
+   "prepTime": 0,
+   "cookTime": 15,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "italian",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "spaghetti",
+     "name": "spaghetti (or similarly shaped pasta)",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "extra-virgin-olive-oil",
+     "name": "extra virgin olive oil",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 5.0,
+     "unit": "clove"
+    },
+    {
+     "id": "red-pepper-flakes",
+     "name": "red pepper flakes",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "a-bunch-of-fresh-parsley",
+     "name": "A bunch of fresh parsley",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat a large skillet on medium-high heat, start cooking the pasta.",
+     "relatedIngredientIds": [
+      "spaghetti"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Finely slice or mince the garlic and finely chop the parsley.",
+     "relatedIngredientIds": [
+      "garlic",
+      "a-bunch-of-fresh-parsley"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the oil and garlic to the skillet and gently cook it until it's lightly golden brown.",
+     "relatedIngredientIds": [
+      "garlic"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the red pepper flakes to the skillet and turn down the heat to let its flavor infuse the oil.",
+     "relatedIngredientIds": [
+      "red-pepper-flakes"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "When the pasta has finished cooking, drain it, and reserve at least around a cup of the cooking water.",
+     "relatedIngredientIds": [
+      "spaghetti"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Now add the drained pasta with some of the cooking water to the skillet and toss vigorously. The starch in the pasta water will help the sauce emulsify and get it to the right consistency.",
+     "relatedIngredientIds": [
+      "spaghetti"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "At the very last second add the parsley, to preserve its freshness. Adjust the seasoning to taste if necessary.",
+     "relatedIngredientIds": [
+      "a-bunch-of-fresh-parsley"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/aglio-e-olio/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "frittata",
+   "title": "Frittata",
+   "description": "Eggs, peppers and onion set in an oven-safe pan, easy for any meal.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "italian"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "Eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "Onion",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "bell-pepper",
+     "name": "Bell Pepper",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "heavy-cream",
+     "name": "Heavy Cream",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "thinly-sliced-meat",
+     "name": "Thinly sliced meat",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "shredded-cheese-of-choic",
+     "name": "Shredded cheese of choice (Optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Dice peppers and onions and saute in an oven safe pan at medium heat.",
+     "relatedIngredientIds": [
+      "onion",
+      "bell-pepper"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add in meat to the pan and set oven to low broil.",
+     "relatedIngredientIds": [
+      "thinly-sliced-meat"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat eggs, cream, salt, and pepper together in a bowl.",
+     "relatedIngredientIds": [
+      "eggs",
+      "bell-pepper",
+      "heavy-cream"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add in egg mixture to the pan and mix together until even.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cook egg and vegetable mixture in pan until eggs begin to firm up and edges begin to pull away. Place into oven",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Keep in Oven until completely firm. At this point you can add shredded cheese on top and put back into the oven until melted (about 2 more minutes)",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Flip out of pan and cool to room temperature to ensure settling.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/frittata/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "spanish-tortilla",
+   "title": "Spanish Tortilla",
+   "description": "Thick Spanish omelette of eggs, potato and onion.",
+   "prepTime": 5,
+   "cookTime": 35,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "spanish"
+   ],
+   "ingredients": [
+    {
+     "id": "free-range-eggs",
+     "name": "free-range eggs",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 1.0,
+     "unit": "kg"
+    },
+    {
+     "id": "white-onion",
+     "name": "white onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "extra-virgin-olive-oil",
+     "name": "Extra virgin olive oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel, rinse and dry the potatoes.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut the potatoes into thin slices. Put in a bowl, add salt to taste and stir.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put a nonstick frying pan on the fire and add enough olive oil to fry all the potato slices.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "extra-virgin-olive-oil"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the potato slices already salted and let them cook for approximately 20 minutes over low heat.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "While the potatoes are frying, beat the eggs in a bowl. Peel and cut the onion as finely as possible.",
+     "relatedIngredientIds": [
+      "free-range-eggs",
+      "potatoes",
+      "white-onion"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add olive oil in another frying pan and slowly fry the onion until it gets a slightly golden color.",
+     "relatedIngredientIds": [
+      "white-onion",
+      "extra-virgin-olive-oil"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Drain the onion and add it to the bowl with the beaten egg.",
+     "relatedIngredientIds": [
+      "free-range-eggs",
+      "white-onion"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Remove the potatoes from the pan with a slotted spoon, draining the oil away as much as possible, and add them to the bowl with the onion and egg.",
+     "relatedIngredientIds": [
+      "free-range-eggs",
+      "potatoes",
+      "white-onion"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Let the mixture rest for at least 5 minutes so all the flavors come together. Give it a very gentle stir from time to time.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Remove the oil from the pan you used to fry the potatoes. Use the pan to cook the mixture over medium-high fire for about 5 minutes.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Mix"
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Flip it over with the help of a big plate and cook the other side for another 5 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/spanish-tortilla/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "tajine",
+   "title": "Tajine Maadnous",
+   "description": "Tunisian baked egg and chicken tajine, like a frittata.",
+   "prepTime": 20,
+   "cookTime": 35,
+   "servings": 12,
+   "dietaryTags": [],
+   "categories": [
+    "middle-eastern"
+   ],
+   "ingredients": [
+    {
+     "id": "chicken-breasts-diced",
+     "name": "chicken breasts diced",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "medium-onion-chopped",
+     "name": "medium onion chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "large-potato-peeled-and",
+     "name": "large potato peeled and diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "small-bunch-parsley",
+     "name": "small bunch parsley",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "large-eggs",
+     "name": "large eggs",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "cheese",
+     "name": "cheese",
+     "amount": 6.0,
+     "unit": "oz"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the spices together (grinding any whole spices if necessary) and set them aside.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a large frying pan or pot over medium heat, saute the onions in about 1 tbsp of olive oil until tender.",
+     "relatedIngredientIds": [
+      "olive-oil"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Toss chicken with 1/2 of the spice mix. Add this to the pan and brown.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the potatoes and the water to the pan. Bring to a gentle simmer, then cook uncovered until potatoes are tender and most of the liquid has evaporated.",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir chopped parsley into the cooked mixture and set aside to cool.",
+     "relatedIngredientIds": [
+      "medium-onion-chopped",
+      "small-bunch-parsley"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Preheat oven to 350°F, and grease a medium (2 quart/liter) baking pan with the remaining olive oil.",
+     "relatedIngredientIds": [
+      "olive-oil"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Thoroughly whisk the eggs in a large bowl, then mix in the cheese. Stir in the chicken, potato, and parsley mixture, along with the remaining spice mixture.",
+     "relatedIngredientIds": [
+      "small-bunch-parsley",
+      "large-eggs",
+      "cheese"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Stir until well-combined, then pour into the oiled baking dish.",
+     "relatedIngredientIds": [],
+     "animation": "stir"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Bake for 30-35 minutes, or until set in the center. Allow to cool, and serve warm or at room temperature. Serve with some harissa, if you like.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2100,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/tajine/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "eggroll-in-a-bowl",
+   "title": "Egg Roll in a Bowl",
+   "description": "All the egg roll flavours as a quick cabbage stir-fry.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 2,
+   "dietaryTags": [],
+   "categories": [
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "ground-turkey",
+     "name": "ground turkey",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "bag-coleslaw-mix",
+     "name": "bag coleslaw mix",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "small-onion",
+     "name": "small onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "fresh-ginger",
+     "name": "fresh ginger",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "hoisin-sauce",
+     "name": "Hoisin sauce",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "sesame-oil",
+     "name": "sesame oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Grate or mince ginger finely. Process with the garlic cloves by grinding with salt under the edge of a knife. Finely mince the onion.",
+     "relatedIngredientIds": [
+      "small-onion",
+      "garlic",
+      "fresh-ginger"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Optional Marinade the ground turkey in 2 Tbsp of soy sauce and 1 tsp baking soda for 15 minutes to improve browning.",
+     "relatedIngredientIds": [
+      "ground-turkey",
+      "hoisin-sauce",
+      "soy-sauce"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In a hot wok or skillet add a few tablespoons of cooking oil, preferably peanut, and a tsp of sesame oil. Add the ground turkey and cook until no longer raw seasoning with soy sauce.",
+     "relatedIngredientIds": [
+      "ground-turkey",
+      "hoisin-sauce",
+      "soy-sauce",
+      "sesame-oil"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the onion and cook until translucent and the meat is nicely browned. Add in the garlic and ginger mixture and cook for approximately 1 minute or until fragrant ensuring not to burn the garlic.",
+     "relatedIngredientIds": [
+      "small-onion",
+      "garlic",
+      "fresh-ginger"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add in the coleslaw mix and season with more soy sauce. Cook until the cabbage is just softened.",
+     "relatedIngredientIds": [
+      "bag-coleslaw-mix",
+      "hoisin-sauce",
+      "soy-sauce"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add 1/4 cup of hoisin sauce and stir to combine. Check seasoning and add salt to taste. Serve in a bowl with sweet chili sauce and green onions.",
+     "relatedIngredientIds": [
+      "small-onion",
+      "hoisin-sauce",
+      "soy-sauce"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/eggroll-in-a-bowl/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "breakfast-wrap",
+   "title": "Breakfast Wrap",
+   "description": "Eggs and classic fry-up fillings rolled in a warm wrap.",
+   "prepTime": 5,
+   "cookTime": 10,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "breakfast",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "sausages",
+     "name": "sausages",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "bacon-rashers",
+     "name": "bacon rashers",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "wraps",
+     "name": "wraps",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ketchup",
+     "name": "ketchup (optional)",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Begin by cutting the sausages in half and frying them ensuring that they're cooked the whole way through.",
+     "relatedIngredientIds": [
+      "sausages"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Next, fry the bacon.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Next, possibly while the bacon is frying, crack an egg into a bowl, add a dash of milk and whisk it",
+     "relatedIngredientIds": [
+      "milk"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Then, put the egg mixture into the microwave for a minute, take it out and whisk it again, do this twice again or until the scrambled egg is ready.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Microwave"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the sausage, bacon and scrambled egg to a wrap (I recommend two sausage halves, a bacon rasher and half the bowl of scrambled egg per wrap). Add ketchup if desired.",
+     "relatedIngredientIds": [
+      "sausages",
+      "bacon-rashers",
+      "wraps",
+      "ketchup"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/breakfast-wrap/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "oaty-pancakes",
+   "title": "Oaty Pancakes",
+   "description": "Quick breakfast pancakes made with oats.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "quick",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "rolled-oats",
+     "name": "rolled oats",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter (melted)",
+     "amount": 25.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Pour milk over rolled oats. Add remaining ingredients.",
+     "relatedIngredientIds": [
+      "milk",
+      "rolled-oats"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix with fork (or in a food processor) just enough to combine ingredients.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put spoonfuls of mixture onto preheated, greased or sprayed griddle or fry pan. Turn spoon for round pancakes.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Turn pancakes as soon as bubbles form and burst in the middle. Slide thin metal blade under pancake and flip over. Second side is cooked when centre springs back.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Put a dab of butter on cooked surface of several pancakes.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pile up so butter is between pancakes. Pour syrup over before serving.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve Oaty pancakes for breakfast or brunch, with juice or coffee. Pour syrup over the pile of buttered pancakes and serve bacon or sausages alongside if you like.",
+     "relatedIngredientIds": [
+      "rolled-oats",
+      "butter"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/oaty-pancakes/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "swedish-pancakes",
+   "title": "Swedish Pancakes",
+   "description": "Thin, eggy Swedish pancakes to roll or fold.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "Eggs, beaten",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "Salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "Sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "flour",
+     "name": "Flour",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "milk",
+     "name": "Milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "Butter",
+     "amount": 6.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "At medium/low heat begin melting the butter, and continue with beating eggs in large bowl, add salt, sugar, milk, flour and mix.",
+     "relatedIngredientIds": [
+      "eggs",
+      "salt",
+      "sugar",
+      "flour",
+      "milk",
+      "butter"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add melted butter while stirring batter.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Use about 1/2 cup batter on griddle and tilt until spread evenly over griddle surface.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When edges of pancake start to firm-up use spatula and free up the outside inch or two to achieve a clean removal for flipping later.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "First side will take about a minute or more the second side will take half that time. Pick up at middle of pancake with spatula then place on plate and fold over.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Timer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "The pancake will then be four layers thick 10\" x 2\" long. Serve with syrup on top or anything you choose, my wife likes peanut butter and I prefer to spread a little butter on it before adding syrup.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Maybe you prefer adding fruits of your choice.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/swedish-pancakes/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "french-crepes",
+   "title": "French Crêpes",
+   "description": "Very thin French pancakes for sweet or savoury fillings.",
+   "prepTime": 70,
+   "cookTime": 15,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "french",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "white-flour",
+     "name": "white flour",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 600.0,
+     "unit": "ml"
+    },
+    {
+     "id": "beer",
+     "name": "beer",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "butter-or-3-tablespoons",
+     "name": "butter or 3 tablespoons of oil",
+     "amount": 30.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix flour, salt, eggs and melted butter or oil. (In this order to avoid dry flour)",
+     "relatedIngredientIds": [
+      "white-flour",
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Slowly add milk and beer until the dough becomes fluid enough. (Pouring it from the ladle has to be fluid)",
+     "relatedIngredientIds": [
+      "milk",
+      "beer"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Let it rest one hour. (optional)",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cook the crêpe in a flat pan, one ladle at a time.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/french-crepes/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "breton-crepes",
+   "title": "Breton Crêpes (Breton Galettes)",
+   "description": "Buckwheat galettes from Brittany, served with savoury toppings.",
+   "prepTime": 70,
+   "cookTime": 15,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "french"
+   ],
+   "ingredients": [
+    {
+     "id": "buckwheat-flour",
+     "name": "buckwheat flour",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 700.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix flour, salt, egg and water. (In this order to avoid dry flour)",
+     "relatedIngredientIds": [
+      "buckwheat-flour",
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Let it rest one hour at room temperature.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cook the galette on a crepe-maker or a big flat pan.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "When garnishing, heat the galette again with a bit of salted butter.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/breton-crepes/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "french-toast",
+   "title": "French Toast",
+   "description": "Classic egg-soaked bread fried until golden.",
+   "prepTime": 5,
+   "cookTime": 25,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "french"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "Eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk (1/4 for a more solid consistency)",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "bread",
+     "name": "bread",
+     "amount": 5.0,
+     "unit": "slice"
+    },
+    {
+     "id": "maple-syrup",
+     "name": "Maple Syrup (Optional)",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "butter",
+     "name": "Butter",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Butter up a frying pan and set it on the burner with low-medium heat.(May need to add more butter in-between slices)",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Take your two eggs and crack them into a bowl together.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour milk in the bowl with the eggs.",
+     "relatedIngredientIds": [
+      "eggs",
+      "milk"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Break the yolks and stir the eggs and milk well with a beater until it's a smooth, yellow liquid.",
+     "relatedIngredientIds": [
+      "eggs",
+      "milk"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Dip one side of bread into the bowl, making sure the liquid gets into all of the surface area of that side.",
+     "relatedIngredientIds": [
+      "bread"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Immediately bring the side back up and scrape off any access liquid on the side with a butter knife.",
+     "relatedIngredientIds": [
+      "butter"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Repeat steps 5-6, but for the other side of the bread.",
+     "relatedIngredientIds": [
+      "bread"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Drop into the hot pan.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Cook both sides until golden brown, then plop onto a plate.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Repeat steps 5 to 9 until you have cooked all of your bread.",
+     "relatedIngredientIds": [
+      "bread"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Drench french toast stack in Maple syrup (Optional)",
+     "relatedIngredientIds": [
+      "maple-syrup"
+     ],
+     "animation": "fry"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/french-toast/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "spiced-apple-pancakes",
+   "title": "Spiced Apple Pancakes",
+   "description": "Breakfast pancakes with apple and warm spices.",
+   "prepTime": 15,
+   "cookTime": 10,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "large-apple",
+     "name": "large apple, peeled",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon (or more to taste)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 0.667,
+     "unit": "cup"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "In a medium bowl, combine flour, sugar, cinnamon, baking powder, and 1 pinch of salt.",
+     "relatedIngredientIds": [
+      "flour",
+      "sugar",
+      "cinnamon",
+      "baking-powder"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Separate the egg yolk and egg white. Add the egg yolk to the dry ingredients.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Whisk the egg white until foamy.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Slice the peeled apple into thin strips. Alternatively, grate the apple.",
+     "relatedIngredientIds": [
+      "large-apple"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Combine dry ingredients, apple, vanilla extract, egg white, and milk into a homogenous batter.",
+     "relatedIngredientIds": [
+      "large-apple",
+      "vanilla-extract",
+      "milk"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "To a large pan, add 1 tbsp butter. Add the batter (about 3 tbsp per pancake) and cook for 2 min per side on medium-high heat.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/spiced-apple-pancakes/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "kaiserschmarrn",
+   "title": "Kaiserschmarrn",
+   "description": "Fluffy shredded Austrian pancake served with sugar and fruit.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 3,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 300.0,
+     "unit": "ml"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 40.0,
+     "unit": "g"
+    },
+    {
+     "id": "raisins",
+     "name": "raisins (optional)",
+     "amount": 30.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Separate the egg whites and yolks.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Put the egg yolks, flour, sugar, pinch of salt, and milk in a bowl and stir until the clumps are gone.",
+     "relatedIngredientIds": [
+      "flour",
+      "sugar",
+      "eggs",
+      "milk"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat the egg whites to stiff peaks in a different bowl and then add to the other bowl.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Melt the butter in a flat pan on high heat and then add the dough. Heat up on both sides.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Put the pan in the preheated oven (180°C hot air setting) for around 10 minutes or until lightly browned.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Set"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cut up the dough with a spatula into bite-sized pieces.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Sprinkle some sugar on top (add raisins here).",
+     "relatedIngredientIds": [
+      "sugar",
+      "raisins"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/kaiserschmarrn/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "venezuelan-arepa",
+   "title": "Venezuelan Arepa",
+   "description": "Griddled Venezuelan corn cakes, split and filled.",
+   "prepTime": 10,
+   "cookTime": 5,
+   "servings": 3,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "breakfast",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 2.5,
+     "unit": "cup"
+    },
+    {
+     "id": "precooked-corn-flour",
+     "name": "precooked corn flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "delicatessen-to-taste",
+     "name": "delicatessen to taste",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine the water, the precooked corn flour, and a little bit of salt in a large mixing bowl.",
+     "relatedIngredientIds": [
+      "water",
+      "precooked-corn-flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the ingredients by hand until no clumps remain in the resulting dough and it has a smooth but solid consistency.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Preheat a pan with oil over low heat.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Take a piece of dough and form a ball the size of the palm of your hand.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Carefully slap the ball side by side to make a disk neither too thick nor too thin.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Repeat the process with the remainder of the dough.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Put the arepas in the preheated pan and wait for it approximately 2 minutes and a half to flip it over.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Wait"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "When both sides are cooked, take them out of the pan.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Cut through the middle of the arepas with a butter knife, and brush them with butter.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Fill them with delicatessen to taste (ham, cheese, beans, mortadella, eggs, etc.)",
+     "relatedIngredientIds": [
+      "delicatessen-to-taste"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/venezuelan-arepa/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "granola",
+   "title": "Granola",
+   "description": "Crunchy homemade oat granola for breakfast or snacking.",
+   "prepTime": 10,
+   "cookTime": 40,
+   "servings": 5,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "oats",
+     "name": "oats",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "maple-syrup",
+     "name": "maple syrup",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "chopped-nuts",
+     "name": "chopped nuts (almonds, pumpkin seeds, etc)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "ground-cloves",
+     "name": "ground cloves",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cardamom",
+     "name": "ground cardamom",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dried-fruit",
+     "name": "dried fruit (apricots, unsweetened cranberries, dates, etc)",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat oven to 315° F",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a large bowl, mix: oats, oil, maple syrup, chopped nuts and spices",
+     "relatedIngredientIds": [
+      "oats",
+      "maple-syrup",
+      "chopped-nuts"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cover two large baking sheets with parchment paper",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Spread the mixture thinly and evenly on baking sheets, put in oven",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking)",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking)",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Bake 10 minutes, take out of oven, do not stir (helps form clumps), let it cool",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Coarsely chop dried fruit and mix in",
+     "relatedIngredientIds": [
+      "dried-fruit"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Serve with yogurt, milk, fresh fruit, etc",
+     "relatedIngredientIds": [
+      "dried-fruit"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/granola/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "oat-milk",
+   "title": "Oat Milk",
+   "description": "Creamy homemade oat milk from just a few ingredients.",
+   "prepTime": 10,
+   "cookTime": 0,
+   "servings": 2,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "breakfast",
+    "drink",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "cold-water",
+     "name": "cold water",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "oats",
+     "name": "oats",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "peanut-butter",
+     "name": "peanut butter",
+     "amount": 0.7,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put your water in the fridge so that it's at roughly 4 degrees C. You can also add ice to make it colder.",
+     "relatedIngredientIds": [
+      "cold-water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add all ingredients into blender.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Blend for 15 seconds at high speed.",
+     "relatedIngredientIds": [],
+     "animation": "mix",
+     "suggestedTimerSeconds": 15,
+     "timerLabel": "Blend"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pass result through cheese cloth.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/oat-milk/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "turmeric-flatbread",
+   "title": "Turmeric Flatbread",
+   "description": "Soft turmeric flatbread, a good partner for lentil soup.",
+   "prepTime": 20,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "baking",
+    "middle-eastern"
+   ],
+   "ingredients": [
+    {
+     "id": "wheat-flour",
+     "name": "Wheat Flour (white or whole)",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "ground-turmeric",
+     "name": "Ground Turmeric",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "kosher-salt",
+     "name": "Kosher Salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "Baking Powder",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "olive-oil",
+     "name": "Olive Oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine flour, turmeric, salt and baking powder.",
+     "relatedIngredientIds": [
+      "wheat-flour",
+      "ground-turmeric",
+      "kosher-salt",
+      "baking-powder"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Stir in 1/3 cup water and the olive oil.",
+     "relatedIngredientIds": [
+      "olive-oil"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Knead until smooth (1-2 min).",
+     "relatedIngredientIds": [],
+     "animation": "mix",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Knead"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cover and set aside 15 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Set"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cut the dough into 4 pieces; flatten each into a 6-inch round.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cook one at a time in an oiled skillet over medium-high heat, flip when browned (2 mins).",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Brown"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/turmeric-flatbread/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "damper",
+   "title": "Damper",
+   "description": "Australian no-yeast soda bread, easy to bake anywhere.",
+   "prepTime": 30,
+   "cookTime": 30,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "baking",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "self-raising-flour",
+     "name": "self-raising flour",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter, softened.",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 425 degrees F (220 degrees C). Grease a baking sheet.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix all the ingredients together, adding a half cup of water and a teaspoon salt.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Knead the bread on a floured surface.",
+     "relatedIngredientIds": [
+      "self-raising-flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Put the bread into the oven for 25 minutes, then lower the temprature to 175 degrees C for 5 to 10 minutes",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Timer"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/damper/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "roesti",
+   "title": "Rösti",
+   "description": "Swiss crisp-fried grated potato cake.",
+   "prepTime": 20,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes (firm/waxy)",
+     "amount": 800.0,
+     "unit": "g"
+    },
+    {
+     "id": "carrots",
+     "name": "carrots",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "peas-or-spinach",
+     "name": "peas or spinach",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "onions",
+     "name": "onions (medium size)",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Shred raw or cooked (but cool) potatoes with a grater. The shreds should be quite large so don't use your typical cheese shredder.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Dice the first onion and mix together with potatoes. You can also add diced bacon if you want to. Add your seasonings here.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "onions"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat up some butter in a large pan. Add your mix to the pan on high heat. Let the mixture get warm for a few minutes under constant stirring.",
+     "relatedIngredientIds": [
+      "butter"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Reduce heat to medium-high. Form the Rösti into a round cack. It should fill out the whole pan. I recommend a thickness of around 1 - 1.5cm (~1/2\") for a softer Rösti.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add some more butter flakes around the inside of the pan to get it under the Rösti.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "It can take quite a while for a nice crust to form. Check after roughly 5-10 minutes for browning.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Brown"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "While the Rösti is cooking dice the other onion and the carrots. Steam everything in a pan with a bit of water. Use a lid to get the temperature up.",
+     "relatedIngredientIds": [
+      "carrots",
+      "onions"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Alternatively you can use fresh or creamed spinach.",
+     "relatedIngredientIds": [
+      "peas-or-spinach"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "When you're satisfied with the browning, flip the Rösti and set the heat to medium-low. A plate can be useful here, put it on top of the Rösti in the pan and flip. Then gently put the whole cake back in the pan.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "When the Rösti crispness is to your liking, remove from pan and fry two eggs. A runny yolk adds quite a bit to the potatoes.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "eggs"
+     ]
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Top Rösti with eggs and serve with the peas or spinach.",
+     "relatedIngredientIds": [
+      "peas-or-spinach",
+      "eggs"
+     ]
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/roesti/",
+   "credit": "based.cooking contributors"
+  },
+  {
+   "id": "stoemp",
+   "title": "Stoemp",
+   "description": "Belgian mashed potatoes with carrots, bacon and cream.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "carrots",
+     "name": "carrots",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "bacon",
+     "name": "bacon",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "heavy-cream",
+     "name": "heavy cream",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "ground-nutmeg",
+     "name": "ground nutmeg",
+     "amount": 0.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut bacon into bits.",
+     "relatedIngredientIds": [
+      "bacon"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sauté bacon until well colored.",
+     "relatedIngredientIds": [
+      "bacon"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Peel and dice into small chunks potatoes, peel and slice carrots.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "carrots"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Boil for 20-25 minutes potatoes and carrots in salted water.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "carrots"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Drain vegetables and mash with a fork, so that the texture remains slightly chunky.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Mix with bacon bits, butter, cream, nutmeg, salt, pepper.",
+     "relatedIngredientIds": [
+      "bacon",
+      "butter",
+      "heavy-cream",
+      "ground-nutmeg"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "based-cooking",
+   "license": "Public domain",
+   "sourceUrl": "https://based.cooking/stoemp/",
+   "credit": "based.cooking contributors"
+  }
+ ]
+}

@@ -1,0 +1,450 @@
+!source wikibooks
+
+@ ashoka-halwa | Ashoka Halwa | Rich Thiruvaiyaru wedding halwa of roasted moong dal and wheat flour cooked down with sugar and ghee. | 10 | 40 | 4 | indian,south-indian,sweet | Cookbook:Ashoka Halwa (Mung Bean Pudding) | vegetarian
+- 1 cup split yellow moong dal
+- 3 cups water
+- 2 cups sugar
+- 12 tbsp ghee
+- 4 tbsp wheat flour
+- 1/4 tsp cardamom powder
+- 3 tbsp broken cashews
+- 1 pinch red food colouring, mixed in 1 tsp water
+> Dry roast the moong dal until it smells nutty and browns slightly.
+> Add the water and pressure cook for 7-8 whistles, until the dal is soft and mushy.
+> Heat 4 tbsp of the ghee in a heavy-bottomed pot over medium-low heat and cook the wheat flour in it until golden brown.
+> Stir the cooked dal into the flour and let it thicken for 5 minutes, then add the sugar. {t=300 Thicken}
+> Stirring continuously, add 6-7 tbsp more ghee, 1 tbsp at a time, for 12-15 minutes, until the mixture leaves the sides of the pan as a dough. {t=900 Stir}
+> Heat the last 1 tbsp of ghee in a small pan and fry the cashews until slightly brown. Add them to the halwa.
+> Mix in the cardamom powder and the red food colouring.
+> Take the pan off the heat and let the halwa cool.
+
+@ bihari-kabab | Bihari Kabab | Pakistani-style kababs of meat marinated in roasted whole spices, yogurt and lemon, then grilled on skewers. | 255 | 15 | 4 | indian,north-indian,snack | Cookbook:Behari Kabab | none
+- 1 tsp cumin seeds
+- 1 tsp coriander seeds
+- 1 tsp fennel seeds (saunf)
+- 1 tsp mustard seeds
+- 1 tbsp ginger paste
+- 1 tbsp garlic paste
+- 1 tsp garam masala
+- 1 tsp paprika
+- 1 tsp chilli flakes
+- 1 tsp turmeric
+- 1 tsp salt
+- 2 tbsp yogurt
+- 2 tbsp lemon juice
+- 2 tbsp oil
+- 1 lb mutton, lamb or beef, cut into small pieces
+> Dry roast the cumin seeds, coriander seeds, fennel seeds and mustard seeds in a small pan over medium heat until fragrant.
+> Grind the roasted spices in a spice grinder or with a mortar and pestle.
+> Mix the ground spices with the ginger paste, garlic paste, garam masala, paprika, chilli flakes, turmeric, salt, yogurt, lemon juice and oil.
+> Put the mutton in a large bowl, pour over the marinade and mix to coat. Cover and refrigerate for at least 4 hours or overnight. {t=14400 Marinate}
+> Heat a grill to medium-high. Thread the mutton onto skewers and grill for 8-10 minutes, turning occasionally, until cooked through (or bake at 200 °C / 400 °F for 15-20 minutes).
+> Serve the kababs hot with rice or naan.
+
+@ bhel-puri | Bhel Puri | Mumbai beach snack of puffed rice, sev, potato and onion tossed with green and sweet date-tamarind chutneys. | 25 | 0 | 8 | indian,street-food,snack | Cookbook:Bhel Puri (Indian Puffed Rice and Vegetable Snack)
+- 500 g puffed rice (murmura)
+- 250 g plain sev
+- 2 tsp chaat masala
+- 3 tsp chilli powder
+- 2 potatoes, boiled and diced
+- 1 large red onion, chopped
+- 2 handfuls coriander leaves, chopped
+- raw mango, chopped (or lemon juice)
+- salt
+- 1 handful mint leaves
+- 2 clove garlic
+- 12 green chillies
+- 1/2 cup date pulp
+- 1/4 cup tamarind pulp
+- 1 tbsp jaggery or sugar
+- 2 tsp cumin seeds
+- flat crispy puris, to serve
+> For the spicy chutney, grind half the coriander leaves with the mint leaves, garlic, green chillies and a little salt to a fine paste, adding some water.
+> For the sweet chutney, grind the date pulp, tamarind pulp, jaggery, 2 tsp of the chilli powder and the cumin seeds to a fine paste with some water.
+> Mix the puffed rice with most of the sev. Add the chaat masala, salt and the remaining 1 tsp chilli powder.
+> Add the onion, raw mango, potatoes and most of the remaining coriander leaves, and mix gently with your hands.
+> Just before serving, mix in the spicy chutney and the sweet chutney.
+> Put the bhel on plates and top with more sev and chutney. Garnish with the last of the coriander leaves and serve with the puris.
+
+@ cucumber-pachadi | Cucumber Pachadi | Kerala side dish of grated cucumber warmed with a coconut-cumin paste and a mustard seed tempering. | 10 | 10 | 4 | indian,south-indian,quick,healthy | Cookbook:Boiled Cucumber and Grated Coconut (Pachadi) | vegan
+- 1 large cucumber (yellow Kerala variety)
+- 1/2 cup grated coconut
+- 1 tsp cumin seeds (jeera)
+- 1 tsp mustard seeds
+- 2 dried red chillies
+- 1 tbsp oil
+- salt
+> Peel the cucumber, cut it in half lengthways and scoop out and discard the seeds.
+> Grate the cucumber, or cut it into very small pieces.
+> Cook the cucumber in the microwave for 4-5 minutes.
+> Meanwhile, grind the grated coconut and cumin seeds to a fine paste.
+> Heat the oil in a kadai. Add the mustard seeds and red chillies and let them splutter.
+> Add the cooked cucumber, the coconut paste and salt. Mix well and warm over a low flame; it should not boil.
+> Take it off the stove as soon as it starts to boil, and serve with rice or roti.
+
+@ mysore-pak | Mysore Pak | Karnataka sweet of roasted besan cooked in sugar syrup with lots of ghee until it sets crisp and porous. | 5 | 30 | 12 | indian,south-indian,sweet | Cookbook:Chickpea Flour Dessert (Mysore Pak) | vegetarian
+- 1 cup besan (gram flour)
+- 3 cups ghee, melted
+- 2 1/2 cups sugar
+- 1/4 tsp cardamom powder (elaichi)
+- water
+> Roast the besan in a small amount of the ghee.
+> Boil the sugar, cardamom powder and a splash of water in a saucepan to a single-thread syrup. If more than one thread forms, add a little more water.
+> Keeping the heat on, mix half the roasted besan into the hot syrup.
+> Gradually stir in half the ghee, and keep stirring until the ghee is absorbed.
+> Repeat with the remaining besan and ghee, adding ghee only until the mixture stops absorbing it.
+> When the mixture turns crisp and bubbly, pour it into a tray and let it cool.
+> Cut the Mysore pak into pieces of the shape you like.
+
+@ chocolate-sandesh | Chocolate Sandesh | Quick no-cook Bengali sweet of mashed fresh paneer with cocoa, cream and vanilla, rolled into balls. | 75 | 0 | 4 | indian,sweet | Cookbook:Chocolate Sandesh | vegetarian
+- 1 cup fresh low-fat paneer
+- 1 tbsp sugar substitute
+- 2 tbsp fresh cream
+- 1 tbsp cocoa powder
+- 1/2 tsp vanilla essence
+> Mash the paneer and sugar substitute together well.
+> Add the cream, cocoa powder and vanilla essence and mix well.
+> Divide the mixture into 8 equal parts and roll each into a ball.
+> Refrigerate the sandesh for at least 1 hour, then serve. {t=3600 Chill}
+
+@ coconut-rice | Coconut Rice | South Indian rice tossed with coconut, chana dal, cashews and curry leaves toasted in a mustard seed tadka. | 5 | 10 | 6 | indian,south-indian,rice,quick | Cookbook:Coconut Rice (Indian) | vegan
+- 2 tsp oil
+- 1 tsp black mustard seeds
+- 1/2 cup grated coconut (fresh, frozen or dry flakes)
+- 2 dried red chillies
+- 10 curry leaves
+- 1 tsp chana dal
+- salt
+- cashews
+- 7 cups cooked white rice (long-grain), cooled
+> Heat the oil with the mustard seeds in a covered pan.
+> When the mustard seeds have stopped popping, add the coconut, red chillies, curry leaves, chana dal, salt and cashews.
+> Toast everything lightly in the oil until golden.
+> Add this seasoning to the cooked rice, mix well and serve.
+
+@ murukku | Murukku | Crunchy South Indian spirals of rice flour and roasted urad dal with sesame and cumin, pressed and deep fried. | 15 | 30 | 8 | indian,south-indian,snack | Cookbook:Deep Fried Urad and Rice Flour Dough Balls (Murukku) | vegan
+- 2 cups rice flour
+- 1/2 cup urad dal
+- 2 tsp cumin seeds (jeera)
+- 4 tsp sesame seeds
+- 1 tsp red chilli powder
+- salt
+- oil, for deep frying
+- 3 tbsp hot oil
+> Dry roast the urad dal, grind it to a fine powder and set aside.
+> In a wide bowl, mix the rice flour, urad dal powder, chilli powder, salt, sesame seeds and cumin seeds. Mix in the hot oil.
+> Add enough water to make a dough with the consistency of roti dough.
+> Heat the oil for deep frying in a deep pan.
+> Press the dough through a murukku mould into the heated oil. Fry in batches until light golden brown.
+> Drain the murukku on paper towels.
+
+@ methi-muthiya | Methi Muthiya | Gujarati fried dumplings of fenugreek leaves, wheat flour and besan, lightly sweet and spiced. | 15 | 20 | 3 | indian,snack | Cookbook:Deep Fried Wheat and Chickpea Flour Dough Balls (Muthiya) | vegan
+- oil, for deep frying
+- 1 cup chopped methi (fenugreek) leaves
+- 1/3 cup whole wheat flour (atta)
+- 2 tbsp besan (gram flour)
+- 1 pinch hing (asafoetida)
+- 1 tsp sugar
+- 1 tsp green chilli-ginger paste
+- 1 tbsp hot oil
+> Heat the oil for deep frying.
+> In a bowl, mix the methi leaves, wheat flour, besan, hing, sugar, chilli-ginger paste and the hot oil into a dough.
+> Divide the dough into 15-20 equal portions and roll each into a round ball.
+> Fry the balls in batches of 10-12 over a low flame until golden brown.
+> Drain on absorbent paper and serve.
+
+@ dosa | Dosa | Thin, crisp South Indian crepes made from a fermented batter of rice, urad dal and fenugreek. | 600 | 40 | 6 | indian,south-indian,breakfast | Cookbook:Dosa II | vegan
+- 360 g rice, preferably parboiled
+- 90 g urad dal (split, husked)
+- 1/2 tsp fenugreek seeds (methi dana)
+- 2 tsp salt
+- oil, for cooking
+> Soak the rice, urad dal and fenugreek seeds separately: the rice for 6-8 hours, the dal for only 3-4 hours. {notimer}
+> Grind the soaked rice, dal and fenugreek seeds together in a blender to a very smooth batter.
+> Add the salt and enough water for a dropping consistency. Leave to rise for 5-6 hours or overnight. {notimer}
+> Check the batter and, if needed, add water to make a smooth pouring consistency.
+> Heat a tava until very hot and splash a little water over it. Pour on a ladle of batter at once and spread it thin in circles without pressing hard.
+> Lower the heat and dribble a little oil around the edges. When the edges start to brown, it is almost done.
+> Flip the dosa and cook the other side for a few seconds. Fold it over, with a filling if you like, and serve.
+
+@ masala-dosa | Masala Dosa | Crisp fermented rice and urad dal crepe spread with onion chutney and folded over spiced potato masala. | 500 | 45 | 6 | indian,south-indian,breakfast | Cookbook:Masala Dosa | vegetarian
+- 1 cup ponni or sona masuri rice
+- 1 cup parboiled rice (boiled rice)
+- 3/4 cup urad dal (whole, skinless)
+- salt
+- 6 medium potatoes, boiled and coarsely mashed
+- 2 medium onions, finely chopped
+- 6 green chillies, finely chopped
+- 1 tsp grated ginger
+- 1 tsp grated garlic
+- 2 tbsp oil
+- 1/2 tsp mustard seeds
+- 1 tbsp chopped coriander leaves
+- 1 tsp chana dal
+- 1 tsp turmeric
+- 1 tsp chopped curry leaves
+- lemon juice
+- onion chutney
+- coconut chutney
+- 1/2 cup ghee and vegetable shortening, mixed
+> The day before, grind the ponni rice, parboiled rice, urad dal and salt with water in a blender or wet grinder to a batter like pancake batter.
+> Set the batter aside overnight in a warm spot to ferment. Use a big container, as it can nearly double.
+> For the filling, heat the oil in a wok, add the mustard seeds and let them splutter.
+> As the spluttering slows, add the green chillies, curry leaves and chana dal. Stir until the chana dal turns brown; it burns within seconds.
+> Add the onions and fry until browned. Add the turmeric and sauté for 2 minutes, then the ginger and garlic for a few seconds.
+> Add the potatoes and mix well. Turn off the heat, add the lemon juice and coriander leaves, and mix again.
+> Heat a tava or frying pan over medium heat until a drop of water evaporates on contact.
+> Pour on about 1/2 cup batter and spread it slowly outwards into a thin, round dosa.
+> Cook for a minute, then flip it. As the other side cooks, spread some of the ghee and shortening mixture on top.
+> Flip it again. As the bottom crisps, spread 1 tsp of the onion chutney evenly over the top.
+> Spoon some potato filling onto one half, fold the other half over and serve with the coconut chutney.
+
+@ dum-ka-keema | Dum ka Keema (Smoked Mince) | Minced meat marinated with fried onion paste, ginger and yogurt, smoked with charcoal, then slow-cooked. | 270 | 60 | 6 | indian | Cookbook:Dum ka Qimah (Spiced Minced Meat) | none
+- 1 cup oil
+- 3 medium onions, thinly sliced
+- 8 whole dried red chillies
+- 1 kg lean mince (keema), mutton or beef
+- 1 tbsp ginger paste
+- 1 tsp garam masala
+- 1 1/2 tsp salt
+- 2 tbsp yogurt
+- 2 tbsp raw papaya paste
+- 1 charcoal, small piece
+- 2 tbsp chopped coriander leaves
+- 1 tsp finely chopped green chillies
+> Heat the oil in a heavy saucepan. Fry the onions, stirring often, for 8-10 minutes until light golden.
+> Lift out the onions, then fry the whole red chillies in the same oil for just a moment so they don't burn.
+> Keep the oil aside. Blend the onions and red chillies to a smooth paste without any water.
+> Wash the mince well and squeeze out the water.
+> Put the mince in a bowl with the onion paste, ginger paste, salt, garam masala and yogurt. Knead well with your hands until smooth.
+> Cover and marinate at room temperature for 3-4 hours, or overnight in the fridge; mix in the papaya paste for the last hour.
+> Heat the charcoal over a medium flame until it is red hot and covered in white ash.
+> Spread the mince in a metal pan with a well in the centre. Put a piece of foil in the well, set the hot charcoal on it and add 2-3 drops of oil.
+> Cover tightly at once and set aside to smoke for 20-25 minutes. {t=1200 Smoke}
+> Discard the charcoal. Heat 1/2 cup of the reserved oil in a heavy pan and fry the mince over low heat for 4-5 minutes.
+> Cover tightly and cook for 15-20 minutes, until all the moisture is absorbed.
+> Serve garnished with the green chillies and coriander leaves.
+
+@ garam-masala | Garam Masala | Homemade North Indian garam masala of toasted whole spices, mace and rose petals, ground to a fine powder. | 10 | 20 | 20 | indian | Cookbook:Homemade Garam Masala | vegan
+- 15 g dried bay leaves
+- 75 g black cardamom seeds
+- 40 g green cardamom seeds
+- 20 cinnamon sticks, 2.5 cm each
+- 20 g whole cloves
+- 35 g coriander seeds
+- 20 g cumin seeds
+- 25 g fennel seeds
+- 20 g mace
+- 70 g black peppercorns
+- 15 g dried rose petals
+- 15 g ginger powder
+> Toast the bay leaves, black and green cardamom, cinnamon, cloves, coriander, cumin, fennel, mace, peppercorns and rose petals one at a time in a dry pan.
+> Keep the heat low and shake the pan until each spice is a shade darker and aromatic; take care not to burn them.
+> Transfer the toasted spices to a cool container and let them cool.
+> Grind all the spices together with the ginger powder to an even powder in a grinder or mortar.
+
+@ hyderabadi-haleem | Hyderabadi Haleem | Slow-cooked paste of whole wheat and mutton with green chillies, ginger and garlic, topped with fried onions. | 130 | 75 | 4 | indian,south-indian | Cookbook:Hyderabadi Haleem (Ground Meat and Wheat) | none
+- 200 g whole wheat kernels
+- 300 g boneless mutton
+- 20 g green chillies
+- 1 ginger, 5 cm piece
+- 8 clove garlic
+- 100 g oil
+- 3 medium onions, finely sliced
+- 2 limes
+- 1/2 tsp turmeric powder (haldi)
+- 2 tsp garam masala
+- salt
+- coriander leaves, to garnish
+> Remove any bran from the wheat, wash it and soak for 2 hours.
+> Grind the ginger, garlic, green chillies and salt to a paste. Rub it over the mutton and marinate for 1 hour.
+> Pressure cook the soaked wheat and the marinated mutton for about 45 minutes. {t=2700 Cook}
+> Mince the cooked wheat and mutton, then grind them to a fine paste.
+> Heat the oil in a pan and fry the onions until brown. Lift out a few for garnish, then add the turmeric and garam masala.
+> Add the ground paste and cook over low heat, stirring occasionally, until it comes away from the sides of the pan.
+> Adjust the salt and serve hot, garnished with lime wedges, coriander leaves and the fried onions.
+
+@ pakistani-chai | Pakistani Chai | Strong cardamom tea made by adding hot milk to boiling tea leaves and taking it to the brink of boiling over. | 2 | 8 | 2 | indian,north-indian,drink,quick | Cookbook:Pakistani Chai | vegetarian
+- 1 1/2 cups milk
+- 1 cup water
+- 2 tsp loose black tea leaves, heaped
+- 2 green cardamom pods
+- sugar
+> Bring the water to a simmer in a saucepan over medium-high heat. Tear open the cardamom pods and add them.
+> Heat the milk in the microwave for 2 minutes, until it is close to boiling.
+> When the water nearly boils, slowly add the tea leaves.
+> Add the hot milk until the tea turns light brown, then raise the heat to high. Stir continuously if you added too much milk.
+> Take the pan off the heat just as the chai is about to boil over, and strain it into cups.
+> Sweeten with sugar if you like.
+
+@ karnataka-rasam | Karnataka Rasam | Karnataka-style rasam of toor dal and tomatoes (or tamarind) with coconut and a mustard-cumin tempering. | 10 | 30 | 4 | indian,south-indian,soup | Cookbook:Karnataka-Style Rasam (Tamarind and Tomato Soup) | vegan
+- 1/4 cup toor dal (split pigeon peas)
+- 4 large tomatoes (or 2 tbsp tamarind paste)
+- 1/4 tsp salt
+- 1/2 tsp chilli powder
+- 1/2 tsp turmeric powder
+- 1/2 tsp hing (asafoetida)
+- 1 tbsp grated coconut
+- 1/2 tsp coriander powder
+- 3 tbsp oil
+- 1/2 tsp mustard seeds
+- 1/2 tsp cumin seeds
+- 4 sprig curry leaves
+- 1 handful chopped coriander leaves
+> Pressure cook the toor dal with enough water until soft.
+> If using tomatoes, parboil them, remove the skins and chop roughly.
+> Add the salt, chilli powder, turmeric powder and the tomatoes (or tamarind paste) to the cooked dal. Simmer for 3-4 minutes.
+> Add the hing, grated coconut and coriander powder. Simmer for a few more minutes to cook the coconut.
+> Heat the oil in a small frying pan over medium heat and add the mustard seeds and cumin seeds.
+> When the mustard seeds pop, take the pan off the heat and pour the tempering into the rasam with the curry leaves.
+> Garnish with the coriander leaves and serve.
+
+@ khaman-dhokla | Khaman Dhokla | Soft, spongy Gujarati steamed besan cake topped with a mustard seed, sesame and green chilli tempering. | 10 | 25 | 4 | indian,snack | Cookbook:Khaman Dhokla (Steamed Gram Bread) | vegan
+- 1 1/2 tsp oil
+- 1 cup besan (gram flour)
+- 1 1/2 tbsp semolina (sooji)
+- 3 1/2 tsp sugar
+- 1 tsp ginger-chilli paste
+- salt
+- 1 1/2 tsp fruit salt (Eno)
+- 3 curry leaves
+- 1/2 tsp mustard seeds
+- 1/2 tsp sesame seeds
+- 2 green chillies, chopped
+- 1 pinch hing (asafoetida)
+- 2 tbsp chopped coriander leaves
+> Grease a 12 cm (5-inch) round tin with 1/2 tsp of the oil.
+> Mix the besan, semolina, sugar, ginger-chilli paste and salt with just enough water to make a thick batter.
+> Add the fruit salt and 2 tsp water. When bubbles form, mix gently to spread it through the batter.
+> Pour the batter into the tin straight away and swirl the tin to spread it evenly.
+> Put the tin in a steamer at once, cover and steam for 12-15 minutes, until the dhokla is cooked. Let it cool slightly.
+> Heat the remaining oil in a small pan and add the mustard seeds.
+> When they crackle, add the sesame seeds, green chillies, curry leaves and hing. Sauté over a medium flame for a few minutes, stirring.
+> Take the tempering off the heat and stir in 2 tbsp water.
+> Unmould the dhokla and cut it into equal pieces. Spoon the tempering over, garnish with the coriander leaves and serve at once.
+
+@ langar-dal | Langar Dal | Simple gurdwara-style dal pressure cooked with onion, turmeric and ghee. | 10 | 50 | 4 | indian,north-indian,healthy | Cookbook:Langar Dal | vegetarian
+- 1 cup dal (any split lentils)
+- 1 cup water
+- 1/4 medium onion
+- 1/2 tsp turmeric powder
+- 1 tbsp ghee
+- 1/2 tsp salt
+> Rinse the dal three times and drain off the water.
+> Chop the onion into small cubes about 1 cm across.
+> Melt the ghee in a pressure cooker with the lid off.
+> Add the onion and sauté for 3 minutes.
+> Add the turmeric powder and mix it well with the onion and ghee.
+> Add the dal, water and salt. Close the lid and seal the valve.
+> Pressure cook for 12 minutes.
+> Let the pressure release naturally, then serve the dal.
+
+@ kerala-meat-masala | Kerala Meat Masala | Kerala spice mix of toasted chillies, coriander and pepper, used as a rub or paste for mutton. | 5 | 10 | 20 | indian,south-indian | Cookbook:Meat Masala
+- 50 g dried red chillies
+- 100 g coriander seeds
+- 2 tbsp black peppercorns
+- 1 tsp cumin seeds
+- 1 tsp mustard seeds
+- 1 tsp turmeric powder
+- 12 whole cloves
+- 1/4 tsp cardamom seeds
+- 2 short cinnamon sticks
+> Toast the dried red chillies, coriander seeds, peppercorns, cumin seeds and mustard seeds in a frying pan.
+> Grind them with the turmeric powder, cloves, cardamom seeds and cinnamon to a powder.
+> Store the masala in a glass jar with a tight-fitting lid.
+> To use, rub it on meat as a dry powder or mixed with oil into a paste, and marinate for 20 minutes to 2 hours before cooking. {notimer}
+
+@ pulikachal | Pulikachal (Tamarind Rice Mix) | Tamil spiced tamarind paste, cooked down with dals and roasted spices, for mixing into rice as puliyodharai. | 5 | 25 | 6 | indian,south-indian | Cookbook:Pulikkachal (Tamil Spiced Tamarind Paste) | vegan
+- 1 tsp coriander seeds (dhaniya)
+- 1 tsp fenugreek seeds
+- 1 tsp sesame seeds
+- 3 tbsp oil
+- 1 tsp urad dal
+- 1 tsp chana dal (split chickpeas)
+- 4 dried red chillies
+- 1 cup tamarind extract
+- salt
+- 1/4 tsp hing (asafoetida)
+- peanuts (optional)
+> Dry roast the coriander seeds, fenugreek seeds and sesame seeds without oil, then grind them to a fine powder.
+> Heat the oil in a pan and fry the urad dal, chana dal, red chillies and peanuts, if using, for a few minutes.
+> Add the tamarind extract and salt and bring to a boil.
+> Add the ground spice powder and the hing and mix well.
+> Stir constantly until the paste is thick, the oil floats on top and it no longer sticks to the pan.
+> Cool and refrigerate. To serve, mix the pulikachal with cooked rice.
+
+@ watalappam | Watalappam | Sri Lankan steamed custard of coconut milk, jaggery and eggs, spiced with cardamom and cloves. | 10 | 20 | 4 | sweet | Cookbook:Watalappam (Sri Lankan Coconut Custard) | vegetarian
+- 2 cups thick coconut milk
+- 225 g jaggery (or brown sugar)
+- 4 eggs
+- 1 pinch cardamom powder
+- 3 whole cloves
+- 12 cashews
+> Beat the eggs in a mixer.
+> Add the coconut milk, jaggery, cardamom powder and cloves to the eggs and mix well.
+> Pour the mixture into a heatproof pot and steam for 20 minutes.
+> Top the watalappam with the cashews.
+
+@ spicy-chickpea-soup | Spicy Chickpea Soup | Quick blender soup of chickpeas, coconut milk, salsa and garam masala, simmered for a few minutes. | 5 | 10 | 4 | soup,quick | Cookbook:Spicy Chickpea Soup | none
+- 2 can chickpeas (16 oz each), drained
+- 1 can light coconut milk (14 oz)
+- 1 cup low-sodium chicken broth
+- 1/2 cup salsa
+- 1 1/2 tsp garam masala
+- 1 tsp ground ginger (dry ginger powder)
+- 2 tbsp frozen apple juice concentrate
+- 1/4 cup coriander leaves, packed
+> Purée the chickpeas, coconut milk, chicken broth, salsa, garam masala, ginger, apple juice concentrate and coriander leaves in a blender until smooth.
+> Pour into a large saucepan and bring to a simmer.
+> Simmer for 4-5 minutes, stirring often, to blend the flavours.
+
+@ besan-omelette | Besan Omelette | Eggless omelette of besan batter with turmeric and paprika, cooked in olive oil until set. | 5 | 5 | 1 | breakfast,quick,healthy | Cookbook:Chickpea Omelette
+- 1 cup besan (chickpea flour)
+- 1 tsp baking powder
+- salt
+- 1 tsp ground turmeric
+- 1 tsp paprika
+- 1 cup soy milk or water
+- 1 tbsp olive oil
+> Mix the besan, baking powder, salt, turmeric and paprika in a bowl.
+> Gradually add the soy milk and mix until the batter is smooth.
+> Heat a skillet over medium heat, add the olive oil and spread it across the pan.
+> Pour in the batter and cook until bubbles form in the middle, then carefully flip it with a spatula.
+> Cook the other side for about 30 seconds, then serve.
+
+@ doubles | Doubles (Trinidad Bara & Chana) | Trinidad street snack: fried turmeric bara sandwiching curried chickpeas, with pepper sauce and chutney. | 600 | 45 | 8 | street-food,snack | Cookbook:Doubles (Trinidadian Bread with Curried Chickpeas) | vegan
+- 250 g flour
+- 1 1/2 tsp salt
+- 1 tsp turmeric powder
+- 1/2 tsp ground cumin, plus 1 pinch
+- 1/2 tsp sugar
+- 1 tsp instant yeast
+- 175 ml lukewarm water
+- 1/2 lb dried chickpeas (kabuli chana), soaked 8 hours
+- 1 tbsp vegetable oil
+- 3 clove garlic, minced
+- 1 onion, sliced
+- 2 tbsp curry powder
+- 1 1/4 cups water, for the chickpeas
+- pepper
+- 1 cup oil, for frying
+- hot pepper sauce
+- mango chutney
+> In a large bowl, mix the flour, 1/2 tsp of the salt, the turmeric powder, 1/2 tsp cumin, the sugar and the yeast.
+> Add enough lukewarm water to make a soft dough. Mix well, cover and let it rise for 2 hours.
+> Boil the soaked chickpeas in salted water until tender, then drain well.
+> Heat the vegetable oil in a heavy skillet. Add the garlic, onion and the curry powder mixed with 1/4 cup of the water, and sauté for a few minutes.
+> Add the chickpeas, stir to coat and cook for 5 minutes. Add 1 cup water, a pinch of cumin, 1 tsp salt and some pepper.
+> Cover, lower the heat and simmer until the chickpeas are soft and moist, adding water if needed. Adjust the seasoning.
+> Punch down the dough and let it relax for 15 minutes. {t=900 Rest}
+> For each bara, pat about 1 tbsp of dough into a 10-12 cm circle, wetting your palms with water.
+> Fry a few baras at a time in the hot oil, turning once, and drain on kitchen paper.
+> Sandwich 2 tbsp of the chickpeas between 2 baras. Add hot pepper sauce and mango chutney to taste.
+
+# skipped: Cookbook:Dosa I — near-duplicate of Dosa II (written as "Dosa"); Dosa II lists fenugreek, oil and metric amounts
+# skipped: Cookbook:Karak Chai I — same steep-off-the-heat method as the online Indian Tea / Masala Chai II
+# skipped: Cookbook:Malpua (South Asian Sweet Pancake) — sugar syrup has no quantities or consistency; frying method vague
+# skipped: Cookbook:Mung Bean and Brown Rice Curry — 21 ingredients; Western dish with a soy/honey/basil/oregano dressing of 1.5 cups oil
+# skipped: Cookbook:Papadam (Black Gram Flatbread) — quantities don't work (8 cups flour with 1/4 cup water); home papad drying project
+# skipped: Cookbook:Papri Chaat (Crispy Indian Snack with Potato) — main chaat ingredients (potato, chickpeas, tomato, yoghurt, spices) have no quantities
+# skipped: Cookbook:Sylheti Rice Pudding — liquid doesn't work (1 cup optional milk for 1 cup rice simmered 1 hour, no water); coconut cubes vs grated mismatch

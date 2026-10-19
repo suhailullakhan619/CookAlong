@@ -53,6 +53,7 @@ import com.cookalong.app.ui.screens.FridgeScanScreen
 import com.cookalong.app.ui.screens.HomeFocus
 import com.cookalong.app.ui.screens.HomeScreen
 import com.cookalong.app.ui.screens.IngredientsOverlay
+import com.cookalong.app.ui.screens.PlanScreen
 import com.cookalong.app.ui.screens.SearchScreen
 import com.cookalong.app.ui.screens.ShoppingQrOverlay
 import com.cookalong.app.ui.screens.TimerControlsOverlay
@@ -70,6 +71,7 @@ fun CookAlongApp(vm: CookAlongViewModel, onExit: () -> Unit) {
     val homeRowStates = remember { mutableMapOf<Int, LazyListState>() }
     var homeFocus by remember { mutableStateOf<HomeFocus?>(null) }
     var scanFocus by remember { mutableStateOf<String?>(null) }
+    var planFocus by remember { mutableStateOf<String?>(null) }
 
     CookAlongTheme(dark = state.darkTheme) {
       CompositionLocalProvider(LocalOnline provides online) {
@@ -129,6 +131,16 @@ fun CookAlongApp(vm: CookAlongViewModel, onExit: () -> Unit) {
                         restoreFocus = scanFocus,
                         onRetry = { vm.startFridgeScan(force = true) },
                         onBack = { vm.onBack() },
+                        onPlan = if (state.config.plannerApiUrl.isNotBlank()) ({ vm.planDinner() }) else null,
+                    )
+                    Screen.Plan -> PlanScreen(
+                        plan = state.plan,
+                        findRecipe = state::recipe,
+                        onOpenRecipe = { planFocus = it.id; vm.openRecipe(it, returnTo = Screen.Plan) },
+                        onRetry = vm::retryPlan,
+                        onBack = { vm.onBack() },
+                        onShoppingQr = { vm.showOverlay(Overlay.ShoppingQr) },
+                        restoreFocus = planFocus,
                     )
                     is Screen.Cooking -> {
                         val recipe = state.recipe(screen.recipeId)
@@ -199,6 +211,8 @@ private fun Overlays(state: UiState, nowMs: Long, vm: CookAlongViewModel) {
     val recipe = when (val s = state.screen) {
         is Screen.Detail -> state.recipe(s.recipeId)
         is Screen.Cooking -> state.recipe(s.recipeId)
+        // the plan's shopping list shares the QR overlay, for the first meal
+        Screen.Plan -> (state.plan as? PlanUi.Done)?.result?.plan?.meals?.firstNotNullOfOrNull { state.recipe(it.recipeId) }
         else -> null
     } ?: return
     val close = { vm.showOverlay(null) }
