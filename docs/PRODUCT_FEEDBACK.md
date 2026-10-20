@@ -82,12 +82,14 @@ where we only used a tool lightly or couldn't finish with it, we say so.
   video requirement. A Fire OS emulator image would remove the doubt.
 
 ### Alexa Skills Kit and the ASK CLI
-- **Used for:** the skill's interaction model (36 intents, sample phrases, slots) and request handling in Lambda. We tested
-  the Lambda with the exact JSON Alexa sends. **We did not finish publishing the skill** in a developer account, so we can't
-  give feedback on certification or on testing with a real Echo.
-- **Worked well:** the interaction model is easy to author as JSON and easy to unit-test against handlers.
-- **Needs work:** a Fire TV app has no way to learn which Alexa account is speaking, so linking needs a pairing code. See the
-  friction log and feature requests. `ask configure` needs an interactive browser sign-in, which is awkward from scripts.
+- **Used for:** the skill's interaction model (36 intents, sample phrases, slots), request handling in Lambda, and
+  testing. We created the skill with the ASK CLI (`ask deploy`) and spoke to it through `ask smapi simulate-skill`, which
+  uses Alexa's real language understanding. We did not try it on a real Echo or Fire TV and did not publish it.
+- **Worked well:** the interaction model is easy to author as JSON; `ask deploy` built all models in about two minutes,
+  and the simulator let us test the full voice-to-TV chain with no Echo.
+- **Needs work:** a Fire TV app has no way to learn which Alexa account is speaking, so linking needs a pairing code.
+  `ask configure` needs an interactive browser sign-in plus a Y/n prompt, which can't be scripted, and it also asks about
+  an AWS profile. See the friction log and feature requests.
 - **Build again?** Yes, once the app-to-account link exists.
 
 ## Other tools and data sources

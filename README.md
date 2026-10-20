@@ -129,10 +129,12 @@ I checked Amazon's current docs ([Voice-enabling transport controls with MediaSe
 
 ## Alexa skill: cook with any Echo
 
-> **Status:** the skill package (`alexa/skill-package/`, 36 intents), the skill Lambda and the TV-side bridge are built and
-> tested end to end with simulated Alexa requests (the Lambda is invoked with the same JSON Alexa sends) on an Android TV
-> emulator and a real Fire TV Stick. The skill has **not been published or enabled in an Alexa developer account**, so no
-> spoken phrase has been tried on a real Echo. The plain "Alexa, next / pause" media commands below need no skill.
+> **Status:** the skill is created in an Alexa developer account (Development stage) with the ASK CLI
+> (`alexa/deploy_skill.sh`) and was exercised through Alexa's own skill simulator (`tools/alexa_sim.py`), with an
+> Android TV emulator as the TV. Pairing, finding a recipe, scaling servings, starting cooking, next step, a timer,
+> ingredient questions and "ask the chef" all worked, and Alexa's language model picked the right intent for each
+> phrase. It has **not been tried by voice on a real Echo or Fire TV** and is not published. The plain
+> "Alexa, next / pause" media commands below need no skill.
 
 **Connect Alexa** on Home shows a 6-digit code. Say *"Alexa, ask Cook Along to pair with 4 8 2 1 5 7"* once. After
 that, any Echo on the same Amazon account, or the Alexa button on the remote, drives the TV while CookAlong is on screen:
@@ -166,12 +168,13 @@ Echo ──voice──▶ Alexa ──▶ Lambda cookalong-alexa (eu-west-1, ale
 - **Polling cost:** about 3,600 small requests per hour, only while CookAlong is on screen and linked.
 - **Ask the chef:** Amazon Nova Pro through the Bedrock Converse API, with Nova 2 Lite as a backup.
 
-**Deploy:** `bash backend/deploy.sh` (creates `cookalong-tv` and the TV endpoints), then `bash backend/deploy_alexa.sh`.
-The skill itself (invocation name *cook along*, 36 intents, en-IN / en-US / en-GB) is in `alexa/skill-package/`.
-Create it in the Alexa developer console with that model and the Lambda ARN printed by the deploy script, then
-re-run `SKILL_ID=amzn1.ask.skill.… bash backend/deploy_alexa.sh` so only your skill can invoke the function.
-Skills in the *Development* stage work on every Alexa device signed in to the developer's Amazon account, with no
-certification.
+**Deploy:** `bash backend/deploy.sh` (creates `cookalong-tv` and the TV endpoints), `bash backend/deploy_alexa.sh`
+(the skill Lambda), then `ask configure` once and `bash alexa/deploy_skill.sh`, which creates the skill (36 intents,
+en-IN / en-US / en-GB, invocation name *cook along*) from `alexa/skill-package/` and builds its language models. Lock the
+Lambda to your skill with `SKILL_ID=amzn1.ask.skill.… bash backend/deploy_alexa.sh`, enable it for testing with
+`ask smapi set-skill-enablement -s <id> -g development`, and try it without a device:
+`SKILL_ID=<id> python tools/alexa_sim.py "tell cook along next step"`. Skills in the *Development* stage also work on
+every Alexa device signed in to the developer's Amazon account, with no certification.
 
 **Tests:** `python -m unittest discover backend` (44 skill tests, including that every phrase's intent has a handler) and
 `AlexaBridgeTest` in the app (spoken ingredients, state JSON, search).

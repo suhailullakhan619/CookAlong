@@ -15,12 +15,11 @@ visible ingredients (paneer, onion, capsicum, tomato, curd, rice), and check `pl
 | 0:40-1:15 | Press Plan dinner. Show "Planning dinner...", then the meal cards, swap ideas, the shopping list and the footer "Planned by an agent on Amazon Nova". The TV reads the summary aloud | "Plan dinner starts an agent built with the Strands SDK. It searches our recipe database with tools, suggests swaps and builds the shopping list. A Bedrock Guardrail keeps it on cooking, and the server checks every fact before it reaches the screen." |
 | 1:15-1:30 | Optional split screen: terminal with the agent's tool trace (`find_recipes, get_recipe, suggest_swap, shopping_list`) | "Every step is a real tool call you can inspect." |
 | 1:30-2:15 | Open a recipe, scale servings, Start Cooking. Show a big step, the step animation, start the step timer, jump to a second timer, hear Read aloud. Press the remote's next-step key | "Cooking mode shows one big step at a time, with timers, animation and read-aloud. It works with just the remote." |
-| 2:15-2:30 | Voice, only the truthful version: say "Alexa, next" to the stick **if you confirm it works on your device**. If not, skip this beat | "On Fire TV, Alexa's next and pause commands drive the steps." |
+| 2:15-2:30 | Voice: speak to the skill. Either say "Alexa, next" to the stick **if you confirmed it on the device**, or show the Alexa Developer Console simulator (or `python tools/alexa_sim.py "tell cook along next step"`) with the TV reacting. Say "Alexa simulator" out loud so it is not mistaken for a real Echo | "Voice works too: next step, a five minute timer, or what can I use instead of cream." |
 | 2:30-2:40 | Turn Wi-Fi off: banner "You're offline. Showing saved recipes." Cooking still works | "No internet? Cooking mode and your saved recipes still work." |
 | 2:40-2:55 | Title card: CookAlong, "Fire TV, AWS Builder, Open Source", repo URL on screen | "CookAlong: built on Fire TV with Amazon Bedrock, Strands, Lambda and DynamoDB. Code is open source." |
 
-**Do not claim** a working Alexa skill on an Echo. If you want to show the skill, show the terminal sending a simulated
-Alexa request and say "simulated Alexa request". The honest status is in `docs/DEVPOST.md`.
+**Do not claim** the skill works on a real Echo or stick unless you tried it there. When you show it through the console or `tools/alexa_sim.py`, say it is the Alexa simulator. The honest status is in `docs/DEVPOST.md`.
 
 **Retakes to plan for:** the plan takes 5 to 15 seconds, so cut the waiting or speed it up and say so. Shoot the fridge
 photo in good light.
