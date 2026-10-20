@@ -8,21 +8,99 @@ Built natively with **Kotlin + Jetpack Compose for TV** (`androidx.tv:tv-materia
 
 **Track:** Fire TV (priority categories: computer vision, multi-modal UX, family entertainment). **Mini challenge:** AWS Builder.
 
-| Feature | What it does | AWS / Amazon tech |
-|---|---|---|
-| **Fridge scan** | Scan a QR code, photograph your fridge with your phone, and the TV lists what you can cook ("Ready to cook" / "Almost there") | Amazon Nova Pro on Amazon Bedrock (vision), Lambda, DynamoDB |
-| **Plan dinner agent** | An agent picks one to three meals from what you have, suggests swaps and builds the shopping list, and the TV shows the plan | Strands Agents SDK on Nova Pro, Bedrock Guardrails, Lambda, DynamoDB |
-| **Voice** | "Alexa, next / pause" work through the Fire TV media session; a custom skill adds timers, ingredient questions, search and "ask the chef" (see the status note in the Alexa section) | Alexa Skills Kit model, Lambda, DynamoDB, Bedrock |
-| **Cooking mode** | One big step at a time, several timers, read aloud, resume after a restart, all offline | Fire OS, Compose for TV |
-| **Recipe library** | 477 recipes (174 Indian), 429 of them online in DynamoDB and synced to the TV, all with credited open licences | DynamoDB, GitHub Pages |
+> **In one line:** point your phone at the fridge, and your Fire TV tells you what you can cook tonight, plans the meal
+> with an AI agent, then walks you through it hands-free, with timers, read-aloud, and your voice.
 
-Where to read more:
-- [docs/AWS.md](docs/AWS.md): architecture diagram, every AWS service and how it is used, and how to deploy it.
-- [docs/DEVPOST.md](docs/DEVPOST.md): the project description, track and mini-challenge answers.
-- [docs/PRODUCT_FEEDBACK.md](docs/PRODUCT_FEEDBACK.md), [docs/FEATURE_REQUESTS.md](docs/FEATURE_REQUESTS.md) and [docs/FRICTION_LOG.md](docs/FRICTION_LOG.md).
-- [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md): the demo video plan.
+### The problem
 
-**What was built in the hackathon window:** everything here. The project was started in October 2026 (the earliest files are dated 2026-10-14 and the first commit is 2026-10-19), after the Aug 31 cut-off for existing projects.
+Cooking from a phone or tablet means greasy screens, tiny text, and a timer app you keep losing. The biggest, easiest
+screen in the house is the TV, but recipe apps are built for phones. And most evenings start the same way: you open the
+fridge with no plan, then spend twenty minutes deciding and shopping for what you're missing. Existing recipe apps also
+skew Western; many families want dal, paneer and sabzi, with swaps for what is actually in the kitchen.
+
+### What I built
+
+| # | Feature | What it does for the cook | How it works |
+|---|---|---|---|
+| 1 | **Fridge scan** (computer vision) | Scan a QR code on the TV, photograph the open fridge with your phone, and the TV shows what you can cook: "Ready to cook" and "Almost there", with exactly what is missing | Phone photo to Lambda to **Amazon Nova Pro on Bedrock** (about 2 s). The TV ranks all 477 recipes with an Indian and international ingredient matcher (capsicum = bell pepper, curd = yogurt, brinjal = aubergine) |
+| 2 | **Plan dinner** (AI agent) | One button turns the ingredients into one to three meals, swap ideas for missing items and a shopping list, read aloud | A **Strands Agents SDK** agent on Nova Pro calls four tools over the recipe database (`find_recipes`, `get_recipe`, `suggest_swap`, `shopping_list`). The server re-checks every fact the TV shows, and a **Bedrock Guardrail** blocks medical or allergy-safety advice |
+| 3 | **Cooking mode** (multi-modal) | One big readable step at a time, a step animation, up to four timers, a chime, read-aloud, resume after a restart. Works with only the remote, and fully offline | Native Kotlin and Jetpack Compose for TV; timers stored as wall-clock end times; text-to-speech with an engine fallback |
+| 4 | **Voice** | "Alexa, next / pause" while cooking; and a custom skill for timers, scaled ingredient answers, recipe search, "what's for dinner" and "ask the chef" | Fire TV media session for the built-in commands; an **Alexa skill** plus Lambda plus a DynamoDB command queue that the TV polls (details below) |
+| 5 | **Recipe library** | 477 recipes (174 Indian), photos with credits, new dishes appear without an app update | DynamoDB catalog synced to the TV; every recipe has a source, licence and credit (based.cooking, Wikibooks Cookbook, HowToCook); 406 credited photos |
+| 6 | **Shopping list to your phone** | Scan a QR code and tick items off in the shop | A web page whose data travels in the URL fragment, so nothing is uploaded |
+| 7 | **Works offline** | A dropped connection never stops a recipe: saved recipes, timers and read-aloud keep working, with a clear "You're offline" notice | Connectivity detection, an offline-first catalog cache and a disk cache for photos |
+
+```mermaid
+flowchart LR
+  A["Phone photo of the fridge"] --> B["Nova Pro (Bedrock)<br/>lists ingredients"]
+  B --> C["TV ranks 477 recipes<br/>Ready / Almost there"]
+  C --> D["Plan dinner<br/>Strands agent + Guardrail"]
+  D --> E["Cooking mode on the TV<br/>steps, timers, read-aloud"]
+  F["Voice: Alexa"] -. "next, timers, ask the chef" .-> E
+```
+
+### Alexa in the kitchen: what works today, and where it goes next
+
+**Today.** An Alexa skill ("cook along") lets any Echo in the home talk to the app on the TV. You pair once by saying the
+six-digit code the TV shows. After that, while a recipe is on the TV, you can say things like:
+
+- "Alexa, tell Cook Along next step" / "go back" / "repeat that" / "go to step 4"
+- "Alexa, tell Cook Along to set a timer for five minutes" / "how long is left"
+- "Alexa, ask Cook Along how much paneer I need" (answered from the TV's scaled list, e.g. "375 grams paneer")
+- "Alexa, ask Cook Along what can I use instead of cream" (answered by Nova, spoken and shown on the TV)
+- "Alexa, tell Cook Along to find paneer butter masala" / "make it for six people" / "what's for dinner"
+
+Fire TV apps can't receive pushes, so the TV polls a small command queue in DynamoDB while the app is on screen. I created the
+skill in an Alexa developer account and tested the whole chain through Alexa's own simulator, with the TV app running on
+an emulator: Alexa's language model picked the right intent for every phrase, and the TV scaled the recipe, started
+cooking, moved to the next step, ran a timer and showed the chef's answer. It is not published and I have not tried it
+on a real Echo.
+
+**Next: kitchens without a TV.** Not every kitchen has a TV, but many have an Echo, and an Echo Show has a screen. The
+same skill is the right foundation: a standalone cooking session kept in the skill (so no TV is needed) and an Alexa
+Presentation Language screen with the current step, ingredients and timers would let the whole experience live on an
+Echo Show. **This part is not built yet**: today the cooking commands need a paired TV, and nothing is drawn on an Echo
+Show.
+
+### How I solved the hard problems
+
+| Problem | What I did |
+|---|---|
+| Claude could not be enabled on an India-billed AWS account (the Marketplace subscription fails, and the error blames IAM) | Moved every AI feature to **Amazon Nova** and benchmarked Nova Pro, Nova 2 Lite and Nova Lite on real food photos before choosing |
+| An AI agent can invent recipes | The agent only chooses and explains; the server re-checks every recipe, diet, time limit, missing item and shopping list against DynamoDB before the TV shows it |
+| An assistant in a kitchen must stay on cooking | A Bedrock Guardrail denies medical and allergy-safety advice, filters abuse and prompt attacks, and masks emails and phone numbers; plans are limited to 12 an hour per TV |
+| Read aloud was silent on a real Fire Stick | Found that the stick's default text-to-speech engine has no voices; the app now tries every installed engine until one has an English voice |
+| A Fire TV app can't learn which Alexa account is speaking | A six-digit pairing code, single use, plus a short per-TV command queue; commands older than 60 seconds are dropped so nothing replays after a restart |
+| The shelf slid on every D-pad press | Replaced Compose's default scroll-into-view with "scroll only when the card would leave the safe area" |
+| Recipes needed to be legal to use | Only open licences (public domain, CC BY, CC BY-SA, Unlicense), each with source and credit shown in the app; photos from Commons and Openverse with author and licence |
+
+### Try it
+
+- **Quick look (no setup):** the demo video, and the screenshots in the verification list below.
+- **Run the app:** open the project in Android Studio or run `./gradlew :app:assembleDebug`, install on a Fire TV or an
+  Android TV emulator (steps under Build, test, run). The live backend URLs are already in
+  `app/src/main/assets/config.json`.
+- **Run the tests:** `./gradlew :app:testDebugUnitTest` (82 app tests) and `python -m unittest discover backend`
+  (61 backend tests; the planner tests need `pip install strands-agents`).
+- **Call the agent directly:** `curl -X POST <plannerApiUrl>/plan -H "content-type: application/json" -d '{"device":"judge-demo-0123456789abcd","ingredients":["paneer","onion","tomato","rice"],"servings":4,"diet":"vegetarian"}'`
+  returns the plan plus the agent's tool-call trace.
+
+### Quality and honest status
+
+- **Verified on a real Fire TV Stick** (Amazon AFTSSS, Fire OS 7): install, launch, all online recipes with photos,
+  read-aloud, cooking flow. Most other testing used an Android TV emulator.
+- **Tests:** 82 app unit tests and 61 backend tests pass.
+- **Not done or not confirmed:** the Alexa skill is not published and was tried only through Alexa's simulator; the
+  "Alexa, next / pause" media commands are unconfirmed by voice on a real stick; Echo Show support is not built; the
+  CloudFormation template validates but the live resources were made with the deploy scripts; Amazon Bedrock AgentCore
+  is not used.
+- **Documentation:** [docs/AWS.md](docs/AWS.md) (architecture diagram and every AWS service),
+  [docs/DEVPOST.md](docs/DEVPOST.md) (project description), [docs/PRODUCT_FEEDBACK.md](docs/PRODUCT_FEEDBACK.md),
+  [docs/FEATURE_REQUESTS.md](docs/FEATURE_REQUESTS.md), [docs/FRICTION_LOG.md](docs/FRICTION_LOG.md) and
+  [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md).
+
+**Built during the hackathon window:** everything here. The project was started in October 2026 (the earliest files are
+dated 2026-10-14 and the first commit is 2026-10-19), after the Aug 31 cut-off for existing projects.
 
 ---
 

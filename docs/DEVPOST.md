@@ -30,9 +30,11 @@ CookAlong is a native Fire TV app for the whole cooking evening:
    on cooking and away from medical or allergy advice.
 3. **Cooking mode (multi-modal).** One big step at a time, readable from across the room, with animation, read-aloud, up to
    four timers, a chime, and resume after a restart. It works with the remote only, and works fully offline.
-4. **Voice.** On Fire TV, "Alexa, next / previous / pause / play" drive the steps and timers through the media session. A
-   custom Alexa skill (created in an Alexa developer account and tested through Alexa's simulator; see "Honest status") adds timers, scaled ingredient answers,
-   recipe search, "what's for dinner" and "ask the chef".
+4. **Voice.** On Fire TV, "Alexa, next / previous / pause / play" drive the steps and timers through the media session.
+   A custom Alexa skill ("cook along") lets any Echo in the home talk to the app on the TV once you pair it with a
+   six-digit code: next step, go to step 4, a five-minute timer, "how much paneer do I need" (scaled to your servings),
+   recipe search, "what's for dinner" and "ask the chef". I created the skill in an Alexa developer account and tested the
+   whole chain through Alexa's simulator with the app running on an emulator (see "Honest status").
 5. **Shopping list to your phone** with a QR code, on any network.
 
 The recipe library has 477 recipes, 174 of them Indian, all from openly licensed sources (based.cooking, Wikibooks
@@ -69,7 +71,7 @@ Nova Pro calls tools reliably and reads food photos well in about two seconds. G
 cooking assistant on topic. On TV, focus and scrolling details decide whether an app feels good.
 
 ### What's next
-Publish the Alexa skill, add push messages through Amazon Device Messaging, more regional recipes, and a Vega OS port.
+Kitchens without a TV: a standalone cooking session kept in the skill plus an Alexa Presentation Language screen, so an Echo Show can show the current step, ingredients and timers by itself (not built yet; today the cooking commands need a paired TV). Also: publish the Alexa skill, push messages through Amazon Device Messaging, more regional recipes, and a Vega OS port.
 
 ## Honest status (so the judges are not surprised)
 - **Tested on a real Fire TV Stick** (AFTSSS, Fire OS 7): install, launch, Home with all online recipes and photos, Read
