@@ -17,7 +17,7 @@ visible ingredients (paneer, onion, capsicum, tomato, curd, rice), and check `pl
 | 1:30-2:15 | Open a recipe, scale servings, Start Cooking. Show a big step, the step animation, start the step timer, jump to a second timer, hear Read aloud. Press the remote's next-step key | "Cooking mode shows one big step at a time, with timers, animation and read-aloud. It works with just the remote." |
 | 2:15-2:30 | Voice: speak to the skill. Either say "Alexa, next" to the stick **if you confirmed it on the device**, or show the Alexa Developer Console simulator (or `python tools/alexa_sim.py "tell cook along next step"`) with the TV reacting. Say "Alexa simulator" out loud so it is not mistaken for a real Echo | "Voice works too: next step, a five minute timer, or what can I use instead of cream." |
 | 2:30-2:40 | Turn Wi-Fi off: banner "You're offline. Showing saved recipes." Cooking still works | "No internet? Cooking mode and your saved recipes still work." |
-| 2:40-2:55 | Title card: CookAlong, "Fire TV, AWS Builder, Open Source", repo URL on screen | "CookAlong: built on Fire TV with Amazon Bedrock, Strands, Lambda and DynamoDB. Code is open source." |
+| 2:40-2:55 | Title card: CookAlong, "Fire TV and AWS Builder", repo URL on screen | "CookAlong: built on Fire TV with Amazon Bedrock, Strands, Lambda and DynamoDB. The code is on GitHub." |
 
 **Do not claim** the skill works on a real Echo or stick unless you tried it there. When you show it through the console or `tools/alexa_sim.py`, say it is the Alexa simulator. The honest status is in `docs/DEVPOST.md`.
 

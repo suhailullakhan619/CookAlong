@@ -6,7 +6,7 @@ Built natively with **Kotlin + Jetpack Compose for TV** (`androidx.tv:tv-materia
 
 ## Amazon Developer Hackathon entry
 
-**Track:** Fire TV (priority categories: computer vision, multi-modal UX, family entertainment). **Mini challenges:** AWS Builder and Open Source.
+**Track:** Fire TV (priority categories: computer vision, multi-modal UX, family entertainment). **Mini challenge:** AWS Builder.
 
 | Feature | What it does | AWS / Amazon tech |
 |---|---|---|

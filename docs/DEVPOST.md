@@ -6,7 +6,7 @@ Copy these answers into the Devpost form. Items marked **TO FILL** need somethin
 - **Project name:** CookAlong
 - **Tagline:** Your Fire TV becomes a hands-free kitchen: scan your fridge, let an AI agent plan dinner, then cook step by step with timers and your voice.
 - **Track:** Fire TV
-- **Mini challenges:** AWS Builder, Open Source
+- **Mini challenge:** AWS Builder (not entering the Open Source challenge)
 - **Code repository:** https://github.com/suhailullakhan619/CookAlong (public, MIT licence)
 - **Demo video:** TO FILL (public YouTube or Vimeo link, under 3 minutes, English)
 - **Built with:** Kotlin, Jetpack Compose for TV, Android/Fire OS, Amazon Bedrock (Amazon Nova Pro, Nova 2 Lite, Guardrails), Strands Agents SDK, AWS Lambda, Amazon DynamoDB, AWS CloudFormation, Alexa Skills Kit, Python, GitHub Pages
@@ -89,13 +89,6 @@ function), Amazon CloudWatch Logs, AWS CloudFormation.
 **How:** see "How it works" above and `docs/AWS.md` (architecture diagram, what each service does, cost and safety controls,
 how to deploy). The agent is a multi-step tool-using design, not a single model call: it chooses which of four tools to
 call, then returns a typed plan that is verified server-side.
-
-## Open Source mini challenge
-- **Contribution URL:** TO FILL
-- **Repo URL:** TO FILL (the new open-source project, or the fork or pull request you make)
-- **GitHub username:** suhailullakhan619
-- **What I did, how it works, why it matters:** TO FILL once the project or pull request exists. The main CookAlong repo
-  is also public with an MIT licence (`LICENSE`).
 
 ## If the project existed before the hackathon
 It did not. Work started in October 2026 (earliest files dated 2026-10-14, first commit 2026-10-19), after the Aug 31
