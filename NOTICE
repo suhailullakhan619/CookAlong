@@ -1,0 +1,14 @@
+CookAlong third-party notices
+
+The CookAlong source code is licensed under the MIT License (see LICENSE).
+
+Libraries used (not copied into this repository; fetched by Gradle or pip):
+- AndroidX, Jetpack Compose and Compose for TV (androidx.tv:tv-material): Apache License 2.0
+- Kotlin and kotlinx (coroutines, serialization): Apache License 2.0
+- ZXing core (com.google.zxing:core), used to draw QR codes: Apache License 2.0.
+  "QR Code" is a registered trademark of DENSO WAVE INCORPORATED.
+- boto3 (AWS SDK for Python) and the Strands Agents SDK, used by the backend: Apache License 2.0
+
+Recipe text and photos are not covered by the MIT License. Each recipe and photo keeps its own open licence
+(public domain, CC0, CC BY, CC BY-SA, Unlicense) and its credit; see CREDITS.md and the "credit" and "license"
+fields stored with every recipe.
