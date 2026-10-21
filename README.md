@@ -489,7 +489,7 @@ tools/               recipe_db.py (validate/upload recipes), photo tools, import
 - App state (recipe, step, 2 running timers) survived a process kill and relaunch with timers still counting.
 - One warm "Ember" theme (DM Serif Display headings, Poppins text), built for a dim kitchen and a 10-foot screen.
 - A missing image shows generated fallback art.
-- The release APK makes no outbound network requests; INTERNET is used only for the LAN shopping-list page.
+- The app talks only to CookAlong's own AWS endpoints listed in `config.json` (recipes, fridge scan, planner, Alexa bridge); there are no analytics or ad SDKs.
 
 **Verified on a real Fire TV Stick (AFTSSS, Fire OS 7):** the app installs and launches, Home shows all 429 online recipes with photos, Read aloud works after the engine-fallback fix (the stick's default text-to-speech engine has no voices; `com.svox.pico` is used instead), and the cooking flow runs.
 

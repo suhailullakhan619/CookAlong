@@ -18,6 +18,7 @@ import androidx.compose.foundation.text.BasicText
 import androidx.compose.foundation.text.TextAutoSize
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -43,6 +44,8 @@ import androidx.compose.animation.core.MutableTransitionState
 import androidx.compose.animation.expandVertically
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalView
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusProperties
@@ -116,6 +119,12 @@ fun CookingScreen(
     actions: CookingActions,
 ) {
     val c = LocalCookColors.current
+    // Hands are busy and a simmer can run for many minutes: keep the TV's screensaver from hiding the recipe.
+    val view = LocalView.current
+    DisposableEffect(view) {
+        view.keepScreenOn = true
+        onDispose { view.keepScreenOn = false }
+    }
     val steps = recipe.orderedSteps
     val step = steps[stepIndex.coerceIn(0, steps.lastIndex)]
     val isLast = stepIndex == steps.lastIndex
@@ -277,18 +286,25 @@ private fun StepPanel(
                 // Use this transition's own step, so the outgoing step keeps its text while it fades out.
                 val shown = recipe.orderedSteps.getOrElse(index) { step }
                 val shownRelated = shown.relatedIngredientIds.mapNotNull { recipe.ingredient(it) }
+                BoxWithConstraints(Modifier.fillMaxSize()) {
+                // With the timer panel open the card is narrower, so chips wrap and the text has less room: a smaller
+                // animation gives it back.
+                val compact = maxWidth < 760.dp || maxHeight < 300.dp
                 Column(
                     Modifier.fillMaxSize(),
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
-                    StepAnimation(StepAction.of(shown), Modifier.size(width = 168.dp, height = 112.dp))
-                    // The step text takes whatever room is left and shrinks (44 → 26 sp) only when it must, so the
+                    StepAnimation(
+                        StepAction.of(shown),
+                        if (compact) Modifier.size(width = 108.dp, height = 72.dp) else Modifier.size(width = 168.dp, height = 112.dp),
+                    )
+                    // The step text takes whatever room is left and shrinks (40 → 20 sp) only when it must, so the
                     // animation, ingredients and hint are never pushed off the panel.
                     Box(Modifier.weight(1f).fillMaxWidth(), contentAlignment = Alignment.Center) {
                         BasicText(
                             shown.instructionText,
                             style = CookType.step.copy(color = c.text, textAlign = TextAlign.Center, lineHeight = 1.25.em),
-                            autoSize = TextAutoSize.StepBased(minFontSize = 26.sp, maxFontSize = CookType.step.fontSize, stepSize = 2.sp),
+                            autoSize = TextAutoSize.StepBased(minFontSize = 20.sp, maxFontSize = CookType.step.fontSize, stepSize = 2.sp),
                             modifier = Modifier.fillMaxWidth().semantics { liveRegion = LiveRegionMode.Polite },
                         )
                     }
@@ -303,8 +319,12 @@ private fun StepPanel(
                     }
                     if (hint.isNotEmpty()) {
                         Spacer(Modifier.height(10.dp))
-                        Text(hint, style = CookType.label.copy(fontSize = 20.sp), color = c.accent)
+                        Text(
+                            hint, style = CookType.label.copy(fontSize = if (compact) 17.sp else 20.sp), color = c.accent,
+                            textAlign = TextAlign.Center,
+                        )
                     }
+                }
                 }
             }
         }

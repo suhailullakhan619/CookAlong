@@ -119,6 +119,28 @@ class Requests(unittest.TestCase):
         self.assertEqual(d.handler(ev("POST", "/plan", "{}"), None)["statusCode"], 400)
 
 
+class Staples(unittest.TestCase):
+    def test_water_at_any_temperature_is_never_on_the_shopping_list(self):
+        for name in ["300 ml warm water (about 70 °C)", "1 cup boiling water", "ice-cold water", "water"]:
+            self.assertTrue(d.is_staple(name), name)
+
+    def test_spices_salts_and_seasonings_are_pantry(self):
+        for name in ["1 tsp kosher salt", "ground black pepper", "1 tsp celery seeds", "onion powder", "chili flakes",
+                     "2 tsp garam masala", "1 tbsp soy sauce", "granulated sugar", "1 tsp vanilla extract", "turmeric"]:
+            self.assertTrue(d.is_staple(name), name)
+
+    def test_real_ingredients_are_not_staples(self):
+        for name in ["warm milk", "2 eggs", "1 green pepper", "2 bell peppers", "mustard greens", "onion", "paneer",
+                     "buttermilk", "tomato sauce"]:
+            self.assertFalse(d.is_staple(name), name)
+
+
+class Optional(unittest.TestCase):
+    def test_optional_and_garnish_items_are_never_missing(self):
+        have, missing = d.match(["2 eggs", "minced garlic (optional)", "parsley, to serve", "cilantro for garnish"], [{"egg"}])
+        self.assertEqual(missing, [])
+
+
 class TrustedSummary(unittest.TestCase):
     def test_keeps_a_consistent_model_sentence(self):
         text = "Tonight, enjoy Paneer Masala. Pick up a few spices."

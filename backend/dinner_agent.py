@@ -83,9 +83,50 @@ def keywords(text):
     return out
 
 
+# "1 cup warm water" is still water: temperature and measure words never make a staple something to buy.
+NOT_IDENTITY = {"warm", "hot", "cold", "boiling", "lukewarm", "iced", "cool", "chilled", "tepid", "filtered", "tap",
+                "cup", "glass", "ml", "litre", "liter", "pinch", "dash", "tbsp", "tsp", "tablespoon", "teaspoon"}
+
+
+# Kept in step with the TV app's RecipeMatcher, so the shopping list and the TV agree on what a kitchen already has.
+SALT_SUGAR_WORDS = {"kosher", "sea", "table", "rock", "fine", "coarse", "flaky", "granulated", "caster", "powdered",
+                    "icing", "brown"}
+PANTRY_FOODS = {frozenset(keywords(f)) for f in [
+    "sugar", "ghee", "turmeric", "cumin", "paprika", "cinnamon", "clove", "cardamom", "bay leaf", "nutmeg", "mace",
+    "saffron", "asafoetida", "carom", "nigella", "star anise", "anise", "allspice", "sumac", "caraway", "kasuri methi",
+    "curry leaf", "amchur", "vanilla", "yeast", "baking soda", "cornstarch", "gelatin", "agar", "msg",
+    "cream of tartar", "xanthan gum", "soy sauce", "worcestershire sauce", "ketchup", "mustard", "rose water",
+    "cooking spray", "liquid smoke", "kewra water",
+]}
+# The last word makes it pantry: "garam masala", "baking powder", "cumin seeds", "chili flakes", "vanilla extract".
+PANTRY_HEADS = {"oil", "salt", "powder", "masala", "seasoning", "spice", "extract", "essence", "seed", "flake",
+                "peppercorn", "vinegar", "bouillon", "sugar", "starch"}
+GROUND_PEPPER = re.compile(r"\b(black|white|ground)\s+pepper\b")
+
+
+# Same rule as the TV app: optional extras and garnishes never count as missing or go on the shopping list.
+OPTIONAL = re.compile(r"\boptional\b|\bto serve\b|\bfor serving\b|garnish|decorat|\bto top\b"
+                      r"|\bfor (dusting|greasing|frying|brushing|topping)\b", re.I)
+
+
+def is_optional(name):
+    return bool(OPTIONAL.search(name))
+
+
 def is_staple(name):
-    k = keywords(name)
-    return bool(k) and (k <= {"salt", "water", "oil", "sugar", "ice"} or ("oil" in k and len(k) <= 2))
+    k = keywords(name) - NOT_IDENTITY - SALT_SUGAR_WORDS
+    if not k:
+        return False
+    if k <= {"salt", "water", "oil", "sugar", "ice"} or ("oil" in k and len(k) <= 2) or frozenset(k) in PANTRY_FOODS:
+        return True
+    base = re.sub(r"\([^)]*\)", " ", name.lower()).split(",")[0]
+    if GROUND_PEPPER.search(base) and "bell" not in base:
+        return True
+    words = re.findall(r"[a-z]+", base)
+    last = words[-1] if words else ""
+    if len(last) > 3 and last.endswith("s") and not last.endswith("ss"):
+        last = last[:-1]
+    return last in PANTRY_HEADS
 
 
 def have_it(ingredient_name, mine):
@@ -100,7 +141,7 @@ def have_it(ingredient_name, mine):
 
 
 def match(recipe_ingredient_names, mine):
-    counted = [n for n in recipe_ingredient_names if not is_staple(n)]
+    counted = [n for n in recipe_ingredient_names if not is_staple(n) and not is_optional(n)]
     have = [n for n in counted if have_it(n, mine)]
     missing = [n for n in counted if n not in have]
     return have, missing
@@ -255,7 +296,7 @@ def shopping(recipe_ids, servings, have_ingredients):
             continue
         factor = servings / max(1, r.get("servings", 1))
         for i in r.get("ingredients", []):
-            if is_staple(i["name"]) or have_it(i["name"], mine):
+            if is_staple(i["name"]) or is_optional(i["name"]) or have_it(i["name"], mine):
                 continue
             key = tuple(sorted(keywords(i["name"])))
             if key in seen:

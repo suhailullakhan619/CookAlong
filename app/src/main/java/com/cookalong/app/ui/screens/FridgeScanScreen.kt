@@ -355,19 +355,19 @@ private fun MatchCard(m: RecipeMatch, modifier: Modifier, onClick: () -> Unit) {
     Column(Modifier.width(272.dp)) {
         // Replaces the card's own description, so screen readers hear what you have and what you need.
         RecipeCard(m.recipe, modifier.semantics { contentDescription = spoken }, onClick)
-        Spacer(Modifier.height(16.dp))
+        Spacer(Modifier.height(12.dp))
+        // One line, so it always fits under the card on a 1080p TV; the full list is in the spoken description.
         Text(
             buildAnnotatedString {
                 if (need.isEmpty()) {
-                    withStyle(SpanStyle(color = c.accent, fontWeight = FontWeight.Bold)) { append("✓ You have everything") }
-                    append(" · nothing to buy")
+                    withStyle(SpanStyle(color = c.accent, fontWeight = FontWeight.Bold)) { append("✓ Nothing to buy") }
                 } else {
-                    withStyle(SpanStyle(color = c.text, fontWeight = FontWeight.Bold)) { append("You have ${m.have.size} of ${m.needed}") }
+                    withStyle(SpanStyle(color = c.text, fontWeight = FontWeight.Bold)) { append("${m.have.size} of ${m.needed}") }
                     append(" · Need: ")
                     append(need.joinToString(", "))
                 }
             },
-            style = CookType.label, color = c.textMuted, maxLines = 2, overflow = TextOverflow.Ellipsis,
+            style = CookType.label, color = c.textMuted, maxLines = 1, overflow = TextOverflow.Ellipsis,
             modifier = Modifier.padding(horizontal = 4.dp),
         )
     }
