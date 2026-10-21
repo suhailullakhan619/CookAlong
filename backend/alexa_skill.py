@@ -1,7 +1,7 @@
 """CookAlong Alexa skill - custom skill backend (AWS Lambda, Python 3.12, no third-party packages).
 
 Lets any Echo on the user's Amazon account, or the Alexa button on the Fire TV remote, drive CookAlong on the TV:
-  "Alexa, ask Cook Along to pair with 482157"        (one time: the TV shows the code)
+  "Alexa, tell Cook Along my code is 482157"       (one time: the TV shows the code)
   "Alexa, tell Cook Along next step"                 "...go to step 4"         "...repeat that"
   "Alexa, tell Cook Along to set a timer for 5 minutes"   "...add 2 minutes"  "...how long is left"
   "Alexa, ask Cook Along how much rice I need"       "...what can I use instead of cream"
@@ -34,7 +34,7 @@ CHEF_BUDGET_SECONDS = 4.5   # don't start a second model once the first has used
 MAX_TIMER_SECONDS = 3 * 3600
 
 NOT_LINKED = ("Your TV isn't connected yet. On your Fire TV, open Cook Along and choose Connect Alexa. "
-              "Then say: Alexa, ask Cook Along to pair with, and the six digit code.")
+              "Then say: Alexa, tell Cook Along my code is, and the six digit code.")
 TV_OFF = "I can't reach Cook Along on your TV. Open the app on your Fire TV, then try again."
 NOT_COOKING = "You're not cooking a recipe right now. Pick one on your TV, then say: start cooking."
 NO_RECIPE = "Open a recipe on your TV first, or say: find, and the name of a dish."

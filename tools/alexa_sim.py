@@ -5,7 +5,7 @@
 Needs the ASK CLI signed in (`ask configure`) and the skill enabled for testing
 (`ask smapi set-skill-enablement -s <id> -g development`). The text goes through Alexa's real language understanding,
 so the reply shows which intent Alexa picked; the skill Lambda then runs exactly as it would for a spoken request.
-Pair a TV first: open Connect Alexa on the TV, then `python tools/alexa_sim.py "ask cook along to pair with one two three four five six"`.
+Pair a TV first: open Connect Alexa on the TV, then `python tools/alexa_sim.py "tell cook along my code is one two three four five six"`.
 """
 import json
 import os

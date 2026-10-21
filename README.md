@@ -292,7 +292,7 @@ I checked Amazon's current docs ([Voice-enabling transport controls with MediaSe
 > phrase. It has **not been tried by voice on a real Echo or Fire TV** and is not published. The plain
 > "Alexa, next / pause" media commands below need no skill.
 
-**Connect Alexa** on Home shows a 6-digit code. Say *"Alexa, ask Cook Along to pair with 4 8 2 1 5 7"* once. After
+**Connect Alexa** on Home shows a 6-digit code. Say *"Alexa, tell Cook Along my code is 4 8 2 1 5 7"* once (not "pair": Alexa takes that word for Bluetooth). After
 that, any Echo on the same Amazon account, or the Alexa button on the remote, drives the TV while CookAlong is on screen:
 
 | Say "Alexa, tell/ask Cook Along…" | What happens |

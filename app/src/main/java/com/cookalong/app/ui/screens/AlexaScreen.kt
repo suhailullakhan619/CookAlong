@@ -90,7 +90,7 @@ private fun PairCode(code: String, offline: Boolean, onCancel: () -> Unit) {
         Text("Say to Alexa:", style = CookType.title, color = c.textMuted)
         Spacer(Modifier.height(10.dp))
         Text(
-            "“Alexa, ask Cook Along to pair with $spaced”",
+            "“Alexa, tell Cook Along my code is $spaced”",
             style = CookType.headline, color = c.text,
         )
         Spacer(Modifier.height(24.dp))
