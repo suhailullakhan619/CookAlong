@@ -4,6 +4,7 @@
 #   npm install -g ask-cli && ask configure     # once: sign in with your Amazon developer account
 #   bash backend/deploy_alexa.sh                # the skill Lambda (eu-west-1) must exist first
 #   bash alexa/deploy_skill.sh                  # creates the skill and builds its language models
+#   SKILL_ID=amzn1.ask.skill.... bash alexa/deploy_skill.sh   # updates that existing skill instead
 #   SKILL_ID=amzn1.ask.skill.... bash backend/deploy_alexa.sh    # lock the Lambda to that skill
 #
 # The skill package in this repo has a placeholder endpoint (__LAMBDA_ARN__) so no AWS account id is committed. This
@@ -18,7 +19,7 @@ TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
 cp -r "$HERE/skill-package" "$TMP/skill-package"
-python - "$TMP" "arn:aws:lambda:$REGION:$ACCOUNT:function:cookalong-alexa" <<'EOF'
+python - "$TMP" "arn:aws:lambda:$REGION:$ACCOUNT:function:cookalong-alexa" "${SKILL_ID:-}" <<'EOF'
 import json
 import shutil
 import sys
@@ -34,6 +35,13 @@ for locale in ("en-IN", "en-GB"):
 json.dump({"askcliResourcesVersion": "2020-03-31",
            "profiles": {"default": {"skillMetadata": {"src": "./skill-package"}}}},
           open(root + "/ask-resources.json", "w"), indent=2)
+skill_id = sys.argv[3] if len(sys.argv) > 3 else ""
+if skill_id:  # update the existing skill instead of creating a new one
+    import os
+    os.makedirs(root + "/.ask", exist_ok=True)
+    json.dump({"askcliStatesVersion": "2020-03-31",
+               "profiles": {"default": {"skillId": skill_id, "skillMetadata": {"lastDeployHash": ""}}}},
+              open(root + "/.ask/ask-states.json", "w"), indent=2)
 EOF
 
 cd "$TMP"

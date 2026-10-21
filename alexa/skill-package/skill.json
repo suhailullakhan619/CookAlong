@@ -18,7 +18,9 @@
             "fire tv",
             "kitchen",
             "timer"
-          ]
+          ],
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
         },
         "en-US": {
           "name": "Cook Along",
@@ -35,7 +37,9 @@
             "fire tv",
             "kitchen",
             "timer"
-          ]
+          ],
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
         },
         "en-GB": {
           "name": "Cook Along",
@@ -52,7 +56,9 @@
             "fire tv",
             "kitchen",
             "timer"
-          ]
+          ],
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
         }
       },
       "isAvailableWorldwide": false,
