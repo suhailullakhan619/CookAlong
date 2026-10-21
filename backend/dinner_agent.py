@@ -329,6 +329,26 @@ def plan_dinner(ingredients, servings, diet, max_minutes):
     return finalize(plan, ingredients, servings, diet, max_minutes), list(TRACE)
 
 
+# Phrases that claim there is nothing to buy; the model can be wrong about that, the shopping list can't.
+NOTHING_TO_BUY = re.compile(r"no shopping|nothing to (buy|shop|get)|everything you need|you have everything|already have (it all|everything)", re.I)
+
+
+def trusted_summary(model_summary, titles, to_buy):
+    """Keep the model's friendly sentence only if it agrees with the verified facts; otherwise say it from the facts.
+
+    The model once said "No shopping needed" while the list had nine items. The spoken summary must never contradict
+    the screen, so a claim about shopping or any number in it makes us fall back to a sentence built from the data.
+    """
+    text = (model_summary or "").strip()
+    names = " and ".join([", ".join(titles[:-1]), titles[-1]] if len(titles) > 1 else titles)
+    wrong_claim = bool(to_buy) and bool(NOTHING_TO_BUY.search(text))
+    if text and not wrong_claim and not re.search(r"[0-9]", text) and len(text) <= 240:
+        return text
+    if to_buy == 0:
+        return f"Tonight: {names}. You have everything you need."
+    return f"Tonight: {names}. You'll need to pick up {to_buy} {'item' if to_buy == 1 else 'items'}; the list is on your screen."
+
+
 def finalize(plan, ingredients, servings, diet, max_minutes):
     """Replace anything the TV will show with ground truth from the database; drop meals the agent made up."""
     mine = [keywords(i) for i in ingredients if keywords(i)]
@@ -344,8 +364,12 @@ def finalize(plan, ingredients, servings, diet, max_minutes):
         meals.append({"recipeId": r["id"], "title": r["title"], "minutes": int(r.get("totalMinutes", 0)), "why": m.why,
                       "have": len(have), "total": len(have) + len(missing), "missing": missing[:6], "swaps": m.swaps[:3]})
     ids = [m["recipeId"] for m in meals]
-    return {"summary": plan.summary if meals else "I couldn't find a good match. Try adding a few more ingredients.",
-            "meals": meals, "shoppingList": shopping(ids, servings, ingredients)[:20], "tip": plan.tip}
+    shopping_list = shopping(ids, servings, ingredients)[:20]
+    if meals:
+        summary = trusted_summary(plan.summary, [m["title"] for m in meals], len(shopping_list))
+    else:
+        summary = "I couldn't find a good match. Try adding a few more ingredients."
+    return {"summary": summary, "meals": meals, "shoppingList": shopping_list, "tip": plan.tip}
 
 
 # ---- Lambda entry point --------------------------------------------------------------------------------------------

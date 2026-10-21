@@ -119,6 +119,28 @@ class Requests(unittest.TestCase):
         self.assertEqual(d.handler(ev("POST", "/plan", "{}"), None)["statusCode"], 400)
 
 
+class TrustedSummary(unittest.TestCase):
+    def test_keeps_a_consistent_model_sentence(self):
+        text = "Tonight, enjoy Paneer Masala. Pick up a few spices."
+        self.assertEqual(d.trusted_summary(text, ["Paneer Masala"], 3), text)
+
+    def test_replaces_a_false_nothing_to_buy_claim(self):
+        out = d.trusted_summary("Enjoy Jeera Rice and Malai Mix Veg. No shopping needed.", ["Jeera Rice", "Malai Mix Veg"], 9)
+        self.assertEqual(out, "Tonight: Jeera Rice and Malai Mix Veg. You'll need to pick up 9 items; the list is on your screen.")
+
+    def test_nothing_to_buy_claim_is_fine_when_the_list_is_empty(self):
+        text = "You have everything you need for Jeera Rice."
+        self.assertEqual(d.trusted_summary(text, ["Jeera Rice"], 0), text)
+
+    def test_numbers_in_the_model_text_are_not_trusted(self):
+        out = d.trusted_summary("Ready in 45 minutes: Dal.", ["Dal"], 1)
+        self.assertEqual(out, "Tonight: Dal. You'll need to pick up 1 item; the list is on your screen.")
+
+    def test_empty_model_text_falls_back_and_three_titles_read_well(self):
+        out = d.trusted_summary("", ["A", "B", "C"], 0)
+        self.assertEqual(out, "Tonight: A, B and C. You have everything you need.")
+
+
 class DailyCap(unittest.TestCase):
     class FakeTable:
         def __init__(self, fail=False):
