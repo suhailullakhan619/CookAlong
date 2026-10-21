@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CookAlong · Your TV is the new kitchen screen</title>
+  <meta name="description" content="CookAlong turns your Fire TV into a hands-free cooking companion. Scan your fridge, plan dinner with an AI agent, and cook step by step with timers, read-aloud and Alexa.">
+  <meta name="theme-color" content="#14110F">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2314110F'/%3E%3Cpath d='M18 30h28v6a14 14 0 0 1-28 0z' fill='%23F2B04F'/%3E%3Cpath d='M26 14c-2 4 2 6 0 10M34 12c-2 4 2 6 0 10M42 14c-2 4 2 6 0 10' stroke='%23F5EDE3' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+    <div class="grain"></div>
+  </div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#top" class="logo">Cook<span>Along</span></a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#film">Film</a>
+      <a href="#demo">Try it</a>
+      <a href="#speak">Read aloud</a>
+      <a href="#voice">Voice</a>
+      <a href="#built">Built with</a>
+    </nav>
+    <a href="#get" class="btn btn-sm btn-accent magnetic">Get the app</a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="dot"></span> Native on Amazon Fire TV</p>
+        <h1 class="hero-title">
+          <span class="line"><span class="word">Your</span> <span class="word">TV</span> <span class="word">is</span> <span class="word">the</span></span>
+          <span class="line"><span class="word">new</span> <em class="word shine">kitchen</em> <span class="word">screen.</span></span>
+        </h1>
+        <p class="hero-sub reveal">Snap your fridge with your phone. CookAlong tells you what you can cook tonight, plans the meal with an AI agent, then walks you through it hands-free with big steps, timers, read-aloud and Alexa.</p>
+        <div class="hero-cta reveal">
+          <a href="#get" class="btn btn-accent magnetic">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v10H4zM9 20h6M12 16v4" /></svg>
+            Install on Fire TV
+          </a>
+          <a href="#how" class="btn btn-ghost magnetic">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+            See how it works
+          </a>
+        </div>
+        <ul class="hero-meta reveal">
+          <li><strong data-count="477">0</strong> recipes</li>
+          <li><strong>Polly</strong> voice</li>
+          <li><strong>Offline</strong> cooking</li>
+          <li><strong>No</strong> account</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <div class="tv tilt" id="heroTv">
+          <div class="tv-screen">
+            <video src="assets/cooking-loop.mp4" poster="assets/shots/cooking.jpg" autoplay muted loop playsinline></video>
+            <div class="tv-glare"></div>
+          </div>
+          <div class="tv-stand"></div>
+        </div>
+        <div class="float-card fc-timer">
+          <div class="ring"><svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="19"/><circle class="ring-fg" cx="22" cy="22" r="19"/></svg>
+            <svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M9 2h6"/></svg></div>
+          <div><small>Pasta timer</small><b class="mono" id="heroTimer">9:00</b></div>
+        </div>
+        <div class="float-card fc-alexa">
+          <span class="mic"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span>
+          <div><small>Alexa</small><b>“Next step”</b></div>
+          <span class="bars"><i></i><i></i><i></i><i></i></span>
+        </div>
+        <div class="float-card fc-ready">
+          <span class="check">✓</span>
+          <div><small>Fridge scan</small><b>Ready to cook · 10</b></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#marquee" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <section class="marquee-wrap" id="marquee" aria-label="Recipe photos">
+      <div class="marquee" data-row="0"></div>
+      <div class="marquee reverse" data-row="1"></div>
+      <p class="marquee-cap reveal">477 recipes, 174 of them Indian. Dal, dosa, biryani, pad thai, paella, tiramisu, and new dishes arrive without an app update.</p>
+    </section>
+
+    <!-- HOW IT WORKS (sticky scroll) -->
+    <section class="how" id="how">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span class="dot"></span> From fridge to fork</p>
+        <h2>One evening, <em>one flow.</em></h2>
+        <p>Most dinners start with an open fridge and no plan. CookAlong starts right there.</p>
+      </div>
+
+      <div class="how-grid">
+        <div class="how-steps">
+          <article class="how-step" data-shot="scan">
+            <span class="num">01</span>
+            <h3>Scan the fridge</h3>
+            <p>Scan the QR code on the TV and photograph your open fridge. Amazon Nova Pro on Bedrock lists what's inside in about two seconds.</p>
+            <ul class="tags"><li>Computer vision</li><li>~2 s</li></ul>
+          </article>
+          <article class="how-step" data-shot="plan">
+            <span class="num">02</span>
+            <h3>Plan dinner</h3>
+            <p>An AI agent turns those ingredients into one to three meals, suggests swaps for what's missing, and builds the shopping list. It reads the plan aloud.</p>
+            <ul class="tags"><li>Strands agent</li><li>Bedrock Guardrail</li></ul>
+          </article>
+          <article class="how-step" data-shot="cooking">
+            <span class="num">03</span>
+            <h3>Cook hands-free</h3>
+            <p>One big readable step at a time, across the room. Timers start from the step itself, with a chime when they're done.</p>
+            <ul class="tags"><li>Up to 4 timers</li><li>Read-aloud</li></ul>
+          </article>
+          <article class="how-step" data-shot="alexa">
+            <span class="num">04</span>
+            <h3>Just say it</h3>
+            <p>Flour on your hands? “Alexa, next step.” Ask how much paneer you need, or what to use instead of cream.</p>
+            <ul class="tags"><li>Alexa skill</li><li>Remote optional</li></ul>
+          </article>
+        </div>
+
+        <div class="how-stage">
+          <div class="stage-sticky">
+            <div class="tv tv-flat">
+              <div class="tv-screen">
+                <img src="assets/shots/scan.jpg" alt="Fridge scan results: you can cook 10 recipes right now" data-shot="scan" class="active">
+                <img src="assets/shots/plan.jpg" alt="Tonight's dinner plan for 2 people" data-shot="plan">
+                <img src="assets/shots/cooking.jpg" alt="Cooking mode showing step 3 of 7 with a garlic timer" data-shot="cooking">
+                <img src="assets/shots/alexa.jpg" alt="Alexa moving cooking mode to the next step" data-shot="alexa">
+                <div class="tv-glare"></div>
+              </div>
+            </div>
+            <div class="stage-dots"><i class="on"></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FILM -->
+    <section class="film" id="film">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span class="dot"></span> Watch it work</p>
+        <h2>See it on <em>a real TV.</em></h2>
+        <p>Every screen in the film was recorded on a Fire TV Stick. The voices are Amazon Polly.</p>
+      </div>
+      <div class="film-frame reveal spot" id="filmFrame">
+        <video id="filmVideo" src="assets/demo.mp4" poster="assets/demo-poster.jpg" preload="none" playsinline controls></video>
+        <button class="film-play" id="filmPlay" aria-label="Play the demo film">
+          <span class="film-ring"></span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="film-chips" aria-hidden="true">
+          <span>Fridge scan</span><span>Plan dinner</span><span>Cooking</span><span>Alexa</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES BENTO -->
+    <section class="features" id="features">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span class="dot"></span> Everything on the biggest screen</p>
+        <h2>Built for a <em>10-foot</em> kitchen.</h2>
+      </div>
+      <div class="bento">
+        <article class="card c-wide spot reveal">
+          <div class="card-media"><img src="assets/shots/home.jpg" alt="CookAlong home screen with recipe shelves" loading="lazy"></div>
+          <div class="card-body">
+            <span class="chip">Recipe library</span>
+            <h3>477 credited recipes, on shelves you browse with a remote.</h3>
+            <p>Scale servings and every quantity follows. The catalog syncs from the cloud, so new dishes appear without an update.</p>
+          </div>
+        </article>
+        <article class="card spot reveal">
+          <div class="icon-tile"><svg viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="4"/></svg></div>
+          <h3>Smart ingredient matching</h3>
+          <p>Knows that capsicum is bell pepper, curd is yogurt and brinjal is aubergine.</p>
+          <div class="swap"><span>capsicum</span><i>=</i><span>bell pepper</span></div>
+        </article>
+        <article class="card spot reveal">
+          <div class="icon-tile"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM18 18h3v3h-3zM14 20h1M20 14h1"/></svg></div>
+          <h3>List to your phone</h3>
+          <p>Scan a QR code and tick items off in the shop. The list rides in the URL fragment, so nothing is uploaded.</p>
+        </article>
+        <article class="card spot reveal">
+          <div class="icon-tile"><svg viewBox="0 0 24 24"><path d="M2 8.5a15 15 0 0 1 20 0M5 12a10 10 0 0 1 14 0M8.5 15.5a5 5 0 0 1 7 0"/><path d="M3 3l18 18"/><circle cx="12" cy="19" r="1"/></svg></div>
+          <h3>Works offline</h3>
+          <p>A dropped connection never stops a recipe. Saved recipes, timers and read-aloud keep going.</p>
+        </article>
+        <article class="card spot reveal">
+          <div class="icon-tile"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M9 2h6"/></svg></div>
+          <h3>Timers that survive</h3>
+          <p>Up to four at once, stored as wall-clock end times, so they stay right even after a restart.</p>
+          <div class="mini-timers"><span>Pasta <b>8:42</b></span><span>Garlic <b>1:15</b></span></div>
+        </article>
+        <article class="card c-wide c-guard spot reveal">
+          <div class="card-body">
+            <span class="chip">Responsible AI</span>
+            <h3>Every fact re-checked. Unsafe advice blocked.</h3>
+            <p>The server verifies every recipe and quantity the agent mentions before the TV shows it. A Bedrock Guardrail blocks medical and allergy-safety advice.</p>
+          </div>
+          <div class="shield" aria-hidden="true">
+            <svg viewBox="0 0 120 140"><path d="M60 6 110 26v40c0 34-22 58-50 68C32 124 10 100 10 66V26z"/><path class="tick" d="M38 70l15 15 30-32"/></svg>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE DEMO -->
+    <section class="demo" id="demo">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span class="dot"></span> Try cooking mode</p>
+        <h2>Step by step, <em>across the room.</em></h2>
+        <p>Use the arrows, or your keyboard's ← →. Start a timer from a step, just like on the TV.</p>
+      </div>
+      <div class="cook reveal" id="cook" tabindex="0" aria-label="Cooking mode demo">
+        <div class="cook-top">
+          <span class="cook-title">Lemon Garlic Spaghetti</span>
+          <span class="cook-count">Step <b id="stepNo">1</b> of <b id="stepTotal">5</b></span>
+        </div>
+        <div class="cook-bars" id="cookBars"></div>
+        <div class="cook-card">
+          <button class="cook-arrow prev" aria-label="Previous step">‹</button>
+          <div class="cook-inner">
+            <div class="cook-emoji" id="stepEmoji">🍲</div>
+            <p class="cook-text" id="stepText"></p>
+            <div class="cook-ings" id="stepIngs"></div>
+            <button class="cook-timer-hint" id="stepTimer" hidden></button>
+          </div>
+          <button class="cook-arrow next" aria-label="Next step">›</button>
+        </div>
+        <div class="cook-actions">
+          <div class="cook-timers" id="cookTimers"></div>
+          <span class="pill"><svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4zM15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg> Read aloud: On</span>
+          <span class="pill"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg> Phone list</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- READ ALOUD + ONLINE / OFFLINE -->
+    <section class="speak" id="speak">
+      <div class="speak-grid">
+        <div class="speak-copy reveal">
+          <p class="eyebrow"><span class="dot"></span> Read aloud</p>
+          <h2>A voice like a person. <em>Even offline.</em></h2>
+          <p>Online, every step is spoken by Amazon Polly's natural generative voice. Each sentence is fetched once and kept
+            on the TV, and the next step is fetched ahead, so moving on is instant. If the internet drops, or the service is
+            busy, the TV's own voice takes over mid-recipe. Nobody has to switch anything.</p>
+          <ul class="voice-list">
+            <li>Steps, timer alerts, fridge-scan and dinner-plan summaries</li>
+            <li>Cached on the TV: a recipe's voice costs nothing the second time</li>
+            <li>Falls back to the TV's own voice within one request</li>
+          </ul>
+        </div>
+        <div class="speak-card reveal spot" id="speakCard" data-mode="online">
+          <div class="speak-switch" role="radiogroup" aria-label="Connection">
+            <button role="radio" aria-checked="true" data-mode="online">Online</button>
+            <button role="radio" aria-checked="false" data-mode="offline">Offline</button>
+            <span class="speak-thumb" aria-hidden="true"></span>
+          </div>
+          <div class="speak-now">
+            <span class="speak-engine" id="speakEngine">Amazon Polly · generative voice</span>
+            <p class="speak-line">“Step 2. Add the spaghetti and stir. Cook until just al dente, about 9 minutes.”</p>
+          </div>
+          <button class="speak-play" id="speakPlay">
+            <span class="speak-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="speak-label" id="speakLabel">Hear the step</span>
+          </button>
+          <p class="speak-note" id="speakNote">The real Polly audio the TV plays.</p>
+        </div>
+      </div>
+
+      <div class="modes reveal">
+        <div class="modes-head"><span></span><b class="on">Online</b><b class="off">Offline, or a service fails</b></div>
+        <div class="mode-row"><span>Read aloud</span><p>Amazon Polly's natural voice, cached on the TV</p><p>The TV's own text-to-speech, automatically</p></div>
+        <div class="mode-row"><span>Recipes</span><p>New dishes sync from DynamoDB, no app update</p><p>Bundled and saved recipes, with a clear notice</p></div>
+        <div class="mode-row"><span>Photos</span><p>Downloaded and cached</p><p>Cached photos, or art drawn in code</p></div>
+        <div class="mode-row"><span>Fridge scan</span><p>Amazon Nova reads the photo in about 2 s</p><p>Says it needs the internet; reconnects by itself</p></div>
+        <div class="mode-row"><span>Plan dinner</span><p>Strands agent on Nova, facts checked in DynamoDB</p><p>A clear error; pick a recipe by hand instead</p></div>
+        <div class="mode-row"><span>Alexa</span><p>Commands reach the TV in about a second</p><p>Pauses, then resumes; the remote always works</p></div>
+        <div class="mode-row"><span>Cooking &amp; timers</span><p>No network needed</p><p>Exactly the same</p></div>
+      </div>
+    </section>
+
+    <!-- VOICE -->
+    <section class="voice" id="voice">
+      <div class="voice-grid">
+        <div class="voice-copy reveal">
+          <p class="eyebrow"><span class="dot"></span> Alexa in the kitchen</p>
+          <h2>Hands busy? <em>Just ask.</em></h2>
+          <p>Pair once with a six-digit code on the TV. After that, any Echo in the home can drive the recipe on screen: steps, timers, scaled quantities and cooking questions, answered by Nova and shown on the TV.</p>
+          <ul class="voice-list">
+            <li>Next, back, repeat, or go to step 4</li>
+            <li>Set and check timers by voice</li>
+            <li>“How much paneer do I need?” from the scaled list</li>
+            <li>“What's for dinner?” and “ask the chef”</li>
+          </ul>
+        </div>
+        <div class="voice-stage reveal">
+          <div class="echo">
+            <div class="echo-ring"></div>
+            <div class="echo-wave"><i></i><i></i><i></i></div>
+          </div>
+          <div class="bubble you"><small>You</small><p id="voiceAsk">&nbsp;</p></div>
+          <div class="bubble tv"><small>CookAlong</small><p id="voiceReply">&nbsp;</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" aria-label="By the numbers">
+      <div class="stat reveal"><b data-count="477">0</b><span>recipes</span></div>
+      <div class="stat reveal"><b data-count="174">0</b><span>Indian dishes</span></div>
+      <div class="stat reveal"><b data-count="406">0</b><span>credited photos</span></div>
+      <div class="stat reveal"><b>~<span data-count="2">0</span>s</b><span>fridge scan</span></div>
+      <div class="stat reveal"><b data-count="3.9" data-dec="1">0</b><span>MB APK</span></div>
+    </section>
+
+    <!-- ARCHITECTURE -->
+    <section class="built" id="built">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span class="dot"></span> Under the hood</p>
+        <h2>Native on the TV. <em>Serverless</em> in the cloud.</h2>
+      </div>
+      <div class="arch arch2 reveal">
+        <svg class="arch-lines" viewBox="0 0 1000 440" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M150 70 C 260 70, 260 220, 360 220"/>
+          <path d="M150 220 L 360 220"/>
+          <path d="M150 370 C 260 370, 260 220, 360 220"/>
+          <path d="M520 220 C 620 220, 620 55, 720 55"/>
+          <path d="M520 220 C 620 220, 620 165, 720 165"/>
+          <path d="M520 220 C 620 220, 620 275, 720 275"/>
+          <path d="M520 220 C 620 220, 620 385, 720 385"/>
+        </svg>
+        <div class="node a1"><i class="glyph"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></i><b>Phone</b><small>One fridge photo</small></div>
+        <div class="node a2 hl"><i class="glyph"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></i><b>Fire TV app</b><small>Kotlin · Compose for TV</small></div>
+        <div class="node a3"><i class="glyph"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></i><b>Alexa skill</b><small>Voice commands</small></div>
+        <div class="node a4 hl"><img src="assets/aws/Lambda.png" alt=""><b>AWS Lambda</b><small>Function URLs</small></div>
+        <div class="node a5"><img src="assets/aws/Bedrock.png" alt=""><b>Amazon Bedrock</b><small>Nova reads the photo</small></div>
+        <div class="node a6"><i class="glyph"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="18" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="M11 7 6 16M13 7l5 9M7.5 18h9"/></svg></i><b>Strands agent</b><small>+ Bedrock Guardrails</small></div>
+        <div class="node a7"><img src="assets/aws/DynamoDB.png" alt=""><b>Amazon DynamoDB</b><small>477 recipes · pairing</small></div>
+        <div class="node a8"><img src="assets/aws/Polly.png" alt=""><b>Amazon Polly</b><small>Natural read-aloud</small></div>
+      </div>
+      <ul class="stack reveal">
+        <li>Kotlin</li><li>Jetpack Compose for TV</li><li>Amazon Bedrock</li><li>Amazon Nova Pro</li><li>Strands Agents SDK</li><li>Bedrock Guardrails</li><li>AWS Lambda</li><li>Amazon DynamoDB</li><li>Amazon Polly</li><li>Alexa Skills Kit</li><li>Fire OS</li>
+      </ul>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="get">
+      <div class="cta-card reveal spot">
+        <h2>Tonight, cook <em>along.</em></h2>
+        <p>One ~4 MB APK. No Google Play services, so it runs on Fire OS, and it side-loads on Fire tablets too.</p>
+        <div class="code">
+          <span class="prompt">$</span>
+          <code id="cmd">adb install -r app-release.apk</code>
+          <button class="copy" id="copyBtn" aria-label="Copy command">Copy</button>
+        </div>
+        <div class="hero-cta center">
+          <a href="#top" class="btn btn-accent magnetic">Back to top</a>
+          <a href="#how" class="btn btn-ghost magnetic">Watch the flow again</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="foot-top">
+      <a href="#top" class="logo">Cook<span>Along</span></a>
+      <p>A hands-free recipe companion for Amazon Fire TV. Built for the Amazon Developer Hackathon, Fire TV track.</p>
+    </div>
+    <details class="credits">
+      <summary>Photo credits</summary>
+      <p>Recipe photos come from based.cooking (public domain) and Wikimedia Commons, under the licences listed. App screenshots are from CookAlong. Service icons: AWS Architecture
+        Icons (CC BY-ND 2.0). Voice samples: Amazon Polly.</p>
+      <ul id="creditList"></ul>
+    </details>
+    <p class="fine">© 2026 CookAlong. Amazon, Fire TV, Alexa and AWS are trademarks of Amazon.com, Inc. or its affiliates.</p>
+  </footer>
+
+  <script src="main.js?v=2"></script>
+</body>
+</html>
