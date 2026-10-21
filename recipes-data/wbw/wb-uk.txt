@@ -1,0 +1,602 @@
+!source wikibooks
+
+@ anzac-biscuits | Anzac Biscuits | Chewy, crisp oat and coconut biscuits sweetened with golden syrup, a classic Australian and New Zealand bake. | 15 | 20 | 20 | australian,sweet,baking | Cookbook:Anzac Biscuits I
+- 2 cups plain flour
+- 1 cup sugar
+- 2 cups rolled oats
+- 1 cup desiccated coconut
+- 4 tbsp golden syrup
+- 225 g butter
+- 1 tsp baking soda
+- 2 tbsp water
+> Preheat the oven to 150 °C (300 °F).
+> Mix the plain flour, sugar, rolled oats and desiccated coconut in a bowl.
+> Melt the golden syrup and butter in a saucepan, then stir in the baking soda and water.
+> Mix the wet and dry ingredients together, adding a little more water if needed.
+> Roll the mixture into small balls and flatten them on baking trays.
+> Bake for 20 minutes, until golden brown. {t=1200 Bake}
+
+@ flapjacks | Flapjacks | Chewy British oat bars made with butter, brown sugar and golden syrup, baked in a tin and cut into oblongs. | 10 | 40 | 12 | british,sweet,baking | Cookbook:Basic Flapjacks
+- 110 g light brown sugar
+- 175 g butter
+- 1 tbsp golden syrup
+- 175 g rolled oats
+> Preheat the oven to 150 °C (300 °F).
+> Heat the sugar, butter and golden syrup in a medium saucepan until the butter has melted.
+> Take the pan off the heat and stir in the rolled oats.
+> Press the mixture over the base of a lightly greased 19 cm square baking tin.
+> Bake in the centre of the oven for 40 minutes. {t=2400 Bake}
+> Cool in the tin for 10 minutes, then cut into oblong bars. {t=600 Cool}
+> Leave until cold before lifting the flapjacks out, and store in an airtight container. {notimer}
+
+@ scones | Scones | Light, golden British tea scones, served split with jam and cream. | 15 | 11 | 10 | british,baking,sweet | Cookbook:Plain Scones
+- 450 g plain flour
+- 1/2 tsp salt
+- 2 tsp baking powder
+- 3 tbsp caster sugar
+- 5 tbsp cold butter, cut into pieces
+- 1 egg
+- 150 ml heavy cream, plus extra for brushing
+- fruit jam, to serve
+> Preheat the oven to 230 °C (450 °F).
+> Pulse the plain flour, salt, baking powder and 2 tbsp of the caster sugar in a food processor. Add the butter and pulse to a cornmeal texture.
+> Add the egg and just enough heavy cream to make a slightly sticky dough.
+> Turn the dough onto a floured surface, knead once or twice and press into a 2 cm thick circle. Cut out 5 cm rounds.
+> Place the rounds on an ungreased baking sheet and reshape the leftover dough to cut more scones.
+> Brush the tops with a little cream and sprinkle with the remaining sugar.
+> Bake for 10 minutes, until golden brown. {t=600 Bake}
+> Cool slightly and serve with fruit jam and extra cream.
+
+@ boxty | Boxty (Irish Potato Cakes) | Irish griddled potato cakes made from grated raw and mashed potato with buttermilk and flour. | 20 | 25 | 20 | british,snack | Cookbook:Boxty (Irish Potato Cakes)
+- 900 g potatoes
+- 1 cup milk
+- 1 tbsp butter
+- 2 tbsp butter, for frying
+- 1 1/2 cups plain flour
+- 1 tsp baking soda
+- 1 cup buttermilk
+- black pepper
+> Wash, peel, chunk and boil half of the potatoes until soft.
+> Mash the boiled potatoes with the milk and 1 tbsp butter, and set aside.
+> Grate the other half of the potatoes (raw) into a strong cloth and squeeze out all the liquid.
+> Mix the grated potatoes, mashed potatoes, baking soda, buttermilk, plain flour and black pepper until well combined.
+> Warm a nonstick griddle or skillet over medium heat and melt some of the butter for frying.
+> Pour the batter on the griddle, 1/4 cup at a time, and fry until the edges are soft and the cake is bubbling.
+> Turn and cook the other side, then serve hot.
+
+@ coddle | Dublin Coddle | Irish one-pot stew of sausages, bacon, potatoes and onions simmered slowly in stock. | 15 | 70 | 4 | british | Cookbook:Coddle
+- 550 g sausages
+- 250 g bacon, cut into 3 cm pieces
+- 300 ml chicken stock
+- 6 potatoes
+- 2 onions
+- salt
+- pepper
+> Put the bacon, onions and sausages in a large pot and cover completely with the chicken stock.
+> Boil for 5 minutes. {t=300 Boil}
+> Add the potatoes, cut into bite-sized pieces if needed, and bring back to the boil.
+> Simmer for 1 hour, until the potatoes start to disintegrate and thicken the broth. {t=3600 Simmer}
+> Season with salt and pepper and serve with soda bread.
+
+@ colcannon | Colcannon | Irish mashed potato mixed with buttery cabbage and leeks, topped with melted Gouda. | 15 | 45 | 4 | british | Cookbook:Colcannon
+- 450 g potatoes
+- 150 ml single cream
+- 1/2 tsp mace
+- 1/2 tsp paprika
+- 450 g shredded cabbage
+- 2 leeks, chopped
+- 125 g unsalted butter
+- 200 g Gouda cheese, grated
+- salt
+- pepper
+> Boil the potatoes until soft, drain, then shake them in a covered pot until they crumble.
+> Mash the potatoes with a fork. Season with salt, pepper, mace and paprika, then stir in the cream.
+> Add 100 g of the butter in pieces, cover and let it melt, then stir. Move the mash to a clean bowl.
+> Blanch the cabbage in boiling water for 2 minutes and drain. {t=120 Blanch}
+> Fry the leeks in the remaining butter for a few minutes, then toss in the cabbage for a few minutes more.
+> Mix the cabbage and leeks into the mashed potato.
+> Stir in most of the Gouda and sprinkle the rest on top.
+> Bake at 180 °C (350 °F) for 20 minutes, until the cheese has melted. {t=1200 Bake}
+
+@ corned-beef-pie | Corned Beef Pie | British double-crust pie filled with corned beef, mashed potato and onion; good hot or cold. | 30 | 40 | 6 | british,baking | Cookbook:Corned Beef Pie
+- 340 g self-raising flour
+- 85 g lard
+- 85 g margarine
+- 1 can corned beef (340 g)
+- 1 onion, chopped
+- 450 g potatoes
+- 1 tbsp butter
+- milk
+- water
+> Preheat the oven to 200 °C (400 °F).
+> Sift the flour into a bowl and rub in the lard and margarine.
+> Add just enough water to bind the mixture into a dough.
+> Roll out half the dough and line a large flan or quiche dish.
+> Boil the potatoes, drain, then mash with the butter.
+> Mix the chopped onion and the corned beef into the mash and spoon it into the lined dish.
+> Roll out the remaining dough, lay it over the dish as a lid and seal the edges.
+> Cut slits in the lid and brush with a little milk.
+> Bake for 40 minutes, until golden brown. {t=2400 Bake}
+
+@ coronation-chicken | Coronation Chicken | Cold cooked chicken in a mild curry, apricot and mayonnaise sauce, created for the 1953 coronation. | 25 | 20 | 8 | british | Cookbook:Coronation Chicken
+- 1 chicken, 2.3 kg, poached and cooked
+- 1 tbsp vegetable oil
+- 1 onion, finely chopped
+- 1 tbsp curry paste
+- 1 tbsp tomato purée
+- 100 ml red wine
+- 1 bay leaf
+- 1/2 lemon, juiced
+- 4 apricot halves, finely chopped
+- 300 ml mayonnaise
+- 100 ml whipping cream
+- salt
+- pepper
+- watercress, to garnish
+> Skin the cooked chicken and cut the meat into small pieces.
+> Warm the vegetable oil in a small saucepan and cook the onion gently until soft, about 3 minutes. {t=180 Cook}
+> Add the curry paste, tomato purée, red wine, bay leaf and lemon juice. Simmer uncovered until well reduced, then strain and cool. {notimer}
+> Purée the apricot halves in a blender, then beat the cooled sauce and the apricot purée into the mayonnaise.
+> Whip the whipping cream to stiff peaks and fold it into the sauce.
+> Season with salt and pepper, adding a little more lemon juice if needed.
+> Fold in the chicken pieces and garnish with watercress.
+
+@ cornish-fairings | Cornish Fairings | Crisp, ginger-spiced Cornish biscuits made with golden syrup. | 15 | 15 | 12 | british,sweet,baking | Cookbook:Cornish Fairing
+- 110 g plain flour
+- 60 g butter
+- 60 g caster sugar
+- 1 tsp baking powder
+- 2 tsp golden syrup
+- 1 tsp ground ginger
+- 1 tsp mixed spice
+- 1 tsp ground cinnamon
+> Preheat the oven to 180 °C (350 °F).
+> Sift the plain flour into a bowl and rub in the butter.
+> Sift in the caster sugar, baking powder, ginger, mixed spice and cinnamon, and mix well.
+> Stir in the golden syrup until the mixture forms a dough.
+> Roll the dough into walnut-sized balls and place them on a baking tray.
+> Bake for 15 minutes. {t=900 Bake}
+> Cool for a few minutes on a rack before serving. {notimer}
+
+@ irish-soda-bread | Irish Soda Bread | Yeast-free Irish loaf raised with baking soda and buttermilk, with a soft crumb. | 15 | 70 | 10 | british,baking | Cookbook:Irish Soda Bread
+- 3 cups plain flour
+- 1 tbsp baking powder
+- 1 tsp baking soda
+- 2 tbsp sugar
+- 1 tsp salt
+- 1 egg, lightly beaten
+- 2 cups buttermilk
+- 1/4 cup butter, melted
+> Preheat the oven to 160 °C (325 °F) and grease and flour a 9x5-inch loaf pan.
+> Combine the plain flour, baking powder, baking soda, sugar and salt in a large bowl.
+> Blend the egg and buttermilk, then add them all at once to the flour mixture.
+> Mix just until moistened, as too much mixing makes the bread tough.
+> Stir in the melted butter and pour the batter into the pan.
+> Bake for 65-70 minutes, until a toothpick comes out clean and the base sounds hollow when tapped. {t=4200 Bake}
+> Cool on a wire rack, then wrap in a tea towel for several hours or overnight for the best flavour. {notimer}
+
+@ irish-stew | Irish Stew | Traditional Irish stew of mutton, potatoes, onions and carrots, slow-cooked in a covered pot. | 20 | 150 | 6 | british | Cookbook:Irish Stew
+- 1.1 kg mutton, deboned and cut in chunks
+- 4 potatoes, peeled and thickly sliced
+- 2 onions, thickly sliced
+- 3 carrots, peeled and thickly sliced
+- 1 sprig parsley, chopped
+- 480 ml water
+- salt
+- pepper
+> Choose a pot with a well-fitting lid and layer the potatoes, mutton, onions, carrots and parsley in it, starting and finishing with potatoes.
+> Pour in the water and season with salt and pepper.
+> Cover and cook over a very low heat for 2 1/2 hours, until the mutton is tender and the potatoes have thickened the liquid. {t=9000 Cook}
+
+@ jam-roly-poly | Jam Roly-Poly | Steamed suet pudding rolled around raspberry or plum jam and served with custard. | 20 | 120 | 6 | british,sweet | Cookbook:Jam Roly-Poly (Steamed)
+- 200 g self-raising flour
+- 100 g vegetable suet
+- 1 pinch salt
+- 1 lemon, zest and juice
+- 1 egg, beaten
+- 3 tbsp milk
+- 200 g red jam
+- custard, to serve
+> Stir the self-raising flour, vegetable suet, salt and lemon zest together.
+> Work to a firm dough with the lemon juice, egg and milk.
+> Roll out to a rectangle about 25 x 20 cm and spread the red jam to within 2.5 cm of the edges.
+> Roll up from a short end and seal the edges well with a little water.
+> Set the roll on a sheet of buttered foil and wrap it, sealing the ends well.
+> Set it in a steamer and steam for 2 hours. {t=7200 Steam}
+> Slice and serve with custard.
+
+@ lancashire-hotpot | Lancashire Hotpot | Layers of lamb, onion and sliced potato baked slowly in a covered dish, an English northern classic. | 20 | 60 | 5 | british | Cookbook:Lancashire Hotpot
+- 900 g neck of lamb
+- 2 potatoes, sliced
+- 2 onions, diced
+- 2 tsp mixed herbs
+- 500 ml boiling water
+> Dice the lamb and set aside. Preheat the oven to 170 °C (325 °F).
+> Layer some of the potatoes in the bottom of a casserole dish and cover with a handful of the diced onions.
+> Add a layer of the lamb and sprinkle with the mixed herbs.
+> Repeat the layers until the dish is full, finishing with a layer of potatoes.
+> Pour in the boiling water to fill the dish.
+> Bake for at least 1 hour, until the lamb is tender. {t=3600 Bake}
+
+@ lancashire-parkin | Lancashire Parkin | Dark, sticky English gingerbread of oatmeal and golden syrup that softens as it is stored. | 15 | 120 | 20 | british,sweet,baking | Cookbook:Lancashire Parkin
+- 340 g self-raising flour
+- 340 g oatmeal
+- 220 g caster sugar
+- 1 tbsp ground ginger
+- 1 tsp bicarbonate of soda
+- 440 g golden syrup
+- 220 g hard margarine
+> Preheat the oven to 150 °C (300 °F).
+> Mix the self-raising flour, oatmeal, caster sugar, ground ginger and bicarbonate of soda in a bowl.
+> Warm the golden syrup gently in a saucepan without boiling, then melt in the hard margarine.
+> Line a large baking tray with baking paper.
+> Stir the hot syrup and margarine quickly into the dry ingredients.
+> Spread the mixture in the tray and bake on the bottom shelf for 2 hours. {t=7200 Bake}
+> Turn the slab out onto a cooling rack, then cut into four after 1 hour. {notimer}
+> Store in a sealed tin for 48 hours to reach the correct sticky texture, then cut into strips. {notimer}
+
+@ friars-omelette | Friar's Omelette | Scottish baked apple and egg pudding in a breadcrumb crust, turned out and dusted with sugar. | 25 | 30 | 6 | british,sweet,baking | Cookbook:Friar's Omelette
+- 6 cooking apples
+- 125 g butter, plus extra for greasing
+- 50 g white sugar
+- 25 g white sugar, for sprinkling
+- 2 eggs, beaten
+- 125 g breadcrumbs
+- 150 ml water
+- 1 squeeze lemon juice
+> Peel, core and slice the apples and cook them in a saucepan with the water until soft.
+> Remove from the heat and stir in the butter, 50 g sugar and lemon juice. Leave to cool.
+> Mix the well-beaten eggs into the cooled apple mixture.
+> Butter a deep baking dish and press breadcrumbs onto the bottom and sides, keeping plenty for the top.
+> Pour in the apple mixture and cover with a thick layer of breadcrumbs.
+> Bake at 180 °C (350 °F) for 30 minutes. {t=1800 Bake}
+> Turn out onto a flat dish and sprinkle with the remaining sugar before serving.
+
+@ staffordshire-oatcakes | Staffordshire Oatcakes | Thin yeasted oatmeal pancakes from Stoke-on-Trent, cooked on a griddle and filled with cheese or bacon. | 80 | 15 | 8 | british,breakfast | Cookbook:North Staffordshire Oatcakes
+- 220 g fine oatmeal
+- 220 g wholemeal flour
+- 1 tsp salt
+- 14 g fresh yeast
+- 850 ml warm milk and water, mixed half and half
+- 1 tsp sugar
+- butter, for greasing
+> Mix the salt into the wholemeal flour and fine oatmeal.
+> Dissolve the fresh yeast in a little of the warm milk and water, add the sugar and leave until frothy.
+> Mix the dry ingredients with the yeast liquid and the rest of the milk and water to make a batter.
+> Cover the batter with a clean cloth and leave in a warm place for 1 hour. {t=3600 Rest}
+> Ladle enough batter onto a well-greased griddle to make an oatcake about 20 cm across. Holes will form as it cooks.
+> Cook for 2-3 minutes, until the top looks dry and the underside is golden. {t=150 Cook}
+> Flip the oatcake and cook the other side for 2-3 minutes. {t=150 Cook}
+
+@ pease-pudding | Pease Pudding | Northern English purée of yellow split peas cooked with a ham hock, spread on bread or served with ham. | 10 | 75 | 6 | british | Cookbook:Pease Pudding
+- 1 ham hock, uncooked
+- 300 g dried yellow split peas
+- 1 tbsp butter
+- water
+> Put the ham hock in a pressure cooker and cover with water.
+> Bring to full pressure, then lower the heat and cook for 30 minutes. {t=1800 Cook}
+> Release the pressure and take out the hock. Set it aside.
+> Add the split peas to the cooker, bring back to pressure and simmer as low as possible for 25 minutes. {t=1500 Simmer}
+> Release the pressure, then tip the peas into a bowl with the butter and whisk until smooth.
+> Leave to cool, then serve on white bread, alone or with ham from the hock.
+
+@ queen-of-puddings | Queen of Puddings | English baked breadcrumb custard with a jam layer, topped with soft meringue. | 25 | 50 | 6 | british,sweet,baking | Cookbook:Queen of Puddings
+- 480 ml milk
+- 85 g white sugar
+- 1 lemon, zest
+- 55 g butter
+- 170 g fresh breadcrumbs
+- 4 eggs, separated
+- 4 tbsp raspberry jam
+- 2 tbsp vanilla sugar
+> Heat the milk, white sugar, lemon zest and butter until just below the boil.
+> Pour over the breadcrumbs and leave to cool slightly for 10 minutes. {t=600 Cool}
+> Beat the egg yolks and stir them into the breadcrumb mixture.
+> Bake at 180 °C (350 °F) for 35 minutes. {t=2100 Bake}
+> Let it cool a little, then spread the warmed raspberry jam carefully over the top.
+> Whip the egg whites with the vanilla sugar to soft peaks and spread the meringue over the jam.
+> Return to the oven for 15 minutes, until the meringue has browned. {t=900 Bake}
+
+@ rhubarb-crumble | Rhubarb Crumble | Tart stewed rhubarb under a buttery crumble topping, baked and served with custard. | 15 | 40 | 4 | british,sweet,baking | Cookbook:Rhubarb Crumble I
+- 400 g rhubarb, cut into 1.5 cm pieces
+- 15 g light brown sugar
+- 75 g butter, cut in pieces
+- 100 g plain flour
+- 50 g wholemeal flour
+- 50 g white granulated sugar
+- 1 pinch cinnamon
+- custard, to serve
+> Preheat the oven to 200 °C (180 °C fan).
+> Rinse and drain the rhubarb, put it in a deep ovenproof dish and mix in the light brown sugar.
+> Rub the butter into the plain flour and wholemeal flour with your fingers until it looks like breadcrumbs.
+> Mix in the white granulated sugar and cinnamon.
+> Sprinkle the crumble over the rhubarb in a complete layer, without pressing it down.
+> Bake without a lid for 40 minutes, until crisp and a little brown. {t=2400 Bake}
+> Serve with custard.
+
+@ scottish-porridge | Scottish Porridge | Creamy steel-cut oat porridge made with just oats, water and salt after an overnight soak. | 480 | 20 | 1 | british,breakfast,healthy | Cookbook:Scottish Porridge
+- 80 g steel-cut oats
+- 375 ml water
+- 1 tsp lemon juice
+- 1 tsp buckwheat flour
+- 1/8 tsp fine sea salt
+> Mix the steel-cut oats with the buckwheat flour in a bowl.
+> Add a splash of warm water and the lemon juice, cover and soak overnight, at least 7-8 hours. {notimer}
+> Put the soaked oats, salt and the 375 ml water in a small pan and bring gently to a small boil, stirring, until it starts to thicken.
+> Turn the heat to low and simmer for 15-20 minutes, until the oats are tender. {t=1050 Simmer}
+> Take off the heat and leave for 1-2 minutes before serving, with berries, nuts or yogurt on top. {notimer}
+
+@ shortbread | Shortbread | Buttery, crumbly Scottish biscuit made from just flour, butter and sugar. | 25 | 35 | 16 | british,sweet,baking | Cookbook:Shortbread
+- 380 g plain flour
+- 1/4 tsp salt
+- 220 g butter
+- 110 g white sugar
+> Preheat the oven to 140 °C (275 °F).
+> Cream the butter and sugar until light and fluffy.
+> Sift in the plain flour and salt and work into the butter and sugar until completely combined.
+> Shape the dough into a ball and roll out to 1.3 cm thick, chilling it briefly if it is hard to handle.
+> Cut into squares or rectangles and prick the tops with a fork in two parallel lines.
+> Bake for 30-40 minutes, until lightly browned. {t=2100 Bake}
+> Cool on a rack and store in an airtight container. {notimer}
+
+@ shrewsbury-cakes | Shrewsbury Cakes | Soft, buttery little nutmeg biscuits from Shropshire, baked in minutes. | 15 | 10 | 20 | british,sweet,baking | Cookbook:Shrewsbury Cakes
+- 1/2 cup white sugar
+- 1/2 cup plain flour
+- 1 egg white
+- 1/4 tsp nutmeg
+- 1 cup unsalted butter, softened
+> Preheat the oven to 175 °C (350 °F) and grease two baking sheets.
+> Cream the butter and sugar in a large bowl until fluffy.
+> Stir in the egg white completely.
+> Add the nutmeg and plain flour and stir in completely.
+> Place teaspoons of the batter on the baking sheets, 5 cm apart.
+> Bake for 10 minutes. {t=600 Bake}
+> If the cakes have stuck together, cut them apart with a knife, then lift onto a plate.
+
+@ steak-and-ale-pie | Steak and Ale Pie | Beef slow-simmered with onion, herbs and ale, topped with puff pastry and baked golden. | 25 | 140 | 4 | british,baking | Cookbook:Steak and Ale Pie
+- 900 g beef stewing steak
+- vegetable oil
+- 1 onion, diced
+- 1 tbsp plain flour
+- Worcestershire sauce
+- 1 handful fresh thyme, marjoram and parsley, chopped
+- 1 tsp English mustard
+- 1 bay leaf
+- 150 ml beef stock
+- 125 ml ale
+- puff pastry
+- salt
+- black pepper
+> Cut the beef into cubes.
+> Heat the vegetable oil in a saucepan and fry the onion, without letting it colour.
+> Add the beef and cook until medium brown, then stir in the plain flour and cook for 1 minute. {t=60 Cook}
+> Add the Worcestershire sauce, herbs, English mustard, bay leaf, salt and black pepper.
+> Slowly add the beef stock and ale and bring to the boil.
+> Simmer gently for 1 1/2 hours, until the beef is almost tender. {t=5400 Simmer}
+> Preheat the oven to 200 °C (400 °F). Skim off any fat, remove the bay leaf and adjust the seasoning.
+> Put the filling in a pie dish, cover with puff pastry and trim the edges.
+> Bake for 20-25 minutes, until the pastry is well risen and golden brown. {t=1350 Bake}
+
+@ stovies | Stovies | Scottish stew of potatoes and onions slowly cooked in fat with leftover roast beef or lamb. | 15 | 45 | 4 | british | Cookbook:Stovies
+- 1 kg potatoes
+- 50 g beef dripping
+- 3 onions, roughly chopped
+- 200 g cooked beef or lamb
+- 3 tbsp chopped parsley
+- salt
+- black pepper
+- nutmeg
+> Peel the potatoes and slice them about 5 mm thick.
+> Heat the beef dripping in a large heavy pot with a tight lid and cook the onions until lightly brown.
+> Add the potatoes and stir well to coat them in the fat.
+> Cover and cook over very low heat, shaking the pot now and then, until the potatoes are cooked, about 40 minutes. {t=2400 Cook}
+> Add the cooked beef or lamb, mix through and turn up the heat to brown a little.
+> Season with salt, black pepper and nutmeg, and serve with the parsley.
+
+@ eton-mess | Eton Mess | No-cook English dessert of strawberries, broken meringue and whipped cream with yogurt. | 10 | 0 | 4 | british,sweet,quick | Cookbook:Strawberry and Yogurt Eton Mess
+- 4 meringues
+- 280 ml double cream
+- 50 g icing sugar
+- 2 tsp vanilla essence
+- 150 ml Greek yoghurt
+- 500 g strawberries
+> Rinse the strawberries, remove the tops and cut them in half.
+> Break the meringues into pieces, not too small, and put them in a bowl.
+> Whip the double cream with the vanilla essence and icing sugar until reasonably stiff.
+> Combine the whipped cream, Greek yoghurt, strawberries and meringues, taking care not to crush the meringue too much.
+> Serve in bowls.
+
+@ toad-in-the-hole | Toad in the Hole | Sausages baked in a crisp, puffed Yorkshire pudding batter. | 15 | 55 | 4 | british,baking | Cookbook:Toad in the Hole
+- 250 g sausages
+- 1 tbsp oil
+- 140 g plain flour
+- 4 eggs
+- 200 ml milk
+- 1/4 tsp salt
+> Preheat the oven to 200 °C (400 °F).
+> Whisk the plain flour, eggs, milk and salt into a smooth batter.
+> Bake the sausages with the oil in a roasting pan for 10 minutes, so they cook and the pan gets hot. {t=600 Bake}
+> Pour the cold batter into the hot pan; the oil should sizzle.
+> Bake for 40-45 minutes without opening the oven door, until risen and browned. {t=2550 Bake}
+> Serve hot.
+
+@ victoria-sponge | Victoria Sponge | Classic English two-layer sponge cake sandwiched with jam and whipped cream. | 20 | 25 | 8 | british,sweet,baking | Cookbook:Victoria Sandwich
+- 170 g self-raising flour
+- 170 g unsalted butter
+- 170 g caster sugar
+- 3 eggs
+- 1 tsp vanilla essence
+- fruit jam
+- whipped cream
+> Preheat the oven to 200 °C (400 °F) and grease two 18 cm cake pans.
+> Cream the butter and caster sugar with a wooden spoon until softened.
+> Add the eggs, vanilla essence and self-raising flour and mix until smooth.
+> Divide the mixture between the two pans.
+> Bake for 20-30 minutes, until firm to the touch. {t=1500 Bake}
+> Cool completely on a rack.
+> Turn one cake upside down and spread with fruit jam and whipped cream, then top with the second cake.
+> Cut into wedges to serve.
+
+@ welsh-cakes | Welsh Cakes | Little Welsh griddle cakes like flat scones, with currants and a golden crust. | 30 | 20 | 20 | british,sweet,baking | Cookbook:Welsh Cakes
+- 450 g plain flour
+- 225 g butter
+- 170 g caster sugar
+- 4 eggs
+- 85 g currants
+- 1 tbsp milk
+- 1 pinch salt
+> Sift the plain flour into a large bowl and rub in the butter and salt until it looks like fine breadcrumbs.
+> Mix in the caster sugar and currants.
+> Beat in the eggs one at a time to form a thick dough, adding the milk if it will not come together.
+> Knead for 2-3 minutes until cohesive and slightly elastic. {t=150 Knead}
+> Roll out the dough and cut 5-7 cm circles.
+> Heat a griddle on high, then lower to medium-low to stop burning.
+> Cook the cakes for 2-4 minutes on each side, until golden brown. {t=180 Cook}
+
+@ welsh-rarebit | Welsh Rarebit | Rich cheddar and beer sauce poured over toast. | 10 | 10 | 4 | british,quick | Cookbook:Welsh Rarebit
+- 2 tbsp unsalted butter
+- 2 tbsp plain flour
+- 1 tsp Dijon mustard
+- 1 tsp Worcestershire sauce
+- 1/2 tsp salt
+- 1/2 tsp black pepper
+- 60 ml beer
+- 120 ml double cream
+- 170 g Cheddar cheese, grated
+- 4 slices toast
+> Melt the butter in a medium saucepan over low heat and whisk in the plain flour.
+> Cook, whisking constantly, for 2-3 minutes without browning the flour. {t=150 Cook}
+> Whisk in the Dijon mustard, Worcestershire sauce, salt and black pepper until smooth.
+> Add the beer and whisk to combine, then pour in the double cream and whisk until smooth.
+> Gradually add the Cheddar cheese, stirring constantly, for 4-5 minutes until the sauce is smooth. {t=270 Stir}
+> Pour the sauce over the toast and serve at once.
+
+@ bara-brith | Bara Brith (Welsh Fruit Bread) | Yeasted Welsh loaf full of mixed dried fruit and spice, glazed with honey and served buttered. | 210 | 60 | 12 | british,baking | Cookbook:Welsh Fruit Bread (Bara Brith) I
+- 225 ml milk
+- 50 g brown sugar, plus 1 tsp
+- 4 tsp dried yeast
+- 450 g strong plain flour
+- 1 tsp salt
+- 75 g butter
+- 1 tsp mixed spice
+- 1 egg, beaten
+- 350 g mixed dried fruit
+- clear honey, to glaze
+> Warm the milk until hand-hot, then mix it with 1 tsp of the brown sugar and the dried yeast. Leave for 15 minutes until frothy. {t=900 Rest}
+> Sift the strong plain flour into a bowl with 50 g brown sugar and the salt. Rub in the butter, then stir in the mixed spice.
+> Add the egg and the frothy yeast, mix to a dough and knead on a floured surface until smooth and elastic.
+> Put the dough back in the bowl, cover and leave in a warm place to rise for 90 minutes. {t=5400 Rise}
+> Knock back the dough and knead again, slowly working in the mixed dried fruit.
+> Place the dough in a greased 900 g loaf tin and leave to rise for 35-40 minutes. Preheat the oven to 190 °C (375 °F). {t=2250 Rise}
+> Bake in the centre of the oven for 30 minutes. {t=1800 Bake}
+> Cover the tin with foil to stop it burning and bake for 30 minutes more. {t=1800 Bake}
+> Check the base sounds hollow when tapped. Brush the top with clear honey and cool on a wire rack. {notimer}
+
+@ cullen-skink | Cullen Skink | Thick Scottish soup of smoked haddock, onion and mashed potato in milk. | 15 | 25 | 4 | british,soup | Cookbook:Cullen Skink (Haddock and Potato Soup) | none
+- 900 g smoked haddock
+- 1 onion, finely chopped
+- 900 ml milk
+- 2 tbsp butter
+- 225 g mashed potato
+- 1 bay leaf
+- salt
+- pepper
+- parsley, chopped
+- water
+> Cover the smoked haddock with water in a shallow pan, skin side down.
+> Bring to the boil and simmer for 5 minutes, turning once. {t=300 Simmer}
+> Take out the fish, remove the skin and bones, flake the flesh and return it to the pan.
+> Add the onion, bay leaf, salt and pepper and simmer for 10 minutes. {t=600 Simmer}
+> Strain the stock, discard the bay leaf and keep the fish warm.
+> Add the milk to the stock and bring to the boil, then stir in the mashed potato to make a rich, thick soup.
+> Return the fish and check the seasoning.
+> Serve with the butter added in small pieces and the parsley on top.
+
+@ fish-pie | Fish Pie | English pie of poached salmon, smoked haddock and shellfish under creamy mashed potato. | 30 | 30 | 6 | british,baking | Cookbook:Fish Pie
+- 200 g salmon
+- 200 g smoked haddock
+- 100 g prawns
+- 100 g mussels
+- 5 scallops
+- 1 kg potatoes
+- nutmeg
+- butter
+- 150 ml single cream
+- 2 bay leaves
+- milk
+- 50 g Emmental cheese, grated
+> Put all the fish and shellfish in a saucepan with enough milk to cover, then add the bay leaves and a pinch of salt.
+> Poach on low heat for 5 minutes. {t=300 Poach}
+> Lift out the fish, skin the haddock and salmon, and flake them. Return to the milk and set aside.
+> Peel and boil the potatoes for at least 20 minutes, until soft, then mash very well with butter. {t=1200 Boil}
+> Beat in some of the poaching milk, the single cream and a little grated nutmeg to make a smooth mash.
+> Put the fish and remaining milk sauce in an ovenproof dish and pat it down gently.
+> Spread the mash over the top, ridge it with a fork and sprinkle with the Emmental cheese.
+> Bake at 220 °C (425 °F) for 30 minutes, until the topping is coloured and bubbling. {t=1800 Bake}
+
+@ bangers-and-mash | Bangers and Mash | Slow-fried pork sausages served with buttery mashed potatoes. | 10 | 40 | 4 | british | Cookbook:Bangers and Mash
+- 8 sausages
+- 8 potatoes
+- 1 tbsp vegetable oil
+- 2 tbsp butter
+- 4 tbsp milk
+- salt
+> Heat the vegetable oil in a large heavy frying pan over medium heat.
+> Add the sausages in a single layer and fry for 5 minutes, turning to colour them all over. {t=300 Fry}
+> Turn the heat to low and fry gently for 25 minutes, turning every 5-10 minutes, until cooked through with no pink inside. {t=1500 Fry}
+> Meanwhile, peel the potatoes and chop them into pieces 1-2 cm thick.
+> Boil the potatoes for 15 minutes, until soft enough for a knife to go in easily. {t=900 Boil}
+> Drain the potatoes and return them to the pan off the heat.
+> Add the butter and milk and mash until smooth. Season with salt.
+> Serve the sausages on the mash.
+
+@ fish-and-chips | Fish and Chips | Battered fried white fish with thick golden chips, served with lemon and vinegar. | 20 | 20 | 4 | british | Cookbook:Fish and Chips
+- 125 g plain flour
+- 125 g corn flour (cornstarch)
+- salt
+- cold water
+- 4 fish fillets (cod or haddock)
+- 4 potatoes
+- 1 l vegetable oil, for deep frying
+- sea salt
+- 1 lemon, cut into wedges
+- 1 sprig parsley
+- malt vinegar
+> Heat the vegetable oil in a deep fryer to 180 °C (350 °F).
+> Peel the potatoes, cut into thick wedges and deep-fry in batches for 6-8 minutes until crisp and golden. {t=420 Fry}
+> Drain on kitchen paper, sprinkle with sea salt and keep warm.
+> Whisk the plain flour, corn flour and salt with enough cold water to make a batter.
+> Cut the fish fillets into thick slices and coat them in the batter.
+> Deep-fry the fish in batches for 5-6 minutes, then drain on kitchen paper. {t=330 Fry}
+> Serve the fish and chips with the lemon wedges, parsley and a sprinkle of malt vinegar.
+
+@ corned-beef-hash | Lancashire Corned Beef Hash | Simple Lancashire stew of potatoes, onion and carrot with flaked corned beef stirred in at the end. | 15 | 45 | 4 | british | Cookbook:Lancashire Corned Beef Hash
+- 5 potatoes, chunked
+- 1 onion, chopped
+- 1 can corned beef
+- 1 carrot, chopped
+- water
+- salt
+- white pepper
+- 1 pinch tarragon
+- 1 pinch oregano
+- 1 bay leaf
+> Put the potatoes, onion, carrot, tarragon, oregano, bay leaf, salt and white pepper in a large pan.
+> Add water until almost covering the ingredients, cover and bring to the boil.
+> Lower the heat and simmer for 30 minutes, until the potatoes soften. {t=1800 Simmer}
+> If too wet, strain off some of the water.
+> Break up the corned beef and stir it in gently, then bring almost to the boil.
+> Switch off the heat and leave for 15 minutes. {t=900 Rest}
+> Serve as it is, with buttered bread.
+
+# skipped: Cookbook:Basic Scones — near-duplicate of Plain Scones (written as Scones); quantities unrealistic for 16 scones
+# skipped: Cookbook:Bean and Bacon Bake — American microwave dish, not UK/Ireland; relies on canned green beans
+# skipped: Cookbook:British Christmas Pudding — no steaming time or basin instructions ("several hours"); method incomplete
+# skipped: Cookbook:Bubble and Squeak — no quantities for the main vegetables
+# skipped: Cookbook:Cabbie Claw (Scottish Whitefish with Egg and Potato) — needs whole speldings dried for 24 hours; not workable at home
+# skipped: Cookbook:Dublin Lamb Stew — Foodista variant of Irish Stew with bell pepper and mushrooms; Irish Stew written instead
+# skipped: Cookbook:Shepherd's Pie II — Canadian Pate Chinois; Shepherd's Pie already online
+# skipped: Cookbook:Yorkshire Pudding — already online (yorkshire-puddings)
+# skipped: Cookbook:Trifle — alcohol and packet jelly, no quantities for custard, cream or cake
+# skipped: Cookbook:Whole Wheat Irish Soda Bread — variant of Irish Soda Bread, which was written instead
+# skipped: Cookbook:Hot Water Crust Pastry — pastry component only, not a dish

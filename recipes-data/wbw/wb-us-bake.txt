@@ -1,0 +1,687 @@
+!source wikibooks
+
+@ blueberry-pancakes | Blueberry Pancakes | Fluffy American breakfast pancakes spiced with cinnamon and nutmeg, with blueberries folded into the batter. | 15 | 20 | 4 | american,breakfast | Cookbook:Blueberry Pancakes
+- 1 3/4 cups all-purpose flour
+- 2 tbsp sugar
+- 2 tsp baking powder
+- 1 1/2 tsp cream of tartar
+- 1/2 tsp salt
+- 1 tsp cinnamon
+- 1 tsp nutmeg
+- 1 tsp vanilla extract
+- 2 cups buttermilk
+- 4 eggs, separated
+- 1/4 cup butter, melted
+- 1 cup frozen blueberries
+> Sift together the flour, sugar, baking powder, cream of tartar, salt, cinnamon and nutmeg. Set aside.
+> Whisk the buttermilk, melted butter, vanilla and egg yolks in a large bowl. Mix in the flour mixture, then the blueberries.
+> Whip the egg whites until stiff but not dry, then fold them into the batter.
+> Heat a large pan or griddle over medium heat and brush lightly with oil.
+> Ladle in 1/4 cup of batter for each pancake and cook until set and bubbly on top.
+> Flip each pancake and cook for 1 more minute. Serve warm with your favourite topping.
+
+@ chocolate-chip-pancakes | Chocolate Chip Pancakes | Thick, tender American pancakes studded with semisweet chocolate chips and cooked in butter. | 15 | 20 | 4 | american,breakfast | Cookbook:Chocolate Chip Pancakes I
+- 1 tsp vanilla extract
+- 55 g unsalted butter
+- 250 ml milk
+- 170 g all-purpose flour
+- 1 tbsp sugar
+- 4 tsp baking powder
+- 3/4 tsp salt
+- 2 eggs
+- 170 g semisweet chocolate chips
+- butter, for cooking
+> Warm the butter and milk together in a small saucepan over low heat until the butter melts. Let it cool slightly and stir in the vanilla.
+> Mix the flour, sugar, baking powder and salt in a bowl.
+> Whisk the eggs in a large bowl, then whisk in the milk mixture.
+> Add the dry ingredients and mix just until barely blended. Stir in the chocolate chips.
+> Heat a griddle or large skillet over medium heat. Melt a little butter until bubbly.
+> Ladle 3 tablespoons of batter per pancake onto the pan. Cook until bubbly on top and golden underneath.
+> Flip and cook for 30 seconds more until golden. Repeat with the rest of the batter and serve hot.
+
+@ light-fluffy-pancakes | Light and Fluffy Pancakes | Small, airy buttermilk pancakes with vanilla, cooked on a lightly oiled griddle until golden. | 10 | 15 | 3 | american,breakfast | Cookbook:Light Fluffy Pancakes
+- 1 cup all-purpose flour
+- 2 tsp sugar
+- 1/2 tsp salt
+- 1/2 tsp baking powder
+- 1/4 tsp baking soda
+- 3/4 cup buttermilk
+- 1/4 cup milk
+- 1 egg
+- 2 tbsp unsalted butter, melted
+- 1 tsp vanilla extract
+- vegetable oil, for brushing the pan
+> Start heating a large non-stick skillet or griddle over low heat.
+> Mix the flour, sugar, salt, baking powder and baking soda in a bowl.
+> Warm the buttermilk and milk until they are at room temperature, then whisk in the egg, melted butter and vanilla.
+> Whisk the wet ingredients into the dry until just mixed. Add 1-2 tsp water if needed for a thick but pourable batter.
+> Raise the heat to medium and brush the pan generously with oil.
+> Ladle in about 1/4 cup of batter per pancake, in batches. Cook until the bottoms are golden and the tops bubble, 2-3 minutes. {t=150 Cook}
+> Flip and cook until golden on the other side. Brush the pan with oil between batches and serve hot.
+
+@ whole-wheat-pancakes | Whole Wheat Pancakes | Wholesome griddle pancakes made with whole wheat flour, milk and a little oil. | 10 | 15 | 3 | american,breakfast,healthy | Cookbook:Whole Wheat Pancakes
+- 130 g whole wheat flour
+- 1 tbsp sugar
+- 2 tsp baking powder
+- 1/4 tsp salt
+- 1 egg
+- 250 ml milk
+- 2 tbsp oil
+- oil, for frying
+> Mix the whole wheat flour, sugar, baking powder and salt in a bowl.
+> In another bowl, beat the egg, then stir in the milk and the 2 tbsp oil.
+> Mix the wet and dry ingredients just enough to remove dry spots and no more.
+> Heat a frying pan over medium heat and grease it with oil. It is hot enough when a drop of water dances on it.
+> Pour about 1/4 cup of batter per pancake and spread to about 10 cm across.
+> When the bubbling settles and the edges look slightly dry, flip the pancake.
+> Cook until golden, then remove and repeat with the remaining batter.
+
+@ oven-pancake | Oven Pancake | Eggless American pancake batter poured into a hot skillet and baked in one thick golden round. | 10 | 20 | 4 | american,breakfast,baking | Cookbook:Oven Pancakes
+- 150 g all-purpose flour
+- 2 tsp baking powder
+- 1/2 tsp baking soda
+- 1/2 tsp salt
+- 2 tbsp sugar
+- 250 ml milk
+- 2 tbsp vegetable oil
+- 2 tsp vanilla extract
+- 1 tbsp apple cider vinegar
+> Preheat the oven to 230 °C (450 °F) and oil an 8-inch (20 cm) oven-safe skillet.
+> Combine the flour, baking powder, baking soda, salt and sugar in a bowl.
+> Add the milk, vegetable oil and vanilla and stir well.
+> Stir in the apple cider vinegar, mix well and pour immediately into the skillet.
+> Bake for 18-20 minutes, then serve. {t=1140 Bake}
+
+@ banana-nut-muffins | Banana Nut Muffins | Wholesome whole wheat muffins with mashed banana and chopped walnuts, from a Joy of Cooking style recipe. | 15 | 25 | 12 | american,breakfast,baking | Cookbook:Banana Nut Muffins
+- 2 eggs
+- 1 tbsp honey
+- 1 cup milk
+- 1/4 cup vegetable oil
+- 3 bananas, mashed
+- 2/3 cup white flour
+- 1 1/3 cups whole wheat flour
+- 1/2 tsp salt
+- 2 tsp baking powder
+- 1/2 cup walnuts, chopped
+> Preheat the oven to 200 °C (400 °F) and grease a muffin tin.
+> Beat together the eggs, honey, milk, vegetable oil and mashed bananas.
+> Combine the white flour, whole wheat flour, salt, baking powder and walnuts.
+> Mix the dry ingredients gently into the wet. A lumpy batter is normal.
+> Spoon the batter into the muffin tin and bake for 20-25 minutes.
+> Cool before serving. {notimer}
+
+@ bran-muffins | Bran Muffins | Quick buttermilk muffins made with wheat bran and brown sugar, a good fibre-rich breakfast. | 15 | 20 | 8 | american,breakfast,baking | Cookbook:Bran Muffins
+- 1 cup wheat bran
+- 3/4 cup buttermilk
+- 1 egg
+- 2 tbsp margarine
+- 1 cup all-purpose flour
+- 1 tsp baking powder
+- 1/2 tsp baking soda
+- 1/2 tsp salt
+- 1/2 cup brown sugar
+> Preheat the oven to 200 °C (400 °F) and grease or line a muffin tin.
+> Stir the wheat bran and buttermilk together in a mixing bowl.
+> Cream the egg, brown sugar and margarine together in another bowl.
+> Combine the flour, baking powder, baking soda and salt in a third bowl.
+> Mix the creamed mixture into the bran mixture, add the flour mixture and stir just to moisten.
+> Fill the muffin cups 3/4 full and bake for 15-20 minutes. {t=1050 Bake}
+
+@ oatmeal-muffins | Oatmeal Muffins | Soft buttermilk muffins made with rolled oats, brown sugar and coconut. | 15 | 20 | 8 | american,breakfast,baking | Cookbook:Oatmeal Muffins
+- 1 cup rolled oats
+- 1 cup buttermilk
+- 1 egg
+- 1/4 cup margarine, melted
+- 1 cup all-purpose flour
+- 1 tsp baking powder
+- 1/2 tsp baking soda
+- 1/4 tsp salt
+- 3/4 cup brown sugar
+- 1/4 cup desiccated coconut
+> Preheat the oven to 200 °C (400 °F) and grease or line a muffin tin.
+> Stir the rolled oats and buttermilk together in a mixing bowl.
+> In another bowl, combine the flour, coconut, brown sugar, baking powder, baking soda and salt. Make a well in the centre.
+> Add the egg and melted margarine to the oat mixture and mix well.
+> Pour it all at once into the flour mixture and stir just to moisten.
+> Fill the muffin cups 3/4 full and bake for 15-20 minutes. {t=1050 Bake}
+
+@ lemon-poppy-seed-muffins | Lemon Poppy Seed Muffins | Light lemon-yogurt muffins speckled with poppy seeds and topped with a sweet lemon glaze. | 15 | 16 | 12 | american,breakfast,baking | Cookbook:Lemon Poppy Seed Muffins (Glazed)
+- 80 ml milk
+- 60 ml vegetable oil
+- 160 ml lemon yogurt
+- 1 egg
+- 300 g all-purpose flour
+- 60 g sugar
+- 2 tbsp poppy seeds
+- 1 tbsp lemon zest
+- 1/4 tsp lemon extract
+- 2 1/2 tsp baking powder
+- 1/2 tsp baking soda
+- 1/2 tsp salt
+- 120 g confectioners' sugar (icing sugar)
+- 2 1/2 tsp lemon juice
+> Preheat the oven to 200 °C (400 °F) and grease a 12-cup muffin tin.
+> Sift the flour, sugar, poppy seeds, lemon zest, lemon extract, baking powder, baking soda and salt into a bowl.
+> In a separate bowl, mix the milk, vegetable oil, lemon yogurt and egg.
+> Fold the dry ingredients into the wet mixture in three steps, taking care not to over-mix.
+> Divide the batter between the muffin cups and bake for 16 minutes, until golden and springy.
+> Meanwhile, stir the confectioners' sugar with the lemon juice until smooth to make the glaze.
+> Drizzle the muffins with the glaze. Cool on a rack for 10 minutes, then remove from the tin.
+
+@ zucchini-bread | Zucchini Bread | Sweet, moist spiced quick bread made with grated zucchini (courgette); makes two loaves. | 20 | 60 | 16 | american,sweet,baking | Cookbook:Zucchini Bread
+- 3 cups all-purpose flour
+- 1 tsp salt
+- 1 tsp baking soda
+- 1 tsp baking powder
+- 3 tsp ground cinnamon
+- 3 eggs
+- 1 cup vegetable oil
+- 2 1/4 cups sugar
+- 3 tsp vanilla extract
+- 2 cups zucchini (courgette), grated
+> Preheat the oven to 160 °C (325 °F). Grease and flour two 8 x 4-inch loaf pans.
+> Sift together the flour, salt, baking powder, baking soda and cinnamon.
+> Beat the eggs, vegetable oil, vanilla and sugar together in a large bowl.
+> Add the sifted ingredients and beat well. Stir in the zucchini until combined.
+> Pour the batter into the prepared pans.
+> Bake for 40 minutes to 1 hour, until a tester inserted in the centre comes out clean. {t=2400 Bake}
+> Cool in the pans for 20 minutes, then turn out and cool completely.
+
+@ peanut-butter-cookies | Peanut Butter Cookies | Classic crisp-edged American cookies made with peanut butter, brown sugar and butter, flattened with a fork. | 15 | 10 | 18 | american,sweet,baking | Cookbook:Peanut Butter Cookies
+- 110 g peanut butter
+- 110 g white sugar
+- 110 g brown sugar
+- 110 g butter, melted
+- 1 egg
+- 1/2 tsp vanilla essence
+- 280 g all-purpose flour
+- 1/4 tsp salt
+- 3/4 tsp baking soda
+> Preheat the oven to 180 °C (350 °F).
+> Cream together the white sugar, brown sugar, melted butter, egg and vanilla until smooth.
+> Mix in the flour, peanut butter, salt and baking soda to make a dough.
+> Flatten small pieces of dough with a fork on an ungreased baking sheet, at least 5 cm apart.
+> Bake for 8-10 minutes, until golden brown. {t=540 Bake}
+> Let the cookies cool.
+
+@ snickerdoodles | Snickerdoodles | Soft butter cookies with a tangy cream of tartar bite, rolled in cinnamon sugar before baking. | 20 | 10 | 12 | american,sweet,baking | Cookbook:Snickerdoodles II
+- 344 g all-purpose flour
+- 1/4 tsp salt
+- 1 tsp baking soda
+- 2 tsp cream of tartar
+- 200 g white sugar
+- 100 g shortening, soft
+- 110 g butter
+- 2 eggs, beaten
+- 2 tbsp sugar, for rolling
+- 1 tsp cinnamon
+> Preheat the oven to 205 °C (400 °F).
+> Mix the flour, salt, baking soda, cream of tartar, white sugar, shortening, butter and eggs into a dough.
+> Roll the dough into balls of about 1 tbsp each.
+> Mix the 2 tbsp sugar with the cinnamon and roll the balls in it.
+> Bake for 10 minutes, until crisp and light brown. {t=600 Bake}
+> Sprinkle the hot cookies generously with more cinnamon.
+
+@ soft-sugar-cookies | Soft Sugar Cookies | Old-fashioned soft sugar cookies, shaped into balls and baked until set; a century-old Ontario family recipe. | 15 | 18 | 20 | american,sweet,baking | Cookbook:Soft Sugar Cookies
+- 3 eggs
+- 230 g shortening or butter
+- vanilla extract
+- 200 g sugar
+- 1 pinch salt
+- 2 tsp baking powder
+- 300 g flour
+> Preheat the oven to 175 °C (350 °F).
+> Lightly beat the eggs to break the yolks, then mix in the shortening until loose. Soften butter slightly first if using it.
+> Mix in the sugar, vanilla and salt.
+> Add the baking powder, then slowly add the flour until the dough can be shaped without sticking too much to your hands.
+> Shape into balls and place on a greased or parchment-lined pan.
+> Bake for 15-20 minutes. {t=1050 Bake}
+
+@ chewy-ginger-cookies | Chewy Ginger Cookies | Soft, chewy molasses-and-ginger cookies rolled in sugar, baked until just cracked on top. | 25 | 11 | 20 | american,sweet,baking | Cookbook:Chewy Ginger Cookies
+- 180 g butter, softened
+- 500 g brown sugar
+- 1 egg
+- 60 ml molasses
+- 10 g baking soda
+- 600 g flour
+- 2.5 g ground cinnamon
+- 5 g ground ginger
+- 5 g ground cloves
+- 2.5 g salt
+- sugar, for coating
+> Preheat the oven to 175 °C (350 °F) and grease a cookie sheet.
+> Cream the butter and brown sugar with a mixer.
+> Beat in the egg and stir in the molasses.
+> Combine the baking soda, flour, cinnamon, ginger, cloves and salt in a separate bowl, then gently mix into the wet mixture to make a dough.
+> Shape into 2.5 cm balls and roll them in sugar. Do not flatten them.
+> Place on the cookie sheet about 4-5 cm apart and bake for about 11 minutes, until cracked but still soft inside. {t=660 Bake}
+> Cool to room temperature.
+
+@ molasses-cookies | Molasses Cookies | Old-time soft spiced cookies sweetened with molasses, made as drop or rolled cookies with sour milk. | 20 | 10 | 20 | american,sweet,baking | Cookbook:Molasses Cookies
+- 1/2 tbsp vinegar
+- 1/2 cup milk
+- 1/2 cup sugar
+- 1/2 cup shortening
+- 1 egg
+- 1 cup molasses
+- 4 cups flour
+- 2 tsp baking soda
+- 1/4 tsp cinnamon
+- 1/4 tsp ginger
+- walnuts or raisins, for topping
+> Preheat the oven to 190 °C (375 °F) and grease or line cookie sheets.
+> Combine the vinegar with the milk and set aside to sour.
+> Mix the baking soda, cinnamon, ginger and 2 1/2 cups of the flour.
+> Cream the sugar and shortening, then beat in the molasses and egg until smooth.
+> Alternately mix in the dry mixture and the soured milk, starting and ending with the dry mixture.
+> Mix in more flour bit by bit for a soft dough, then chill the batter for at least 1 hour. {t=3600 Chill}
+> Scoop onto the sheet, flatten with a sugared glass and press walnuts or raisins on top. Or roll out and cut shapes.
+> Bake for 8-10 minutes. {t=540 Bake}
+
+@ triple-chocolate-chip-cookies | Triple Chocolate Chip Cookies | Cocoa cookies loaded with white and milk chocolate chips, chewy if baked a little less. | 15 | 15 | 18 | american,sweet,baking | Cookbook:Triple Chocolate Chip Cookies
+- 110 g unsalted butter, plus extra for greasing
+- 180 g soft light brown sugar
+- 1 egg
+- 225 g plain flour
+- 30 g cocoa powder
+- 1 tsp bicarbonate of soda
+- 1/4 tsp salt
+- 60 g white chocolate chips
+- 60 g milk chocolate chips
+> Preheat the oven to 180 °C (350 °F). Grease 3 baking trays.
+> Mix the flour, cocoa, bicarbonate of soda and salt in a bowl.
+> Beat the butter and sugar until soft and fluffy, then beat in the egg.
+> Fold the dry ingredients into the wet ingredients, then fold in the white and milk chocolate chips.
+> Spoon heaped tablespoons of dough onto the trays, well spaced apart.
+> Bake for 12-15 minutes, or 10 minutes for a chewier cookie. {t=810 Bake}
+> Move the cookies to wire racks to cool.
+
+@ hermits | Hermits (Spice Bar Cookies) | Chewy New England molasses spice cookies with raisins, baked as strips and cut into bars. | 15 | 15 | 12 | american,sweet,baking | Cookbook:Hermits
+- 275 g all-purpose flour
+- 100 g seedless raisins
+- 100 g dark brown sugar
+- 2 1/2 tsp ground ginger
+- 2 tsp ground cinnamon
+- 1 tsp ground cloves
+- 1 tsp baking powder
+- 1/2 tsp salt
+- 120 ml molasses
+- 6 tbsp butter, melted
+- 2 tsp vanilla extract
+- 1 egg
+> Preheat the oven to 190 °C (375 °F) and line a sheet pan with parchment paper.
+> Stir together the flour, raisins, brown sugar, ginger, cinnamon, cloves, baking powder and salt, breaking up any sugar lumps.
+> Stir in the molasses, melted butter, vanilla and egg until fully combined.
+> Shape the dough into two strips on the pan, well apart from each other.
+> Bake for 12-15 minutes, until a toothpick in the centre of the strips comes out dry. {t=810 Bake}
+> Cool slightly, then slide the strips on their parchment to a rack to cool completely.
+> Cut the strips into wide bars and scrape them off the parchment. Enjoy with milk or tea.
+
+@ pecan-blondies | Pecan Blondies | Chewy brown-sugar bar cookies, like brownies without chocolate, full of toasted pecans. | 15 | 30 | 12 | american,sweet,baking | Cookbook:Pecan Blondies
+- 125 g flour
+- 1 tsp baking powder
+- 3/4 tsp salt
+- 120 g unsalted butter, melted
+- 240 g dark brown sugar
+- 1 tbsp vanilla extract
+- 1 egg
+- 180 g pecans, chopped
+> Preheat the oven to 170 °C (325 °F) and butter an 8 x 8-inch (20 cm) baking dish.
+> Toast the pecans in a dry skillet over medium-high heat, stirring often, until fragrant and slightly coloured.
+> Stir the flour, baking powder and salt together in a small bowl.
+> Stir the melted butter, brown sugar and vanilla until uniform, breaking up any lumps. Beat in the egg until creamy.
+> Gently fold in the flour mixture, then the toasted pecans. Do not overmix.
+> Spread the batter into the dish and bake for 30 minutes, or to your preferred doneness. {t=1800 Bake}
+> Let cool, then cut into bars.
+
+@ fudge-crackle-cookies | Fudge Crackle Cookies | Brownie-like chocolate cookies made in a saucepan, with a cracked, sugar-dusted dome and walnuts. | 20 | 20 | 18 | american,sweet,baking | Cookbook:Saucepan Fudge Crackle Cookies
+- 1 cup flour
+- 1 tsp baking powder
+- 1/4 tsp salt
+- 1/4 cup margarine
+- 85 g unsweetened baking chocolate
+- 1 cup sugar
+- 2 eggs
+- 1 tsp vanilla extract
+- 1/2 cup walnuts, coarsely chopped
+- coarse sugar, for coating
+> Combine the flour, baking powder and salt.
+> Melt the margarine and chocolate together in a large saucepan over low heat, then take it off the heat.
+> Mix the eggs, sugar, vanilla and walnuts into the chocolate mixture.
+> Mix in the flour mixture. Cover and refrigerate until firm, ideally overnight. {notimer}
+> Preheat the oven to 150 °C (300 °F). Roll the dough into 4 cm balls, coat them in coarse sugar and place on a cool, ungreased cookie sheet with room to spread.
+> Bake for 20 minutes. {t=1200 Bake}
+> Remove the cookies from the sheet immediately, or they will stick firmly.
+
+@ chocolate-crinkles | Chocolate Crinkles | Fudgy chocolate cookies rolled in icing sugar so they crack into a black-and-white pattern as they bake. | 45 | 12 | 20 | american,sweet,baking | Cookbook:Chocolate Crinkles
+- 120 ml vegetable oil
+- 115 g unsweetened chocolate, melted
+- 2 cups sugar
+- 4 eggs
+- 2 tsp vanilla extract
+- 2 cups all-purpose flour
+- 2 tsp baking powder
+- 1/2 tsp salt
+- 1 cup confectioners' sugar (icing sugar)
+> Mix the vegetable oil, melted chocolate and sugar.
+> Blend in the eggs one at a time until well mixed, then add the vanilla.
+> Stir in the flour, baking powder and salt.
+> Chill the dough for several hours or overnight. {notimer}
+> Heat the oven to 175 °C (350 °F).
+> Drop teaspoonfuls of dough into the confectioners' sugar, roll into balls and coat well.
+> Place the balls about 5 cm apart on a greased baking sheet and bake for 10-12 minutes. {t=660 Bake}
+
+@ date-bars | Date Bars | Oat crumble bars with a cooked date filling between a buttery brown-sugar base and topping. | 20 | 30 | 16 | american,sweet,baking | Cookbook:Date Bars
+- 1/4 cup sugar
+- 450 g dates, chopped
+- 1 1/2 cups water
+- 1/4 cup shortening
+- 1/2 cup butter
+- 1 cup brown sugar
+- 1/2 tsp baking soda
+- 1 3/4 cups flour
+- 1 1/2 cups quick-cooking oats
+- 1 tsp salt
+> Mix the dates, sugar and water in a saucepan.
+> Cook over low heat, stirring constantly, for about 10 minutes until thickened. Let it cool. {t=600 Cook}
+> Preheat the oven to 200 °C (400 °F) and grease a 13 x 9-inch pan.
+> Cream the butter, shortening and brown sugar together.
+> Mix in the flour, salt, baking soda and oats to make a crumble.
+> Press half the crumble evenly into the bottom of the pan and spread the date filling on top.
+> Cover with the remaining crumble, pressing lightly.
+> Bake for 25-30 minutes, until light brown. Cut into bars while warm. {t=1650 Bake}
+
+@ gingerbread-cake | Gingerbread Cake | Soft, dark spiced golden-syrup cake in the English style, best left a day before cutting. | 20 | 60 | 9 | british,sweet,baking | Cookbook:Gingerbread
+- 110 g butter
+- 110 g brown sugar
+- 220 g golden syrup
+- 220 g all-purpose flour
+- 1 tsp baking powder
+- 1 tsp mixed spice
+- 2 tsp ground ginger
+- 2 eggs
+- 120 ml milk
+> Preheat the oven to 170 °C (325 °F) and grease an 8-inch (20 cm) square cake tin.
+> Heat the butter, brown sugar and golden syrup gently in a saucepan until the butter melts.
+> Put the flour, baking powder, mixed spice and ground ginger in a bowl. Pour in the melted butter mixture and beat thoroughly.
+> Warm the milk in a saucepan, add it to the bowl and beat thoroughly.
+> Beat the eggs and stir them into the mixture. Pour into the tin.
+> Bake for 1 hour. {t=3600 Bake}
+> Cool in the tin for 15 minutes, then turn out. Leave for at least 1 day before cutting into squares. {t=900 Cool}
+
+@ applesauce-cake | Applesauce Cake | Old-fashioned spiced raisin cake with almonds and unsweetened applesauce, baked in two round pans. | 20 | 45 | 12 | american,sweet,baking | Cookbook:Applesauce Cake
+- 125 g butter, plus extra for greasing
+- 1 cup sugar
+- 1 1/2 cups raisins
+- 1 3/4 cups all-purpose flour
+- 1/2 tsp ground cloves
+- 1/2 tsp ground allspice
+- 1/2 tsp ground cinnamon
+- 1/2 cup ground almonds
+- 1 tsp baking soda
+- 1 tbsp hot water
+- 1 cup unsweetened applesauce
+> Preheat the oven to 180 °C (350 °F). Grease and line two round cake pans.
+> Cream the butter and sugar in a bowl until light and fluffy.
+> Mix in the raisins, flour, cloves, allspice, cinnamon, ground almonds and applesauce.
+> Dissolve the baking soda in the hot water and stir it into the batter.
+> Pour the batter into the pans and bake for 45 minutes, until golden. {t=2700 Bake}
+> Move the cakes to a wire rack to cool.
+
+@ apple-cake | Apple Cake | Simple spiced butter cake with chopped apples, served warm with whipped cream. | 20 | 45 | 6 | american,sweet,baking | Cookbook:Apple Cake
+- 108 g butter
+- 225 g sugar
+- 2 eggs
+- 110 g all-purpose flour
+- 1 tsp baking soda
+- 1 tsp ground cinnamon
+- 1/2 tsp ground nutmeg
+- 227 g apples, chopped
+- whipped cream
+> Preheat the oven to 175 °C (350 °F). Grease and line a cake pan.
+> Cream the butter and sugar together until fluffy, then beat in the eggs.
+> Sift the flour, baking soda, cinnamon and nutmeg together and mix into the batter until just combined.
+> Fold in the apples and transfer the batter to the pan.
+> Bake for 45 minutes. {t=2700 Bake}
+> Serve warm with whipped cream.
+
+@ carrot-cake | Carrot Cake | Moist spiced carrot and walnut cake topped with a cream cheese frosting. | 25 | 45 | 12 | american,sweet,baking | Cookbook:Carrot Cake II
+- 450 ml vegetable oil
+- 400 g plain flour
+- 2 tsp bicarbonate of soda
+- 570 g sugar
+- 290 g eggs
+- 1 pinch salt
+- 12 g ground cinnamon
+- 530 g carrots, peeled and grated
+- 150 g walnuts, chopped
+- 200 g cream cheese
+- 150 g sugar, for the topping
+- 100 g butter
+> Preheat the oven to 160 °C (325 °F) and grease a 26 cm cake tin.
+> Mix the vegetable oil, flour, bicarbonate of soda, sugar, eggs, salt, cinnamon, carrots and walnuts in a food processor for 5 minutes. {notimer}
+> Pour the batter into the tin and bake for 45 minutes. {t=2700 Bake}
+> Check the cake is cooked, then cool in the tin for 10 minutes. {t=600 Cool}
+> Unmould the cake onto a cooling rack and let it cool completely.
+> For the topping, cream the cream cheese, topping sugar and butter in a bowl until smooth and soft.
+> Spread the frosting over the cake with a palette knife.
+
+@ rhubarb-cake | Rhubarb Cake | Tender buttermilk cake studded with tangy rhubarb and finished with a cinnamon-sugar crust. | 20 | 35 | 12 | american,sweet,baking | Cookbook:Rhubarb Cake
+- 1 1/2 cups rhubarb, thinly sliced
+- 1 1/2 cups brown sugar
+- 1/2 cup butter
+- 1 egg
+- 1/2 tsp salt
+- 1 cup buttermilk
+- 1 tsp baking soda
+- 1 tsp vanilla extract
+- 2 cups flour
+- 1/4 cup sugar
+- 1 tsp cinnamon
+> Preheat the oven to 190 °C (375 °F) and grease a 9 x 13-inch pan.
+> Cream the brown sugar and butter until fluffy, then beat in the egg and salt.
+> Stir in the buttermilk, baking soda, vanilla and flour. Add the rhubarb and stir until mixed in.
+> Pour the batter into the pan.
+> Combine the 1/4 cup sugar and cinnamon and sprinkle over the batter.
+> Bake for 30-35 minutes. {t=1950 Bake}
+
+@ wacky-cake | Wacky Cake (Eggless Chocolate) | Depression-era chocolate cake with no eggs or butter, mixed in one bowl with oil and vinegar. | 10 | 40 | 12 | american,sweet,baking | Cookbook:Wacky Cake
+- 3 cups flour
+- 1 1/2 cups sugar
+- 1 cup cocoa powder
+- 2 tsp baking soda
+- 1 tsp salt
+- 2 cups water
+- 3/4 cup vegetable oil
+- 2 tbsp vinegar
+- 2 tsp vanilla extract
+> Preheat the oven to 180 °C (350 °F) and grease a square cake pan.
+> Combine the flour, sugar, cocoa powder, baking soda and salt in a large bowl.
+> Add the water, vegetable oil, vinegar and vanilla and blend thoroughly.
+> Pour the batter into the pan and bake for 35-40 minutes. {t=2250 Bake}
+> Cool completely before serving.
+
+@ pound-cake | Traditional Pound Cake | Classic English pound cake made with equal weights of flour, butter, sugar and eggs. | 15 | 35 | 8 | british,sweet,baking | Cookbook:Traditional Pound Cake
+- 8 oz self-raising flour
+- 8 oz butter
+- 4 eggs
+- 8 oz caster sugar
+- 1 tsp vanilla extract
+- 8 oz mixed dried fruit (optional)
+> Preheat the oven to 175 °C (350 °F) and grease and flour a baking pan.
+> Cream the butter and caster sugar together until fluffy.
+> Beat in the eggs and the vanilla extract.
+> Gradually sift in the self-raising flour. Fold in the dried fruit if using.
+> Transfer to the pan and bake for 35 minutes, until a skewer comes out with no moist crumbs. {t=2100 Bake}
+
+@ flourless-chocolate-cake | Flourless Chocolate Cake | Dense, rich chocolate cake of chocolate, butter, eggs and sugar, baked in a water bath and chilled. | 20 | 30 | 8 | american,sweet,baking | Cookbook:Flourless Chocolate Cake
+- 120 g sugar
+- 4 eggs
+- 150 g unsalted butter
+- 150 g chocolate (suitable for melting)
+> Melt the chocolate and butter in a bowl set over a pan of simmering water. Whisk lightly until smooth, then cool, stirring.
+> Preheat the oven to 150 °C (300 °F).
+> Beat the eggs and sugar until creamy, then gradually mix in the melted chocolate.
+> Pour into a baking tin or 8 individual moulds. Cover with aluminium foil and set in a deeper baking tray.
+> Pour boiling water into the tray to half the height of the moulds.
+> Bake for about 30 minutes, until a skewer comes out clean. {t=1800 Bake}
+> Cool at room temperature, then chill in the fridge for about 10 hours. {t=21600 Chill}
+> Remove from the mould, place on a plate and garnish.
+
+@ hot-milk-cake | Hot Milk Cake | Old-fashioned two-layer vanilla sponge made by beating eggs well and folding in hot milk and butter. | 25 | 30 | 12 | american,sweet,baking | Cookbook:Hot Milk Cake
+- 1 cup whole milk
+- 1/2 cup butter
+- 1 tsp vanilla extract
+- 2 cups cake flour
+- 2 tsp baking powder
+- 1 pinch salt
+- 4 eggs
+- 2 cups sugar
+> Take the eggs and butter out of the fridge an hour before baking. Preheat the oven to 175 °C (350 °F).
+> Heat the milk and butter together until the butter melts. Cool until just warm, then add the vanilla.
+> Combine the cake flour, baking powder and salt.
+> Whip the eggs in a large bowl until light and lemon-coloured, which can take 5-10 minutes. {notimer}
+> Add the sugar slowly, beating well, then add the dry ingredients.
+> Add the milk mixture very slowly, folding it in by hand toward the end.
+> Divide the batter between two greased and floured 9-inch (23 cm) round pans and bake for about 30 minutes. {t=1800 Bake}
+> Cool on racks for 10 minutes, then turn out to cool completely. Frost or serve with strawberries. {t=600 Cool}
+
+@ banana-cream-pie | Banana Cream Pie | Pastry shell layered with sliced bananas and a vanilla custard cream, cooled until set. | 20 | 15 | 8 | american,sweet | Cookbook:Banana Cream Pie II
+- 3 bananas, sliced
+- 3/4 cup sugar
+- 1/3 cup all-purpose flour
+- 1/4 tsp salt
+- 2 cups milk
+- 3 egg yolks, slightly beaten
+- 2 tbsp butter
+- 1 tsp vanilla extract
+- 1 baked pastry shell, 9-inch (23 cm)
+> Combine the sugar, flour and salt in a saucepan.
+> Add the milk gradually.
+> Cook over medium heat, stirring constantly, until bubbly. Cook and stir for 2 more minutes, then remove from the heat. {t=120 Cook}
+> Stir a small amount of the hot mixture into the egg yolks, then stir the yolks into the hot mixture.
+> Cook for 2 minutes, stirring constantly, then remove from the heat. {t=120 Cook}
+> Add the butter and vanilla and stir until smooth.
+> Arrange the sliced bananas in the cooled baked pastry shell and pour the custard over them.
+> Cool completely before serving.
+
+@ baked-custard | Baked Custard | Simple old-fashioned milk custard with eggs and vanilla, baked gently in a water bath. | 10 | 40 | 6 | american,sweet,baking | Cookbook:Baked Custard
+- 4 eggs
+- 120 g sugar
+- 1/4 tsp salt
+- 1 tsp vanilla extract
+- 950 ml milk
+- butter, for greasing
+> Preheat the oven to 150 °C (300 °F) and butter a baking dish or several small heatproof moulds.
+> Beat the eggs, sugar, salt and vanilla together.
+> Scald the milk and add it very slowly to the eggs, stirring constantly.
+> Pour into the baking dish or moulds.
+> Set the dish in a pan of water and bake for 30-40 minutes, until a knife comes out clean. {t=2100 Bake}
+
+@ bread-pudding | Bread Pudding | Torn bread soaked in a sweet cinnamon custard with raisins and baked until set. | 15 | 45 | 6 | american,sweet,baking | Cookbook:Bread Pudding
+- 6 slices bread
+- 30 g butter, melted
+- 80 g raisins
+- 4 eggs
+- 150 g sugar
+- 475 ml milk
+- 2 g ground cinnamon
+- 5 ml vanilla extract
+> Heat the oven to 175 °C (350 °F).
+> Tear the bread into small pieces and put it in a baking dish, mixing in the raisins as you fill the dish.
+> Pour the melted butter over the bread.
+> Beat the eggs lightly, then add the sugar, milk, cinnamon and vanilla and mix.
+> Pour the mixture over the bread and press lightly so all the bread is wet.
+> Bake for 45 minutes. {t=2700 Bake}
+> Let cool and serve cold or warm, cut into squares.
+
+@ indian-pudding-cornmeal | Indian Pudding (Cornmeal) | Old New England baked pudding of cornmeal, milk and molasses with ginger and cinnamon; not an Indian dish. | 20 | 75 | 8 | american,sweet,baking | Cookbook:Indian Pudding
+- 950 ml milk
+- 1 cup cold water
+- 6 tbsp cornmeal
+- 1/2 tsp salt
+- 1 cup molasses
+- 1 tsp baking soda
+- 3 tbsp brown sugar
+- 1/2 tsp nutmeg
+- 1 tbsp ground ginger
+- 1/2 tsp cinnamon
+- 4 eggs, separated
+> Preheat the oven to 175 °C (350 °F). Set aside 1/2 cup of the milk and bring the rest to the boil.
+> Stir the cold water into the cornmeal, then pour it slowly into the boiling milk and add the salt.
+> Boil for 15 minutes, stirring constantly, removing any skin. Take it off the heat. {t=900 Boil}
+> Mix the molasses with the baking soda, the reserved 1/2 cup milk and the brown sugar.
+> Add the nutmeg, ginger, cinnamon and beaten egg yolks to the molasses mixture.
+> Pour the molasses mixture slowly into the cornmeal mixture.
+> Whip the egg whites to stiff peaks and fold them in.
+> Pour into a greased baking dish and bake for 1 hour. {t=3600 Bake}
+
+@ baked-rice-pudding | Baked Rice Pudding | Creamy oven-baked pudding of cooked rice, milk and eggs with raisins, cinnamon and nutmeg. | 20 | 90 | 12 | american,sweet,baking | Cookbook:Rice Pudding
+- 2.8 l milk
+- 4 eggs
+- 155 g sugar
+- 680 g cooked rice
+- 220 g raisins
+- cinnamon
+- nutmeg
+- vanilla extract
+> Preheat the oven to 165 °C (325 °F).
+> In a large 3-litre casserole dish, mix the milk, eggs and sugar until thoroughly mixed and frothy.
+> Mix in the cinnamon, nutmeg and vanilla.
+> Mix in the cooked rice, then scatter the raisins on top. Do not stir them in, or they will sink.
+> Set the casserole in a larger baking pan holding about 2.5 cm of water, to stop the bottom cooking too fast.
+> Bake until set, about 1.5 hours. {t=5400 Bake}
+
+@ lemon-squares | Lemon Squares | Shortbread base topped with a sweet-tart lemon custard layer, dusted with powdered sugar. | 20 | 50 | 16 | american,sweet,baking | Cookbook:Lemon Squares
+- 2 cups all-purpose flour
+- 3/4 cup powdered sugar, plus extra for dusting
+- 1 cup margarine, softened
+- 4 eggs
+- 1/3 cup lemon juice
+- 1 1/2 cups sugar
+- 1/4 cup all-purpose flour, for the topping
+- 1 tsp baking powder
+- 1 tbsp lemon zest
+> Preheat the oven to 180 °C (350 °F). Combine the 2 cups flour and 3/4 cup powdered sugar.
+> Cut in the margarine until the mixture resembles fine crumbs.
+> Press firmly into a greased 8 or 9-inch square pan.
+> Bake the base for 20-30 minutes, until lightly browned. {t=1500 Bake}
+> Meanwhile, beat the eggs until frothy and stir in the lemon juice and lemon zest.
+> In another bowl, stir together the sugar, the 1/4 cup flour and the baking powder, then stir into the egg mixture until just moistened.
+> Spread over the hot base and bake for 20-25 minutes, until set. {t=1350 Bake}
+> Cool before cutting into squares. Dust with powdered sugar.
+
+@ pumpkin-roll | Pumpkin Roll | Spiced pumpkin sponge rolled around a sweet cream cheese filling, sliced and served for the holidays. | 30 | 15 | 10 | american,sweet,baking | Cookbook:Pumpkin Roll
+- 1 cup sugar
+- 3 eggs, beaten
+- 2/3 cup canned pumpkin purée
+- 3/4 cup flour
+- 1/2 tsp salt
+- 1 tsp cinnamon
+- 1 tsp baking soda
+- 3/4 cup pecans, chopped
+- 230 g cream cheese
+- 1 tsp vanilla extract
+- 2 tbsp butter
+- 1 cup powdered sugar
+> Preheat the oven to 190 °C (375 °F). Line a rectangular cookie sheet with greased parchment, letting it overhang the sides.
+> Mix the sugar, eggs and pumpkin in a large bowl until well blended.
+> Mix the flour, salt, cinnamon and baking soda in a second bowl, then fold into the pumpkin mixture.
+> Pour the batter evenly onto the sheet, sprinkle with the pecans and bake for 15 minutes. {t=900 Bake}
+> Set aside 2 tbsp of the powdered sugar. Whip the cream cheese, vanilla, butter and the rest of the powdered sugar until smooth.
+> Dust a clean dish towel with the reserved powdered sugar. Flip the warm cake onto it and roll up loosely. Cool completely.
+> Unroll the cake, spread the filling over it and roll it up again in a spiral.
+> Wrap in foil or plastic wrap and freeze. Cut into slices while still frozen. {notimer}
+
+# skipped: Cookbook:Pancakes (North American) — duplicates Pancake already online
+# skipped: Cookbook:Blueberry Muffin — duplicates Blueberry Muffins already online
+# skipped: Cookbook:Ginger Snaps — makes 500 cookies from 10-12 cups of flour; unworkable at home scale
+# skipped: Cookbook:Nutty Brownie Bars — relies on a packaged brownie mix with no quantities
+# skipped: Cookbook:Coffee Cake — ingredient list inconsistent (1 1/2 cups butter, brown sugar missing, "remaining butter")
+# skipped: Cookbook:Carrot Cake I — variant of Carrot Cake II (written instead), vaguer method
+# skipped: Cookbook:Microwave Chocolate Cake I — near-duplicate of Chocolate Mug Cake already online
+# skipped: Cookbook:Gooey Butter Cake — needs a boxed yellow cake mix
+# skipped: Cookbook:Sunshine Cake — no oven temperature or baking time
+# skipped: Cookbook:Tapioca Pudding — Rice Pudding chosen as the plain pudding; tapioca quantities vague
+# skipped: Cookbook:Strawberry Shortcut Cake — needs jello powder, marshmallows and frozen strawberries in syrup
+# skipped: Cookbook:Dirt Pudding — only packaged instant pudding, sandwich cookies and whipped topping

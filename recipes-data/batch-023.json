@@ -1,0 +1,5271 @@
+{
+ "recipes": [
+  {
+   "id": "blueberry-pancakes",
+   "title": "Blueberry Pancakes",
+   "description": "Fluffy American breakfast pancakes spiced with cinnamon and nutmeg, with blueberries folded into the batter.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 1.75,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cream-of-tartar",
+     "name": "cream of tartar",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "nutmeg",
+     "name": "nutmeg",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "buttermilk",
+     "name": "buttermilk",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, separated",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "butter, melted",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "frozen-blueberries",
+     "name": "frozen blueberries",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Sift together the flour, sugar, baking powder, cream of tartar, salt, cinnamon and nutmeg. Set aside.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "sugar",
+      "baking-powder",
+      "cream-of-tartar",
+      "salt",
+      "cinnamon",
+      "nutmeg"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Whisk the buttermilk, melted butter, vanilla and egg yolks in a large bowl. Mix in the flour mixture, then the blueberries.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "vanilla-extract",
+      "buttermilk",
+      "eggs",
+      "butter",
+      "frozen-blueberries"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Whip the egg whites until stiff but not dry, then fold them into the batter.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat a large pan or griddle over medium heat and brush lightly with oil.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Ladle in 1/4 cup of batter for each pancake and cook until set and bubbly on top.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Flip each pancake and cook for 1 more minute. Serve warm with your favourite topping.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Blueberry_Pancakes",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "chocolate-chip-pancakes",
+   "title": "Chocolate Chip Pancakes",
+   "description": "Thick, tender American pancakes studded with semisweet chocolate chips and cooked in butter.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 55.0,
+     "unit": "g"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 170.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 4.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.75,
+     "unit": "tsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "semisweet-chocolate-chip",
+     "name": "semisweet chocolate chips",
+     "amount": 170.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter, for cooking",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Warm the butter and milk together in a small saucepan over low heat until the butter melts. Let it cool slightly and stir in the vanilla.",
+     "relatedIngredientIds": [
+      "vanilla-extract",
+      "unsalted-butter",
+      "milk"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the flour, sugar, baking powder and salt in a bowl.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "sugar",
+      "baking-powder",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Whisk the eggs in a large bowl, then whisk in the milk mixture.",
+     "relatedIngredientIds": [
+      "milk",
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the dry ingredients and mix just until barely blended. Stir in the chocolate chips.",
+     "relatedIngredientIds": [
+      "semisweet-chocolate-chip"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Heat a griddle or large skillet over medium heat. Melt a little butter until bubbly.",
+     "relatedIngredientIds": [
+      "unsalted-butter"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Ladle 3 tablespoons of batter per pancake onto the pan. Cook until bubbly on top and golden underneath.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Flip and cook for 30 seconds more until golden. Repeat with the rest of the batter and serve hot.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Chip_Pancakes_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "light-fluffy-pancakes",
+   "title": "Light and Fluffy Pancakes",
+   "description": "Small, airy buttermilk pancakes with vanilla, cooked on a lightly oiled griddle until golden.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 3,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "buttermilk",
+     "name": "buttermilk",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter, melted",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil, for brushing the pan",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Start heating a large non-stick skillet or griddle over low heat.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the flour, sugar, salt, baking powder and baking soda in a bowl.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "sugar",
+      "salt",
+      "baking-powder",
+      "baking-soda"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Warm the buttermilk and milk until they are at room temperature, then whisk in the egg, melted butter and vanilla.",
+     "relatedIngredientIds": [
+      "buttermilk",
+      "milk",
+      "egg",
+      "unsalted-butter",
+      "vanilla-extract"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Whisk the wet ingredients into the dry until just mixed. Add 1-2 tsp water if needed for a thick but pourable batter.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Raise the heat to medium and brush the pan generously with oil.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Ladle in about 1/4 cup of batter per pancake, in batches. Cook until the bottoms are golden and the tops bubble, 2-3 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 150,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Flip and cook until golden on the other side. Brush the pan with oil between batches and serve hot.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Light_Fluffy_Pancakes",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "whole-wheat-pancakes",
+   "title": "Whole Wheat Pancakes",
+   "description": "Wholesome griddle pancakes made with whole wheat flour, milk and a little oil.",
+   "prepTime": 10,
+   "cookTime": 15,
+   "servings": 3,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "breakfast",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "whole-wheat-flour",
+     "name": "whole wheat flour",
+     "amount": 130.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "oil-2",
+     "name": "oil, for frying",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the whole wheat flour, sugar, baking powder and salt in a bowl.",
+     "relatedIngredientIds": [
+      "whole-wheat-flour",
+      "sugar",
+      "baking-powder",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In another bowl, beat the egg, then stir in the milk and the 2 tbsp oil.",
+     "relatedIngredientIds": [
+      "egg",
+      "milk",
+      "oil"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the wet and dry ingredients just enough to remove dry spots and no more.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat a frying pan over medium heat and grease it with oil. It is hot enough when a drop of water dances on it.",
+     "relatedIngredientIds": [
+      "oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour about 1/4 cup of batter per pancake and spread to about 10 cm across.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "When the bubbling settles and the edges look slightly dry, flip the pancake.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cook until golden, then remove and repeat with the remaining batter.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Whole_Wheat_Pancakes",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "oven-pancake",
+   "title": "Oven Pancake",
+   "description": "Eggless American pancake batter poured into a hot skillet and baked in one thick golden round.",
+   "prepTime": 10,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "breakfast",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 250.0,
+     "unit": "ml"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "apple-cider-vinegar",
+     "name": "apple cider vinegar",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 230 °C (450 °F) and oil an 8-inch (20 cm) oven-safe skillet.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine the flour, baking powder, baking soda, salt and sugar in a bowl.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "baking-powder",
+      "baking-soda",
+      "salt",
+      "sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the milk, vegetable oil and vanilla and stir well.",
+     "relatedIngredientIds": [
+      "milk",
+      "vegetable-oil",
+      "vanilla-extract"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir in the apple cider vinegar, mix well and pour immediately into the skillet.",
+     "relatedIngredientIds": [
+      "apple-cider-vinegar"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake for 18-20 minutes, then serve.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1140,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Oven_Pancakes",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "banana-nut-muffins",
+   "title": "Banana Nut Muffins",
+   "description": "Wholesome whole wheat muffins with mashed banana and chopped walnuts, from a Joy of Cooking style recipe.",
+   "prepTime": 15,
+   "cookTime": 25,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "breakfast",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "honey",
+     "name": "honey",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "bananas",
+     "name": "bananas, mashed",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "white-flour",
+     "name": "white flour",
+     "amount": 0.667,
+     "unit": "cup"
+    },
+    {
+     "id": "whole-wheat-flour",
+     "name": "whole wheat flour",
+     "amount": 1.333,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "walnuts",
+     "name": "walnuts, chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 200 °C (400 °F) and grease a muffin tin.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Beat together the eggs, honey, milk, vegetable oil and mashed bananas.",
+     "relatedIngredientIds": [
+      "eggs",
+      "honey",
+      "milk",
+      "vegetable-oil",
+      "bananas"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Combine the white flour, whole wheat flour, salt, baking powder and walnuts.",
+     "relatedIngredientIds": [
+      "whole-wheat-flour",
+      "salt",
+      "baking-powder",
+      "walnuts"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the dry ingredients gently into the wet. A lumpy batter is normal.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Spoon the batter into the muffin tin and bake for 20-25 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cool before serving.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Banana_Nut_Muffins",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "bran-muffins",
+   "title": "Bran Muffins",
+   "description": "Quick buttermilk muffins made with wheat bran and brown sugar, a good fibre-rich breakfast.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "breakfast",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "wheat-bran",
+     "name": "wheat bran",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "buttermilk",
+     "name": "buttermilk",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "margarine",
+     "name": "margarine",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 0.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 200 °C (400 °F) and grease or line a muffin tin.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Stir the wheat bran and buttermilk together in a mixing bowl.",
+     "relatedIngredientIds": [
+      "wheat-bran",
+      "buttermilk"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cream the egg, brown sugar and margarine together in another bowl.",
+     "relatedIngredientIds": [
+      "egg",
+      "margarine",
+      "brown-sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Combine the flour, baking powder, baking soda and salt in a third bowl.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "baking-powder",
+      "baking-soda",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix the creamed mixture into the bran mixture, add the flour mixture and stir just to moisten.",
+     "relatedIngredientIds": [
+      "wheat-bran",
+      "all-purpose-flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Fill the muffin cups 3/4 full and bake for 15-20 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1050,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Bran_Muffins",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "oatmeal-muffins",
+   "title": "Oatmeal Muffins",
+   "description": "Soft buttermilk muffins made with rolled oats, brown sugar and coconut.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "breakfast",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "rolled-oats",
+     "name": "rolled oats",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "buttermilk",
+     "name": "buttermilk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "margarine",
+     "name": "margarine, melted",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "desiccated-coconut",
+     "name": "desiccated coconut",
+     "amount": 0.25,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 200 °C (400 °F) and grease or line a muffin tin.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Stir the rolled oats and buttermilk together in a mixing bowl.",
+     "relatedIngredientIds": [
+      "rolled-oats",
+      "buttermilk"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In another bowl, combine the flour, coconut, brown sugar, baking powder, baking soda and salt. Make a well in the centre.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "baking-powder",
+      "baking-soda",
+      "salt",
+      "brown-sugar",
+      "desiccated-coconut"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the egg and melted margarine to the oat mixture and mix well.",
+     "relatedIngredientIds": [
+      "rolled-oats",
+      "egg",
+      "margarine"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour it all at once into the flour mixture and stir just to moisten.",
+     "relatedIngredientIds": [
+      "all-purpose-flour"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Fill the muffin cups 3/4 full and bake for 15-20 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1050,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Oatmeal_Muffins",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "lemon-poppy-seed-muffins",
+   "title": "Lemon Poppy Seed Muffins",
+   "description": "Light lemon-yogurt muffins speckled with poppy seeds and topped with a sweet lemon glaze.",
+   "prepTime": 15,
+   "cookTime": 16,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "breakfast",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 80.0,
+     "unit": "ml"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 60.0,
+     "unit": "ml"
+    },
+    {
+     "id": "lemon-yogurt",
+     "name": "lemon yogurt",
+     "amount": 160.0,
+     "unit": "ml"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 60.0,
+     "unit": "g"
+    },
+    {
+     "id": "poppy-seeds",
+     "name": "poppy seeds",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "lemon-zest",
+     "name": "lemon zest",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "lemon-extract",
+     "name": "lemon extract",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "confectioners-sugar",
+     "name": "confectioners' sugar (icing sugar)",
+     "amount": 120.0,
+     "unit": "g"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 2.5,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 200 °C (400 °F) and grease a 12-cup muffin tin.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sift the flour, sugar, poppy seeds, lemon zest, lemon extract, baking powder, baking soda and salt into a bowl.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "sugar",
+      "poppy-seeds",
+      "lemon-zest",
+      "lemon-extract",
+      "baking-powder",
+      "baking-soda",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "In a separate bowl, mix the milk, vegetable oil, lemon yogurt and egg.",
+     "relatedIngredientIds": [
+      "milk",
+      "vegetable-oil",
+      "lemon-yogurt",
+      "egg"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Fold the dry ingredients into the wet mixture in three steps, taking care not to over-mix.",
+     "relatedIngredientIds": [],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Divide the batter between the muffin cups and bake for 16 minutes, until golden and springy.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 960,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Meanwhile, stir the confectioners' sugar with the lemon juice until smooth to make the glaze.",
+     "relatedIngredientIds": [
+      "confectioners-sugar",
+      "lemon-juice"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Drizzle the muffins with the glaze. Cool on a rack for 10 minutes, then remove from the tin.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cool"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Lemon_Poppy_Seed_Muffins_(Glazed)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "zucchini-bread",
+   "title": "Zucchini Bread",
+   "description": "Sweet, moist spiced quick bread made with grated zucchini (courgette); makes two loaves.",
+   "prepTime": 20,
+   "cookTime": 60,
+   "servings": 16,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.25,
+     "unit": "cup"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 3.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "zucchini",
+     "name": "zucchini (courgette), grated",
+     "amount": 2.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 160 °C (325 °F). Grease and flour two 8 x 4-inch loaf pans.",
+     "relatedIngredientIds": [
+      "all-purpose-flour"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sift together the flour, salt, baking powder, baking soda and cinnamon.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "salt",
+      "baking-soda",
+      "baking-powder",
+      "ground-cinnamon"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat the eggs, vegetable oil, vanilla and sugar together in a large bowl.",
+     "relatedIngredientIds": [
+      "eggs",
+      "vegetable-oil",
+      "sugar",
+      "vanilla-extract"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the sifted ingredients and beat well. Stir in the zucchini until combined.",
+     "relatedIngredientIds": [
+      "zucchini"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour the batter into the prepared pans.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 40 minutes to 1 hour, until a tester inserted in the centre comes out clean.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cool in the pans for 20 minutes, then turn out and cool completely.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cool"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Zucchini_Bread",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "peanut-butter-cookies",
+   "title": "Peanut Butter Cookies",
+   "description": "Classic crisp-edged American cookies made with peanut butter, brown sugar and butter, flattened with a fork.",
+   "prepTime": 15,
+   "cookTime": 10,
+   "servings": 18,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "peanut-butter",
+     "name": "peanut butter",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-sugar",
+     "name": "white sugar",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter, melted",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "vanilla-essence",
+     "name": "vanilla essence",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 280.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 0.75,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 180 °C (350 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cream together the white sugar, brown sugar, melted butter, egg and vanilla until smooth.",
+     "relatedIngredientIds": [
+      "peanut-butter",
+      "white-sugar",
+      "egg",
+      "vanilla-essence"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix in the flour, peanut butter, salt and baking soda to make a dough.",
+     "relatedIngredientIds": [
+      "peanut-butter",
+      "all-purpose-flour",
+      "salt",
+      "baking-soda"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Flatten small pieces of dough with a fork on an ungreased baking sheet, at least 5 cm apart.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake for 8-10 minutes, until golden brown.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 540,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Let the cookies cool.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Peanut_Butter_Cookies",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "snickerdoodles",
+   "title": "Snickerdoodles",
+   "description": "Soft butter cookies with a tangy cream of tartar bite, rolled in cinnamon sugar before baking.",
+   "prepTime": 20,
+   "cookTime": 10,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 344.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cream-of-tartar",
+     "name": "cream of tartar",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "white-sugar",
+     "name": "white sugar",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "shortening",
+     "name": "shortening, soft",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, beaten",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar, for rolling",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 205 °C (400 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the flour, salt, baking soda, cream of tartar, white sugar, shortening, butter and eggs into a dough.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "salt",
+      "baking-soda",
+      "cream-of-tartar",
+      "white-sugar",
+      "shortening",
+      "butter",
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Roll the dough into balls of about 1 tbsp each.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the 2 tbsp sugar with the cinnamon and roll the balls in it.",
+     "relatedIngredientIds": [
+      "white-sugar",
+      "cinnamon"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake for 10 minutes, until crisp and light brown.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Sprinkle the hot cookies generously with more cinnamon.",
+     "relatedIngredientIds": [
+      "cinnamon"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Snickerdoodles_II",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "soft-sugar-cookies",
+   "title": "Soft Sugar Cookies",
+   "description": "Old-fashioned soft sugar cookies, shaped into balls and baked until set; a century-old Ontario family recipe.",
+   "prepTime": 15,
+   "cookTime": 18,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "shortening-or-butter",
+     "name": "shortening or butter",
+     "amount": 230.0,
+     "unit": "g"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 300.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 175 °C (350 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Lightly beat the eggs to break the yolks, then mix in the shortening until loose. Soften butter slightly first if using it.",
+     "relatedIngredientIds": [
+      "eggs",
+      "shortening-or-butter"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix in the sugar, vanilla and salt.",
+     "relatedIngredientIds": [
+      "vanilla-extract",
+      "sugar",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the baking powder, then slowly add the flour until the dough can be shaped without sticking too much to your hands.",
+     "relatedIngredientIds": [
+      "baking-powder",
+      "flour"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Shape into balls and place on a greased or parchment-lined pan.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 15-20 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1050,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Soft_Sugar_Cookies",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "chewy-ginger-cookies",
+   "title": "Chewy Ginger Cookies",
+   "description": "Soft, chewy molasses-and-ginger cookies rolled in sugar, baked until just cracked on top.",
+   "prepTime": 25,
+   "cookTime": 11,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "butter",
+     "name": "butter, softened",
+     "amount": 180.0,
+     "unit": "g"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "molasses",
+     "name": "molasses",
+     "amount": 60.0,
+     "unit": "ml"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 10.0,
+     "unit": "g"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 600.0,
+     "unit": "g"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 2.5,
+     "unit": "g"
+    },
+    {
+     "id": "ground-ginger",
+     "name": "ground ginger",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "ground-cloves",
+     "name": "ground cloves",
+     "amount": 5.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 2.5,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar, for coating",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 175 °C (350 °F) and grease a cookie sheet.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cream the butter and brown sugar with a mixer.",
+     "relatedIngredientIds": [
+      "butter",
+      "brown-sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat in the egg and stir in the molasses.",
+     "relatedIngredientIds": [
+      "egg",
+      "molasses"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Combine the baking soda, flour, cinnamon, ginger, cloves and salt in a separate bowl, then gently mix into the wet mixture to make a dough.",
+     "relatedIngredientIds": [
+      "baking-soda",
+      "flour",
+      "ground-cinnamon",
+      "ground-ginger",
+      "ground-cloves",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Shape into 2.5 cm balls and roll them in sugar. Do not flatten them.",
+     "relatedIngredientIds": [
+      "brown-sugar"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Place on the cookie sheet about 4-5 cm apart and bake for about 11 minutes, until cracked but still soft inside.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 660,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cool to room temperature.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chewy_Ginger_Cookies",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "molasses-cookies",
+   "title": "Molasses Cookies",
+   "description": "Old-time soft spiced cookies sweetened with molasses, made as drop or rolled cookies with sour milk.",
+   "prepTime": 20,
+   "cookTime": 10,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "vinegar",
+     "name": "vinegar",
+     "amount": 0.5,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "shortening",
+     "name": "shortening",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "molasses",
+     "name": "molasses",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "ginger",
+     "name": "ginger",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "walnuts-or-raisins",
+     "name": "walnuts or raisins, for topping",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 190 °C (375 °F) and grease or line cookie sheets.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine the vinegar with the milk and set aside to sour.",
+     "relatedIngredientIds": [
+      "vinegar",
+      "milk"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the baking soda, cinnamon, ginger and 2 1/2 cups of the flour.",
+     "relatedIngredientIds": [
+      "flour",
+      "baking-soda",
+      "cinnamon",
+      "ginger"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cream the sugar and shortening, then beat in the molasses and egg until smooth.",
+     "relatedIngredientIds": [
+      "sugar",
+      "shortening",
+      "egg",
+      "molasses"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Alternately mix in the dry mixture and the soured milk, starting and ending with the dry mixture.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Mix in more flour bit by bit for a soft dough, then chill the batter for at least 1 hour.",
+     "relatedIngredientIds": [
+      "flour"
+     ],
+     "animation": "mix",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Scoop onto the sheet, flatten with a sugared glass and press walnuts or raisins on top. Or roll out and cut shapes.",
+     "relatedIngredientIds": [
+      "sugar",
+      "walnuts-or-raisins"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Bake for 8-10 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 540,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Molasses_Cookies",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "triple-chocolate-chip-cookies",
+   "title": "Triple Chocolate Chip Cookies",
+   "description": "Cocoa cookies loaded with white and milk chocolate chips, chewy if baked a little less.",
+   "prepTime": 15,
+   "cookTime": 15,
+   "servings": 18,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter, plus extra for greasing",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "soft-light-brown-sugar",
+     "name": "soft light brown sugar",
+     "amount": 180.0,
+     "unit": "g"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 225.0,
+     "unit": "g"
+    },
+    {
+     "id": "cocoa-powder",
+     "name": "cocoa powder",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "bicarbonate-of-soda",
+     "name": "bicarbonate of soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "white-chocolate-chips",
+     "name": "white chocolate chips",
+     "amount": 60.0,
+     "unit": "g"
+    },
+    {
+     "id": "milk-chocolate-chips",
+     "name": "milk chocolate chips",
+     "amount": 60.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 180 °C (350 °F). Grease 3 baking trays.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the flour, cocoa, bicarbonate of soda and salt in a bowl.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "cocoa-powder",
+      "bicarbonate-of-soda",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat the butter and sugar until soft and fluffy, then beat in the egg.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "soft-light-brown-sugar",
+      "egg"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Fold the dry ingredients into the wet ingredients, then fold in the white and milk chocolate chips.",
+     "relatedIngredientIds": [
+      "white-chocolate-chips",
+      "milk-chocolate-chips"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Spoon heaped tablespoons of dough onto the trays, well spaced apart.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 12-15 minutes, or 10 minutes for a chewier cookie.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 810,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Move the cookies to wire racks to cool.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Triple_Chocolate_Chip_Cookies",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "hermits",
+   "title": "Hermits (Spice Bar Cookies)",
+   "description": "Chewy New England molasses spice cookies with raisins, baked as strips and cut into bars.",
+   "prepTime": 15,
+   "cookTime": 15,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 275.0,
+     "unit": "g"
+    },
+    {
+     "id": "seedless-raisins",
+     "name": "seedless raisins",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "dark-brown-sugar",
+     "name": "dark brown sugar",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "ground-ginger",
+     "name": "ground ginger",
+     "amount": 2.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cloves",
+     "name": "ground cloves",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "molasses",
+     "name": "molasses",
+     "amount": 120.0,
+     "unit": "ml"
+    },
+    {
+     "id": "butter",
+     "name": "butter, melted",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 190 °C (375 °F) and line a sheet pan with parchment paper.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Stir together the flour, raisins, brown sugar, ginger, cinnamon, cloves, baking powder and salt, breaking up any sugar lumps.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "seedless-raisins",
+      "dark-brown-sugar",
+      "ground-ginger",
+      "ground-cinnamon",
+      "ground-cloves",
+      "baking-powder",
+      "salt"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the molasses, melted butter, vanilla and egg until fully combined.",
+     "relatedIngredientIds": [
+      "molasses",
+      "butter",
+      "vanilla-extract",
+      "egg"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Shape the dough into two strips on the pan, well apart from each other.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake for 12-15 minutes, until a toothpick in the centre of the strips comes out dry.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 810,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cool slightly, then slide the strips on their parchment to a rack to cool completely.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cut the strips into wide bars and scrape them off the parchment. Enjoy with milk or tea.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Hermits",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pecan-blondies",
+   "title": "Pecan Blondies",
+   "description": "Chewy brown-sugar bar cookies, like brownies without chocolate, full of toasted pecans.",
+   "prepTime": 15,
+   "cookTime": 30,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.75,
+     "unit": "tsp"
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter, melted",
+     "amount": 120.0,
+     "unit": "g"
+    },
+    {
+     "id": "dark-brown-sugar",
+     "name": "dark brown sugar",
+     "amount": 240.0,
+     "unit": "g"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "pecans",
+     "name": "pecans, chopped",
+     "amount": 180.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 170 °C (325 °F) and butter an 8 x 8-inch (20 cm) baking dish.",
+     "relatedIngredientIds": [
+      "unsalted-butter"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Toast the pecans in a dry skillet over medium-high heat, stirring often, until fragrant and slightly coloured.",
+     "relatedIngredientIds": [
+      "pecans"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir the flour, baking powder and salt together in a small bowl.",
+     "relatedIngredientIds": [
+      "flour",
+      "baking-powder",
+      "salt"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir the melted butter, brown sugar and vanilla until uniform, breaking up any lumps. Beat in the egg until creamy.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "dark-brown-sugar",
+      "vanilla-extract",
+      "egg"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Gently fold in the flour mixture, then the toasted pecans. Do not overmix.",
+     "relatedIngredientIds": [
+      "flour",
+      "pecans"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Spread the batter into the dish and bake for 30 minutes, or to your preferred doneness.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Let cool, then cut into bars.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pecan_Blondies",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "fudge-crackle-cookies",
+   "title": "Fudge Crackle Cookies",
+   "description": "Brownie-like chocolate cookies made in a saucepan, with a cracked, sugar-dusted dome and walnuts.",
+   "prepTime": 20,
+   "cookTime": 20,
+   "servings": 18,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "margarine",
+     "name": "margarine",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "unsweetened-baking-choco",
+     "name": "unsweetened baking chocolate",
+     "amount": 85.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "walnuts",
+     "name": "walnuts, coarsely chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "coarse-sugar",
+     "name": "coarse sugar, for coating",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine the flour, baking powder and salt.",
+     "relatedIngredientIds": [
+      "flour",
+      "baking-powder",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Melt the margarine and chocolate together in a large saucepan over low heat, then take it off the heat.",
+     "relatedIngredientIds": [
+      "margarine",
+      "unsweetened-baking-choco"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the eggs, sugar, vanilla and walnuts into the chocolate mixture.",
+     "relatedIngredientIds": [
+      "unsweetened-baking-choco",
+      "sugar",
+      "eggs",
+      "vanilla-extract",
+      "walnuts"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix in the flour mixture. Cover and refrigerate until firm, ideally overnight.",
+     "relatedIngredientIds": [
+      "flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Preheat the oven to 150 °C (300 °F). Roll the dough into 4 cm balls, coat them in coarse sugar and place on a cool, ungreased cookie sheet with room to spread.",
+     "relatedIngredientIds": [
+      "coarse-sugar"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 20 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Remove the cookies from the sheet immediately, or they will stick firmly.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Saucepan_Fudge_Crackle_Cookies",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "chocolate-crinkles",
+   "title": "Chocolate Crinkles",
+   "description": "Fudgy chocolate cookies rolled in icing sugar so they crack into a black-and-white pattern as they bake.",
+   "prepTime": 45,
+   "cookTime": 12,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 120.0,
+     "unit": "ml"
+    },
+    {
+     "id": "unsweetened-chocolate",
+     "name": "unsweetened chocolate, melted",
+     "amount": 115.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "confectioners-sugar",
+     "name": "confectioners' sugar (icing sugar)",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the vegetable oil, melted chocolate and sugar.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "unsweetened-chocolate",
+      "sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Blend in the eggs one at a time until well mixed, then add the vanilla.",
+     "relatedIngredientIds": [
+      "eggs",
+      "vanilla-extract"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the flour, baking powder and salt.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "baking-powder",
+      "salt"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Chill the dough for several hours or overnight.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Heat the oven to 175 °C (350 °F).",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Drop teaspoonfuls of dough into the confectioners' sugar, roll into balls and coat well.",
+     "relatedIngredientIds": [
+      "confectioners-sugar"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Place the balls about 5 cm apart on a greased baking sheet and bake for 10-12 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 660,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Crinkles",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "date-bars",
+   "title": "Date Bars",
+   "description": "Oat crumble bars with a cooked date filling between a buttery brown-sugar base and topping.",
+   "prepTime": 20,
+   "cookTime": 30,
+   "servings": 16,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "dates",
+     "name": "dates, chopped",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "shortening",
+     "name": "shortening",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 1.75,
+     "unit": "cup"
+    },
+    {
+     "id": "quick-cooking-oats",
+     "name": "quick-cooking oats",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the dates, sugar and water in a saucepan.",
+     "relatedIngredientIds": [
+      "sugar",
+      "dates",
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cook over low heat, stirring constantly, for about 10 minutes until thickened. Let it cool.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Preheat the oven to 200 °C (400 °F) and grease a 13 x 9-inch pan.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cream the butter, shortening and brown sugar together.",
+     "relatedIngredientIds": [
+      "shortening",
+      "butter",
+      "brown-sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix in the flour, salt, baking soda and oats to make a crumble.",
+     "relatedIngredientIds": [
+      "baking-soda",
+      "flour",
+      "quick-cooking-oats",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Press half the crumble evenly into the bottom of the pan and spread the date filling on top.",
+     "relatedIngredientIds": [
+      "dates"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cover with the remaining crumble, pressing lightly.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Bake for 25-30 minutes, until light brown. Cut into bars while warm.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1650,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Date_Bars",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "gingerbread-cake",
+   "title": "Gingerbread Cake",
+   "description": "Soft, dark spiced golden-syrup cake in the English style, best left a day before cutting.",
+   "prepTime": 20,
+   "cookTime": 60,
+   "servings": 9,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "golden-syrup",
+     "name": "golden syrup",
+     "amount": 220.0,
+     "unit": "g"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 220.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "mixed-spice",
+     "name": "mixed spice",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-ginger",
+     "name": "ground ginger",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 120.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 170 °C (325 °F) and grease an 8-inch (20 cm) square cake tin.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the butter, brown sugar and golden syrup gently in a saucepan until the butter melts.",
+     "relatedIngredientIds": [
+      "butter",
+      "brown-sugar",
+      "golden-syrup"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put the flour, baking powder, mixed spice and ground ginger in a bowl. Pour in the melted butter mixture and beat thoroughly.",
+     "relatedIngredientIds": [
+      "butter",
+      "all-purpose-flour",
+      "baking-powder",
+      "mixed-spice",
+      "ground-ginger"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Warm the milk in a saucepan, add it to the bowl and beat thoroughly.",
+     "relatedIngredientIds": [
+      "milk"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Beat the eggs and stir them into the mixture. Pour into the tin.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 1 hour.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cool in the tin for 15 minutes, then turn out. Leave for at least 1 day before cutting into squares.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Cool"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Gingerbread",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "applesauce-cake",
+   "title": "Applesauce Cake",
+   "description": "Old-fashioned spiced raisin cake with almonds and unsweetened applesauce, baked in two round pans.",
+   "prepTime": 20,
+   "cookTime": 45,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "butter",
+     "name": "butter, plus extra for greasing",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "raisins",
+     "name": "raisins",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 1.75,
+     "unit": "cup"
+    },
+    {
+     "id": "ground-cloves",
+     "name": "ground cloves",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-allspice",
+     "name": "ground allspice",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-almonds",
+     "name": "ground almonds",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "hot-water",
+     "name": "hot water",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "unsweetened-applesauce",
+     "name": "unsweetened applesauce",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 180 °C (350 °F). Grease and line two round cake pans.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cream the butter and sugar in a bowl until light and fluffy.",
+     "relatedIngredientIds": [
+      "butter",
+      "sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix in the raisins, flour, cloves, allspice, cinnamon, ground almonds and applesauce.",
+     "relatedIngredientIds": [
+      "raisins",
+      "all-purpose-flour",
+      "ground-cloves",
+      "ground-allspice",
+      "ground-cinnamon",
+      "ground-almonds",
+      "unsweetened-applesauce"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Dissolve the baking soda in the hot water and stir it into the batter.",
+     "relatedIngredientIds": [
+      "baking-soda",
+      "hot-water"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour the batter into the pans and bake for 45 minutes, until golden.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Move the cakes to a wire rack to cool.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Applesauce_Cake",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "apple-cake",
+   "title": "Apple Cake",
+   "description": "Simple spiced butter cake with chopped apples, served warm with whipped cream.",
+   "prepTime": 20,
+   "cookTime": 45,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 108.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 225.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-nutmeg",
+     "name": "ground nutmeg",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "apples",
+     "name": "apples, chopped",
+     "amount": 227.0,
+     "unit": "g"
+    },
+    {
+     "id": "whipped-cream",
+     "name": "whipped cream",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 175 °C (350 °F). Grease and line a cake pan.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cream the butter and sugar together until fluffy, then beat in the eggs.",
+     "relatedIngredientIds": [
+      "butter",
+      "sugar",
+      "eggs",
+      "whipped-cream"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Sift the flour, baking soda, cinnamon and nutmeg together and mix into the batter until just combined.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "baking-soda",
+      "ground-cinnamon",
+      "ground-nutmeg"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Fold in the apples and transfer the batter to the pan.",
+     "relatedIngredientIds": [
+      "apples"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake for 45 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve warm with whipped cream.",
+     "relatedIngredientIds": [
+      "whipped-cream"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Apple_Cake",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "carrot-cake",
+   "title": "Carrot Cake",
+   "description": "Moist spiced carrot and walnut cake topped with a cream cheese frosting.",
+   "prepTime": 25,
+   "cookTime": 45,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 450.0,
+     "unit": "ml"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "bicarbonate-of-soda",
+     "name": "bicarbonate of soda",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 570.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 290.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 12.0,
+     "unit": "g"
+    },
+    {
+     "id": "carrots",
+     "name": "carrots, peeled and grated",
+     "amount": 530.0,
+     "unit": "g"
+    },
+    {
+     "id": "walnuts",
+     "name": "walnuts, chopped",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "cream-cheese",
+     "name": "cream cheese",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar-2",
+     "name": "sugar, for the topping",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 100.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 160 °C (325 °F) and grease a 26 cm cake tin.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the vegetable oil, flour, bicarbonate of soda, sugar, eggs, salt, cinnamon, carrots and walnuts in a food processor for 5 minutes.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "plain-flour",
+      "bicarbonate-of-soda",
+      "sugar",
+      "eggs",
+      "salt",
+      "ground-cinnamon",
+      "carrots",
+      "walnuts"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour the batter into the tin and bake for 45 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Check the cake is cooked, then cool in the tin for 10 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cool"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Unmould the cake onto a cooling rack and let it cool completely.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "For the topping, cream the cream cheese, topping sugar and butter in a bowl until smooth and soft.",
+     "relatedIngredientIds": [
+      "sugar",
+      "cream-cheese",
+      "butter"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Spread the frosting over the cake with a palette knife.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Carrot_Cake_II",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "rhubarb-cake",
+   "title": "Rhubarb Cake",
+   "description": "Tender buttermilk cake studded with tangy rhubarb and finished with a cinnamon-sugar crust.",
+   "prepTime": 20,
+   "cookTime": 35,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "rhubarb",
+     "name": "rhubarb, thinly sliced",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "buttermilk",
+     "name": "buttermilk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 190 °C (375 °F) and grease a 9 x 13-inch pan.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cream the brown sugar and butter until fluffy, then beat in the egg and salt.",
+     "relatedIngredientIds": [
+      "brown-sugar",
+      "butter",
+      "egg",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the buttermilk, baking soda, vanilla and flour. Add the rhubarb and stir until mixed in.",
+     "relatedIngredientIds": [
+      "rhubarb",
+      "butter",
+      "buttermilk",
+      "baking-soda",
+      "vanilla-extract",
+      "flour"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour the batter into the pan.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Combine the 1/4 cup sugar and cinnamon and sprinkle over the batter.",
+     "relatedIngredientIds": [
+      "brown-sugar",
+      "cinnamon"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 30-35 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1950,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Rhubarb_Cake",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "wacky-cake",
+   "title": "Wacky Cake (Eggless Chocolate)",
+   "description": "Depression-era chocolate cake with no eggs or butter, mixed in one bowl with oil and vinegar.",
+   "prepTime": 10,
+   "cookTime": 40,
+   "servings": 12,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "cocoa-powder",
+     "name": "cocoa powder",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "vinegar",
+     "name": "vinegar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 2.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 180 °C (350 °F) and grease a square cake pan.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine the flour, sugar, cocoa powder, baking soda and salt in a large bowl.",
+     "relatedIngredientIds": [
+      "flour",
+      "sugar",
+      "cocoa-powder",
+      "baking-soda",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the water, vegetable oil, vinegar and vanilla and blend thoroughly.",
+     "relatedIngredientIds": [
+      "water",
+      "vegetable-oil",
+      "vinegar",
+      "vanilla-extract"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour the batter into the pan and bake for 35-40 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 2250,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cool completely before serving.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Wacky_Cake",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pound-cake",
+   "title": "Traditional Pound Cake",
+   "description": "Classic English pound cake made with equal weights of flour, butter, sugar and eggs.",
+   "prepTime": 15,
+   "cookTime": 35,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "self-raising-flour",
+     "name": "self-raising flour",
+     "amount": 8.0,
+     "unit": "oz"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 8.0,
+     "unit": "oz"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "caster-sugar",
+     "name": "caster sugar",
+     "amount": 8.0,
+     "unit": "oz"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "mixed-dried-fruit",
+     "name": "mixed dried fruit (optional)",
+     "amount": 8.0,
+     "unit": "oz"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 175 °C (350 °F) and grease and flour a baking pan.",
+     "relatedIngredientIds": [
+      "self-raising-flour"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cream the butter and caster sugar together until fluffy.",
+     "relatedIngredientIds": [
+      "butter",
+      "caster-sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat in the eggs and the vanilla extract.",
+     "relatedIngredientIds": [
+      "eggs",
+      "vanilla-extract"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Gradually sift in the self-raising flour. Fold in the dried fruit if using.",
+     "relatedIngredientIds": [
+      "self-raising-flour",
+      "mixed-dried-fruit"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Transfer to the pan and bake for 35 minutes, until a skewer comes out with no moist crumbs.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 2100,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Traditional_Pound_Cake",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "flourless-chocolate-cake",
+   "title": "Flourless Chocolate Cake",
+   "description": "Dense, rich chocolate cake of chocolate, butter, eggs and sugar, baked in a water bath and chilled.",
+   "prepTime": 20,
+   "cookTime": 30,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 120.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "chocolate",
+     "name": "chocolate (suitable for melting)",
+     "amount": 150.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Melt the chocolate and butter in a bowl set over a pan of simmering water. Whisk lightly until smooth, then cool, stirring.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "chocolate"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Preheat the oven to 150 °C (300 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat the eggs and sugar until creamy, then gradually mix in the melted chocolate.",
+     "relatedIngredientIds": [
+      "sugar",
+      "eggs",
+      "chocolate"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour into a baking tin or 8 individual moulds. Cover with aluminium foil and set in a deeper baking tray.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour boiling water into the tray to half the height of the moulds.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for about 30 minutes, until a skewer comes out clean.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cool at room temperature, then chill in the fridge for about 10 hours.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 21600,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Remove from the mould, place on a plate and garnish.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Flourless_Chocolate_Cake",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "hot-milk-cake",
+   "title": "Hot Milk Cake",
+   "description": "Old-fashioned two-layer vanilla sponge made by beating eggs well and folding in hot milk and butter.",
+   "prepTime": 25,
+   "cookTime": 30,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "whole-milk",
+     "name": "whole milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cake-flour",
+     "name": "cake flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Take the eggs and butter out of the fridge an hour before baking. Preheat the oven to 175 °C (350 °F).",
+     "relatedIngredientIds": [
+      "butter",
+      "eggs"
+     ],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the milk and butter together until the butter melts. Cool until just warm, then add the vanilla.",
+     "relatedIngredientIds": [
+      "whole-milk",
+      "butter",
+      "vanilla-extract"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Combine the cake flour, baking powder and salt.",
+     "relatedIngredientIds": [
+      "cake-flour",
+      "baking-powder",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Whip the eggs in a large bowl until light and lemon-coloured, which can take 5-10 minutes.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the sugar slowly, beating well, then add the dry ingredients.",
+     "relatedIngredientIds": [
+      "sugar"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the milk mixture very slowly, folding it in by hand toward the end.",
+     "relatedIngredientIds": [
+      "whole-milk"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Divide the batter between two greased and floured 9-inch (23 cm) round pans and bake for about 30 minutes.",
+     "relatedIngredientIds": [
+      "cake-flour"
+     ],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cool on racks for 10 minutes, then turn out to cool completely. Frost or serve with strawberries.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cool"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Hot_Milk_Cake",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "banana-cream-pie",
+   "title": "Banana Cream Pie",
+   "description": "Pastry shell layered with sliced bananas and a vanilla custard cream, cooled until set.",
+   "prepTime": 20,
+   "cookTime": 15,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "bananas",
+     "name": "bananas, sliced",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "egg-yolks",
+     "name": "egg yolks, slightly beaten",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "baked-pastry-shell",
+     "name": "baked pastry shell, 9-inch (23 cm)",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine the sugar, flour and salt in a saucepan.",
+     "relatedIngredientIds": [
+      "sugar",
+      "all-purpose-flour",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the milk gradually.",
+     "relatedIngredientIds": [
+      "milk"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cook over medium heat, stirring constantly, until bubbly. Cook and stir for 2 more minutes, then remove from the heat.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir a small amount of the hot mixture into the egg yolks, then stir the yolks into the hot mixture.",
+     "relatedIngredientIds": [
+      "egg-yolks"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cook for 2 minutes, stirring constantly, then remove from the heat.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the butter and vanilla and stir until smooth.",
+     "relatedIngredientIds": [
+      "butter",
+      "vanilla-extract"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Arrange the sliced bananas in the cooled baked pastry shell and pour the custard over them.",
+     "relatedIngredientIds": [
+      "bananas",
+      "baked-pastry-shell"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cool completely before serving.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Banana_Cream_Pie_II",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "baked-custard",
+   "title": "Baked Custard",
+   "description": "Simple old-fashioned milk custard with eggs and vanilla, baked gently in a water bath.",
+   "prepTime": 10,
+   "cookTime": 40,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 120.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 950.0,
+     "unit": "ml"
+    },
+    {
+     "id": "butter",
+     "name": "butter, for greasing",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 150 °C (300 °F) and butter a baking dish or several small heatproof moulds.",
+     "relatedIngredientIds": [
+      "butter"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Beat the eggs, sugar, salt and vanilla together.",
+     "relatedIngredientIds": [
+      "eggs",
+      "sugar",
+      "salt",
+      "vanilla-extract"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Scald the milk and add it very slowly to the eggs, stirring constantly.",
+     "relatedIngredientIds": [
+      "eggs",
+      "milk"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour into the baking dish or moulds.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Set the dish in a pan of water and bake for 30-40 minutes, until a knife comes out clean.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 2100,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Baked_Custard",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "bread-pudding",
+   "title": "Bread Pudding",
+   "description": "Torn bread soaked in a sweet cinnamon custard with raisins and baked until set.",
+   "prepTime": 15,
+   "cookTime": 45,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "bread",
+     "name": "bread",
+     "amount": 6.0,
+     "unit": "slice"
+    },
+    {
+     "id": "butter",
+     "name": "butter, melted",
+     "amount": 30.0,
+     "unit": "g"
+    },
+    {
+     "id": "raisins",
+     "name": "raisins",
+     "amount": 80.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 475.0,
+     "unit": "ml"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 2.0,
+     "unit": "g"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 5.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the oven to 175 °C (350 °F).",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Tear the bread into small pieces and put it in a baking dish, mixing in the raisins as you fill the dish.",
+     "relatedIngredientIds": [
+      "bread",
+      "raisins"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour the melted butter over the bread.",
+     "relatedIngredientIds": [
+      "bread",
+      "butter"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Beat the eggs lightly, then add the sugar, milk, cinnamon and vanilla and mix.",
+     "relatedIngredientIds": [
+      "eggs",
+      "sugar",
+      "milk",
+      "ground-cinnamon",
+      "vanilla-extract"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour the mixture over the bread and press lightly so all the bread is wet.",
+     "relatedIngredientIds": [
+      "bread"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 45 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2700,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Let cool and serve cold or warm, cut into squares.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Bread_Pudding",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "indian-pudding-cornmeal",
+   "title": "Indian Pudding (Cornmeal)",
+   "description": "Old New England baked pudding of cornmeal, milk and molasses with ginger and cinnamon; not an Indian dish.",
+   "prepTime": 20,
+   "cookTime": 75,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 950.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cold-water",
+     "name": "cold water",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cornmeal",
+     "name": "cornmeal",
+     "amount": 6.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "molasses",
+     "name": "molasses",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "nutmeg",
+     "name": "nutmeg",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-ginger",
+     "name": "ground ginger",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, separated",
+     "amount": 4.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 175 °C (350 °F). Set aside 1/2 cup of the milk and bring the rest to the boil.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Stir the cold water into the cornmeal, then pour it slowly into the boiling milk and add the salt.",
+     "relatedIngredientIds": [
+      "milk",
+      "cold-water",
+      "cornmeal",
+      "salt"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Boil for 15 minutes, stirring constantly, removing any skin. Take it off the heat.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the molasses with the baking soda, the reserved 1/2 cup milk and the brown sugar.",
+     "relatedIngredientIds": [
+      "milk",
+      "molasses",
+      "baking-soda",
+      "brown-sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the nutmeg, ginger, cinnamon and beaten egg yolks to the molasses mixture.",
+     "relatedIngredientIds": [
+      "molasses",
+      "nutmeg",
+      "ground-ginger",
+      "cinnamon",
+      "eggs"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour the molasses mixture slowly into the cornmeal mixture.",
+     "relatedIngredientIds": [
+      "cornmeal",
+      "molasses"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Whip the egg whites to stiff peaks and fold them in.",
+     "relatedIngredientIds": [
+      "eggs"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Pour into a greased baking dish and bake for 1 hour.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Indian_Pudding",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "baked-rice-pudding",
+   "title": "Baked Rice Pudding",
+   "description": "Creamy oven-baked pudding of cooked rice, milk and eggs with raisins, cinnamon and nutmeg.",
+   "prepTime": 20,
+   "cookTime": 90,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 2.8,
+     "unit": "l"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 155.0,
+     "unit": "g"
+    },
+    {
+     "id": "cooked-rice",
+     "name": "cooked rice",
+     "amount": 680.0,
+     "unit": "g"
+    },
+    {
+     "id": "raisins",
+     "name": "raisins",
+     "amount": 220.0,
+     "unit": "g"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "nutmeg",
+     "name": "nutmeg",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 165 °C (325 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a large 3-litre casserole dish, mix the milk, eggs and sugar until thoroughly mixed and frothy.",
+     "relatedIngredientIds": [
+      "milk",
+      "eggs",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix in the cinnamon, nutmeg and vanilla.",
+     "relatedIngredientIds": [
+      "cinnamon",
+      "nutmeg",
+      "vanilla-extract"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix in the cooked rice, then scatter the raisins on top. Do not stir them in, or they will sink.",
+     "relatedIngredientIds": [
+      "cooked-rice",
+      "raisins"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Set the casserole in a larger baking pan holding about 2.5 cm of water, to stop the bottom cooking too fast.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake until set, about 1.5 hours.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 5400,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Rice_Pudding",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "lemon-squares",
+   "title": "Lemon Squares",
+   "description": "Shortbread base topped with a sweet-tart lemon custard layer, dusted with powdered sugar.",
+   "prepTime": 20,
+   "cookTime": 50,
+   "servings": 16,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "powdered-sugar",
+     "name": "powdered sugar, plus extra for dusting",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "margarine",
+     "name": "margarine, softened",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 0.333,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "all-purpose-flour-2",
+     "name": "all-purpose flour, for the topping",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "lemon-zest",
+     "name": "lemon zest",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 180 °C (350 °F). Combine the 2 cups flour and 3/4 cup powdered sugar.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "powdered-sugar",
+      "baking-powder"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cut in the margarine until the mixture resembles fine crumbs.",
+     "relatedIngredientIds": [
+      "margarine"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Press firmly into a greased 8 or 9-inch square pan.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Bake the base for 20-30 minutes, until lightly browned.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Meanwhile, beat the eggs until frothy and stir in the lemon juice and lemon zest.",
+     "relatedIngredientIds": [
+      "eggs",
+      "lemon-juice",
+      "lemon-zest"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "In another bowl, stir together the sugar, the 1/4 cup flour and the baking powder, then stir into the egg mixture until just moistened.",
+     "relatedIngredientIds": [
+      "all-purpose-flour",
+      "powdered-sugar",
+      "eggs",
+      "baking-powder"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Spread over the hot base and bake for 20-25 minutes, until set.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1350,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cool before cutting into squares. Dust with powdered sugar.",
+     "relatedIngredientIds": [
+      "powdered-sugar",
+      "baking-powder"
+     ],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Lemon_Squares",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pumpkin-roll",
+   "title": "Pumpkin Roll",
+   "description": "Spiced pumpkin sponge rolled around a sweet cream cheese filling, sliced and served for the holidays.",
+   "prepTime": 30,
+   "cookTime": 15,
+   "servings": 10,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, beaten",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "canned-pumpkin-pur-e",
+     "name": "canned pumpkin purée",
+     "amount": 0.667,
+     "unit": "cup"
+    },
+    {
+     "id": "flour",
+     "name": "flour",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "pecans",
+     "name": "pecans, chopped",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "cream-cheese",
+     "name": "cream cheese",
+     "amount": 230.0,
+     "unit": "g"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "powdered-sugar",
+     "name": "powdered sugar",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 190 °C (375 °F). Line a rectangular cookie sheet with greased parchment, letting it overhang the sides.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the sugar, eggs and pumpkin in a large bowl until well blended.",
+     "relatedIngredientIds": [
+      "sugar",
+      "eggs",
+      "canned-pumpkin-pur-e"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the flour, salt, cinnamon and baking soda in a second bowl, then fold into the pumpkin mixture.",
+     "relatedIngredientIds": [
+      "canned-pumpkin-pur-e",
+      "flour",
+      "salt",
+      "cinnamon",
+      "baking-soda"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour the batter evenly onto the sheet, sprinkle with the pecans and bake for 15 minutes.",
+     "relatedIngredientIds": [
+      "pecans"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Set aside 2 tbsp of the powdered sugar. Whip the cream cheese, vanilla, butter and the rest of the powdered sugar until smooth.",
+     "relatedIngredientIds": [
+      "cream-cheese",
+      "vanilla-extract",
+      "butter",
+      "powdered-sugar"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Dust a clean dish towel with the reserved powdered sugar. Flip the warm cake onto it and roll up loosely. Cool completely.",
+     "relatedIngredientIds": [
+      "powdered-sugar"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Unroll the cake, spread the filling over it and roll it up again in a spiral.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Wrap in foil or plastic wrap and freeze. Cut into slices while still frozen.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pumpkin_Roll",
+   "credit": "Wikibooks Cookbook contributors"
+  }
+ ]
+}

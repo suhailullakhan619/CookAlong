@@ -1,0 +1,4660 @@
+{
+ "recipes": [
+  {
+   "id": "anzac-biscuits",
+   "title": "Anzac Biscuits",
+   "description": "Chewy, crisp oat and coconut biscuits sweetened with golden syrup, a classic Australian and New Zealand bake.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "australian",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "rolled-oats",
+     "name": "rolled oats",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "desiccated-coconut",
+     "name": "desiccated coconut",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "golden-syrup",
+     "name": "golden syrup",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 225.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 150 °C (300 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the plain flour, sugar, rolled oats and desiccated coconut in a bowl.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "sugar",
+      "rolled-oats",
+      "desiccated-coconut"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Melt the golden syrup and butter in a saucepan, then stir in the baking soda and water.",
+     "relatedIngredientIds": [
+      "golden-syrup",
+      "butter",
+      "baking-soda",
+      "water"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the wet and dry ingredients together, adding a little more water if needed.",
+     "relatedIngredientIds": [
+      "water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Roll the mixture into small balls and flatten them on baking trays.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 20 minutes, until golden brown.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Anzac_Biscuits_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "flapjacks",
+   "title": "Flapjacks",
+   "description": "Chewy British oat bars made with butter, brown sugar and golden syrup, baked in a tin and cut into oblongs.",
+   "prepTime": 10,
+   "cookTime": 40,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "light-brown-sugar",
+     "name": "light brown sugar",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 175.0,
+     "unit": "g"
+    },
+    {
+     "id": "golden-syrup",
+     "name": "golden syrup",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "rolled-oats",
+     "name": "rolled oats",
+     "amount": 175.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 150 °C (300 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the sugar, butter and golden syrup in a medium saucepan until the butter has melted.",
+     "relatedIngredientIds": [
+      "light-brown-sugar",
+      "butter",
+      "golden-syrup"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Take the pan off the heat and stir in the rolled oats.",
+     "relatedIngredientIds": [
+      "rolled-oats"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Press the mixture over the base of a lightly greased 19 cm square baking tin.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake in the centre of the oven for 40 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cool in the tin for 10 minutes, then cut into oblong bars.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cool"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Leave until cold before lifting the flapjacks out, and store in an airtight container.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Basic_Flapjacks",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "scones",
+   "title": "Scones",
+   "description": "Light, golden British tea scones, served split with jam and cream.",
+   "prepTime": 15,
+   "cookTime": 11,
+   "servings": 10,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "baking",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "caster-sugar",
+     "name": "caster sugar",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cold-butter",
+     "name": "cold butter, cut into pieces",
+     "amount": 5.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "egg",
+     "name": "egg",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "heavy-cream",
+     "name": "heavy cream, plus extra for brushing",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "fruit-jam",
+     "name": "fruit jam, to serve",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 230 °C (450 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pulse the plain flour, salt, baking powder and 2 tbsp of the caster sugar in a food processor. Add the butter and pulse to a cornmeal texture.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "salt",
+      "baking-powder",
+      "caster-sugar",
+      "cold-butter"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the egg and just enough heavy cream to make a slightly sticky dough.",
+     "relatedIngredientIds": [
+      "egg",
+      "heavy-cream"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Turn the dough onto a floured surface, knead once or twice and press into a 2 cm thick circle. Cut out 5 cm rounds.",
+     "relatedIngredientIds": [
+      "plain-flour"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Place the rounds on an ungreased baking sheet and reshape the leftover dough to cut more scones.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Brush the tops with a little cream and sprinkle with the remaining sugar.",
+     "relatedIngredientIds": [
+      "caster-sugar",
+      "heavy-cream"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Bake for 10 minutes, until golden brown.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cool slightly and serve with fruit jam and extra cream.",
+     "relatedIngredientIds": [
+      "heavy-cream",
+      "fruit-jam"
+     ],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Plain_Scones",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "boxty",
+   "title": "Boxty (Irish Potato Cakes)",
+   "description": "Irish griddled potato cakes made from grated raw and mashed potato with buttermilk and flour.",
+   "prepTime": 20,
+   "cookTime": 25,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 900.0,
+     "unit": "g"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "butter-2",
+     "name": "butter, for frying",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "buttermilk",
+     "name": "buttermilk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Wash, peel, chunk and boil half of the potatoes until soft.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mash the boiled potatoes with the milk and 1 tbsp butter, and set aside.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "milk",
+      "butter"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Grate the other half of the potatoes (raw) into a strong cloth and squeeze out all the liquid.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the grated potatoes, mashed potatoes, baking soda, buttermilk, plain flour and black pepper until well combined.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "butter",
+      "plain-flour",
+      "baking-soda",
+      "buttermilk",
+      "black-pepper"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Warm a nonstick griddle or skillet over medium heat and melt some of the butter for frying.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour the batter on the griddle, 1/4 cup at a time, and fry until the edges are soft and the cake is bubbling.",
+     "relatedIngredientIds": [],
+     "animation": "pour"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Turn and cook the other side, then serve hot.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Boxty_(Irish_Potato_Cakes)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "coddle",
+   "title": "Dublin Coddle",
+   "description": "Irish one-pot stew of sausages, bacon, potatoes and onions simmered slowly in stock.",
+   "prepTime": 15,
+   "cookTime": 70,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "british"
+   ],
+   "ingredients": [
+    {
+     "id": "sausages",
+     "name": "sausages",
+     "amount": 550.0,
+     "unit": "g"
+    },
+    {
+     "id": "bacon",
+     "name": "bacon, cut into 3 cm pieces",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "chicken-stock",
+     "name": "chicken stock",
+     "amount": 300.0,
+     "unit": "ml"
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "onions",
+     "name": "onions",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the bacon, onions and sausages in a large pot and cover completely with the chicken stock.",
+     "relatedIngredientIds": [
+      "sausages",
+      "bacon",
+      "chicken-stock",
+      "onions"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Boil for 5 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the potatoes, cut into bite-sized pieces if needed, and bring back to the boil.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Simmer for 1 hour, until the potatoes start to disintegrate and thicken the broth.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Season with salt and pepper and serve with soda bread.",
+     "relatedIngredientIds": [
+      "salt",
+      "pepper"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Coddle",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "colcannon",
+   "title": "Colcannon",
+   "description": "Irish mashed potato mixed with buttery cabbage and leeks, topped with melted Gouda.",
+   "prepTime": 15,
+   "cookTime": 45,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british"
+   ],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "single-cream",
+     "name": "single cream",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "mace",
+     "name": "mace",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "paprika",
+     "name": "paprika",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "shredded-cabbage",
+     "name": "shredded cabbage",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "leeks",
+     "name": "leeks, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "gouda-cheese",
+     "name": "Gouda cheese, grated",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Boil the potatoes until soft, drain, then shake them in a covered pot until they crumble.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mash the potatoes with a fork. Season with salt, pepper, mace and paprika, then stir in the cream.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "single-cream",
+      "mace",
+      "paprika",
+      "salt",
+      "pepper"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add 100 g of the butter in pieces, cover and let it melt, then stir. Move the mash to a clean bowl.",
+     "relatedIngredientIds": [
+      "unsalted-butter"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Blanch the cabbage in boiling water for 2 minutes and drain.",
+     "relatedIngredientIds": [
+      "shredded-cabbage"
+     ],
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Blanch"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Fry the leeks in the remaining butter for a few minutes, then toss in the cabbage for a few minutes more.",
+     "relatedIngredientIds": [
+      "shredded-cabbage",
+      "leeks",
+      "unsalted-butter"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Mix the cabbage and leeks into the mashed potato.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "shredded-cabbage",
+      "leeks"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Stir in most of the Gouda and sprinkle the rest on top.",
+     "relatedIngredientIds": [
+      "gouda-cheese"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Bake at 180 °C (350 °F) for 20 minutes, until the cheese has melted.",
+     "relatedIngredientIds": [
+      "gouda-cheese"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Colcannon",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "corned-beef-pie",
+   "title": "Corned Beef Pie",
+   "description": "British double-crust pie filled with corned beef, mashed potato and onion; good hot or cold.",
+   "prepTime": 30,
+   "cookTime": 40,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "british",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "self-raising-flour",
+     "name": "self-raising flour",
+     "amount": 340.0,
+     "unit": "g"
+    },
+    {
+     "id": "lard",
+     "name": "lard",
+     "amount": 85.0,
+     "unit": "g"
+    },
+    {
+     "id": "margarine",
+     "name": "margarine",
+     "amount": 85.0,
+     "unit": "g"
+    },
+    {
+     "id": "corned-beef",
+     "name": "corned beef (340 g)",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "onion",
+     "name": "onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 200 °C (400 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sift the flour into a bowl and rub in the lard and margarine.",
+     "relatedIngredientIds": [
+      "self-raising-flour",
+      "lard",
+      "margarine"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add just enough water to bind the mixture into a dough.",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Roll out half the dough and line a large flan or quiche dish.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Boil the potatoes, drain, then mash with the butter.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "butter"
+     ],
+     "animation": "boil"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Mix the chopped onion and the corned beef into the mash and spoon it into the lined dish.",
+     "relatedIngredientIds": [
+      "corned-beef",
+      "onion"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Roll out the remaining dough, lay it over the dish as a lid and seal the edges.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cut slits in the lid and brush with a little milk.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Bake for 40 minutes, until golden brown.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Corned_Beef_Pie",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "coronation-chicken",
+   "title": "Coronation Chicken",
+   "description": "Cold cooked chicken in a mild curry, apricot and mayonnaise sauce, created for the 1953 coronation.",
+   "prepTime": 25,
+   "cookTime": 20,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "british"
+   ],
+   "ingredients": [
+    {
+     "id": "chicken",
+     "name": "chicken, 2.3 kg, poached and cooked",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion, finely chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "curry-paste",
+     "name": "curry paste",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "tomato-pur-e",
+     "name": "tomato purée",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "red-wine",
+     "name": "red wine",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "bay-leaf",
+     "name": "bay leaf",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "lemon",
+     "name": "lemon, juiced",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "apricot-halves",
+     "name": "apricot halves, finely chopped",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "mayonnaise",
+     "name": "mayonnaise",
+     "amount": 300.0,
+     "unit": "ml"
+    },
+    {
+     "id": "whipping-cream",
+     "name": "whipping cream",
+     "amount": 100.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "watercress",
+     "name": "watercress, to garnish",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Skin the cooked chicken and cut the meat into small pieces.",
+     "relatedIngredientIds": [
+      "chicken"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Warm the vegetable oil in a small saucepan and cook the onion gently until soft, about 3 minutes.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "onion"
+     ],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the curry paste, tomato purée, red wine, bay leaf and lemon juice. Simmer uncovered until well reduced, then strain and cool.",
+     "relatedIngredientIds": [
+      "curry-paste",
+      "tomato-pur-e",
+      "red-wine",
+      "bay-leaf",
+      "lemon"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Purée the apricot halves in a blender, then beat the cooled sauce and the apricot purée into the mayonnaise.",
+     "relatedIngredientIds": [
+      "tomato-pur-e",
+      "apricot-halves",
+      "mayonnaise"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Whip the whipping cream to stiff peaks and fold it into the sauce.",
+     "relatedIngredientIds": [
+      "whipping-cream"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Season with salt and pepper, adding a little more lemon juice if needed.",
+     "relatedIngredientIds": [
+      "lemon",
+      "salt",
+      "pepper"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Fold in the chicken pieces and garnish with watercress.",
+     "relatedIngredientIds": [
+      "chicken",
+      "watercress"
+     ],
+     "animation": "stir"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Coronation_Chicken",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "cornish-fairings",
+   "title": "Cornish Fairings",
+   "description": "Crisp, ginger-spiced Cornish biscuits made with golden syrup.",
+   "prepTime": 15,
+   "cookTime": 15,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 110.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 60.0,
+     "unit": "g"
+    },
+    {
+     "id": "caster-sugar",
+     "name": "caster sugar",
+     "amount": 60.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "golden-syrup",
+     "name": "golden syrup",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-ginger",
+     "name": "ground ginger",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "mixed-spice",
+     "name": "mixed spice",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "ground-cinnamon",
+     "name": "ground cinnamon",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 180 °C (350 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sift the plain flour into a bowl and rub in the butter.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "butter"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Sift in the caster sugar, baking powder, ginger, mixed spice and cinnamon, and mix well.",
+     "relatedIngredientIds": [
+      "caster-sugar",
+      "baking-powder",
+      "ground-ginger",
+      "mixed-spice",
+      "ground-cinnamon"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir in the golden syrup until the mixture forms a dough.",
+     "relatedIngredientIds": [
+      "golden-syrup"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Roll the dough into walnut-sized balls and place them on a baking tray.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 15 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cool for a few minutes on a rack before serving.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Cornish_Fairing",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "irish-soda-bread",
+   "title": "Irish Soda Bread",
+   "description": "Yeast-free Irish loaf raised with baking soda and buttermilk, with a soft crumb.",
+   "prepTime": 15,
+   "cookTime": 70,
+   "servings": 10,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "baking-soda",
+     "name": "baking soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "egg",
+     "name": "egg, lightly beaten",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "buttermilk",
+     "name": "buttermilk",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter, melted",
+     "amount": 0.25,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 160 °C (325 °F) and grease and flour a 9x5-inch loaf pan.",
+     "relatedIngredientIds": [
+      "plain-flour"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine the plain flour, baking powder, baking soda, sugar and salt in a large bowl.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "baking-powder",
+      "baking-soda",
+      "sugar",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Blend the egg and buttermilk, then add them all at once to the flour mixture.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "egg",
+      "buttermilk",
+      "butter"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix just until moistened, as too much mixing makes the bread tough.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir in the melted butter and pour the batter into the pan.",
+     "relatedIngredientIds": [
+      "butter"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 65-70 minutes, until a toothpick comes out clean and the base sounds hollow when tapped.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 4200,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cool on a wire rack, then wrap in a tea towel for several hours or overnight for the best flavour.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Irish_Soda_Bread",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "irish-stew",
+   "title": "Irish Stew",
+   "description": "Traditional Irish stew of mutton, potatoes, onions and carrots, slow-cooked in a covered pot.",
+   "prepTime": 20,
+   "cookTime": 150,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "british"
+   ],
+   "ingredients": [
+    {
+     "id": "mutton",
+     "name": "mutton, deboned and cut in chunks",
+     "amount": 1.1,
+     "unit": "kg"
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes, peeled and thickly sliced",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "onions",
+     "name": "onions, thickly sliced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "carrots",
+     "name": "carrots, peeled and thickly sliced",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "parsley",
+     "name": "parsley, chopped",
+     "amount": 1.0,
+     "unit": "sprig"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 480.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Choose a pot with a well-fitting lid and layer the potatoes, mutton, onions, carrots and parsley in it, starting and finishing with potatoes.",
+     "relatedIngredientIds": [
+      "mutton",
+      "potatoes",
+      "onions",
+      "carrots",
+      "parsley"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pour in the water and season with salt and pepper.",
+     "relatedIngredientIds": [
+      "water",
+      "salt",
+      "pepper"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cover and cook over a very low heat for 2 1/2 hours, until the mutton is tender and the potatoes have thickened the liquid.",
+     "relatedIngredientIds": [
+      "mutton",
+      "potatoes"
+     ],
+     "suggestedTimerSeconds": 9000,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Irish_Stew",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "jam-roly-poly",
+   "title": "Jam Roly-Poly",
+   "description": "Steamed suet pudding rolled around raspberry or plum jam and served with custard.",
+   "prepTime": 20,
+   "cookTime": 120,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "british",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "self-raising-flour",
+     "name": "self-raising flour",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "vegetable-suet",
+     "name": "vegetable suet",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "lemon",
+     "name": "lemon, zest and juice",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "egg",
+     "name": "egg, beaten",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "red-jam",
+     "name": "red jam",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "custard",
+     "name": "custard, to serve",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Stir the self-raising flour, vegetable suet, salt and lemon zest together.",
+     "relatedIngredientIds": [
+      "self-raising-flour",
+      "vegetable-suet",
+      "salt",
+      "lemon"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Work to a firm dough with the lemon juice, egg and milk.",
+     "relatedIngredientIds": [
+      "lemon",
+      "egg",
+      "milk"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Roll out to a rectangle about 25 x 20 cm and spread the red jam to within 2.5 cm of the edges.",
+     "relatedIngredientIds": [
+      "red-jam"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Roll up from a short end and seal the edges well with a little water.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Set the roll on a sheet of buttered foil and wrap it, sealing the ends well.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Set it in a steamer and steam for 2 hours.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Steam"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Slice and serve with custard.",
+     "relatedIngredientIds": [
+      "custard"
+     ],
+     "animation": "chop"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Jam_Roly-Poly_(Steamed)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "lancashire-hotpot",
+   "title": "Lancashire Hotpot",
+   "description": "Layers of lamb, onion and sliced potato baked slowly in a covered dish, an English northern classic.",
+   "prepTime": 20,
+   "cookTime": 60,
+   "servings": 5,
+   "dietaryTags": [],
+   "categories": [
+    "british"
+   ],
+   "ingredients": [
+    {
+     "id": "neck-of-lamb",
+     "name": "neck of lamb",
+     "amount": 900.0,
+     "unit": "g"
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes, sliced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "onions",
+     "name": "onions, diced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "mixed-herbs",
+     "name": "mixed herbs",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "boiling-water",
+     "name": "boiling water",
+     "amount": 500.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Dice the lamb and set aside. Preheat the oven to 170 °C (325 °F).",
+     "relatedIngredientIds": [
+      "neck-of-lamb"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Layer some of the potatoes in the bottom of a casserole dish and cover with a handful of the diced onions.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "onions"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add a layer of the lamb and sprinkle with the mixed herbs.",
+     "relatedIngredientIds": [
+      "neck-of-lamb",
+      "mixed-herbs"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Repeat the layers until the dish is full, finishing with a layer of potatoes.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour in the boiling water to fill the dish.",
+     "relatedIngredientIds": [
+      "boiling-water"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for at least 1 hour, until the lamb is tender.",
+     "relatedIngredientIds": [
+      "neck-of-lamb"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Lancashire_Hotpot",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "lancashire-parkin",
+   "title": "Lancashire Parkin",
+   "description": "Dark, sticky English gingerbread of oatmeal and golden syrup that softens as it is stored.",
+   "prepTime": 15,
+   "cookTime": 120,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "self-raising-flour",
+     "name": "self-raising flour",
+     "amount": 340.0,
+     "unit": "g"
+    },
+    {
+     "id": "oatmeal",
+     "name": "oatmeal",
+     "amount": 340.0,
+     "unit": "g"
+    },
+    {
+     "id": "caster-sugar",
+     "name": "caster sugar",
+     "amount": 220.0,
+     "unit": "g"
+    },
+    {
+     "id": "ground-ginger",
+     "name": "ground ginger",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "bicarbonate-of-soda",
+     "name": "bicarbonate of soda",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "golden-syrup",
+     "name": "golden syrup",
+     "amount": 440.0,
+     "unit": "g"
+    },
+    {
+     "id": "hard-margarine",
+     "name": "hard margarine",
+     "amount": 220.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 150 °C (300 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the self-raising flour, oatmeal, caster sugar, ground ginger and bicarbonate of soda in a bowl.",
+     "relatedIngredientIds": [
+      "self-raising-flour",
+      "oatmeal",
+      "caster-sugar",
+      "ground-ginger",
+      "bicarbonate-of-soda"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Warm the golden syrup gently in a saucepan without boiling, then melt in the hard margarine.",
+     "relatedIngredientIds": [
+      "golden-syrup",
+      "hard-margarine"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Line a large baking tray with baking paper.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Stir the hot syrup and margarine quickly into the dry ingredients.",
+     "relatedIngredientIds": [
+      "golden-syrup",
+      "hard-margarine"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Spread the mixture in the tray and bake on the bottom shelf for 2 hours.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Turn the slab out onto a cooling rack, then cut into four after 1 hour.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Store in a sealed tin for 48 hours to reach the correct sticky texture, then cut into strips.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Lancashire_Parkin",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "friars-omelette",
+   "title": "Friar's Omelette",
+   "description": "Scottish baked apple and egg pudding in a breadcrumb crust, turned out and dusted with sugar.",
+   "prepTime": 25,
+   "cookTime": 30,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "cooking-apples",
+     "name": "cooking apples",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "butter, plus extra for greasing",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-sugar",
+     "name": "white sugar",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-sugar-2",
+     "name": "white sugar, for sprinkling",
+     "amount": 25.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, beaten",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "breadcrumbs",
+     "name": "breadcrumbs",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "squeeze-lemon-juice",
+     "name": "squeeze lemon juice",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel, core and slice the apples and cook them in a saucepan with the water until soft.",
+     "relatedIngredientIds": [
+      "cooking-apples",
+      "water"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Remove from the heat and stir in the butter, 50 g sugar and lemon juice. Leave to cool.",
+     "relatedIngredientIds": [
+      "butter",
+      "white-sugar",
+      "squeeze-lemon-juice"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the well-beaten eggs into the cooled apple mixture.",
+     "relatedIngredientIds": [
+      "cooking-apples",
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Butter a deep baking dish and press breadcrumbs onto the bottom and sides, keeping plenty for the top.",
+     "relatedIngredientIds": [
+      "butter",
+      "breadcrumbs"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour in the apple mixture and cover with a thick layer of breadcrumbs.",
+     "relatedIngredientIds": [
+      "cooking-apples",
+      "breadcrumbs"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake at 180 °C (350 °F) for 30 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Turn out onto a flat dish and sprinkle with the remaining sugar before serving.",
+     "relatedIngredientIds": [
+      "white-sugar"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Friar's_Omelette",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "staffordshire-oatcakes",
+   "title": "Staffordshire Oatcakes",
+   "description": "Thin yeasted oatmeal pancakes from Stoke-on-Trent, cooked on a griddle and filled with cheese or bacon.",
+   "prepTime": 80,
+   "cookTime": 15,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "fine-oatmeal",
+     "name": "fine oatmeal",
+     "amount": 220.0,
+     "unit": "g"
+    },
+    {
+     "id": "wholemeal-flour",
+     "name": "wholemeal flour",
+     "amount": 220.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-yeast",
+     "name": "fresh yeast",
+     "amount": 14.0,
+     "unit": "g"
+    },
+    {
+     "id": "warm-milk-and-water",
+     "name": "warm milk and water, mixed half and half",
+     "amount": 850.0,
+     "unit": "ml"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter, for greasing",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the salt into the wholemeal flour and fine oatmeal.",
+     "relatedIngredientIds": [
+      "fine-oatmeal",
+      "wholemeal-flour",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Dissolve the fresh yeast in a little of the warm milk and water, add the sugar and leave until frothy.",
+     "relatedIngredientIds": [
+      "fresh-yeast",
+      "warm-milk-and-water",
+      "sugar"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the dry ingredients with the yeast liquid and the rest of the milk and water to make a batter.",
+     "relatedIngredientIds": [
+      "fresh-yeast",
+      "warm-milk-and-water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cover the batter with a clean cloth and leave in a warm place for 1 hour.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Ladle enough batter onto a well-greased griddle to make an oatcake about 20 cm across. Holes will form as it cooks.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cook for 2-3 minutes, until the top looks dry and the underside is golden.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 150,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Flip the oatcake and cook the other side for 2-3 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 150,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:North_Staffordshire_Oatcakes",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pease-pudding",
+   "title": "Pease Pudding",
+   "description": "Northern English purée of yellow split peas cooked with a ham hock, spread on bread or served with ham.",
+   "prepTime": 10,
+   "cookTime": 75,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "british"
+   ],
+   "ingredients": [
+    {
+     "id": "ham-hock",
+     "name": "ham hock, uncooked",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "dried-yellow-split-peas",
+     "name": "dried yellow split peas",
+     "amount": 300.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the ham hock in a pressure cooker and cover with water.",
+     "relatedIngredientIds": [
+      "ham-hock",
+      "water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring to full pressure, then lower the heat and cook for 30 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Release the pressure and take out the hock. Set it aside.",
+     "relatedIngredientIds": [
+      "ham-hock"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the split peas to the cooker, bring back to pressure and simmer as low as possible for 25 minutes.",
+     "relatedIngredientIds": [
+      "dried-yellow-split-peas"
+     ],
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Release the pressure, then tip the peas into a bowl with the butter and whisk until smooth.",
+     "relatedIngredientIds": [
+      "dried-yellow-split-peas",
+      "butter"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Leave to cool, then serve on white bread, alone or with ham from the hock.",
+     "relatedIngredientIds": [
+      "ham-hock"
+     ],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pease_Pudding",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "queen-of-puddings",
+   "title": "Queen of Puddings",
+   "description": "English baked breadcrumb custard with a jam layer, topped with soft meringue.",
+   "prepTime": 25,
+   "cookTime": 50,
+   "servings": 6,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 480.0,
+     "unit": "ml"
+    },
+    {
+     "id": "white-sugar",
+     "name": "white sugar",
+     "amount": 85.0,
+     "unit": "g"
+    },
+    {
+     "id": "lemon",
+     "name": "lemon, zest",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 55.0,
+     "unit": "g"
+    },
+    {
+     "id": "fresh-breadcrumbs",
+     "name": "fresh breadcrumbs",
+     "amount": 170.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, separated",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "raspberry-jam",
+     "name": "raspberry jam",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "vanilla-sugar",
+     "name": "vanilla sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the milk, white sugar, lemon zest and butter until just below the boil.",
+     "relatedIngredientIds": [
+      "milk",
+      "white-sugar",
+      "lemon",
+      "butter"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Pour over the breadcrumbs and leave to cool slightly for 10 minutes.",
+     "relatedIngredientIds": [
+      "fresh-breadcrumbs"
+     ],
+     "animation": "pour",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Cool"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat the egg yolks and stir them into the breadcrumb mixture.",
+     "relatedIngredientIds": [
+      "fresh-breadcrumbs",
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Bake at 180 °C (350 °F) for 35 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2100,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Let it cool a little, then spread the warmed raspberry jam carefully over the top.",
+     "relatedIngredientIds": [
+      "raspberry-jam"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Whip the egg whites with the vanilla sugar to soft peaks and spread the meringue over the jam.",
+     "relatedIngredientIds": [
+      "white-sugar",
+      "eggs",
+      "raspberry-jam",
+      "vanilla-sugar"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Return to the oven for 15 minutes, until the meringue has browned.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Queen_of_Puddings",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "rhubarb-crumble",
+   "title": "Rhubarb Crumble",
+   "description": "Tart stewed rhubarb under a buttery crumble topping, baked and served with custard.",
+   "prepTime": 15,
+   "cookTime": 40,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "rhubarb",
+     "name": "rhubarb, cut into 1.5 cm pieces",
+     "amount": 400.0,
+     "unit": "g"
+    },
+    {
+     "id": "light-brown-sugar",
+     "name": "light brown sugar",
+     "amount": 15.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter, cut in pieces",
+     "amount": 75.0,
+     "unit": "g"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "wholemeal-flour",
+     "name": "wholemeal flour",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-granulated-sugar",
+     "name": "white granulated sugar",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "custard",
+     "name": "custard, to serve",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 200 °C (180 °C fan).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Rinse and drain the rhubarb, put it in a deep ovenproof dish and mix in the light brown sugar.",
+     "relatedIngredientIds": [
+      "rhubarb",
+      "light-brown-sugar"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Rub the butter into the plain flour and wholemeal flour with your fingers until it looks like breadcrumbs.",
+     "relatedIngredientIds": [
+      "butter",
+      "plain-flour",
+      "wholemeal-flour"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix in the white granulated sugar and cinnamon.",
+     "relatedIngredientIds": [
+      "white-granulated-sugar",
+      "cinnamon"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Sprinkle the crumble over the rhubarb in a complete layer, without pressing it down.",
+     "relatedIngredientIds": [
+      "rhubarb"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake without a lid for 40 minutes, until crisp and a little brown.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve with custard.",
+     "relatedIngredientIds": [
+      "custard"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Rhubarb_Crumble_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "scottish-porridge",
+   "title": "Scottish Porridge",
+   "description": "Creamy steel-cut oat porridge made with just oats, water and salt after an overnight soak.",
+   "prepTime": 480,
+   "cookTime": 20,
+   "servings": 1,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "british",
+    "breakfast",
+    "healthy"
+   ],
+   "ingredients": [
+    {
+     "id": "steel-cut-oats",
+     "name": "steel-cut oats",
+     "amount": 80.0,
+     "unit": "g"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 375.0,
+     "unit": "ml"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "buckwheat-flour",
+     "name": "buckwheat flour",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fine-sea-salt",
+     "name": "fine sea salt",
+     "amount": 0.125,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the steel-cut oats with the buckwheat flour in a bowl.",
+     "relatedIngredientIds": [
+      "steel-cut-oats",
+      "buckwheat-flour"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add a splash of warm water and the lemon juice, cover and soak overnight, at least 7-8 hours.",
+     "relatedIngredientIds": [
+      "water",
+      "lemon-juice"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put the soaked oats, salt and the 375 ml water in a small pan and bring gently to a small boil, stirring, until it starts to thicken.",
+     "relatedIngredientIds": [
+      "steel-cut-oats",
+      "water",
+      "fine-sea-salt"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Turn the heat to low and simmer for 15-20 minutes, until the oats are tender.",
+     "relatedIngredientIds": [
+      "steel-cut-oats"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 1050,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Take off the heat and leave for 1-2 minutes before serving, with berries, nuts or yogurt on top.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Scottish_Porridge",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "shortbread",
+   "title": "Shortbread",
+   "description": "Buttery, crumbly Scottish biscuit made from just flour, butter and sugar.",
+   "prepTime": 25,
+   "cookTime": 35,
+   "servings": 16,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 380.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 220.0,
+     "unit": "g"
+    },
+    {
+     "id": "white-sugar",
+     "name": "white sugar",
+     "amount": 110.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 140 °C (275 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cream the butter and sugar until light and fluffy.",
+     "relatedIngredientIds": [
+      "butter",
+      "white-sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Sift in the plain flour and salt and work into the butter and sugar until completely combined.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "salt",
+      "butter",
+      "white-sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Shape the dough into a ball and roll out to 1.3 cm thick, chilling it briefly if it is hard to handle.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cut into squares or rectangles and prick the tops with a fork in two parallel lines.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 30-40 minutes, until lightly browned.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2100,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cool on a rack and store in an airtight container.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Shortbread",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "shrewsbury-cakes",
+   "title": "Shrewsbury Cakes",
+   "description": "Soft, buttery little nutmeg biscuits from Shropshire, baked in minutes.",
+   "prepTime": 15,
+   "cookTime": 10,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "white-sugar",
+     "name": "white sugar",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "egg-white",
+     "name": "egg white",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "nutmeg",
+     "name": "nutmeg",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter, softened",
+     "amount": 1.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 175 °C (350 °F) and grease two baking sheets.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cream the butter and sugar in a large bowl until fluffy.",
+     "relatedIngredientIds": [
+      "white-sugar",
+      "unsalted-butter"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the egg white completely.",
+     "relatedIngredientIds": [
+      "egg-white"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the nutmeg and plain flour and stir in completely.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "nutmeg"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Place teaspoons of the batter on the baking sheets, 5 cm apart.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 10 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "If the cakes have stuck together, cut them apart with a knife, then lift onto a plate.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Shrewsbury_Cakes",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "steak-and-ale-pie",
+   "title": "Steak and Ale Pie",
+   "description": "Beef slow-simmered with onion, herbs and ale, topped with puff pastry and baked golden.",
+   "prepTime": 25,
+   "cookTime": 140,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "british",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "beef-stewing-steak",
+     "name": "beef stewing steak",
+     "amount": 900.0,
+     "unit": "g"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "onion",
+     "name": "onion, diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "worcestershire-sauce",
+     "name": "Worcestershire sauce",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "fresh-thyme",
+     "name": "fresh thyme, marjoram and parsley, chopped",
+     "amount": 1.0,
+     "unit": "handful"
+    },
+    {
+     "id": "english-mustard",
+     "name": "English mustard",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "bay-leaf",
+     "name": "bay leaf",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "beef-stock",
+     "name": "beef stock",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "ale",
+     "name": "ale",
+     "amount": 125.0,
+     "unit": "ml"
+    },
+    {
+     "id": "puff-pastry",
+     "name": "puff pastry",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the beef into cubes.",
+     "relatedIngredientIds": [
+      "beef-stewing-steak"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the vegetable oil in a saucepan and fry the onion, without letting it colour.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "onion",
+      "worcestershire-sauce"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the beef and cook until medium brown, then stir in the plain flour and cook for 1 minute.",
+     "relatedIngredientIds": [
+      "beef-stewing-steak",
+      "plain-flour"
+     ],
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the Worcestershire sauce, herbs, English mustard, bay leaf, salt and black pepper.",
+     "relatedIngredientIds": [
+      "worcestershire-sauce",
+      "english-mustard",
+      "bay-leaf",
+      "salt",
+      "black-pepper"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Slowly add the beef stock and ale and bring to the boil.",
+     "relatedIngredientIds": [
+      "beef-stock",
+      "ale"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Simmer gently for 1 1/2 hours, until the beef is almost tender.",
+     "relatedIngredientIds": [
+      "beef-stewing-steak"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 5400,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Preheat the oven to 200 °C (400 °F). Skim off any fat, remove the bay leaf and adjust the seasoning.",
+     "relatedIngredientIds": [
+      "bay-leaf"
+     ],
+     "animation": "bake"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Put the filling in a pie dish, cover with puff pastry and trim the edges.",
+     "relatedIngredientIds": [
+      "puff-pastry"
+     ]
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Bake for 20-25 minutes, until the pastry is well risen and golden brown.",
+     "relatedIngredientIds": [
+      "puff-pastry"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1350,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Steak_and_Ale_Pie",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "stovies",
+   "title": "Stovies",
+   "description": "Scottish stew of potatoes and onions slowly cooked in fat with leftover roast beef or lamb.",
+   "prepTime": 15,
+   "cookTime": 45,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "british"
+   ],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 1.0,
+     "unit": "kg"
+    },
+    {
+     "id": "beef-dripping",
+     "name": "beef dripping",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "onions",
+     "name": "onions, roughly chopped",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "cooked-beef-or-lamb",
+     "name": "cooked beef or lamb",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "chopped-parsley",
+     "name": "chopped parsley",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "nutmeg",
+     "name": "nutmeg",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Peel the potatoes and slice them about 5 mm thick.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the beef dripping in a large heavy pot with a tight lid and cook the onions until lightly brown.",
+     "relatedIngredientIds": [
+      "beef-dripping",
+      "onions"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the potatoes and stir well to coat them in the fat.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cover and cook over very low heat, shaking the pot now and then, until the potatoes are cooked, about 40 minutes.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the cooked beef or lamb, mix through and turn up the heat to brown a little.",
+     "relatedIngredientIds": [
+      "cooked-beef-or-lamb"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Season with salt, black pepper and nutmeg, and serve with the parsley.",
+     "relatedIngredientIds": [
+      "chopped-parsley",
+      "salt",
+      "black-pepper",
+      "nutmeg"
+     ],
+     "animation": "mix"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Stovies",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "eton-mess",
+   "title": "Eton Mess",
+   "description": "No-cook English dessert of strawberries, broken meringue and whipped cream with yogurt.",
+   "prepTime": 10,
+   "cookTime": 0,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "meringues",
+     "name": "meringues",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "double-cream",
+     "name": "double cream",
+     "amount": 280.0,
+     "unit": "ml"
+    },
+    {
+     "id": "icing-sugar",
+     "name": "icing sugar",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "vanilla-essence",
+     "name": "vanilla essence",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "greek-yoghurt",
+     "name": "Greek yoghurt",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "strawberries",
+     "name": "strawberries",
+     "amount": 500.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Rinse the strawberries, remove the tops and cut them in half.",
+     "relatedIngredientIds": [
+      "strawberries"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Break the meringues into pieces, not too small, and put them in a bowl.",
+     "relatedIngredientIds": [
+      "meringues"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Whip the double cream with the vanilla essence and icing sugar until reasonably stiff.",
+     "relatedIngredientIds": [
+      "double-cream",
+      "icing-sugar",
+      "vanilla-essence"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Combine the whipped cream, Greek yoghurt, strawberries and meringues, taking care not to crush the meringue too much.",
+     "relatedIngredientIds": [
+      "meringues",
+      "double-cream",
+      "greek-yoghurt",
+      "strawberries"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Serve in bowls.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Strawberry_and_Yogurt_Eton_Mess",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "toad-in-the-hole",
+   "title": "Toad in the Hole",
+   "description": "Sausages baked in a crisp, puffed Yorkshire pudding batter.",
+   "prepTime": 15,
+   "cookTime": 55,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "british",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "sausages",
+     "name": "sausages",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "oil",
+     "name": "oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 140.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 200.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 200 °C (400 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Whisk the plain flour, eggs, milk and salt into a smooth batter.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "eggs",
+      "milk",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bake the sausages with the oil in a roasting pan for 10 minutes, so they cook and the pan gets hot.",
+     "relatedIngredientIds": [
+      "sausages",
+      "oil"
+     ],
+     "animation": "bake",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour the cold batter into the hot pan; the oil should sizzle.",
+     "relatedIngredientIds": [
+      "oil"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake for 40-45 minutes without opening the oven door, until risen and browned.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2550,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve hot.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Toad_in_the_Hole",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "victoria-sponge",
+   "title": "Victoria Sponge",
+   "description": "Classic English two-layer sponge cake sandwiched with jam and whipped cream.",
+   "prepTime": 20,
+   "cookTime": 25,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "self-raising-flour",
+     "name": "self-raising flour",
+     "amount": 170.0,
+     "unit": "g"
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 170.0,
+     "unit": "g"
+    },
+    {
+     "id": "caster-sugar",
+     "name": "caster sugar",
+     "amount": 170.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "vanilla-essence",
+     "name": "vanilla essence",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "fruit-jam",
+     "name": "fruit jam",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "whipped-cream",
+     "name": "whipped cream",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 200 °C (400 °F) and grease two 18 cm cake pans.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cream the butter and caster sugar with a wooden spoon until softened.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "caster-sugar",
+      "whipped-cream"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the eggs, vanilla essence and self-raising flour and mix until smooth.",
+     "relatedIngredientIds": [
+      "self-raising-flour",
+      "eggs",
+      "vanilla-essence"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Divide the mixture between the two pans.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake for 20-30 minutes, until firm to the touch.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cool completely on a rack.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Turn one cake upside down and spread with fruit jam and whipped cream, then top with the second cake.",
+     "relatedIngredientIds": [
+      "fruit-jam",
+      "whipped-cream"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cut into wedges to serve.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Victoria_Sandwich",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "welsh-cakes",
+   "title": "Welsh Cakes",
+   "description": "Little Welsh griddle cakes like flat scones, with currants and a golden crust.",
+   "prepTime": 30,
+   "cookTime": 20,
+   "servings": 20,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 225.0,
+     "unit": "g"
+    },
+    {
+     "id": "caster-sugar",
+     "name": "caster sugar",
+     "amount": 170.0,
+     "unit": "g"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "currants",
+     "name": "currants",
+     "amount": 85.0,
+     "unit": "g"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "pinch"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Sift the plain flour into a large bowl and rub in the butter and salt until it looks like fine breadcrumbs.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "butter",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix in the caster sugar and currants.",
+     "relatedIngredientIds": [
+      "caster-sugar",
+      "currants"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Beat in the eggs one at a time to form a thick dough, adding the milk if it will not come together.",
+     "relatedIngredientIds": [
+      "eggs",
+      "milk"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Knead for 2-3 minutes until cohesive and slightly elastic.",
+     "relatedIngredientIds": [],
+     "animation": "mix",
+     "suggestedTimerSeconds": 150,
+     "timerLabel": "Knead"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Roll out the dough and cut 5-7 cm circles.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat a griddle on high, then lower to medium-low to stop burning.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Cook the cakes for 2-4 minutes on each side, until golden brown.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 180,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Welsh_Cakes",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "welsh-rarebit",
+   "title": "Welsh Rarebit",
+   "description": "Rich cheddar and beer sauce poured over toast.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "british",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dijon-mustard",
+     "name": "Dijon mustard",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "worcestershire-sauce",
+     "name": "Worcestershire sauce",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "beer",
+     "name": "beer",
+     "amount": 60.0,
+     "unit": "ml"
+    },
+    {
+     "id": "double-cream",
+     "name": "double cream",
+     "amount": 120.0,
+     "unit": "ml"
+    },
+    {
+     "id": "cheddar-cheese",
+     "name": "Cheddar cheese, grated",
+     "amount": 170.0,
+     "unit": "g"
+    },
+    {
+     "id": "toast",
+     "name": "toast",
+     "amount": 4.0,
+     "unit": "slice"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Melt the butter in a medium saucepan over low heat and whisk in the plain flour.",
+     "relatedIngredientIds": [
+      "unsalted-butter",
+      "plain-flour",
+      "worcestershire-sauce"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cook, whisking constantly, for 2-3 minutes without browning the flour.",
+     "relatedIngredientIds": [
+      "plain-flour"
+     ],
+     "suggestedTimerSeconds": 150,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Whisk in the Dijon mustard, Worcestershire sauce, salt and black pepper until smooth.",
+     "relatedIngredientIds": [
+      "dijon-mustard",
+      "worcestershire-sauce",
+      "salt",
+      "black-pepper"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the beer and whisk to combine, then pour in the double cream and whisk until smooth.",
+     "relatedIngredientIds": [
+      "beer",
+      "double-cream"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Gradually add the Cheddar cheese, stirring constantly, for 4-5 minutes until the sauce is smooth.",
+     "relatedIngredientIds": [
+      "worcestershire-sauce",
+      "cheddar-cheese"
+     ],
+     "suggestedTimerSeconds": 270,
+     "timerLabel": "Stir"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Pour the sauce over the toast and serve at once.",
+     "relatedIngredientIds": [
+      "worcestershire-sauce",
+      "toast"
+     ],
+     "animation": "pour"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Welsh_Rarebit",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "bara-brith",
+   "title": "Bara Brith (Welsh Fruit Bread)",
+   "description": "Yeasted Welsh loaf full of mixed dried fruit and spice, glazed with honey and served buttered.",
+   "prepTime": 210,
+   "cookTime": 60,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "british",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 225.0,
+     "unit": "ml"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar, plus 1 tsp",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "id": "dried-yeast",
+     "name": "dried yeast",
+     "amount": 4.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "strong-plain-flour",
+     "name": "strong plain flour",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 75.0,
+     "unit": "g"
+    },
+    {
+     "id": "mixed-spice",
+     "name": "mixed spice",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "egg",
+     "name": "egg, beaten",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "mixed-dried-fruit",
+     "name": "mixed dried fruit",
+     "amount": 350.0,
+     "unit": "g"
+    },
+    {
+     "id": "clear-honey",
+     "name": "clear honey, to glaze",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Warm the milk until hand-hot, then mix it with 1 tsp of the brown sugar and the dried yeast. Leave for 15 minutes until frothy.",
+     "relatedIngredientIds": [
+      "milk",
+      "brown-sugar",
+      "dried-yeast"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sift the strong plain flour into a bowl with 50 g brown sugar and the salt. Rub in the butter, then stir in the mixed spice.",
+     "relatedIngredientIds": [
+      "brown-sugar",
+      "strong-plain-flour",
+      "salt",
+      "butter",
+      "mixed-spice"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the egg and the frothy yeast, mix to a dough and knead on a floured surface until smooth and elastic.",
+     "relatedIngredientIds": [
+      "dried-yeast",
+      "strong-plain-flour",
+      "egg"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Put the dough back in the bowl, cover and leave in a warm place to rise for 90 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 5400,
+     "timerLabel": "Rise"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Knock back the dough and knead again, slowly working in the mixed dried fruit.",
+     "relatedIngredientIds": [
+      "mixed-dried-fruit"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Place the dough in a greased 900 g loaf tin and leave to rise for 35-40 minutes. Preheat the oven to 190 °C (375 °F).",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 2250,
+     "timerLabel": "Rise"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Bake in the centre of the oven for 30 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Cover the tin with foil to stop it burning and bake for 30 minutes more.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Check the base sounds hollow when tapped. Brush the top with clear honey and cool on a wire rack.",
+     "relatedIngredientIds": [
+      "clear-honey"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Welsh_Fruit_Bread_(Bara_Brith)_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "cullen-skink",
+   "title": "Cullen Skink",
+   "description": "Thick Scottish soup of smoked haddock, onion and mashed potato in milk.",
+   "prepTime": 15,
+   "cookTime": 25,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "british",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "smoked-haddock",
+     "name": "smoked haddock",
+     "amount": 900.0,
+     "unit": "g"
+    },
+    {
+     "id": "onion",
+     "name": "onion, finely chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 900.0,
+     "unit": "ml"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "mashed-potato",
+     "name": "mashed potato",
+     "amount": 225.0,
+     "unit": "g"
+    },
+    {
+     "id": "bay-leaf",
+     "name": "bay leaf",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "parsley",
+     "name": "parsley, chopped",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cover the smoked haddock with water in a shallow pan, skin side down.",
+     "relatedIngredientIds": [
+      "smoked-haddock",
+      "water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring to the boil and simmer for 5 minutes, turning once.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Take out the fish, remove the skin and bones, flake the flesh and return it to the pan.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the onion, bay leaf, salt and pepper and simmer for 10 minutes.",
+     "relatedIngredientIds": [
+      "onion",
+      "bay-leaf",
+      "salt",
+      "pepper"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Strain the stock, discard the bay leaf and keep the fish warm.",
+     "relatedIngredientIds": [
+      "bay-leaf"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the milk to the stock and bring to the boil, then stir in the mashed potato to make a rich, thick soup.",
+     "relatedIngredientIds": [
+      "milk",
+      "mashed-potato"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Return the fish and check the seasoning.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve with the butter added in small pieces and the parsley on top.",
+     "relatedIngredientIds": [
+      "butter",
+      "parsley"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Cullen_Skink_(Haddock_and_Potato_Soup)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "fish-pie",
+   "title": "Fish Pie",
+   "description": "English pie of poached salmon, smoked haddock and shellfish under creamy mashed potato.",
+   "prepTime": 30,
+   "cookTime": 30,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "british",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "salmon",
+     "name": "salmon",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "smoked-haddock",
+     "name": "smoked haddock",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "prawns",
+     "name": "prawns",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "mussels",
+     "name": "mussels",
+     "amount": 100.0,
+     "unit": "g"
+    },
+    {
+     "id": "scallops",
+     "name": "scallops",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 1.0,
+     "unit": "kg"
+    },
+    {
+     "id": "nutmeg",
+     "name": "nutmeg",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "single-cream",
+     "name": "single cream",
+     "amount": 150.0,
+     "unit": "ml"
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "emmental-cheese",
+     "name": "Emmental cheese, grated",
+     "amount": 50.0,
+     "unit": "g"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put all the fish and shellfish in a saucepan with enough milk to cover, then add the bay leaves and a pinch of salt.",
+     "relatedIngredientIds": [
+      "bay-leaves",
+      "milk"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Poach on low heat for 5 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Poach"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Lift out the fish, skin the haddock and salmon, and flake them. Return to the milk and set aside.",
+     "relatedIngredientIds": [
+      "salmon",
+      "smoked-haddock",
+      "milk"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Peel and boil the potatoes for at least 20 minutes, until soft, then mash very well with butter.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "butter"
+     ],
+     "animation": "chop",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Beat in some of the poaching milk, the single cream and a little grated nutmeg to make a smooth mash.",
+     "relatedIngredientIds": [
+      "nutmeg",
+      "single-cream",
+      "milk"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Put the fish and remaining milk sauce in an ovenproof dish and pat it down gently.",
+     "relatedIngredientIds": [
+      "milk"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Spread the mash over the top, ridge it with a fork and sprinkle with the Emmental cheese.",
+     "relatedIngredientIds": [
+      "emmental-cheese"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Bake at 220 °C (425 °F) for 30 minutes, until the topping is coloured and bubbling.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Fish_Pie",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "bangers-and-mash",
+   "title": "Bangers and Mash",
+   "description": "Slow-fried pork sausages served with buttery mashed potatoes.",
+   "prepTime": 10,
+   "cookTime": 40,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "british"
+   ],
+   "ingredients": [
+    {
+     "id": "sausages",
+     "name": "sausages",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 8.0,
+     "unit": ""
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 4.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the vegetable oil in a large heavy frying pan over medium heat.",
+     "relatedIngredientIds": [
+      "vegetable-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the sausages in a single layer and fry for 5 minutes, turning to colour them all over.",
+     "relatedIngredientIds": [
+      "sausages"
+     ],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Turn the heat to low and fry gently for 25 minutes, turning every 5-10 minutes, until cooked through with no pink inside.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Meanwhile, peel the potatoes and chop them into pieces 1-2 cm thick.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Boil the potatoes for 15 minutes, until soft enough for a knife to go in easily.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Drain the potatoes and return them to the pan off the heat.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the butter and milk and mash until smooth. Season with salt.",
+     "relatedIngredientIds": [
+      "butter",
+      "milk",
+      "salt"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve the sausages on the mash.",
+     "relatedIngredientIds": [
+      "sausages"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Bangers_and_Mash",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "fish-and-chips",
+   "title": "Fish and Chips",
+   "description": "Battered fried white fish with thick golden chips, served with lemon and vinegar.",
+   "prepTime": 20,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "british"
+   ],
+   "ingredients": [
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "corn-flour",
+     "name": "corn flour (cornstarch)",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cold-water",
+     "name": "cold water",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "fish-fillets",
+     "name": "fish fillets (cod or haddock)",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil, for deep frying",
+     "amount": 1.0,
+     "unit": "l"
+    },
+    {
+     "id": "sea-salt",
+     "name": "sea salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "lemon",
+     "name": "lemon, cut into wedges",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "parsley",
+     "name": "parsley",
+     "amount": 1.0,
+     "unit": "sprig"
+    },
+    {
+     "id": "malt-vinegar",
+     "name": "malt vinegar",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the vegetable oil in a deep fryer to 180 °C (350 °F).",
+     "relatedIngredientIds": [
+      "vegetable-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Peel the potatoes, cut into thick wedges and deep-fry in batches for 6-8 minutes until crisp and golden.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "chop",
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Drain on kitchen paper, sprinkle with sea salt and keep warm.",
+     "relatedIngredientIds": [
+      "sea-salt"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Whisk the plain flour, corn flour and salt with enough cold water to make a batter.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "corn-flour",
+      "salt",
+      "cold-water"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cut the fish fillets into thick slices and coat them in the batter.",
+     "relatedIngredientIds": [
+      "fish-fillets"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Deep-fry the fish in batches for 5-6 minutes, then drain on kitchen paper.",
+     "relatedIngredientIds": [
+      "fish-fillets"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 330,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve the fish and chips with the lemon wedges, parsley and a sprinkle of malt vinegar.",
+     "relatedIngredientIds": [
+      "fish-fillets",
+      "lemon",
+      "parsley",
+      "malt-vinegar"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Fish_and_Chips",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "corned-beef-hash",
+   "title": "Lancashire Corned Beef Hash",
+   "description": "Simple Lancashire stew of potatoes, onion and carrot with flaked corned beef stirred in at the end.",
+   "prepTime": 15,
+   "cookTime": 45,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "british"
+   ],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes, chunked",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "corned-beef",
+     "name": "corned beef",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "carrot",
+     "name": "carrot, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "white-pepper",
+     "name": "white pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "tarragon",
+     "name": "tarragon",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "oregano",
+     "name": "oregano",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "bay-leaf",
+     "name": "bay leaf",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the potatoes, onion, carrot, tarragon, oregano, bay leaf, salt and white pepper in a large pan.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "onion",
+      "carrot",
+      "salt",
+      "white-pepper",
+      "tarragon",
+      "oregano",
+      "bay-leaf"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add water until almost covering the ingredients, cover and bring to the boil.",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Lower the heat and simmer for 30 minutes, until the potatoes soften.",
+     "relatedIngredientIds": [
+      "potatoes"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "If too wet, strain off some of the water.",
+     "relatedIngredientIds": [
+      "water"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Break up the corned beef and stir it in gently, then bring almost to the boil.",
+     "relatedIngredientIds": [
+      "corned-beef"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Switch off the heat and leave for 15 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve as it is, with buttered bread.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Lancashire_Corned_Beef_Hash",
+   "credit": "Wikibooks Cookbook contributors"
+  }
+ ]
+}

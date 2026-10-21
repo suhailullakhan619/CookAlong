@@ -1,0 +1,4717 @@
+{
+ "recipes": [
+  {
+   "id": "pikelets",
+   "title": "Pikelets (Mini Pancakes)",
+   "description": "Small, thick New Zealand and Australian griddle pancakes, raised with yeast and served warm.",
+   "prepTime": 135,
+   "cookTime": 20,
+   "servings": 15,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "australian",
+    "breakfast"
+   ],
+   "ingredients": [
+    {
+     "id": "strong-bread-flour",
+     "name": "strong bread flour",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "bicarbonate-of-soda",
+     "name": "bicarbonate of soda",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "fresh-yeast",
+     "name": "fresh yeast",
+     "amount": 8.0,
+     "unit": "g"
+    },
+    {
+     "id": "lukewarm-whole-milk",
+     "name": "lukewarm whole milk",
+     "amount": 75.0,
+     "unit": "ml"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "lukewarm-water",
+     "name": "lukewarm water",
+     "amount": 250.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Sift the bread flour and plain flour into a large bowl, adding 1/2 tsp of the bicarbonate of soda and the salt.",
+     "relatedIngredientIds": [
+      "strong-bread-flour",
+      "bicarbonate-of-soda",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Crumble the fresh yeast into a small bowl and slowly stir in the lukewarm water until you have a brown paste.",
+     "relatedIngredientIds": [
+      "fresh-yeast",
+      "lukewarm-water"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pour the yeast mixture into the flour and mix to a very thick batter, with a wooden spoon or your hands.",
+     "relatedIngredientIds": [
+      "strong-bread-flour",
+      "fresh-yeast"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cover the bowl with a warm, damp cloth and leave in a warm place for 2 hours, until frothy.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Dissolve the rest of the bicarbonate of soda in the lukewarm milk and slowly stir it into the batter.",
+     "relatedIngredientIds": [
+      "bicarbonate-of-soda",
+      "lukewarm-whole-milk"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Heat a lightly greased frying pan until very hot. Drop in spoonfuls of batter and cook for 2 minutes on each side, turning when the bubbles dry out.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 120,
+     "timerLabel": "Cook"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pikelet_(Australian_Mini_Pancakes)",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pufftaloons",
+   "title": "Pufftaloons",
+   "description": "Australian fried scone dough, puffed up in hot oil and eaten warm with jam or golden syrup.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "australian",
+    "snack",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "oil",
+     "name": "oil, for deep frying",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "jam-or-golden-syrup",
+     "name": "jam or golden syrup, to serve",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the plain flour and baking powder in a bowl.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "baking-powder"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Rub in the butter with your fingertips.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add enough milk to make a soft dough.",
+     "relatedIngredientIds": [
+      "milk"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the oil for deep frying until hot.",
+     "relatedIngredientIds": [
+      "oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Deep fry spoonfuls of the dough until puffed and golden, then drain.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve hot with jam or golden syrup.",
+     "relatedIngredientIds": [
+      "jam-or-golden-syrup"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pufftaloons",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "rissoles",
+   "title": "Rissoles",
+   "description": "Australian beef mince patties, coated in flour and fried or baked until crisp outside, like thick burgers.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "australian"
+   ],
+   "ingredients": [
+    {
+     "id": "minced-beef",
+     "name": "minced beef (ground beef)",
+     "amount": 1.0,
+     "unit": "kg"
+    },
+    {
+     "id": "breadcrumbs",
+     "name": "breadcrumbs",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "mixed-dried-herbs",
+     "name": "mixed dried herbs",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour, for coating",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the minced beef, breadcrumbs, eggs, mixed dried herbs, salt and pepper in a large bowl.",
+     "relatedIngredientIds": [
+      "minced-beef",
+      "breadcrumbs",
+      "eggs",
+      "mixed-dried-herbs",
+      "salt",
+      "pepper"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix thoroughly with your hands until fully combined.",
+     "relatedIngredientIds": [],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Take a handful of the mixture and shape it into a very thick burger patty.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Roll each patty in plain flour.",
+     "relatedIngredientIds": [
+      "plain-flour"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cook in the oven, under a grill or in a frying pan over medium heat until cooked through and crunchy on the outside.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve with vegetables, chips or salad, or in bread as a rissole burger.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Rissoles",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "rocky-road",
+   "title": "Rocky Road",
+   "description": "No-bake Australian chocolate squares full of marshmallows and walnuts, set in the fridge.",
+   "prepTime": 125,
+   "cookTime": 5,
+   "servings": 16,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "australian",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "chocolate-chips",
+     "name": "chocolate chips",
+     "amount": 12.0,
+     "unit": "oz"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "mini-marshmallows",
+     "name": "mini marshmallows",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "walnuts",
+     "name": "walnuts, shelled and chopped",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "vanilla-extract",
+     "name": "vanilla extract",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Butter a 20 cm square pan and set it aside.",
+     "relatedIngredientIds": [
+      "butter"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Put the chocolate chips, milk and butter in a heavy-bottomed pot over medium heat.",
+     "relatedIngredientIds": [
+      "chocolate-chips",
+      "milk",
+      "butter"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir constantly until the chocolate has melted and the milk and butter are mixed in.",
+     "relatedIngredientIds": [
+      "chocolate-chips",
+      "milk",
+      "butter"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir in the mini marshmallows, walnuts and vanilla extract.",
+     "relatedIngredientIds": [
+      "mini-marshmallows",
+      "walnuts",
+      "vanilla-extract"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Spread the mixture into the prepared pan.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Refrigerate until firm, about 2 hours, then cut into small squares.",
+     "relatedIngredientIds": [],
+     "animation": "rest",
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Chill"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Rocky_Road_Confectionery_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "lolly-cake",
+   "title": "Lolly Cake",
+   "description": "New Zealand no-bake log of crushed malt biscuits, condensed milk and chewy sweets, rolled in coconut.",
+   "prepTime": 195,
+   "cookTime": 1,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "australian",
+    "sweet"
+   ],
+   "ingredients": [
+    {
+     "id": "malt-biscuits",
+     "name": "malt biscuits",
+     "amount": 250.0,
+     "unit": "g"
+    },
+    {
+     "id": "cinnamon",
+     "name": "cinnamon",
+     "amount": 1.0,
+     "unit": "pinch"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 120.0,
+     "unit": "g"
+    },
+    {
+     "id": "condensed-milk",
+     "name": "condensed milk",
+     "amount": 200.0,
+     "unit": "g"
+    },
+    {
+     "id": "fruit-puffs",
+     "name": "fruit puffs (soft fruity marshmallow sweets)",
+     "amount": 180.0,
+     "unit": "g"
+    },
+    {
+     "id": "shredded-coconut",
+     "name": "shredded coconut, for rolling",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Crush the malt biscuits. Leave some pieces partly crushed for a better texture.",
+     "relatedIngredientIds": [
+      "malt-biscuits"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix in the cinnamon.",
+     "relatedIngredientIds": [
+      "cinnamon"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Warm the butter and condensed milk in the microwave for 30 seconds, until the butter is very soft.",
+     "relatedIngredientIds": [
+      "butter",
+      "condensed-milk"
+     ],
+     "suggestedTimerSeconds": 30,
+     "timerLabel": "Microwave"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Halve the fruit puffs if you like, or leave them whole.",
+     "relatedIngredientIds": [
+      "fruit-puffs"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix the fruit puffs into the crushed biscuits, then add the butter and condensed milk and mix well.",
+     "relatedIngredientIds": [
+      "malt-biscuits",
+      "butter",
+      "condensed-milk",
+      "fruit-puffs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Roll the mixture into a log, or into small balls.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Roll the log or balls in shredded coconut until completely covered.",
+     "relatedIngredientIds": [
+      "shredded-coconut"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Place on a tray, cover with plastic wrap and chill for several hours until hard.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 10800,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Cut the cake while still cold.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Lolly_Cake",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "pie-floater",
+   "title": "Pie Floater",
+   "description": "South Australian street-food classic: a hot meat pie served upside down in a bowl of pea soup.",
+   "prepTime": 5,
+   "cookTime": 20,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "australian",
+    "street-food"
+   ],
+   "ingredients": [
+    {
+     "id": "meat-pie",
+     "name": "meat pie",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "pea-soup",
+     "name": "pea soup",
+     "amount": 1.0,
+     "unit": "can"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the meat pie in an oven so the pastry stays crisp. A microwave does not work as well.",
+     "relatedIngredientIds": [
+      "meat-pie"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Heat the pea soup separately in a pan.",
+     "relatedIngredientIds": [
+      "pea-soup"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Place the pie upside down in a bowl and pour the pea soup around it until the bowl is full.",
+     "relatedIngredientIds": [
+      "meat-pie",
+      "pea-soup"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Pie_Floater",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "sticky-date-pudding",
+   "title": "Sticky Date Pudding",
+   "description": "Moist, dark Australian date cake, soaked with hot brown sugar sauce and served with cream.",
+   "prepTime": 30,
+   "cookTime": 90,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "australian",
+    "sweet",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "pitted-dates",
+     "name": "pitted dates",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "bicarbonate-of-soda",
+     "name": "bicarbonate of soda, for the dates",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "bicarbonate-of-soda-2",
+     "name": "bicarbonate of soda, for the flour",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "mixed-spice",
+     "name": "mixed spice",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, at room temperature",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "castor-sugar",
+     "name": "castor sugar",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "vanilla-essence",
+     "name": "vanilla essence",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cream",
+     "name": "cream",
+     "amount": 500.0,
+     "unit": "ml"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Make the sauce: stir the brown sugar and water in the top of a double boiler over simmering water until the sugar dissolves. Take off the heat and let it cool.",
+     "relatedIngredientIds": [
+      "brown-sugar",
+      "water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Chop the dates roughly and put them in a saucepan with 1 tsp bicarbonate of soda and just enough water to cover.",
+     "relatedIngredientIds": [
+      "water",
+      "pitted-dates",
+      "bicarbonate-of-soda"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bring to the boil and simmer for 1 minute. When it froths up to the top of the pan, take it off the heat and let it cool.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 60,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Preheat the oven to 180 °C (350 °F). Line a large cake tin with parchment paper and grease it well.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Sift the plain flour, 1 tsp bicarbonate of soda, salt and mixed spice together twice.",
+     "relatedIngredientIds": [
+      "bicarbonate-of-soda",
+      "plain-flour",
+      "salt",
+      "mixed-spice"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Beat the eggs lightly, add the castor sugar and whip until very light and fluffy, as for a sponge.",
+     "relatedIngredientIds": [
+      "eggs",
+      "castor-sugar"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Fold in the vegetable oil and vanilla essence, without over-mixing, so you keep the air.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "vanilla-essence"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Fold in the sifted flour mixture, then the cooled date mixture.",
+     "relatedIngredientIds": [
+      "pitted-dates",
+      "plain-flour"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s9",
+     "order": 9,
+     "instructionText": "Pour into the tin and bake for 80-90 minutes, until a skewer comes out dry. Leave the pudding in the tin.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 5100,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s10",
+     "order": 10,
+     "instructionText": "Prick the hot pudding all over with a skewer and pour about 1 cup of the sauce over it so it soaks in.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s11",
+     "order": 11,
+     "instructionText": "Slice and serve at once with cream or ice cream.",
+     "relatedIngredientIds": [
+      "cream"
+     ],
+     "animation": "chop"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Sticky_Date_Pudding",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "carpetbag-steak",
+   "title": "Carpetbag Steak",
+   "description": "Thick steak with a pocket stuffed with oysters, then grilled; an Australian classic from around 1950.",
+   "prepTime": 15,
+   "cookTime": 15,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "australian"
+   ],
+   "ingredients": [
+    {
+     "id": "thick-cut-scotch-fillet",
+     "name": "thick-cut scotch fillet (ribeye) steak",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "oysters",
+     "name": "oysters",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "worcestershire-sauce",
+     "name": "Worcestershire sauce, for dipping",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "ground-black-pepper",
+     "name": "ground black pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "cayenne pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "lemon-juice",
+     "name": "lemon juice",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut a pocket about 6 cm long and about as deep into the edge of the thick steak.",
+     "relatedIngredientIds": [],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Season the inside of the pocket with a little salt, black pepper, cayenne pepper, lemon juice and olive oil, if you like.",
+     "relatedIngredientIds": [
+      "salt",
+      "ground-black-pepper",
+      "cayenne-pepper",
+      "lemon-juice",
+      "olive-oil"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Dip the oysters in Worcestershire sauce, then push them into the pocket.",
+     "relatedIngredientIds": [
+      "oysters",
+      "worcestershire-sauce"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Close the pocket with a moistened skewer.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Barbecue, grill or broil the steak until done as you like it, or cook it over moderate heat in a heavy frying pan.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Carpetbag_Steak",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "buffalo-chicken-sandwich",
+   "title": "Buffalo Chicken Sandwich",
+   "description": "Crisp fried chicken breast tossed in hot sauce, in a bun with lettuce, tomato and blue cheese dressing.",
+   "prepTime": 25,
+   "cookTime": 10,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "american"
+   ],
+   "ingredients": [
+    {
+     "id": "oil",
+     "name": "oil, for frying",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "chicken-breast",
+     "name": "chicken breast, boneless and skinless, pounded flat",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "hamburger-bun",
+     "name": "hamburger bun",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "leaf-lettuce",
+     "name": "leaf lettuce",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "tomato",
+     "name": "tomato",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "red-onion",
+     "name": "red onion, sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "hot-sauce",
+     "name": "hot sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "blue-cheese-dressing",
+     "name": "blue cheese dressing",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat enough oil to cover the chicken to 175 °C (350 °F) in a large frying pan or deep-fryer.",
+     "relatedIngredientIds": [
+      "oil",
+      "chicken-breast"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Mix the flour and salt. Dip the chicken in the milk, then the flour mixture, again in the milk, then the flour a second time.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "salt",
+      "milk",
+      "chicken-breast"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Chill the coated chicken in the fridge for 10-15 minutes.",
+     "relatedIngredientIds": [
+      "chicken-breast"
+     ],
+     "animation": "rest",
+     "suggestedTimerSeconds": 720,
+     "timerLabel": "Chill"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Deep fry the chicken in the oil until golden brown, about 10 minutes. Drain on a rack.",
+     "relatedIngredientIds": [
+      "oil",
+      "chicken-breast"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Toast the cut face of the bun.",
+     "relatedIngredientIds": [
+      "hamburger-bun"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Put the chicken in a bowl with a lid, add the hot sauce, close the lid and shake gently to coat.",
+     "relatedIngredientIds": [
+      "chicken-breast",
+      "hot-sauce"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Put the chicken on the bun and top with lettuce, tomato and red onion. Serve open-faced with blue cheese dressing on the side.",
+     "relatedIngredientIds": [
+      "chicken-breast",
+      "hamburger-bun",
+      "leaf-lettuce",
+      "tomato",
+      "red-onion",
+      "blue-cheese-dressing"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Buffalo_Chicken_Sandwich",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "corn-chowder",
+   "title": "Corn Chowder",
+   "description": "Creamy American soup of sweetcorn, potato, onion and celery, lightly flavoured with thyme.",
+   "prepTime": 20,
+   "cookTime": 30,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion, chopped",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "celery",
+     "name": "celery, chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes, peeled and diced in 1 cm cubes",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "sweetcorn-kernels",
+     "name": "sweetcorn kernels, fresh or frozen",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "chicken-bouillon-cubes",
+     "name": "chicken bouillon cubes",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "thyme",
+     "name": "thyme",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "light-cream",
+     "name": "light cream",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Melt the butter in a medium saucepan. Add the onion and celery and cook until tender.",
+     "relatedIngredientIds": [
+      "butter",
+      "onion",
+      "celery"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the potatoes, sweetcorn, salt, pepper, water, chicken bouillon cubes and thyme.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "sweetcorn-kernels",
+      "water",
+      "chicken-bouillon-cubes",
+      "thyme",
+      "salt",
+      "pepper"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cover and simmer for 15 minutes, until the potatoes and sweetcorn are tender.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "sweetcorn-kernels"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the milk and light cream.",
+     "relatedIngredientIds": [
+      "milk",
+      "light-cream"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Heat through without boiling, and serve hot.",
+     "relatedIngredientIds": [],
+     "animation": "fry"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Corn_Chowder_I",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "new-england-clam-chowder",
+   "title": "New England Clam Chowder",
+   "description": "Thick, creamy milk-based chowder of clams, potato and onion, built on salt pork and a light roux.",
+   "prepTime": 15,
+   "cookTime": 30,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "canned-clams",
+     "name": "canned clams, minced",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "potato",
+     "name": "potato, diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "onion, diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "boiling-water",
+     "name": "boiling water",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt-pork",
+     "name": "salt pork, diced",
+     "amount": 3.0,
+     "unit": "oz"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.4,
+     "unit": "l"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Drain the clams and keep the liquid. Cut away the hard parts of the clams and keep them separate from the soft parts.",
+     "relatedIngredientIds": [
+      "canned-clams"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Fry the salt pork in a heavy pot until brown and crisp, then lift it out.",
+     "relatedIngredientIds": [
+      "salt-pork"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Fry the hard parts of the clams and the onion in the pork fat until the onion is light brown.",
+     "relatedIngredientIds": [
+      "canned-clams",
+      "onion",
+      "salt-pork"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir in the flour, then slowly add the boiling water, salt, pepper and diced potato.",
+     "relatedIngredientIds": [
+      "plain-flour",
+      "potato",
+      "boiling-water",
+      "salt-pork",
+      "pepper"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Cover and simmer gently for 10 minutes, until the potato is tender.",
+     "relatedIngredientIds": [
+      "potato"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the soft parts of the clams and the clam liquid.",
+     "relatedIngredientIds": [
+      "canned-clams"
+     ]
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Scald the milk. Just before serving, stir in the scalded milk and the butter, and heat through without boiling.",
+     "relatedIngredientIds": [
+      "boiling-water",
+      "milk",
+      "butter"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Serve piping hot with crackers.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:New_England_Clam_Chowder",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "smoked-salmon-chowder",
+   "title": "Smoked Salmon Chowder",
+   "description": "Creamy chowder of smoked salmon, carrots, celery, onion and mashed potato, scented with tarragon.",
+   "prepTime": 20,
+   "cookTime": 30,
+   "servings": 12,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "soup"
+   ],
+   "ingredients": [
+    {
+     "id": "canola-oil",
+     "name": "canola oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onions",
+     "name": "onions, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "celery-stalks",
+     "name": "celery stalks, chopped",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "carrots",
+     "name": "carrots, chopped",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "dried-tarragon",
+     "name": "dried tarragon",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes, boiled and smashed",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "smoked-salmon",
+     "name": "smoked salmon, crumbled",
+     "amount": 225.0,
+     "unit": "g"
+    },
+    {
+     "id": "fish-stock",
+     "name": "fish stock",
+     "amount": 1.9,
+     "unit": "l"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.9,
+     "unit": "l"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the canola oil in a large stock pot over medium heat.",
+     "relatedIngredientIds": [
+      "canola-oil",
+      "fish-stock"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the carrots, onions and celery and stir until the onions turn clear.",
+     "relatedIngredientIds": [
+      "onions",
+      "celery-stalks",
+      "carrots"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the tarragon and fish stock and scrape up the bottom of the pot.",
+     "relatedIngredientIds": [
+      "dried-tarragon",
+      "fish-stock"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Stir in the smashed potatoes and smoked salmon. Keep stirring and bring to a simmer.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "smoked-salmon"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the milk and black pepper and heat through.",
+     "relatedIngredientIds": [
+      "milk",
+      "black-pepper"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve hot.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Smoked_Salmon_Chowder",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "green-bean-casserole",
+   "title": "Green Bean Casserole",
+   "description": "Classic American Thanksgiving side of green beans in creamy mushroom sauce, topped with crispy fried onions.",
+   "prepTime": 10,
+   "cookTime": 30,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "cooked-green-beans",
+     "name": "cooked green beans",
+     "amount": 8.0,
+     "unit": "cup"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "canned-french-fried-onio",
+     "name": "canned French fried onions, divided",
+     "amount": 2.667,
+     "unit": "cup"
+    },
+    {
+     "id": "ground-black-pepper",
+     "name": "ground black pepper",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "cream-of-mushroom-soup",
+     "name": "cream of mushroom soup (2 cans)",
+     "amount": 21.0,
+     "unit": "oz"
+    },
+    {
+     "id": "soy-sauce",
+     "name": "soy sauce",
+     "amount": 2.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 175 °C (350 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In a 3-litre casserole dish, stir together the green beans, milk, half of the French fried onions, pepper, cream of mushroom soup and soy sauce.",
+     "relatedIngredientIds": [
+      "cooked-green-beans",
+      "milk",
+      "canned-french-fried-onio",
+      "ground-black-pepper",
+      "cream-of-mushroom-soup",
+      "soy-sauce"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Bake until hot, about 25 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1500,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Sprinkle the rest of the French fried onions on top.",
+     "relatedIngredientIds": [
+      "canned-french-fried-onio"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake for another 5 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Green_Bean_Casserole",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "tuna-noodle-casserole",
+   "title": "Tuna Noodle Casserole",
+   "description": "Comfort-food bake of tuna, egg noodles and peas in creamy mushroom soup, with a crumb or cheese top.",
+   "prepTime": 15,
+   "cookTime": 35,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "tuna",
+     "name": "tuna (12 oz each), drained",
+     "amount": 2.0,
+     "unit": "can"
+    },
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "medium-egg-noodles",
+     "name": "medium egg noodles, cooked and hot",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "frozen-peas",
+     "name": "frozen peas",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cream-of-mushroom-soup",
+     "name": "cream of mushroom soup (2 cans)",
+     "amount": 21.0,
+     "unit": "oz"
+    },
+    {
+     "id": "dry-breadcrumbs",
+     "name": "dry breadcrumbs",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "butter",
+     "name": "butter, melted",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dried-minced-onion",
+     "name": "dried minced onion",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "hot-sauce",
+     "name": "hot sauce",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cheese",
+     "name": "cheese, shredded",
+     "amount": 3.0,
+     "unit": "oz"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 200 °C (400 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Shred the tuna and stir it into a 3-litre casserole dish with the milk, egg noodles, peas and cream of mushroom soup.",
+     "relatedIngredientIds": [
+      "tuna",
+      "milk",
+      "medium-egg-noodles",
+      "frozen-peas",
+      "cream-of-mushroom-soup"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the dried minced onion and hot sauce.",
+     "relatedIngredientIds": [
+      "dried-minced-onion",
+      "hot-sauce"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Bake until hot, about 25-30 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1650,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix the breadcrumbs with the melted butter and sprinkle over the casserole, or top it with the shredded cheese.",
+     "relatedIngredientIds": [
+      "dry-breadcrumbs",
+      "butter",
+      "cheese"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for another 5 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Tuna_Noodle_Casserole",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "hashbrown-casserole",
+   "title": "Hashbrown Casserole",
+   "description": "Cheesy Utah potato bake of hash browns, sour cream and cream of chicken soup under a crunchy corn flake top.",
+   "prepTime": 10,
+   "cookTime": 40,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "frozen-hash-browns",
+     "name": "frozen hash browns",
+     "amount": 32.0,
+     "unit": "oz"
+    },
+    {
+     "id": "cheddar-cheese",
+     "name": "cheddar cheese, shredded",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cream-of-chicken-soup",
+     "name": "cream of chicken soup",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "sour-cream",
+     "name": "sour cream",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter, melted",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "green-onions",
+     "name": "green onions, chopped",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "corn-flakes",
+     "name": "corn flakes",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "butter-2",
+     "name": "butter, melted (for the topping)",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Toss the corn flakes with 1 tbsp of the melted butter and set aside.",
+     "relatedIngredientIds": [
+      "butter",
+      "corn-flakes"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Combine the hash browns, cheddar cheese, cream of chicken soup, sour cream, butter, green onions, salt and pepper in a large bowl.",
+     "relatedIngredientIds": [
+      "frozen-hash-browns",
+      "cheddar-cheese",
+      "cream-of-chicken-soup",
+      "sour-cream",
+      "butter",
+      "green-onions",
+      "salt",
+      "pepper"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Transfer the mixture to a 28 x 33 cm baking dish.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Sprinkle the corn flake mixture on top.",
+     "relatedIngredientIds": [
+      "corn-flakes"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake at 180 °C (350 °F) for 40 minutes, until bubbly and a little browned on top.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 2400,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Hashbrown_Casserole",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "breakfast-casserole",
+   "title": "Breakfast Casserole",
+   "description": "Layered bake of cornbread, sausage, bacon, ricotta and egg, topped with Monterey Jack and crumbs.",
+   "prepTime": 20,
+   "cookTime": 35,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "breakfast",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "sausage-links",
+     "name": "sausage links, cooked and finely chopped",
+     "amount": 5.0,
+     "unit": ""
+    },
+    {
+     "id": "bacon",
+     "name": "bacon, cooked and crumbled",
+     "amount": 8.0,
+     "unit": "slice"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, beaten",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cornbread",
+     "name": "cornbread, finely crumbled",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "ricotta-cheese",
+     "name": "ricotta cheese",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "monterey-jack-cheese",
+     "name": "Monterey Jack cheese, shredded",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "dry-breadcrumbs",
+     "name": "dry breadcrumbs",
+     "amount": 0.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Combine the sausage and bacon in a bowl.",
+     "relatedIngredientIds": [
+      "sausage-links",
+      "bacon"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "In another bowl, combine the ricotta, eggs, butter, salt, black pepper and cornbread.",
+     "relatedIngredientIds": [
+      "eggs",
+      "salt",
+      "black-pepper",
+      "cornbread",
+      "ricotta-cheese",
+      "unsalted-butter"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Grease a large roasting pan. Spread just enough of the cornbread mixture to cover the bottom, then add a layer of the meat mixture. Repeat until both are used up.",
+     "relatedIngredientIds": [
+      "cornbread"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Mix the Monterey Jack cheese and breadcrumbs and sprinkle evenly over the top.",
+     "relatedIngredientIds": [
+      "monterey-jack-cheese",
+      "dry-breadcrumbs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake at 190 °C (375 °F) for 30-35 minutes, until browned and bubbly on top.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1950,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve warm.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Breakfast_Casserole",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "sloppy-joes",
+   "title": "Sloppy Joes",
+   "description": "Loose, saucy ground beef in a sweet-tangy ketchup and barbecue sauce, served on toasted burger buns.",
+   "prepTime": 10,
+   "cookTime": 35,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "american"
+   ],
+   "ingredients": [
+    {
+     "id": "ground-beef",
+     "name": "ground beef",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "ketchup",
+     "name": "ketchup",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "barbecue-sauce",
+     "name": "barbecue sauce",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic-powder",
+     "name": "garlic powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "chili-powder",
+     "name": "chili powder",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion, chopped",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "green-bell-pepper",
+     "name": "green bell pepper, chopped",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "hamburger-buns",
+     "name": "hamburger buns, sliced and toasted",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Brown the ground beef, onion and bell pepper in a skillet over medium heat.",
+     "relatedIngredientIds": [
+      "ground-beef",
+      "onion",
+      "green-bell-pepper"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drain off the liquid and return the mixture to the skillet.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Over medium heat, stir in the ketchup, barbecue sauce, garlic powder and chili powder.",
+     "relatedIngredientIds": [
+      "ketchup",
+      "barbecue-sauce",
+      "garlic-powder",
+      "chili-powder"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Simmer for 20 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Spoon over sliced, toasted hamburger buns.",
+     "relatedIngredientIds": [
+      "hamburger-buns"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Sloppy_Joes",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "reuben-sandwich",
+   "title": "Reuben Sandwich",
+   "description": "Grilled rye sandwich of corned beef, sauerkraut, Swiss cheese and Russian dressing.",
+   "prepTime": 10,
+   "cookTime": 8,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "american"
+   ],
+   "ingredients": [
+    {
+     "id": "corned-beef",
+     "name": "corned beef, sliced",
+     "amount": 225.0,
+     "unit": "g"
+    },
+    {
+     "id": "sauerkraut",
+     "name": "sauerkraut, drained",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "sweet-onion",
+     "name": "sweet onion, chopped",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "creamy-russian-dressing",
+     "name": "creamy Russian dressing",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "rye-bread",
+     "name": "rye bread",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "swiss-cheese",
+     "name": "Swiss cheese",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "chopped-parsley",
+     "name": "chopped parsley",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "butter",
+     "name": "butter",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the sauerkraut, sweet onion and parsley.",
+     "relatedIngredientIds": [
+      "sauerkraut",
+      "sweet-onion",
+      "chopped-parsley"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Spread the Russian dressing on both slices of rye bread.",
+     "relatedIngredientIds": [
+      "creamy-russian-dressing",
+      "rye-bread"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Pile the corned beef, Swiss cheese and sauerkraut mixture on one slice, then top with the other slice.",
+     "relatedIngredientIds": [
+      "corned-beef",
+      "sauerkraut",
+      "swiss-cheese"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Butter the outside of the bread.",
+     "relatedIngredientIds": [
+      "rye-bread",
+      "butter"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Grill until lightly browned, about 5-10 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Grill"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Reuben_Sandwich",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "philly-cheesesteak",
+   "title": "Philly Cheesesteak",
+   "description": "Seared steak pieces and soft browned onion with melted cheese, piled into a hoagie roll.",
+   "prepTime": 10,
+   "cookTime": 25,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [
+    "american"
+   ],
+   "ingredients": [
+    {
+     "id": "filet-mignon",
+     "name": "filet mignon, pounded flat",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "freshly-ground-black-pep",
+     "name": "freshly ground black pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "small-onion",
+     "name": "small onion, julienned",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "hoagie-rolls",
+     "name": "hoagie rolls",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "american-cheese-slices",
+     "name": "American cheese slices",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Drizzle the filet mignon with olive oil and season with salt and black pepper.",
+     "relatedIngredientIds": [
+      "filet-mignon",
+      "olive-oil",
+      "salt",
+      "freshly-ground-black-pep"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Sear in a cast-iron skillet over medium heat for 6 minutes per side.",
+     "relatedIngredientIds": [],
+     "animation": "fry",
+     "suggestedTimerSeconds": 360,
+     "timerLabel": "Sear"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Remove the steak and rest it for 7 minutes, then slice it into bite-size pieces and keep warm.",
+     "relatedIngredientIds": [
+      "american-cheese-slices"
+     ],
+     "suggestedTimerSeconds": 420,
+     "timerLabel": "Rest"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Toss the onion with a little olive oil and saute it in the same pan until lightly browned around the edges.",
+     "relatedIngredientIds": [
+      "olive-oil",
+      "small-onion"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Put a big scoop of steak into each hoagie roll (cut almost through), then top with the onion and torn American cheese slices.",
+     "relatedIngredientIds": [
+      "small-onion",
+      "hoagie-rolls",
+      "american-cheese-slices"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Philly_Cheesesteak",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "cuban-sandwich",
+   "title": "Cuban Sandwich",
+   "description": "Pressed Cuban bread sandwich of ham, roast pork, salami, Swiss cheese, pickles and mustard.",
+   "prepTime": 10,
+   "cookTime": 6,
+   "servings": 1,
+   "dietaryTags": [],
+   "categories": [
+    "american"
+   ],
+   "ingredients": [
+    {
+     "id": "loaf-cuban-bread",
+     "name": "loaf Cuban bread",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "yellow-mustard",
+     "name": "yellow mustard",
+     "amount": 1.0,
+     "unit": "oz"
+    },
+    {
+     "id": "dill-pickle-slices",
+     "name": "dill pickle slices",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "boiled-ham",
+     "name": "boiled ham",
+     "amount": 5.0,
+     "unit": "slice"
+    },
+    {
+     "id": "roast-pork",
+     "name": "roast pork",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "genoa-salami",
+     "name": "Genoa salami",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "swiss-cheese",
+     "name": "Swiss cheese",
+     "amount": 1.0,
+     "unit": "slice"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the Cuban bread to a size you like (about 18 cm is common), then slice it open down the middle.",
+     "relatedIngredientIds": [
+      "loaf-cuban-bread",
+      "dill-pickle-slices"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Spread the mustard across the top half of the bread and lay the dill pickle slices on it.",
+     "relatedIngredientIds": [
+      "loaf-cuban-bread",
+      "yellow-mustard",
+      "dill-pickle-slices"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Put the Swiss cheese on top of the pickles.",
+     "relatedIngredientIds": [
+      "dill-pickle-slices",
+      "swiss-cheese"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Fold each slice of boiled ham in half and place on the bottom half of the bread. Add the roast pork and salami on top.",
+     "relatedIngredientIds": [
+      "loaf-cuban-bread",
+      "dill-pickle-slices",
+      "boiled-ham",
+      "roast-pork",
+      "genoa-salami"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Close the sandwich.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Press it in a sandwich grill, or a waffle iron if you do not have one, until the top is golden and crisp, about 4-6 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Grill"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Remove carefully and cut diagonally from corner to corner.",
+     "relatedIngredientIds": []
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Cuban_Sandwich_II",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "steak-sandwiches",
+   "title": "Steak Sandwiches",
+   "description": "Quick toasted loaf filled with sliced steak, pepper jack cheese and crisp bacon.",
+   "prepTime": 10,
+   "cookTime": 10,
+   "servings": 3,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "beef-tenderloin-steaks",
+     "name": "beef tenderloin steaks, cooked",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "pepper-jack-cheese",
+     "name": "pepper jack cheese",
+     "amount": 6.0,
+     "unit": "slice"
+    },
+    {
+     "id": "bacon",
+     "name": "bacon, cooked until crisp",
+     "amount": 6.0,
+     "unit": "slice"
+    },
+    {
+     "id": "french-or-italian-loaf",
+     "name": "French or Italian loaf, 30 cm long",
+     "amount": 1.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 95 °C (200 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Slice the tenderloin steaks thinly and split the loaf in half.",
+     "relatedIngredientIds": [
+      "beef-tenderloin-steaks",
+      "french-or-italian-loaf"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Build the sandwich with the steak, pepper jack cheese and bacon.",
+     "relatedIngredientIds": [
+      "beef-tenderloin-steaks",
+      "pepper-jack-cheese",
+      "bacon"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Toast in the oven until the cheese has melted and the bread is toasted.",
+     "relatedIngredientIds": [
+      "pepper-jack-cheese"
+     ],
+     "animation": "fry"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Steak_Sandwiches",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "grilled-peanut-butter-sandwich",
+   "title": "Grilled Peanut Butter Sandwich",
+   "description": "Pan-fried peanut butter sandwich with a golden, buttery crust and a melting centre; Elvis's favourite.",
+   "prepTime": 5,
+   "cookTime": 6,
+   "servings": 1,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "snack",
+    "quick"
+   ],
+   "ingredients": [
+    {
+     "id": "peanut-butter",
+     "name": "peanut butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "white-bread",
+     "name": "white bread",
+     "amount": 2.0,
+     "unit": "slice"
+    },
+    {
+     "id": "butter",
+     "name": "butter, softened",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Spread the peanut butter between the two slices of bread.",
+     "relatedIngredientIds": [
+      "peanut-butter",
+      "white-bread"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Spread the outsides of the bread with softened or melted butter.",
+     "relatedIngredientIds": [
+      "peanut-butter",
+      "white-bread"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cook in a non-stick skillet over medium heat, turning a few times, until the bread is golden brown and the peanut butter has melted.",
+     "relatedIngredientIds": [
+      "peanut-butter",
+      "white-bread"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Serve with plenty of milk.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Grilled_Peanut_Butter_Sandwiches",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "black-bean-chili",
+   "title": "Black Bean Chili",
+   "description": "Meatless Tex-Mex chili of slow-simmered black beans, smoky chipotle, cumin and tomato, topped with sour cream.",
+   "prepTime": 490,
+   "cookTime": 210,
+   "servings": 10,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "dried-black-beans",
+     "name": "dried black beans",
+     "amount": 3.5,
+     "unit": "cup"
+    },
+    {
+     "id": "corn-oil",
+     "name": "corn oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion, diced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "chipotle-chile",
+     "name": "chipotle chile",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ancho-chile",
+     "name": "ancho chile",
+     "amount": 0.25,
+     "unit": ""
+    },
+    {
+     "id": "ground-cumin",
+     "name": "ground cumin",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "paprika",
+     "name": "paprika",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dried-oregano",
+     "name": "dried oregano",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "sea-salt",
+     "name": "sea salt",
+     "amount": 2.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "cayenne pepper",
+     "amount": 0.125,
+     "unit": "tsp"
+    },
+    {
+     "id": "wine-vinegar",
+     "name": "wine vinegar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "diced-tomatoes",
+     "name": "diced tomatoes",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "tomato-puree",
+     "name": "tomato puree",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 4.0,
+     "unit": "cup"
+    },
+    {
+     "id": "sour-cream",
+     "name": "sour cream, for garnish",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the black beans in a large pot with enough water to cover by 2.5 cm and soak overnight.",
+     "relatedIngredientIds": [
+      "dried-black-beans",
+      "water"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Drain the beans, cover with fresh water, bring to the boil, then simmer for 2 hours.",
+     "relatedIngredientIds": [
+      "dried-black-beans",
+      "water"
+     ],
+     "suggestedTimerSeconds": 7200,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the corn oil in a very large pot over medium-high heat. Add the onion and saute until tender.",
+     "relatedIngredientIds": [
+      "corn-oil",
+      "onion"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the garlic, chipotle and ancho chile, cumin, paprika, oregano, sea salt, cayenne pepper and wine vinegar and saute for 5-10 minutes.",
+     "relatedIngredientIds": [
+      "garlic",
+      "chipotle-chile",
+      "ancho-chile",
+      "ground-cumin",
+      "paprika",
+      "dried-oregano",
+      "sea-salt",
+      "cayenne-pepper",
+      "wine-vinegar"
+     ],
+     "suggestedTimerSeconds": 450,
+     "timerLabel": "Saute"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the tomatoes, tomato puree and water. Bring to the boil, then reduce the heat and simmer for 10 minutes.",
+     "relatedIngredientIds": [
+      "tomato-puree",
+      "water"
+     ],
+     "suggestedTimerSeconds": 600,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the beans with their juice and simmer for 1 hour.",
+     "relatedIngredientIds": [
+      "dried-black-beans"
+     ],
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Serve with sour cream.",
+     "relatedIngredientIds": [
+      "sour-cream"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Black_Bean_Chili",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "green-chili-beef-stew",
+   "title": "Green Chili Beef Stew",
+   "description": "New Mexican beef stew with roasted green chiles, potato, celery and corn; good with tortillas.",
+   "prepTime": 20,
+   "cookTime": 120,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "beef-stew-meat",
+     "name": "beef stew meat, cubed",
+     "amount": 2.0,
+     "unit": "lb"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion",
+     "name": "onion, chopped",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 2.0,
+     "unit": "clove"
+    },
+    {
+     "id": "green-new-mexican-chiles",
+     "name": "green New Mexican chiles, roasted and peeled",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "potatoes",
+     "name": "potatoes, peeled and diced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "water",
+     "name": "water",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "dried-oregano",
+     "name": "dried oregano",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "celery",
+     "name": "celery, chopped",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "canned-corn",
+     "name": "canned corn",
+     "amount": 15.0,
+     "unit": "oz"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the vegetable oil in a skillet. Brown the beef on all sides, then move it to a stock pot.",
+     "relatedIngredientIds": [
+      "beef-stew-meat",
+      "vegetable-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the onion to the skillet and saute until browned.",
+     "relatedIngredientIds": [
+      "onion"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the garlic to the onion and cook for a couple more minutes, then move both to the stock pot.",
+     "relatedIngredientIds": [
+      "onion",
+      "garlic"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add the green chiles, potatoes, water, oregano, celery and canned corn to the pot.",
+     "relatedIngredientIds": [
+      "green-new-mexican-chiles",
+      "potatoes",
+      "water",
+      "dried-oregano",
+      "celery",
+      "canned-corn"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bring to the boil, then reduce the heat and simmer for 1-2 hours, until the beef is very tender.",
+     "relatedIngredientIds": [
+      "beef-stew-meat"
+     ],
+     "animation": "boil",
+     "suggestedTimerSeconds": 5400,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve with tortillas.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Green_Chili_Beef_Stew",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "spanish-rice",
+   "title": "Spanish Rice (Tex-Mex)",
+   "description": "Tex-Mex rice cooked in chicken broth with chorizo, shredded meat, peppers, serrano chiles and cilantro.",
+   "prepTime": 15,
+   "cookTime": 30,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "mexican",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "id": "uncooked-rice",
+     "name": "uncooked rice",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "cilantro",
+     "name": "cilantro, finely chopped",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "green-bell-pepper",
+     "name": "green bell pepper, finely minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "serrano-chiles",
+     "name": "serrano chiles, finely minced",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "cooked-chicken-or-pork",
+     "name": "cooked chicken or pork, shredded",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "onion",
+     "name": "onion, finely minced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "chicken-broth",
+     "name": "chicken broth",
+     "amount": 3.5,
+     "unit": "cup"
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "chorizo",
+     "name": "chorizo, minced, casing removed",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 1.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Melt the butter in a large pot over medium-high heat.",
+     "relatedIngredientIds": [
+      "unsalted-butter"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the onion, bell pepper, serrano chiles, garlic, shredded meat, chorizo and rice. Cook until the chorizo and rice are golden brown.",
+     "relatedIngredientIds": [
+      "uncooked-rice",
+      "green-bell-pepper",
+      "serrano-chiles",
+      "onion",
+      "chorizo",
+      "garlic"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Add the chicken broth and bay leaves. Bring to the boil and cook until the liquid has evaporated and the rice is tender.",
+     "relatedIngredientIds": [
+      "uncooked-rice",
+      "chicken-broth",
+      "bay-leaves"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Sprinkle with the cilantro before serving.",
+     "relatedIngredientIds": [
+      "cilantro"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Spanish_Rice",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "tomato-ketchup",
+   "title": "Homemade Tomato Ketchup",
+   "description": "Simple ketchup of tomato paste, malt vinegar, garlic and onion powder, boiled for 15 minutes.",
+   "prepTime": 5,
+   "cookTime": 20,
+   "servings": 12,
+   "dietaryTags": [
+    "vegan"
+   ],
+   "categories": [
+    "american"
+   ],
+   "ingredients": [
+    {
+     "id": "tomato-paste",
+     "name": "tomato paste",
+     "amount": 24.0,
+     "unit": "oz"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "malt-vinegar",
+     "name": "malt vinegar",
+     "amount": 0.25,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic-powder",
+     "name": "garlic powder",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "onion-powder",
+     "name": "onion powder",
+     "amount": 2.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Put the tomato paste, salt, malt vinegar, garlic powder and onion powder in a large saucepan over medium-high heat.",
+     "relatedIngredientIds": [
+      "tomato-paste",
+      "salt",
+      "malt-vinegar",
+      "garlic-powder",
+      "onion-powder"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Bring to the boil and cook for 15 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Boil"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Cool, then store in an airtight container in the fridge for up to 2 weeks, or freeze for up to 2 months.",
+     "relatedIngredientIds": [],
+     "animation": "rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Tomato_Ketchup",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "taco-casserole",
+   "title": "Taco Casserole",
+   "description": "Baked Tex-Mex casserole of spiced taco beef, torn tortillas and plenty of melted cheese.",
+   "prepTime": 10,
+   "cookTime": 40,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "mexican"
+   ],
+   "ingredients": [
+    {
+     "id": "ground-beef",
+     "name": "ground beef",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "taco-seasoning-packet",
+     "name": "taco seasoning packet",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "chili-powder",
+     "name": "chili powder",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "garlic-powder",
+     "name": "garlic powder",
+     "amount": 3.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "tomato-sauce",
+     "name": "tomato sauce",
+     "amount": 225.0,
+     "unit": "g"
+    },
+    {
+     "id": "tortillas",
+     "name": "tortillas, torn into bits",
+     "amount": 3.0,
+     "unit": ""
+    },
+    {
+     "id": "shredded-cheese",
+     "name": "shredded cheese",
+     "amount": 3.0,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Brown the ground beef in a skillet over medium heat, then drain it and return it to the skillet.",
+     "relatedIngredientIds": [
+      "ground-beef"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Over medium heat, stir in the taco seasoning, chili powder, garlic powder and tomato sauce.",
+     "relatedIngredientIds": [
+      "taco-seasoning-packet",
+      "chili-powder",
+      "garlic-powder",
+      "tomato-sauce"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Simmer for 5 minutes, stirring now and then.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "In a casserole dish, mix the beef mixture, tortilla bits and shredded cheese.",
+     "relatedIngredientIds": [
+      "ground-beef",
+      "tortillas",
+      "shredded-cheese"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bake at 190 °C (375 °F) for 20 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve hot.",
+     "relatedIngredientIds": [],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Taco_Casserole",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "latkes",
+   "title": "Latkes (Potato Pancakes)",
+   "description": "Crisp pan-fried pancakes of grated potato and onion, served with applesauce or sour cream.",
+   "prepTime": 20,
+   "cookTime": 20,
+   "servings": 4,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "snack"
+   ],
+   "ingredients": [
+    {
+     "id": "large-potatoes",
+     "name": "large potatoes, peeled",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "medium-onion",
+     "name": "medium onion, peeled",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "egg",
+     "name": "egg, beaten",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "matzo-meal",
+     "name": "matzo meal, cornmeal or flour",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "applesauce-or-sour-cream",
+     "name": "applesauce or sour cream, to serve",
+     "amount": null,
+     "unit": "to taste"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Grate the potatoes and onion.",
+     "relatedIngredientIds": [
+      "large-potatoes",
+      "medium-onion"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Squeeze the grated potato and onion well in cheesecloth or a fine sieve to drain off the moisture, so they fry properly.",
+     "relatedIngredientIds": [
+      "large-potatoes",
+      "medium-onion"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the drained potato and onion with the egg, matzo meal and salt.",
+     "relatedIngredientIds": [
+      "large-potatoes",
+      "medium-onion",
+      "egg",
+      "matzo-meal",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Heat the vegetable oil in a 25 cm pan over medium heat until quite hot.",
+     "relatedIngredientIds": [
+      "vegetable-oil"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Drop 1-2 tablespoons of the mixture per pancake into the pan, flipping partway through so both sides fry.",
+     "relatedIngredientIds": []
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Serve with applesauce or sour cream.",
+     "relatedIngredientIds": [
+      "applesauce-or-sour-cream"
+     ],
+     "animation": "serve"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Latkes",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "spoonbread",
+   "title": "Spoonbread",
+   "description": "Soft, souffle-like Southern cornmeal bake with scallions, red pepper and a little cheese.",
+   "prepTime": 20,
+   "cookTime": 40,
+   "servings": 5,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "milk",
+     "name": "milk",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cornmeal",
+     "name": "cornmeal",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "red-pepper-flakes",
+     "name": "red pepper flakes",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "scallions",
+     "name": "scallions (spring onions), minced",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs, separated",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "cheese",
+     "name": "cheese, grated",
+     "amount": 0.333,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 205 °C (400 °F). Thickly grease a 20 x 20 cm baking pan.",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Beat the egg whites until stiff and set aside.",
+     "relatedIngredientIds": [
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Heat the milk in a medium saucepan over medium heat until barely bubbling at the edges.",
+     "relatedIngredientIds": [
+      "milk"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Reduce the heat and slowly whisk in the cornmeal. Keep whisking over low heat for 5 minutes.",
+     "relatedIngredientIds": [
+      "cornmeal"
+     ],
+     "animation": "fry",
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Whisk"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Take off the heat and stir in the black pepper, red pepper flakes, salt and scallions.",
+     "relatedIngredientIds": [
+      "red-pepper-flakes",
+      "scallions",
+      "salt"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Stir in the egg yolks and cheese, then fold in the whipped egg whites.",
+     "relatedIngredientIds": [
+      "eggs",
+      "cheese"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Pour into the pan and bake for about 30 minutes, until a toothpick in the centre comes out clean.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Spoonbread",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "sweet-cornbread",
+   "title": "Sweet Cornbread",
+   "description": "Tender cornbread sweetened with maple syrup and brown sugar, also known as Johnny Cake.",
+   "prepTime": 15,
+   "cookTime": 20,
+   "servings": 8,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "cornmeal",
+     "name": "cornmeal",
+     "amount": 140.0,
+     "unit": "g"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 275.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "maple-syrup",
+     "name": "maple syrup",
+     "amount": 160.0,
+     "unit": "g"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 90.0,
+     "unit": "g"
+    },
+    {
+     "id": "butter",
+     "name": "butter, softened",
+     "amount": 125.0,
+     "unit": "g"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Beat the eggs lightly in a large bowl, then mix in the softened butter until loose.",
+     "relatedIngredientIds": [
+      "butter",
+      "eggs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the brown sugar and maple syrup and mix well, then stir in the salt.",
+     "relatedIngredientIds": [
+      "maple-syrup",
+      "brown-sugar",
+      "salt"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the cornmeal and baking powder, then blend them into the wet mixture.",
+     "relatedIngredientIds": [
+      "cornmeal",
+      "baking-powder"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Slowly add the all-purpose flour until you have a soft cake batter that sticks to the spoon and comes off in blobs. You may not need all of it.",
+     "relatedIngredientIds": [
+      "all-purpose-flour"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour into a greased pan and bake at 200 °C (400 °F) for 15-25 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Sweet_Cornbread",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "corn-muffins",
+   "title": "Corn Muffins",
+   "description": "Moist, lightly sweet muffins of cornmeal and yogurt with a slightly crunchy golden crust.",
+   "prepTime": 15,
+   "cookTime": 17,
+   "servings": 12,
+   "dietaryTags": [
+    "vegetarian"
+   ],
+   "categories": [
+    "american",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "cornmeal",
+     "name": "cornmeal",
+     "amount": 128.0,
+     "unit": "g"
+    },
+    {
+     "id": "all-purpose-flour",
+     "name": "all-purpose flour",
+     "amount": 150.0,
+     "unit": "g"
+    },
+    {
+     "id": "sugar",
+     "name": "sugar",
+     "amount": 66.0,
+     "unit": "g"
+    },
+    {
+     "id": "baking-powder",
+     "name": "baking powder",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "bicarbonate-of-soda",
+     "name": "bicarbonate of soda",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "eggs",
+     "name": "eggs",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "yogurt",
+     "name": "yogurt (or sour cream)",
+     "amount": 1.333,
+     "unit": "cup"
+    },
+    {
+     "id": "butter",
+     "name": "butter, melted and cooled",
+     "amount": 4.0,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Mix the cornmeal, all-purpose flour, sugar, baking powder, bicarbonate of soda and salt in a large bowl.",
+     "relatedIngredientIds": [
+      "cornmeal",
+      "all-purpose-flour",
+      "sugar",
+      "baking-powder",
+      "bicarbonate-of-soda",
+      "salt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Whisk the eggs and yogurt together, then stir them quickly into the dry ingredients, leaving some lumps.",
+     "relatedIngredientIds": [
+      "eggs",
+      "yogurt"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Fold in the melted butter.",
+     "relatedIngredientIds": [
+      "butter"
+     ],
+     "animation": "stir"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Pour into ramekins or a muffin tin and bake at 200 °C (400 °F) for 15-18 minutes, until the tops are golden.",
+     "relatedIngredientIds": [],
+     "animation": "pour",
+     "suggestedTimerSeconds": 1000,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Corn_Muffins",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "seafood-gumbo",
+   "title": "Seafood Gumbo",
+   "description": "Louisiana stew built on a dark roux, with Andouille sausage, shrimp and oysters in a spicy seafood stock.",
+   "prepTime": 30,
+   "cookTime": 120,
+   "servings": 10,
+   "dietaryTags": [],
+   "categories": [
+    "american"
+   ],
+   "ingredients": [
+    {
+     "id": "vegetable-oil",
+     "name": "vegetable oil",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "plain-flour",
+     "name": "plain flour",
+     "amount": 0.75,
+     "unit": "cup"
+    },
+    {
+     "id": "okra",
+     "name": "okra, sliced",
+     "amount": 10.0,
+     "unit": "oz"
+    },
+    {
+     "id": "onion",
+     "name": "onion, chopped",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "celery",
+     "name": "celery, chopped",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "bell-pepper",
+     "name": "bell pepper, chopped",
+     "amount": 1.5,
+     "unit": "cup"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 6.0,
+     "unit": "clove"
+    },
+    {
+     "id": "shrimp-stock",
+     "name": "shrimp stock (or water)",
+     "amount": 6.0,
+     "unit": "cup"
+    },
+    {
+     "id": "clam-juice",
+     "name": "clam juice",
+     "amount": 8.0,
+     "unit": "oz"
+    },
+    {
+     "id": "dried-oregano",
+     "name": "dried oregano",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "dried-thyme",
+     "name": "dried thyme",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "bay-leaves",
+     "name": "bay leaves",
+     "amount": 2.0,
+     "unit": ""
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 1.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "cayenne-pepper",
+     "name": "cayenne pepper",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": null,
+     "unit": "to taste"
+    },
+    {
+     "id": "fresh-parsley",
+     "name": "fresh parsley, chopped",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "andouille-sausage",
+     "name": "Andouille sausage, cut in pieces",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "shrimp",
+     "name": "shrimp",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "oysters",
+     "name": "oysters",
+     "amount": 1.0,
+     "unit": "cup"
+    },
+    {
+     "id": "green-onions",
+     "name": "green onions, chopped",
+     "amount": 4.0,
+     "unit": ""
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Heat the vegetable oil in a large pot, then gradually whisk in the plain flour.",
+     "relatedIngredientIds": [
+      "vegetable-oil",
+      "plain-flour"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Cook the roux over medium heat for 20 minutes, stirring constantly, until very dark reddish brown. Do not let it burn.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Stir in the onion, celery, bell pepper, garlic and okra. Cook for 10-15 minutes.",
+     "relatedIngredientIds": [
+      "okra",
+      "onion",
+      "celery",
+      "bell-pepper",
+      "garlic"
+     ],
+     "animation": "stir",
+     "suggestedTimerSeconds": 750,
+     "timerLabel": "Cook"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Slowly whisk in the shrimp stock.",
+     "relatedIngredientIds": [
+      "shrimp-stock"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Add the clam juice, oregano, thyme, bay leaves, salt, cayenne pepper, black pepper and parsley. Simmer for 15 minutes.",
+     "relatedIngredientIds": [
+      "clam-juice",
+      "dried-oregano",
+      "dried-thyme",
+      "bay-leaves",
+      "salt",
+      "cayenne-pepper",
+      "fresh-parsley"
+     ],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the Andouille sausage and simmer for another 30-40 minutes.",
+     "relatedIngredientIds": [
+      "andouille-sausage"
+     ],
+     "suggestedTimerSeconds": 2100,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Add the shrimp and oysters and simmer just until cooked through.",
+     "relatedIngredientIds": [
+      "shrimp-stock",
+      "oysters"
+     ]
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Top with the green onions and serve, ideally over rice.",
+     "relatedIngredientIds": [
+      "green-onions"
+     ]
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Seafood_Gumbo",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "dutch-oven-beans",
+   "title": "Dutch Oven Beans",
+   "description": "Smoky, sweet pot of baked-style beans cooked with bacon, ground beef, molasses and ketchup.",
+   "prepTime": 15,
+   "cookTime": 45,
+   "servings": 12,
+   "dietaryTags": [],
+   "categories": [
+    "american"
+   ],
+   "ingredients": [
+    {
+     "id": "bacon",
+     "name": "bacon",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "lean-ground-beef",
+     "name": "lean ground beef",
+     "amount": 1.0,
+     "unit": "lb"
+    },
+    {
+     "id": "large-onion",
+     "name": "large onion",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "pork-and-beans",
+     "name": "pork and beans (53 oz)",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "lima-beans",
+     "name": "lima beans (15 oz)",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "pinto-beans",
+     "name": "pinto beans (15 oz)",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "red-beans",
+     "name": "red beans (15 oz)",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "butter-beans",
+     "name": "butter beans (15 oz)",
+     "amount": 1.0,
+     "unit": "can"
+    },
+    {
+     "id": "ketchup",
+     "name": "ketchup",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "brown-sugar",
+     "name": "brown sugar",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "dry-mustard",
+     "name": "dry mustard",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "molasses",
+     "name": "molasses",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "worcestershire-sauce",
+     "name": "Worcestershire sauce",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "liquid-smoke",
+     "name": "liquid smoke",
+     "amount": 1.0,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Cut the bacon into bite-sized pieces and start cooking it in a heated Dutch oven (heavy pot).",
+     "relatedIngredientIds": [
+      "bacon"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Chop the onion into 1 cm pieces.",
+     "relatedIngredientIds": [
+      "large-onion"
+     ],
+     "animation": "chop"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "When the bacon is nearly cooked, crumble in the ground beef and onion. Cook until the onion is translucent.",
+     "relatedIngredientIds": [
+      "bacon",
+      "lean-ground-beef",
+      "large-onion"
+     ]
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Add all the beans, ketchup, brown sugar, dry mustard, molasses and Worcestershire sauce, and stir.",
+     "relatedIngredientIds": [
+      "pork-and-beans",
+      "ketchup",
+      "brown-sugar",
+      "dry-mustard",
+      "molasses",
+      "worcestershire-sauce"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Bring to a simmer and let it bubble lightly for 10-15 minutes.",
+     "relatedIngredientIds": [],
+     "animation": "boil",
+     "suggestedTimerSeconds": 750,
+     "timerLabel": "Simmer"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Stir in the liquid smoke, taste, and adjust with more ketchup, brown sugar, mustard or molasses.",
+     "relatedIngredientIds": [
+      "ketchup",
+      "brown-sugar",
+      "dry-mustard",
+      "molasses",
+      "liquid-smoke"
+     ],
+     "animation": "stir"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Dutch_Oven_Beans",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "spaghetti-bake",
+   "title": "Spaghetti Bake",
+   "description": "Layers of spaghetti, creamy cheese mixture and meat sauce, baked with a Parmesan crumb top.",
+   "prepTime": 20,
+   "cookTime": 50,
+   "servings": 8,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "italian",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "ground-turkey-or-beef",
+     "name": "ground turkey or beef",
+     "amount": 450.0,
+     "unit": "g"
+    },
+    {
+     "id": "onion",
+     "name": "onion, chopped",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "spaghetti-sauce",
+     "name": "spaghetti sauce (1 jar)",
+     "amount": 730.0,
+     "unit": "g"
+    },
+    {
+     "id": "italian-seasoning",
+     "name": "Italian seasoning",
+     "amount": 2.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "cream-cheese",
+     "name": "cream cheese",
+     "amount": 225.0,
+     "unit": "g"
+    },
+    {
+     "id": "cottage-cheese",
+     "name": "cottage cheese",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "light-sour-cream",
+     "name": "light sour cream",
+     "amount": 0.5,
+     "unit": "cup"
+    },
+    {
+     "id": "spaghetti",
+     "name": "spaghetti",
+     "amount": 500.0,
+     "unit": "g"
+    },
+    {
+     "id": "breadcrumbs",
+     "name": "breadcrumbs",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "parmesan-cheese",
+     "name": "Parmesan cheese",
+     "amount": 0.5,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 180 °C (350 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Saute the ground meat with the onion. When cooked through, mix in the spaghetti sauce and Italian seasoning.",
+     "relatedIngredientIds": [
+      "onion",
+      "spaghetti-sauce",
+      "italian-seasoning"
+     ],
+     "animation": "fry"
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Combine the cream cheese, cottage cheese and sour cream and mix well.",
+     "relatedIngredientIds": [
+      "cream-cheese",
+      "cottage-cheese",
+      "light-sour-cream"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Cook the spaghetti following the packet directions.",
+     "relatedIngredientIds": [
+      "spaghetti-sauce"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Grease a 3-litre baking dish. Layer half the spaghetti in the bottom and spoon the cheese mixture on top.",
+     "relatedIngredientIds": [
+      "spaghetti-sauce",
+      "cream-cheese"
+     ]
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Add the rest of the spaghetti, then spread the meat mixture over it.",
+     "relatedIngredientIds": [
+      "spaghetti-sauce"
+     ],
+     "animation": "rest"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Mix the breadcrumbs and Parmesan cheese and sprinkle on top.",
+     "relatedIngredientIds": [
+      "breadcrumbs",
+      "parmesan-cheese"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s8",
+     "order": 8,
+     "instructionText": "Bake for 30 minutes, until bubbly and heated through.",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 1800,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Spaghetti_Bake",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "cornbread-chicken-casserole",
+   "title": "Cornbread and Chicken Casserole",
+   "description": "Layered bake of shredded chicken and crumbled cornbread with Monterey Jack and a buttery crumb top.",
+   "prepTime": 20,
+   "cookTime": 40,
+   "servings": 6,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "cooked-chicken",
+     "name": "cooked chicken, shredded",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "cornbread",
+     "name": "cornbread, finely crumbled",
+     "amount": 3.0,
+     "unit": "cup"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "black-pepper",
+     "name": "black pepper",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "garlic",
+     "name": "garlic, minced",
+     "amount": 1.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "large-onion",
+     "name": "large onion, finely diced",
+     "amount": 0.5,
+     "unit": ""
+    },
+    {
+     "id": "monterey-jack-cheese",
+     "name": "Monterey Jack cheese, shredded",
+     "amount": 2.0,
+     "unit": "cup"
+    },
+    {
+     "id": "unsalted-butter",
+     "name": "unsalted butter",
+     "amount": 2.0,
+     "unit": "tbsp"
+    },
+    {
+     "id": "olive-oil",
+     "name": "olive oil",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "dried-breadcrumbs",
+     "name": "dried breadcrumbs",
+     "amount": 0.667,
+     "unit": "cup"
+    },
+    {
+     "id": "unsalted-butter-2",
+     "name": "unsalted butter, melted (for the topping)",
+     "amount": 0.25,
+     "unit": "cup"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Melt the 2 tbsp unsalted butter with the olive oil in a large sauté pan over medium-high heat. Add the onion and cook until translucent.",
+     "relatedIngredientIds": [
+      "large-onion",
+      "unsalted-butter",
+      "olive-oil"
+     ]
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Add the garlic and saute until golden. Remove from the pan and let cool.",
+     "relatedIngredientIds": [
+      "garlic"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Combine the chicken with the onion mixture, salt, black pepper and 1 cup of the Monterey Jack cheese.",
+     "relatedIngredientIds": [
+      "cooked-chicken",
+      "salt",
+      "black-pepper",
+      "large-onion",
+      "monterey-jack-cheese"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Line a deep roasting pan with parchment. Put in just enough cornbread to coat the bottom, add a layer of the chicken mixture, and repeat until all is used.",
+     "relatedIngredientIds": [
+      "cooked-chicken",
+      "cornbread"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Mix the remaining cheese, dried breadcrumbs and melted butter and sprinkle over the top layer.",
+     "relatedIngredientIds": [
+      "monterey-jack-cheese",
+      "unsalted-butter",
+      "dried-breadcrumbs"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Cover with foil and bake in the centre of a 190 °C (375 °F) oven for 20 minutes.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 1200,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Remove the foil and bake for 15 more minutes, until browned and bubbly on top. Serve warm.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 900,
+     "timerLabel": "Bake"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Cornbread_and_Chicken_Casserole",
+   "credit": "Wikibooks Cookbook contributors"
+  },
+  {
+   "id": "potato-meat-loaf",
+   "title": "Potato Meat Loaf",
+   "description": "Midwestern bake of sliced potato and onion under a spiced beef and sausage loaf with cheese soup.",
+   "prepTime": 30,
+   "cookTime": 60,
+   "servings": 4,
+   "dietaryTags": [],
+   "categories": [
+    "american",
+    "baking"
+   ],
+   "ingredients": [
+    {
+     "id": "potatoes",
+     "name": "potatoes, sliced",
+     "amount": 4.0,
+     "unit": ""
+    },
+    {
+     "id": "onion",
+     "name": "onion, sliced",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "ground-beef",
+     "name": "ground beef",
+     "amount": 0.5,
+     "unit": "lb"
+    },
+    {
+     "id": "bulk-sausage",
+     "name": "bulk sausage",
+     "amount": 0.5,
+     "unit": "lb"
+    },
+    {
+     "id": "egg",
+     "name": "egg, beaten",
+     "amount": 1.0,
+     "unit": ""
+    },
+    {
+     "id": "soda-crackers",
+     "name": "soda crackers, crumbled",
+     "amount": 6.0,
+     "unit": ""
+    },
+    {
+     "id": "chili-powder",
+     "name": "chili powder",
+     "amount": 1.0,
+     "unit": "tsp"
+    },
+    {
+     "id": "salt",
+     "name": "salt",
+     "amount": 0.5,
+     "unit": "tsp"
+    },
+    {
+     "id": "pepper",
+     "name": "pepper",
+     "amount": 0.25,
+     "unit": "tsp"
+    },
+    {
+     "id": "cheddar-cheese-soup",
+     "name": "cheddar cheese soup",
+     "amount": 1.0,
+     "unit": "can"
+    }
+   ],
+   "steps": [
+    {
+     "id": "s1",
+     "order": 1,
+     "instructionText": "Preheat the oven to 180 °C (350 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake"
+    },
+    {
+     "id": "s2",
+     "order": 2,
+     "instructionText": "Put the sliced potatoes in a baking dish and lay the sliced onion over them.",
+     "relatedIngredientIds": [
+      "potatoes",
+      "onion"
+     ]
+    },
+    {
+     "id": "s3",
+     "order": 3,
+     "instructionText": "Mix the ground beef, sausage, egg, soda crackers, chili powder, salt and pepper well.",
+     "relatedIngredientIds": [
+      "ground-beef",
+      "bulk-sausage",
+      "egg",
+      "soda-crackers",
+      "chili-powder",
+      "salt",
+      "pepper"
+     ],
+     "animation": "mix"
+    },
+    {
+     "id": "s4",
+     "order": 4,
+     "instructionText": "Press the meat mixture over the onion, leaving a dip in the middle.",
+     "relatedIngredientIds": [
+      "onion"
+     ]
+    },
+    {
+     "id": "s5",
+     "order": 5,
+     "instructionText": "Pour the cheddar cheese soup into the dip.",
+     "relatedIngredientIds": [
+      "cheddar-cheese-soup"
+     ],
+     "animation": "pour"
+    },
+    {
+     "id": "s6",
+     "order": 6,
+     "instructionText": "Bake for 1 hour at 180 °C (350 °F).",
+     "relatedIngredientIds": [],
+     "animation": "bake",
+     "suggestedTimerSeconds": 3600,
+     "timerLabel": "Bake"
+    },
+    {
+     "id": "s7",
+     "order": 7,
+     "instructionText": "Let it stand for 5 minutes before serving.",
+     "relatedIngredientIds": [],
+     "suggestedTimerSeconds": 300,
+     "timerLabel": "Rest"
+    }
+   ],
+   "source": "wikibooks",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://en.wikibooks.org/wiki/Cookbook:Potato_Meat_Loaf",
+   "credit": "Wikibooks Cookbook contributors"
+  }
+ ]
+}

@@ -31,6 +31,7 @@ CATEGORIES = {
     "indian", "breakfast", "snack", "sweet", "quick", "healthy", "italian", "mexican", "chinese", "thai",
     "japanese", "korean", "middle-eastern", "mediterranean", "american", "french", "spanish", "greek", "soup",
     "salad", "rice", "noodles", "baking", "drink", "south-indian", "north-indian", "street-food",
+    "british", "australian",
 }
 UNITS = {"", "g", "kg", "ml", "l", "tsp", "tbsp", "cup", "clove", "can", "handful", "pinch", "sprig", "slice",
          "to taste", "oz", "lb"}
