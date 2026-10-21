@@ -127,7 +127,6 @@ data class UiState(
     val timers: List<KitchenTimer> = emptyList(),
     val overlay: Overlay? = null,
     val toasts: List<Toast> = emptyList(),
-    val darkTheme: Boolean = true,
     val heard: HeardCommand? = null,
     val skippedRecipes: Int = 0,
     /** Recipes on the TV that came from the online library (cached or just synced), not bundled. */
@@ -234,12 +233,6 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
         when (val result = repository.load()) {
             is CatalogResult.Failed -> _state.update { it.copy(screen = Screen.Failed(result.message)) }
             is CatalogResult.Loaded -> {
-                val themePref = store.loadTheme() ?: result.config.theme
-                val dark = when (themePref) {
-                    "light" -> false
-                    "system" -> isSystemDark()
-                    else -> true
-                }
                 val readAloud = store.loadReadAloud()
                 bundled = result.recipes
                 remote = result.config.recipesApiUrl.takeIf { it.isNotBlank() }?.let { RemoteCatalog(getApplication(), it) }
@@ -247,7 +240,7 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
                 val cached = remote?.cached()?.recipes.orEmpty()
                 _state.update {
                     it.copy(
-                        recipes = RemoteCatalog.combine(bundled, cached), onlineRecipes = cached.size, config = result.config, darkTheme = dark,
+                        recipes = RemoteCatalog.combine(bundled, cached), onlineRecipes = cached.size, config = result.config,
                         readAloud = readAloud, skippedRecipes = result.skipped, screen = Screen.Home,
                     )
                 }
@@ -301,12 +294,6 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
             val added = all.size - before
             if (added > 0) toast(syncToast(added, firstDownload))
         }
-    }
-
-    private fun isSystemDark(): Boolean {
-        val mode = getApplication<Application>().resources.configuration.uiMode and
-            android.content.res.Configuration.UI_MODE_NIGHT_MASK
-        return mode != android.content.res.Configuration.UI_MODE_NIGHT_NO
     }
 
     private suspend fun restoreSession() {
@@ -959,14 +946,6 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
     override fun onCleared() {
         companion.stop()
         speaker.shutdown()
-    }
-
-    // ---- Theme ------------------------------------------------------------------------------------------------
-
-    fun toggleTheme() {
-        val dark = !_state.value.darkTheme
-        _state.update { it.copy(darkTheme = dark) }
-        viewModelScope.launch { store.saveTheme(if (dark) "dark" else "light") }
     }
 
     // ---- Toasts -----------------------------------------------------------------------------------------------

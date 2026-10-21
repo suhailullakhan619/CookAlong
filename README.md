@@ -487,7 +487,7 @@ tools/               recipe_db.py (validate/upload recipes), photo tools, import
 - Back shows the full-screen confirm with Stay pre-focused; Leave resets.
 - Finish returns Home with focus restored.
 - App state (recipe, step, 2 running timers) survived a process kill and relaunch with timers still counting.
-- Light/dark theme switch persists.
+- One warm "Ember" theme (DM Serif Display headings, Poppins text), built for a dim kitchen and a 10-foot screen.
 - A missing image shows generated fallback art.
 - The release APK makes no outbound network requests; INTERNET is used only for the LAN shopping-list page.
 

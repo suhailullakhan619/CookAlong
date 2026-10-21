@@ -24,12 +24,6 @@ class SessionStore(private val context: Context) {
         }
     }
 
-    suspend fun loadTheme(): String? = context.dataStore.data.first()[THEME]
-
-    suspend fun saveTheme(theme: String) {
-        context.dataStore.edit { it[THEME] = theme }
-    }
-
     /** Read-aloud in cooking mode; on unless the user turned it off. */
     suspend fun loadReadAloud(): Boolean = context.dataStore.data.first()[READ_ALOUD] ?: true
 
@@ -56,6 +50,5 @@ class SessionStore(private val context: Context) {
         val ALEXA_LINKED = booleanPreferencesKey("alexa_linked")
         val READ_ALOUD = booleanPreferencesKey("read_aloud")
         val SESSION = stringPreferencesKey("session")
-        val THEME = stringPreferencesKey("theme")
     }
 }

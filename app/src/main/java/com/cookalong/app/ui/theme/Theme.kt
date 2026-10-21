@@ -19,12 +19,10 @@ import androidx.compose.ui.unit.sp
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Typography
 import androidx.tv.material3.darkColorScheme
-import androidx.tv.material3.lightColorScheme
 
 /**
  * CookAlong palette. Contrast ratios (text on background) were checked with the WCAG formula:
  *  dark:  text #F5EDE3 on #14110F ≈ 16:1, muted #CDBFAF ≈ 10.4:1, amber #F2B04F ≈ 9.9:1
- *  light: text #1E1712 on #FBF6EF ≈ 16:1, muted #4F4339 ≈ 8.9:1, brown #7A4100 ≈ 7.6:1
  *  Every text/background pair used in the UI is ≥ 7:1 except light-theme alert text (6.1:1).
  */
 @Immutable
@@ -66,25 +64,6 @@ val DarkCook = CookColors(
     isDark = true,
 )
 
-val LightCook = CookColors(
-    background = Color(0xFFFBF6EF),
-    surface = Color(0xFFFFFFFF),
-    surfaceRaised = Color(0xFFF1E8DC),
-    text = Color(0xFF1E1712),
-    textMuted = Color(0xFF4F4339),
-    accent = Color(0xFF7A4100),
-    onAccent = Color(0xFFFFFFFF),
-    focusRing = Color(0xFF1E1712),
-    chip = Color(0xFFEDE2D3),
-    onChip = Color(0xFF1E1712),
-    alert = Color(0xFFB3360B),
-    onAlert = Color(0xFFFFFFFF),
-    scrim = Color(0xF2FBF6EF),
-    shimmerBase = Color(0xFFEDE4D8),
-    shimmerHighlight = Color(0xFFF8F2EA),
-    isDark = false,
-)
-
 val LocalCookColors = staticCompositionLocalOf { DarkCook }
 
 /**
@@ -117,21 +96,14 @@ object Safe {
 }
 
 @Composable
-fun CookAlongTheme(dark: Boolean, content: @Composable () -> Unit) {
-    val c = if (dark) DarkCook else LightCook
-    val scheme = if (dark) {
-        darkColorScheme(
-            primary = c.accent, onPrimary = c.onAccent, background = c.background, onBackground = c.text,
-            surface = c.surface, onSurface = c.text, surfaceVariant = c.surfaceRaised, onSurfaceVariant = c.textMuted,
-            border = c.focusRing,
-        )
-    } else {
-        lightColorScheme(
-            primary = c.accent, onPrimary = c.onAccent, background = c.background, onBackground = c.text,
-            surface = c.surface, onSurface = c.text, surfaceVariant = c.surfaceRaised, onSurfaceVariant = c.textMuted,
-            border = c.focusRing,
-        )
-    }
+fun CookAlongTheme(content: @Composable () -> Unit) {
+    // One look for everyone: the warm "Ember" palette, chosen for kitchens and evening viewing.
+    val c = DarkCook
+    val scheme = darkColorScheme(
+        primary = c.accent, onPrimary = c.onAccent, background = c.background, onBackground = c.text,
+        surface = c.surface, onSurface = c.text, surfaceVariant = c.surfaceRaised, onSurfaceVariant = c.textMuted,
+        border = c.focusRing,
+    )
     val typography = Typography(
         displaySmall = CookType.display,
         headlineMedium = CookType.headline,

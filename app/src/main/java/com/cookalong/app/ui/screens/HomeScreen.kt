@@ -80,7 +80,6 @@ fun HomeScreen(
     rowStates: MutableMap<Int, LazyListState>,
     restoreFocus: HomeFocus?,
     onOpen: (Recipe, HomeFocus) -> Unit,
-    onToggleTheme: () -> Unit,
     onFridgeScan: (() -> Unit)? = null,
     onAlexa: (() -> Unit)? = null,
 ) {
@@ -104,8 +103,6 @@ fun HomeScreen(
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Text("CookAlong", style = CookType.display, color = c.accent, maxLines = 1, modifier = Modifier.semantics { heading() })
-            Spacer(Modifier.width(20.dp))
-            if (!online) OfflineNotice(offlineNotice(state.onlineRecipes))
             Spacer(Modifier.weight(1f))
             if (onFridgeScan != null) {
                 PillButton(
@@ -121,12 +118,7 @@ fun HomeScreen(
                     contentDescription = if (state.alexaLinked) "Alexa is connected. Open Alexa settings"
                     else "Connect Alexa: control CookAlong with your voice from any Echo",
                 )
-                Spacer(Modifier.width(12.dp))
             }
-            PillButton(
-                text = if (c.isDark) "Light" else "Dark", icon = CookIcons.Contrast, compact = true, onClick = onToggleTheme,
-                contentDescription = if (c.isDark) "Switch to light theme" else "Switch to dark theme",
-            )
         }
     }
 
@@ -143,7 +135,7 @@ fun HomeScreen(
         spotlight?.let { Billboard(it) }
         Column(Modifier.fillMaxSize()) {
             nav()
-            spotlight?.let { SpotlightInfo(it, isFeatured = it.id == featured?.id) }
+            spotlight?.let { SpotlightInfo(it, isFeatured = it.id == featured?.id, offline = if (online) null else offlineNotice(state.onlineRecipes)) }
             CompositionLocalProvider(LocalBringIntoViewSpec provides rememberPivotSpec()) {
                 // A short fade at the top so rows scrolling up slip under the billboard text instead of being cut off.
                 LazyColumn(
@@ -152,15 +144,18 @@ fun HomeScreen(
                         .graphicsLayer { compositingStrategy = CompositingStrategy.Offscreen }
                         .drawWithContent {
                             drawContent()
-                            drawRect(Brush.verticalGradient(0f to Color.Black, 0.75f to Color.Black, 1f to Color.Transparent, endY = 52.dp.toPx()), blendMode = BlendMode.DstOut)
+                            drawRect(
+                                Brush.verticalGradient(0f to Color.Black, 0.8f to Color.Black, 1f to Color.Transparent, endY = ROW_FADE.toPx()),
+                                blendMode = BlendMode.DstOut,
+                            )
                         },
-                    contentPadding = PaddingValues(bottom = Safe.vertical),
+                    contentPadding = PaddingValues(top = ROW_FADE, bottom = Safe.vertical),
                 ) {
                     rows.forEachIndexed { rowIndex, (title, recipes) ->
                         item(key = "row-$rowIndex") {
                             Column {
                                 Row(
-                                    Modifier.padding(start = Safe.horizontal, top = 6.dp).semantics { heading() },
+                                    Modifier.padding(start = Safe.horizontal).height(ROW_TITLE).semantics { heading() },
                                     verticalAlignment = Alignment.CenterVertically,
                                 ) {
                                     Box(Modifier.width(4.dp).height(20.dp).clip(RoundedCornerShape(50)).background(c.accent))
@@ -171,7 +166,7 @@ fun HomeScreen(
                                 CompositionLocalProvider(LocalBringIntoViewSpec provides rowScrolling) {
                                     LazyRow(
                                         state = rowStates.getOrPut(rowIndex) { LazyListState() },
-                                        contentPadding = PaddingValues(horizontal = Safe.horizontal, vertical = 14.dp),
+                                        contentPadding = PaddingValues(horizontal = Safe.horizontal, vertical = CARD_GAP),
                                         horizontalArrangement = Arrangement.spacedBy(18.dp),
                                     ) {
                                         itemsIndexed(recipes, key = { _, r -> r.id }) { _, recipe ->
@@ -223,23 +218,25 @@ internal fun rememberRowSpec(): BringIntoViewSpec {
 }
 
 /**
- * TV "pivot" scrolling for the shelf list: if the focused card is fully inside the overscan-safe area, don't move;
- * otherwise scroll so the card lands just below its row title. Keeps focus in a predictable place on screen.
+ * TV "pivot" scrolling for the shelf list: the focused row always snaps to the same place, its title just below the top
+ * fade, like a streaming app. Never stopping part-way means no sliver of the row above is left showing.
  */
 @Composable
 private fun rememberPivotSpec(): BringIntoViewSpec {
     val density = LocalDensity.current
     return remember(density) {
-        val pivot = with(density) { 46.dp.toPx() }
-        val safeBottom = with(density) { Safe.vertical.toPx() }
+        // Card top = fade + title + the row's top padding, so the title is never under the fade.
+        val pivot = with(density) { (ROW_FADE + ROW_TITLE + CARD_GAP).toPx() }
         object : BringIntoViewSpec {
-            override fun calculateScrollDistance(offset: Float, size: Float, containerSize: Float): Float {
-                val fits = offset >= 0f && offset + size <= containerSize - safeBottom
-                return if (fits) 0f else offset - pivot
-            }
+            override fun calculateScrollDistance(offset: Float, size: Float, containerSize: Float): Float = offset - pivot
         }
     }
 }
+
+/** Height of the fade at the top of the shelf list, a shelf title, and the space above and below a row of cards. */
+private val ROW_FADE = 28.dp
+private val ROW_TITLE = 36.dp
+private val CARD_GAP = 14.dp
 
 /** "Tonight's pick": changes daily, always a recipe that has a photo. */
 internal fun featuredRecipe(state: UiState): Recipe? {
@@ -280,13 +277,15 @@ private fun Billboard(recipe: Recipe) {
 
 /** Title, facts and blurb of the recipe in the billboard. Not focusable: the cards below drive it. */
 @Composable
-private fun SpotlightInfo(recipe: Recipe, isFeatured: Boolean) {
+private fun SpotlightInfo(recipe: Recipe, isFeatured: Boolean, offline: String?) {
     val c = LocalCookColors.current
     Column(
         Modifier.padding(start = Safe.horizontal, top = 18.dp).width(640.dp).height(186.dp)
             .semantics { liveRegion = LiveRegionMode.Polite },
     ) {
-        Text(
+        // Offline takes the label's slot, so the notice never moves the layout or crowds the top buttons.
+        if (offline != null) OfflineNotice(offline)
+        else Text(
             if (isFeatured) "TONIGHT'S PICK" else recipe.categories.firstOrNull()?.uppercase() ?: "RECIPE",
             style = CookType.label.copy(letterSpacing = 2.sp), color = c.accent, maxLines = 1,
         )
@@ -418,7 +417,7 @@ private fun OfflineNotice(text: String) {
     ) {
         Box(Modifier.size(10.dp).clip(CircleShape).background(c.alert))
         Spacer(Modifier.width(10.dp))
-        Text(text, style = CookType.body, color = c.text, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(text, style = CookType.label, color = c.text, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
 }
 

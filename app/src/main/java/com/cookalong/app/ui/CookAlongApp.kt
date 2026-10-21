@@ -74,7 +74,7 @@ fun CookAlongApp(vm: CookAlongViewModel, onExit: () -> Unit) {
     var scanFocus by remember { mutableStateOf<String?>(null) }
     var planFocus by remember { mutableStateOf<String?>(null) }
 
-    CookAlongTheme(dark = state.darkTheme) {
+    CookAlongTheme {
       CompositionLocalProvider(LocalOnline provides online) {
         val c = LocalCookColors.current
         BackHandler { if (!vm.onBack()) onExit() }
@@ -96,7 +96,6 @@ fun CookAlongApp(vm: CookAlongViewModel, onExit: () -> Unit) {
                         rowStates = homeRowStates,
                         restoreFocus = homeFocus,
                         onOpen = { recipe, focus -> homeFocus = focus; vm.openRecipe(recipe) },
-                        onToggleTheme = vm::toggleTheme,
                         onFridgeScan = if (state.config.scanApiUrl.isNotBlank()) ({ vm.startFridgeScan() }) else null,
                         onAlexa = if (state.config.alexaApiUrl.isNotBlank()) ({ vm.openAlexa() }) else null,
                     )
