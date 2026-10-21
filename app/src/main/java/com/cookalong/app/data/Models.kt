@@ -83,6 +83,8 @@ data class AppConfig(
     val scanPageUrl: String = "",
     /** Alexa bridge (POST /tv/pair, GET /tv/commands… on the backend). Blank hides "Connect Alexa". */
     val alexaApiUrl: String = "",
+    /** Natural read-aloud voice (Amazon Polly via POST /tts on the backend). Blank = the TV's own voice only. */
+    val voiceApiUrl: String = "",
     val defaultCustomTimerMinutes: Int = 5,
     val maxConcurrentTimers: Int = 4,
     val minServings: Int = 1,

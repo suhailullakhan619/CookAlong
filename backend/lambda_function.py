@@ -6,6 +6,9 @@ Flow
             -> Amazon Nova on Bedrock lists the visible ingredients -> stored under the code
   3. TV:    GET  /scan?code=K7Q2XM         -> {"status": "waiting" | "done" | "error", "ingredients": [...]}
 
+Read-aloud voice
+  TV:       POST /tts {device, text}       -> audio/mpeg   (Amazon Polly reads a cooking step in a natural voice)
+
 Privacy: the photo is only held in memory for the Bedrock call; just the ingredient list is stored, and every
 record expires after an hour (DynamoDB TTL). No accounts, no personal data.
 Cost control: a scan needs a live pairing code, each code allows at most 3 scans, images are capped at 5 MB,
@@ -77,6 +80,8 @@ def handler(event, context):
             return get_recipe(path[len("/recipes/"):])
         if path.startswith("/tv/"):
             return tv_route(method, path, event)
+        if method == "POST" and path == "/tts":
+            return tts(parse_body(event))
         return reply(404, {"error": "Not found"})
     except BadRequest as e:
         return reply(400, {"error": str(e)})
@@ -125,23 +130,28 @@ def get_scan(code):
 SCAN_DAILY_CAP = int(os.environ.get("SCAN_DAILY_CAP", "500"))
 
 
-def within_daily_cap(kind, cap):
-    """Counts today's (UTC) calls of one paid feature across ALL users and says whether we're still under [cap].
+def within_daily_cap(kind, cap, amount=1):
+    """Counts today's (UTC) use of one paid feature across ALL users and says whether we're still under [cap].
 
     A last line of defence for the AWS bill: per-code and per-TV limits stop one user, this stops everyone together.
-    If the counter can't be read we allow the call (a DynamoDB hiccup must not take the feature down).
+    [amount] is what this call adds (1 per call, or characters for the voice). If the counter can't be read we allow
+    the call (a DynamoDB hiccup must not take the feature down).
     """
     day = time.strftime("%Y-%m-%d", time.gmtime())
+    return under_limit(f"cap#{kind}#{day}", cap, amount, 2 * 86400)
+
+
+def under_limit(key, cap, amount, ttl):
     try:
         out = bridge().t.update_item(
-            Key={"pk": f"cap#{kind}#{day}"},
-            UpdateExpression="ADD n :one SET expires = :e",
-            ExpressionAttributeValues={":one": 1, ":e": int(time.time()) + 2 * 86400},
+            Key={"pk": key},
+            UpdateExpression="ADD n :a SET expires = :e",
+            ExpressionAttributeValues={":a": amount, ":e": int(time.time()) + ttl},
             ReturnValues="UPDATED_NEW",
         )
         return int(out["Attributes"]["n"]) <= cap
     except Exception as e:
-        print("Daily cap check failed, allowing", e)
+        print("Limit check failed, allowing", key, e)
         return True
 
 
@@ -385,6 +395,57 @@ def tv_route(method, path, event):
         bridge().unlink(device)
         return reply(200, {"ok": True})
     return reply(404, {"error": "Not found"})
+
+
+# ---- read-aloud voice (Amazon Polly) -------------------------------------------------------------------------------
+# The TV speaks cooking steps with Polly's generative voice and falls back to the TV's own speech engine offline.
+# Generative voices are served from us-east-1. Limits keep the bill small: 600 characters per request,
+# 300 requests per TV per hour, and 200,000 characters per day across all TVs (about 6 US dollars at list price).
+POLLY_REGION = os.environ.get("POLLY_REGION", "us-east-1")
+POLLY_VOICE = os.environ.get("POLLY_VOICE", "Matthew")
+TTS_MAX_CHARS = 600
+TTS_PER_DEVICE_HOUR = int(os.environ.get("TTS_PER_DEVICE_HOUR", "300"))
+TTS_DAILY_CHARS = int(os.environ.get("TTS_DAILY_CHARS", "200000"))
+_polly = None
+
+
+def polly():
+    global _polly
+    if _polly is None:
+        _polly = boto3.client("polly", region_name=POLLY_REGION,
+                              config=Config(connect_timeout=3, read_timeout=10, retries={"max_attempts": 1}))
+    return _polly
+
+
+def tts(body):
+    device = check_device(body.get("device", ""))
+    text = re.sub(r"\s+", " ", str(body.get("text", ""))).strip()
+    if not text:
+        raise BadRequest("Nothing to say")
+    if len(text) > TTS_MAX_CHARS:
+        raise BadRequest(f"Text is longer than {TTS_MAX_CHARS} characters")
+    hour = time.strftime("%Y-%m-%dT%H", time.gmtime())
+    if not under_limit(f"tts#{device}#{hour}", TTS_PER_DEVICE_HOUR, 1, 2 * 3600):
+        return reply(429, {"error": "Too much read-aloud for one hour. Using the TV's own voice."})
+    if not within_daily_cap("tts", TTS_DAILY_CHARS, len(text)):
+        return reply(429, {"error": "Today's read-aloud limit is reached. Using the TV's own voice."})
+    audio = None
+    for engine in ("generative", "neural"):  # neural is the fallback if the generative engine is unavailable
+        try:
+            out = polly().synthesize_speech(Text=text, VoiceId=POLLY_VOICE, Engine=engine, OutputFormat="mp3",
+                                            SampleRate="24000")
+            audio = out["AudioStream"].read()
+            break
+        except (BotoCoreError, ClientError) as e:
+            print("Polly", engine, "failed", e)
+    if audio is None:
+        return reply(503, {"error": "The voice service is busy. Using the TV's own voice."})
+    return {
+        "statusCode": 200,
+        "headers": {"content-type": "audio/mpeg", "cache-control": "private, max-age=604800"},
+        "body": base64.b64encode(audio).decode(),
+        "isBase64Encoded": True,
+    }
 
 
 def check_device(device):

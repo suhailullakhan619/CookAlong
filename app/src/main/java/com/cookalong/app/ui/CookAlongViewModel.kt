@@ -11,6 +11,7 @@ import com.cookalong.app.ai.FridgeScanClient
 import com.cookalong.app.ai.PlanResult
 import com.cookalong.app.ai.PlannerClient
 import com.cookalong.app.audio.Chime
+import com.cookalong.app.audio.CloudVoice
 import com.cookalong.app.audio.Speaker
 import com.cookalong.app.companion.CompanionServer
 import com.cookalong.app.data.AppConfig
@@ -214,6 +215,10 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
         val recipe = _state.value.cookingRecipe ?: return
         val step = recipe.orderedSteps.getOrNull(_state.value.stepIndex) ?: return
         speaker.speak(Speech.forStep(_state.value.stepIndex, step.instructionText))
+        // Fetch the next step's voice now, so it plays the moment the cook moves on.
+        recipe.orderedSteps.getOrNull(_state.value.stepIndex + 1)?.let {
+            speaker.prefetch(Speech.forStep(_state.value.stepIndex + 1, it.instructionText))
+        }
     }
 
     /** Turns read-aloud on/off; turning it on re-reads the current step straight away. */
@@ -247,6 +252,9 @@ class CookAlongViewModel(app: Application) : AndroidViewModel(app) {
                 restoreSession()
                 // ...then anything new is fetched in the background.
                 syncRecipes()
+                result.config.voiceApiUrl.takeIf { it.isNotBlank() }?.let {
+                    speaker.cloud = CloudVoice(getApplication(), it, store.deviceId())
+                }
                 alexa = result.config.alexaApiUrl.takeIf { it.isNotBlank() }?.let(::AlexaClient)
                 if (alexa != null) {
                     deviceId = store.deviceId()

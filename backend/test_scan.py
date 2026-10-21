@@ -1,5 +1,8 @@
 """Tests for the fridge-scan helpers in lambda_function.py. Run: python backend/test_scan.py (no AWS needed)."""
+import base64
+import json
 import os
+import re
 import sys
 import unittest
 from unittest import mock
@@ -64,6 +67,38 @@ class DailyCap(unittest.TestCase):
     def test_fails_open_if_the_counter_breaks(self):
         with mock.patch.object(L, "bridge", return_value=self.fake_bridge(fail=True)):
             self.assertTrue(L.within_daily_cap("scan", 1))
+
+
+class Speech(unittest.TestCase):
+    DEVICE = "a" * 32
+
+    def call(self, body, polly_audio=b"ID3fake", limits=True):
+        fake_polly = mock.MagicMock()
+        fake_polly.synthesize_speech.return_value = {"AudioStream": mock.MagicMock(read=lambda: polly_audio)}
+        # tv_bridge is mocked in these tests, so give it the real device-id pattern.
+        with mock.patch.object(L, "polly", return_value=fake_polly), \
+                mock.patch.object(L, "under_limit", return_value=limits), \
+                mock.patch.object(L.tv_bridge, "DEVICE_RE", re.compile(r"^[A-Za-z0-9-]{20,64}$")):
+            event = {"requestContext": {"http": {"method": "POST"}}, "rawPath": "/tts", "body": json.dumps(body)}
+            return L.handler(event, None), fake_polly
+
+    def test_returns_mp3_audio(self):
+        out, polly = self.call({"device": self.DEVICE, "text": "Step 1 of 7.   Bring a pot of water to the boil."})
+        self.assertEqual(out["statusCode"], 200)
+        self.assertEqual(out["headers"]["content-type"], "audio/mpeg")
+        self.assertTrue(out["isBase64Encoded"])
+        self.assertEqual(base64.b64decode(out["body"]), b"ID3fake")
+        self.assertEqual(polly.synthesize_speech.call_args.kwargs["Text"], "Step 1 of 7. Bring a pot of water to the boil.")
+
+    def test_rejects_empty_long_and_bad_device(self):
+        self.assertEqual(self.call({"device": self.DEVICE, "text": "  "})[0]["statusCode"], 400)
+        self.assertEqual(self.call({"device": self.DEVICE, "text": "x" * 601})[0]["statusCode"], 400)
+        self.assertEqual(self.call({"device": "short", "text": "hi"})[0]["statusCode"], 400)
+
+    def test_over_the_limit_says_so(self):
+        out, polly = self.call({"device": self.DEVICE, "text": "hello"}, limits=False)
+        self.assertEqual(out["statusCode"], 429)
+        polly.synthesize_speech.assert_not_called()
 
 
 if __name__ == "__main__":

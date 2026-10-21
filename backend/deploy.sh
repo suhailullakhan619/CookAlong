@@ -8,7 +8,8 @@
 #   - DynamoDB table  cookalong-scans   (on-demand, TTL on "expires": records vanish after an hour)
 #   - DynamoDB table  cookalong-recipes (on-demand, the online recipe catalog served by GET /recipes)
 #   - DynamoDB table  cookalong-tv      (on-demand, TTL: Alexa <-> TV pairing codes, command queues, TV state)
-#   - IAM role        cookalong-fridge-scan-role   (CloudWatch logs + the tables + bedrock:InvokeModel on Amazon Nova)
+#   - IAM role        cookalong-fridge-scan-role   (CloudWatch logs + the tables + bedrock:InvokeModel on Amazon Nova
+#                                                   + polly:SynthesizeSpeech for the read-aloud voice)
 #   - Lambda          cookalong-fridge-scan        (Python 3.12, reserved concurrency 3 to cap spend)
 #   - Function URL    public, CORS limited to the phone page origin
 # Prints the Function URL at the end: put it in app/src/main/assets/config.json -> "scanApiUrl".
@@ -77,7 +78,8 @@ POLICY=$(cat <<EOF
  {"Effect":"Allow","Action":["dynamodb:GetItem","dynamodb:PutItem","dynamodb:UpdateItem","dynamodb:DeleteItem"],"Resource":"$TV_ARN"},
  {"Effect":"Allow","Action":["bedrock:InvokeModel"],"Resource":[
   "arn:aws:bedrock:$REGION:$ACCOUNT:inference-profile/*amazon.nova-*",
-  "arn:aws:bedrock:*::foundation-model/amazon.nova-*"]}
+  "arn:aws:bedrock:*::foundation-model/amazon.nova-*"]},
+ {"Effect":"Allow","Action":["polly:SynthesizeSpeech"],"Resource":"*"}
 ]}
 EOF
 )

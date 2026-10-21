@@ -16,9 +16,12 @@ import java.io.File
 import java.util.ArrayDeque
 import java.util.Locale
 import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.Executors
 
 /**
- * Reads steps aloud with the device's built-in text-to-speech engine (offline on Fire TV; no permission needed).
+ * Reads steps aloud. When a [cloud] voice is set and the TV is online, each sentence is spoken in Amazon Polly's natural
+ * voice (fetched once, then cached); otherwise, or if that fails, the device's built-in text-to-speech engine speaks
+ * (offline on Fire TV; no permission needed).
  *
  * TTS voices are often quiet next to TV audio, so speech is synthesized to a small file first and played with a
  * [LoudnessEnhancer] (which includes a limiter, so the boost doesn't clip). If that path fails on a device, it falls
@@ -46,15 +49,21 @@ class Speaker(context: Context) : TextToSpeech.OnInitListener {
     // Boosted playback state (main thread only)
     private var generation = 0
     private var seq = 0
-    private val queue = ArrayDeque<File>()
+    /** Audio waiting to play; [Clip.keep] files belong to the cloud-voice cache and are never deleted here. */
+    private data class Clip(val file: File, val keep: Boolean)
+    private val queue = ArrayDeque<Clip>()
     private var player: MediaPlayer? = null
     private var enhancer: LoudnessEnhancer? = null
     private var boostWorks = true
     /** Text of each synthesis still in flight, by utterance id: lets us speak it plainly if synthesis fails. */
     private val inFlight = ConcurrentHashMap<String, String>()
 
+    /** Natural voice (Amazon Polly). Set once the app knows its backend; null = device voice only. */
+    @Volatile var cloud: CloudVoice? = null
+    private val fetcher = Executors.newSingleThreadExecutor()
+
     /** False once we know this device can't speak. */
-    val available: Boolean get() = !failed
+    val available: Boolean get() = !failed || cloud != null
 
     /** A screen reader (VoiceView/TalkBack) already announces steps; speaking too would talk over it. */
     val screenReaderOn: Boolean
@@ -97,7 +106,7 @@ class Speaker(context: Context) : TextToSpeech.OnInitListener {
             override fun onDone(utteranceId: String) {
                 val (gen, file) = parse(utteranceId) ?: return
                 inFlight.remove(utteranceId)
-                main.post { if (gen == generation) { queue.add(file); playNextIfIdle() } else file.delete() }
+                main.post { if (gen == generation) { queue.add(Clip(file, keep = false)); playNextIfIdle() } else file.delete() }
             }
             @Deprecated("Deprecated in Java")
             override fun onError(utteranceId: String) {
@@ -117,6 +126,38 @@ class Speaker(context: Context) : TextToSpeech.OnInitListener {
 
     /** Speaks [text], interrupting anything still being read unless [queue] is true. Call on the main thread. */
     fun speak(text: String, queue: Boolean = false) {
+        val voice = cloud
+        if (voice == null) {
+            speakLocal(text, queue)
+            return
+        }
+        if (!queue) {
+            tts?.stop()
+            stopPlayback()
+        }
+        val gen = generation
+        fetcher.execute {
+            val file = voice.audioFor(text)
+            main.post {
+                if (gen != generation) return@post // interrupted by a newer request while fetching
+                if (file != null) {
+                    this.queue.add(Clip(file, keep = true))
+                    playNextIfIdle()
+                } else {
+                    speakLocal(text, queue = true)
+                }
+            }
+        }
+    }
+
+    /** Gets [text]'s natural-voice audio ready in the background (no-op without a cloud voice). */
+    fun prefetch(text: String) {
+        val voice = cloud ?: return
+        fetcher.execute { voice.audioFor(text) }
+    }
+
+    /** The device's own text-to-speech engine. */
+    private fun speakLocal(text: String, queue: Boolean) {
         val t = tts ?: return
         if (!ready) {
             if (!failed) pending = text
@@ -163,6 +204,7 @@ class Speaker(context: Context) : TextToSpeech.OnInitListener {
 
     fun shutdown() {
         stop()
+        fetcher.shutdownNow()
         tts?.shutdown()
         tts = null
     }
@@ -174,7 +216,7 @@ class Speaker(context: Context) : TextToSpeech.OnInitListener {
 
     private fun stopPlayback() {
         generation++ // anything still being synthesized for the old request is dropped when it finishes
-        queue.forEach { it.delete() }
+        queue.filterNot { it.keep }.forEach { it.file.delete() }
         queue.clear()
         releasePlayer()
     }
@@ -189,7 +231,7 @@ class Speaker(context: Context) : TextToSpeech.OnInitListener {
 
     private fun playNextIfIdle() {
         if (player != null) return
-        val file = queue.poll() ?: return
+        val (file, keep) = queue.poll() ?: return
         try {
             val mp = MediaPlayer()
             mp.setAudioAttributes(
@@ -205,17 +247,18 @@ class Speaker(context: Context) : TextToSpeech.OnInitListener {
             }.getOrNull()
             mp.setOnCompletionListener {
                 releasePlayer()
-                file.delete()
+                if (!keep) file.delete()
                 playNextIfIdle()
             }
             player = mp
             mp.start()
         } catch (e: Exception) {
-            // Couldn't play the boosted file: drop to the engine's normal output from now on.
-            Log.w(TAG, "Boosted playback failed: $e")
+            Log.w(TAG, "Playback failed: $e")
             releasePlayer()
-            file.delete()
-            boostWorks = false
+            file.delete() // a broken cloud file is dropped from the cache too
+            // Couldn't play the boosted local file: drop to the engine's normal output from now on.
+            if (!keep) boostWorks = false
+            playNextIfIdle()
         }
     }
 
