@@ -63,6 +63,7 @@ import com.cookalong.app.ui.components.InitialFocus
 import com.cookalong.app.ui.components.PillButton
 import com.cookalong.app.ui.theme.CookType
 import com.cookalong.app.ui.theme.LocalCookColors
+import com.cookalong.app.ui.theme.cookBackdrop
 import com.cookalong.app.ui.theme.Safe
 import kotlinx.coroutines.delay
 
@@ -82,7 +83,7 @@ fun PlanScreen(
     val c = LocalCookColors.current
     val side = Modifier.padding(horizontal = Safe.horizontal)
     // No side padding here: the meal row runs edge to edge (its content padding is the overscan margin) so a focused card can grow into it.
-    Column(Modifier.fillMaxSize().background(c.background).padding(vertical = Safe.vertical)) {
+    Column(Modifier.fillMaxSize().cookBackdrop().padding(vertical = Safe.vertical)) {
         AnimatedContent(
             targetState = plan,
             contentKey = { it::class },

@@ -12,3 +12,5 @@ Libraries used (not copied into this repository; fetched by Gradle or pip):
 Recipe text and photos are not covered by the MIT License. Each recipe and photo keeps its own open licence
 (public domain, CC0, CC BY, CC BY-SA, Unlicense) and its credit; see CREDITS.md and the "credit" and "license"
 fields stored with every recipe.
+
+Fonts: DM Serif Display (Copyright 2014-2017 Adobe Systems Incorporated) and Poppins (Copyright 2020 The Poppins Project Authors), both under the SIL Open Font License 1.1. Licence texts are in licenses/.

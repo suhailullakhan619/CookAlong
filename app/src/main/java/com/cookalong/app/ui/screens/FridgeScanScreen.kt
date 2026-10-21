@@ -77,6 +77,7 @@ import com.cookalong.app.ui.components.TagChip
 import com.cookalong.app.ui.components.rememberReduceMotion
 import com.cookalong.app.ui.theme.CookType
 import com.cookalong.app.ui.theme.LocalCookColors
+import com.cookalong.app.ui.theme.cookBackdrop
 import com.cookalong.app.ui.theme.Safe
 
 /**
@@ -93,7 +94,7 @@ fun FridgeScanScreen(
     onPlan: (() -> Unit)? = null,
 ) {
     val c = LocalCookColors.current
-    Column(Modifier.fillMaxSize().background(c.background).padding(horizontal = Safe.horizontal, vertical = Safe.vertical)) {
+    Column(Modifier.fillMaxSize().cookBackdrop().padding(horizontal = Safe.horizontal, vertical = Safe.vertical)) {
         // The results have their own headline, and need the room for the recipe cards.
         if (scan !is ScanUi.Results) {
             Row(verticalAlignment = Alignment.CenterVertically) {

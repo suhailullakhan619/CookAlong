@@ -60,6 +60,7 @@ import com.cookalong.app.ui.screens.TimerControlsOverlay
 import com.cookalong.app.ui.theme.CookAlongTheme
 import com.cookalong.app.ui.theme.CookType
 import com.cookalong.app.ui.theme.LocalCookColors
+import com.cookalong.app.ui.theme.cookBackdrop
 import com.cookalong.app.ui.theme.Safe
 
 @Composable
@@ -78,7 +79,7 @@ fun CookAlongApp(vm: CookAlongViewModel, onExit: () -> Unit) {
         val c = LocalCookColors.current
         BackHandler { if (!vm.onBack()) onExit() }
 
-        Box(Modifier.fillMaxSize().background(c.background)) {
+        Box(Modifier.fillMaxSize().cookBackdrop()) {
             AnimatedContent(
                 targetState = state.screen,
                 contentKey = { it::class },

@@ -31,6 +31,7 @@ import com.cookalong.app.ui.components.InitialFocus
 import com.cookalong.app.ui.components.PillButton
 import com.cookalong.app.ui.theme.CookType
 import com.cookalong.app.ui.theme.LocalCookColors
+import com.cookalong.app.ui.theme.cookBackdrop
 import com.cookalong.app.ui.theme.Safe
 
 /** Results of a voice search ("Alexa, tell Cook Along to find paneer recipes"). */
@@ -38,7 +39,7 @@ import com.cookalong.app.ui.theme.Safe
 fun SearchScreen(title: String, recipes: List<Recipe>, onOpen: (Recipe) -> Unit, onBack: () -> Unit) {
     val c = LocalCookColors.current
     val first = remember { FocusRequester() }
-    Column(Modifier.fillMaxSize().background(c.background).padding(vertical = Safe.vertical)) {
+    Column(Modifier.fillMaxSize().cookBackdrop().padding(vertical = Safe.vertical)) {
         Row(Modifier.padding(horizontal = Safe.horizontal), verticalAlignment = Alignment.CenterVertically) {
             Icon(CookIcons.Mic, contentDescription = null, tint = c.accent, modifier = Modifier.size(40.dp))
             Spacer(Modifier.width(14.dp))

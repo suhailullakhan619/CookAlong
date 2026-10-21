@@ -56,6 +56,7 @@ import com.cookalong.app.ui.components.PillButton
 import com.cookalong.app.ui.components.TagChip
 import com.cookalong.app.ui.theme.CookType
 import com.cookalong.app.ui.theme.LocalCookColors
+import com.cookalong.app.ui.theme.cookBackdrop
 import com.cookalong.app.ui.theme.Safe
 import com.cookalong.app.ui.components.InitialFocus
 import com.cookalong.app.ui.components.breathingGlow
@@ -80,7 +81,7 @@ fun DetailScreen(
     val openedAt = remember(recipe.id) { System.currentTimeMillis() }
 
     Row(
-        Modifier.fillMaxSize().background(c.background).padding(horizontal = Safe.horizontal, vertical = Safe.vertical),
+        Modifier.fillMaxSize().cookBackdrop().padding(horizontal = Safe.horizontal, vertical = Safe.vertical),
         horizontalArrangement = Arrangement.spacedBy(40.dp),
     ) {
         // ---- Left pane: hero + metadata + primary action

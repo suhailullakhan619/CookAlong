@@ -1,5 +1,11 @@
 package com.cookalong.app.ui.screens
 
+import androidx.compose.animation.Crossfade
+import androidx.compose.animation.core.tween
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.BringIntoViewSpec
@@ -29,6 +35,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.graphics.BlendMode
+import androidx.compose.ui.graphics.CompositingStrategy
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.platform.LocalDensity
@@ -50,6 +62,7 @@ import com.cookalong.app.ui.components.PillButton
 import com.cookalong.app.ui.components.TagChip
 import com.cookalong.app.ui.theme.CookType
 import com.cookalong.app.ui.theme.LocalCookColors
+import com.cookalong.app.ui.theme.cookBackdrop
 import com.cookalong.app.ui.theme.Safe
 import com.cookalong.app.ui.components.InitialFocus
 
@@ -81,78 +94,96 @@ fun HomeScreen(
         ?: rows.firstOrNull()?.second?.firstOrNull()?.let { HomeFocus(0, it.id) }
     val focusRequester = remember { FocusRequester() }
 
-    val header: @Composable () -> Unit = {
-        Column(Modifier.fillMaxWidth().padding(start = Safe.horizontal, end = Safe.horizontal, top = Safe.vertical)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    "CookAlong", style = CookType.display, color = c.accent,
-                    modifier = Modifier.weight(1f).semantics { heading() }, maxLines = 1,
-                )
-                if (onFridgeScan != null) {
-                    PillButton(
-                        text = "Fridge scan", icon = CookIcons.Camera, primary = true, onClick = onFridgeScan,
-                        contentDescription = "Fridge scan: photograph your fridge with your phone and get recipe ideas",
-                    )
-                    Spacer(Modifier.width(16.dp))
-                }
-                if (onAlexa != null) {
-                    PillButton(
-                        text = if (state.alexaLinked) "Alexa on" else "Connect Alexa", icon = CookIcons.Mic, onClick = onAlexa,
-                        contentDescription = if (state.alexaLinked) "Alexa is connected. Open Alexa settings"
-                        else "Connect Alexa: control CookAlong with your voice from any Echo",
-                    )
-                    Spacer(Modifier.width(16.dp))
-                }
+    // The billboard follows focus, like a streaming app: whatever card you're on is shown big at the top.
+    val featured = remember(state.recipes) { featuredRecipe(state) }
+    var spotlight by remember(featured) { mutableStateOf(featured) }
+
+    val nav: @Composable () -> Unit = {
+        Row(
+            Modifier.fillMaxWidth().padding(start = Safe.horizontal, end = Safe.horizontal, top = Safe.vertical),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Text("CookAlong", style = CookType.display, color = c.accent, maxLines = 1, modifier = Modifier.semantics { heading() })
+            Spacer(Modifier.width(20.dp))
+            if (!online) OfflineNotice(offlineNotice(state.onlineRecipes))
+            Spacer(Modifier.weight(1f))
+            if (onFridgeScan != null) {
                 PillButton(
-                    text = if (c.isDark) "Light theme" else "Dark theme",
-                    icon = CookIcons.Contrast,
-                    onClick = onToggleTheme,
-                    contentDescription = if (c.isDark) "Switch to light theme" else "Switch to dark theme",
+                    text = "Fridge scan", icon = CookIcons.Camera, primary = true, compact = true, onClick = onFridgeScan,
+                    contentDescription = "Fridge scan: photograph your fridge with your phone and get recipe ideas",
                 )
+                Spacer(Modifier.width(12.dp))
             }
-            // Same one-line slot as the tagline, so the notice never moves the shelves.
-            if (online) Text("Hands-free recipes. Pick one to get started.", style = CookType.body, color = c.textMuted, maxLines = 1)
-            else OfflineNotice(offlineNotice(state.onlineRecipes))
+            if (onAlexa != null) {
+                PillButton(
+                    text = if (state.alexaLinked) "Alexa on" else "Connect Alexa", icon = CookIcons.Mic, compact = true,
+                    onClick = onAlexa,
+                    contentDescription = if (state.alexaLinked) "Alexa is connected. Open Alexa settings"
+                    else "Connect Alexa: control CookAlong with your voice from any Echo",
+                )
+                Spacer(Modifier.width(12.dp))
+            }
+            PillButton(
+                text = if (c.isDark) "Light" else "Dark", icon = CookIcons.Contrast, compact = true, onClick = onToggleTheme,
+                contentDescription = if (c.isDark) "Switch to light theme" else "Switch to dark theme",
+            )
         }
     }
 
     if (rows.isEmpty()) {
-        Column(Modifier.fillMaxSize().background(c.background)) {
-            header()
+        Column(Modifier.fillMaxSize().cookBackdrop()) {
+            nav()
             EmptyCatalog()
         }
         return
     }
 
     val rowScrolling = rememberRowSpec()
-    CompositionLocalProvider(LocalBringIntoViewSpec provides rememberPivotSpec()) {
-        LazyColumn(
-            state = listState,
-            modifier = Modifier.fillMaxSize().background(c.background),
-            contentPadding = PaddingValues(bottom = Safe.vertical),
-        ) {
-            item(key = "header") { header() }
-            rows.forEachIndexed { rowIndex, (title, recipes) ->
-                item(key = "row-$rowIndex") {
-                    Column {
-                        Text(
-                            title, style = CookType.title, color = c.text,
-                            modifier = Modifier.padding(start = Safe.horizontal, top = 14.dp).semantics { heading() },
-                        )
-                        // Rows keep the platform's default "scroll just enough" behaviour horizontally.
-                        CompositionLocalProvider(LocalBringIntoViewSpec provides rowScrolling) {
-                            LazyRow(
-                                state = rowStates.getOrPut(rowIndex) { LazyListState() },
-                                contentPadding = PaddingValues(horizontal = Safe.horizontal, vertical = 16.dp),
-                                horizontalArrangement = Arrangement.spacedBy(24.dp),
-                            ) {
-                                itemsIndexed(recipes, key = { _, r -> r.id }) { _, recipe ->
-                                    val isTarget = target?.row == rowIndex && target.recipeId == recipe.id
-                                    RecipeCard(
-                                        recipe = recipe,
-                                        modifier = if (isTarget) Modifier.focusRequester(focusRequester) else Modifier,
-                                        onClick = { onOpen(recipe, HomeFocus(rowIndex, recipe.id)) },
-                                    )
+    Box(Modifier.fillMaxSize().background(c.background)) {
+        spotlight?.let { Billboard(it) }
+        Column(Modifier.fillMaxSize()) {
+            nav()
+            spotlight?.let { SpotlightInfo(it, isFeatured = it.id == featured?.id) }
+            CompositionLocalProvider(LocalBringIntoViewSpec provides rememberPivotSpec()) {
+                // A short fade at the top so rows scrolling up slip under the billboard text instead of being cut off.
+                LazyColumn(
+                    state = listState,
+                    modifier = Modifier.fillMaxWidth().weight(1f)
+                        .graphicsLayer { compositingStrategy = CompositingStrategy.Offscreen }
+                        .drawWithContent {
+                            drawContent()
+                            drawRect(Brush.verticalGradient(0f to Color.Black, 0.75f to Color.Black, 1f to Color.Transparent, endY = 52.dp.toPx()), blendMode = BlendMode.DstOut)
+                        },
+                    contentPadding = PaddingValues(bottom = Safe.vertical),
+                ) {
+                    rows.forEachIndexed { rowIndex, (title, recipes) ->
+                        item(key = "row-$rowIndex") {
+                            Column {
+                                Row(
+                                    Modifier.padding(start = Safe.horizontal, top = 6.dp).semantics { heading() },
+                                    verticalAlignment = Alignment.CenterVertically,
+                                ) {
+                                    Box(Modifier.width(4.dp).height(20.dp).clip(RoundedCornerShape(50)).background(c.accent))
+                                    Spacer(Modifier.width(10.dp))
+                                    Text(title, style = CookType.title.copy(fontSize = 20.sp), color = c.text)
+                                }
+                                // Rows keep the platform's default "scroll just enough" behaviour horizontally.
+                                CompositionLocalProvider(LocalBringIntoViewSpec provides rowScrolling) {
+                                    LazyRow(
+                                        state = rowStates.getOrPut(rowIndex) { LazyListState() },
+                                        contentPadding = PaddingValues(horizontal = Safe.horizontal, vertical = 14.dp),
+                                        horizontalArrangement = Arrangement.spacedBy(18.dp),
+                                    ) {
+                                        itemsIndexed(recipes, key = { _, r -> r.id }) { _, recipe ->
+                                            val isTarget = target?.row == rowIndex && target.recipeId == recipe.id
+                                            PosterCard(
+                                                recipe = recipe,
+                                                modifier = if (isTarget) Modifier.focusRequester(focusRequester) else Modifier,
+                                                onFocus = { spotlight = recipe },
+                                                onClick = { onOpen(recipe, HomeFocus(rowIndex, recipe.id)) },
+                                            )
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -199,7 +230,7 @@ internal fun rememberRowSpec(): BringIntoViewSpec {
 private fun rememberPivotSpec(): BringIntoViewSpec {
     val density = LocalDensity.current
     return remember(density) {
-        val pivot = with(density) { 64.dp.toPx() }
+        val pivot = with(density) { 46.dp.toPx() }
         val safeBottom = with(density) { Safe.vertical.toPx() }
         object : BringIntoViewSpec {
             override fun calculateScrollDistance(offset: Float, size: Float, containerSize: Float): Float {
@@ -207,6 +238,119 @@ private fun rememberPivotSpec(): BringIntoViewSpec {
                 return if (fits) 0f else offset - pivot
             }
         }
+    }
+}
+
+/** "Tonight's pick": changes daily, always a recipe that has a photo. */
+internal fun featuredRecipe(state: UiState): Recipe? {
+    val withPhoto = state.recipes.filter { it.image != null }.ifEmpty { state.recipes }
+    if (withPhoto.isEmpty()) return null
+    return withPhoto[(System.currentTimeMillis() / 86_400_000L % withPhoto.size).toInt()]
+}
+
+/** Full-bleed photo behind the top of Home, faded into the background on the left and bottom so text stays readable. */
+@Composable
+private fun Billboard(recipe: Recipe) {
+    val c = LocalCookColors.current
+    Box(Modifier.fillMaxWidth().height(330.dp)) {
+        Crossfade(recipe, animationSpec = tween(400), label = "billboard", modifier = Modifier.fillMaxSize()) { r ->
+            Row(Modifier.fillMaxSize()) {
+                Spacer(Modifier.weight(0.32f))
+                AssetImage(r.image, r.id, r.title, Modifier.weight(0.68f).fillMaxSize(), r.categories)
+            }
+        }
+        Box(
+            Modifier.fillMaxSize().background(
+                Brush.horizontalGradient(
+                    0.30f to c.background, 0.50f to c.background.copy(alpha = 0.75f),
+                    0.75f to c.background.copy(alpha = 0.15f), 1f to Color.Transparent,
+                ),
+            ),
+        )
+        Box(
+            Modifier.fillMaxSize().background(
+                Brush.verticalGradient(
+                    0f to c.background.copy(alpha = 0.55f), 0.25f to Color.Transparent,
+                    0.6f to Color.Transparent, 1f to c.background,
+                ),
+            ),
+        )
+    }
+}
+
+/** Title, facts and blurb of the recipe in the billboard. Not focusable: the cards below drive it. */
+@Composable
+private fun SpotlightInfo(recipe: Recipe, isFeatured: Boolean) {
+    val c = LocalCookColors.current
+    Column(
+        Modifier.padding(start = Safe.horizontal, top = 18.dp).width(640.dp).height(186.dp)
+            .semantics { liveRegion = LiveRegionMode.Polite },
+    ) {
+        Text(
+            if (isFeatured) "TONIGHT'S PICK" else recipe.categories.firstOrNull()?.uppercase() ?: "RECIPE",
+            style = CookType.label.copy(letterSpacing = 2.sp), color = c.accent, maxLines = 1,
+        )
+        Spacer(Modifier.height(2.dp))
+        Text(
+            recipe.title, style = if (recipe.title.length > 22) CookType.hero.copy(fontSize = 44.sp) else CookType.hero,
+            color = c.text, maxLines = 1, overflow = TextOverflow.Ellipsis,
+        )
+        Spacer(Modifier.height(8.dp))
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            IconLabel(CookIcons.Clock, Scaling.minutesLabel(recipe.totalMinutes), color = c.text)
+            Spacer(Modifier.width(18.dp))
+            IconLabel(CookIcons.Person, "Serves ${recipe.servings}", color = c.text)
+            Spacer(Modifier.width(18.dp))
+            IconLabel(CookIcons.List, "${recipe.steps.size} steps", color = c.text)
+            recipe.dietaryTags.firstOrNull()?.let {
+                Spacer(Modifier.width(16.dp))
+                TagChip(it)
+            }
+        }
+        Spacer(Modifier.height(10.dp))
+        Text(
+            recipe.description, style = CookType.body.copy(fontSize = 18.sp, lineHeight = 26.sp), color = c.textMuted,
+            maxLines = 2, overflow = TextOverflow.Ellipsis,
+        )
+    }
+}
+
+/** Streaming-style landscape poster: photo with the title over a dark fade, time badge in the corner. */
+@Composable
+private fun PosterCard(recipe: Recipe, modifier: Modifier = Modifier, onFocus: () -> Unit, onClick: () -> Unit) {
+    val c = LocalCookColors.current
+    val description = buildString {
+        append(recipe.title).append(". ")
+        append(Scaling.minutesLabel(recipe.totalMinutes)).append(" total. ")
+        append("Serves ").append(recipe.servings).append(". ")
+        if (recipe.dietaryTags.isNotEmpty()) append(recipe.dietaryTags.joinToString(", ")).append('.')
+    }
+    FocusSurface(
+        onClick = onClick,
+        modifier = modifier.width(232.dp).height(130.dp),
+        shape = RoundedCornerShape(14.dp),
+        color = c.surface,
+        focusedScale = 1.12f,
+        contentDescription = description,
+        onFocusChange = { if (it) onFocus() },
+    ) {
+        AssetImage(recipe.image, recipe.id, recipe.title, Modifier.fillMaxSize(), recipe.categories)
+        Box(
+            Modifier.align(Alignment.BottomCenter).fillMaxWidth().height(70.dp)
+                .background(Brush.verticalGradient(listOf(Color.Transparent, Color(0xD9000000)))),
+        )
+        Box(
+            Modifier.align(Alignment.TopEnd).padding(8.dp)
+                .clip(RoundedCornerShape(50)).background(Color(0xB3000000))
+                .padding(horizontal = 8.dp, vertical = 2.dp),
+        ) {
+            Text(Scaling.minutesLabel(recipe.totalMinutes), style = CookType.label.copy(fontSize = 13.sp), color = Color.White)
+        }
+        Text(
+            recipe.title, style = CookType.label.copy(fontSize = 16.sp), color = Color.White, maxLines = 1,
+            overflow = TextOverflow.Ellipsis,
+            modifier = Modifier.align(Alignment.BottomStart).padding(horizontal = 12.dp, vertical = 8.dp),
+        )
     }
 }
 
@@ -231,6 +375,10 @@ fun RecipeCard(recipe: Recipe, modifier: Modifier = Modifier, onClick: () -> Uni
         Column {
             Box(Modifier.fillMaxWidth().height(153.dp)) {
                 AssetImage(recipe.image, recipe.id, recipe.title, Modifier.fillMaxSize(), recipe.categories)
+                Box(
+                    Modifier.align(Alignment.BottomCenter).fillMaxWidth().height(48.dp)
+                        .background(Brush.verticalGradient(listOf(Color.Transparent, Color(0x66000000)))),
+                )
                 Box(
                     Modifier.align(Alignment.TopEnd).padding(10.dp)
                         .clip(RoundedCornerShape(50)).background(c.scrim)

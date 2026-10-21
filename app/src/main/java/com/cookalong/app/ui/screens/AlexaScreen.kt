@@ -43,13 +43,14 @@ import com.cookalong.app.ui.components.PillButton
 import com.cookalong.app.ui.components.Shimmer
 import com.cookalong.app.ui.theme.CookType
 import com.cookalong.app.ui.theme.LocalCookColors
+import com.cookalong.app.ui.theme.cookBackdrop
 import com.cookalong.app.ui.theme.Safe
 
 /** Connect Alexa: say the code once, then any Echo (or the remote's Alexa button) can drive CookAlong. */
 @Composable
 fun AlexaScreen(alexa: AlexaUi, offline: Boolean, onRetry: () -> Unit, onDone: () -> Unit, onDisconnect: () -> Unit) {
     val c = LocalCookColors.current
-    Column(Modifier.fillMaxSize().background(c.background).padding(horizontal = Safe.horizontal, vertical = Safe.vertical)) {
+    Column(Modifier.fillMaxSize().cookBackdrop().padding(horizontal = Safe.horizontal, vertical = Safe.vertical)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Icon(CookIcons.Mic, contentDescription = null, tint = c.accent, modifier = Modifier.size(40.dp))
             Spacer(Modifier.width(14.dp))

@@ -1,12 +1,19 @@
 package com.cookalong.app.ui.theme
 
+import androidx.compose.foundation.background
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import com.cookalong.app.R
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.tv.material3.MaterialTheme
@@ -84,13 +91,23 @@ val LocalCookColors = staticCompositionLocalOf { DarkCook }
  * 10-foot type scale. Fire TV renders 1080p as 960×540 dp (density 2.0), so 1 sp = 2 physical pixels:
  * step text 44 sp ≈ 88 px, headings 36 sp ≈ 72 px, body 22 sp ≈ 44 px. Medium/bold weights only.
  */
+/** DM Serif Display gives headings a food-magazine feel; Poppins keeps steps and labels crisp from the sofa. Both OFL. */
+val Serif = FontFamily(Font(R.font.dm_serif_display, FontWeight.Normal))
+val Sans = FontFamily(
+    Font(R.font.poppins_regular, FontWeight.Normal),
+    Font(R.font.poppins_medium, FontWeight.Medium),
+    Font(R.font.poppins_semibold, FontWeight.SemiBold),
+    Font(R.font.poppins_bold, FontWeight.Bold),
+)
+
 object CookType {
-    val step = TextStyle(fontSize = 44.sp, lineHeight = 56.sp, fontWeight = FontWeight.SemiBold)
-    val display = TextStyle(fontSize = 40.sp, lineHeight = 48.sp, fontWeight = FontWeight.Bold)
-    val headline = TextStyle(fontSize = 32.sp, lineHeight = 40.sp, fontWeight = FontWeight.Bold)
-    val title = TextStyle(fontSize = 26.sp, lineHeight = 32.sp, fontWeight = FontWeight.SemiBold)
-    val body = TextStyle(fontSize = 22.sp, lineHeight = 30.sp, fontWeight = FontWeight.Medium)
-    val label = TextStyle(fontSize = 18.sp, lineHeight = 22.sp, fontWeight = FontWeight.SemiBold)
+    val step = TextStyle(fontFamily = Sans, fontSize = 40.sp, lineHeight = 54.sp, fontWeight = FontWeight.SemiBold)
+    val hero = TextStyle(fontFamily = Serif, fontSize = 56.sp, lineHeight = 60.sp, fontWeight = FontWeight.Normal)
+    val display = TextStyle(fontFamily = Serif, fontSize = 42.sp, lineHeight = 48.sp, fontWeight = FontWeight.Normal)
+    val headline = TextStyle(fontFamily = Serif, fontSize = 34.sp, lineHeight = 40.sp, fontWeight = FontWeight.Normal)
+    val title = TextStyle(fontFamily = Sans, fontSize = 24.sp, lineHeight = 32.sp, fontWeight = FontWeight.SemiBold)
+    val body = TextStyle(fontFamily = Sans, fontSize = 20.sp, lineHeight = 30.sp, fontWeight = FontWeight.Medium)
+    val label = TextStyle(fontFamily = Sans, fontSize = 17.sp, lineHeight = 22.sp, fontWeight = FontWeight.SemiBold)
 }
 
 /** 5% overscan-safe margins of the 960×540 dp TV canvas. */
@@ -122,8 +139,28 @@ fun CookAlongTheme(dark: Boolean, content: @Composable () -> Unit) {
         bodyLarge = CookType.body,
         bodyMedium = CookType.body,
         labelLarge = CookType.label,
+        labelMedium = CookType.label,
+        bodySmall = CookType.body,
+        titleMedium = CookType.title,
+        headlineSmall = CookType.headline,
     )
     CompositionLocalProvider(LocalCookColors provides c) {
         MaterialTheme(colorScheme = scheme, typography = typography, content = content)
     }
+}
+
+/** Screen backdrop: the flat background with a soft warm glow from the top-left corner, so screens feel lit, not flat. */
+@Composable
+fun Modifier.cookBackdrop(): Modifier {
+    val c = LocalCookColors.current
+    val glow = if (c.isDark) Color(0x33F2B04F) else Color(0x33E8A23C)
+    return this
+        .background(c.background)
+        .background(
+            Brush.radialGradient(
+                colors = listOf(glow, Color.Transparent),
+                center = Offset(0f, 0f),
+                radius = 1400f,
+            ),
+        )
 }

@@ -86,6 +86,7 @@ import com.cookalong.app.ui.components.TagChip
 import com.cookalong.app.ui.components.durationLabel
 import com.cookalong.app.ui.theme.CookType
 import com.cookalong.app.ui.theme.LocalCookColors
+import com.cookalong.app.ui.theme.cookBackdrop
 import com.cookalong.app.ui.theme.Safe
 import com.cookalong.app.ui.components.InitialFocus
 
@@ -124,7 +125,7 @@ fun CookingScreen(
     val stepTimer = timers.firstOrNull { it.stepId == step.id }
     val reduceMotion = rememberReduceMotion()
 
-    Column(Modifier.fillMaxSize().background(c.background).padding(horizontal = Safe.horizontal, vertical = Safe.vertical)) {
+    Column(Modifier.fillMaxSize().cookBackdrop().padding(horizontal = Safe.horizontal, vertical = Safe.vertical)) {
         // ---- Top: title, step count, voice caption, segmented progress
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(recipe.title, style = CookType.label.copy(fontSize = 20.sp), color = c.textMuted, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f))
