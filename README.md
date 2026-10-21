@@ -38,11 +38,11 @@ CookAlong puts the whole evening on the biggest screen in the house, in one flow
 |---|---|---|---|
 | 1 | **Fridge scan** (computer vision) | Scan a QR code on the TV, photograph the open fridge with your phone, and the TV shows what you can cook: "Ready to cook" and "Almost there", with exactly what is missing | Phone photo to Lambda to **Amazon Nova Pro on Bedrock** (about 2 s). The TV ranks all 477 recipes with an Indian and international ingredient matcher (capsicum = bell pepper, curd = yogurt, brinjal = aubergine) |
 | 2 | **Plan dinner** (AI agent) | One button turns the ingredients into one to three meals, swap ideas for missing items and a shopping list, read aloud | A **Strands Agents SDK** agent on Nova Pro calls four tools over the recipe database (`find_recipes`, `get_recipe`, `suggest_swap`, `shopping_list`). The server re-checks every fact the TV shows, and a **Bedrock Guardrail** blocks medical or allergy-safety advice |
-| 3 | **Cooking mode** (multi-modal) | One big readable step at a time, a step animation, up to four timers, a chime, read-aloud, resume after a restart. Works with only the remote, and fully offline | Native Kotlin and Jetpack Compose for TV; timers stored as wall-clock end times; text-to-speech with an engine fallback |
+| 3 | **Cooking mode** (multi-modal) | One big readable step at a time, a step animation, up to four timers, a chime, read-aloud, resume after a restart. Works with only the remote, and fully offline | Native Kotlin and Jetpack Compose for TV; timers stored as wall-clock end times; read-aloud in **Amazon Polly**'s natural voice when online, the TV's own text-to-speech when offline |
 | 4 | **Voice** | "Alexa, next / pause" while cooking; and a custom skill for timers, scaled ingredient answers, recipe search, "what's for dinner" and "ask the chef" | Fire TV media session for the built-in commands; an **Alexa skill** plus Lambda plus a DynamoDB command queue that the TV polls (details below) |
 | 5 | **Recipe library** | 477 recipes (174 Indian), photos with credits, new dishes appear without an app update | DynamoDB catalog synced to the TV; every recipe has a source, licence and credit (based.cooking, Wikibooks Cookbook, HowToCook); 406 credited photos |
 | 6 | **Shopping list to your phone** | Scan a QR code and tick items off in the shop | A web page whose data travels in the URL fragment, so nothing is uploaded |
-| 7 | **Works offline** | A dropped connection never stops a recipe: saved recipes, timers and read-aloud keep working, with a clear "You're offline" notice | Connectivity detection, an offline-first catalog cache and a disk cache for photos |
+| 7 | **Works offline** | A dropped connection never stops a recipe: saved recipes, timers and read-aloud keep working, with a clear "You're offline" notice | Connectivity detection, an offline-first catalog cache, a disk cache for photos and voice, and a fallback for every online feature (see [Online and offline behaviour](#online-and-offline-behaviour)) |
 
 ```mermaid
 flowchart LR
@@ -111,7 +111,9 @@ roughly 1 to 3 cents. At two scans and two plans per household per week that is 
 
 **Controls that protect the bill:** a scan needs a live pairing code (3 scans per code); each TV is limited to 12 plans an
 hour; and the whole service has a daily cap (300 plans and 500 scans per UTC day), stored in DynamoDB and returned to the
-app as a friendly "try again tomorrow".
+app as a friendly "try again tomorrow". The Polly read-aloud voice is capped at 600 characters a request, 300 requests per
+TV per hour and 200,000 characters a day for all TVs; each sentence is cached on the TV, so a recipe costs nothing the
+second time. Over a cap, the TV simply uses its own voice.
 
 **What would break first at 10,000 households, and the fix:**
 
@@ -143,15 +145,16 @@ Everything else (Lambda, DynamoDB on-demand, Function URLs) scales without chang
   Android TV emulator (steps under Build, test, run). The live backend URLs are already in
   `app/src/main/assets/config.json`.
 - **Run the tests:** `./gradlew :app:testDebugUnitTest` (82 app tests) and `python -m unittest discover backend`
-  (66 backend tests; the planner tests need `pip install strands-agents`).
+  (78 backend tests; the planner tests need `pip install strands-agents`).
 - **Call the agent directly:** `curl -X POST <plannerApiUrl>/plan -H "content-type: application/json" -d '{"device":"judge-demo-0123456789abcd","ingredients":["paneer","onion","tomato","rice"],"servings":4,"diet":"vegetarian"}'`
   returns the plan plus the agent's tool-call trace.
 
 ### Quality and honest status
 
-- **Verified on a real Fire TV Stick** (Amazon AFTSSS, Fire OS 7): install, launch, all online recipes with photos,
-  read-aloud, cooking flow. Most other testing used an Android TV emulator.
-- **Tests:** 82 app unit tests and 66 backend tests pass.
+- **Verified on a real Fire TV Stick (Amazon AFTMA08C15, Fire OS 8 / Android 11):** install, launch, Home browsing, Fridge scan, Plan dinner, cooking with timers,
+  read-aloud in the Polly voice (with the TV-voice fallback), and Alexa-simulator commands moving the real TV. The
+  emulator covered the rest.
+- **Tests:** 82 app unit tests and 78 backend tests pass.
 - **Not done or not confirmed:** the Alexa skill is not published and was tried only through Alexa's simulator; the
   "Alexa, next / pause" media commands are unconfirmed by voice on a real stick; Echo Show support is not built; the
   CloudFormation template validates but the live resources were made with the deploy scripts; Amazon Bedrock AgentCore
@@ -209,9 +212,22 @@ python -m unittest discover backend    # 44 skill + 15 planner + 7 scan tests
 The backend (AWS) setup is in [docs/AWS.md](docs/AWS.md). The app works without it: leave the URLs in
 `app/src/main/assets/config.json` blank and you get the bundled recipes and cooking mode only.
 
-## Offline
+## Online and offline behaviour
 
-Cooking mode, timers, Read aloud, servings scaling, search and resuming a session make no network calls; they work with no connection. Read aloud uses the TV's text-to-speech engine, which might use online voices if that engine has no offline one installed.
+Every online feature has a defined behaviour when the internet is missing or an AWS service fails, so a recipe never
+stops halfway. The app decides per request; nothing needs to be switched by the user.
+
+| Feature | Online | Offline, or the service fails |
+|---|---|---|
+| **Read aloud** (steps, timer alerts, scan and plan summaries) | Spoken in **Amazon Polly**'s natural generative voice (Matthew) through `POST /tts`. Each sentence is fetched once and cached on the TV (up to 30 MB), and the next step is fetched ahead, so moving on is instant | The TV's own text-to-speech speaks instead. The app tries every installed engine until one has an English voice (the stick's default engine ships without one). After a failed Polly request it uses the TV voice for one minute, so a bad network never delays a step. Sentences already cached still play in the Polly voice |
+| **Recipes** | New recipes download from DynamoDB in the background and appear without an app update | The bundled recipes and every recipe downloaded before stay available. Home says "You're offline. Showing saved recipes." |
+| **Recipe photos** | Downloaded and kept in a disk cache | Cached photos show; others show illustrated art drawn in code |
+| **Fridge scan** | Phone photo, then Amazon Nova on Bedrock lists the ingredients (about 2 s) | The screen says the scan needs the internet, with Try again and Back. If the connection drops while waiting, it shows "Lost connection. Reconnecting…" and resumes by itself. If Nova Pro is busy, Nova 2 Lite answers |
+| **Plan dinner** | The Strands agent on Amazon Nova plans the meals; the server checks every fact against DynamoDB | A clear error with Try again. The scan results stay on screen, so the cook can still pick a recipe by hand |
+| **Alexa** | The TV polls the command queue about once a second and acts on "next step", timers and questions | Polling pauses and resumes the moment the connection is back. The remote keeps working throughout |
+| **Shopping list QR** | The phone opens the hosted list page | The list data travels inside the QR link, so the TV never blocks; the phone needs its own connection to open the page |
+| **Cooking, timers, servings, search, resume** | No network used | Work exactly the same |
+| **Daily or per-TV limits reached** | Normal service | Scan and plan say "try again later"; read-aloud quietly uses the TV voice |
 
 - **Detection:** `net/Connectivity.kt` watches the default network and counts it as online only when Android has validated internet access. If the state can't be read, the app assumes online and never blocks itself. "Offline" shows after 1.5 s so a Wi-Fi hiccup isn't reported.
 - **Home:** while offline, the tagline becomes "You're offline. Showing saved recipes." (or, if no online recipes are saved yet, "More recipes download when you're online."). When the connection returns, a "Back online" toast appears and recipes sync at once.
@@ -225,7 +241,7 @@ Cooking mode, timers, Read aloud, servings scaling, search and resuming a sessio
 - **Fire OS is Android without Google services.** The app uses only AndroidX, kotlinx and ZXing. It has no Play services, Cast or Firebase.
 - `minSdk 25` (Fire OS 6), `targetSdk 34`, landscape only. It appears in the TV launcher via `LEANBACK_LAUNCHER` with a 320×180 banner.
 - `touchscreen` and `leanback` are declared *not required*, so one APK also side-loads on Fire tablets.
-- **Cooking needs no internet on the TV.** The bundled recipes, pictures, animations, timers and read-aloud are all offline (see [Offline](#offline)). The `INTERNET` permission is for the optional online recipes, Fridge scan and Alexa, and for the local Wi-Fi page (see Companion QR); `ACCESS_NETWORK_STATE` lets the app notice when the connection drops.
+- **Cooking needs no internet on the TV.** The bundled recipes, pictures, animations and timers are all offline, and read-aloud falls back to the TV's own voice (see [Online and offline behaviour](#online-and-offline-behaviour)). The `INTERNET` permission is for the optional online recipes, Fridge scan and Alexa, and for the local Wi-Fi page (see Companion QR); `ACCESS_NETWORK_STATE` lets the app notice when the connection drops.
 - **No microphone permission.** Alexa owns the mic on Fire TV (see Voice).
 - 1080p Fire TV renders at 960×540 dp (density 2.0). Every layout keeps a 5% overscan margin (48 dp × 27 dp).
 
@@ -390,7 +406,7 @@ Beyond the bundled recipes, the app downloads more from the backend, so new dish
 ## Cooking animations and read-aloud
 
 - **Animations:** every step shows a small looping illustration of what you're doing. The ten kinds are boil, stir, chop, fry, bake, mix, microwave, pour, rest and serve. They are drawn in code (`StepAnimation.kt`), so they need no video files and work offline. The kind is guessed from the step text ("whisk" → mix, "roast" → bake…); set `"animation": "boil"` on a step in `recipes.json` to choose it yourself.
-- **Read aloud:** cooking mode speaks each step as it appears ("Step two. Add the spaghetti…") and says when a timer finishes. It uses the device's built-in text-to-speech engine (Fire TV ships one), with no network and no permission. Toggle it with **Read aloud: On/Off** in the action bar; the choice is remembered. It stays quiet when a screen reader (VoiceView) is on, so the two don't talk over each other.
+- **Read aloud:** cooking mode speaks each step as it appears ("Step 2. Add the spaghetti…"), says when a timer finishes, and reads the fridge-scan and dinner-plan summaries. Online it uses **Amazon Polly**'s generative voice through the backend (`audio/CloudVoice.kt`, `POST /tts` in `backend/lambda_function.py`); offline, or if Polly fails, the TV's built-in text-to-speech takes over (`audio/Speaker.kt`). Toggle it with **Read aloud: On/Off** in the action bar; the choice is remembered. It stays quiet when a screen reader (VoiceView) is on, so the two don't talk over each other.
 
 ## AI fridge scan (Amazon Nova on Amazon Bedrock)
 
@@ -471,7 +487,7 @@ tools/               recipe_db.py (validate/upload recipes), photo tools, import
 - No foreground service, so timer alerts can't fire while the process is dead. They fire on return.
 - While cooking, the active media session may show a "Now playing: <recipe>" tile in the system UI.
 - The Alexa skill is not published (see its status note); the media-session voice commands are unconfirmed on a real Fire TV.
-- Verified on an Android TV emulator and one real Fire TV Stick (Amazon AFTSSS, Fire OS 7); see below.
+- Verified on an Android TV emulator and one real Fire TV Stick (Amazon AFTMA08C15, Fire OS 8 / Android 11); see below.
 
 ## Verification status
 
@@ -491,7 +507,14 @@ tools/               recipe_db.py (validate/upload recipes), photo tools, import
 - A missing image shows generated fallback art.
 - The app talks only to CookAlong's own AWS endpoints listed in `config.json` (recipes, fridge scan, planner, Alexa bridge); there are no analytics or ad SDKs.
 
-**Verified on a real Fire TV Stick (AFTSSS, Fire OS 7):** the app installs and launches, Home shows all 429 online recipes with photos, Read aloud works after the engine-fallback fix (the stick's default text-to-speech engine has no voices; `com.svox.pico` is used instead), and the cooking flow runs.
+**Verified on a real Fire TV Stick (Amazon AFTMA08C15, Fire OS 8 / Android 11), 21 October 2026:**
+
+- Install and launch (about 0.7 s), Home browsing with the focus-driven picture, shelf titles never hidden while scrolling.
+- Fridge scan: phone photo to Amazon Nova in about 2 s, results ranked on the TV.
+- Plan dinner: the agent's plan with a shopping list that never lists water, salt or spices.
+- Cooking: steps, step timers, the screen stays on while cooking, step text fits beside running timers.
+- Read aloud in the Polly voice: the backend logged the TV's requests, and the next step played from the cache. The TV-voice fallback was checked by the engine logs (the default engine has no voice; `com.svox.pico` is used).
+- Alexa: through Alexa's simulator, "next step", "previous step" and "set a timer" changed the real TV.
 
 **Still needs a real Fire TV:**
 

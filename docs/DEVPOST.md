@@ -64,7 +64,7 @@ no API keys in the app:
 
 ### What we're proud of
 A real working pipeline from a phone photo to an agent-planned dinner to hands-free cooking on a real Fire TV Stick,
-tested with 82 app tests and 66 backend tests, with credited open-licence recipes and photos.
+tested with 82 app tests and 78 backend tests, with credited open-licence recipes and photos.
 
 ### What we learned
 Nova Pro calls tools reliably and reads food photos well in about two seconds. Guardrails are a cheap way to keep a
@@ -138,8 +138,9 @@ Everything else (Lambda, DynamoDB on-demand, Function URLs) scales without chang
   daily cap are the protection, not authentication.
 
 ## Honest status (so the judges are not surprised)
-- **Tested on a real Fire TV Stick** (AFTSSS, Fire OS 7): install, launch, Home with all online recipes and photos, Read
-  aloud, cooking flow. The rest of the testing was on an Android TV emulator.
+- **Tested on a real Fire TV Stick** (AFTMA08C15, Fire OS 8 / Android 11): install, launch, Home, Fridge scan, Plan
+  dinner, cooking with timers, read-aloud in the Amazon Polly voice with the TV-voice fallback, and Alexa-simulator
+  commands moving the real TV. The rest of the testing was on an Android TV emulator.
 - **The Alexa skill is created in an Alexa developer account (Development stage) but not published**, and it has not been
   tried by voice on a real Echo or Fire TV. It was tested through Alexa's own simulator (`tools/alexa_sim.py`), so Alexa's
   real language understanding picked the intent, with an Android TV emulator as the TV. The plain "Alexa, next/pause"

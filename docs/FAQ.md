@@ -18,7 +18,8 @@ lines. Bedrock Guardrails keep a kitchen assistant on topic. Lambda, Function UR
 no servers and no keys in the app. Alexa lets a voice from any room control the cooking.
 
 **What happens if the API fails or the user gives bad input?**
-- *No internet:* saved recipes, timers and read-aloud keep working, and Home says "You're offline".
+- *No internet:* saved recipes and timers keep working, read-aloud switches from the Amazon Polly voice to the TV's own
+  voice, and Home says "You're offline". The README's "Online and offline behaviour" table covers every feature.
 - *Scan or plan fails:* a clear message with Try again; a plan that returns nothing usable says so instead of guessing.
 - *Model invents something:* the server drops any recipe that isn't in DynamoDB and re-checks diet, time and missing items.
 - *Bad requests:* the backend validates every field and returns a 400 with a plain message; a TV never sees a stack trace.
@@ -61,4 +62,4 @@ abandoned, plans where the cook buys nothing extra, and a one-question "did this
 The Alexa skill is not published and was tested through Alexa's simulator, not on a real Echo. The "Alexa, next / pause" media
 commands are unconfirmed by voice on a real Fire TV. Echo Show is not built. The CloudFormation template is validated but the
 live stack was made with the deploy scripts. Bedrock AgentCore is not used. Testing on a real Fire TV so far covers one device
-(Fire TV Stick, Fire OS 7).
+(Fire TV Stick AFTMA08C15, Fire OS 8).

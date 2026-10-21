@@ -47,7 +47,8 @@ flowchart LR
 | **Amazon Bedrock Guardrails** | `cookalong-kitchen` is attached to every agent model call: it denies medical and allergy-safety advice, filters abuse, blocks prompt attacks and masks emails and phone numbers. `backend/setup_guardrail.py` creates it. |
 | **AWS Lambda and Function URLs** | Three functions: `cookalong-fridge-scan` (scan, recipes, TV bridge), `cookalong-agent` (Strands agent, 29 MB zip) and `cookalong-alexa` (skill, eu-west-1). No servers and no API keys in the app. |
 | **Amazon DynamoDB** | `cookalong-recipes` (the catalog of 477+ open-licence recipes), `cookalong-scans` (fridge-scan results, expire in 1 hour), `cookalong-tv` (Alexa pairing codes, per-TV command queues, per-TV rate limits). On-demand billing, with TTL on the short-lived tables. |
-| **AWS IAM** | One least-privilege role per function. Only Nova models and our guardrail can be invoked. |
+| **Amazon Polly** | The read-aloud voice on the TV: `POST /tts` on `cookalong-fridge-scan` returns MP3 from the generative voice Matthew (neural as backup). The TV caches each sentence and falls back to its own text-to-speech offline. Capped per request, per TV per hour and per day. |
+| **AWS IAM** | One least-privilege role per function. Only Nova models and our guardrail can be invoked, and only the scan function may call `polly:SynthesizeSpeech`. |
 | **Amazon CloudWatch Logs** | Function logs. Failures are logged without personal data. |
 | **AWS CloudFormation** | `backend/template.yaml` recreates the tables, roles, both Function-URL Lambdas and the guardrail (validated with `aws cloudformation validate-template`, not deployed as a stack). The shell scripts `deploy.sh`, `deploy_agent.sh` and `deploy_alexa.sh` produced the live setup. |
 
