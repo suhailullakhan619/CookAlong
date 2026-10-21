@@ -143,8 +143,8 @@ Everything else (Lambda, DynamoDB on-demand, Function URLs) scales without chang
   commands moving the real TV. The rest of the testing was on an Android TV emulator.
 - **The Alexa skill is created in an Alexa developer account (Development stage) but not published**, and it has not been
   tried by voice on a real Echo or Fire TV. It was tested through Alexa's own simulator (`tools/alexa_sim.py`), so Alexa's
-  real language understanding picked the intent, with an Android TV emulator as the TV. The plain "Alexa, next/pause"
-  media-session commands were tested with `adb shell cmd media_session dispatch`, not by voice on a real stick.
+  real language understanding picked the intent, and it moved the real Fire TV. By voice on the real stick, "Alexa, next"
+  and "Alexa, previous" change the cooking step through Fire TV's own media controls, with no skill involved.
 - **CloudFormation:** the template validates, but the live resources were created with the deploy scripts.
 - **Amazon Bedrock AgentCore is not used**; the agent runs on Lambda.
 

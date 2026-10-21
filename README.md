@@ -155,8 +155,10 @@ Everything else (Lambda, DynamoDB on-demand, Function URLs) scales without chang
   read-aloud in the Polly voice (with the TV-voice fallback), and Alexa-simulator commands moving the real TV. The
   emulator covered the rest.
 - **Tests:** 82 app unit tests and 78 backend tests pass.
-- **Not done or not confirmed:** the Alexa skill is not published and was tried only through Alexa's simulator; the
-  "Alexa, next / pause" media commands are unconfirmed by voice on a real stick; Echo Show support is not built; the
+- **Confirmed by voice on the real stick:** "Alexa, next" and "Alexa, previous" move the cooking step through Fire TV's
+  own media controls, with no skill needed.
+- **Not done or not confirmed:** the Alexa skill is not published; it was tried through Alexa's simulator, because test
+  mode works only for the developer's Amazon account and the stick uses another one; Echo Show support is not built; the
   CloudFormation template validates but the live resources were made with the deploy scripts; Amazon Bedrock AgentCore
   is not used.
 - **Documentation:** [docs/AWS.md](docs/AWS.md) (architecture diagram and every AWS service),
@@ -486,7 +488,8 @@ tools/               recipe_db.py (validate/upload recipes), photo tools, import
 - Free-form voice works through the Cook Along Alexa skill only while CookAlong is on screen; the TV polls for commands and has no push channel (ADM).
 - No foreground service, so timer alerts can't fire while the process is dead. They fire on return.
 - While cooking, the active media session may show a "Now playing: <recipe>" tile in the system UI.
-- The Alexa skill is not published (see its status note); the media-session voice commands are unconfirmed on a real Fire TV.
+- The Alexa skill is not published (see its status note). In test mode it answers only the developer's Amazon account; a
+  Fire TV on another account needs a beta-test invite. The media-session commands ("Alexa, next / previous") need no skill.
 - Verified on an Android TV emulator and one real Fire TV Stick (Amazon AFTMA08C15, Fire OS 8 / Android 11); see below.
 
 ## Verification status
@@ -518,7 +521,6 @@ tools/               recipe_db.py (validate/upload recipes), photo tools, import
 
 **Still needs a real Fire TV:**
 
-- Alexa routing of "next / previous / pause / play" to the MediaSession.
 - VoiceView traversal.
 - Chime loudness through TV/soundbar.
 - Rendering performance on low-end sticks.

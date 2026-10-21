@@ -88,7 +88,24 @@ def _handle(event, context, store=None, chef=None):
         value = (v or {}).get("value")
         slots[k] = None if value is None else str(value)
     fn = INTENTS.get(intent.get("name", ""), Turn.fallback)
-    return fn(turn, slots)
+    out = fn(turn, slots)
+    _debug_note(store, req, intent, slots, user, out)
+    return out
+
+
+def _debug_note(store, req, intent, slots, user, out):
+    """While ALEXA_DEBUG=1: keep what Alexa heard for a day (no user id, just a short hash), to debug real devices."""
+    if os.environ.get("ALEXA_DEBUG") != "1" or not hasattr(store, "t"):
+        return
+    try:
+        import hashlib
+        store.t.put_item(Item={
+            "pk": f"dbg#{int(time.time() * 1000)}", "intent": intent.get("name", ""), "slots": json.dumps(slots),
+            "locale": req.get("locale", ""), "user": hashlib.sha1(user.encode()).hexdigest()[:8],
+            "reply": ((out.get("response") or {}).get("outputSpeech") or {}).get("text", "")[:200],
+            "expires": int(time.time()) + 86400})
+    except Exception as e:  # noqa: BLE001 - debugging must never break a request
+        print("debug note failed", e)
 
 
 class Turn:

@@ -53,7 +53,7 @@ ROLE_ARN="arn:aws:iam::$ACCOUNT:role/$ROLE"
 [ "${NEW_ROLE:-0}" = 1 ] && { echo "Waiting for the new role to propagate..."; sleep 12; }
 
 # ---- 3. function
-ENV="Variables={ALEXA_SKILL_ID=$SKILL_ID,TV_TABLE=$TV_TABLE,TV_TABLE_REGION=$DATA_REGION,BEDROCK_REGION=$DATA_REGION}"
+ENV="Variables={ALEXA_SKILL_ID=$SKILL_ID,TV_TABLE=$TV_TABLE,TV_TABLE_REGION=$DATA_REGION,BEDROCK_REGION=$DATA_REGION,ALEXA_DEBUG=${ALEXA_DEBUG:-0}}"
 if aws lambda get-function --region "$REGION" --function-name "$NAME" >/dev/null 2>&1; then
   aws lambda update-function-code --region "$REGION" --function-name "$NAME" --zip-file "fileb://$ZIP" >/dev/null
   aws lambda wait function-updated --region "$REGION" --function-name "$NAME"

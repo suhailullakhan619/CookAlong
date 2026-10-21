@@ -59,7 +59,7 @@ Time from opening the app to starting a recipe, the share of scans that end in a
 abandoned, plans where the cook buys nothing extra, and a one-question "did this save you time?" after cooking.
 
 **What are the limitations?**
-The Alexa skill is not published and was tested through Alexa's simulator, not on a real Echo. The "Alexa, next / pause" media
-commands are unconfirmed by voice on a real Fire TV. Echo Show is not built. The CloudFormation template is validated but the
+The Alexa skill is not published and was tested through Alexa's simulator, not on a real Echo. "Alexa, next" and "Alexa,
+previous" were confirmed by voice on the real Fire TV, through its media controls. Echo Show is not built. The CloudFormation template is validated but the
 live stack was made with the deploy scripts. Bedrock AgentCore is not used. Testing on a real Fire TV so far covers one device
 (Fire TV Stick AFTMA08C15, Fire OS 8).
