@@ -46,5 +46,25 @@ class Requests(unittest.TestCase):
         self.assertEqual(L.parse_body({"body": '{"a": 1}'}), {"a": 1})
 
 
+class DailyCap(unittest.TestCase):
+    def fake_bridge(self, fail=False):
+        counts = {"n": 0}
+
+        def update_item(**kw):
+            if fail:
+                raise RuntimeError("dynamo down")
+            counts["n"] += 1
+            return {"Attributes": {"n": counts["n"]}}
+        return mock.MagicMock(t=mock.MagicMock(update_item=update_item))
+
+    def test_refuses_after_the_cap(self):
+        with mock.patch.object(L, "bridge", return_value=self.fake_bridge()):
+            self.assertEqual([L.within_daily_cap("scan", 2) for _ in range(4)], [True, True, False, False])
+
+    def test_fails_open_if_the_counter_breaks(self):
+        with mock.patch.object(L, "bridge", return_value=self.fake_bridge(fail=True)):
+            self.assertTrue(L.within_daily_cap("scan", 1))
+
+
 if __name__ == "__main__":
     unittest.main()

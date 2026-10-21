@@ -119,5 +119,49 @@ class Requests(unittest.TestCase):
         self.assertEqual(d.handler(ev("POST", "/plan", "{}"), None)["statusCode"], 400)
 
 
+class DailyCap(unittest.TestCase):
+    class FakeTable:
+        def __init__(self, fail=False):
+            self.n, self.fail, self.keys = 0, fail, []
+
+        def update_item(self, **kw):
+            if self.fail:
+                raise RuntimeError("dynamo down")
+            self.n += 1
+            self.keys.append(kw["Key"]["pk"])
+            return {"Attributes": {"n": self.n}}
+
+    def setUp(self):
+        self._ddb = d.ddb
+
+    def tearDown(self):
+        d.ddb = self._ddb
+
+    def use(self, table):
+        d.ddb = lambda: type("R", (), {"Table": lambda self, name: table})()
+
+    def test_allows_up_to_the_cap_then_refuses(self):
+        t = self.FakeTable()
+        self.use(t)
+        self.assertEqual([d.within_daily_cap(3) for _ in range(5)], [True, True, True, False, False])
+        self.assertTrue(t.keys[0].startswith("cap#plan#20"))
+
+    def test_fails_open_when_dynamodb_errors(self):
+        self.use(self.FakeTable(fail=True))
+        self.assertTrue(d.within_daily_cap(1))
+
+    def test_handler_returns_429_when_the_daily_cap_is_reached(self):
+        self.use(self.FakeTable())
+        old = d.PLAN_DAILY_CAP
+        d.PLAN_DAILY_CAP = 0
+        try:
+            body = '{"device": "%s", "ingredients": ["paneer"]}' % ("a" * 32)
+            out = d.handler({"requestContext": {"http": {"method": "POST"}}, "rawPath": "/plan", "body": body}, None)
+        finally:
+            d.PLAN_DAILY_CAP = old
+        self.assertEqual(out["statusCode"], 429)
+        self.assertIn("tomorrow", out["body"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -68,7 +68,7 @@ The server then **re-checks every fact the TV shows**: the recipe exists, the di
 missing items and shopping list come from DynamoDB. The model chooses and explains; it can't invent a recipe. The
 response includes the tool-call trace (`steps`) so you can see what the agent did.
 
-Safety and cost controls: the guardrail above, 12 plans per TV per hour (a counter in DynamoDB), inputs capped at 30
+Safety and cost controls: the guardrail above, 12 plans per TV per hour and 300 plans a day across all TVs (counters in DynamoDB; the scan has a 500-a-day cap), inputs capped at 30
 ingredients of 40 characters each, and no stack traces returned to the TV.
 
 ## Deploy it yourself

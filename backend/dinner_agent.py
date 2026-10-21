@@ -31,6 +31,7 @@ RECIPES_TABLE = os.environ.get("RECIPES_TABLE", "cookalong-recipes")
 SCANS_TABLE = os.environ.get("TABLE_NAME", "cookalong-scans")
 TV_TABLE = os.environ.get("TV_TABLE", "cookalong-tv")
 PLANS_PER_HOUR = 12
+PLAN_DAILY_CAP = int(os.environ.get("PLAN_DAILY_CAP", "300"))   # all TVs together, per UTC day
 DIETS = {"", "vegetarian", "vegan", "gluten-free", "dairy-free"}
 DEVICE_RE = re.compile(r"^[A-Za-z0-9-]{20,64}$")
 CODE_RE = re.compile(r"^[A-Z2-9]{6}$")
@@ -371,6 +372,8 @@ def handler(event, context):
         return reply(400, {"error": str(e)})
     if not allow(device):
         return reply(429, {"error": "That's a lot of plans for one hour. Please try again later."})
+    if not within_daily_cap(PLAN_DAILY_CAP):
+        return reply(429, {"error": "CookAlong's demo has reached today's planning limit. Please try again tomorrow."})
     try:
         plan, trace = plan_dinner(ingredients, servings, diet, max_minutes)
     except Exception as e:  # never hand a stack trace to a TV
@@ -403,6 +406,22 @@ def parse(body):
     if not 1 <= servings <= 12 or diet not in DIETS or not 0 <= max_minutes <= 240:
         raise ValueError("servings 1-12, maxMinutes 0-240, diet vegetarian/vegan/gluten-free/dairy-free")
     return ingredients, servings, diet, max_minutes, device
+
+
+def within_daily_cap(cap):
+    """Counts today's plans across ALL TVs (a last line of defence for the AWS bill). Fails open if DynamoDB errors."""
+    day = time.strftime("%Y-%m-%d", time.gmtime())
+    try:
+        out = ddb().Table(TV_TABLE).update_item(
+            Key={"pk": f"cap#plan#{day}"},
+            UpdateExpression="ADD n :one SET expires = :e",
+            ExpressionAttributeValues={":one": 1, ":e": int(time.time()) + 2 * 86400},
+            ReturnValues="UPDATED_NEW",
+        )
+        return int(out["Attributes"]["n"]) <= cap
+    except Exception as e:
+        print("Daily cap check failed, allowing", e)
+        return True
 
 
 def allow(device):

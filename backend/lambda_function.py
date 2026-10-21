@@ -122,6 +122,29 @@ def get_scan(code):
     return reply(200, out)
 
 
+SCAN_DAILY_CAP = int(os.environ.get("SCAN_DAILY_CAP", "500"))
+
+
+def within_daily_cap(kind, cap):
+    """Counts today's (UTC) calls of one paid feature across ALL users and says whether we're still under [cap].
+
+    A last line of defence for the AWS bill: per-code and per-TV limits stop one user, this stops everyone together.
+    If the counter can't be read we allow the call (a DynamoDB hiccup must not take the feature down).
+    """
+    day = time.strftime("%Y-%m-%d", time.gmtime())
+    try:
+        out = bridge().t.update_item(
+            Key={"pk": f"cap#{kind}#{day}"},
+            UpdateExpression="ADD n :one SET expires = :e",
+            ExpressionAttributeValues={":one": 1, ":e": int(time.time()) + 2 * 86400},
+            ReturnValues="UPDATED_NEW",
+        )
+        return int(out["Attributes"]["n"]) <= cap
+    except Exception as e:
+        print("Daily cap check failed, allowing", e)
+        return True
+
+
 def scan(body):
     code = str(body.get("code", "")).strip().upper()
     media_type = body.get("mediaType", "image/jpeg")
@@ -138,6 +161,9 @@ def scan(body):
         raise BadRequest("Image is empty or larger than 5 MB")
     if not looks_like(raw, media_type):
         raise BadRequest("That file isn't a photo we can read. Take a new photo and try again.")
+
+    if not within_daily_cap("scan", SCAN_DAILY_CAP):
+        return reply(429, {"error": "CookAlong's demo has reached today's scan limit. Please try again tomorrow."})
 
     # Claim one scan on a live session atomically (stops replay/abuse of the paid model call).
     now = int(time.time())
