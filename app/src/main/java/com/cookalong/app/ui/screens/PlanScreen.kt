@@ -230,10 +230,10 @@ private fun MealCard(meal: PlanMeal, recipe: Recipe, modifier: Modifier, onClick
         Text(
             buildAnnotatedString {
                 if (meal.missing.isEmpty()) {
-                    withStyle(SpanStyle(color = c.accent, fontWeight = FontWeight.Bold)) { append("✓ You have everything") }
-                    append(" · nothing to buy")
+                    // Short enough for one line under the card; the spoken description says it in full.
+                    withStyle(SpanStyle(color = c.accent, fontWeight = FontWeight.Bold)) { append("✓ Nothing to buy") }
                 } else {
-                    withStyle(SpanStyle(color = c.text, fontWeight = FontWeight.Bold)) { append("You have ${meal.have} of ${meal.total}") }
+                    withStyle(SpanStyle(color = c.text, fontWeight = FontWeight.Bold)) { append("${meal.have} of ${meal.total}") }
                     append(" · Need: ")
                     append(meal.missing.joinToString(", "))
                 }
