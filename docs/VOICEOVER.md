@@ -1,6 +1,6 @@
 # CookAlong demo: voice-over script
 
-About 2 minutes 45 seconds at a calm pace (roughly 380 words). Read the **bold** lines; the notes in *italics* say what
+Timed to the draft video (2:42, see `video/TIMING.txt` next to the video), at a calm pace (roughly 360 words). Read the **bold** lines; the notes in *italics* say what
 is on screen at that moment. Pause for a beat at each `/`. If a part runs long, cut the lines marked *(optional)*.
 
 ---
@@ -36,27 +36,21 @@ agent on Amazon Nova".*
 *Open a recipe. Change the servings, press Start Cooking. Show a big step with its animation, start the step timer,
 move to the next step, let Read aloud speak.*
 
-**Pick a recipe, / set how many people you're feeding, / and the amounts update.**
+**Pick a recipe / and press Start Cooking.**
 **Cooking mode shows one big step at a time, / easy to read from across the kitchen.**
 **Timers start with one press, / and you can run several at once.**
 **Read aloud speaks each step, / so your eyes can stay on the pan.**
 **Everything works with just the remote.**
 
-### 5. Voice with Alexa (2:05 – 2:25)
+### 5. Voice with Alexa (2:05 – 2:32)
 
 *Show the Connect Alexa screen, then the Alexa simulator (Developer Console or `tools/alexa_sim.py`) next to the TV, and
 the TV moving to the next step.*
 
 **You can also cook by voice. / Here I'm using the Alexa simulator / to say "next step", / and the TV follows.**
-**You can set a timer, / ask how much rice you need, / or what to use instead of cream.**
+**You can set a timer, / or ask what to use instead of parmesan.**
 
-### 6. Works offline (2:25 – 2:35) *(optional)*
-
-*Home with "You're offline. Showing saved recipes."*
-
-**No internet? / Your saved recipes, / timers / and read-aloud still work.**
-
-### 7. Close (2:35 – 2:45)
+### 6. Close (2:32 – 2:42)
 
 *Title card: CookAlong, "Fire TV + AWS Builder", the GitHub URL.*
 
