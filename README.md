@@ -70,7 +70,8 @@ to know which is which:
 
 - **A skill in test mode is invisible to other accounts.** Our Fire TV is signed into a different Amazon account than the
   developer account, so Alexa on that TV never sent anything to the skill. It answered with its own features instead. The
-  fix is a beta-test invite for that account, or publishing. Path 1 is unaffected and works on any account.
+  fix is a beta-test invite for that account (see [Using the skill on your own Echo or Fire TV remote](#using-the-skill-on-your-own-echo-or-fire-tv-remote-beta-test)).
+  Path 1 is unaffected and works on any account.
 - **Avoid the word "pair".** Alexa treats "pair" as a Bluetooth request even inside "tell Cook Along to pair with …". The TV
   and the skill now ask for **"my code is …"**, and "link code …" works too.
 - **People say "Cook Along app".** Alexa can't have "app" in a skill's name, so it arrives as the start of the command
@@ -359,6 +360,47 @@ Lambda to your skill with `SKILL_ID=amzn1.ask.skill.… bash backend/deploy_alex
 `ask smapi set-skill-enablement -s <id> -g development`, and try it without a device:
 `SKILL_ID=<id> python tools/alexa_sim.py "tell cook along next step"`. Skills in the *Development* stage also work on
 every Alexa device signed in to the developer's Amazon account, with no certification.
+
+### Using the skill on your own Echo or Fire TV remote (beta test)
+
+**Why it isn't published.** A published skill goes through Amazon's certification, which takes several business days, and
+the reviewers would need a Fire TV running CookAlong to test it. The app is side-loaded, not in the Appstore, so
+certification would most likely fail. Publishing also makes the skill public. A beta test avoids all three and works in
+minutes.
+
+**Who can use the skill today:**
+
+| Account | Can use the skill by voice? |
+|---|---|
+| The Amazon account that owns the skill (the developer account) | Yes, on every Echo and Fire TV signed in to it |
+| Any other Amazon account | Only after it accepts a **beta-test invitation** |
+| Anyone, for "Alexa, next / previous" | Yes. Those go through Fire TV's media controls and need no skill |
+
+**How a beta test works.** The skill owner invites people by email. Amazon emails each of them a link, and opening it on
+the phone enables the skill on that person's Amazon account. Their Echo devices and Fire TV remote can then use it. A beta
+test allows up to 500 testers and runs for 90 days; the skill stays private.
+
+**For the skill owner** (Alexa developer console → the skill → *Distribution* → *Availability* → *Beta Test*, or the
+ASK CLI):
+
+```bash
+ask smapi create-beta-test -s <skill-id> --feedback-email <your-email>
+ask smapi add-testers-to-beta-test -s <skill-id> --testers-emails <tester-amazon-email>
+ask smapi start-beta-test -s <skill-id>
+```
+
+The skill needs its store icons and descriptions first; `alexa/skill-package/` already has them, and
+`ask smapi submit-skill-validation` passes.
+
+**For the tester:**
+
+1. Open the invitation email from Amazon on the phone that has the Alexa app, and tap **Enable**. Use the same Amazon
+   account as the Fire TV or Echo.
+2. On the TV, open CookAlong and choose **Connect Alexa**.
+3. Say *"Alexa, tell Cook Along my code is …"* with the six digits on the screen. Don't say "pair": Alexa treats that as
+   Bluetooth.
+4. While cooking, say *"Alexa, tell Cook Along to set a timer for five minutes"*, *"… how much paneer do I need"*, and so on.
+   *"Alexa, next"* and *"Alexa, previous"* work even without the skill.
 
 **Tests:** `python -m unittest discover backend` (44 skill tests, including that every phrase's intent has a handler) and
 `AlexaBridgeTest` in the app (spoken ingredients, state JSON, search).
