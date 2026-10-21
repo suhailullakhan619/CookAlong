@@ -145,6 +145,8 @@ Everything else (Lambda, DynamoDB on-demand, Function URLs) scales without chang
   tried by voice on a real Echo or Fire TV. It was tested through Alexa's own simulator (`tools/alexa_sim.py`), so Alexa's
   real language understanding picked the intent, and it moved the real Fire TV. By voice on the real stick, "Alexa, next"
   and "Alexa, previous" change the cooking step through Fire TV's own media controls, with no skill involved.
+  To try the full skill on your own Echo or Fire TV, email **suhailullakhan619@gmail.com** with your Amazon account's
+  email and I'll send an Alexa beta invitation (private, usually within minutes).
 - **CloudFormation:** the template validates, but the live resources were created with the deploy scripts.
 - **Amazon Bedrock AgentCore is not used**; the agent runs on Lambda.
 
