@@ -55,7 +55,32 @@ flowchart LR
 
 ### Alexa in the kitchen: what works today, and where it goes next
 
-**Today.** An Alexa skill ("cook along") lets any Echo in the home talk to the app on the TV. You pair once by saying the
+**Two ways to use your voice.** CookAlong listens to Alexa in two separate ways. They need different setup, so it helps
+to know which is which:
+
+| | 1. Fire TV's built-in media controls | 2. The Cook Along Alexa skill |
+|---|---|---|
+| **What you say** | "Alexa, next", "Alexa, previous", "Alexa, pause", "Alexa, play" | "Alexa, tell Cook Along …" (timers, questions, search, servings) |
+| **How it reaches the app** | Fire TV turns the command into a media key and sends it to the app on screen (Android MediaSession) | Alexa runs our skill; the skill Lambda queues a command in DynamoDB; the TV picks it up within a second |
+| **Setup** | None. No skill, no pairing, no account | Connect once: the TV shows a code, you say "Alexa, tell Cook Along my code is …" |
+| **Who can use it** | Anyone with the app on a Fire TV | While the skill is in Development (test) mode, only the Amazon account that owns the skill, or accounts invited as beta testers. Once published, anyone |
+| **Status** | **Confirmed by voice on a real Fire TV Stick**: "next" and "previous" move the cooking step | Tested end to end through Alexa's simulator, moving the real Fire TV |
+
+**What we learned on the real Fire TV:**
+
+- **A skill in test mode is invisible to other accounts.** Our Fire TV is signed into a different Amazon account than the
+  developer account, so Alexa on that TV never sent anything to the skill. It answered with its own features instead. The
+  fix is a beta-test invite for that account, or publishing. Path 1 is unaffected and works on any account.
+- **Avoid the word "pair".** Alexa treats "pair" as a Bluetooth request even inside "tell Cook Along to pair with …". The TV
+  and the skill now ask for **"my code is …"**, and "link code …" works too.
+- **People say "Cook Along app".** Alexa can't have "app" in a skill's name, so it arrives as the start of the command
+  ("app to go to next step"). Every phrase in the skill now also accepts a leading "app".
+
+**How a reviewer can try voice:** on a Fire TV, start cooking any recipe and say *"Alexa, next"* or *"Alexa, previous"*;
+no setup is needed. To try the skill without a device, run `python tools/alexa_sim.py "tell cook along next step"`
+against a paired TV (see [Alexa skill](#alexa-skill-cook-with-any-echo)).
+
+**The skill.** The Cook Along skill lets any Echo in the home talk to the app on the TV. You connect once by saying the
 six-digit code the TV shows. After that, while a recipe is on the TV, you can say things like:
 
 - "Alexa, tell Cook Along next step" / "go back" / "repeat that" / "go to step 4"
@@ -67,8 +92,8 @@ six-digit code the TV shows. After that, while a recipe is on the TV, you can sa
 Fire TV apps can't receive pushes, so the TV polls a small command queue in DynamoDB while the app is on screen. I created the
 skill in an Alexa developer account and tested the whole chain through Alexa's own simulator, with the TV app running on
 an emulator: Alexa's language model picked the right intent for every phrase, and the TV scaled the recipe, started
-cooking, moved to the next step, ran a timer and showed the chef's answer. It is not published and I have not tried it
-on a real Echo.
+cooking, moved to the next step, ran a timer and showed the chef's answer. It is not published, and by voice it has only
+been reached from the developer's own account (see above).
 
 **Next: kitchens without a TV.** Not every kitchen has a TV, but many have an Echo, and an Echo Show has a screen. The
 same skill is the right foundation: a standalone cooking session kept in the skill (so no TV is needed) and an Alexa
@@ -283,7 +308,7 @@ I checked Amazon's current docs ([Voice-enabling transport controls with MediaSe
 
 2. **Free-form phrases: the Cook Along Alexa skill (implemented, see next section).** Phrases such as *"set a timer for 5 minutes"* or *"how much flour do I need?"* are not transport commands, so they go through a custom skill. The Video Skills Kit was ruled out because it is built for video catalogs.
 
-**Verification status:** the MediaSession path was exercised on an Android TV emulator with `adb shell cmd media_session dispatch next|pause`, which hits the same callbacks Alexa does. That Alexa actually routes these utterances to CookAlong (it's not a "video" app) **must be confirmed on a real Fire TV**.
+**Verification status:** **confirmed by voice on a real Fire TV Stick (AFTMA08C15):** "Alexa, next" and "Alexa, previous" change the cooking step, and the skill's command queue stayed untouched, so it was this path and not the skill. "Pause" and "play" were checked with `adb shell cmd media_session dispatch pause|play`, which hits the same callbacks.
 
 ## Alexa skill: cook with any Echo
 
@@ -291,8 +316,9 @@ I checked Amazon's current docs ([Voice-enabling transport controls with MediaSe
 > (`alexa/deploy_skill.sh`) and was exercised through Alexa's own skill simulator (`tools/alexa_sim.py`), with an
 > Android TV emulator as the TV. Pairing, finding a recipe, scaling servings, starting cooking, next step, a timer,
 > ingredient questions and "ask the chef" all worked, and Alexa's language model picked the right intent for each
-> phrase. It has **not been tried by voice on a real Echo or Fire TV** and is not published. The plain
-> "Alexa, next / pause" media commands below need no skill.
+> phrase. It is not published. In Development stage Alexa only offers it to the developer's Amazon account (or invited
+> beta testers), so a Fire TV signed into another account can't reach it by voice. The plain "Alexa, next / previous"
+> media commands need no skill and work on any account.
 
 **Connect Alexa** on Home shows a 6-digit code. Say *"Alexa, tell Cook Along my code is 4 8 2 1 5 7"* once (not "pair": Alexa takes that word for Bluetooth). After
 that, any Echo on the same Amazon account, or the Alexa button on the remote, drives the TV while CookAlong is on screen:
