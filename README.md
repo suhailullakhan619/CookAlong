@@ -78,7 +78,9 @@ to know which is which:
   ("app to go to next step"). Every phrase in the skill now also accepts a leading "app".
 
 **How a reviewer can try voice:** on a Fire TV, start cooking any recipe and say *"Alexa, next"* or *"Alexa, previous"*;
-no setup is needed. To try the skill without a device, run `python tools/alexa_sim.py "tell cook along next step"`
+no setup is needed. To use the full skill on your own Echo or Fire TV remote, email **suhailullakhan619@gmail.com** with
+your Amazon account's email for a beta invitation (details in
+[Using the skill on your own Echo or Fire TV remote](#using-the-skill-on-your-own-echo-or-fire-tv-remote-beta-test)). To try the skill without a device, run `python tools/alexa_sim.py "tell cook along next step"`
 against a paired TV (see [Alexa skill](#alexa-skill-cook-with-any-echo)).
 
 **The skill.** The Cook Along skill lets any Echo in the home talk to the app on the TV. You connect once by saying the
@@ -379,6 +381,10 @@ minutes.
 **How a beta test works.** The skill owner invites people by email. Amazon emails each of them a link, and opening it on
 the phone enables the skill on that person's Amazon account. Their Echo devices and Fire TV remote can then use it. A beta
 test allows up to 500 testers and runs for 90 days; the skill stays private.
+
+**Want to try the skill on your own Echo or Fire TV?** Email **suhailullakhan619@gmail.com** with the email address of
+your Amazon account (the one your Echo or Fire TV is signed in to), and I'll send you a beta invitation. It usually
+arrives within minutes. Then follow the tester steps below.
 
 **For the skill owner** (Alexa developer console → the skill → *Distribution* → *Availability* → *Beta Test*, or the
 ASK CLI):
