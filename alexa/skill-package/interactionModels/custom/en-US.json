@@ -17,7 +17,31 @@
             "my code is {code}",
             "code {code}",
             "use code {code}",
-            "{code}"
+            "{code}",
+            "app pair with {code}",
+            "app to pair with {code}",
+            "app pair my tv with {code}",
+            "app to pair my tv with {code}",
+            "app pair with code {code}",
+            "app to pair with code {code}",
+            "app connect with code {code}",
+            "app to connect with code {code}",
+            "app connect my tv with code {code}",
+            "app to connect my tv with code {code}",
+            "app link code {code}",
+            "app to link code {code}",
+            "app link my tv with {code}",
+            "app to link my tv with {code}",
+            "app the code is {code}",
+            "app to the code is {code}",
+            "app my code is {code}",
+            "app to my code is {code}",
+            "app code {code}",
+            "app to code {code}",
+            "app use code {code}",
+            "app to use code {code}",
+            "app {code}",
+            "app to {code}"
           ],
           "slots": [
             {
@@ -32,7 +56,15 @@
             "disconnect my tv",
             "unlink my tv",
             "disconnect from my tv",
-            "forget my tv"
+            "forget my tv",
+            "app disconnect my tv",
+            "app to disconnect my tv",
+            "app unlink my tv",
+            "app to unlink my tv",
+            "app disconnect from my tv",
+            "app to disconnect from my tv",
+            "app forget my tv",
+            "app to forget my tv"
           ]
         },
         {
@@ -47,7 +79,27 @@
             "i'm done with this step",
             "done with this step",
             "skip this step",
-            "the next one"
+            "the next one",
+            "app next step",
+            "app to next step",
+            "app go to the next step",
+            "app to go to the next step",
+            "app go forward",
+            "app to go forward",
+            "app move on",
+            "app to move on",
+            "app what's next",
+            "app to what's next",
+            "app what's the next step",
+            "app to what's the next step",
+            "app i'm done with this step",
+            "app to i'm done with this step",
+            "app done with this step",
+            "app to done with this step",
+            "app skip this step",
+            "app to skip this step",
+            "app the next one",
+            "app to the next one"
           ]
         },
         {
@@ -58,7 +110,19 @@
             "go back one step",
             "go to the previous step",
             "the step before",
-            "one step back"
+            "one step back",
+            "app previous step",
+            "app to previous step",
+            "app go back a step",
+            "app to go back a step",
+            "app go back one step",
+            "app to go back one step",
+            "app go to the previous step",
+            "app to go to the previous step",
+            "app the step before",
+            "app to the step before",
+            "app one step back",
+            "app to one step back"
           ]
         },
         {
@@ -72,7 +136,25 @@
             "what do i do now",
             "what step am i on",
             "read that again",
-            "what was that step"
+            "what was that step",
+            "app repeat the step",
+            "app to repeat the step",
+            "app read the step",
+            "app to read the step",
+            "app read this step",
+            "app to read this step",
+            "app what's this step",
+            "app to what's this step",
+            "app what's the current step",
+            "app to what's the current step",
+            "app what do i do now",
+            "app to what do i do now",
+            "app what step am i on",
+            "app to what step am i on",
+            "app read that again",
+            "app to read that again",
+            "app what was that step",
+            "app to what was that step"
           ]
         },
         {
@@ -83,7 +165,19 @@
             "jump to step {number}",
             "skip to step {number}",
             "show step {number}",
-            "read step {number}"
+            "read step {number}",
+            "app go to step {number}",
+            "app to go to step {number}",
+            "app step {number}",
+            "app to step {number}",
+            "app jump to step {number}",
+            "app to jump to step {number}",
+            "app skip to step {number}",
+            "app to skip to step {number}",
+            "app show step {number}",
+            "app to show step {number}",
+            "app read step {number}",
+            "app to read step {number}"
           ],
           "slots": [
             {
@@ -101,7 +195,21 @@
             "finish the recipe",
             "finish cooking",
             "we're done",
-            "the dish is ready"
+            "the dish is ready",
+            "app i'm finished",
+            "app to i'm finished",
+            "app i'm done cooking",
+            "app to i'm done cooking",
+            "app i'm done",
+            "app to i'm done",
+            "app finish the recipe",
+            "app to finish the recipe",
+            "app finish cooking",
+            "app to finish cooking",
+            "app we're done",
+            "app to we're done",
+            "app the dish is ready",
+            "app to the dish is ready"
           ]
         },
         {
@@ -117,7 +225,29 @@
             "set the timer",
             "start timer",
             "{duration}",
-            "for {duration}"
+            "for {duration}",
+            "app set a timer for {duration}",
+            "app to set a timer for {duration}",
+            "app start a timer for {duration}",
+            "app to start a timer for {duration}",
+            "app start a {duration} timer",
+            "app to start a {duration} timer",
+            "app set a {duration} timer",
+            "app to set a {duration} timer",
+            "app timer for {duration}",
+            "app to timer for {duration}",
+            "app start the timer",
+            "app to start the timer",
+            "app start the step timer",
+            "app to start the step timer",
+            "app set the timer",
+            "app to set the timer",
+            "app start timer",
+            "app to start timer",
+            "app {duration}",
+            "app to {duration}",
+            "app for {duration}",
+            "app to for {duration}"
           ],
           "slots": [
             {
@@ -136,7 +266,23 @@
             "add a minute",
             "add one more minute",
             "add more time",
-            "extend the timer by {duration}"
+            "extend the timer by {duration}",
+            "app add {duration}",
+            "app to add {duration}",
+            "app add {duration} to the timer",
+            "app to add {duration} to the timer",
+            "app add {duration} more",
+            "app to add {duration} more",
+            "app give it {duration} more",
+            "app to give it {duration} more",
+            "app add a minute",
+            "app to add a minute",
+            "app add one more minute",
+            "app to add one more minute",
+            "app add more time",
+            "app to add more time",
+            "app extend the timer by {duration}",
+            "app to extend the timer by {duration}"
           ],
           "slots": [
             {
@@ -156,7 +302,25 @@
             "check my timers",
             "how are my timers",
             "what's left on the timer",
-            "time left"
+            "time left",
+            "app how much time is left",
+            "app to how much time is left",
+            "app how long is left",
+            "app to how long is left",
+            "app how much longer",
+            "app to how much longer",
+            "app how long left on the timer",
+            "app to how long left on the timer",
+            "app check the timer",
+            "app to check the timer",
+            "app check my timers",
+            "app to check my timers",
+            "app how are my timers",
+            "app to how are my timers",
+            "app what's left on the timer",
+            "app to what's left on the timer",
+            "app time left",
+            "app to time left"
           ]
         },
         {
@@ -165,7 +329,15 @@
             "pause the timer",
             "pause the timers",
             "pause all timers",
-            "hold the timer"
+            "hold the timer",
+            "app pause the timer",
+            "app to pause the timer",
+            "app pause the timers",
+            "app to pause the timers",
+            "app pause all timers",
+            "app to pause all timers",
+            "app hold the timer",
+            "app to hold the timer"
           ]
         },
         {
@@ -175,7 +347,17 @@
             "resume the timers",
             "continue the timer",
             "unpause the timer",
-            "start the timers again"
+            "start the timers again",
+            "app resume the timer",
+            "app to resume the timer",
+            "app resume the timers",
+            "app to resume the timers",
+            "app continue the timer",
+            "app to continue the timer",
+            "app unpause the timer",
+            "app to unpause the timer",
+            "app start the timers again",
+            "app to start the timers again"
           ]
         },
         {
@@ -186,7 +368,19 @@
             "dismiss the timer",
             "turn off the timer",
             "stop the alarm",
-            "the timer is done"
+            "the timer is done",
+            "app stop the timer",
+            "app to stop the timer",
+            "app cancel the timer",
+            "app to cancel the timer",
+            "app dismiss the timer",
+            "app to dismiss the timer",
+            "app turn off the timer",
+            "app to turn off the timer",
+            "app stop the alarm",
+            "app to stop the alarm",
+            "app the timer is done",
+            "app to the timer is done"
           ]
         },
         {
@@ -199,7 +393,23 @@
             "show me the ingredients",
             "read the ingredients",
             "ingredients",
-            "what do i need"
+            "what do i need",
+            "app what ingredients do i need",
+            "app to what ingredients do i need",
+            "app what are the ingredients",
+            "app to what are the ingredients",
+            "app show the ingredients",
+            "app to show the ingredients",
+            "app list the ingredients",
+            "app to list the ingredients",
+            "app show me the ingredients",
+            "app to show me the ingredients",
+            "app read the ingredients",
+            "app to read the ingredients",
+            "app ingredients",
+            "app to ingredients",
+            "app what do i need",
+            "app to what do i need"
           ]
         },
         {
@@ -208,7 +418,15 @@
             "what do i need for this step",
             "what goes in this step",
             "which ingredients are in this step",
-            "ingredients for this step"
+            "ingredients for this step",
+            "app what do i need for this step",
+            "app to what do i need for this step",
+            "app what goes in this step",
+            "app to what goes in this step",
+            "app which ingredients are in this step",
+            "app to which ingredients are in this step",
+            "app ingredients for this step",
+            "app to ingredients for this step"
           ]
         },
         {
@@ -219,7 +437,19 @@
             "how much {item}",
             "how many {item}",
             "quantity of {item}",
-            "how much {item} goes in"
+            "how much {item} goes in",
+            "app how much {item} do i need",
+            "app to how much {item} do i need",
+            "app how many {item} do i need",
+            "app to how many {item} do i need",
+            "app how much {item}",
+            "app to how much {item}",
+            "app how many {item}",
+            "app to how many {item}",
+            "app quantity of {item}",
+            "app to quantity of {item}",
+            "app how much {item} goes in",
+            "app to how much {item} goes in"
           ],
           "slots": [
             {
@@ -239,7 +469,25 @@
             "{count} servings",
             "cook for {count} people",
             "i'm cooking for {count}",
-            "set servings to {count}"
+            "set servings to {count}",
+            "app make it for {count} people",
+            "app to make it for {count} people",
+            "app make it for {count}",
+            "app to make it for {count}",
+            "app scale it for {count}",
+            "app to scale it for {count}",
+            "app scale to {count} servings",
+            "app to scale to {count} servings",
+            "app change servings to {count}",
+            "app to change servings to {count}",
+            "app {count} servings",
+            "app to {count} servings",
+            "app cook for {count} people",
+            "app to cook for {count} people",
+            "app i'm cooking for {count}",
+            "app to i'm cooking for {count}",
+            "app set servings to {count}",
+            "app to set servings to {count}"
           ],
           "slots": [
             {
@@ -257,7 +505,21 @@
             "start the recipe",
             "begin cooking",
             "cook this",
-            "let's make it"
+            "let's make it",
+            "app start cooking",
+            "app to start cooking",
+            "app let's cook",
+            "app to let's cook",
+            "app let's start",
+            "app to let's start",
+            "app start the recipe",
+            "app to start the recipe",
+            "app begin cooking",
+            "app to begin cooking",
+            "app cook this",
+            "app to cook this",
+            "app let's make it",
+            "app to let's make it"
           ]
         },
         {
@@ -274,7 +536,31 @@
             "recipes with {query}",
             "what can i make with {query}",
             "open {query}",
-            "look for {query}"
+            "look for {query}",
+            "app find {query}",
+            "app to find {query}",
+            "app find {query} recipes",
+            "app to find {query} recipes",
+            "app find a recipe for {query}",
+            "app to find a recipe for {query}",
+            "app search for {query}",
+            "app to search for {query}",
+            "app show me {query}",
+            "app to show me {query}",
+            "app show me {query} recipes",
+            "app to show me {query} recipes",
+            "app i want to make {query}",
+            "app to i want to make {query}",
+            "app i want to cook {query}",
+            "app to i want to cook {query}",
+            "app recipes with {query}",
+            "app to recipes with {query}",
+            "app what can i make with {query}",
+            "app to what can i make with {query}",
+            "app open {query}",
+            "app to open {query}",
+            "app look for {query}",
+            "app to look for {query}"
           ],
           "slots": [
             {
@@ -293,7 +579,23 @@
             "show quick recipes",
             "what can i cook in {duration}",
             "recipes in {duration}",
-            "something i can make in {duration}"
+            "something i can make in {duration}",
+            "app what can i make in {duration}",
+            "app to what can i make in {duration}",
+            "app recipes under {duration}",
+            "app to recipes under {duration}",
+            "app something quick",
+            "app to something quick",
+            "app quick recipes",
+            "app to quick recipes",
+            "app show quick recipes",
+            "app to show quick recipes",
+            "app what can i cook in {duration}",
+            "app to what can i cook in {duration}",
+            "app recipes in {duration}",
+            "app to recipes in {duration}",
+            "app something i can make in {duration}",
+            "app to something i can make in {duration}"
           ],
           "slots": [
             {
@@ -310,7 +612,19 @@
             "show the shopping list",
             "send the list to my phone",
             "send the ingredients to my phone",
-            "show the qr code"
+            "show the qr code",
+            "app send the shopping list to my phone",
+            "app to send the shopping list to my phone",
+            "app shopping list",
+            "app to shopping list",
+            "app show the shopping list",
+            "app to show the shopping list",
+            "app send the list to my phone",
+            "app to send the list to my phone",
+            "app send the ingredients to my phone",
+            "app to send the ingredients to my phone",
+            "app show the qr code",
+            "app to show the qr code"
           ]
         },
         {
@@ -321,7 +635,19 @@
             "look in my fridge",
             "what can i make from my fridge",
             "check my fridge",
-            "scan my pantry"
+            "scan my pantry",
+            "app scan my fridge",
+            "app to scan my fridge",
+            "app fridge scan",
+            "app to fridge scan",
+            "app look in my fridge",
+            "app to look in my fridge",
+            "app what can i make from my fridge",
+            "app to what can i make from my fridge",
+            "app check my fridge",
+            "app to check my fridge",
+            "app scan my pantry",
+            "app to scan my pantry"
           ]
         },
         {
@@ -335,7 +661,25 @@
             "plan my dinner",
             "what can i cook tonight",
             "what should i make for dinner",
-            "what should i cook tonight"
+            "what should i cook tonight",
+            "app what's for dinner",
+            "app to what's for dinner",
+            "app what is for dinner",
+            "app to what is for dinner",
+            "app plan dinner",
+            "app to plan dinner",
+            "app plan dinner for {count} people",
+            "app to plan dinner for {count} people",
+            "app plan dinner for {count}",
+            "app to plan dinner for {count}",
+            "app plan my dinner",
+            "app to plan my dinner",
+            "app what can i cook tonight",
+            "app to what can i cook tonight",
+            "app what should i make for dinner",
+            "app to what should i make for dinner",
+            "app what should i cook tonight",
+            "app to what should i cook tonight"
           ],
           "slots": [
             {
@@ -355,7 +699,25 @@
             "can i replace {item}",
             "what can replace {item}",
             "alternative to {item}",
-            "i ran out of {item}"
+            "i ran out of {item}",
+            "app what can i use instead of {item}",
+            "app to what can i use instead of {item}",
+            "app i don't have {item}",
+            "app to i don't have {item}",
+            "app i'm out of {item}",
+            "app to i'm out of {item}",
+            "app substitute for {item}",
+            "app to substitute for {item}",
+            "app what's a substitute for {item}",
+            "app to what's a substitute for {item}",
+            "app can i replace {item}",
+            "app to can i replace {item}",
+            "app what can replace {item}",
+            "app to what can replace {item}",
+            "app alternative to {item}",
+            "app to alternative to {item}",
+            "app i ran out of {item}",
+            "app to i ran out of {item}"
           ],
           "slots": [
             {
@@ -378,7 +740,31 @@
             "what should i do if {question}",
             "what does {question} mean",
             "should i {question}",
-            "what temperature {question}"
+            "what temperature {question}",
+            "app ask the chef {question}",
+            "app to ask the chef {question}",
+            "app chef {question}",
+            "app to chef {question}",
+            "app how do i {question}",
+            "app to how do i {question}",
+            "app how long should i {question}",
+            "app to how long should i {question}",
+            "app how can i tell if {question}",
+            "app to how can i tell if {question}",
+            "app how do i know when {question}",
+            "app to how do i know when {question}",
+            "app is it okay to {question}",
+            "app to is it okay to {question}",
+            "app why is my {question}",
+            "app to why is my {question}",
+            "app what should i do if {question}",
+            "app to what should i do if {question}",
+            "app what does {question} mean",
+            "app to what does {question} mean",
+            "app should i {question}",
+            "app to should i {question}",
+            "app what temperature {question}",
+            "app to what temperature {question}"
           ],
           "slots": [
             {
