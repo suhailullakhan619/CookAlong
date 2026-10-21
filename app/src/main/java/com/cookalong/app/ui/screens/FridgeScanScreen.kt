@@ -140,7 +140,7 @@ private fun Waiting(s: ScanUi.WaitingForPhone, onBack: () -> Unit) {
         Spacer(Modifier.width(48.dp))
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(18.dp)) {
             StepLine(1, "Scan this code with your phone's camera", done = true)
-            StepLine(2, "Take one photo of your open fridge or pantry", done = s.analyzing)
+            StepLine(2, "Take a photo of your fridge, or pick one from your gallery", done = s.analyzing)
             StepLine(3, "Your matching recipes appear right here", done = false)
             Spacer(Modifier.height(4.dp))
             if (s.problem != null) {
