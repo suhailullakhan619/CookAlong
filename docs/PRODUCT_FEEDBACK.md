@@ -45,7 +45,7 @@ where we only used a tool lightly or couldn't finish with it, we say so.
 - **Build again?** Yes.
 
 ### Amazon DynamoDB
-- **Used for:** the recipe catalog (477 items), fridge-scan results and Alexa pairing and command queues (TTL), per-TV rate
+- **Used for:** the recipe catalog (585 items), fridge-scan results and Alexa pairing and command queues (TTL), per-TV rate
   limits.
 - **Worked well:** on-demand billing and TTL fit short-lived data perfectly; conditional writes made pairing codes safe.
 - **Needs work:** nothing significant. A paginated `Scan` is fine at this size.
@@ -96,5 +96,5 @@ where we only used a tool lightly or couldn't finish with it, we say so.
 - **GitHub and GitHub Pages:** hosted the repo, the phone shopping-list page and 406 credited recipe photos. No problems.
 - **Wikimedia Commons and Openverse APIs:** found openly licensed photos with author and licence metadata, which made
   correct credits possible. Openverse needed no API key.
-- **Open recipe sources (based.cooking, Wikibooks Cookbook, HowToCook):** clear licences made a 477-recipe library possible.
+- **Open recipe sources (based.cooking, Wikibooks Cookbook, HowToCook):** clear licences made a 585-recipe library possible.
   HowToCook is in Chinese, so we translated it with Amazon Nova and re-checked quantities.

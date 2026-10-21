@@ -36,18 +36,18 @@ CookAlong puts the whole evening on the biggest screen in the house, in one flow
 
 | # | Feature | What it does for the cook | How it works |
 |---|---|---|---|
-| 1 | **Fridge scan** (computer vision) | Scan a QR code on the TV, photograph the open fridge with your phone, and the TV shows what you can cook: "Ready to cook" and "Almost there", with exactly what is missing | Phone photo to Lambda to **Amazon Nova Pro on Bedrock** (about 2 s). The TV ranks all 477 recipes with an Indian and international ingredient matcher (capsicum = bell pepper, curd = yogurt, brinjal = aubergine) |
+| 1 | **Fridge scan** (computer vision) | Scan a QR code on the TV, photograph the open fridge with your phone, and the TV shows what you can cook: "Ready to cook" and "Almost there", with exactly what is missing | Phone photo to Lambda to **Amazon Nova Pro on Bedrock** (about 2 s). The TV ranks all 585 recipes with an Indian and international ingredient matcher (capsicum = bell pepper, curd = yogurt, brinjal = aubergine) |
 | 2 | **Plan dinner** (AI agent) | One button turns the ingredients into one to three meals, swap ideas for missing items and a shopping list, read aloud | A **Strands Agents SDK** agent on Nova Pro calls four tools over the recipe database (`find_recipes`, `get_recipe`, `suggest_swap`, `shopping_list`). The server re-checks every fact the TV shows, and a **Bedrock Guardrail** blocks medical or allergy-safety advice |
 | 3 | **Cooking mode** (multi-modal) | One big readable step at a time, a step animation, up to four timers, a chime, read-aloud, resume after a restart. Works with only the remote, and fully offline | Native Kotlin and Jetpack Compose for TV; timers stored as wall-clock end times; read-aloud in **Amazon Polly**'s natural voice when online, the TV's own text-to-speech when offline |
 | 4 | **Voice** | "Alexa, next / pause" while cooking; and a custom skill for timers, scaled ingredient answers, recipe search, "what's for dinner" and "ask the chef" | Fire TV media session for the built-in commands; an **Alexa skill** plus Lambda plus a DynamoDB command queue that the TV polls (details below) |
-| 5 | **Recipe library** | 477 recipes (174 Indian), photos with credits, new dishes appear without an app update | DynamoDB catalog synced to the TV; every recipe has a source, licence and credit (based.cooking, Wikibooks Cookbook, HowToCook); 406 credited photos |
+| 5 | **Recipe library** | 585 recipes (178 Indian), photos with credits, new dishes appear without an app update | DynamoDB catalog synced to the TV; every recipe has a source, licence and credit (based.cooking, Wikibooks Cookbook, HowToCook); 406 credited photos |
 | 6 | **Shopping list to your phone** | Scan a QR code and tick items off in the shop | A web page whose data travels in the URL fragment, so nothing is uploaded |
 | 7 | **Works offline** | A dropped connection never stops a recipe: saved recipes, timers and read-aloud keep working, with a clear "You're offline" notice | Connectivity detection, an offline-first catalog cache, a disk cache for photos and voice, and a fallback for every online feature (see [Online and offline behaviour](#online-and-offline-behaviour)) |
 
 ```mermaid
 flowchart LR
   A["Phone photo of the fridge"] --> B["Nova Pro (Bedrock)<br/>lists ingredients"]
-  B --> C["TV ranks 477 recipes<br/>Ready / Almost there"]
+  B --> C["TV ranks 585 recipes<br/>Ready / Almost there"]
   C --> D["Plan dinner<br/>Strands agent + Guardrail"]
   D --> E["Cooking mode on the TV<br/>steps, timers, read-aloud"]
   F["Voice: Alexa"] -. "next, timers, ask the chef" .-> E
@@ -118,7 +118,7 @@ Show.
 
 ### Who it is for, and the impact
 
-**Who:** households that cook at home and have a Fire TV, with a library built first for Indian home cooking (174 of the 477
+**Who:** households that cook at home and have a Fire TV, with a library built first for Indian home cooking (178 of the 585
 recipes) and international dishes alongside. Anyone who cooks while watching the clock, or cooks with family around a screen.
 
 **Before and after.** The machine time is measured; the human time is my estimate, not a user study.
@@ -149,7 +149,7 @@ second time. Over a cap, the TV simply uses its own voice.
 |---|---|---|
 | The Alexa bridge polls once a second per TV | Thousands of TVs means millions of requests an hour | Amazon Device Messaging push, or long polling, instead of polling |
 | This AWS account allows 10 concurrent Lambda executions | A default new-account quota | Request a quota increase |
-| The recipe catalog is read with a DynamoDB scan (cached for 5 minutes per warm function) | Fine for 477 recipes, wasteful for tens of thousands | Serve the catalog from S3 and CloudFront, keep DynamoDB for changes |
+| The recipe catalog is read with a DynamoDB scan (cached for 5 minutes per warm function) | Fine for 585 recipes, wasteful for tens of thousands | Serve the catalog from S3 and CloudFront, keep DynamoDB for changes |
 | Bedrock model quotas | Many plans at once could be throttled | Nova 2 Lite is already the fallback; request higher quotas |
 
 Everything else (Lambda, DynamoDB on-demand, Function URLs) scales without changes.

@@ -19,7 +19,7 @@ is on screen at that moment. Pause for a beat at each `/`. If a part runs long, 
 
 **Press Fridge scan, / point your phone at the code, / and take one photo of your fridge.**
 **Amazon Nova on Bedrock reads the photo / and finds the ingredients.**
-**CookAlong then checks all 477 recipes / and shows what you can cook right now, / and what you're only one or two items away from.**
+**CookAlong then checks all 585 recipes / and shows what you can cook right now, / and what you're only one or two items away from.**
 
 ### 3. Plan dinner with an agent (0:45 – 1:20)
 

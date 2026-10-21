@@ -18,7 +18,7 @@ flowchart LR
     scan["Lambda cookalong-fridge-scan<br/>Function URL"]
     agent["Lambda cookalong-agent<br/>Strands agent, Function URL"]
     bedrock["Amazon Bedrock<br/>Nova Pro / Nova 2 Lite (Converse API)<br/>+ Guardrail cookalong-kitchen"]
-    recipes[("DynamoDB<br/>cookalong-recipes (477+)")]
+    recipes[("DynamoDB<br/>cookalong-recipes (585)")]
     scans[("DynamoDB<br/>cookalong-scans (TTL 1 h)")]
     tv[("DynamoDB<br/>cookalong-tv (TTL)")]
   end
@@ -46,7 +46,7 @@ flowchart LR
 | **Strands Agents SDK** | The dinner-planner agent (`backend/dinner_agent.py`): the model decides which tools to call and in what order, then answers with a typed `DinnerPlan` (Pydantic structured output). |
 | **Amazon Bedrock Guardrails** | `cookalong-kitchen` is attached to every agent model call: it denies medical and allergy-safety advice, filters abuse, blocks prompt attacks and masks emails and phone numbers. `backend/setup_guardrail.py` creates it. |
 | **AWS Lambda and Function URLs** | Three functions: `cookalong-fridge-scan` (scan, recipes, TV bridge), `cookalong-agent` (Strands agent, 29 MB zip) and `cookalong-alexa` (skill, eu-west-1). No servers and no API keys in the app. |
-| **Amazon DynamoDB** | `cookalong-recipes` (the catalog of 477+ open-licence recipes), `cookalong-scans` (fridge-scan results, expire in 1 hour), `cookalong-tv` (Alexa pairing codes, per-TV command queues, per-TV rate limits). On-demand billing, with TTL on the short-lived tables. |
+| **Amazon DynamoDB** | `cookalong-recipes` (the catalog of 585 open-licence recipes), `cookalong-scans` (fridge-scan results, expire in 1 hour), `cookalong-tv` (Alexa pairing codes, per-TV command queues, per-TV rate limits). On-demand billing, with TTL on the short-lived tables. |
 | **Amazon Polly** | The read-aloud voice on the TV: `POST /tts` on `cookalong-fridge-scan` returns MP3 from the generative voice Matthew (neural as backup). The TV caches each sentence and falls back to its own text-to-speech offline. Capped per request, per TV per hour and per day. |
 | **AWS IAM** | One least-privilege role per function. Only Nova models and our guardrail can be invoked, and only the scan function may call `polly:SynthesizeSpeech`. |
 | **Amazon CloudWatch Logs** | Function logs. Failures are logged without personal data. |

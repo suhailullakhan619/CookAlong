@@ -21,7 +21,7 @@ screen in the home, but recipe apps are built for phones. And most of us open th
 CookAlong is a native Fire TV app for the whole cooking evening:
 
 1. **Fridge scan (computer vision).** The TV shows a QR code. You scan it with your phone, take one photo of your open
-   fridge or pantry, and Amazon Nova Pro on Amazon Bedrock lists the ingredients it can see. The TV then ranks all 477
+   fridge or pantry, and Amazon Nova Pro on Amazon Bedrock lists the ingredients it can see. The TV then ranks all 585
    recipes by what you can cook ("Ready to cook" and "Almost there", with exactly what is missing). It understands Indian
    and international names (capsicum, curd, brinjal, atta).
 2. **Plan dinner (an AI agent).** One button hands the ingredients to an agent built with the Strands Agents SDK on Nova Pro.
@@ -37,7 +37,7 @@ CookAlong is a native Fire TV app for the whole cooking evening:
    whole chain through Alexa's simulator with the app running on an emulator (see "Honest status").
 5. **Shopping list to your phone** with a QR code, on any network.
 
-The recipe library has 477 recipes, 174 of them Indian, all from openly licensed sources (based.cooking, Wikibooks
+The recipe library has 585 recipes, 178 of them Indian, all from openly licensed sources (based.cooking, Wikibooks
 Cookbook, HowToCook), stored in DynamoDB and synced to the TV, with 406 credited photos.
 
 ### How it works
@@ -91,7 +91,7 @@ CookAlong puts the whole evening on the biggest screen in the house, in one flow
 
 ### Who it is for, and the impact
 
-**Who:** households that cook at home and have a Fire TV, with a library built first for Indian home cooking (174 of the 477
+**Who:** households that cook at home and have a Fire TV, with a library built first for Indian home cooking (178 of the 585
 recipes) and international dishes alongside. Anyone who cooks while watching the clock, or cooks with family around a screen.
 
 **Before and after.** The machine time is measured; the human time is my estimate, not a user study.
@@ -120,7 +120,7 @@ app as a friendly "try again tomorrow".
 |---|---|---|
 | The Alexa bridge polls once a second per TV | Thousands of TVs means millions of requests an hour | Amazon Device Messaging push, or long polling, instead of polling |
 | This AWS account allows 10 concurrent Lambda executions | A default new-account quota | Request a quota increase |
-| The recipe catalog is read with a DynamoDB scan (cached for 5 minutes per warm function) | Fine for 477 recipes, wasteful for tens of thousands | Serve the catalog from S3 and CloudFront, keep DynamoDB for changes |
+| The recipe catalog is read with a DynamoDB scan (cached for 5 minutes per warm function) | Fine for 585 recipes, wasteful for tens of thousands | Serve the catalog from S3 and CloudFront, keep DynamoDB for changes |
 | Bedrock model quotas | Many plans at once could be throttled | Nova 2 Lite is already the fallback; request higher quotas |
 
 Everything else (Lambda, DynamoDB on-demand, Function URLs) scales without changes.
