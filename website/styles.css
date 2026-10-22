@@ -531,3 +531,7 @@ section { position: relative; padding: clamp(80px, 12vw, 150px) var(--pad); }
   .film-play svg { width: 28px; height: 28px; }
   .film-chips { display: none; }
 }
+
+.voice-note { margin-top: 18px; color: var(--dim); font-size: .92rem; line-height: 1.6; }
+.voice-note a, .foot-top a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(242, 176, 79, .4); }
+.voice-note a:hover, .foot-top a:hover { border-bottom-color: var(--accent); }

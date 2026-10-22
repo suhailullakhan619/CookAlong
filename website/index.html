@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2314110F'/%3E%3Cpath d='M18 30h28v6a14 14 0 0 1-28 0z' fill='%23F2B04F'/%3E%3Cpath d='M26 14c-2 4 2 6 0 10M34 12c-2 4 2 6 0 10M42 14c-2 4 2 6 0 10' stroke='%23F5EDE3' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 </head>
 <body>
@@ -109,7 +109,7 @@
           <article class="how-step" data-shot="scan">
             <span class="num">01</span>
             <h3>Scan the fridge</h3>
-            <p>Scan the QR code on the TV and photograph your open fridge. Amazon Nova Pro on Bedrock lists what's inside in about two seconds.</p>
+            <p>Scan the QR code on the TV, then photograph your open fridge or pick a photo from your gallery. Amazon Nova Pro on Bedrock lists what's inside in about two seconds.</p>
             <ul class="tags"><li>Computer vision</li><li>~2 s</li></ul>
           </article>
           <article class="how-step" data-shot="plan">
@@ -300,13 +300,17 @@
         <div class="voice-copy reveal">
           <p class="eyebrow"><span class="dot"></span> Alexa in the kitchen</p>
           <h2>Hands busy? <em>Just ask.</em></h2>
-          <p>Pair once with a six-digit code on the TV. After that, any Echo in the home can drive the recipe on screen: steps, timers, scaled quantities and cooking questions, answered by Nova and shown on the TV.</p>
+          <p>Connect once: say <b>“Alexa, tell Cook Along my code is …”</b> with the six digits on the TV. After that, any Echo in the home or the remote's Alexa button can drive the recipe on screen: steps, timers, scaled quantities and cooking questions, answered by Nova and shown on the TV.</p>
           <ul class="voice-list">
             <li>Next, back, repeat, or go to step 4</li>
             <li>Set and check timers by voice</li>
             <li>“How much paneer do I need?” from the scaled list</li>
             <li>“What's for dinner?” and “ask the chef”</li>
+            <li>“Alexa, next” and “previous” need no skill at all on newer Fire TVs (Fire OS 8)</li>
           </ul>
+          <p class="voice-note">The skill is in private beta. Want to try it on your own Echo or Fire TV? Email
+            <a href="mailto:suhailullakhan619@gmail.com?subject=CookAlong%20Alexa%20beta">suhailullakhan619@gmail.com</a>
+            with your Amazon account's email for an invite.</p>
         </div>
         <div class="voice-stage reveal">
           <div class="echo">
@@ -362,15 +366,22 @@
     <section class="cta" id="get">
       <div class="cta-card reveal spot">
         <h2>Tonight, cook <em>along.</em></h2>
-        <p>One ~4 MB APK. No Google Play services, so it runs on Fire OS, and it side-loads on Fire tablets too.</p>
+        <p>One ~4 MB APK. No Google Play services, so it runs on Fire OS, and it side-loads on Fire tablets too.
+          Turn on <b>ADB debugging</b> on the TV (Settings → My Fire TV → Developer options), then from your computer:</p>
         <div class="code">
           <span class="prompt">$</span>
-          <code id="cmd">adb install -r app-release.apk</code>
+          <code id="cmd">adb connect &lt;tv-ip&gt;:5555 &amp;&amp; adb install -r CookAlong.apk</code>
           <button class="copy" id="copyBtn" aria-label="Copy command">Copy</button>
         </div>
         <div class="hero-cta center">
-          <a href="#top" class="btn btn-accent magnetic">Back to top</a>
-          <a href="#how" class="btn btn-ghost magnetic">Watch the flow again</a>
+          <a href="https://github.com/suhailullakhan619/CookAlong/releases/latest/download/CookAlong.apk" class="btn btn-accent magnetic" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 21h16" /></svg>
+            Download the APK
+          </a>
+          <a href="https://github.com/suhailullakhan619/CookAlong" class="btn btn-ghost magnetic" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1-.3-3.4 1.3a11.6 11.6 0 0 0-6 0C6.8 2.3 5.8 2.6 5.8 2.6a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.4 9c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" /></svg>
+            Source on GitHub
+          </a>
         </div>
       </div>
     </section>
@@ -379,7 +390,8 @@
   <footer class="footer">
     <div class="foot-top">
       <a href="#top" class="logo">Cook<span>Along</span></a>
-      <p>A hands-free recipe companion for Amazon Fire TV. Built for the Amazon Developer Hackathon, Fire TV track.</p>
+      <p>A hands-free recipe companion for Amazon Fire TV. Built for the Amazon Developer Hackathon, Fire TV track.
+        <a href="https://github.com/suhailullakhan619/CookAlong" target="_blank" rel="noopener">Source code (MIT)</a> · <a href="https://github.com/suhailullakhan619/CookAlong/releases/latest/download/CookAlong.apk">Download the APK</a></p>
     </div>
     <details class="credits">
       <summary>Photo credits</summary>
@@ -390,6 +402,6 @@
     <p class="fine">© 2026 CookAlong. Amazon, Fire TV, Alexa and AWS are trademarks of Amazon.com, Inc. or its affiliates.</p>
   </footer>
 
-  <script src="main.js?v=2"></script>
+  <script src="main.js?v=3"></script>
 </body>
 </html>
