@@ -4,6 +4,8 @@ CookAlong is a hands-free recipe companion for Amazon Fire TV. You browse recipe
 
 Built natively with **Kotlin + Jetpack Compose for TV** (`androidx.tv:tv-material`). It needs no Google Play services, so it runs on Fire OS.
 
+**Website:** [https://suhailullakhan619.github.io/CookAlong/](https://suhailullakhan619.github.io/CookAlong/) · **Download:** [CookAlong.apk](https://github.com/suhailullakhan619/CookAlong/releases/latest/download/CookAlong.apk)
+
 ## Amazon Developer Hackathon entry
 
 **Track:** Fire TV (priority categories: computer vision, multi-modal UX, family entertainment). **Mini challenge:** AWS Builder.
@@ -168,7 +170,8 @@ Everything else (Lambda, DynamoDB on-demand, Function URLs) scales without chang
 
 ### Try it
 
-- **Quick look (no setup):** the demo video, and the screenshots in the verification list below.
+- **Quick look (no setup):** the [project website](https://suhailullakhan619.github.io/CookAlong/) (with the demo film), the demo video, and the screenshots in
+  the verification list below.
 - **Download the APK:** [CookAlong.apk](https://github.com/suhailullakhan619/CookAlong/releases/latest/download/CookAlong.apk)
   from the [v1.0.0 release](https://github.com/suhailullakhan619/CookAlong/releases/tag/v1.0.0), then install it with
   `adb install -r CookAlong.apk` (or open the link in the Downloader app on the Fire TV).

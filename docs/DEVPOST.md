@@ -8,8 +8,10 @@ Copy these answers into the Devpost form. Items marked **TO FILL** need somethin
 - **Track:** Fire TV
 - **Mini challenge:** AWS Builder (not entering the Open Source challenge)
 - **Code repository:** https://github.com/suhailullakhan619/CookAlong (public, MIT licence)
+- **Website:** https://suhailullakhan619.github.io/CookAlong/
+- **Try it (APK):** https://github.com/suhailullakhan619/CookAlong/releases/latest/download/CookAlong.apk
 - **Demo video:** TO FILL (public YouTube or Vimeo link, under 3 minutes, English)
-- **Built with:** Kotlin, Jetpack Compose for TV, Android/Fire OS, Amazon Bedrock (Amazon Nova Pro, Nova 2 Lite, Guardrails), Strands Agents SDK, AWS Lambda, Amazon DynamoDB, AWS CloudFormation, Alexa Skills Kit, Python, GitHub Pages
+- **Built with:** Kotlin, Jetpack Compose for TV, Android/Fire OS, Amazon Bedrock (Amazon Nova Pro, Nova 2 Lite, Guardrails), Strands Agents SDK, AWS Lambda, Amazon DynamoDB, AWS CloudFormation, Alexa Skills Kit, Amazon Polly, Python, GitHub Pages, GitHub Actions
 
 ## Text description
 
