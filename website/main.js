@@ -321,14 +321,6 @@
   }, { threshold: 0.3 }).observe($(".voice-stage"));
 
   // ---------- copy install command ----------
-  $("#copyBtn").addEventListener("click", async (e) => {
-    const btn = e.currentTarget;
-    try {
-      await navigator.clipboard.writeText($("#cmd").textContent);
-      btn.textContent = "Copied ✓";
-    } catch (_) { btn.textContent = "Select it"; }
-    setTimeout(() => (btn.textContent = "Copy"), 1800);
-  });
 })();
 
 
