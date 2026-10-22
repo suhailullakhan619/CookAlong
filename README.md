@@ -169,6 +169,9 @@ Everything else (Lambda, DynamoDB on-demand, Function URLs) scales without chang
 ### Try it
 
 - **Quick look (no setup):** the demo video, and the screenshots in the verification list below.
+- **Download the APK:** [CookAlong.apk](https://github.com/suhailullakhan619/CookAlong/releases/latest/download/CookAlong.apk)
+  from the [v1.0.0 release](https://github.com/suhailullakhan619/CookAlong/releases/tag/v1.0.0), then install it with
+  `adb install -r CookAlong.apk` (or open the link in the Downloader app on the Fire TV).
 - **Run the app:** open the project in Android Studio or run `./gradlew :app:assembleDebug`, install on a Fire TV or an
   Android TV emulator (steps under Build, test, run). The live backend URLs are already in
   `app/src/main/assets/config.json`.
