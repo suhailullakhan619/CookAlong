@@ -152,8 +152,9 @@ Everything else (Lambda, DynamoDB on-demand, Function URLs) scales without chang
 
 ## AWS Builder mini challenge
 **Services used:** Amazon Bedrock (Nova Pro, Nova 2 Lite via the Converse API, Guardrails), Strands Agents SDK, AWS Lambda
-(three functions plus Function URLs), Amazon DynamoDB (three tables with TTL), AWS IAM (one least-privilege role per
-function), Amazon CloudWatch Logs, AWS CloudFormation.
+(three functions plus Function URLs), Amazon DynamoDB (three tables with TTL), Amazon Polly (the natural read-aloud
+voice on the TV, cached per sentence, with the TV's own voice as the offline fallback), AWS IAM (one least-privilege role
+per function), Amazon CloudWatch Logs, AWS CloudFormation.
 
 **How:** see "How it works" above and `docs/AWS.md` (architecture diagram, what each service does, cost and safety controls,
 how to deploy). The agent is a multi-step tool-using design, not a single model call: it chooses which of four tools to
